@@ -1,6 +1,7 @@
-Flask==3.0.2
+Flask==3.0.3
 python-dotenv==1.0.1
-google-generativeai==0.5.2 # Pinned to a recent stable version
-Markdown==3.6 # Pinned to a recent stable version
-gunicorn==22.0.0 # Pinned to a recent stable version
-latex2mathml==4.1.0 # Added for MathML conversion 
+google-generativeai==0.7.2
+Markdown==3.6
+gunicorn==22.0.0
+latex2mathml==3.77.0
+# ... existing code ... 
