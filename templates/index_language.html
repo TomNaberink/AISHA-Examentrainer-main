@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>AISHA Examentrainer - {{ vraag_data.opgave_titel }} - Vraag {{ vraag_id }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=1.1">
+    <script src="{{ url_for('static', filename='marked.min.js') }}"></script>
+    <!-- GoatCounter Analytics -->
+    <script data-goatcounter="https://examenhulp.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+    <!-- End GoatCounter -->
+</head>
+<body 
+    data-vraag-id="{{ vraag_id }}"
+    data-vak="{{ vak }}"
+    data-niveau="{{ niveau }}"
+    data-tijdvak="{{ tijdvak }}"
+    data-vraag-type="{{ vraag_data.type }}"
+    data-max-score="{{ vraag_data.max_score | default(1) }}"
+    data-max-vraag-id="{{ max_vraag_id }}"
+    data-feedback-url="{{ get_feedback_url }}"
+    data-hint-url="{{ get_hint_url }}"
+    data-follow-up-url="{{ get_follow_up_url }}"
+    data-theory-url="{{ get_theory_url | default('') }}" {# Default to empty string if None #}
+    data-base-question-url="{{ base_question_url }}"
+    data-home-url="{{ url_for('exam.select_exam_page') }}"
+>
+    <div class="main-header">
+        <a href="{{ url_for('exam.select_exam_page') }}" class="home-link">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+            <span>Home</span>
+        </a>
+        <h1>AISHA Examentrainer</h1>
+    </div>
+    <div class="container">
+        <!-- Nieuwe Examen Titel -->
+        <h2 class="exam-title">
+            {{ niveau.upper() }} - {{ vak.upper() }} - {{ tijdvak.replace('_', ' ').replace('Tv', 'Tijdvak ') }}
+        </h2>
+
+        {# Toon Opgave Titel indien beschikbaar #}
+        {% if vraag_data.opgave_titel %}
+            <h3 class="opgave-title">Opgave {{ vraag_data.opgave_nr }}: {{ vraag_data.opgave_titel }}</h3>
+        {% endif %}
+
+        {# Context Box (per vraag) - Teruggezet #}
+        {% if vraag_data.context_html %}
+            <div class="box context-box formatted-text"> 
+                 <details open> {# Standaard open #}
+                    <summary>Context bij Vraag {{ vraag_id }}</summary>
+                    {{ vraag_data.context_html | safe }}
+                 </details>
+            </div>
+        {% endif %}
+
+        {# Toon eventuele tekstuele bronverwijzing BOVEN de afbeelding-bronbox #}
+        {% if vraag_data.bronverwijzing_tekst %}
+            <p class="bronverwijzing-tekst"><em>{{ vraag_data.bronverwijzing_tekst | safe }}</em></p>
+        {% endif %}
+
+        {# Bronverwijzing (Afbeelding) - Blijft inklapbare box #}
+        {% if vraag_data.bron_verwijzing %}
+            <div class="box bron-box"> {# Gebruik box styling + specifieke class #}
+                 <details open> {# Standaard open #}
+                     <summary>Bron</summary>
+                     <img src="{{ url_for('static', filename='images/' + vraag_data.bron_verwijzing) }}"
+                          alt="Bronafbeelding voor vraag {{ vraag_data.id or vraag_data.vraag_id }}"
+                          class="img-fluid bron-image">
+                 </details>
+            </div>
+        {% endif %}
+
+        {# *** NIEUW: Sectie voor Brontekst (Taalexamens) *** #}
+        {% if vraag_data.bron_tekst_html %}
+            <div class="box source-text-box formatted-text"> 
+                 {# We maken dit niet inklapbaar zoals de bron-afbeelding #}
+                 <h3>Tekst bij de Opgave</h3>
+                 {{ vraag_data.bron_tekst_html | safe }}
+            </div>
+        {% endif %}
+        {# *** EINDE NIEUW *** #}
+
+        <div class="question-section box">
+            <div class="question-header">
+                <h3>Vraag {{ vraag_id }} <span class="score">(Max. {{ vraag_data.max_score | default('?') }} punt{{ 'en' if (vraag_data.max_score | default(1)) > 1 else '' }})</span></h3>
+            </div>
+            {# Gebruik vraagtekst_html (non-lang) of vraagtekst (lang) - TAAL = DIKGEDRUKT #}
+            <div class="question-content formatted-text">
+                <strong>{{ (vraag_data.vraagtekst_html or vraag_data.vraagtekst) | safe | default('(Geen vraagtekst gevonden)') }}</strong>
+            </div>
+        </div>
+
+        <!-- Hint Box -->
+        <div id="hintBox" class="hint-box box" style="display: none;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+                  <h3 style="margin: 0;">Hint:</h3>
+                  <button id="hideHintButton" class="close-button" aria-label="Verberg Hint">&times;</button>
+             </div>
+             <div id="hintContent" class="markdown-content"></div>
+             <p id="hintLoadingIndicator" style="display: none;">Hint wordt geladen...</p>
+        </div>
+
+        <!-- Answer Input Box -->
+         <div class="answer-input-box box antwoord-box"> 
+             <h2>Jouw Antwoord:</h2> 
+             {% if vraag_data.type == 'mc' %}
+            <div class="mc-options" id="mcOptionsContainer">
+                {% for key, value in vraag_data.opties.items() %}
+                    <button class="mc-option-button" data-option="{{ key }}">
+                        <span class="option-letter">{{ key }}.</span> {{ value }}
+                    </button>
+                {% endfor %}
+            </div>
+            <div class="button-group">
+                    <button id="submitAnswer" disabled>Verstuur Antwoord</button>
+                    <button id="hintButton" class="secondary-button">Vraag Hint</button>
+                    <div class="toggle-switch-container">
+                        <span class="toggle-label">Snelste AI-hulp</span>
+                        <label class="switch">
+                            <input type="checkbox" id="modelToggleSwitch" checked>
+                            <span class="slider round"></span>
+                        </label>
+                        <span class="toggle-label">Slimste AI-hulp</span>
+                    </div>
+            </div>
+            {% elif vraag_data.type == 'wel_niet' %}
+                <div class="wel-niet-options" id="welNietOptionsContainer">
+                    {% for bewering in vraag_data.beweringen %}
+                        <div class="wel-niet-option" data-bewering-id="{{ loop.index0 }}">
+                            <p class="bewering">{{ bewering }}</p>
+                            <div class="wel-niet-buttons">
+                                <button class="wel-niet-button" data-answer="Wel" data-bewering-id="{{ loop.index0 }}">Wel</button>
+                                <button class="wel-niet-button" data-answer="Niet" data-bewering-id="{{ loop.index0 }}">Niet</button>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="button-group">
+                    <button id="submitAnswer" disabled>Verstuur Antwoord</button>
+                    <button id="hintButton" class="secondary-button">Vraag Hint</button>
+                    <div class="toggle-switch-container">
+                        <span class="toggle-label">Snelste AI-hulp</span>
+                        <label class="switch">
+                            <input type="checkbox" id="modelToggleSwitch" checked>
+                            <span class="slider round"></span>
+                        </label>
+                        <span class="toggle-label">Slimste AI-hulp</span>
+                    </div>
+                </div>
+            {% elif vraag_data.type in ['open_nl', 'citeer', 'open', 'nummering', 'open_non_language', 'calculation'] %}
+                <textarea id="openAnswer" rows="6" placeholder="Typ hier je antwoord..."></textarea>
+                <div class="button-group">
+                    <button id="submitAnswer">Verstuur Antwoord</button>
+                    <button id="hintButton" class="secondary-button">Vraag Hint</button>
+                    <div class="toggle-switch-container">
+                        <span class="toggle-label">Snelste AI-hulp</span>
+                        <label class="switch">
+                            <input type="checkbox" id="modelToggleSwitch" checked>
+                            <span class="slider round"></span>
+                        </label>
+                        <span class="toggle-label">Slimste AI-hulp</span>
+                    </div>
+                </div>
+            {% elif vraag_data.type == 'gap_fill' %}
+                <div class="gap-fill-options" id="gapFillContainer">
+                    <p>Vul de antwoorden in voor de gaten in de tekst:</p>
+                    <div class="gap-fill-grid">
+                        {% for i in range(1, vraag_data.correct_antwoord | length + 1) %}
+                            <div class="gap-fill-input-group">
+                                <label for="gap_{{ i }}">Antwoord voor __40-{{ i }}__:</label> {# Let op: 40- is hardcoded, misschien beter? #}
+                                <input type="text" id="gap_{{ i }}" name="gap_{{ i }}" size="3" maxlength="1" placeholder="_" class="gap-input">
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="button-group">
+                    <button id="submitAnswer" disabled>Verstuur Antwoord</button>
+                    <button id="hintButton" class="secondary-button">Vraag Hint</button>
+                    <div class="toggle-switch-container">
+                        <span class="toggle-label">Snelste AI-hulp</span>
+                        <label class="switch">
+                            <input type="checkbox" id="modelToggleSwitch" checked>
+                            <span class="slider round"></span>
+                        </label>
+                        <span class="toggle-label">Slimste AI-hulp</span>
+                    </div>
+                </div>
+            {% elif vraag_data.type == 'order' %}
+                <div class="order-sentences-container" id="orderContainer">
+                    <p>Sleep de zinnen in de juiste volgorde:</p>
+                    <ul class="sentence-list" id="sentenceList">
+                        {% for zin in vraag_data.zinnen %}
+                            <li data-id="{{ zin.id }}" class="order-item">[{{ zin.id }}] {{ zin.tekst }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="button-group">
+                    <button id="submitAnswer">Verstuur Antwoord</button>
+                    <button id="hintButton" class="secondary-button">Vraag Hint</button>
+                    <div class="toggle-switch-container">
+                        <span class="toggle-label">Snelste AI-hulp</span>
+                        <label class="switch">
+                            <input type="checkbox" id="modelToggleSwitch" checked>
+                            <span class="slider round"></span>
+                        </label>
+                        <span class="toggle-label">Slimste AI-hulp</span>
+                    </div>
+                </div>
+            {% else %}
+                 <p><i>Dit vraagtype ({{ vraag_data.type }}) wordt momenteel nog niet ondersteund voor antwoord invoer...</i></p>
+             {% endif %}
+        </div>
+
+        <!-- Feedback Box -->
+        <div class="feedback-box box" id="feedbackBox" style="display: none;">
+            <h2>Feedback van de Examentrainer:</h2>
+            <div id="feedbackContent" class="feedback-content markdown-content"></div>
+            <p id="loadingIndicator" style="display: none;">Feedback wordt geladen...</p>
+            <p id="errorIndicator" style="display: none;">Er is een fout opgetreden.</p>
+        </div>
+
+        <!-- Follow-up Chat Section -->
+        <div id="followUpChat" class="box follow-up-chat" style="display: none;">
+            <h3>Vraag over de feedback?</h3>
+            <textarea id="followUpQuestion" rows="3" placeholder="Typ hier je vraag..."></textarea>
+            <button id="sendFollowUp" class="secondary-button" disabled>Verstuur Vraag</button>
+
+            {# --- NIEUW: Knoppen voor modelantwoord en theorie --- #}
+            <div class="extra-options-buttons button-group" style="margin-top: 15px;">
+                {# Alleen tonen als modelantwoord bestaat (non-language exams) #}
+                {% if correct_antwoord_model %}
+                <button id="showModelAnswerBtn" class="btn btn-outline-info btn-sm">Toon correctiemodel</button>
+                {% endif %}
+                {# Alleen tonen als get_theory_url bestaat (non-language exams) #}
+                {% if get_theory_url %}
+                <button id="getTheoryBtn" class="btn btn-outline-success btn-sm">Leg theorie uit</button>
+                {% endif %}
+            </div>
+            {# --- EINDE NIEUW --- #}
+
+            {# Box voor Antwoordmodel (verborgen) #}
+            <div id="modelAnswerBox" class="box model-answer-box" style="display: none; margin-top: 15px;">
+                <h4>Correctiemodel</h4>
+                <div id="modelAnswerContent" class="formatted-text">{{ correct_antwoord_model | default('Geen correctiemodel beschikbaar.') | replace('\n', '<br>') | safe }}</div>
+                <button id="hideModelAnswerBtn" class="btn btn-sm btn-outline-secondary mt-2">Verberg</button>
+            </div>
+
+            {# Box voor Theorie Uitleg (verborgen) #}
+            <div id="theoryBox" class="box theory-box" style="display: none; margin-top: 15px;">
+                <h4>Theorie Uitleg</h4>
+                <div id="theoryLoadingIndicator" style="display: none;">Uitleg wordt geladen...</div>
+                <div id="theoryErrorIndicator" style="display: none; color: red;"></div>
+                <div id="theoryContent" class="formatted-text"></div>
+                <button id="hideTheoryBtn" class="btn btn-sm btn-outline-secondary mt-2">Verberg</button>
+            </div>
+
+            {# Box voor Follow-up Antwoord (verborgen) #}
+            <div id="followUpAnswerBox" style="display: none;" class="box follow-up-answer-box">
+                <h4>Antwoord op je vraag</h4>
+                <div id="followUpLoadingIndicator" style="display: none;">Antwoord wordt gegenereerd...</div>
+                <div id="followUpAnswerContent"></div>
+            </div>
+        </div>
+        
+        <!-- Navigation Section -->
+         <div class="navigation-box box navigatie-box"> 
+            {% if vraag_id > 1 %}
+                <button type="button" id="prev-question-btn" class="nav-button-styling">&larr; Vorige Vraag</button>
+            {% endif %}
+
+            {# --- Correcte Logica voor Laatste Vraag Knop --- #}
+            {% if vraag_id == max_vraag_id %}
+                <button type="button" id="submitExamBtn" class="btn btn-complete-exam">Lever je gehele examen in 🏁</button>
+            {% elif vraag_id < max_vraag_id %}
+                <button type="button" id="next-question-btn" class="nav-button-styling">Volgende Vraag &rarr;</button>
+            {% endif %}
+
+            <div class="nav-items-container" style="margin-top: 15px;"> 
+                {% for i in range(1, max_vraag_id + 1) %}
+                    <a href="{{ url_for('exam.toon_vraag', subject=vak, level=niveau, time_period=tijdvak, question_id=i) }}"
+                       class="nav-item {% if i == vraag_id %}active{% endif %}" 
+                       data-vraag-id="{{ i }}">
+                        {{ i }}
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
+    <script src="{{ url_for('static', filename='marked.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='script_mc.js') }}" defer></script>
+
+    <!-- Modal for Completion -->
+    <div id="completionModal" class="modal">
+         <div class="modal-content">
+              <span class="close-button">&times;</span>
+              <h2>🎉 Gefeliciteerd! 🎉</h2>
+              <img src="{{ url_for('static', filename='images/feest.png') }}" alt="Gefeliciteerd!" style="width: 150px; margin: 15px auto; display: block;">
+              <p>Super goed bezig met leren! 👍 AISHA Examenhulp hoopt dat het heeft geholpen. ✨</p>
+              <p>We wensen je <strong>heel veel succes</strong> met je eindexamens! 🏆 Je kunt het!</p>
+              <p style="font-size: 0.9em; margin-top: 20px;">Dit is een initiatief van Tom Naberink 🙋‍♂️. Zie ook mijn website <a href="https://aivoorleerlingen.nl" target="_blank">aivoorleerlingen.nl</a>.</p>
+              <button id="goHomeBtn" class="btn btn-primary">Ga naar Home om andere exams te oefenen</button>
+         </div>
+    </div>
+
+</body>
+</html> 

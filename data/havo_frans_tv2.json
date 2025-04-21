@@ -1,0 +1,700 @@
+{
+    "vak": "Frans",
+    "niveau": "HAVO",
+    "tijdvak": "2",
+    "jaar": 2024,
+    "teksten": [
+      {
+        "tekst_id": "tekst1",
+        "titel": "II vit des parapluies",
+        "inhoud_html": "<p>Thierry Millet est concepteur et réparateur de parapluies. Dans\nson atelier, situé dans le 3e arrondissement de Paris, il\ntravaille jusqu'à 75 heures par semaine. Sa création la plus\noriginale? Un parapluie en forme de tour Eiffel. Mais\nl'essentiel de son activité est la réparation. Pour des\nparticuliers, des entreprises, ou même des têtes couronnées !\nPour l'artisan, c'est une façon de lutter contre les déchets\ninutiles, quand on sait que 15 millions de parapluies, en\nmajorité non recyclables, sont jetés en France chaque année.\nSon savoir-faire et la qualité de son travail sont aujourd'hui\nofficiellement reconnus par l'État. Son commerce est certifié\n<<< Entreprise du patrimoine vivant >>>.</p><small>d'après Écoute, juin 2019</small>"
+      },
+      {
+        "tekst_id": "tekst2",
+        "titel": "Record du monde de sauts à l'élastique",
+        "inhoud_html": "<p>(1) Un Français a battu mardi le\nrecord du monde de sauts à\nl'élastique. Il s'est jeté 765 fois dans\nle vide en 24 heures depuis un pont\nen Écosse. François-Marie Dibon, un\nParisien de 44 ans qui vit en Suède,\na battu le précédent record, établi en\nmai 2017 par un Néo-Zélandais qui\ns'était jeté 430 fois dans le vide en\nune journée.</p><p>(2) Le Français a débuté son défi très\ntôt le matin depuis une plateforme du\nvillage de Pitlochry, dans les\nHighlands écossais. Douze heures\nplus tard, il avait déjà battu le record\nmais a continué à sauter à l'élastique\njusqu'à mercredi matin. « Je ne\nsentais pas encore la fatigue et\nj'étais très excité d'avoir battu ce\nrecord avec toute l'équipe. J'avais\nl'impression que le rythme des sauts\ns'était installé dans mon corps »,\na-t-il réagi.</p><p>(3) Avant de se lancer mardi,\nFrançois-Marie Dibon avait affirmé\nêtre << heureux et dans le moment\nprésent >>. Il a ensuite enchaîné les\nsauts, malgré les averses, presque\nsans faire de pauses et en mangeant\npeu. Après chaque plongeon de 40\nmètres dans les gorges écossaises,\nle Français était remonté sur le pont\npar son équipe d'où il ressautait\nimmédiatement. En moyenne, il a\nainsi effectué un saut toutes les 113\nsecondes.</p><p>(4) Établir un record de sauts à\nl'élastique est une performance\nspéciale pour François-Marie Dibon,\nqui avait le vertige il y a encore\nquelques années. Pour battre ce\nrecord, le Français s'est entraîné\npendant des mois. <<< Il ne s'agit pas\nseulement d'un sport extrême et\nindividuel, c'est un sport d'endurance\nqui est collectif », a-t-il affirmé. Il a\ndonné un grand compliment à une\nquinzaine d'Écossais pour l'avoir\naccompagné dans son défi.</p><small>d'après www.ouest-france.fr,\npublié le 1er juin 2022</small>"
+      },
+      {
+        "tekst_id": "tekst3",
+        "titel": "Dieu Bleu, un nouveau parfum",
+        "inhoud_html": "<p>(1) La marque française Astier de\nVilatte a lancé, au début du mois de\nseptembre, un nouveau parfum, sous\nle nom Dieu Bleu. L'originalité de ce\nparfum? Ses concepteurs ont choisi\nde reconstituer le kyphi, l'un des plus\nvieux parfums du monde. L'origine de\nce parfum remonte autour de 1500\navant Jésus-Christ, dans l'Égypte\nantique. À cette époque-là, les\nÉgyptiens étaient considérés comme\nles maîtres de la parfumerie. Parmi\nleurs créations il y avait le kyphi, une\nsorte d'encens¹) sacré, utilisé par les\nprêtres pour honorer les dieux.</p><p>(2) Outre son utilisation religieuse, le\nkyphi avait des propriétés\nmédicinales. Il s'agit du premier\nparfum pour lequel il existe\n<< plusieurs versions », précise le\nmagazine Vogue. La plus ancienne\nmention d'une de ces versions a été\nretrouvée sur un papyrus médical,\nd'autres figurent sur les murs des\ntemples en Égypte. Si les versions\nsont différentes, elles ont toutes pour\npoint commun une dizaine\nd'ingrédients naturels, notamment les\nraisins secs, le roseau et le vin.</p><p>(3) En 2002 déjà, une équipe de\nscientifiques du Centre national de la\nrecherche scientifique (CNRS) a pu\nreconstituer avec succès une version\ndu kyphi en s'inspirant des recettes\nissues de l'Antiquité. Vingt ans plus\ntard, c'est donc au tour de la marque\nAstier de Vilatte de tenter sa chance\ndans un but commercial avec l'aide\nde l'historienne et anthropologue\nAnnick Le Guérer et du parfumeur\nDominique Ropion. Leur travail a\nconsisté à trouver les bonnes\nmanières d'associer les ingrédients,\nd'en définir les doses et les\npréparations, et à remplacer certains\ningrédients qu'on ne peut plus\nacheter aujourd'hui. << J'ai cherché\nl'équilibre où chaque ingrédient joue\nun rôle sans dominer les autres », a\ndéclaré Dominique Ropion.</p><p>(4) Un travail de précision qui 9 _____, \ncar à la question de savoir à quoi\nressemble ce parfum Dieu Bleu ou\nbien << kyphi moderne », le magazine\nVogue le décrit comme « très vif,\nchaud et excitant. Une senteur, qui a\nl'air d'évoquer un rêve, qui est\ncomme un voile sacré pour les\nsens ».</p><small>d'après www.ouest-france.fr,\npublié le 28 septembre 2022</small><small>noot 1 l'encens = de wierook</small>"
+      },
+      {
+        "tekst_id": "tekst4",
+        "titel": "La pétanque",
+        "inhoud_html": "<p>(1) << Alors, tu tires ou tu pointes ? >>>\nL'été, vous entendrez souvent cette\nphrase dans les campings, à la\nplage, sur la place du village ou sur\nles terrains de pétanque en ville.\nQuand le joueur (ou bouliste) lance\nsa boule pour éloigner une boule de\nl'adversaire, il tire. S'il veut mettre sa\nboule au plus proche du cochonnet¹),\nil pointe. Tirer ou pointer ? La\nquestion est simple, mais le choix\ndéterminera la suite de la partie...</p><p>(2) Née dans le Sud de la France au\ndébut du vingtième siècle, la\npétanque a longtemps souffert des\nclichés: elle serait une activité de\nvieux hommes qui tiennent les boules\ndans une main et leur verre d'alcool\ndans l'autre. Aujourd'hui, ce sport de\nprécision est aussi pratiqué par une\npopulation urbaine et jeune. Un\nsuccès dû à sa simplicité et sa\nconvivialité.</p><p>(3) Pour bien tirer ou pour bien\npointer, il faut de la concentration et\nde l'habileté. Depuis 2005, la\npétanque est considérée comme un\n<< sport de haut niveau >> par le\nministère français en charge des\nsports. Elle est d'ailleurs le onzième\nsport le plus pratiqué en club, avec\n420 000 membres. Auxquels\ns'ajoutent 15 millions de Français qui\ny jouent de temps en temps. On y\njoue aussi dans plus de 100 pays à\ntravers le monde: la Chine compte\nun million de pratiquants et à\nStockholm, les << boulebars >> sont\ntoujours pleins.</p><p>(4) Le deuxième pays, en nombre de\nlicenciés, après la France, est... la\nThaïlande! Dans les années 1950, la\nreine Sirikit a répandu la pétanque\ndans son royaume après l'avoir\ndécouverte lors d'un séjour sur la\nCôte d'Azur. Toutefois, les boulistes\ndu monde entier ont récemment\nconnu une grande déception: la\npétanque ne fera pas partie des\nnouveaux sports aux Jeux\nolympiques de 2024. L'escalade, le\nsurf, le skateboard et le breakdance\nont été invités, mais pas les boules\nen acier. Ce sont les membres du\nComité international olympique qui\nont pris cette décision.</p><small>d'après Écoute, septembre 2020</small><small>noot 1 le cochonnet = het kleine balletje dat tot mikpunt dient bij jeu de boules</small>"
+      },
+      {
+        "tekst_id": "tekst5",
+        "titel": "Hugo Biolley, maire à 18 ans",
+        "inhoud_html": "<p>Il nous raconte comment il est devenu le plus jeune maire de France.</p><p>(1) À l'âge de 18 ans, je suis devenu\nmaire de Vinzieux, un petit village de\n450 habitants situé en Ardèche. Cela\nm'a fait tellement plaisir quand je me\nsuis assis pour la première fois\nderrière le bureau du maire et que j'ai\ncommencé à lire les dossiers de mon\nvillage. J'ai grandi à Vinzieux et ce\nlieu m'est vraiment très cher. Jamais\nje n'aurais imaginé ça possible!</p><p>Quand j'étais lycéen, je n'avais\naucune idée du rôle d'un maire. Mais\nla politique m'a toujours intéressé.</p><p>(2) Un jour, lors d'un rallye dans le\nvillage, on m'a demandé : « Pourquoi\ntu ne poserais pas ta candidature à\nla mairie ? » Au départ, je voyais ça\ncomme une idée un peu folle. Je\nsavais que le maire du village allait\nprendre sa retraite, mais je ne\nm'imaginais pas du tout être son\nsuccesseur... 16 _____ l'idée est restée\ndans ma tête. Et puis un jour, c'était\nle déclic: c'est ça que je veux faire !\nLe maire m'a encouragé, il était très\ncontent de voir un jeune s'engager.\nEt j'ai été élu.</p><p>(3) Au début, j'ai dû faire face à\ncertains préjugés sur mon âge. Mais\nj'ai réussi à montrer que même si je\nsuis jeune, j'ai des projets sérieux à\nproposer. Je suis fier de mon village.\nMon rêve est de le réactiver, par\nexemple en organisant toutes sortes\nd'activités culturelles et en stimulant\nles commerçants de s'installer ici. En\nce moment, il y a seulement une\nboulangerie dans le village. J'ai\nsurtout envie de voir les habitants de\nVinzieux heureux !</p><p>(4) L'autre projet qui me plaît\nbeaucoup est d'aider les jeunes à\ns'investir dans la vie locale. J'ai fait\npasser un questionnaire aux enfants\net ados du village pour savoir quelles\nsont leurs idées. Presque tout le\nmonde m'a répondu ! On va\norganiser une rencontre, peut-être\nune soirée pizza, pour voir ce qu'on\npeut faire ensemble. J'aimerais aussi\nlancer un site internet pour Vinzieux\net organiser un meilleur tri des\ndéchets.</p><p>(5) Dans mon travail, j'ai une super\néquipe sur laquelle je peux compter.\nMa mère en fait partie. Elle voit\ncombien mon travail me rend\nheureux. Au départ, elle s'inquiétait\nun peu. Elle me trouvait encore trop\njeune pour ce job. C'est vrai que je\nmène une vie bien différente de celle\ndes jeunes de mon âge. Mais le\ntravail à la mairie me plaît beaucoup.\nJe ne regrette pas une seconde\nd'être devenu maire. J'en suis\nvraiment fier.</p><small>d'après Phosphore,\ndu 10 mars 2022</small>"
+      },
+      {
+        "tekst_id": "tekst6",
+        "titel": "Le marcel",
+        "inhoud_html": "<p>(1) Aux États-Unis, il s'appelle le\n<<<< singlet >>, en Italie la <<< canottiera >>,\nen Allemagne le << Achselshirt ». En\nFrance, le marcel est aussi nommé\n<< débardeur ». Ce tee-shirt est\nrevenu à la mode dans le monde\nentier avec les canicules de ces\ndernières années. Saviez-vous qu'il a\nété inventé au cœur de Paris, il y a\nplus de 150 ans ?</p><p>(2) Le marcel est né au milieu du\n19ème siècle, aux Halles de Paris,\nqui est alors l'un des plus grands\nmarchés au monde. L'histoire\nraconte qu'un jour, un ouvrier est\nvenu travailler avec un pull sans\nmanches. Il les avait coupées pour\nêtre plus libre dans ses mouvements.\nSes collègues l'ont ensuite imité.</p><p>(3) Sentant la bonne affaire, Marcel\nEisenberg, bonnetier à Roanne\n(Loire), décide de commercialiser un\nmaillot de corps en laine, qui dénude\nles épaules et les bras des ouvriers,\ntout en protégeant leurs reins des\ncourants d'air froids des entrepôts.\nC'est pourquoi ce tee-shirt s'appelle\naujourd'hui << marcel », du nom de ce\nbonnetier. L'autre appellation de\n<< débardeur >> fait référence aux\nouvriers qui déchargeaient\n(<< débardaient >>) les marchandises\ndes péniches avant de les trans-\nporter aux Halles.</p><p>(4) L'idée de Marcel Eisenberg est\ncouronnée de succès. Le marcel\ndevient populaire parmi les ouvriers,\npuis parmi les agriculteurs et les\nsoldats français. Pendant la Première\nGuerre mondiale, il devient l'un des\naccessoires réglementaires des\nsoldats français. À partir des années\n1930, les Français le mettent en\nvacances pour mieux supporter les\nchaleurs de l'été. Toutefois, en ville,\nson aspect moulant oblige les\nhommes à le porter sous la chemise.\nQuestion de discrétion !</p><p>(5) Dans les années 1950, le marcel,\nqui a déjà franchi les frontières de la\nFrance, devient une marque de\nvirilité. Dans le film Un tramway\nnommé Désir, Marlon Brando va le\nrendre populaire, le transformant de\nsous-vêtement en vêtement sexy. Le\nrôle de mari brutal et sensuel que\njoue l'acteur va lier le marcel à\nl'image du mauvais garçon.</p><p>(6) À sa suite, tous les grands du\ncinéma portent le tee-shirt mythique :\nRobert De Niro dans Raging Bull\n(1980), Jean-Paul Belmondo dans\nLes Morfalous (1984)... Et les\nfemmes s'y mettent aussi ! L'actrice\net chanteuse Jane Birkin en fait son\nvêtement favori dans les années\n1970. Puis, la star américaine\nMadonna chante sur scène habillée\nd'un marcel à résille. C'est l'époque\noù le marcel monte sur les podiums\nde haute couture. Le triomphe après\ntout.</p><p>(7) Aujourd'hui, on le retrouve dans\ntoutes les garde-robes. Ses modèles\nsont décolletés, à col roulé, à col\nrond... Bref, il y en a pour tous les\ngoûts. 25 _____ pour les hommes, le\nmarcel est redevenu un\nsous-vêtement. Seuls les\nbodybuilders et maîtres-nageurs\nosent encore se libérer du code\nvestimentaire actuel... Et aussi\nquelques rappeurs qui, pour soigner\nleur image de mauvais garçon et\nmontrer leurs muscles et tatouages,\nn'hésitent pas à porter un marcel.</p><small>d'après Écoute, décembre 2019</small>"
+      },
+      {
+        "tekst_id": "tekst7",
+        "titel": "L'Arc de Triomphe << emballé >>>",
+        "inhoud_html": "<p>L'art, ce n'est pas seulement créer de << belles >> choses, c'est aussi faire\npasser des émotions, expérimenter, provoquer une réaction... Avec ses\nœuvres d'art, on peut dire que l'artiste Christo a atteint son but.</p><p>(1) Christo était un artiste né en\nBulgarie en 1935. Il est mort en mai\n2020. Dans le monde de l'art\ncontemporain, c'est une superstar.\nSa spécialité? L'emballage.\nContrairement à l'art classique, qui\nse souciait surtout de créer de\n<<<< belles >> choses, l'art contemporain\nest plus expérimental. Avec sa\nfemme Jeanne-Claude, Christo a\npassé sa vie à surprendre avec ses\nœuvres d'art.</p><p>(2) C'est en 1968 que Christo\nemballe son premier monument. Par\nla suite, il est vite devenu célèbre.\nLes Français le connaissent pour\nl'emballage du Pont-Neuf à Paris en\n1985. L'emballage de l'Arc de\nTriomphe était l'un de ses rêves.\nCependant, il n'a jamais pu voir le\nrésultat, ni sa femme, qui est morte\nonze ans avant lui. C'est son neveu\nVladimir Yavachev qui a réalisé le\nprojet.</p><p>(3) << Emballer >> un monument, cela\ncoûte cher. Dans ce cas précis, pas\nmoins de 14 millions d'euros ont été\nnécessaires pour emballer l'Arc de\nTriomphe. Mais cela n'a pas coûté\nd'argent aux Français. Christo voulait\nque ses œuvres soient accessibles à\ntous. Le projet de l'Arc de Triomphe\na été financé entièrement par ses\npropres moyens. Pourtant, pour\ncertains, dépenser une telle somme\npour emballer un monument, même\nsi cela ne leur coûte rien, c'est\ncomplètement fou !</p><p>(4) La plupart des gens ont apprécié\nde découvrir l'Arc de Triomphe\nemballé. Mais il y avait aussi des\npersonnes qui n'ont pas hésité à dire\nouvertement sur les réseaux sociaux\nqu'elles trouvaient le résultat\nhorrible! Ceux qui ont détesté ont\nmême comparé l'emballage qui\nrecouvre le monument à du papier\ntoilette... Cela dit, ce n'est pas la\npremière fois qu'une œuvre d'art\ncontemporain divise, entre ceux qui\nadorent et ceux qui détestent.</p><small>d'après Juniors Quotidiens,\nnovembre 2021-janvier 2022</small>"
+      },
+      {
+        "tekst_id": "tekst8",
+        "titel": "Quelle grosse proie !",
+        "inhoud_html": "<p>(1) Quel pêcheur n'a jamais rêvé de\nremonter une grosse proie ? Jean\nDumoulin, qui habite Neuville-sur-\nEscaut (Nord), a eu la chance de\nremonter... deux coffres ! Une\nperformance rendue possible grâce à\nl'apparition d'une nouvelle tendance\nces dernières années: la pêche à\nl'aimant¹). Rien à voir avec la pêche\ntraditionnelle... Il ne s'agit pas\nd'attraper des poissons, mais de\nremonter des objets métalliques qui\nse trouvent au fond d'un plan d'eau\n(canal, rivière, lac) à l'aide d'aimants\npuissants.</p><p>(2) Le matériel pour cette drôle de\npêche est plutôt simple: une ligne\navec un aimant accroché au bout. Ce\nloisir permet de s'amuser en\ndétectant et en sortant de l'eau des\nobjets parfois originaux, 31 _____ des\ncoffres, des caddies et des outils,\net des objets de toute taille, du\nsimple clou aux véhicules de toute\nsorte.</p><p>(3) Il y a quelques semaines, Jean,\nadepte de la pratique, va donc au\ncanal de l'Escaut pour une séance de\npêche à l'aimant. Le plus souvent, il\nremonte seulement des objets peu\noriginaux comme un chariot ou un\nvélo. Mais cette fois-ci, c'est une\ngrosse proie qui l'attend: deux petits\ncoffres en métal, l'un vide et l'autre à\nmoitié ouvert. <<< Les coffres étaient\ntrès sales. Il y avait beaucoup de\nboue et le coffre ouvert était très\nlourd >>, confie-t-il au quotidien La\nVoix du Nord. Très excité, il appelle\nla police pour faire part de sa\ndécouverte, mais on lui indique que\nvu l'état des coffres, << ce n'était pas\nla peine >>.</p><p>(4) Rentré chez lui, Jean va nettoyer\nles coffres. Sa découverte ? Quelque\nchose d'extraordinaire: une montre\nCartier datant de 1982 et une montre\nBulgari des années 60. Il apporte les\nmontres à un bijoutier, qui lui dit que\nles montres valent beaucoup\nd'argent. Jean décide de garder le\ntrésor, non pas pour le vendre et\ndevenir riche, mais pour << mener des\nrecherches afin de pouvoir le rendre\nà son propriétaire ».</p><small>d'après www.ouest-france.fr,\npublié le 30 août 2021</small><small>noot 1 l'aimant = de magneet</small>"
+      },
+      {
+        "tekst_id": "tekst9",
+        "titel": "Petite histoire de la frite",
+        "inhoud_html": "<p>(1) Onze millions de tonnes de frites\nsont consommées chaque année\ndans le monde. Si les Belges en sont\nles plus gros consommateurs, son\norigine est à chercher ailleurs. Il est\nen effet temps de mettre fin à la fable\nselon laquelle les Belges auraient\ninventé la frite celle-ci n'est pas née\nen Belgique mais... à Paris. D'où\nd'ailleurs le nom donné par les\nAméricains aux << french fries >>...</p><p>(2) Retour à la fin du 18ème siècle.\nDes vendeuses de beignets frits\ninstallées sur le Pont Neuf à Paris\nsont les premières à avoir l'idée de\nplonger des pommes de terre dans\nune friture. Elles les vendent\nnotamment dans le quartier du Pont\nNeuf et au boulevard du Temple aux\nalentours des théâtres populaires.\nAinsi naît la pomme de terre frite. La\n<< pomme Pont Neuf >> se répand vite\ndans la capitale, aliment surtout\napprécié dans les milieux populaires.</p><p>(3) Partant de Paris, la frite s'est\nensuite développée en Belgique.\nC'est un forain d'origine allemande,\nJean-Frédéric Krieger, qui popularise\nla mode des friteries dans le Plat\nPays. Après avoir appris à faire des\nfrites à la rôtisserie Chez Pèlerin à\nParis, il ouvre en 1844 une baraque\nà frites en Belgique, baptisée\n<<<< Fritz >> et recommande << ses\npommes de terre frites à la\nparisienne ». C'est un vrai succès et\nla frite devient un classique dans tout\nle pays. Au fil des ans, la frite\ns'impose comme une spécialité\nidentifiée à la Belgique et au Nord de\nla France.</p><small>d'après https://actu.fr,\npublié le 2 janvier 2022</small>"
+      },
+      {
+        "tekst_id": "tekst10",
+        "titel": "Une année de césure¹) pour faire du bénévolat",
+        "inhoud_html": "<p>Luca, 19 ans, fait aujourd'hui des études de droit. II parle de son année de\ncésure.</p><p>(1) Pourquoi une année de\ncésure ?\nJ'avais l'idée de faire des études de\nmédecine, mais avant de commencer\nmes études, je voulais découvrir des\nchoses, apprendre l'anglais, sortir de\nma zone de confort. Et pour faire tout\nça, j'ai décidé de traverser l'Europe à\nvélo. L'idée de partir en voyage tout\nseul à 17 ans me faisait un peu peur\nau début, mais finalement je me suis\nlancé.</p><p>(2) Tu veux raconter ton année de\ncésure ?\nJ'ai parcouru 3500 km à vélo en\ndeux mois. Je suis parti de chez moi\net j'ai visité la Suisse, l'Allemagne,\nl'Autriche, la Slovénie et l'Italie. Je ne\nme suis jamais senti aussi libre !\nPendant mon voyage, j'ai rencontré\nun cycliste anglais qui avait travaillé\ndans une association d'aide aux\nmigrants, à Calais. Je n'avais pas de\nplan pour la deuxième partie de mon\nannée de césure, alors j'ai pris\ncontact avec l'association. Je me\nsuis retrouvé bénévole à Calais en\njanvier. Pendant quatre mois, j'ai trié\ndes vêtements pour les dons et\ndistribué du matériel de première\nnécessité.</p><p>(3) Et tes parents ?\nIls ont très bien réagi, ils étaient\nsupermotivés. Ils avaient moins peur\nque moi, à vrai dire! Et ils m'ont\naussi aidé financièrement. On a fait\nune petite réunion pour parler\nbudget, en se demandant combien je\nleur aurais coûté s'ils avaient dû me\npayer un logement pour mes études.\nEn partant de là, on a décidé qu'ils\nme donneraient à peu près 500 euros\npar mois.</p><p>(4) 41 _____\nPendant mon voyage à vélo, j'ai\nappris à me connaître, à être\nresponsable. Ensuite, mon passage\nà Calais m'a ouvert les yeux sur les\nréfugiés. Avant de partir, je voulais\nfaire des études de médecine pour\naider les autres, mais je me suis\nrendu compte qu'il y avait d'autres\nmoyens de se rendre utile tout en\ns'intéressant aux grands problèmes\nsociaux internationaux. D'où mon\nchoix d'aller faire des études de droit.</p><small>d'après Phosphore,\ndu 15 mars 2022</small><small>noot 1 une année de césure = een tussenjaar (na het eindexamen)</small>"
+      },
+      {
+        "tekst_id": "tekst11",
+        "titel": "Une bonne action",
+        "inhoud_html": "<p>En tenue de mécanicien et les mains pleines d'huile, les lycéens de la\nfilière << maintenance des véhicules >> du lycée Marcel-Callo de Redon, en\nBretagne, aident les gens pauvres. Comment ? En réparant leurs\nvoitures! Leur établissement a signé un partenariat avec la Croix-Rouge\net le Secours Catholique. Ces deux associations repèrent les\nautomobilistes qui ont des problèmes avec leur voiture, puis les mettent\nen contact avec le lycée.</p><p><<< Cela fait plaisir d'aider les personnes qui n'ont pas les moyens\nfinanciers d'aller dans un garage. Ici, elles paient juste le matériel et pas\nles frais de main-d'œuvre, c'est donc moins cher >>, explique Marin, qui\nest en terminale.</p><p>Faire une vidange ou changer un filtre à huile, rien n'est\nimpossible pour les lycéens... Même si ça peut parfois mettre la pression,\ncomme le confie Arthur, en seconde. « C'est la peur de faire une bêtise,\nmais ça va : le prof vérifie quand tout est terminé ! >> Pour Baptiste, en\nseconde, cette bonne action a vraiment fait évoluer sa vision du métier.\n<<<< Être mécanicien, ce n'est pas juste réparer un moteur, il y a des gens\navec des histoires derrière. >>></p><small>d'après Phosphore, du 1er octobre 2022</small>"
+      },
+      {
+        "tekst_id": "tekst12",
+        "titel": "<< Adoptez des poules >>>",
+        "inhoud_html": "<p>(1) Des poules en ville aujourd'hui,\nce n'est plus une idée bizarre. Il y a\nde plus en plus de poules dans les\njardins des Français. Et la pratique\nest même stimulée, par exemple à\nChâlons-en-Champagne. Cette ville\npropose à ses habitants d'adopter\ntrois poules pour 15 euros. Pour\nbénéficier de l'opération <<< Adoptez\ndes poules », il suffit de postuler en\nligne sur le site de la ville.</p><p>(2) Mais il n'y en aura pas pour tout\nle monde. Pour postuler, il y a en\neffet quelques obligations. Ainsi, le\nfutur adoptant doit posséder un jardin\nde 15 mètres carrés au minimum. Il\ndoit aussi construire un poulailler\npour héberger les poules. Une fois le\ndossier validé, on reçoit un guide\navec les bonnes pratiques. La\npersonne peut ensuite aller chercher\nses poules directement chez\nl'éleveur à la ferme.</p><p>(3) L'intérêt principal de l'opération\nconsiste à réduire la quantité des\nbiodéchets. Chaque habitant de\nl'agglomération produit en moyenne\n260 kg de biodéchets par an.\nL'arrivée des poules peut réduire\nd'un tiers le volume de ces déchets.\nLe but de l'opération est donc de\nsensibiliser au tri des déchets et aux\nmodes de consommation durables.\nEt bien sûr, rien n'empêche les\nhabitants de consommer les œufs.</p><small>d'après Le Parisien,\ndu 1er avril 2022</small>"
+      }
+    ],
+    "vragen": [
+        {
+            "vraag_id": 1,
+            "tekst_id": "tekst1",
+            "opgave_titel": "Tekst 1 II vit des parapluies",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "Qu'est-ce qu'on apprend sur Thierry Millet?",
+            "opties": {
+              "A": "Il a mis 75 heures pour créer un parapluie en forme de tour Eiffel.",
+              "B": "Il est connu dans le monde entier pour ses créations originales.",
+              "C": "II recevra bientôt le label << Entreprise du patrimoine vivant >>.",
+              "D": "II répare des parapluies motivé par des soucis écologiques."
+            },
+            "correct_antwoord": "D"
+          },
+          {
+            "vraag_id": 2,
+            "tekst_id": "tekst2",
+            "opgave_titel": "Tekst 2 Record du monde de sauts à l'élastique",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "Qu'est-ce qui est vrai d'après le premier alinéa ?",
+            "opties": {
+              "A": "François-Marie Dibon tient le record du monde de sauts à l'élastique\ndepuis mardi.",
+              "B": "François-Marie Dibon veut améliorer le record du monde de sauts à\nl'élastique.",
+              "C": "Un Néo-Zélandais a battu le record du monde de sauts à l'élastique en\nSuède.",
+              "D": "Un Néo-Zélandais s'est jeté 765 fois dans le vide depuis un pont en\nÉcosse."
+            },
+            "correct_antwoord": "A"
+          },
+          {
+            "vraag_id": 3,
+            "tekst_id": "tekst2",
+            "opgave_titel": "Tekst 2 Record du monde de sauts à l'élastique",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "À quelle question trouve-t-on la réponse au 2ème alinéa ?",
+            "opties": {
+              "A": "Combien de personnes font partie de l'équipe de François-Marie\nDibon ?",
+              "B": "Comment François-Marie Dibon se sentait-il après avoir battu le\nrecord du monde de sauts à l'élastique ?",
+              "C": "De quelle manière François-Marie Dibon s'est-il préparé à sa\nperformance ?"
+            },
+            "correct_antwoord": "B"
+          },
+          {
+            "vraag_id": 4,
+            "tekst_id": "tekst2",
+            "opgave_titel": "Tekst 2 Record du monde de sauts à l'élastique",
+            "max_score": 1,
+            "type": "wel_niet",
+            "vraagtekst": "Geef van elke bewering aan of die overeenkomt met de derde alinea.\nNoteer 'wel' of 'niet' achter elk nummer op het antwoordblad.",
+            "beweringen": [
+              "Tijdens het bungeejumpen nam François-Marie Dibon regelmatig\npauze om iets te eten.",
+              "Na elke sprong werd François-Marie Dibon door zijn teamgenoten\nterug de brug op geholpen."
+            ],
+            "correct_antwoord": [
+              "niet",
+              "wel"
+            ]
+          },
+          {
+            "vraag_id": 5,
+            "tekst_id": "tekst2",
+            "opgave_titel": "Tekst 2 Record du monde de sauts à l'élastique",
+            "max_score": 1,
+            "type": "open",
+            "vraagtekst": "Wat maakt de prestatie van François-Marie Dibon bijzonder volgens de\nlaatste alinea?\nVul de volgende zin aan:\n\nHet is bijzonder omdat hij een aantal jaar geleden...",
+            "correct_antwoord": "(Het is bijzonder omdat hij een aantal jaar geleden) (nog) hoogtevrees had / last had van duizelingen."
+          },
+          {
+            "vraag_id": 6,
+            "tekst_id": "tekst3",
+            "opgave_titel": "Tekst 3 Dieu Bleu, un nouveau parfum",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "Qu'est-ce que le premier alinéa montre ?",
+            "opties": {
+              "A": "à quel point le nom donné par la marque Astier de Vilatte au nouveau\nparfum est original.",
+              "B": "comment on fabriquait du parfum dans l'Égypte antique.",
+              "C": "pourquoi les Égyptiens ont longtemps été considérés comme les\nmaîtres de la parfumerie.",
+              "D": "quel parfum a servi d'exemple pour le nouveau parfum Dieu Bleu."
+            },
+            "correct_antwoord": "D"
+          },
+          {
+            "vraag_id": 7,
+            "tekst_id": "tekst3",
+            "opgave_titel": "Tekst 3 Dieu Bleu, un nouveau parfum",
+            "max_score": 1,
+            "type": "citeer",
+            "vraagtekst": "Er zijn meerdere varianten van het parfum kyphi.\nCiteer de eerste twee Franse woorden van de zin uit de tweede alinea\nwaarin je leest wat de overeenkomst is tussen de verschillende varianten.",
+            "correct_antwoord": "Si les / elles ont"
+          },
+          {
+            "vraag_id": 8,
+            "tekst_id": "tekst3",
+            "opgave_titel": "Tekst 3 Dieu Bleu, un nouveau parfum",
+            "max_score": 2,
+            "type": "wel_niet",
+            "vraagtekst": "Geef van elke bewering aan of die overeenkomt met de derde alinea.\nNoteer 'wel' of 'niet' achter elk nummer op het antwoordblad.",
+            "beweringen": [
+              "In 2002 is een onderzoeksteam er al in geslaagd om een variant van\nhet parfum kyphi te reconstrueren.",
+              "Astier de Vilatte werkt al twintig jaar aan de reconstructie van het\nparfum kyphi.",
+              "Sommige ingrediënten voor het parfum kyphi zijn tegenwoordig niet\nmeer te krijgen.",
+              "Dominique Ropion vindt het jammer dat in de nieuwe versie van het\nparfum kyphi bepaalde ingrediënten overheersen."
+            ],
+            "correct_antwoord": [
+              "wel",
+              "niet",
+              "wel",
+              "niet"
+            ]
+          },
+          {
+            "vraag_id": 9,
+            "tekst_id": "tekst3",
+            "opgave_titel": "Tekst 3 Dieu Bleu, un nouveau parfum",
+            "max_score": 1,
+            "type": "gap_fill",
+            "vraagtekst": "Choisissez les mots qui manquent au 4ème alinéa.",
+            "opties": {
+              "A": "a coûté énormément d'argent",
+              "B": "a pris beaucoup de temps",
+              "C": "semble avoir eu du succès"
+            },
+            "correct_antwoord": ["C"]
+          },
+          {
+            "vraag_id": 10,
+            "tekst_id": "tekst4",
+            "opgave_titel": "Tekst 4 La pétanque",
+            "max_score": 1,
+            "type": "open",
+            "vraagtekst": "<<<< Alors, tu tires ou tu pointes? >>> (regel 1)\nWat wil de speler bereiken wanneer hij kiest voor 'pointer'?\nVul de volgende zin aan:\n\nWanneer de speler kiest voor 'pointer', wil hij bereiken dat zijn bal ...",
+            "correct_antwoord": "(Wanneer de speler kiest voor 'pointer', wil hij bereiken dat zijn bal) zo dicht mogelijk bij het kleine balletje/het mikpunt komt te liggen."
+          },
+          {
+            "vraag_id": 11,
+            "tekst_id": "tekst4",
+            "opgave_titel": "Tekst 4 La pétanque",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "À quelle question ne trouve-t-on pas de réponse au 2ème alinéa ?",
+            "opties": {
+              "A": "À quoi la pétanque doit-elle son succès ?",
+              "B": "Combien de gens pratiquent la pétanque ?",
+              "C": "Où est-ce que la pétanque est née ?",
+              "D": "Qui pratique la pétanque de nos jours ?"
+            },
+            "correct_antwoord": "B"
+          },
+          {
+            "vraag_id": 12,
+            "tekst_id": "tekst4",
+            "opgave_titel": "Tekst 4 La pétanque",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "Qu'est-ce que le 3ème alinéa montre ?",
+            "opties": {
+              "A": "à quel point la pétanque est un sport populaire.",
+              "B": "pourquoi le nombre de pratiquants de pétanque augmente toujours.",
+              "C": "que la pétanque sera bientôt considérée comme un sport officiel."
+            },
+            "correct_antwoord": "A"
+          },
+          {
+            "vraag_id": 13,
+            "tekst_id": "tekst4",
+            "opgave_titel": "Tekst 4 La pétanque",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "Qu'est-ce qu'on lit sur la reine Sirikit au 4ème alinéa ?",
+            "opties": {
+              "A": "Elle adorait les séjours sur la Côte d'Azur.",
+              "B": "Elle a popularisé la pétanque en Thaïlande.",
+              "C": "Elle a reçu des boulistes du monde entier.",
+              "D": "Elle était la meilleure bouliste de son pays."
+            },
+            "correct_antwoord": "B"
+          },
+          {
+            "vraag_id": 14,
+            "tekst_id": "tekst4",
+            "opgave_titel": "Tekst 4 La pétanque",
+            "max_score": 1,
+            "type": "open",
+            "vraagtekst": "Wordt in de laatste alinea duidelijk waarom het Internationaal Olympisch\nComité heeft besloten om pétanque niet toe te laten tot de Spelen van\n2024?\nZo nee, antwoord 'nee'.\nZo ja, vermeld de reden.",
+            "correct_antwoord": "nee"
+          },
+          {
+            "vraag_id": 15,
+            "tekst_id": "tekst5",
+            "opgave_titel": "Tekst 5 Hugo Biolley, maire à 18 ans",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "Qu'est-ce que Hugo Biolley n'aurait jamais imaginé possible d'après le\npremier alinéa ?",
+            "opties": {
+              "A": "d'aimer lire de gros dossiers",
+              "B": "de devenir maire de son village",
+              "C": "de s'intéresser à la politique un jour"
+            },
+            "correct_antwoord": "B"
+          },
+          {
+            "vraag_id": 16,
+            "tekst_id": "tekst5",
+            "opgave_titel": "Tekst 5 Hugo Biolley, maire à 18 ans",
+            "max_score": 1,
+            "type": "gap_fill",
+            "vraagtekst": "Choisissez le(s) mot(s) qui manque(nt) au 2ème alinéa.",
+            "opties": {
+              "A": "En plus,",
+              "B": "Même",
+              "C": "Pourtant,",
+              "D": "Voilà pourquoi"
+            },
+            "correct_antwoord": ["C"]
+          },
+          {
+            "vraag_id": 17,
+            "tekst_id": "tekst5",
+            "opgave_titel": "Tekst 5 Hugo Biolley, maire à 18 ans",
+            "max_score": 1,
+            "type": "citeer",
+            "vraagtekst": "<<< j'ai des projets sérieux à proposer. >> (regel 31-32)\nCiteer de eerste twee Franse woorden van de zin uit de derde alinea\nwaarin je leest hoe Hugo zijn dorp nieuw leven wil inblazen.",
+            "correct_antwoord": "Mon rêve / par exemple"
+          },
+          {
+            "vraag_id": 18,
+            "tekst_id": "tekst5",
+            "opgave_titel": "Tekst 5 Hugo Biolley, maire à 18 ans",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "Qu'est-ce qui est vrai d'après le 4ème alinéa ?",
+            "opties": {
+              "A": "Hugo Biolley a amélioré le tri des déchets à Vinzieux avec l'aide des\njeunes.",
+              "B": "Hugo Biolley a organisé plusieurs soirées pizza pour les enfants de\nVinzieux.",
+              "C": "Hugo Biolley a questionné les jeunes de Vinzieux pour s'informer de\nleurs idées.",
+              "D": "Hugo Biolley a réussi à lancer un site internet pour le village de\nVinzieux."
+            },
+            "correct_antwoord": "C"
+          },
+          {
+            "vraag_id": 19,
+            "tekst_id": "tekst5",
+            "opgave_titel": "Tekst 5 Hugo Biolley, maire à 18 ans",
+            "max_score": 2,
+            "type": "wel_niet",
+            "vraagtekst": "Geef van elke bewering aan of die overeenkomt met de laatste alinea.\nNoteer 'wel' of 'niet' achter elk nummer op het antwoordblad.",
+            "beweringen": [
+              "De moeder van Hugo maakt deel uit van het team waarmee hij\nsamenwerkt.",
+              "Hugo leidt een leven dat in veel opzichten nauwelijks verschilt van dat\nvan andere jongeren.",
+              "Hugo heeft er geen moment spijt van dat hij burgemeester is\ngeworden."
+            ],
+            "correct_antwoord": [
+              "wel",
+              "niet",
+              "wel"
+            ]
+          },
+          {
+            "vraag_id": 20,
+            "tekst_id": "tekst6",
+            "opgave_titel": "Tekst 6 Le marcel",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "À quelle question ne trouve-t-on pas de réponse aux deux premiers\nalinéas ?",
+            "opties": {
+              "A": "De quel tissu le marcel est-il fabriqué ?",
+              "B": "Où le marcel a-t-il été inventé ?",
+              "C": "Quand le marcel est-il né?",
+              "D": "Qui a eu l'idée du premier marcel ?"
+            },
+            "correct_antwoord": "A"
+          },
+          {
+            "vraag_id": 21,
+            "tekst_id": "tekst6",
+            "opgave_titel": "Tekst 6 Le marcel",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "Qu'est-ce que le 3ème alinéa montre ?",
+            "opties": {
+              "A": "à quel point les ouvriers avaient froid dans les entrepôts.",
+              "B": "comment les « débardeurs >> étaient transportés aux Halles.",
+              "C": "d'où viennent les noms << marcel » et « débardeur ».",
+              "D": "pourquoi Marcel Eisenberg aimait porter des maillots en laine."
+            },
+            "correct_antwoord": "C"
+          },
+          {
+            "vraag_id": 22,
+            "tekst_id": "tekst6",
+            "opgave_titel": "Tekst 6 Le marcel",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "<<< L'idée de succès. » (lignes 35-36)\nQu'est-ce qui prouve le succès du marcel d'après le 4ème alinéa ?",
+            "opties": {
+              "A": "À partir des années 1930, le marcel s'est exporté à l'étranger.",
+              "B": "Depuis la Première Guerre mondiale, les soldats de nationalités\ndifférentes portent le marcel.",
+              "C": "En ville, les hommes préfèrent le marcel à la chemise.",
+              "D": "Le marcel est devenu très populaire parmi une grande partie de la\npopulation."
+            },
+            "correct_antwoord": "D"
+          },
+          {
+            "vraag_id": 23,
+            "tekst_id": "tekst6",
+            "opgave_titel": "Tekst 6 Le marcel",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "Qu'est-ce qui est vrai d'après le 5ème alinéa ?",
+            "opties": {
+              "A": "L'acteur Marlon Brando a introduit le marcel hors des frontières de la\nFrance.",
+              "B": "Le marcel est considéré comme une tenue sexy suite à un rôle de\nMarlon Brando dans le film Un tramway nommé Désir.",
+              "C": "Marlon Brando est devenu un acteur populaire en portant un marcel\ndans quelques films."
+            },
+            "correct_antwoord": "B"
+          },
+          {
+            "vraag_id": 24,
+            "tekst_id": "tekst6",
+            "opgave_titel": "Tekst 6 Le marcel",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "<<<< Le triomphe après tout. » (lignes 71-72)\nDe quel triomphe s'agit-il d'après le 6ème alinéa ?",
+            "opties": {
+              "A": "Les couturiers introduisent le marcel dans leurs collections de haute\ncouture.",
+              "B": "Les femmes obtiennent la permission de porter un marcel dans les\nannées 1970.",
+              "C": "Les grands acteurs de cinéma préfèrent porter un marcel pendant\nleurs loisirs."
+            },
+            "correct_antwoord": "A"
+          },
+          {
+            "vraag_id": 25,
+            "tekst_id": "tekst6",
+            "opgave_titel": "Tekst 6 Le marcel",
+            "max_score": 1,
+            "type": "gap_fill",
+            "vraagtekst": "Choisissez le(s) mot(s) qui manque (nt) au dernier alinéa.",
+            "opties": {
+              "A": "Ainsi,",
+              "B": "En plus,",
+              "C": "Même",
+              "D": "Toutefois,"
+            },
+            "correct_antwoord": ["D"]
+          },
+          {
+            "vraag_id": 26,
+            "tekst_id": "tekst7",
+            "opgave_titel": "Tekst 7 L'Arc de Triomphe << emballé >>>",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "Qu'est-ce qu'on apprend sur Christo au premier alinéa ?",
+            "opties": {
+              "A": "Il a emprunté beaucoup d'idées à l'art classique.",
+              "B": "Il avait une autre opinion de l'art que sa femme.",
+              "C": "II cherchait à étonner avec ses emballages.",
+              "D": "Il s'est longtemps opposé à son statut de superstar."
+            },
+            "correct_antwoord": "C"
+          },
+          {
+            "vraag_id": 27,
+            "tekst_id": "tekst7",
+            "opgave_titel": "Tekst 7 L'Arc de Triomphe << emballé >>>",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "Qu'est-ce qui est vrai d'après le 2ème alinéa ?",
+            "opties": {
+              "A": "C'est la femme de Christo qui a eu l'idée d'emballer l'Arc de Triomphe.",
+              "B": "Christo n'a pas pu réaliser lui-même l'emballage de l'Arc de Triomphe.",
+              "C": "Le neveu de Christo l'a aidé avec l'emballage du Pont-Neuf.",
+              "D": "Le Pont-Neuf était le premier monument emballé par Christo."
+            },
+            "correct_antwoord": "B"
+          },
+          {
+            "vraag_id": 28,
+            "tekst_id": "tekst7",
+            "opgave_titel": "Tekst 7 L'Arc de Triomphe << emballé >>>",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "Qu'est-ce qu'on lit au 3ème alinéa ?",
+            "opties": {
+              "A": "Le public a largement contribué au financement des projets de\nChristo.",
+              "B": "Le public était content que le dernier projet de Christo leur ait coûté si\npeu d'argent.",
+              "C": "Selon Christo, l'emballage de l'Arc de Triomphe coûtait très cher.",
+              "D": "Selon Christo, tout le monde devrait avoir accès à ses œuvres d'art."
+            },
+            "correct_antwoord": "D"
+          },
+          {
+            "vraag_id": 29,
+            "tekst_id": "tekst7",
+            "opgave_titel": "Tekst 7 L'Arc de Triomphe << emballé >>>",
+            "max_score": 1,
+            "type": "open",
+            "vraagtekst": "Waarmee werd het verpakkingsmateriaal voor de Arc de Triomphe\nvergeleken volgens de laatste alinea?",
+            "correct_antwoord": "(met) toiletpapier"
+          },
+          {
+            "vraag_id": 30,
+            "tekst_id": "tekst8",
+            "opgave_titel": "Tekst 8 Quelle grosse proie !",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "Qu'est-ce qu'on apprend sur la pêche à l'aimant au premier alinéa ?\nLa pêche à l'aimant",
+            "opties": {
+              "A": "a été inventée par le pêcheur Jean Dumoulin.",
+              "B": "augmente les chances d'attraper de gros poissons.",
+              "C": "permet de remonter de l'eau des objets en métal.",
+              "D": "ressemble beaucoup à la pêche traditionnelle."
+            },
+            "correct_antwoord": "C"
+          },
+          {
+            "vraag_id": 31,
+            "tekst_id": "tekst8",
+            "opgave_titel": "Tekst 8 Quelle grosse proie !",
+            "max_score": 1,
+            "type": "gap_fill",
+            "vraagtekst": "Choisissez le(s) mot(s) qui manque(nt) au 2ème alinéa.",
+            "opties": {
+              "A": "au lieu de",
+              "B": "ensuite",
+              "C": "par exemple"
+            },
+            "correct_antwoord": ["C"]
+          },
+          {
+            "vraag_id": 32,
+            "tekst_id": "tekst8",
+            "opgave_titel": "Tekst 8 Quelle grosse proie !",
+            "max_score": 1,
+            "type": "wel_niet",
+            "vraagtekst": "Geef van elke bewering aan of die overeenkomt met de derde alinea.\nNoteer 'wel' of 'niet' achter elk nummer op het antwoordblad.",
+            "beweringen": [
+              "Op een dag vist Jean twee metalen kistjes op uit een kanaal.",
+              "De politie toont grote interesse voor de vangst van Jean."
+            ],
+            "correct_antwoord": [
+              "wel",
+              "niet"
+            ]
+          },
+          {
+            "vraag_id": 33,
+            "tekst_id": "tekst8",
+            "opgave_titel": "Tekst 8 Quelle grosse proie !",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "Quelle décision est-ce que Jean a prise d'après le dernier alinéa ?",
+            "opties": {
+              "A": "II va chercher le propriétaire pour lui rendre les deux montres.",
+              "B": "II va demander à un bijoutier de nettoyer les deux montres.",
+              "C": "II va garder les deux montres pour s'en servir lui-même.",
+              "D": "Il va vendre les deux montres pour s'enrichir."
+            },
+            "correct_antwoord": "A"
+          },
+          {
+            "vraag_id": 34,
+            "tekst_id": "tekst9",
+            "opgave_titel": "Tekst 9 Petite histoire de la frite",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "<<< la fable >> (ligne 6)\nDe quelle fable s'agit-il d'après le premier alinéa ?",
+            "opties": {
+              "A": "Des millions de tonnes de frites seraient consommées chaque année\nen Amérique.",
+              "B": "La frite trouverait son origine en Belgique.",
+              "C": "Les Américains préféreraient les << french fries >> aux frites\naméricaines.",
+              "D": "Les Belges seraient les plus gros consommateurs de frites dans le\nmonde."
+            },
+            "correct_antwoord": "B"
+          },
+          {
+            "vraag_id": 35,
+            "tekst_id": "tekst9",
+            "opgave_titel": "Tekst 9 Petite histoire de la frite",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "Qu'est-ce qui est vrai d'après le 2ème alinéa ?",
+            "opties": {
+              "A": "À Paris, les meilleures pommes de terre frites se vendent de nos jours\nsur le Pont Neuf et au boulevard du Temple.",
+              "B": "Dans les milieux populaires, on parle toujours de << pomme Pont\nNeuf >> pour désigner la pomme de terre frite.",
+              "C": "La pomme de terre frite a été inventée par des femmes qui vendaient\ndes beignets frits sur le Pont Neuf."
+            },
+            "correct_antwoord": "C"
+          },
+          {
+            "vraag_id": 36,
+            "tekst_id": "tekst9",
+            "opgave_titel": "Tekst 9 Petite histoire de la frite",
+            "max_score": 2,
+            "type": "wel_niet",
+            "vraagtekst": "Geef van elke bewering aan of die overeenkomt met de laatste alinea.\nNoteer 'wel' of 'niet' achter elk nummer op het antwoordblad.",
+            "beweringen": [
+              "Jean-Frédéric Krieger heeft in Duitsland friet leren bakken.",
+              "Fritz is de naam van het frietkraam dat Krieger in 1844 heeft geopend.",
+              "Friet is in het noorden van Frankrijk minder populair dan in België."
+            ],
+            "correct_antwoord": [
+              "niet",
+              "wel",
+              "niet"
+            ]
+          },
+          {
+            "vraag_id": 37,
+            "tekst_id": "tekst9",
+            "opgave_titel": "Tekst 9 Petite histoire de la frite",
+            "max_score": 1,
+            "type": "open",
+            "vraagtekst": "Welke andere Franse benaming voor 'la Belgique' wordt in de tekst\ngebruikt?",
+            "correct_antwoord": "(le) Plat Pays"
+          },
+          {
+            "vraag_id": 38,
+            "tekst_id": "tekst10",
+            "opgave_titel": "Tekst 10 Une année de césure pour faire du bénévolat",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "Pourquoi Luca a-t-il décidé de prendre une année de césure d'après le\npremier alinéa ?",
+            "opties": {
+              "A": "Il ne pouvait pas s'installer dans la ville de son choix pour ses études.",
+              "B": "Il ne savait pas encore quelles études il voulait faire après le bac.",
+              "C": "Il se sentait encore trop jeune pour faire des études de médecine.",
+              "D": "II voulait faire quelque chose d'autre avant de commencer ses études."
+            },
+            "correct_antwoord": "D"
+          },
+          {
+            "vraag_id": 39,
+            "tekst_id": "tekst10",
+            "opgave_titel": "Tekst 10 Une année de césure pour faire du bénévolat",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "Qu'est-ce que Luca raconte au 2ème alinéa ?",
+            "opties": {
+              "A": "comment il a eu l'idée de faire du bénévolat à Calais.",
+              "B": "dans quels pays il a travaillé pendant son année de césure.",
+              "C": "pourquoi le travail avec les migrants lui plaisait tellement.",
+              "D": "que parcourir 3 500 km à vélo était une déception pour lui."
+            },
+            "correct_antwoord": "A"
+          },
+          {
+            "vraag_id": 40,
+            "tekst_id": "tekst10",
+            "opgave_titel": "Tekst 10 Une année de césure pour faire du bénévolat",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "Que dit Luca de ses parents au 3ème alinéa ?",
+            "opties": {
+              "A": "Après son année de césure, ils vont lui payer un logement.",
+              "B": "Au début, ils se sont opposés à l'année de césure de leur fils.",
+              "C": "Pendant son année de césure, ils lui ont donné un budget mensuel."
+            },
+            "correct_antwoord": "C"
+          },
+          {
+            "vraag_id": 41,
+            "tekst_id": "tekst10",
+            "opgave_titel": "Tekst 10 Une année de césure pour faire du bénévolat",
+            "max_score": 1,
+            "type": "gap_fill",
+            "vraagtekst": "Choisissez la question qui manque au 4ème alinéa.",
+            "opties": {
+              "A": "Comment tu as préparé ton année de césure ?",
+              "B": "Qu'est-ce que l'année de césure t'a apporté ?",
+              "C": "Tu as d'autres voyages prévus pour l'avenir?",
+              "D": "Tu as des conseils à donner aux lecteurs ?"
+            },
+            "correct_antwoord": ["B"]
+          },
+          {
+            "vraag_id": 42,
+            "tekst_id": "tekst11",
+            "opgave_titel": "Tekst 11 Une bonne action",
+            "max_score": 2,
+            "type": "wel_niet",
+            "vraagtekst": "Geef van elke bewering aan of die overeenkomt met de tekst.\nNoteer 'wel' of 'niet' achter elk nummer op het antwoordblad.",
+            "beweringen": [
+              "Leerlingen van het lycée Marcel-Callo repareren auto's van mensen\ndie weinig geld hebben.",
+              "Voor het onderhoud van hun auto nemen klanten rechtstreeks contact\nop met het lycée Marcel-Callo.",
+              "Arthur krijgt soms bij controle door de docent een onvoldoende.",
+              "Baptiste heeft van jongs af aan automonteur willen worden."
+            ],
+            "correct_antwoord": [
+              "wel",
+              "niet",
+              "niet",
+              "niet"
+            ]
+          },
+          {
+            "vraag_id": 43,
+            "tekst_id": "tekst12",
+            "opgave_titel": "Tekst 12 << Adoptez des poules >>>",
+            "max_score": 1,
+            "type": "open",
+            "vraagtekst": "Waar is Châlons-en-Champagne een voorbeeld van volgens de eerste\nalinea?\nVul de volgende zin aan:\n\nChâlons-en-Champagne is een gemeente die haar burgers aanmoedigt\nom",
+            "correct_antwoord": "(Châlons-en-Champagne is een gemeente die haar burgers aanmoedigt om) kippen te houden / adopteren / nemen."
+          },
+          {
+            "vraag_id": 44,
+            "tekst_id": "tekst12",
+            "opgave_titel": "Tekst 12 << Adoptez des poules >>>",
+            "max_score": 2,
+            "type": "open",
+            "vraagtekst": "Om deel te kunnen nemen aan het project 'Adoptez des poules' moet je\naan twee voorwaarden voldoen volgens de tweede alinea.\nNoteer beide voorwaarden.",
+            "correct_antwoord": "De kern van het goede antwoord is:\neen tuin hebben van (minimaal) 15 m²\neen (kippen)hok bouwen/hebben"
+          },
+          {
+            "vraag_id": 45,
+            "tekst_id": "tekst12",
+            "opgave_titel": "Tekst 12 << Adoptez des poules >>>",
+            "max_score": 1,
+            "type": "mc",
+            "vraagtekst": "Quel est l'intérêt principal de l'opération << Adoptez des poules >> d'après\nle dernier alinéa ?\nL'intérêt principal de l'opération,",
+            "opties": {
+              "A": "c'est d'augmenter la consommation d'œufs.",
+              "B": "c'est de diminuer la quantité des biodéchets.",
+              "C": "c'est de donner une meilleure vie aux poules.",
+              "D": "c'est de sensibiliser au coût de la collecte des déchets."
+            },
+            "correct_antwoord": "B"
+          }
+        ]
+      }

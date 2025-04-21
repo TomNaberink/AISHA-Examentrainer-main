@@ -1,0 +1,783 @@
+{
+    "examen_info": {
+      "vak": "biologie",
+      "niveau": "havo",
+      "tijdvak": "TV1",
+      "jaar": 2024
+    },
+    "opgaven": [
+      {
+        "opgave_nr": 1,
+        "opgave_titel": "Een nieuwe hartklep, door het lichaam zelf gemaakt",
+        "vragen": [
+          {
+            "id": 1,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>In het hart zijn vier kleppen aanwezig:</p><ul><li>twee slagaderkleppen (afbeelding 1, Q en R)</li><li>twee kleppen tussen de boezems en kamers (afbeelding 1, P en S)</li></ul>",
+            "bronverwijzing_tekst": "afbeelding 1",
+            "bron_verwijzing": "havo_biologie_tv1_opgave1_bron1.png",
+            "vraagtekst_html": "<p>Noteer de letter die de klep aangeeft waarlangs zuurstofarm bloed vanuit de kamer richting de longen gaat.</p>",
+            "correct_antwoord_model": "<p>Q</p><p><strong>Score: 1</strong></p>"
+          },
+          {
+            "id": 2,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p>Twee mogelijke hartafwijkingen zijn:</p><ol><li>De aortaklep is te stug en opent daardoor niet goed.</li><li>De aortaklep is te slap en sluit daardoor niet goed.</li></ol>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Bij welke afwijking stroomt er per minuut minder bloed door de aorta naar de organen in het lichaam, in vergelijking met een normaal functionerend hart bij een gelijke inspanning van de hartspier?</p>",
+            "correct_antwoord_model": "<p>D</p><p><strong>Score: 1</strong></p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "bij geen van beide"
+              },
+              {
+                "id": "B",
+                "text": "alleen bij 1"
+              },
+              {
+                "id": "C",
+                "text": "alleen bij 2"
+              },
+              {
+                "id": "D",
+                "text": "zowel bij 1 als bij 2"
+              }
+            ],
+            "correct_answer": "D"
+          },
+          {
+            "id": 3,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Als er minder bloed naar de organen stroomt, ontstaat eerder vermoeidheid door een gebrek aan energie.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit waardoor energiegebrek ontstaat als er minder bloed naar de organen stroomt.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat:</p><ul><li>er minder zuurstof/brandstof wordt getransporteerd, <strong>(1 punt)</strong></li><li>(waardoor) er minder dissimilatie/verbranding kan plaatsvinden. <strong>(1 punt)</strong></li></ul><p><strong>Totaal Score: 2</strong></p>"
+          },
+          {
+            "id": 4,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Bouten heeft een slagaderklep ontwikkeld van een biologisch afbreekbare kunststof (afbeelding 2). Na de implantatie worden tussen de kunstvezels van de slagaderklep witte bloedcellen en bindweefselcellen ingevangen. Tegen de tijd dat de bindweefselcellen voldoende stevige en elastische eiwitten (collageen en elastine) hebben aangemaakt, wordt de kunststof afgebroken.</p><p>Het grote probleem bij een geïmplanteerde kunstklep is dat het materiaal bloedstolling veroorzaakt.</p>",
+            "bronverwijzing_tekst": "(afbeelding 2)",
+            "bron_verwijzing": "havo_biologie_tv1_opgave1_bron2.png",
+            "vraagtekst_html": "<p>Noteer het vaste bloedbestanddeel dat het proces van bloedstolling in werking zet.</p>",
+            "correct_antwoord_model": "<p>(de) bloedplaatje(s)</p><p><strong>Score: 1</strong></p>"
+          },
+          {
+            "id": 5,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Het functioneren van de kunstklep is in het laboratorium getest in een kunstslagader onder de omstandigheden die heersen in een longslagader. In plaats van bloed werd een zoutoplossing door de kunstklep heen gepompt. In afbeelding 3 zijn foto's te zien van een filmpje van het functioneren van de kunstklep als longslagaderklep. De foto's beslaan één hartcyclus, waarvan de drie achtereenvolgende perioden zijn aangegeven met letters.</p><p>De drie fasen van de hartcyclus zijn:</p><ul><li>hartpauze</li><li>samentrekken boezems</li><li>samentrekken kamers</li></ul>",
+            "bronverwijzing_tekst": "afbeelding 3",
+            "bron_verwijzing": "havo_biologie_tv1_opgave1_bron3.png",
+            "vraagtekst_html": "<p>Schrijf de letters P, Q en R onder elkaar en noteer de bijbehorende fase erachter.</p>",
+            "correct_antwoord_model": "<p>P samentrekken boezems</p><p>Q samentrekken kamers</p><p>R hartpauze</p><p><strong>Score: 1</strong></p>"
+          },
+          {
+            "id": 6,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p>Na de test onder de omstandigheden die heersen in de longslagader, is de kunstklep getest onder de omstandigheden die heersen in de aorta.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Is de bloeddruk in de aorta hoger of lager dan in de longslagader? En het zuurstofgehalte?</p>",
+            "correct_antwoord_model": "<p>A</p><p><strong>Score: 1</strong></p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "hoger, hoger"
+              },
+              {
+                "id": "B",
+                "text": "hoger, lager"
+              },
+              {
+                "id": "C",
+                "text": "lager, hoger"
+              },
+              {
+                "id": "D",
+                "text": "lager, lager"
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "id": 7,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p>Na de succesvolle tests in het laboratorium is de kunstklep bij schapen geïmplanteerd op de plaats van de longslagaderklep. Gedurende een jaar werd de gezondheid van deze schapen gecontroleerd. Uit dit onderzoek blijkt dat het weefsel van de geïmplanteerde klep verschillende fasen doorloopt om uiteindelijk een 'levende' klep te worden (afbeelding 4).</p><p>De eerste cellen die het kunstvezelnetwerk van de kunstklep binnendringen, zijn witte bloedcellen die in weefsels op zoek zijn naar lichaamsvreemde stoffen. Deze cellen veroorzaken in de kunstklep een ontstekingsreactie.</p>",
+            "bronverwijzing_tekst": "afbeelding 4",
+            "bron_verwijzing": "havo_biologie_tv1_opgave1_bron4.png",
+            "vraagtekst_html": "<p>Welk type witte bloedcel is dit?</p>",
+            "correct_antwoord_model": "<p>C</p><p><strong>Score: 1</strong></p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "B-cel"
+              },
+              {
+                "id": "B",
+                "text": "cytotoxische T-cel"
+              },
+              {
+                "id": "C",
+                "text": "macrofaag"
+              }
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "id": 8,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Tijdens de groeifase komen verschillende stamcellen het kunstvezelnetwerk binnen vanuit het bloed en het omringende hartweefsel van het schaap. Gestimuleerd door de ontsteking gaan deze stamcellen zich delen om nieuwe cellen (bindweefsel- en endotheelcellen) te vormen.</p><p>Over de groeifase worden de volgende uitspraken gedaan:</p><ol><li>Uit één stamcel ontstaat na mitose één endotheelcel en één bindweefselcel.</li><li>Een endotheelcel krijgt zijn vorm en functie door celdifferentiatie.</li><li>Celdifferentiatie wordt bepaald door veranderingen in genexpressie.</li></ol>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Schrijf de nummers 1, 2 en 3 onder elkaar en noteer erachter of de betreffende uitspraak juist of onjuist is.</p>",
+            "correct_antwoord_model": "<p>1 onjuist</p><p>2 juist</p><p>3 juist</p><p><strong>Score:</strong></p><ul><li>indien drie nummers correct: 2 punten</li><li>indien twee nummers correct: 1 punt</li><li>indien minder dan twee nummers correct: 0 punten</li></ul>"
+          },
+          {
+            "id": 9,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p>Tijdens de ontwikkelingsfase worden de kunstvezels afgebroken, zodat uiteindelijk alleen hartklepcellen overblijven in een netwerk van stevige en elastische eiwitten. De restanten van de kunstvezels worden opgeruimd door witte bloedcellen die deze restanten opnemen in een blaasje. Dit blaasje versmelt vervolgens met een bepaald celorganel, zodat de kunststofrestanten verteerd kunnen worden.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Met welk celorganel versmelt het blaasje zodat de kunststofrestanten verteerd kunnen worden?</p>",
+            "correct_antwoord_model": "<p>A</p><p><strong>Score: 1</strong></p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "met een lysosoom"
+              },
+              {
+                "id": "B",
+                "text": "met een mitochondrium"
+              },
+              {
+                "id": "C",
+                "text": "met een ribosoom"
+              },
+              {
+                "id": "D",
+                "text": "met het endoplasmatisch reticulum"
+              },
+              {
+                "id": "E",
+                "text": "met het golgi-systeem"
+              }
+            ],
+            "correct_answer": "A"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 2,
+        "opgave_titel": "Op jacht met SnailSnap",
+        "vragen": [
+          {
+            "id": 10,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Met de app SnailSnap op hun telefoon maken Dylan en Senna foto's van slakken rond hun huis. Zo doen ze mee aan een onderzoek naar de verspreiding en evolutie van kleurvormen van de gewone tuinslak. De kleur van het huisje van de tuinslak (Cepaea nemoralis) kan geel, bruin of roze zijn. Het huisje kan gestreept of niet gestreept zijn (afbeelding 1). De kleur en streping van het slakkenhuis zijn erfelijk bepaald. SnailSnap stuurt de foto samen met de gps-coördinaten naar waarneming.nl (afbeelding 2).</p><p>De kleur van het huisje wordt bepaald door één gen waarvan drie allelen bekend zijn. Het allel $C^{b}$ (bruin) is dominant over $C^{r}$ (roze). Beide zijn dominant over $c^{g}$ (geel).</p>",
+            "bronverwijzing_tekst": "(afbeelding 1), (afbeelding 2)",
+            "bron_verwijzing": [
+              "havo_biologie_tv1_opgave2_bron1.png",
+              "havo_biologie_tv1_opgave2_bron2.png"
+            ],
+            "vraagtekst_html": "<p>Licht toe dat uit een kruising van een bruine slak en een roze slak gele nakomelingen (F1) kunnen voortkomen. Geef hierbij een kruisingstabel.</p>",
+            "correct_antwoord_model": "<p>Voorbeeld van een juist antwoord:</p><p>De ouders moeten dan heterozygoot zijn. De bruine ouder heeft genotype $C^{b}c^{g}$. De roze ouder heeft genotype C<sup>r</sup>c<sup>g</sup>. De nakomelingen met genotype c<sup>g</sup>c<sup>g</sup> zijn geel.</p><p><strong>Kruisingstabel:</strong></p><table><thead><tr><th></th><th>$C^{b}$</th><th>$c^{g}$</th></tr></thead><tbody><tr><td>$C^{r}$</td><td>$C^{b}C^{r}$</td><td>$C^{r}c^{g}$</td></tr><tr><td>$c^{g}$</td><td>$C^{b}c^{g}$</td><td><strong>$c^{g}c^{g}$</strong></td></tr></tbody></table><ul><li>de genotypen $C^{b}c^{g}$ (bruine ouder) en C<sup>r</sup>c<sup>g</sup> (roze ouder) <strong>(1 punt)</strong></li><li>een juiste kruisingstabel met c<sup>g</sup>c<sup>g</sup> gemarkeerd/benoemd (als geel) <strong>(1 punt)</strong></li></ul><p><strong>Totaal Score: 2</strong></p><p><em>Opmerking: Als de kandidaat een andere correcte notatie gebruikt, scorepunten toekennen naar analogie met het correctievoorschrift.</em></p>"
+          },
+          {
+            "id": 11,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Niels Kerstes, onderzoeker van Naturalis, heeft de gegevens van 8000 waarnemingen in 2017 verwerkt in een infographic (afbeelding 3).</p><p>Dylan en Senna bekijken de infographic en doen de volgende uitspraken:</p><ol><li>In een stedelijke omgeving is een groter aandeel slakken met strepen waargenomen dan in een landelijke omgeving.</li><li>Er zijn ongeveer 1600 bruine slakken waargenomen met SnailSnap.</li><li>Uit de infographic blijkt dat in de stedelijke omgeving ongeveer evenveel slakken zijn waargenomen als in de landelijke omgeving.</li></ol>",
+            "bronverwijzing_tekst": "(afbeelding 3)",
+            "bron_verwijzing": "havo_biologie_tv1_opgave2_bron3.png",
+            "vraagtekst_html": "<p>Schrijf de nummers 1, 2 en 3 onder elkaar en noteer erachter of de betreffende uitspraak juist of onjuist is.</p>",
+            "correct_antwoord_model": "<p>1 juist</p><p>2 juist</p><p>3 onjuist</p><p><strong>Score:</strong></p><ul><li>indien drie nummers correct: 2 punten</li><li>indien twee nummers correct: 1 punt</li><li>indien minder dan twee nummers correct: 0 punten</li></ul>"
+          },
+          {
+            "id": 12,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p>Zoals Kerstes verwachtte, worden in een stedelijke omgeving relatief meer gele slakken waargenomen dan in een landelijke omgeving. Het temperatuurverschil tussen een stedelijke en een landelijke omgeving kan oplopen tot $7^{\\circ}C$. De gele huisjes hebben de lichtste kleur en zullen daardoor meer licht weerkaatsen, en dus minder opwarmen. Kerstes verwacht dat door de temperatuurstijging als gevolg van klimaatverandering het aandeel gele slakken in de populatie zal toenemen.</p><p>Over de toename van het aandeel gele slakken wordt de volgende uitspraak gedaan:</p><p>De temperatuurstijging veroorzaakt ... (1)... waardoor de ...(2)... van gele slakken toeneemt ten opzichte van roze en bruine slakken.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Wat moet worden ingevuld bij 1 en bij 2?</p>",
+            "correct_antwoord_model": "<p>C</p><p><strong>Score: 1</strong></p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "adaptatie, fitness"
+              },
+              {
+                "id": "B",
+                "text": "adaptatie, genenpool"
+              },
+              {
+                "id": "C",
+                "text": "selectiedruk, fitness"
+              },
+              {
+                "id": "D",
+                "text": "selectiedruk, genenpool"
+              }
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "id": 13,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p>Dylan en Senna vragen zich af of er nog andere verschillen zijn tussen tuinslakken in een stedelijke en in een landelijke omgeving. Ze lezen over een methode waarmee je de 'persoonlijkheid' van de slakken kan onderzoeken: Als je een slak oppakt, trekt hij zich terug in zijn huisje. Leg je de slak vervolgens rustig neer, dan zal hij na enige tijd weer uit zijn huisje kruipen. De tijd tussen terugtrekken en uitkruipen is een maat voor de persoonlijkheid van de slak. Dylan en Senna denken dat tuinslakken uit een stedelijke omgeving sneller weer uit hun huisje zullen kruipen dan die uit een landelijke omgeving.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Beschrijf een werkplan voor het experiment waarmee ze hun hypothese kunnen toetsen. Noteer het resultaat waarmee hun hypothese ondersteund wordt.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat:</p><ul><li>er meerdere (tuin)slakken uit een stedelijke omgeving en meerdere (tuin)slakken uit een landelijke omgeving getest worden. <strong>(1 punt)</strong></li><li>van elke slak (op dezelfde manier) gemeten wordt hoeveel tijd na terugtrekking hij weer uit het huisje kruipt. <strong>(1 punt)</strong></li><li>de hypothese ondersteund wordt als de slakken uit de stedelijke omgeving (gemiddeld) sneller weer uit hun huisje kruipen (dan de slakken uit een landelijke omgeving). <strong>(1 punt)</strong></li></ul><p><strong>Totaal Score: 3</strong></p>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 3,
+        "opgave_titel": "Last van de eikenprocessierups",
+        "vragen": [
+          {
+            "id": 14,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Geert komt thuis van een schoolkamp met op zijn borst en armen rode bultjes die erg jeuken. De bultjes zijn veroorzaakt door brandharen van eikenprocessierupsen. De eikenprocessierups (afbeelding 1) is de larve van de nachtvlinder Thaumetopoea processionea. De rupsen leven in eiken, waar ze van de bladeren eten. Het lichaam van de eikenprocessierups is bedekt met lange witte haren, met daartussen korte, zwarte brandharen. Eén rups kan 700.000 brandharen hebben. Als de rupsen of de nesten waarin ze zich bevinden worden verstoord, laten de brandharen los. Een brandhaar (afbeelding 2) kan bij de mens een hevig jeukend bultje veroorzaken. Sinds 1990 is het aantal eikenprocessierupsen sterk toegenomen. Dit komt mogelijk door klimaat-verandering, door een afname in de biodiversiteit of door een combinatie hiervan.</p><p>Er zijn meerdere vlinders waarvan de rupsen brandharen hebben die huidirritatie kunnen veroorzaken. In de tabel staan de wetenschappelijke naam van een aantal van deze vlinders en de habitat van hun rupsen.</p><table><thead><tr><th>wetenschappelijke naam</th><th>habitat</th></tr></thead><tbody><tr><td>Thaumetopoea processionea processionea</td><td>eikenbomen</td></tr><tr><td>Thaumetopoea processionea pseudosolitaria</td><td>eikenbomen</td></tr><tr><td>Thaumetopoea pityocampa</td><td>dennenbomen</td></tr><tr><td>Euproctis chrysorrhoea</td><td>duindoornstruiken en eikenbomen</td></tr></tbody></table>",
+            "bronverwijzing_tekst": "(afbeelding 1), (afbeelding 2)",
+            "bron_verwijzing": [
+              "havo_biologie_tv1_opgave3_bron1.png",
+              "havo_biologie_tv1_opgave3_bron2.png"
+            ],
+            "vraagtekst_html": "<p>Hoeveel verschillende soorten vlinders worden vermeld in de tabel? En hoeveel verschillende genera (geslachten) van vlinders?</p><p>Noteer je antwoord als volgt:</p><p>aantal soorten:</p><p>aantal genera:</p>",
+            "correct_antwoord_model": "<p>aantal soorten: 3 <strong>(1 punt)</strong></p><p>aantal genera: 2 <strong>(1 punt)</strong></p><p><strong>Totaal Score: 2</strong></p>"
+          },
+          {
+            "id": 15,
+            "max_score": 2,
+            "type": "calculation",
+            "context_html": "<p>Zonder een vergrootglas zijn details vanaf een grootte van 0,1 mm meestal te zien. Een brandhaar van de eikenprocessierups (afbeelding 2) is langer dan 0,1 mm, maar is toch niet te zien met het blote oog.</p>",
+            "bronverwijzing_tekst": "(afbeelding 2)",
+            "bron_verwijzing": "havo_biologie_tv1_opgave3_bron2.png",
+            "vraagtekst_html": "<p>Verklaar aan de hand van een berekening waardoor de brandhaar niet met het blote oog te zien is.</p>",
+            "correct_antwoord_model": "<p>Voorbeeld van een juist antwoord:</p><p>De brandhaar op de foto is 3 mm dik, wat in werkelijkheid $3 mm / 500 = 0,006$ mm is. Dat is veel kleiner dan 0,1 mm.</p><ul><li>een juiste berekening van de werkelijke dikte van de brandhaar <strong>(1 punt)</strong></li><li>een juiste conclusie <strong>(1 punt)</strong></li></ul><p><strong>Totaal Score: 2</strong></p><p><em>Opmerking: Een juiste berekening die uitgaat van een meting van de dikte van de brandhaar van 2 mm tot en met 4 mm goed rekenen.</em></p>"
+          },
+          {
+            "id": 16,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p>De losgelaten brandharen worden door de wind verspreid en kunnen zo in contact komen met de huid en de kleding van mensen. De brandharen maken piepkleine wondjes in de huid, waarbij het eiwit thaumetopoïne vrijkomt. Dit giftige eiwit veroorzaakt de afgifte van stoffen in de huid die bultjes veroorzaken. Ook prikkelen deze stoffen de uiteinden van gevoels-zenuwcellen, waardoor jeuk ontstaat en een krabreflex kan volgen.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Verloopt de krabreflex via het centraal zenuwstelsel? En behoort de reflexboog van de krabreflex tot het animaal of het autonoom zenuwstelsel?</p>",
+            "correct_antwoord_model": "<p>A</p><p><strong>Score: 1</strong></p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "ja, animaal zenuwstelsel"
+              },
+              {
+                "id": "B",
+                "text": "ja, autonoom zenuwstelsel"
+              },
+              {
+                "id": "C",
+                "text": "nee, animaal zenuwstelsel"
+              },
+              {
+                "id": "D",
+                "text": "nee, autonoom zenuwstelsel"
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "id": 17,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>De brandharen zitten ook in de kleren die Geert tijdens het kamp gedragen heeft. Door de kleine weerhaakjes zijn de brandharen moeilijk te verwijderen. Om de brandharen onschadelijk te maken, wil Geert de kleren wassen bij $60^{\\circ}C$. Geerts vader stelt voor om de kleren een nacht in de vriezer $(-20^{\\circ}C)$ te leggen.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Welke temperatuur is het meest geschikt om thaumetopoïne onschadelijk te maken: $60^{\\circ}C$ of $-20^{\\circ}C$? Verklaar je keuze.</p>",
+            "correct_antwoord_model": "<p>$60^{\\circ}C$, met een verklaring waaruit blijkt dat eiwitten dan hun vorm/werking verliezen / dat eiwitten dan denatureren (en bij $-20^{\\circ}C$ niet).</p><p><strong>Score: 1</strong></p><p><em>Opmerkingen:<br>Als de kandidaat antwoordt dat eiwitten bij $60^{\\circ}C$ doodgaan, het scorepunt niet toekennen.<br>Als de kandidaat enzymen noemt in plaats van eiwitten, dit niet fout rekenen.</em></p>"
+          },
+          {
+            "id": 18,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Een mogelijke oorzaak van de toegenomen aantallen eikenprocessierupsen is de afname van de biodiversiteit.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Verklaar hoe een afname in biodiversiteit kan leiden tot een toename van het aantal eikenprocessierupsen in eikenbossen.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat (door afname van de biodiversiteit) er minder (natuurlijke) vijanden/concurrenten van de eikenprocessierupsen zijn (waardoor het aantal rupsen kan toenemen).</p><p><strong>Score: 1</strong></p><p><em>Opmerking: Als de kandidaat antwoordt dat als er minder diversiteit is in bossen, er meer eiken zijn, waardoor er meer voedsel is voor de rupsen, het scorepunt toekennen.</em></p>"
+          },
+          {
+            "id": 19,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Eiken die zijn aangevreten door eikenprocessierupsen produceren kleinere eikels dan vergelijkbare eiken zonder rupsen.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Beredeneer dit.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat:</p><ul><li>(door vraat van de rupsen) er minder fotosynthese mogelijk is, / er minder bladgroen is, <strong>(1 punt)</strong></li><li>(waardoor) de hoeveelheid stoffen die beschikbaar komt voor de groei (van eikels) kleiner is. / (waardoor) er minder vorming is van organische stoffen. <strong>(1 punt)</strong></li></ul><p><strong>Totaal Score: 2</strong></p><p><em>Opmerking: Aan een antwoord als \"rupsen onttrekken voedingsstoffen waardoor minder voedingsstoffen beschikbaar zijn\", alleen het tweede scorepunt toekennen.</em></p>"
+          },
+          {
+            "id": 20,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Geert wil weten of de eikenprocessierups bestreden kan worden. Hij vindt op internet dat er diverse mogelijkheden zijn. Een mogelijkheid is het bespuiten van besmette eiken met microscopisch kleine wormpjes: nematoden. De nematoden dringen dan de eikenprocessierupsen binnen die op de bespoten eiken zitten. In de darm van een nematode leven bacteriën. Als de nematode een rups is binnengedrongen, geeft de nematode de bacteriën af. Die scheiden vervolgens enzymen uit, waardoor de rups van binnenuit verteerd wordt. De verteringsproducten die daarbij ontstaan, worden gegeten door de nematode.</p><p>Op grond van deze gegevens blijkt er sprake te zijn van symbiose tussen de nematode en de bacterie.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Noteer de naam van deze vorm van symbiose.</p>",
+            "correct_antwoord_model": "<p>mutualisme</p><p><strong>Score: 1</strong></p>"
+          },
+          {
+            "id": 21,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p>Geert leest dat de eikenprocessierups ook chemisch bestreden kan worden. Chemische bestrijdingsmiddelen hebben echter als nadeel dat ze vaak persistent zijn.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Wat is het kenmerk van een persistent bestrijdingsmiddel?</p>",
+            "correct_antwoord_model": "<p>C</p><p><strong>Score: 1</strong></p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "bijdraagt aan eutrofiëring van oppervlaktewater."
+              },
+              {
+                "id": "B",
+                "text": "ingrijpt op het trofisch niveau van de producenten."
+              },
+              {
+                "id": "C",
+                "text": "niet of slecht biologisch afbreekbaar is."
+              },
+              {
+                "id": "D",
+                "text": "snel vervluchtigt waardoor het in de atmosfeer terechtkomt."
+              }
+            ],
+            "correct_answer": "C"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 4,
+        "opgave_titel": "Het syndroom van Swyer",
+        "vragen": [
+          {
+            "id": 22,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p>Emma is 17 jaar en heeft zich altijd een meisje gevoeld. Ze is echter nog nooit ongesteld geworden en heeft ook nauwelijks borstontwikkeling. Daarom gaat ze naar de huisarts. Emma krijgt een echoscopie. Op de echo is te zien dat ze wel een baarmoeder en eileiders heeft, maar geen eierstokken. De doktersassistent neemt bloed af bij Emma zodat in het laboratorium een karyogram gemaakt kan worden. In afbeelding 1 zie je het karyogram van Emma.</p><p>Het karyotype beschrijft per lichaamscel het totale aantal chromosomen, de geslachtschromosomen en eventuele extra chromosomen.</p>",
+            "bronverwijzing_tekst": "afbeelding 1",
+            "bron_verwijzing": "havo_biologie_tv1_opgave4_bron1.png",
+            "vraagtekst_html": "<p>Wat is het karyotype van Emma?</p>",
+            "correct_antwoord_model": "<p>D</p><p><strong>Score: 1</strong></p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "22, XY"
+              },
+              {
+                "id": "B",
+                "text": "23, XY"
+              },
+              {
+                "id": "C",
+                "text": "44, XY"
+              },
+              {
+                "id": "D",
+                "text": "46, XY"
+              }
+            ],
+            "correct_answer": "D"
+          },
+          {
+            "id": 23,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De huisarts laat het bloed van Emma ook onderzoeken op de aanwezigheid van geslachtshormonen. De concentraties van oestradiol (oestrogeen) en FSH in Emma's bloed blijken sterk af te wijken van de gemiddelde waarden voor vrouwen van dezelfde leeftijd: de concentratie oestradiol in haar bloed is lager en de concentratie FSH in haar bloed is hoger. In afbeelding 2 is de regulatie van de productie van oestradiol en FSH schematisch weergegeven.</p>",
+            "bronverwijzing_tekst": "afbeelding 2",
+            "bron_verwijzing": "havo_biologie_tv1_opgave4_bron2.png",
+            "vraagtekst_html": "<p>Verklaar waardoor de concentratie oestradiol bij Emma lager is dan gemiddeld. Verklaar waardoor de concentratie FSH bij Emma hoger is dan gemiddeld.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat:</p><ul><li>(bij Emma) eierstokken/follikels ontbreken. <strong>(1 punt)</strong></li><li>(door de lage oestradiolconcentratie) de productie (van FSH) niet/minder geremd wordt. <strong>(1 punt)</strong></li></ul><p><strong>Totaal Score: 2</strong></p>"
+          },
+          {
+            "id": 24,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De huisarts vermoedt dat Emma het syndroom van Swyer heeft. Vervolgonderzoek door een klinisch-genetisch arts bevestigt dit: door een mutatie is bij Emma het SRY-gen niet werkzaam. Normaal gesproken beïnvloedt dit gen, dat zich op het Y-chromosoom bevindt, de ontwikkeling van de geslachtsorganen. De arts legt uit: \"In de eerste weken van de embryonale ontwikkeling verloopt de aanleg van de geslachtsorganen van een jongen en een meisje hetzelfde: er worden oer-geslachtsklieren aangelegd. Als er geen SRY-gen aanwezig is, dan ontwikkelen deze oerklieren zich verder tot eierstokken. Is er wel een functionerend SRY-gen aanwezig, dan wordt vanaf de zesde week het SRY-eiwit gevormd, dat ervoor zorgt dat zaadballen worden aangelegd. Deze zaadballen gaan de hormonen testosteron en AMH vormen. Testosteron stimuleert de ontwikkeling van de bijballen en zaadleiders en andere mannelijke primaire geslachtskenmerken. AMH zorgt voor het verdwijnen van de aanleg van de vrouwelijke geslachtsorganen. Bij jou, Emma, is het SRY-gen wel aanwezig, maar door een mutatie kwam het niet tot expressie.\"</p><p>De mutatie van het SRY-gen van Emma heeft gevolgen op verschillende organisatieniveaus.</p><p>Vier gevolgen zijn:</p><ol><li>Er is sprake van onvruchtbaarheid.</li><li>Er ontwikkelen zich geen bijballen en zaadleiders.</li><li>Er vindt geen ontwikkeling plaats van testosteron-producerende cellen.</li><li>Er wordt geen SRY-eiwit gevormd.</li></ol><p>Vier organisatieniveaus zijn:</p><ul><li>P celniveau</li><li>Q molecuulniveau</li><li>R orgaanniveau</li><li>S organismeniveau</li></ul>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Schrijf de nummers van de gevolgen 1 tot en met 4 onder elkaar en noteer de letter van het bijbehorende organisatieniveau erachter. Gebruik elke letter één keer.</p>",
+            "correct_antwoord_model": "<p>1 S</p><p>2 R</p><p>3 P</p><p>4 Q</p><p><strong>Score:</strong></p><ul><li>indien vier nummers correct: 2 punten</li><li>indien drie of twee nummers correct: 1 punt</li><li>indien minder dan twee nummers correct: 0 punten</li></ul>"
+          },
+          {
+            "id": 25,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Over de mutatie die leidt tot het niet-werkzame SRY-gen worden de volgende uitspraken gedaan:</p><ol><li>De mutatie kan zijn ontstaan bij de vorming van een zaadcel.</li><li>Het is een genoommutatie.</li><li>Een persoon met mannelijke primaire geslachtskenmerken kan drager zijn van de mutatie.</li></ol>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Schrijf de nummers 1, 2 en 3 onder elkaar en noteer erachter of de betreffende uitspraak juist of onjuist is.</p>",
+            "correct_antwoord_model": "<p>1 juist</p><p>2 onjuist</p><p>3 onjuist</p><p><strong>Score:</strong></p><ul><li>indien drie nummers correct: 2 punten</li><li>indien twee nummers correct: 1 punt</li><li>indien minder dan twee nummers correct: 0 punten</li></ul>"
+          },
+          {
+            "id": 26,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Emma zou graag een vrouwelijker uiterlijk krijgen. Om haar borstontwikkeling te stimuleren krijgt ze daarom pillen met oestradiol. De oestradiolmoleculen worden geresorbeerd in de darm en bereiken het borstweefsel via een borstslagader.</p><p>Een aantal bloedvaten zijn:</p><ol><li>aorta</li><li>bovenste holle ader</li><li>darmslagader</li><li>leverader</li><li>leverslagader</li><li>longader</li><li>longslagader</li><li>onderste holle ader</li><li>poortader</li></ol>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Door welke van deze bloedvaten gaat een oestradiol-molecuul op de kortste weg vanuit de haarvaten in de darm tot aan de borstslagader? Noteer de betreffende nummers in de juiste volgorde.</p>",
+            "correct_antwoord_model": "<p>$9 - 4 - 8 - 7 - 6 - 1$</p><p><strong>Score:</strong></p><ul><li>indien alleen de zes juiste nummers in de juiste volgorde: 2 punten</li><li>indien alleen de zes juiste nummers in een onjuiste volgorde: 1 punt</li><li>indien de zes juiste nummers in de juiste volgorde met daarbij maximaal één onjuist nummer extra op een willekeurige plaats: 1 punt</li><li>indien vijf juiste nummers in de juiste volgorde met daarbij maximaal één onjuist nummer extra op een willekeurige plaats: 1 punt</li><li>in alle andere gevallen: 0 punten</li></ul>"
+          },
+          {
+            "id": 27,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Oestradiol leidt tot genexpressie in cellen van Emma's borstweefsel. Hierbij vinden de volgende processen plaats:</p><ul><li>P binding van een hormoon aan een hormoonreceptor</li><li>Q eiwit-vouwing in het cytoplasma</li><li>R transport naar de kern</li><li>S vorming van een keten van aminozuren aan de ribosomen</li><li>T vorming van RNA</li></ul><p>Deze processen zijn met nummers weergegeven in afbeelding 3.</p>",
+            "bronverwijzing_tekst": "afbeelding 3",
+            "bron_verwijzing": "havo_biologie_tv1_opgave4_bron3.png",
+            "vraagtekst_html": "<p>Schrijf de nummers 1 tot en met 5 (afbeelding 3) onder elkaar en noteer de letter van het bijbehorende proces erachter.</p>",
+            "correct_antwoord_model": "<p>1 P</p><p>2 R</p><p>3 T</p><p>4 S</p><p>5 Q</p><p><strong>Score:</strong></p><ul><li>indien vijf nummers correct: 2 punten</li><li>indien vier of drie nummers correct: 1 punt</li><li>indien minder dan drie nummers correct: 0 punten</li></ul>"
+          },
+          {
+            "id": 28,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p>Emma moet de oestradiolpillen dagelijks slikken, omdat het grootste deel van het oestradiol binnen enkele dagen na opname wordt uitgescheiden. Oestradiol komt dan terecht in de urine en in de ontlasting.</p><p>In de nieren komt oestradiol in de voorurine terecht. Daarna wordt in het eerste gekronkelde nierbuisje een deel van het oestradiol gereabsorbeerd.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>In welk deel van de nier vindt de vorming van voorurine plaats? En in welk deel van de nier vindt de reabsorptie (terugresorptie) van oestradiol plaats?</p>",
+            "correct_antwoord_model": "<p>D</p><p><strong>Score: 1</strong></p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "niermerg, niermerg"
+              },
+              {
+                "id": "B",
+                "text": "niermerg, nierschors"
+              },
+              {
+                "id": "C",
+                "text": "nierschors, niermerg"
+              },
+              {
+                "id": "D",
+                "text": "nierschors, nierschors"
+              }
+            ],
+            "correct_answer": "D"
+          },
+          {
+            "id": 29,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Oestradiol komt terecht in de ontlasting, omdat een deel op dezelfde manier als cholesterol wordt uitgescheiden.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Beschrijf op welke manier oestradiol wordt uitgescheiden zodat het terechtkomt in de ontlasting.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat oestradiol wordt uitgescheiden door de lever. / dat oestradiol via de gal terechtkomt in de darm.</p><p><strong>Score: 1</strong></p>"
+          },
+          {
+            "id": 30,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p>Emma vraagt aan de arts of ze later kinderen kan krijgen. Die vertelt haar dat ze misschien via eiceldonatie en ivf zwanger kan worden. De eiceldonor krijgt dan hormooninjecties toegediend, waardoor er meerdere eicellen gaan rijpen. Emma zal dan hormooninjecties toegediend krijgen die haar baarmoeder voorbereiden op de innesteling van een embryo.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Welk hormoon krijgt de eiceldonor toegediend? En welk hormoon of welke hormonen krijgt Emma toegediend?</p>",
+            "correct_antwoord_model": "<p>B</p><p><strong>Score: 1</strong></p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "FSH, LH"
+              },
+              {
+                "id": "B",
+                "text": "FSH, oestradiol en progesteron"
+              },
+              {
+                "id": "C",
+                "text": "oestradiol, LH"
+              },
+              {
+                "id": "D",
+                "text": "oestradiol, oestradiol en progesteron"
+              }
+            ],
+            "correct_answer": "B"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 5,
+        "opgave_titel": "Psychose door auto-immuunreactie?",
+        "vragen": [
+          {
+            "id": 31,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Charles heeft tweemaal meegemaakt dat hij stemmen hoorde die er niet waren. Hij is bang dat hij aan schizofrenie lijdt, een ziekte die meerdere van zijn familieleden hebben. De psychische aandoening schizofrenie is een ziekte waarbij iemands denken en waarnemen ernstig zijn verstoord. Een kenmerk van schizofrenie is het optreden van psychoses, waarbij iemand dingen waarneemt die er niet zijn. Maar niet iedereen die een psychose doormaakt, heeft schizofrenie. De precieze oorzaak van schizofrenie is nog niet bekend. Wel is duidelijk dat er een of meerdere erfelijke factoren een rol spelen. Als een familielid schizofrenie heeft, is de kans op het ontwikkelen van schizofrenie groter.</p><p>In de tabel is voor vijf verschillende situaties weergegeven hoe groot de kans is dat iemand de aandoening ontwikkelt.</p><table><thead><tr><th>situatie</th><th>familielid met schizofrenie</th><th>kans op het ontwikkelen van schizofrenie</th></tr></thead><tbody><tr><td>1</td><td>geen</td><td>1%</td></tr><tr><td>2</td><td>neef of nicht</td><td>3%</td></tr><tr><td>3</td><td>broer of zus</td><td>9%</td></tr><tr><td>4</td><td>tweelingbroer of -zus; twee-eiig</td><td>14%</td></tr><tr><td>5</td><td>tweelingbroer of -zus; eeneiig</td><td>50%</td></tr></tbody></table>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Verklaar waardoor de kans op het ontwikkelen van schizofrenie voor iemand in situatie 5 groter is dan voor iemand in situatie 4.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat eeneiige tweelingen genetisch (meer) overeenkomen. / dat twee-eiige tweelingen genetisch meer verschillen (dan eeneiige).</p><p><strong>Score: 1</strong></p><p><em>Opmerking: Als de kandidaat antwoordt dat eeneiige tweelingen hetzelfde DNA hebben of dat eeneiige tweelingen zijn ontstaan uit dezelfde eicel en zaadcel, het scorepunt toekennen.</em></p>"
+          },
+          {
+            "id": 32,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De gegevens in de tabel doen vermoeden dat, behalve genetische factoren, ook de milieu-omstandigheden in de baarmoeder of rondom de bevalling invloed hebben op de kans op schizofrenie.</p><p><strong>Tabel uit vraag 31:</strong></p><table><thead><tr><th>situatie</th><th>familielid met schizofrenie</th><th>kans op het ontwikkelen van schizofrenie</th></tr></thead><tbody><tr><td>1</td><td>geen</td><td>1%</td></tr><tr><td>2</td><td>neef of nicht</td><td>3%</td></tr><tr><td>3</td><td>broer of zus</td><td>9%</td></tr><tr><td>4</td><td>tweelingbroer of -zus; twee-eiig</td><td>14%</td></tr><tr><td>5</td><td>tweelingbroer of -zus; eeneiig</td><td>50%</td></tr></tbody></table>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit hoe de vergelijking van situatie 3 met situatie 4 leidt tot dit vermoeden.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat:</p><ul><li>de genetische overeenkomst bij situaties 3 en 4 (ongeveer) gelijk is. <strong>(1 punt)</strong></li><li>de (milieu-)omstandigheden in situatie 3 meer verschillend zijn geweest (dan in situatie 4). / de (milieu-)omstandigheden in situatie 4 (in de baarmoeder en rondom de bevalling min of meer) gelijk zijn geweest (en bij 3 niet). <strong>(1 punt)</strong></li></ul><p><strong>Totaal Score: 2</strong></p><p><em>Opmerking: Als de kandidaat antwoordt dat het percentage gelijk zou zijn als het alleen genetisch was, het eerste scorepunt toekennen.</em></p>"
+          },
+          {
+            "id": 33,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p>Een veelvoorkomend symptoom van een psychose is het waarnemen van stemmen die er niet zijn. Ook kan het zijn dat beelden, geuren of smaken die er niet zijn, waargenomen worden. Uit deze symptomen is af te leiden dat tijdens een psychose processen verstoord zijn in een bepaald deel van het centraal zenuwstelsel.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>In welk deel is dat?</p>",
+            "correct_antwoord_model": "<p>A</p><p><strong>Score: 1</strong></p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "in de grote hersenen"
+              },
+              {
+                "id": "B",
+                "text": "in de kleine hersenen"
+              },
+              {
+                "id": "C",
+                "text": "in het ruggenmerg"
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "id": 34,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>De Australische onderzoeker Fabienne Brilot onderzocht het afweersysteem van jongeren met psychoses. Bij 19% van deze jongeren vond zij in het bloed een antistof tegen de receptor voor een bepaalde neurotransmitter. Hieruit concludeerde Brilot dat deze jongeren een auto-immuunziekte hebben: hun afweersysteem richt zich tegen een lichaamseigen stof. In de afbeelding is een synaps weergegeven. Vier onderdelen zijn met letters aangegeven.</p><p>De antistof tegen de receptor voor de neurotransmitter verstoort de impulsoverdracht.</p>",
+            "bronverwijzing_tekst": "de afbeelding",
+            "bron_verwijzing": "havo_biologie_tv1_opgave5_bron1.png",
+            "vraagtekst_html": "<p>Noteer de letter van het onderdeel in de afbeelding waaraan deze antistof zich hecht.</p>",
+            "correct_antwoord_model": "<p>(alleen de letter) S</p><p><strong>Score: 1</strong></p>"
+          },
+          {
+            "id": 35,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p>Charles leest dat het onderzoek van Brilot in samenwerking met de universiteit van Maastricht wordt uitgebreid. Voor dit onderzoek worden proefpersonen gezocht. Charles besluit contact op te nemen. Na een intake door een psychiater wordt een bloedmonster van Charles onderzocht in een laboratorium. In het laboratorium voegt een laborant een bepaalde stof toe aan het bloedmonster om de auto-immuunziekte te kunnen vaststellen.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Welke stof heeft de laborant toegevoegd?</p>",
+            "correct_antwoord_model": "<p>C</p><p><strong>Score: 1</strong></p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "de antistof"
+              },
+              {
+                "id": "B",
+                "text": "de neurotransmitter"
+              },
+              {
+                "id": "C",
+                "text": "de receptor voor de neurotransmitter"
+              }
+            ],
+            "correct_answer": "C"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 6,
+        "opgave_titel": "Quinoa",
+        "vragen": [
+          {
+            "id": 36,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p>Anouk heeft tuinbouw en akkerbouw aan de HAS Hogeschool gestudeerd. Tijdens haar stage in Peru heeft ze kennisgemaakt met de teelt van quinoa. Als ze na haar studie het akkerbouwbedrijf van haar ouders overneemt, besluit ze ook quinoa te gaan telen. Quinoa (Chenopodium quinoa, afbeelding 1) is een gewas dat al eeuwen geteeld wordt in Bolivia en Peru. De plant vormt grote trossen met kleine eetbare zaadjes die een hoge voedingswaarde hebben. Quinoa is een zeer tolerant gewas, vooral wat droogte betreft. Het verdraagt zowel hoge temperaturen als nachtvorst, en kan ook op verzilte bodems groeien.</p><p>Anouk vindt dat in de toekomst zowel de manier van voedsel produceren als de manier van voedsel consumeren zal moeten veranderen om de groeiende wereldbevolking van voedsel te kunnen voorzien. Zelf is ze veganist geworden en eet dus geen dierlijke producten zoals vlees, vis, eieren en zuivelproducten.</p>",
+            "bronverwijzing_tekst": "afbeelding 1",
+            "bron_verwijzing": "havo_biologie_tv1_opgave6_bron1.png",
+            "vraagtekst_html": "<p>Tot welk trofisch niveau behoort een veganist? En tot welk trofisch niveau behoort iemand die zowel plantaardige als dierlijke producten eet?</p>",
+            "correct_antwoord_model": "<p>C</p><p><strong>Score: 1</strong></p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "producent, consument 1e orde en hoger"
+              },
+              {
+                "id": "B",
+                "text": "producent, alleen consument 2e orde en hoger"
+              },
+              {
+                "id": "C",
+                "text": "alleen consument 1e orde, consument 1e orde en hoger"
+              },
+              {
+                "id": "D",
+                "text": "alleen consument 1e orde, alleen consument 2e orde en hoger"
+              },
+              {
+                "id": "E",
+                "text": "consument 1e orde en hoger, consument 1e orde en hoger"
+              },
+              {
+                "id": "F",
+                "text": "consument 1e orde en hoger, alleen consument 2e orde en hoger"
+              }
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "id": 37,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Een veganistische levenswijze heeft invloed op het gebruik van landbouwgrond.</p><p>Voor het voeden van een groep mensen met een veganistische levenswijze is minder landbouwgrond nodig dan voor een even grote groep mensen die wel dierlijke producten eten.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Licht dit toe aan de hand van de energiestroom door een ecosysteem.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat er verlies van energie is bij elke (volgende) schakel in een voedselketen.</p><p><strong>Score: 1</strong></p><p><em>Opmerking: Als de kandidaat antwoordt dat er warmteverlies is bij elke schakel in een voedselketen, of dat er bij elke schakel in een voedselketen een deel van de vastgelegde organische stof verdwijnt als dood materiaal en afval, het scorepunt toekennen.</em></p>"
+          },
+          {
+            "id": 38,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Anouk moet er als veganist op letten dat haar voeding voldoende eiwitrijk is. Quinoa is een goede bron van plantaardige eiwitten, omdat het alle essentiële aminozuren bevat.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Beschrijf wat essentiële aminozuren zijn.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat het aminozuren zijn die in het voedsel aanwezig moeten zijn. / dat het aminozuren zijn die de mens niet zelf kan maken (op basis van andere aminozuren).</p><p><strong>Score: 1</strong></p>"
+          },
+          {
+            "id": 39,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p>De quinoaplant neemt bepaalde bouwstoffen op uit het milieu voor de productie van eiwitten.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Wat neemt de plant op als bouwstof voor eiwitten?</p>",
+            "correct_antwoord_model": "<p>D</p><p><strong>Score: 1</strong></p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "alleen $NO_{3}^{-}$"
+              },
+              {
+                "id": "B",
+                "text": "alleen $NO_{3}^{-}$ en $CO_{2}$"
+              },
+              {
+                "id": "C",
+                "text": "alleen $NO_{3}^{-}$ en $H_{2}O$"
+              },
+              {
+                "id": "D",
+                "text": "$NO_{3}^{-}$, $CO_{2}$ en $H_{2}O$"
+              }
+            ],
+            "correct_answer": "D"
+          },
+          {
+            "id": 40,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>In het jaar voordat Anouk een akker gaat gebruiken voor de teelt van quinoa, laat ze er vlinderbloemige planten op groeien. Vlinderbloemige planten bezitten wortelknolletjes waarin knolletjesbacteriën leven. Door deze planten onder te ploegen, komt er uiteindelijk meer $NO_{3}^{-}$ in de bodem.</p><p>Vier processen uit de stikstofkringloop zijn:</p><ol><li>ammonificatie door rottingsbacteriën</li><li>nitrificatie door nitrietbacteriën en nitraatbacteriën</li><li>stikstofassimilatie door vlinderbloemige planten</li><li>stikstoffixatie door knolletjesbacteriën</li></ol>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>In welke volgorde vinden deze processen plaats op de akker zodat uiteindelijk $NO_{3}^{-}$ beschikbaar is voor quinoa? Noteer de vier nummers in de juiste volgorde.</p>",
+            "correct_antwoord_model": "<p>$4 - 3 - 1 - 2$</p><p><strong>Score: 2</strong> (voor de volledige correcte volgorde)</p>"
+          },
+          {
+            "id": 41,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p>Anouk zaait de quinoa in maart. Nadat de zaden gekiemd zijn, groeien de planten goed. De biomassa van quinoaplanten kan snel toenemen: in vijf maanden groeit er uit een zaadje een forse plant van 1 tot 1,5 meter hoogte.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Welke beschrijving van biomassa is juist?</p>",
+            "correct_antwoord_model": "<p>B</p><p><strong>Score: 1</strong></p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "het gewicht aan anorganische stof"
+              },
+              {
+                "id": "B",
+                "text": "het gewicht aan organische stof"
+              },
+              {
+                "id": "C",
+                "text": "het gewicht van het eetbare deel"
+              }
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "id": 42,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Naast de quinoa-akker ligt een sloot. Anouk zaait tussen de akker en de sloot een zes meter brede strook in met inheemse wilde bloemen. De strook vergroot de biodiversiteit en kan tegengaan dat er te veel meststoffen vanuit de akker in het water terechtkomen.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Noteer de biologische term voor een teveel aan meststoffen in het water.</p>",
+            "correct_antwoord_model": "<p>eutrofiëring/vermesting</p><p><strong>Score: 1</strong></p><p><em>Opmerking: Aan het antwoord overbemesting, geen scorepunt toekennen.</em></p>"
+          },
+          {
+            "id": 43,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Steeds meer landbouwgronden verzilten: het grondwater wordt zouter door binnendringend zeewater. Ook de akkerbouwgrond van Anouk verzilt langzaam. De meeste landbouwgewassen kunnen daar niet goed tegen.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Verklaar waardoor het voor een plant moeilijk is om water op te nemen uit een bodem waarin het grondwater verzilt is.</p>",
+            "correct_antwoord_model": "<p>Voorbeelden van een juist antwoord:</p><ul><li>In een omgeving met zout grondwater diffundeert het water uit de hypotone cellen naar het hypertone grondwater.</li><li>De osmotische waarde van het grondwater is te hoog om water aan te onttrekken.</li><li>Door osmose gaat het water juist de plant uit.</li><li>Water uit de plant gaat naar de hoge zoutconcentratie van de bodem.</li><li>Het verschil in osmotische waarde wordt veel kleiner, waardoor de plant minder water kan opnemen.</li></ul><p><strong>Score: 1</strong> (voor een van de bovenstaande of vergelijkbare correcte verklaringen)</p>"
+          },
+          {
+            "id": 44,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Quinoa is zouttolerant omdat het veel meer zout-ionen zoals $Na^{+}$ en $Cl^{-}$ opneemt dan andere landbouwgewassen. Deze zout-ionen worden na opname in de wortel via de vaatbundels naar de bladeren vervoerd. Daar worden ze opgeslagen in gespecialiseerde epidermiscellen die een uitstulping hebben: de zoutblaas (afbeelding 2). In die zoutblaas bevindt zich een vacuole waar zout-ionen in hoge concentraties kunnen worden opgeslagen.</p><p>Over de opslag van zout-ionen in de epidermiscellen van quinoa worden de volgende uitspraken gedaan:</p><ol><li>Door de opslag van zout-ionen wordt de vacuole hypotoon ten opzichte van de rest van de cel.</li><li>De opname van zout-ionen in de vacuole in een zoutblaas verloopt via membraaneiwitten.</li><li>De opname van zout-ionen in de vacuolen van de zoutblazen kost ATP.</li></ol>",
+            "bronverwijzing_tekst": "afbeelding 2",
+            "bron_verwijzing": "havo_biologie_tv1_opgave6_bron2.png",
+            "vraagtekst_html": "<p>Schrijf de nummers 1, 2 en 3 onder elkaar en noteer erachter of de betreffende uitspraak juist of onjuist is.</p>",
+            "correct_antwoord_model": "<p>1 onjuist</p><p>2 juist</p><p>3 juist</p><p><strong>Score:</strong></p><ul><li>indien drie nummers correct: 2 punten</li><li>indien twee nummers correct: 1 punt</li><li>indien minder dan twee nummers correct: 0 punten</li></ul>"
+          },
+          {
+            "id": 45,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>In Peru wordt van quinoa het drankje chicha gemaakt. Anouk wil dit ook proberen. Ze vermaalt quinoazaden, voegt water toe en steriliseert het mengsel door het tien minuten te verhitten tot $95^{\\circ}C$. Vervolgens voegt ze er melkzuurbacteriën aan toe. Na een paar dagen is de chicha klaar. Het melkzuur geeft het drankje een lichtzure, frisse smaak.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Noteer de naam van het proces waarbij melkzuur ontstaat.</p>",
+            "correct_antwoord_model": "<p>(melkzuur)gisting / anaerobe dissimilatie / fermentatie</p><p><strong>Score: 1</strong></p>"
+          }
+        ]
+      }
+    ]
+  }

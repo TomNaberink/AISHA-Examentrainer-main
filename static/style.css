@@ -1,0 +1,2008 @@
+/* --- COMPLETE CSS RESET AND REBUILD --- */
+
+/* Base Styles */
+:root {
+    --primary-color: #5e35b1; /* Mooi paars */
+    --primary-dark: #4527a0;
+    --primary-light: #9575cd;
+    --secondary-color: #6c757d; /* Grijs voor secundaire elementen */
+    --light-gray: #f8f9fa;
+    --medium-gray: #e9ecef;
+    --dark-gray: #343a40;
+    --success-color: #28a745; /* Groen voor feedback/correct */
+    --danger-color: #dc3545; /* Rood voor incorrect */
+    --info-color: #17a2b8; /* Blauw voor brontekst */
+    --warning-color: #ffb74d; /* Geel/Oranje voor hint */
+    --background-color: #ffffff;
+    --text-color: #212529;
+    --border-radius: 0.4rem;
+    --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.07); /* Subtielere shadow */
+    --font-family: 'Nunito', sans-serif; /* Gebruik Nunito */
+    --accent-color: var(--primary-color);
+
+    /* Specifieke kleuren per sectie */
+    --color-brontekst: var(--info-color);
+    --color-vraag: #5c6bc0; /* Indigo */
+    --color-antwoord: var(--primary-color); /* Paars */
+    --color-feedback: var(--success-color); /* Groen */
+    --color-followup: #009688; /* Teal */
+    --color-navigatie: #ff7043; /* Oranje */
+    --color-hint: var(--warning-color); /* Amber/Oranje */
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Importeren van Nunito lettertype */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.6;
+    background-color: var(--light-gray);
+    color: var(--text-color);
+    padding-top: 0; /* Header regelt zijn eigen ruimte */
+    letter-spacing: 0.01em;
+}
+
+/* Header styling */
+.main-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.main-header h1 {
+    margin: 0;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.home-link {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    font-size: 0.9em;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
+}
+
+.home-link:hover {
+    opacity: 1;
+}
+
+.home-link svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    stroke: white; /* Zorg dat het icoon wit is */
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px; /* Padding alleen links/rechts, boxen regelen de rest */
+}
+
+/* ----------- BASIS BOX STYLING ----------- */
+.box {
+    background-color: var(--background-color);
+    border: 1px solid var(--medium-gray);
+    border-radius: var(--border-radius);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: var(--box-shadow);
+    border-left-width: 0; /* Ensure base box has no left border width */
+}
+
+/* Specific Box Borders - Explicit Properties */
+.context-box {
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: var(--info-color, #17a2b8); /* Blauw */
+}
+
+.bron-box {
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: #e91e63; /* <<< CHANGED TO ROZE/MAGENTA */
+}
+
+.question-section {
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: var(--dark-gray, #343a40); /* Donkergrijs */
+}
+
+.feedback-box {
+    border-left-width: 4px !important; /* Keep forcing thickness */
+    border-left-style: solid;
+    border-left-color: var(--success-color, #28a745); /* <<< CHANGED DEFAULT TO GROEN */
+}
+
+/* Dynamic Feedback Box Borders (Only change color) */
+.feedback-box.correct {
+    border-left-color: var(--success-color, #28a745); /* Groen */
+}
+.feedback-box.incorrect {
+    border-left-color: var(--danger-color, #dc3545); /* Rood */
+}
+.feedback-box.partial {
+    border-left-color: var(--warning-color, #ffb74d); /* Oranje */
+}
+/* Removed the default purple rule as default is now green */
+
+/* Kleurcodering per sectie - Verwijder deze oude regels om conflicten te voorkomen */
+/* .bron-tekst-box { border-left-color: var(--color-brontekst); } */
+/* .vraag-box { border-left-color: var(--color-vraag); } */
+/* .antwoord-box { border-left-color: var(--color-antwoord); } */
+/* .feedback-box { border-left-color: var(--color-feedback); } */ /* Already handled */
+/* .follow-up-chat { border-left-color: var(--color-followup); } */ /* Already handled */
+/* .navigatie-box { border-left-color: var(--color-navigatie); } */
+/* .hint-box { border-left-color: var(--color-hint); } */ /* Already handled */
+
+/* Titels binnen de boxen */
+.box h2, .box h3, .box h4 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--medium-gray); /* Subtiele lijn onder titels */
+    font-size: 1.2em; /* Consistente grootte */
+}
+/* Override font-size voor h2 */
+.box h2 {
+    font-size: 1.3em;
+}
+
+/* Specifieke titelkleuren per sectie */
+.bron-tekst-box > details > summary { color: var(--color-brontekst); border-bottom: none; padding-bottom: 0; font-weight: 600;} /* Geen border voor summary */
+.vraag-box > h3 { color: var(--color-vraag); border-bottom-color: var(--color-vraag); }
+.antwoord-box > h2 { color: var(--color-antwoord); border-bottom-color: var(--color-antwoord); }
+.feedback-box > h2 { color: var(--color-feedback); border-bottom-color: var(--color-feedback); }
+.hint-box > div > h3 { color: var(--color-hint); border-bottom-color: var(--color-hint); margin-bottom: 10px; padding-bottom: 5px;}
+.follow-up-chat > h3 { color: var(--color-followup); border-bottom-color: var(--color-followup); }
+.follow-up-chat h4 { color: var(--color-followup); border-bottom: none; margin-bottom: 10px; font-size: 1.1em; } /* Antwoord titel geen lijn */
+
+
+/* ----------- KNOP STYLING ----------- */
+
+/* Algemene Knop Basis */
+button, input[type="button"], input[type="submit"] {
+    font-family: var(--font-family);
+    border-radius: var(--border-radius);
+    padding: 10px 20px;
+    font-size: 0.95em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, transform 0.1s ease;
+    border: 1px solid transparent;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.5; /* Zorg voor goede verticale uitlijning tekst */
+}
+button:active, input[type="button"]:active, input[type="submit"]:active {
+    transform: translateY(1px); /* Licht indruk effect */
+}
+
+/* Primaire Actie Knoppen (Verstuur Antwoord) */
+#submitAnswer {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-dark);
+}
+#submitAnswer:hover:not(:disabled) {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+#submitAnswer:disabled {
+    background-color: var(--medium-gray);
+    border-color: var(--medium-gray);
+    color: var(--secondary-color);
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+/* Secundaire Actie Knoppen (Hint, Verstuur Vraag) */
+#hintButton,
+#sendFollowUp {
+    background-color: var(--secondary-color);
+    color: white;
+    border-color: var(--dark-gray);
+}
+#hintButton:hover:not(:disabled),
+#sendFollowUp:hover:not(:disabled) {
+    background-color: var(--dark-gray);
+    border-color: var(--dark-gray);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+#sendFollowUp:disabled { /* Specifiek voor follow-up */
+     background-color: var(--medium-gray);
+     border-color: var(--medium-gray);
+    color: var(--secondary-color);
+     cursor: not-allowed;
+     opacity: 0.7;
+}
+
+/* Button Group (voor Verstuur/Hint knoppen naast elkaar) */
+.button-group {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start; /* Knoppen aan het begin (links) */
+}
+
+/* MC Optie Knoppen */
+.mc-option-button {
+    display: block; /* Volledige breedte */
+    width: 100%;
+    text-align: left;
+    padding: 12px 18px; /* Padding binnen de knop */
+    margin-bottom: 10px; /* Ruimte onder elke knop */
+    background-color: white; /* Standaard wit */
+    color: var(--text-color);
+    border: 1px solid var(--medium-gray); /* Standaard grijze border */
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+    font-size: 1em;
+    line-height: 1.5;
+    position: relative;
+}
+.mc-option-button .option-letter { /* Styling voor "A.", "B.", etc. */
+    font-weight: 600;
+    margin-right: 10px;
+    color: var(--primary-color); /* Paarse letter */
+    display: inline-block; /* Zorgt voor consistente uitlijning */
+    width: 20px; /* Vaste breedte voor uitlijning */
+}
+.mc-option-button:hover {
+    background-color: #ede7f6;
+    border-color: var(--primary-light);
+}
+.mc-option-button.active {
+    background-color: var(--primary-color);
+    border-color: var(--primary-dark);
+    color: white;
+    font-weight: bold;
+}
+.mc-option-button.active .option-letter {
+    color: white;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+/* Styling NADAT antwoord is ingediend (disabled state) */
+.mc-options.disabled .mc-option-button { /* Stijl alle knoppen als container disabled is */
+    cursor: default;
+    opacity: 0.9;
+}
+.mc-options.disabled .mc-option-button:not(.selected):not(.correct) { /* Niet-geselecteerde, foute antwoorden */
+     background-color: #f5f5f5; /* Heel licht grijs */
+    border-color: var(--medium-gray);
+     color: var(--secondary-color); /* Tekst ook grijs */
+    opacity: 0.7;
+}
+.mc-options.disabled .mc-option-button:not(.selected):not(.correct) .option-letter {
+    color: var(--secondary-color); /* Letter ook grijs */
+}
+.mc-options.disabled .mc-option-button.correct { /* Correct antwoord (ongeacht of geselecteerd) */
+    background-color: #e8f5e9; /* Licht groen */
+    border-color: var(--success-color); /* Groene border */
+    color: #1b5e20; /* Donkergroene tekst */
+    font-weight: 500;
+}
+.mc-options.disabled .mc-option-button.correct .option-letter {
+    color: var(--success-color); /* Groene letter */
+    font-weight: 700;
+}
+.mc-options.disabled .mc-option-button.selected.incorrect { /* Gekozen, maar incorrect antwoord */
+    background-color: #ffebee; /* Licht rood */
+    border-color: var(--danger-color); /* Rode border */
+    color: #b71c1c; /* Donkerrode tekst */
+    opacity: 1.0; /* Maak deze duidelijk zichtbaar */
+}
+.mc-options.disabled .mc-option-button.selected.incorrect .option-letter {
+    color: var(--danger-color); /* Rode letter */
+    font-weight: 700;
+}
+
+/* ----------- SPECIFIEKE SECTIE STYLING ----------- */
+
+/* Brontekst */
+.bron-tekst-box details {
+    border: none;
+    margin-bottom: 0;
+}
+.bron-tekst-box summary {
+    padding: 10px 0 5px 0;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1em;
+    list-style: none;
+}
+.bron-tekst-box summary::-webkit-details-marker {
+    display: none;
+}
+.bron-tekst-box summary::after {
+    content: 'Verberg';
+    font-size: 0.85em;
+    font-weight: normal;
+    color: var(--secondary-color);
+    margin-left: 10px;
+    background-color: var(--light-gray);
+    padding: 3px 8px;
+    border-radius: var(--border-radius);
+    transition: background-color 0.2s ease;
+}
+.bron-tekst-box details:not([open]) summary::after {
+    content: 'Toon';
+}
+.bron-tekst-box summary:hover::after {
+    background-color: var(--medium-gray);
+}
+.bron-tekst-content {
+    padding: 20px 0 0 0;
+    line-height: 1.7;
+}
+.bron-tekst-content p,
+.formatted-text p {
+    margin-bottom: 1.2em;
+}
+.opgave-titel-in-box {
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    border: none;
+    padding-bottom: 0;
+}
+.formatted-text p:last-child {
+    margin-bottom: 0; /* Geen extra marge onder laatste alinea */
+}
+
+/* Vraagtekst */
+.vraag-tekst-wrapper {
+    font-size: 1.05em;
+    line-height: 1.7;
+    margin-top: 10px; /* Beetje ruimte na titel */
+}
+.vraag-tekst-wrapper p:last-child {
+    margin-bottom: 0;
+}
+
+/* Feedback & Follow-up Antwoord Content */
+#feedbackContent, #followUpAnswerContent {
+    padding: 15px;
+    background-color: var(--light-gray); /* Lichte achtergrond voor leesbaarheid */
+    border: 1px solid var(--medium-gray); /* Subtiele border */
+    border-radius: var(--border-radius);
+    margin-top: 15px;
+    line-height: 1.7;
+}
+#feedbackContent > *:first-child,
+#followUpAnswerContent > *:first-child {
+    margin-top: 0; /* Geen extra marge boven eerste element */
+}
+#feedbackContent > *:last-child,
+#followUpAnswerContent > *:last-child {
+    margin-bottom: 0; /* Geen extra marge onder laatste element */
+}
+#feedbackContent strong, #followUpAnswerContent strong {
+    font-weight: 600;
+    color: var(--primary-dark) !important; /* Belangrijke termen paars maken */
+}
+#feedbackContent code, #followUpAnswerContent code {
+    background-color: var(--medium-gray);
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+/* Follow-up Vraag Input */
+#followUpQuestion {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--medium-gray);
+    border-radius: var(--border-radius);
+    margin-bottom: 12px;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+#followUpQuestion:focus {
+    outline: none;
+    border-color: var(--color-followup);
+    box-shadow: 0 0 0 2px rgba(0, 150, 136, 0.2); /* Teal focus glow */
+}
+
+/* Hint Box */
+.hint-box {
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: var(--color-hint, var(--warning-color, #ffb74d)); /* Oranje */
+    background-color: #fff8e1; /* Lichter geel/creme */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#hideHintButton { /* Close knop voor hint */
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 1.8em; /* Groter voor makkelijker klikken */
+    line-height: 1;
+    cursor: pointer;
+    color: var(--color-hint);
+    opacity: 0.7;
+    padding: 5px; /* Iets meer klikgebied */
+    transition: opacity 0.2s ease;
+}
+#hideHintButton:hover {
+    opacity: 1;
+}
+#hintContent {
+    padding-top: 10px;
+    clear: both; /* Zorg dat content onder de knop begint */
+}
+#hintContent > *:last-child {
+    margin-bottom: 0;
+}
+
+/* Navigatie */
+.navigatie-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Wrap als het niet past */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid var(--medium-gray); /* Lijn boven navigatie */
+    margin-top: 30px;
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: var(--color-navigatie, #ff7043); /* Oranje */
+}
+.nav-button-styling { /* Vorige/Volgende knoppen */
+     background-color: var(--secondary-color);
+     color: white;
+     padding: 8px 16px;
+     border: none;
+     font-size: 0.9em;
+}
+.nav-button-styling:hover {
+    background-color: var(--dark-gray);
+}
+.nav-items-container {
+    width: 100%; /* Volle breedte voor vraagnummers */
+    margin-top: 20px;
+    order: 3; /* Zorg dat dit altijd onderaan staat in flex */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.nav-item { /* Vraagnummer link/span */
+    display: inline-block;
+    min-width: 35px;
+    padding: 8px 10px;
+    border: 1px solid var(--medium-gray);
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    color: var(--primary-color);
+    background-color: white;
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+.nav-item:hover {
+    background-color: var(--light-gray);
+    border-color: var(--primary-color);
+    color: var(--primary-dark);
+}
+.nav-item.active { /* Huidige vraagnummer */
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    border-color: var(--primary-dark);
+}
+
+/* Kleurcodering voor navigatie-items op basis van status */
+.nav-item.correct {
+    background-color: var(--success-color) !important; /* Groen */
+    color: white !important;
+    border-color: #1e7e34 !important; /* Donkerder groen */
+}
+.nav-item.partial,
+.nav-item.pending {
+    background-color: var(--warning-color) !important; /* Oranje */
+    color: var(--dark-gray) !important;
+    border-color: #d39e00 !important; /* Donkerder oranje */
+}
+.nav-item.incorrect {
+    background-color: var(--danger-color) !important; /* Rood */
+    color: white !important;
+    border-color: #b82a39 !important; /* Donkerder rood */
+}
+.nav-item.answered {
+    /* Subtiele indicatie voor beantwoord (open/citeer) */
+    /* background-color: var(--light-gray); */
+    border-color: var(--primary-color);
+}
+
+/* Zorg dat actieve staat de statuskleur niet overschrijft, behalve de border */
+.nav-item.active.correct,
+.nav-item.active.partial,
+.nav-item.active.incorrect,
+.nav-item.active.pending,
+.nav-item.active.answered {
+     background-color: var(--primary-color); /* Blijf paars als actief */
+     color: white; 
+     border: 2px solid white; /* Extra border om actieve status te benadrukken bovenop kleur? Of gebruik statuskleur als border */
+     /* border-color: white !important; */ /* Of: gebruik de status kleur als border? */
+}
+.nav-item.active.correct { border-color: var(--success-color) !important; }
+.nav-item.active.partial { border-color: var(--warning-color) !important; } 
+.nav-item.active.incorrect { border-color: var(--danger-color) !important; }
+.nav-item.active.pending { border-color: var(--warning-color) !important; }
+.nav-item.active.answered { border-color: var(--primary-dark) !important; }
+
+/* Loading / Error Indicators */
+#loadingIndicator, #errorIndicator, #hintLoadingIndicator, #followUpLoadingIndicator {
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: var(--border-radius);
+    font-style: italic;
+    text-align: center;
+    border: 1px solid transparent;
+}
+#loadingIndicator, #hintLoadingIndicator, #followUpLoadingIndicator {
+    background-color: var(--light-gray);
+    border-color: var(--medium-gray);
+    color: var(--secondary-color);
+}
+#errorIndicator {
+    background-color: #fdecea; /* Lichter rood */
+    border-color: var(--danger-color);
+    color: #b71c1c; /* Donkerder rood */
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* Markdown Content Styling (voor feedback, hint, etc.) */
+.markdown-content p { margin-bottom: 1em; }
+.markdown-content p:last-child { margin-bottom: 0; }
+.markdown-content ul, .markdown-content ol { margin-left: 25px; margin-bottom: 1em; padding-left: 0; }
+.markdown-content li { margin-bottom: 0.5em; }
+.markdown-content strong { font-weight: 600; color: inherit; /* Behoud kleur van parent */}
+.markdown-content em { font-style: italic; }
+.markdown-content code {
+    background-color: var(--medium-gray);
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 0.9em;
+    color: var(--dark-gray);
+}
+.markdown-content pre {
+    background-color: var(--medium-gray);
+    padding: 10px;
+    border-radius: var(--border-radius);
+    overflow-x: auto;
+    margin-bottom: 1em;
+}
+.markdown-content pre code {
+    background-color: transparent;
+    padding: 0;
+    font-size: 0.85em;
+    color: var(--dark-gray);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+    .box {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .main-header {
+        padding: 10px 20px;
+        margin-bottom: 20px;
+    }
+     .main-header h1 {
+    font-size: 1.3em;
+     }
+    .button-group {
+        flex-direction: column; /* Knoppen onder elkaar op mobiel */
+        align-items: stretch; /* Volle breedte */
+    }
+     .button-group button {
+        width: 100%;
+     }
+    .navigatie-box {
+        flex-direction: column; /* Nav items onder elkaar */
+        align-items: stretch; /* Alles volle breedte */
+        gap: 15px;
+    }
+    #prev-question-btn { order: 1; } /* Vorige eerst */
+    #next-question-btn { order: 2; } /* Volgende daarna */
+    .nav-items-container { order: 3; margin-top: 15px; } /* Nummers laatst */
+}
+
+/* --- Einde van de reset/rebuild --- */
+
+/* --- Styling voor Wel/Niet Knoppen --- */
+.wel-niet-option {
+    margin-bottom: 20px; /* Ruimte tussen de beweringen */
+    padding-bottom: 15px;
+    border-bottom: 1px dashed var(--medium-gray); /* Lijn tussen beweringen */
+}
+.wel-niet-option:last-child {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.bewering {
+    margin-bottom: 10px; /* Ruimte tussen bewering en knoppen */
+    font-weight: 500;
+}
+.wel-niet-buttons {
+    display: flex; /* Knoppen naast elkaar */
+    gap: 10px; /* Ruimte tussen Wel/Niet */
+}
+.wel-niet-button {
+    flex-grow: 1; /* Laat knoppen groeien om ruimte te vullen */
+    padding: 10px 15px;
+    border: 1px solid var(--medium-gray);
+    background-color: white;
+    color: var(--secondary-color);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+.wel-niet-button:hover {
+    background-color: #ede7f6; /* Zeer licht paars */
+    border-color: var(--primary-light);
+}
+.wel-niet-button.active {
+    background-color: var(--primary-color); 
+    border-color: var(--primary-dark);
+    color: white;
+    font-weight: bold;
+}
+/* Styling na verzenden (eventueel later toe te voegen met correct/incorrect klassen) */
+.wel-niet-buttons.disabled .wel-niet-button {
+    cursor: default;
+    opacity: 0.8;
+}
+/* --- Einde Wel/Niet Styling --- */
+
+/* --- Styling voor Examen Selectie Knoppen --- */
+.subjects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px;
+}
+
+.subject-card {
+    background-color: white;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    overflow: hidden; /* Ensure content stays within bounds */
+    display: flex;
+    flex-direction: column;
+}
+
+.subject-card-header {
+    background-color: var(--primary-light); /* Lichter paars voor header */
+    padding: 12px 15px;
+}
+
+.subject-card-header h3 {
+    margin: 0;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+    border-bottom: none; /* Geen lijn onder kaart titel */
+}
+
+.subject-card-content {
+    padding: 15px;
+    flex-grow: 1; /* Allow content to fill space */
+}
+
+.exam-links {
+    display: flex;
+    flex-direction: column; /* Knoppen onder elkaar */
+    gap: 10px;
+}
+
+a.exam-button {
+    display: block; /* Maak de hele link klikbaar */
+    padding: 10px 15px;
+    background-color: var(--primary-color); /* Paarse achtergrond */
+    color: white; /* Witte tekst */
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    text-align: center;
+    font-weight: 500;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    border: 1px solid var(--primary-dark);
+}
+
+a.exam-button:hover {
+    background-color: var(--primary-dark); /* Donkerder paars bij hover */
+    color: white;
+}
+
+a.exam-button:active {
+    transform: translateY(1px); /* Indruk effect */
+}
+
+/* Nieuwe stijlen voor sleepbare items */
+.order-item {
+    background-color: #f9f9f9; /* Lichte achtergrond */
+    border: 1px dashed #ccc;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    cursor: grab; /* Maak duidelijk dat het sleepbaar is */
+    transition: background-color 0.2s ease, box-shadow 0.2s ease; /* Vloeiende overgang */
+}
+
+.order-item:hover {
+    background-color: #eee;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtiele schaduw bij hover */
+}
+
+.order-item:active {
+    cursor: grabbing; /* Verander cursor tijdens slepen */
+}
+
+/* Stijl voor de "ghost" (placeholder tijdens slepen) - optioneel */
+.sortable-ghost {
+    opacity: 0.4;
+    background: #c8ebfb;
+}
+
+/* Feedback Box Styling */
+.feedback-box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Styling voor de examen selectie pagina */
+body.selection-page {
+    background-color: #120822; /* Zeer donker paars/blauw basis */
+    color: #E0E0E0; /* Lichtgrijs voor tekst */
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    overflow-x: hidden; /* Voorkom horizontale scrollbars */
+}
+
+.selection-container {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.selection-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.logo {
+    max-height: 80px; /* Pas aan naar de grootte van je logo */
+    margin-bottom: 15px;
+}
+
+.selection-header h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.selection-header .subtitle {
+    font-size: 1.1em;
+    color: #666;
+    margin-top: 0;
+}
+
+.selection-container h2 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.level-section {
+    margin-bottom: 40px;
+}
+
+.level-section h3 {
+    font-size: 1.8em;
+    color: #0056b3; /* Blauwe kleur voor niveau */
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 8px;
+    margin-bottom: 25px;
+}
+
+.subject-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 25px;
+}
+
+.subject-card {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.subject-card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+}
+
+.subject-card h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    color: #333;
+    text-align: center;
+}
+
+.time-period-buttons {
+    display: flex;
+    flex-direction: column; /* Knoppen onder elkaar */
+    gap: 10px;
+}
+
+.btn-exam {
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+    background-color: #6a1b9a; /* Paars */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    font-weight: 500;
+}
+
+.btn-exam:hover {
+    background-color: #4a148c; /* Donkerder paars */
+    color: white;
+}
+
+/* Responsive aanpassingen */
+@media (max-width: 768px) {
+    .selection-container {
+        padding: 15px;
+    }
+    .selection-header h1 {
+        font-size: 1.8em;
+    }
+    .level-section h3 {
+        font-size: 1.3em;
+    }
+    .subject-grid {
+        grid-template-columns: 1fr; /* Single column layout */
+        gap: 15px; /* Reduce gap slightly */
+    }
+    /* Make exam buttons slightly easier to tap */
+    .subject-card .btn-exam {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        position: relative; /* Ensure clickable */
+        z-index: 1; /* Prevent potential overlap */
+    }
+}
+
+/* Styling for the welcome text */
+.welcome-text {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #e3f2fd; /* Light blue background */
+    border-radius: 8px;
+    border-left: 5px solid #6a1b9a; /* Purple left border */
+}
+
+.welcome-text p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.welcome-text p:last-child {
+    margin-bottom: 0;
+}
+
+.welcome-text .signature {
+    margin-top: 20px;
+    font-weight: 500;
+    font-style: italic;
+    color: #555;
+}
+
+/* Styling for the benefits list */
+.benefits-list {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0; /* Remove default padding */
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: left; /* Align text to the left within the centered block */
+    display: inline-block; /* Center the block itself */
+}
+
+.benefits-list li {
+    margin-bottom: 12px;
+    font-size: 1em; /* Slightly smaller font for benefits */
+    color: #444;
+    display: flex; /* Use flexbox for alignment */
+    align-items: flex-start; /* Align items to the top */
+}
+
+.benefits-list .check {
+    margin-right: 10px;
+    color: #28a745; /* Green color for checkmark */
+    font-size: 1.1em;
+    line-height: 1.4; /* Adjust line height to better align with text */
+}
+
+.benefits-list strong {
+    color: #333; /* Slightly darker color for the keyword */
+}
+
+.selection-container h2 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+/* Styling voor de examen titel bovenaan de vraagpagina */
+.exam-title {
+    text-align: center;
+    color: var(--secondary-color); /* Gebruik een accentkleur, bijv. grijs */
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-top: 10px; /* Beetje ruimte boven */
+    margin-bottom: 25px; /* Ruimte onder de titel */
+    padding-bottom: 10px; /* Lijn onder de titel */
+    border-bottom: 1px solid var(--medium-gray);
+}
+
+/* Nieuwe stijlen voor sleepbare items */
+.order-item {
+    background-color: #f9f9f9; /* Lichte achtergrond */
+    border: 1px dashed #ccc;
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    cursor: grab; /* Maak duidelijk dat het sleepbaar is */
+    transition: background-color 0.2s ease, box-shadow 0.2s ease; /* Vloeiende overgang */
+}
+
+/* Nieuw: Styling voor optielijst bij gap-fill */
+.options-list-gapfill {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px dashed var(--medium-gray);
+}
+.options-list-gapfill h4 {
+    font-size: 1em;
+    color: var(--secondary-color);
+        margin-bottom: 10px;
+    border-bottom: none;
+}
+.options-list-gapfill ul {
+    list-style: none;
+    padding-left: 0;
+}
+.options-list-gapfill li {
+    margin-bottom: 5px;
+    font-family: monospace; /* Monospace voor betere uitlijning letters */
+    font-size: 0.95em;
+}
+
+/* Nieuw: Styling voor gap-fill invoer */
+.gap-fill-options > p {
+    margin-bottom: 15px; /* Ruimte boven de grid */
+}
+.gap-fill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Kolommen voor invoer */
+    gap: 15px; /* Ruimte tussen invoervelden */
+}
+.gap-fill-input-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: var(--light-gray);
+    padding: 10px;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--medium-gray);
+}
+.gap-fill-input-group label {
+    font-weight: 500;
+    white-space: nowrap;
+}
+.gap-input {
+    width: 40px; /* Vaste breedte voor 1 letter */
+    height: 40px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 1px solid var(--secondary-color);
+    border-radius: 4px;
+    padding: 5px;
+    text-transform: lowercase; /* Forceer kleine letters */
+}
+.gap-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(94, 53, 177, 0.2); /* Paarse focus glow */
+}
+
+/* Nieuwe knop voor examen inleveren */
+.btn-complete-exam {
+    background-color: #28a745; /* Groen, om voltooiing aan te geven */
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+.btn-complete-exam:hover {
+    background-color: #218838; /* Donkerder groen */
+}
+
+/* Modal Styling */
+.modal {
+    display: none; /* Standaard verborgen */
+    position: fixed; /* Blijft staan bij scrollen */
+    z-index: 1000; /* Bovenop andere content */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Scrollen indien nodig */
+    background-color: rgba(0,0,0,0.6); /* Donkere overlay */
+    display: flex; /* Use flex to center content */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    padding: 30px 40px 20px 40px; /* Reduced bottom padding */
+    border: 1px solid #888;
+    width: 80%; /* Responsieve breedte */
+    max-width: 600px; /* Maximale breedte */
+    border-radius: var(--border-radius);
+    text-align: center;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: scale(0.9);}
+    to {opacity: 1; transform: scale(1);}
+}
+
+.close-button {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal h2 {
+    color: var(--primary-color);
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.modal-image {
+    max-width: 150px; /* Pas grootte aan naar wens */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.modal p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.modal-content p:last-of-type {
+    margin-bottom: 0;
+}
+
+#goHomeBtn {
+    background-color: purple;
+    color: white;
+    border: none; /* Optional: remove border if desired */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Optional: add rounded corners */
+    cursor: pointer;
+    transition: background-color 0.2s ease; /* Optional: smooth hover effect */
+    margin-top: 25px; /* Add space above the button */
+}
+
+#goHomeBtn:hover {
+    background-color: darkmagenta; /* Optional: slightly darker purple on hover */
+}
+
+/* Ensure modal image isn't overly large */
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* --- ADDED: Toggle Switch Styling --- */
+.toggle-switch-container {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between elements */
+    margin-left: 15px; /* Space it away from the hint button */
+}
+
+.toggle-label {
+    font-size: 0.85em;
+    color: var(--secondary-color);
+}
+
+/* The switch - a container for the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px; /* Width of the switch */
+    height: 24px; /* Height of the switch */
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc; /* Default background */
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px; /* Height of the knob */
+    width: 18px; /* Width of the knob */
+    left: 3px; /* Initial position */
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: var(--primary-color); /* Active color (purple) */
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px var(--primary-color);
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px); /* Move knob to the right */
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+/* --- END Toggle Switch Styling --- */
+
+/* =========================================== */
+/* ===== NIEUWE HOMEPAGE STYLING (AISHA) ===== */
+/* =========================================== */
+
+body.selection-page {
+    background-color: #120822; /* Zeer donker paars/blauw basis */
+    color: #E0E0E0; /* Lichtgrijs voor tekst */
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    overflow-x: hidden; /* Voorkom horizontale scrollbars */
+}
+
+/* Container specifiek voor selectiepagina (evt. iets breder) */
+body.selection-page .container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 25px;
+}
+
+/* tsParticles container styling */
+#tsparticles {
+    position: fixed; /* Blijft op achtergrond */
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Achter alle andere content */
+}
+
+/* --- Nieuwe Header --- */
+.selection-header-new {
+    background-color: rgba(18, 8, 34, 0.8); /* Donkerpaars met transparantie */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    -webkit-backdrop-filter: blur(10px);
+    padding: 15px 0;
+    position: sticky; /* Blijft bovenaan plakken */
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.selection-header-new nav {
+    display: flex;
+    /* justify-content: space-between; Nu alleen logo links */
+    justify-content: flex-start; /* Align logo to the left */
+    align-items: center;
+}
+
+.selection-header-new .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.selection-header-new .logo-img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.selection-header-new .logo-container span {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.selection-header-new nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.selection-header-new nav ul li {
+    margin-left: 30px;
+}
+
+.selection-header-new nav ul li a {
+    color: #E0E0E0;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.selection-header-new nav ul li a:hover {
+    color: #FFF;
+}
+
+/* --- Hero Sectie --- */
+.hero-section {
+    display: flex;
+    flex-direction: column; /* Forceer kolom layout nu altijd */
+    align-items: center; /* Centreer horizontaal */
+    justify-content: center; /* Centreer verticaal */
+    padding: 60px 0; /* Iets minder padding dan voorheen */
+    min-height: 60vh; /* Mag iets minder hoog nu */
+    text-align: center; /* Centreer alle tekst */
+    position: relative;
+}
+
+.hero-content {
+    max-width: 800px; /* Geef content een max breedte */
+    width: 100%; /* Neem beschikbare breedte */
+    z-index: 1;
+}
+
+.hero-subtitle {
+    display: inline-block;
+    background-color: rgba(126, 87, 194, 0.2);
+    color: #d1c4e9;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 0.9em;
+    font-weight: 500;
+    margin-bottom: 8px; /* Iets minder ruimte onder deze */
+}
+
+/* Styling voor de nieuwe initiative link */
+.hero-initiative-link {
+    font-size: 0.85em;
+    color: #bdc1c6;
+    margin-bottom: 20px;
+}
+
+.hero-initiative-link i {
+    margin-right: 5px;
+    font-size: 0.9em;
+}
+
+.hero-initiative-link a {
+    color: #d1c4e9; /* Licht paars voor de link */
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(209, 196, 233, 0.5); /* Subtiele stippellijn */
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.hero-initiative-link a:hover {
+    color: #FFF;
+    border-bottom-color: rgba(255, 255, 255, 0.8);
+}
+
+.hero-content h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+    color: #FFF;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    white-space: nowrap; /* Voorkom afbreken van de titel regel */
+}
+
+/* Styling voor het typende deel en de cursor */
+#typed-output {
+    color: #9575cd; /* Accent paars */
+}
+
+.typed-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 3.5em; /* Match h1 line height */
+    background-color: #9575cd;
+    margin-left: 5px;
+    opacity: 1;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.hero-content p {
+    font-size: 1.1em;
+    color: #bdc1c6;
+    margin-bottom: 30px;
+    max-width: 90%;
+    margin-left: auto; /* Centreer paragraaf binnen max-width */
+    margin-right: auto;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center; /* Centreer knoppen */
+}
+
+/* Nieuwe button styling voor homepage */
+body.selection-page .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+body.selection-page .btn i {
+    margin-left: 8px;
+}
+
+body.selection-page .btn-primary {
+    background: linear-gradient(90deg, #8e24aa 0%, #5e35b1 100%); /* Paars gradient */
+    color: white;
+    box-shadow: 0 4px 15px rgba(142, 36, 170, 0.3);
+}
+
+body.selection-page .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(142, 36, 170, 0.4);
+}
+
+body.selection-page .btn-secondary {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+body.selection-page .btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive aanpassingen voor Hero sectie - vereenvoudigd */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2.8em;
+    }
+     .typed-cursor {
+        height: 2.8em;
+    }
+}
+@media (max-width: 576px) {
+    .hero-content h1 {
+        font-size: 2.2em;
+        white-space: normal; /* Sta afbreken toe op hele kleine schermen */
+    }
+     .typed-cursor {
+        height: 2.2em;
+    }
+}
+
+/* --- Features Sectie --- */
+.features-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    /* Minder padding boven en onder */
+    padding: 25px 0 40px 0; 
+    z-index: 1;
+    position: relative;
+}
+
+.feature-card {
+    background-color: rgba(40, 23, 72, 0.7); /* Donkerpaars met transparantie */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    backdrop-filter: blur(8px); /* Glassmorphism */
+    -webkit-backdrop-filter: blur(8px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(149, 117, 205, 0.3); /* Paarse gloed bij hover */
+}
+
+.feature-card i {
+    font-size: 2.5em;
+    color: #9575cd; /* Accent paars */
+    margin-bottom: 20px;
+    display: block;
+}
+
+.feature-card h3 {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    font-size: 0.95em;
+    color: #bdc1c6;
+    line-height: 1.6;
+}
+
+/* --- Exam Selection Sectie (Accordion) --- */
+.exam-selection-section {
+    /* Meer padding boven deze sectie om ruimte met features te compenseren */
+    padding: 60px 0 80px 0; 
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+.exam-selection-section h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #FFF;
+    margin-bottom: 15px;
+}
+
+.exam-selection-section .selection-intro {
+    font-size: 1.1em;
+    color: #bdc1c6;
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+}
+
+.accordion {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.accordion-item {
+    background-color: rgba(40, 23, 72, 0.7); /* Donkerpaars */
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    overflow: hidden; /* Belangrijk voor max-height transitie */
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.accordion-header {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    padding: 20px 25px;
+    text-align: center; /* Centreer de tekst nu */
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #FFF;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centreer inhoud horizontaal */
+    position: relative; /* Maak position relative voor absolute toggle */
+    transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+    background-color: rgba(149, 117, 205, 0.1);
+}
+
+/* Verplaats de toggle naar rechts met absolute positionering */
+.accordion-toggle {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.accordion-toggle i {
+    transition: transform 0.3s ease;
+    font-size: 0.9em;
+}
+
+.accordion-item.open .accordion-toggle i {
+    transform: rotate(180deg);
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out; /* Vloeiende transitie */
+    padding: 0 25px; /* Padding alleen links/rechts initieel */
+    background-color: rgba(18, 8, 34, 0.6); /* Iets donkerder dan header voor contrast */
+}
+
+.accordion-item.open .accordion-content {
+    padding: 25px; /* Padding toevoegen als open */
+}
+
+/* Styling binnen de accordion content (subject grid etc.) */
+.subject-grid-new {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.subject-card-new {
+    background-color: rgba(255, 255, 255, 0.05); /* Heel subtiel lichter */
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.subject-card-new h4 {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #E0E0E0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+}
+
+.time-period-buttons-new {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Knop specifiek voor examenkeuze binnen accordion */
+.btn-exam-new {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: rgba(149, 117, 205, 0.2); /* Lichtpaars */
+    color: #E0E0E0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 1px solid rgba(149, 117, 205, 0.5);
+    font-size: 0.9em;
+    font-weight: 500;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-exam-new:hover {
+    background-color: rgba(149, 117, 205, 0.4);
+    border-color: rgba(149, 117, 205, 0.8);
+    color: #FFF;
+}
+
+/* --- Nieuwe Footer --- */
+.selection-footer-new {
+    background-color: #120822;
+    padding: 0; /* Geen padding nodig nu */
+    margin-top: 60px;
+    border-top: none; /* Geen border nodig nu */
+    z-index: 1;
+    position: relative;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0; /* Alleen padding voor deze regel */
+    /* border-top: 1px solid rgba(255, 255, 255, 0.05); */ /* Border kan weg */
+    font-size: 0.85em;
+    color: #888da8;
+}
+
+/* ===== EINDE NIEUWE HOMEPAGE STYLING ===== */
+
+/* Styling voor de afbeelding container onder de hero knop */
+.hero-image-below-button {
+    width: 100%; /* Neem volledige breedte in */
+    margin-top: 40px; /* Ruimte boven de afbeelding */
+    text-align: center; /* Centreer de afbeelding binnen de div */
+}
+
+.hero-image-below-button img {
+    max-width: 1000px; /* Maximale breedte voor de afbeelding - pas dit aan naar wens */
+    width: 100%; /* Zorg dat het schaalt binnen de max-width */
+    height: auto; /* Behoud aspect ratio */
+    border-radius: 10px; /* Optioneel: afgeronde hoeken */
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3); /* Optioneel: schaduw */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transitie voor hover effect */
+}
+
+/* Hover effect voor de afbeelding */
+.hero-image-below-button img:hover {
+    transform: scale(1.03); /* Maak iets groter */
+    box-shadow: 0 8px 35px rgba(149, 117, 205, 0.3); /* Intense paarse schaduw */
+}
+
+/* --- Styling voor Multiple Gap Choice Vragen --- */
+.multiple-gap-choice-container .gap-choice-item {
+    margin-bottom: 20px; /* Ruimte tussen de invul-items */
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee; /* Lichte scheidingslijn */
+}
+
+.multiple-gap-choice-container .gap-choice-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.multiple-gap-choice-container .gap-sentence {
+    margin-bottom: 10px;
+    font-weight: 500; /* Zin iets dikker maken */
+    list-style-type: none; /* Verwijder standaard bolletjes/streepjes */
+    padding-left: 5px; /* Compenseer voor verwijderd bolletje */
+}
+
+/* Verberg eventueel het lijst-streepje als het uit de HTML komt */
+.multiple-gap-choice-container .gap-sentence::before {
+    /* content: none; */ /* Uncomment indien nodig */
+}
+
+.multiple-gap-choice-container .gap-choices-options {
+    display: flex; /* Keuzes naast elkaar (of onder elkaar met flex-direction: column;) */
+    flex-wrap: wrap; /* Zorgt dat keuzes naar volgende regel gaan indien nodig */
+    gap: 15px; /* Ruimte tussen de radio buttons/labels */
+    margin-left: 15px; /* Beetje inspringen */
+}
+
+.multiple-gap-choice-container .gap-choice-label {
+    display: inline-flex; /* Zorgt dat label en input goed uitlijnen */
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px; /* Extra ruimte rechts */
+    list-style-type: none; /* Verwijder standaard bolletjes */
+}
+
+.multiple-gap-choice-container .gap-choice-label input[type="radio"] {
+    margin-right: 5px; /* Ruimte tussen radio en tekst */
+    cursor: pointer;
+}
+
+/* --- Customizations --- */
+
+/* Make the open answer textarea full width */
+#openAnswer {
+    width: 100%; /* NEW: Make full width */
+    max-width: 100%; /* NEW: Prevent overflow */
+    min-height: 120px; /* NEW: Set minimum height */
+    resize: vertical; /* NEW: Allow vertical resize */
+    padding: 10px 15px; /* Existing or adjusted padding */
+    border: 1px solid var(--medium-gray);
+    border-radius: var(--border-radius);
+    font-family: inherit;
+    font-size: 1em;
+    /* Remove any fixed width property if present */
+}
+
+/* Style for gap select dropdowns */
+.gap-select {
+    padding: 5px 8px;
+    border-radius: var(--border-radius);
+    border: 1px solid var(--medium-gray);
+    background-color: white;
+    margin: 0 5px; /* Add some space around the select */
+    font-family: inherit;
+    font-size: 0.95em;
+    cursor: pointer;
+}
+
+.gap-select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(var(--primary-color-rgb, 94, 53, 177), 0.25); /* Match button focus */
+}
+
+.bron-box .bron-image {
+    display: block; /* Ensure it behaves like a block element */
+    max-width: 100%; /* Make image responsive - never wider than container */
+    height: auto; /* Maintain aspect ratio */
+    margin: 15px auto; /* Center the image if container is wider, add top/bottom margin */
+    border-radius: var(--border-radius); /* Optional: rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: subtle shadow */
+}
+
+/* Styling for tables within context boxes */
+.context-box table,
+.formatted-text table { /* Target tables in context or general formatted text */
+    width: 100%; /* Make table full width */
+    border-collapse: collapse; /* Merge borders */
+    margin-top: 1em; /* Space above table */
+    margin-bottom: 1em; /* Space below table */
+    font-size: 0.95em; /* Slightly smaller font for table data */
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    overflow: hidden; /* Ensure shadows/borders respect radius */
+}
+
+.context-box th,
+.formatted-text th,
+.context-box td,
+.formatted-text td {
+    border: 1px solid var(--medium-gray); /* Light gray borders */
+    padding: 10px 12px; /* Padding within cells */
+    text-align: left; /* Align text to the left */
+    vertical-align: top; /* Align content top */
+}
+
+.context-box th,
+.formatted-text th {
+    background-color: var(--light-gray); /* Light background for headers */
+    font-weight: 600; /* Make header text bold */
+    color: var(--primary-dark);
+}
+
+.context-box tbody tr:nth-child(even),
+.formatted-text tbody tr:nth-child(even) {
+    background-color: #fdfdff; /* Very light alternating row color */
+}
+
+.context-box td {
+    color: var(--text-color);
+}
+
+/* Styling for the dekkingsgraad formula */
+.formula {
+    display: flex; /* Align items horizontally */
+    align-items: center; /* Vertically center items */
+    margin: 1em 0; /* Space around the formula */
+    font-family: 'Times New Roman', Times, serif; /* Serif font often looks better for formulas */
+    font-size: 1.1em; /* Slightly larger */
+}
+
+.formula-note {
+    font-size: 0.8em;
+    vertical-align: super; /* Make the note superscript */
+    margin-right: 0.5em;
+}
+
+.formula-label {
+    margin-right: 0.5em;
+}
+
+.fraction {
+    display: inline-flex; /* Changed from inline-block for potentially better alignment */
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0.2em; /* Adjusted margin slightly */
+    padding: 0 0.1em;
+    line-height: 1.2; /* Ensure consistent line height */
+    vertical-align: middle; /* Vertically align with surrounding text */
+}
+
+.numerator,
+.denominator {
+    display: block; /* Ensure they take full width within the flex container */
+    text-align: center;
+    padding: 0 0.2em;
+}
+
+.numerator {
+    border-bottom: 1px solid currentColor;
+}
+
+.denominator {
+    /* No border needed */
+}
+
+.formula-operator {
+    display: inline-block; /* Keep as inline-block or inline */
+    margin: 0 0.2em;
+    vertical-align: middle; /* Vertically align with surrounding text/fraction */
+}
+
+.feedback-content strong,
+.follow-up-answer-box strong,
+.hint-content strong,
+#theoryBox #theoryContent strong,
+#metaphorBox #metaphorContent strong {
+    color: var(--accent-color);
+    font-weight: bold; /* Ensure font-weight is also set */
+}
+
+/* Specific styling for the theory explanation box */
+#theoryBox {
+    /* background-color: #eef2f7; */ /* Keep background separate */
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: var(--theory-color, #28a745); /* Groen */
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#theoryContent {
+    /* Any specific styles for the content itself */
+    line-height: 1.6;
+}
+
+/* Styling for the metaphor explanation box (future) */
+#metaphorBox {
+    /* background-color: #f0eefa; */ /* Keep background separate */
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: var(--metaphor-color, #6f42c1); /* Paarse border, ensure width */
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#metaphorContent {
+    line-height: 1.6;
+}
+
+/* Follow-up Chat Box - ADDED EXPLICIT RULES */
+.follow-up-chat {
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: var(--color-followup, #009688); /* Teal */
+}
+
+/* Navigatie Box - ADDED EXPLICIT RULES */
+.navigatie-box {
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: var(--color-navigatie, #ff7043); /* Oranje */
+    /* Remove potentially conflicting background/padding if needed */
+    /* background-color: transparent; */ 
+    /* padding: 20px; */ 
+}
+
+/* ADDED Borders for Language Exam specific boxes */
+.source-text-box {
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: var(--info-color, #17a2b8); /* Blauw zoals context */
+}
+
+.answer-input-box {
+    border-left-width: 4px;
+    border-left-style: solid;
+    border-left-color: var(--warning-color, #ffb74d); /* Oranje/Geel */
+}
+
+/* Styles for Completion Modal */
+.modal-content {
+    max-width: 600px; /* Increase max width for a larger modal */
+    /* Add other styling adjustments if needed */
+}
+
+#goHomeBtn {
+    background-color: purple;
+    color: white;
+    border: none; /* Optional: remove border if desired */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Optional: add rounded corners */
+    cursor: pointer;
+    transition: background-color 0.2s ease; /* Optional: smooth hover effect */
+}
+
+#goHomeBtn:hover {
+    background-color: darkmagenta; /* Optional: slightly darker purple on hover */
+}
+
+/* Ensure modal image isn't overly large */
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+}
+

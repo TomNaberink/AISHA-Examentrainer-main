@@ -1,0 +1,288 @@
+{
+    "examen_info": {
+      "vak": "geschiedenis",
+      "niveau": "havo",
+      "tijdvak": "TV1",
+      "jaar": 2024
+    },
+    "opgaven": [
+      {
+        "opgave_nr": 1,
+        "opgave_titel": "Door de tijd heen",
+        "vragen": [
+          {
+            "id": 1,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De volgende gebeurtenissen die te maken hebben met chocola staan in willekeurige volgorde:</p><ol><li>Aan het hof van de Azteekse keizer Motecuhzoma maakte de Spaanse ontdekkingsreiziger Hernán Cortés kennis met 'xocolatl', gemaakt van cacao en pepers.</li><li>Duitse soldaten kregen bij hun inval in Polen zogenaamde 'Tankchocolade', een drug die vermoeidheid tegenging.</li><li>Het bedrijf Cadbury stuurde Britse soldaten in de loopgraven van Noord-Frankrijk chocolade als kerstgeschenk.</li><li>In de Engelse stad Bristol opende het bedrijf Anna Fry & Son de eerste fabriek waar met stoommachines op grote schaal chocolade werd geproduceerd.</li><li>Kort na het ontstaan van de driehoekshandel werd chocolade geïntroduceerd in Engeland, waar het onder andere werd gebruikt om de effecten van rijkelijk alcoholisch drankgebruik tegen te gaan.</li><li>Tijdens de onafhankelijkheidsoorlog van de Noord-Amerikaanse koloniën werden de soldaten soms betaald met cacaobonen.</li></ol>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Zet deze gebeurtenissen in de juiste chronologische volgorde, van vroeger naar later. Noteer alleen de nummers.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>De juiste volgorde is:</p><p>1, 5, 6, 4, 3, 2</p><p><em>Opmerking</em><br>Als door het weglaten van één foutief geplaatst nummer een verder complete en foutloze reeks ontstaat, wordt 1 scorepunt toegekend.</p>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 2,
+        "opgave_titel": "Vroegmoderne tijd",
+        "vragen": [
+          {
+            "id": 2,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>In de zestiende eeuw was er in Europa belangstelling voor de legende over 'pausin Johanna'. Volgens deze legende was een vrouw, die zich voordeed als man, paus geworden. Haar bedrog kwam uit toen ze beviel van een kind.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit waardoor de belangstelling voor juist deze legende toenam tijdens de protestantse reformatie.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Voorbeeld van een juist antwoord is:</p><p>Tijdens de reformatie keerden de protestanten zich af van de paus/katholieke kerk, zodat er belangstelling was voor deze legende omdat hiermee het gezag/de reputatie van de paus/katholieke kerk ter discussie kon worden gesteld/werd geschaad.</p><p><em>Opmerking</em><br>Alleen als in het antwoord wordt verwezen naar de legende met een daarbij passende verklaring voor de belangstelling tijdens de reformatie, worden scorepunten toegekend.</p>"
+          },
+          {
+            "id": 3,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p><strong>Bron 1</strong></p><p>In 1559 schrijft Michele Suriano, de Venetiaanse ambassadeur in Spanje, over de Spaanse koning Filips II:</p><p>De koning vindt geen enkele natie zo goed als de Spaanse. Hij woont tussen de Spanjaarden, hij vraagt hun om advies en hij richt zijn politiek op hen; hierin verschilt hij echt van zijn vader. Hij is niet onder de indruk van de Italianen en van de Vlamingen¹) en kijkt neer op de Duitsers. Hoewel hij misschien de belangrijkste mannen van de landen waarover hij heerst in dienst neemt, laat hij niemand daarvan toe tot zijn geheime raden²), hij maakt alleen gebruik van hun diensten op militair vlak.</p><p>noot 1 Hiermee bedoelt Suriano de onderdanen van de Spaanse koning die in de (Zuidelijke) Nederlanden wonen.<br>noot 2 Dit zijn bestuursorganen.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 1.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Stel: je besluit deze bron te gebruiken voor een onderzoek naar oorzaken van 'het conflict in de Nederlanden dat resulteerde in de stichting van een Nederlandse staat'.<br>Licht je besluit toe door:</p><ul><li>een argument te geven voor de betrouwbaarheid van de informatie in deze bron, en</li><li>met een verwijzing naar de bron een verklaring te geven voor de kritiek van de Nederlandse edelen op het Spaanse bestuur.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 3</strong></p><p>Voorbeeld van een juist antwoord is:</p><ul><li>De informatie in de bron is betrouwbaar omdat de ambassadeur ooggetuige is van de werkwijze van de Spaanse koning / zelf geen partij is in het conflict. (1 punt)</li><li>De Nederlandse edelen hebben kritiek op het Spaanse bestuur omdat zij zich buitengesloten voelen / bang zijn hun bestuurlijke macht te verliezen, (1 punt)</li><li>omdat volgens Suriano de Spaanse koning (een van de volgende):<ul><li>Spaanse edelen voortrekt / om advies vraagt.</li><li>neerkijkt op edelen uit de andere landen waarover hij regeert.</li><li>geen (bestuurlijke) positie geeft aan de edelen uit de andere landen die hij regeert. (1 punt)</li></ul></li></ul><p><em>Opmerking</em><br>Alleen als het antwoord bij de tweede deelvraag een juiste verklaring voor de kritiek van de edelen bevat, wordt 1 scorepunt toegekend aan een daarbij passende verwijzing naar de bron.</p>"
+          },
+          {
+            "id": 4,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p><strong>Bron 2</strong></p><p>Op 21 mei 1607 schrijft een Engelse kolonist in Amerika over een ontmoeting met de inheemse bevolking:</p><p>Maar in aanwezigheid van beide stamhoofden bleek dat we twee kogelzakken misten met kogels en divers speelgoed [gebruikt voor de handel met de inheemse bevolking] erin. We klaagden bij de stamhoofden, die er onmiddellijk voor zorgden dat het allemaal werd teruggegeven. Ze hadden de kogels en het speelgoed echter verdeeld over minstens een dozijn mensen, ook over diegenen aan de overzijde van het water. Eén van hen, die een mes had gestolen, bracht het op bevel van het stamhoofd terug, nog voordat wij het kwijt waren. Kapitein Newport¹) bedankte de stamhoofden en beloonde de dieven met het speelgoed dat ze hadden gestolen, maar hij behield de kogels. Hij maakte echter wel duidelijk dat het in Engeland de gewoonte was om de doodstraf te geven voor dergelijke overtredingen.</p><p>noot 1 Christopher Newport is de kapitein van het Engelse schip de Susan Constant, waarmee hij in 1607 kolonisten vervoert naar Amerika.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 2.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Een conclusie:</p><p>Deze ontmoeting past bij de beginperiode van de Engelse aanwezigheid in Noord-Amerika.</p><p>Ondersteun deze conclusie door:</p><ul><li>aan te tonen dat deze ontmoeting past bij de beginperiode van de Engelse aanwezigheid in Noord-Amerika, waarbij je je antwoord ondersteunt met een verwijzing naar de bron, en</li><li>zonder bron te verklaren waardoor kapitein Newport het niet verstandig vindt om de inheemse bevolking te bestraffen.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 3</strong></p><p>Voorbeeld van een juist antwoord is:</p><ul><li>De Engelsen streven ernaar de verhoudingen goed te houden / erkennen het gezag van de stamhoofden (door niet zelf in te grijpen) / streven naar handel met de inheemse bevolking (wat past bij de beginperiode van de Engelse aanwezigheid in Noord-Amerika), (1 punt)</li><li>wat blijkt uit de beschrijving dat (een van de volgende):<ul><li>de mensen die gestolen hebben niet gestraft worden / beloond worden voor het teruggeven van de goederen.</li><li>de Engelsen goederen bij zich hebben om te verhandelen met de bevolking.</li><li>de inheemse bevolking bereid is spullen terug te geven.</li><li>de stamhoofden worden bedankt. (1 punt)</li></ul></li><li>Kapitein Newport heeft de inheemse bevolking nodig om te overleven / is bang dat hij een conflict met de op dat moment nog talrijke inheemse bevolking niet zou winnen. (1 punt)</li></ul><p><em>Opmerking</em><br>Alleen als het antwoord bij de eerste deelvraag met een juist argument aantoont dat de ontmoeting past bij de beginperiode van de Engelse aanwezigheid, wordt 1 scorepunt toegekend aan een daarbij passende verwijzing naar de bron.</p>"
+          },
+          {
+            "id": 5,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p><strong>Bron 3</strong></p><p>De Franse koning Lodewijk XIV (1643-1715) laat dit beeld maken na zijn besluit dat hij de rechten van protestanten in Frankrijk intrekt. Het beeld wordt opgesteld in zijn paleis in Versailles:</p><p>Toelichting:</p><ul><li>Lodewijk XIV is afgebeeld als een Romeinse keizer.</li></ul>",
+            "bronverwijzing_tekst": "Gebruik bron 3.",
+            "bron_verwijzing": "havo_geschiedenis_tv1_opgave2_bron3.png",
+            "vraagtekst_html": "<p>Met dit beeld wil Lodewijk XIV een propagandaboodschap overbrengen.<br>Geef aan:</p><ul><li>welke boodschap wordt weergegeven over het besluit van Lodewijk XIV om de rechten van protestanten in te trekken, waarbij je je antwoord ondersteunt met een verwijzing naar de bron, en</li><li>op welke wijze wordt weergegeven dat Lodewijk XIV een absoluut vorst is.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 3</strong></p><p>Voorbeeld van een juist antwoord is:</p><ul><li>De boodschap wordt weergegeven dat Lodewijk XIV terecht de rechten van protestanten intrekt / een kwaadaardig/slecht geloof bestrijdt, (1 punt)</li><li>door af te beelden dat (een van de volgende):<ul><li>Lodewijk XIV het protestantisme vertrapt.</li><li>slangen (symbool voor kwaad) uit protestantse boeken kruipen. (1 punt)</li></ul></li><li>Lodewijk XIV wordt afgebeeld als een Romeinse keizer/almachtig heerser (wat moet aantonen dat hij absolute macht heeft). (1 punt)</li></ul><p><em>Opmerking</em><br>Alleen als het antwoord bij de eerste deelvraag een juiste boodschap bevat over het besluit de rechten van protestanten in te trekken, wordt 1 scorepunt toegekend aan een daarbij passende verwijzing naar de bron.</p>"
+          },
+          {
+            "id": 6,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>Bron 4</strong></p><p>In 1793 is het nieuwe republikeinse bestuur in Frankrijk in oorlog met verschillende omringende landen die de Franse monarchie steunen. In november 1793 verschijnt het artikel \"Heldenmoed van een vrouwelijke soldaat\" over Liberté Barreau¹):</p><p>Tijdens een aanval op een verschansing wordt haar echtgenoot gewond, zij zet de aanval door, schiet negentien kogels af, weert twee tegenstanders af en bereikt het doel. Dan komt de burgervrouw bij haar echtgenoot terug, omhelst hem, troost hem, tilt hem op en draagt hem naar een kar, vergezelt hem naar het ziekenhuis, waar ze hem, met alle zorgen die een echtgenote aan haar man verschuldigd is, aantoonde dat ze de deugden van een vrouw niet had opgegeven.</p><p>noot 1 Rose-Alexandrine Barreau, die zich Liberté (vrijheid) noemt, vecht in het Franse leger.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 4.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Dit artikel kan gebruikt worden voor een onderzoek naar continuïteit in de Franse samenleving in de achttiende eeuw.<br>Geef aan welke continuïteit op sociaal-maatschappelijk gebied blijkt uit dit artikel, waarbij je je antwoord ondersteunt met een verwijzing naar de bron.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Voorbeeld van een juist antwoord is:</p><ul><li>Uit het artikel blijkt dat er continuïteit is in de opvatting van de taak van vrouwen / in het bestaande rollenpatroon tussen mannen en vrouwen, (1 punt)</li><li>wat blijkt uit (een van de volgende):<ul><li>de bewondering van de auteur voor de zorg die Liberté Barreau geeft aan haar gewonde echtgenoot.</li><li>de opmerking dat een vrouw haar man zorg verschuldigd is.</li><li>de opmerking dat verzorgen een deugd van vrouwen is. (1 punt)</li></ul></li></ul><p><em>Opmerking</em><br>Alleen als een juist voorbeeld van continuïteit wordt genoemd, wordt 1 scorepunt toegekend aan een daarbij passende verwijzing naar de bron.</p>"
+          },
+          {
+            "id": 7,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>Bron 4</strong></p><p>In 1793 is het nieuwe republikeinse bestuur in Frankrijk in oorlog met verschillende omringende landen die de Franse monarchie steunen. In november 1793 verschijnt het artikel \"Heldenmoed van een vrouwelijke soldaat\" over Liberté Barreau¹):</p><p>Tijdens een aanval op een verschansing wordt haar echtgenoot gewond, zij zet de aanval door, schiet negentien kogels af, weert twee tegenstanders af en bereikt het doel. Dan komt de burgervrouw bij haar echtgenoot terug, omhelst hem, troost hem, tilt hem op en draagt hem naar een kar, vergezelt hem naar het ziekenhuis, waar ze hem, met alle zorgen die een echtgenote aan haar man verschuldigd is, aantoonde dat ze de deugden van een vrouw niet had opgegeven.</p><p>noot 1 Rose-Alexandrine Barreau, die zich Liberté (vrijheid) noemt, vecht in het Franse leger.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 4.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Een bewering:</p><p>De oorlog waarin Liberté Barreau (zie bron 4) vocht, past bij een kenmerkend aspect van de achttiende eeuw.</p><p>Noem dit kenmerkend aspect en geef aan waardoor dit past bij deze oorlog.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Kern van een juist antwoord is:</p><ul><li>De oorlog past bij 'de democratische revoluties in westerse landen (met als gevolg discussies over grondwetten, grondrechten en staatsburgerschap)', (1 punt)</li><li>omdat in deze oorlog de Fransen/Liberté Barreau de Franse Republiek/de val van het absolutisme in Frankrijk ondersteunde(n). (1 punt)</li></ul><p><em>Opmerking</em><br>Alleen als in het antwoord het juiste kenmerkend aspect wordt genoemd, wordt 1 scorepunt toegekend aan een juiste verklaring waarom de oorlog waarin Liberté Barreau vocht daarbij paste.</p>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 3,
+        "opgave_titel": "Moderne tijd",
+        "vragen": [
+          {
+            "id": 8,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>In 1832 werden honderden slaafgemaakten gedood tijdens het neerslaan van een slavenopstand op Jamaica. De Britse militair bevelhebber schreef in een affiche: \"Ik heb veel soldaten meegenomen om de schuldigen te straffen. Iedereen die bij de rebellen wordt aangetroffen zal zonder pardon ter dood worden gebracht. Verzet tegen de troepen van de koning is zinloos! Geef je over en smeek om genade.\"</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit, met een verwijzing naar het affiche, dat de Britse werkwijze op Jamaica de steun voor de afschaffing van slavernij in Groot-Brittannië versterkte.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Kern van een juist antwoord is:</p><p>Uit het affiche blijkt dat de Britse bevelhebber de opstand gewelddadig neer zou slaan / dat er geen genade werd getoond voor de opstandige slaafgemaakten, wat bij de Britse regering/het Britse volk leidde tot het besef dat de slavernij onhoudbaar was / tot meer medelijden met slaafgemaakten (waardoor de steun voor de afschaffing van de slavernij toenam).</p><p><em>Opmerking</em><br>Alleen als het antwoord een combinatie bevat van een uitleg over de versterkte steun voor de afschaffing van de slavernij en een daarbij passende verwijzing naar het affiche, worden scorepunten toegekend.</p>"
+          },
+          {
+            "id": 9,
+            "max_score": 4,
+            "type": "open_non_language",
+            "context_html": "<p><strong>Bron 5</strong></p><p>In 1858 laat koningin Victoria afkondigen dat:</p><p>Vanuit een groot vertrouwen in de loyaliteit, het vermogen en het oordeel van onze trouwe en zeer geliefde neef en raadslid, landgraaf Charles John Canning, benoemen wij hem hierbij (...) tot onderkoning en gouverneur-generaal in en over onze gebieden [in India]. Om deze gebieden in onze naam te besturen, en in het algemeen om in onze naam en namens ons te handelen, met inachtneming van de bevelen en voorschriften die hij van tijd tot tijd zal ontvangen van ons. (...) Hierbij verkondigen we aan de inheemse vorsten van India dat alle verdragen met hen, gemaakt door de East India Company, door ons worden geaccepteerd en gehandhaafd en we verwachten eenzelfde houding van hun kant (...). We zullen de rechten, waardigheid en eer van inheemse vorsten respecteren en we wensen dat zij, net als onze eigen onderdanen, welvaart en sociale vooruitgang zullen verkrijgen, die alleen verzekerd kunnen worden door binnenlandse vrede en goed bestuur.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 5.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Uit de bron blijkt zowel verandering als continuïteit in het bestuur van India in 1858.</p><p>Geef aan, telkens met een andere verwijzing naar de bron, welke verandering en welke continuïteit dat is.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 4</strong></p><p>Voorbeeld van een juist antwoord is:</p><ul><li>Verandering: uit de bron blijkt dat India onder direct gezag van de Britse regering komt (in plaats van onder de East India Company), (1 punt) omdat er een onderkoning wordt benoemd. (1 punt)</li><li>Continuïteit: uit de bron blijkt dat de Britse regering gebruik blijft maken van het bestaande inheemse bestuur / de bestaande verhoudingen continueren, (1 punt) omdat het Britse bestuur (een van de volgende):<ul><li>de rechten van inheemse vorsten respecteert.</li><li>de verdragen handhaaft die de East India Company met de inheemse vorsten heeft gesloten. (1 punt)</li></ul></li></ul><p><em>Opmerkingen</em><br>Alleen als het antwoord een juist voorbeeld bevat van verandering/continuïteit, wordt telkens 1 scorepunt toegekend aan een daarbij passende verwijzing naar de bron.<br>Als dezelfde verwijzing naar de bron tweemaal wordt gebruikt, wordt alleen aan de eerste verwijzing 1 punt toegekend.</p>"
+          },
+          {
+            "id": 10,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>In 1860 werd de Wet op de Aanleg van Staatsspoorwegen aangenomen, waarna werd begonnen met de aanleg van negen staatslijnen, zoals die tussen Zutphen en Enschede.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Licht de aanname van deze wet toe door:</p><ul><li>het kenmerkend aspect te noemen dat hierbij past, en</li><li>aan te geven dat de Nederlandse regering de economie wilde stimuleren.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Kern van het antwoord is:</p><ul><li>De aanname van de wet paste bij 'de industriële revolutie die in de westerse wereld de basis legde voor een industriële samenleving'. (1 punt)</li><li>De regering wilde (door de aanleg van spoorlijnen) mogelijk maken dat producten/grondstoffen snel/in grote hoeveelheden konden worden aangevoerd/afgevoerd (wat de economie zou stimuleren). (1 punt)</li></ul>"
+          },
+          {
+            "id": 11,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p><strong>Bron 6</strong></p><p>In 1879 zegt de Britse parlementariër Lord Ashley, Earl of Shaftesbury, in een toespraak over de jaren 1830:</p><p>De andere [redenering] is het oude, vaak herhaalde en even vaak weerlegde argument dat het werk licht is. Licht! Ongetwijfeld is veel ervan licht, gemeten naar het uithoudingsvermogen van zo'n drie of vier minuten. Maar wat zegt u, heren, van continu zwoegen, in staande houding, in een giftige atmosfeer, gedurende dertien uur, met vijftien minuten rust? (...) Wel, ze [kinderen] worden onvolgroeid, kreupel, misvormd, nutteloos. Ik spreek over wat ik weet – ik zeg wat ik heb gezien. Toen ik in 1838 Bradford, in Yorkshire, bezocht, omdat ik de toestand van de kinderen wilde zien – want ik wist dat ze al op zeer jonge leeftijd in de kamgarenfabricage werkten (...) – vroeg ik om een groep kreupelen en misvormden. In korte tijd werden er meer dan 80 verzameld op een grote binnenplaats. Het was slechts een steekproef van de hele massa. (...). Dit was het effect van langdurig zwoegen op het tere geraamte van kinderen op jonge leeftijd. Toen ik enkele jaren later Bradford bezocht, na de beperking van werkuren, riep ik op tot een soortgelijke tentoonstelling van kreupelen; maar God zij geprezen! er was er niet één te vinden in die uitgestrekte stad.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 6.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Lord Ashley bekritiseert het industrieel kapitalisme.<br>Geef aan:</p><ul><li>welk kenmerk van het industrieel kapitalisme de door Lord Ashley genoemde misstanden veroorzaakt, en</li><li>met een verwijzing naar de bron welke beleidsmaatregel van de Britse regering uit de jaren 1830 Lord Ashley ondersteunt.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 3</strong></p><p>Voorbeeld van een juist antwoord is:</p><ul><li>Bij het industrieel kapitalisme wordt gestreefd naar het maken van zoveel mogelijk winst / naar het zo laag mogelijk houden van de (loon)kosten (waardoor de misstanden ontstaan die Lord Ashley beschrijft). (1 punt)</li><li>Lord Ashley ondersteunt de Factory Acts, (1 punt)</li><li>door te zeggen dat het terugbrengen/afnemen van de werkuren ervoor zorgt dat kinderen niet meer misvormd zijn. (1 punt)</li></ul><p><em>Opmerking</em><br>Alleen als het antwoord bij de tweede deelvraag gaat over de Factory Acts, wordt 1 scorepunt toegekend aan een daarbij passende verwijzing naar de bron.</p>"
+          },
+          {
+            "id": 12,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>In India verscheen vanaf de jaren 1890 wekelijks het tijdschrift <em>Mirror of British Merchandise and Hindustani Pictorial News</em> in het Urdu (een veel gesproken taal in India). In het tijdschrift werden onder andere artikelen gepubliceerd:</p><ol><li>over invloedrijke Indiërs, met fotorapportages van hun reizen en activiteiten, vaak in Groot-Brittannië.</li><li>over de productie en het gebruik van onder andere katoen en bedrukte stoffen.</li></ol>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Geef apart aan welk politiek en welk economisch doel de uitgever met dit blad wilde bereiken, waarbij je in je antwoord verwijst naar een voorbeeld van de artikelen.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Voorbeeld van een juist antwoord is:</p><ul><li>bij 1: De uitgever wilde met artikelen over invloedrijke Indiërs in Groot-Brittannië het politieke doel bereiken dat (rijke) Indiërs zich meer gingen zien als Britse onderdaan / (rijke) Indiërs het Britse bestuur accepteren/ondersteunen. (1 punt)</li><li>bij 2: De uitgever wilde met artikelen over productie en gebruik van katoen en stoffen het economische doel bereiken dat Indiërs Britse goederen gingen kopen / Indiërs gingen produceren voor de Britse markt. (1 punt)</li></ul><p><em>Opmerking</em><br>Alleen als het antwoord een combinatie bevat van een (bij de eerste deelvraag) politiek doel en (bij de tweede deelvraag) een economisch doel en een verwijzing naar een voorbeeld van artikelen, wordt telkens 1 scorepunt toegekend.</p>"
+          },
+          {
+            "id": 13,
+            "max_score": 4,
+            "type": "open_non_language",
+            "context_html": "<p><strong>Bron 7</strong></p><p>Rond 1890 maakt de Javaanse kunstenaar Tirto dit schilderij:</p><p>Javaanse tekst op het schilderij: de moord op kapitein Tack te Kartasura in 1684.</p><p>Toelichting:</p><ul><li>Kapitein Tack werkt in de zeventiende eeuw voor de Verenigde Oost-Indische Compagnie (VOC), een handelsorganisatie die gebieden onderwerpt in Indonesië.</li><li>De man links in het midden is kapitein Tack, met links van hem het VOC-leger.</li><li>De man rechts in het midden is Surapati, die in opstand kwam tegen de VOC, met rechts van hem zijn leger.</li><li>Kartasura is de hoofdstad van het sultanaat Mataram, op het Indonesische eiland Java.</li></ul><p><strong>Twee gegevens:</strong></p><ol><li>Het is onduidelijk wie de opdracht heeft gegeven voor dit schilderij.</li><li>Er is aan het einde van de negentiende eeuw onder Indonesiërs veel belangstelling voor het verhaal van Surapati.</li></ol>",
+            "bronverwijzing_tekst": "Gebruik bron 7.",
+            "bron_verwijzing": "havo_geschiedenis_tv1_opgave3_bron7.png",
+            "vraagtekst_html": "<p>Licht beide gegevens toe door:</p><ul><li>met een verwijzing naar de bron uit te leggen dat het mogelijk is dat het schilderij is gemaakt in opdracht van een voorstander van het bestuur van de kolonie Nederlands-Indië, en</li><li>de belangstelling onder Indonesiërs voor Surapati (gegeven 2) te verklaren, waarbij je je antwoord ondersteunt met een kenmerkend aspect van de moderne tijd.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 4</strong></p><p>Voorbeeld van een juist antwoord is:</p><ul><li>Het is mogelijk dat een voorstander van het Nederlandse bestuur de opdracht gaf omdat de Nederlanders als machtiger worden weergegeven / wordt beweerd dat de aanval van Surapati een misdaad is, (1 punt) door (een van de volgende):<ul><li>Tack (de Nederlander) groter af te beelden dan Surapati.</li><li>in de tekst op het schilderij de dood van Tack 'moord' te noemen. (1 punt)</li></ul></li><li>In de negentiende eeuw ontstaat belangstelling voor Surapati omdat Indonesiërs zijn verzet tegen de VOC gebruiken als inspiratie voor hun eigen verzet, (1 punt) wat past bij 'vormen van verzet tegen het westerse imperialisme'. (1 punt)</li></ul><p><strong>of</strong></p><ul><li>In de negentiende eeuw ontstaat belangstelling voor Surapati omdat Indonesiërs interesse/waardering krijgen voor hun eigen geschiedenis/nationale helden, (1 punt) wat past bij 'opkomst van de politiek-maatschappelijke stroming nationalisme'. (1 punt)</li></ul><p><em>Opmerking</em><br>Alleen als het antwoord op de eerste deelvraag een juiste uitleg over de opdrachtgever bevat, wordt 1 scorepunt toegekend aan een daarbij passende verwijzing naar de bron.</p>"
+          },
+          {
+            "id": 14,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p>Twee gegevens over de Duitse sociaaldemocratische politicus Kuttner:</p><ol><li>In 1921 citeerde Kuttner een bericht van de Duitse generaal-veldmaarschalk Von Hindenburg uit 1918: \"Onder deze omstandigheden is het absoluut noodzakelijk om de strijd af te breken om het Duitse volk en hun bondgenoten nutteloze slachtoffers te besparen. Elke gemiste dag kost het leven van duizenden dappere soldaten.\"</li><li>In 1933 moest Kuttner Duitsland ontvluchten.</li></ol>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Licht beide gegevens toe door:</p><ul><li>met het citaat (gegeven 1) uit te leggen dat Kuttner de dolkstootlegende wilde ontkrachten, en</li><li>te verklaren waardoor Kuttner in 1933 Duitsland moest ontvluchten.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 3</strong></p><p>Kern van een juist antwoord is:</p><ul><li>Met het citaat wilde Kuttner duidelijk maken dat de Duitse legerleiding/Von Hindenburg de oorlog wilde beëindigen/dacht dat het Duitse leger niet meer kon winnen, terwijl de dolkstootlegende ervan uitging dat de oorlog (onnodig) werd verloren omdat de (sociaaldemocratische) regering de strijd wilde staken / dat het Duitse leger in 1918 had kunnen doorvechten. (2 punten)</li><li>Kuttner moest Duitsland ontvluchten omdat in 1933 de nationaalsocialisten aan de macht kwamen (die politieke tegenstanders als sociaaldemocraten/socialisten/ontkenners van de dolkstootlegende vervolgden). (1 punt)</li></ul>"
+          },
+          {
+            "id": 15,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p><strong>Bron 8</strong></p><p>Een foto, gemaakt in de Duitse stad Schmölln in december 1940:</p><p>Tekst op het bord: Ik ben uit de Volksgemeinschaft verstoten.</p><p>Toelichting: Het haar van deze Duitse vrouwen wordt afgeschoren omdat ze Poolse krijgsgevangenen hebben geholpen.</p><p>Het stadsbestuur van Schmölln heeft opdracht gegeven voor de bestraffing.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 8.",
+            "bron_verwijzing": "havo_geschiedenis_tv1_opgave3_bron8.png",
+            "vraagtekst_html": "<p>Toon aan:</p><ul><li>dat de situatie op de foto past bij 'het in praktijk brengen van het nationaalsocialisme', en</li><li>met een verwijzing naar de foto, wat het stadsbestuur wilde bereiken met deze bestraffing.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 3</strong></p><p>Voorbeeld van een juist antwoord is:</p><ul><li>Uit de foto blijkt dat er sprake is van een Volksgemeinschaft (waar deze vrouwen van worden uitgesloten) / dat het helpen van (minderwaardige / niet raszuivere) Poolse krijgsgevangenen wordt bestraft (wat past bij 'het in praktijk brengen van het nationaalsocialisme'). (1 punt)</li><li>Het stadsbestuur wil bereiken dat de bevolking van de stad bang wordt om tegen het nationaalsocialisme in te gaan / wil de nazificatie bevorderen, (1 punt)</li><li>door de vrouwen publiekelijk/in het openbaar te straffen. (1 punt)</li></ul><p><em>Opmerking</em><br>Alleen als het antwoord bij de tweede deelvraag een juiste uitleg bevat over de boodschap die de bestraffing geeft aan de bevolking van de stad/ die bijdraagt aan nazificatie, wordt 1 scorepunt toegekend aan een daarbij passende verwijzing naar het publieke karakter van de bestraffing.</p>"
+          },
+          {
+            "id": 16,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De volgende gegevens over stakingen in Nederland staan in willekeurige volgorde:</p><ol><li>Arbeiders die vonden dat hun lonen door de geleide loonpolitiek te laag waren, legden hun werk stil.</li><li>De aanleg van het Noordhollandsch Kanaal, dat al snel te smal was vanwege de introductie van stoomschepen, liep vertraging op omdat de slecht betaalde arbeiders staakten.</li><li>De Nederlandse regering in Londen riep op tot een grote spoorwegstaking om de opmars van de geallieerde troepen richting Duitsland te ondersteunen.</li><li>Kort voor de oliecrisis brak bij Hoogovens in IJmuiden een staking uit onder arbeiders die loonsverhoging wilden.</li><li>Minister-president Lubbers noemde de staking waarmee docenten protesteerden tegen overvolle klassen \"overbodig en schadelijk\".</li><li>Nadat textielbedrijf Gerh. Jannink & Zonen een loonsverlaging van 5% doorvoerde omdat zijn concurrentiepositie tijdens de crisis van het wereldkapitalisme verslechterde, legden de arbeiders het werk neer.</li></ol>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Zet deze gegevens in de juiste chronologische volgorde, van vroeger naar later. Noteer alleen de nummers.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>De juiste volgorde is:</p><p>2, 6, 3, 1, 4, 5</p><p><em>Opmerking</em><br>Als door het weglaten van één foutief geplaatst nummer een verder complete en foutloze reeks ontstaat, wordt 1 scorepunt toegekend.</p>"
+          },
+          {
+            "id": 17,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p><strong>Bron 9</strong></p><p>De Duitser Helmut Köller vertelt in een interview wat hij als kind meemaakte in 1946:</p><p>Toen hoorde ik: \"Iedereen moet weg. Het dorp¹) moet worden ontruimd.\" Toen hebben we dat ook gedaan. We pakten onze rugzak. Elk kind had een rugzak. Ik had een grote, mijn moeder een hele grote en mijn jongere broers kleinere. We gingen lopend naar Ratzeburg. Daar werden we door de Polen bijeengebracht op een schoolplein. We moesten wachten tot er een aantal dorpen bij elkaar was. Na drie dagen moesten we naar het station. (...) Het duurde lang voor iedereen was ingestapt. En opeens werd het lied aangeheven 'Vaarwel mijn dierbaar vaderland'. En de hele trein, alle vrouwen, zongen dat lied.</p><p>noot 1 Het gaat om het Duitse dorp Lümzow, nu Łomczewo in Polen.</p><p>Köller beschrijft een jeugdherinnering.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 9.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Geef aan:</p><ul><li>welke politieke beslissing, die de geallieerden nemen over Duitsland, de oorzaak is van de ontruiming van het dorp, en</li><li>dat je met deze bron kunt aantonen dat er sprake is van sociale ontwrichting van de Duitse samenleving, waarbij je je antwoord ondersteunt met een verwijzing naar de bron.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 3</strong></p><p>Voorbeeld van een juist antwoord is:</p><ul><li>De beslissing om de Duitse buitengrenzen te verleggen leidt tot de ontruiming van het dorp. (1 punt)</li><li>Met deze bron kun je aantonen dat de Duitse samenleving te maken krijgt met (een grote groep) vluchtelingen / Heimatvertriebenen die hun dorp moeten achterlaten/die getraumatiseerd zijn (waardoor er sprake is van sociale ontwrichting), (1 punt)</li><li>wat blijkt uit de beschrijving dat (een van de volgende):<ul><li>iedereen uit het dorp weg moet.</li><li>de vrouwen zingen over het verlaten van hun dierbaar vaderland. (1 punt)</li></ul></li></ul><p><em>Opmerkingen</em><br>Als bij de eerste deelvraag wordt ingegaan op de verdeling van Duitsland in bezettingszones, wordt geen scorepunt toegekend (omdat dit niet past bij de ontruiming van een dorp dat Pools wordt).<br>Alleen als bij de tweede deelvraag een juiste uitleg wordt gegeven van de sociale ontwrichting, wordt 1 scorepunt toegekend aan een daarbij passende verwijzing naar de bron.</p>"
+          },
+          {
+            "id": 18,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De CDU, de partij van Adenauer, liet tot 1961 in Oost-Berlijn de krant <em>Der Tag</em> verspreiden. DDR-burgers konden deze krant ook kopen in West-Berlijn.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Licht de verspreiding van de krant toe door:</p><ul><li>aan te geven op welke wijze de CDU hiermee het ideaal van Duitse eenheid kon ondersteunen, en</li><li>met een historische gebeurtenis te verklaren dat de krant niet meer werd verspreid in Oost-Berlijn na 1961.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Voorbeeld van een juist antwoord is:</p><ul><li>Met de verspreiding van de krant konden propagandaboodschappen over de eenheid/tegen de DDR aan de Oost-Duitse bevolking worden overgebracht / werd de band met de Oost-Duitse bevolking onderhouden. (1 punt)</li><li>Na de bouw van de Berlijnse Muur kon de krant niet langer naar Oost-Berlijn worden gebracht / konden DDR-burgers het blad niet langer in West-Berlijn kopen. (1 punt)</li></ul><p><em>Opmerking</em><br>Als bij de tweede deelvraag niet wordt ingegaan op de bouw van de Berlijnse Muur wordt geen scorepunt toegekend.</p>"
+          },
+          {
+            "id": 19,
+            "max_score": 4,
+            "type": "open_non_language",
+            "context_html": "<p>In 1965 werd er in de landelijke politiek gediscussieerd over twee veranderingen voor de Nederlandse televisie:</p><ol><li>Het toelaten van nieuwe omroepen in het omroepbestel.</li><li>Het toestaan van reclame op de televisie.</li></ol>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg per verandering uit door welke ontwikkeling in de Nederlandse maatschappij deze werd veroorzaakt.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 4</strong></p><p>Voorbeeld van een juist antwoord is:</p><ul><li>bij 1: Het toelaten van nieuwe omroepen werd veroorzaakt door (het begin van) sociaal-culturele veranderingsprocessen / de opkomst van jongerenculturen / de ontzuiling / de ontkerkelijking, waardoor er behoefte ontstond aan omroepen die programma's aanboden voor andere doelgroepen / buiten het verzuilde omroepbestel. (2 punten)</li><li>bij 2: Het toestaan van reclame op televisie werd veroorzaakt door de opkomst van de consumptiemaatschappij / de toenemende welvaart, waardoor bedrijven via televisiereclame probeerden meer producten te verkopen / te profiteren van de toegenomen koopkracht. (2 punten)</li></ul><p><em>Opmerking</em><br>Alleen als het antwoord een combinatie bevat van een ontwikkeling in de Nederlandse maatschappij en een daarbij passende verklaring hoe dit (bij de eerste deelvraag) het toelaten van nieuwe omroepen en (bij de tweede deelvraag) het toestaan van reclame veroorzaakte, worden telkens scorepunten toegekend.</p>"
+          },
+          {
+            "id": 20,
+            "max_score": 4,
+            "type": "open_non_language",
+            "context_html": "<p><strong>Bron 10</strong></p><p>In oktober 1969 zendt een actualiteitenprogramma op televisie een reportage uit over de Nederlandse ambtenaar Jongejan die in Oujda (Marokko) gastarbeiders selecteert. Hij doet dit binnen enkele seconden, waarbij hij vraagt of de mannen Frans spreken. Een fragment uit de reportage:</p><p>journalist: \"Meneer Jongejan, hoe kunt u nou zo een, twee, drie uitmaken of u iemand afwijst ja of nee? Waarop baseert u zo'n beslissing?\"<br>Jongejan: \"De grove selectie begint met de eisen van de werkgever, bijvoorbeeld leeftijd, gehuwd of ongehuwd, en de eisen die mijn ministerie¹) me meegeeft. Ze moeten representatief zijn voor de Nederlandse arbeidsmarkt, geen analfabeet. Er moet behoorlijke communicatie zijn, dat is wel eens te wensen overgelaten (...).\"<br>journalist: \"Op een buitenstaander, meneer Jongejan, maakt uw werk een bijzonder moeilijke indruk. Het lijkt, ik zou bijna zeggen alsof je op een slavenmarkt staat.\"<br>(...)<br>Jongejan: \"Ik heb de middelen die ik heb en dat is mijn intuïtie en mijn ervaring en dat is misschien wat scherp. Ik moet het scherp spelen.\"</p><p>noot 1 Jongejan werkt voor het ministerie van Sociale Zaken.</p><p>In 1969 sluiten de Nederlandse en de Marokkaanse regering een overeenkomst waardoor Nederland gastarbeiders mag werven in Marokko.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 10.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Geef aan welke bezorgdheid op economisch en op sociaal vlak Jongejan wil wegnemen bij de Nederlandse kijker, waarbij je je antwoord telkens ondersteunt met een andere verwijzing naar de bron.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 4</strong></p><p>Voorbeeld van een juist antwoord is:</p><ul><li>Economisch: Jongejan wil de zorg wegnemen dat de gastarbeiders de werkzaamheden waarvoor ze nodig zijn niet kunnen vervullen / dat de gastarbeiders de benodigde kennis die nodig is voor het werk in Nederland niet kunnen opdoen, (1 punt) door te benadrukken dat hij mensen selecteert die geen analfabeet zijn / die representatief/geschikt zijn voor de Nederlandse arbeidsmarkt. (1 punt)</li><li>Sociaal: Jongejan wil de zorg wegnemen dat de gastarbeiders problemen gaan veroorzaken omdat ze de cultuur niet begrijpen / dat de gastarbeiders zich niet kunnen aanpassen, (1 punt) door te benadrukken dat hij mensen selecteert die behoorlijk kunnen communiceren in Nederland / dat hij een scherpe/strenge selectie toepast. (1 punt)</li></ul><p><em>Opmerking</em><br>Alleen als het antwoord een juist voorbeeld van een economische/sociale zorg bevat, wordt telkens 1 scorepunt toegekend aan een daarbij passende verwijzing naar de bron.</p>"
+          },
+          {
+            "id": 21,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>Bron 10</strong></p><p>In oktober 1969 zendt een actualiteitenprogramma op televisie een reportage uit over de Nederlandse ambtenaar Jongejan die in Oujda (Marokko) gastarbeiders selecteert. Hij doet dit binnen enkele seconden, waarbij hij vraagt of de mannen Frans spreken. Een fragment uit de reportage:</p><p>journalist: \"Meneer Jongejan, hoe kunt u nou zo een, twee, drie uitmaken of u iemand afwijst ja of nee? Waarop baseert u zo'n beslissing?\"<br>Jongejan: \"De grove selectie begint met de eisen van de werkgever, bijvoorbeeld leeftijd, gehuwd of ongehuwd, en de eisen die mijn ministerie¹) me meegeeft. Ze moeten representatief zijn voor de Nederlandse arbeidsmarkt, geen analfabeet. Er moet behoorlijke communicatie zijn, dat is wel eens te wensen overgelaten (...).\"<br>journalist: \"Op een buitenstaander, meneer Jongejan, maakt uw werk een bijzonder moeilijke indruk. Het lijkt, ik zou bijna zeggen alsof je op een slavenmarkt staat.\"<br>(...)<br>Jongejan: \"Ik heb de middelen die ik heb en dat is mijn intuïtie en mijn ervaring en dat is misschien wat scherp. Ik moet het scherp spelen.\"</p><p>noot 1 Jongejan werkt voor het ministerie van Sociale Zaken.</p><p>In 1969 sluiten de Nederlandse en de Marokkaanse regering een overeenkomst waardoor Nederland gastarbeiders mag werven in Marokko.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 10 nog een keer.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Van Meekeren, de maker van de reportage, wil dat de Nederlandse regering haar beleid ten aanzien van de selectie van gastarbeiders verandert. Je twijfelt hierdoor aan de betrouwbaarheid van de reportage voor een onderzoek naar de werving van gastarbeiders in 1969.<br>Verklaar je twijfel en ondersteun daarbij je antwoord met een voorbeeld uit de bron.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Voorbeeld van een juist antwoord is:</p><ul><li>Omdat Van Meekeren wil dat de regering haar beleid verandert, is het mogelijk dat hij wil aantonen dat de selectie niet eerlijk/zorgvuldig verloopt / dat de vragen aan/de opmerkingen tegen Jongejan sturend zijn, (1 punt)</li><li>zoals de vergelijking over de slavenmarkt / de vraag/opmerking dat Jongejan zijn beslissing \"één, twee, drie\"/zonder echt na te denken neemt. (1 punt)</li></ul><p><em>Opmerking:</em><br>Alleen als het antwoord een juiste verklaring bevat voor de twijfel aan de betrouwbaarheid, wordt 1 scorepunt toegekend aan een passend voorbeeld uit de bron.</p>"
+          },
+          {
+            "id": 22,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>DDR-leider Ulbricht stond afwijzend tegenover de Ostpolitik van Brandt. De regering van de Sovjet-Unie zorgde ervoor dat Ulbricht werd vervangen door een leider die de Ostpolitik wél steunde.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit dat de regering van de Sovjet-Unie met de vervanging van Ulbricht de detente steunde.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Kern van een juist antwoord is:</p><p>De Ostpolitik had tot doel de relatie tussen de BRD en de DDR/het Oostblok te verbeteren, zodat de regering van de Sovjet-Unie ervan uitging dat de vervanging van Ulbricht/de benoeming van een leider die meewerkte aan de Ostpolitik zou leiden tot ontspanning tussen de ideologische blokken (wat tijdens de detente werd nagestreefd).</p>"
+          },
+          {
+            "id": 23,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p><strong>Bron 11</strong></p><p>In het Welzijnsmaandblad van februari 1981 staat deze prent van Collignon:</p><p>Toelichting: De welzijnssector zorgt voor personen of groepen die niet volledig voor zichzelf kunnen zorgen.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 11.",
+            "bron_verwijzing": "havo_geschiedenis_tv1_opgave3_bron11.png",
+            "vraagtekst_html": "<p>Deze prent gaat over de verzorgingsstaat in de jaren 1980.<br>Geef aan:</p><ul><li>welke visie Collignon weergeeft over de verzorgingsstaat, waarbij je je antwoord ondersteunt met een verwijzing naar de prent, en</li><li>zonder bron welk beleid de regeringen onder Lubbers voeren met betrekking tot de verzorgingsstaat.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 3</strong></p><p>Voorbeeld van een juist antwoord is:</p><ul><li>Collignon geeft weer dat de verzorgingsstaat in gevaar/overbelast is/moet worden herzien, (1 punt)</li><li>door af te beelden dat (een van de volgende):<ul><li>de boot van de welzijnssector overvol is / te groot is voor de boot van de verzorgingsstaat.</li><li>de boot van de verzorgingsstaat (bijna) kapseist.</li><li>de boot van de verzorgingsstaat naar donkere wolken/slecht weer vaart. (1 punt)</li></ul></li><li>De regeringen onder Lubbers voeren een (liberaal) beleid van bezuinigingen/beperken de verzorgingsstaat. (1 punt)</li></ul><p><em>Opmerking</em><br>Alleen als bij de eerste deelvraag een juiste visie wordt genoemd, wordt 1 scorepunt toegekend aan een daarbij passende verwijzing naar de prent.</p>"
+          },
+          {
+            "id": 24,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p>Een anekdote:</p><p>In 1981 bezocht Honecker tijdens een staatsbezoek met de West-Duitse bondskanselier een kerstmarkt in de Oost-Duitse stad Güstrow. De Oost-Duitse regering gaf opdracht tot Operatie Dialoog, waarbij de meeste inwoners de stad uit werden gestuurd of onder huisarrest geplaatst. De bezoekers van de kerstmarkt waren hoofdzakelijk medewerkers van de Staatssicherheitsdienst. Voor de camera's van westerse media werd Honecker meerdere malen toegejuicht.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Licht deze anekdote toe door:</p><ul><li>met een verwijzing naar de anekdote uit te leggen welk kenmerk van een totalitaire dictatuur je kunt illustreren met Operatie Dialoog, en</li><li>te verklaren dat de Oost-Duitse regering Operatie Dialoog noodzakelijk vond omdat de inwoners van de DDR West-Duitse televisiezenders konden ontvangen.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 3</strong></p><p>Voorbeeld van een juist antwoord is:</p><ul><li>Met Operatie Dialoog kun je illustreren dat de overheid het leven van de burgers (volledig) beheerste / propaganda bedreef, (1 punt) wat bleek uit het wegsturen / onder huisarrest plaatsen van burgers / het inzetten van de geheime dienst / het laten toejuichen van Honecker. (1 punt)</li><li>Met Operatie Dialoog voorkwam de regering dat inwoners van de DDR (door naar West-Duitse zenders te kijken) ontdekten dat er kritiek was onder hun medeburgers / door het zien van kritiek (op West-Duitse zenders) opstandiger zouden worden. (1 punt)</li></ul><p><em>Opmerking</em><br>Alleen als het antwoord op de eerste deelvraag een combinatie bevat van een juist kenmerk van een totalitaire dictatuur en een daarbij passende verwijzing naar de anekdote, worden scorepunten toegekend.</p>"
+          },
+          {
+            "id": 25,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>Bron 12</strong></p><p>Anatoly Tsjernjajev, adviseur buitenlandse zaken van Gorbatsjov, schrijft in zijn dagboek over een gesprek dat plaatsvond op 11 oktober 1989:</p><p>Gorbatsjov noemde Honecker een 'klootzak'. Honecker had, voegde Gorbatsjov eraan toe, gewoon tegen zijn luitenants kunnen zeggen: \"Ik heb vier operaties gehad, ik ben 78 jaar oud en deze roerige tijden vragen te veel kracht van mij, laat me stoppen, want ik heb mijn taak gedaan.\" Had hij dat gedaan, dan was hij nog positief de geschiedenisboeken in gegaan. Shakhnazarov¹) en ik spraken onze twijfel uit of zelfs dat mogelijk was geweest. Twee of drie jaar geleden misschien, maar vandaag is hij al afgeschreven door zijn volk.</p><p>noot 1 Shakhnazarov is ook een adviseur van Gorbatsjov.</p><p>Gorbatsjov en zijn adviseurs bespreken de politieke instabiliteit in de DDR.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 12.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Licht dit gesprek toe door:</p><ul><li>aan te geven welke oorzaak wordt gegeven voor de politieke instabiliteit in de DDR, en</li><li>aan te tonen dat zij een eenzijdig beeld geven, waarbij je de rol van de Sovjet-Unie in het ontstaan van politieke instabiliteit in de DDR in je antwoord betrekt.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Kern van een juist antwoord is:</p><ul><li>Gorbatsjov en zijn adviseurs beweren dat de politieke instabiliteit van de DDR wordt veroorzaakt door het te lange aanblijven/de impopulariteit van Honecker. (1 punt)</li><li>Gorbatsjov en zijn adviseurs nemen niet mee dat de instabiliteit mede wordt veroorzaakt omdat de hervormingen in de Sovjet-Unie ervoor zorgen dat de bevolking van de DDR ook versoepelingen verwacht / doordat de bevolking van de DDR in opstand durft te komen omdat de Sovjet-Unie Honecker niet zal helpen (vanwege het loslaten van de Brezjnevdoctrine). (1 punt)</li></ul>"
+          },
+          {
+            "id": 26,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Bij de invoering van de euro besloot de Europese Unie om op de biljetten geen bestaande bouwwerken uit afzonderlijke landen af te beelden. In plaats daarvan werd op elk van de bankbiljetten een fictief bouwwerk afgebeeld in een verschillende Europese architectonische stijl.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit dat dit besluit moest bijdragen aan de Europese eenheid.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Kern van een juist antwoord is:</p><p>Door het afbeelden van Europese architectonische stijlen op de biljetten werd de nadruk gelegd op de gemeenschappelijke geschiedenis/cultuur, waardoor alle (deelnemende) landen zich verbonden voelden met de Europese munt/met Europa (wat moest bijdragen aan Europese eenheid).</p><p><strong>of</strong></p><p>Door het opnemen van fictieve bouwwerken werd voorkomen dat sommige Europese landen zich achtergesteld zouden voelen omdat er geen bouwwerk van hun land werd afgebeeld / omdat hun nationale bouwwerk werd afgebeeld op een biljet met lage waarde, waardoor alle (deelnemende) landen zich verbonden voelden met de Europese munt/met Europa (wat moest bijdragen aan Europese eenheid).</p>"
+          }
+        ]
+      }
+    ]
+  }

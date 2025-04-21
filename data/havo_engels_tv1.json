@@ -1,0 +1,676 @@
+{
+    "vak": "Engels",
+    "niveau": "HAVO",
+    "tijdvak": "TV1",
+    "jaar": 2024,
+    "teksten": [
+      {
+        "tekst_id": "tekst1",
+        "titel": "Elon Musk",
+        "inhoud_html": "<p>It may be time for the business media to stop reporting on every Elon Musk tweet as though it's a __1__. Today Musk tweeted \"thinking of quitting my jobs & becoming an influencer full-time wdyt,\" later suggesting he might join OnlyFans.</p><p>Musk, of course, is already an influencer, so the comment was almost certainly one of the jokey musings he likes to make on Twitter.</p><p>Wall Street got the joke, brushing it off by pushing up Tesla stock 1.3%. But various news outlets reported it with a straight face. Reuters adopted what may have been the most deadpan tone in its report, noting \"it was not immediately clear if Musk...was serious.\"</p><small>theinformation.com, 2021</small>"
+      },
+      {
+        "tekst_id": "tekst2",
+        "titel": "What about us, police blast",
+        "inhoud_html": "<p><strong>1</strong> POLICE leaders accused the Government of holding them in 'contempt' last night despite receiving a further £160 million to fight terrorism.</p><p><strong>2</strong> Representatives of frontline officers were 'angry and disappointed' as they accused the Chancellor of putting the maintenance of pavements ahead of public safety.</p><p><strong>3</strong> They had called for more cash as they battle a surge in violent crime and increasingly complex inquiries.</p><p><strong>4</strong> Outlining his spending plans, Phillip Hammond said the extra counter-terrorism funding will be available in the next financial year. He said: 'I recognize that policing more generally is under pressure from the changing nature of crime.' The Chancellor hinted police budgets could face a further shake-up in their funding settlement in December.</p><p><strong>5</strong> But John Apter, of the Police Federation, led the criticism, saying: 'This is just another example of the contempt in which the Government holds police officers. What does it say when a Government prioritises repairing pavements over policing? We welcome the investment in counter-terrorism capability but given the __3__ this country is facing it is a necessity dressed up as a gift and the very minimum which is required with more than 700 live counter-terrorism investigations.'</p><p><strong>6</strong> Police numbers have fallen by 21,000 since 2010, prompting warnings from chief constables about the service they can provide. They have said commanders face stark choices about which crimes they investigate because of limited resources.</p><small>Daily Mail, 2018</small>"
+      },
+      {
+        "tekst_id": "tekst3",
+        "titel": "Old drivers on the move",
+        "inhoud_html": "<p>Margaret Hodge is absolutely right about the absurdity of the lax rules on driving in old age (When is it time to call it a day? That's the age old problem, 23 January). She writes that older people should be properly checked and they can be. At the age of 80, I arranged (for a modest fee) for an assessment through the Institute of Advanced Motoring. At 83, I arranged a further assessment and recently, after my 86th birthday, I did the same. The assessment involves driving for about an hour with an experienced assessor beside you. Afterwards you get an overall rating and some words of advice. For the first two sessions I was rated \"safe and competent\" but my recent rating was better - \"excellent\" - largely because of my taking advice to improve use of my wing mirrors. It is gratifying to identify a skill that has actually improved between 80 and 86. If the assessor had thought I was unfit to drive, I would have been told so. Such assessments should be mandatory at 80 and every three years subsequently. The elderly should pay for them if they want to continue driving.<br/>Professor Philip Graham<br/>London</p><p>I fear this new campaign to encourage older drivers to hand in their car keys (Letters, 22 January) will result in __5__, adding to the perils for pedestrians.<br/>Simon White<br/>Seaford, East Sussex</p><small>The Guardian, 2019</small>"
+      },
+      {
+        "tekst_id": "tekst4",
+        "titel": "The influence of non-experts and amateur opinion",
+        "inhoud_html": "<p><em>adapted from an article by Ashley Morgan</em></p><p><strong>1</strong> The internet today is a source of seemingly endless amounts of easily digestible material. Countless people contribute to its 'factual' information, and promote their own opinions as facts too. Through Facebook, Twitter and Instagram, people particularly celebrities are also able to promote products and ideas in a much more immediate and visual way. In addition, they can frame or reinvent themselves as experts in completely different areas than the ones they gained fame in. They have broken away from the activities that made them famous - acting, singing, or sport - and reinvented themselves as business people. They are now more than just promoters of certain products. They are the 'go to' for fashionable lifestyles.</p><p><strong>2</strong> That celebrities are moving into business is not such a surprise. Yet, the way in which they adopt expertise in matters on which they have no training is a new twist in the rise of the amateur. When Victoria Beckham, former member of pop group the Spice Girls, first launched her clothing line in 2008, fashion editors were ready to be sceptical, but influential magazines such as Harper's Bazaar and Vogue were impressed. Despite no apparent training in design - her initial 'expertise' in this matter came from her personal interest in clothing and being photographed wearing fashionable clothes - Beckham recently celebrated a decade as a fashion designer.</p><p><strong>3</strong> __8__, actress Gwyneth Paltrow is now a lifestyle and 'health' guru and her 'modern lifestyle brand' GOOP sells face-creams and other products under the umbrella of health and beauty. Despite the chorus of criticism against Paltrow and GOOP's 'pseudo- science', the company is now reportedly worth US\\$250m.</p><p><strong>4</strong> These new experts don't even have to be famous for another reason to demonstrate expertise. Ella Mills, for example, is a UK blogger who, through documenting her illness and experimenting with food, became a staunch advocate of 'clean eating'. This helped launch her 'natural and honest' food brand, Deliciously Ella, without any experience as a dietitian.</p><p><strong>5</strong> While social media can be considered a force for good in education, the dominance of a 'point of view approach' in this sphere rather than true expertise __10__ expert knowledge itself, and the idea that you spend time to train and gain qualifications in a chosen field before claiming expertise. Besides, as more people turn to the internet and social media for knowledge of all kinds, it might arguably be much harder to tell 'point of view approach' from empirical and factual research, as they now both appear in the same place. A recent example of this is the wider proliferation of pseudo-science. Pseudo-science itself is based on amateur opinions, and the issue with this is that social media becomes the supreme platform for perpetuating it.</p><p><strong>6</strong> As social media has proved that people can be successful with no obvious qualifications or training, and viewpoints that are presented increasingly confirm people's perspectives, scientific expertise might arguably be eroded. While many people have benefitted financially and in terms of social status, the knowledge that has emerged from social media is increasingly narrow and difficult to gauge.</p><small>theconversation.com, 2019</small>"
+      },
+      {
+        "tekst_id": "tekst5",
+        "titel": "Reading Faces: Why You Sometimes Get It Wrong",
+        "inhoud_html": "<p><em>adapted from an article by Frank T. McAndrew PhD</em></p><p><strong>1</strong> Hundreds of studies over the past 50 years reveal that most of us can quickly and accurately distinguish basic emotional expressions from each other, even when the expression is present for as little as a tenth of a second. It is also well accepted that displaying emotion through the face is a universal, innate part of who we are. In other words, humans everywhere use the very same expressions to convey the very same feelings. There is even an area of our brain that is devoted solely to recognizing facial expressions. So why do we sometimes get it wrong?</p><p><strong>2</strong> For starters, we simply are not always looking. In our interactions with others, it would be considered __14-1__ and more than a little bit creepy to stare fixedly at the face of the person with whom we are speaking. We look at others more when we are listening than when we are the ones speaking, but in either case, we frequently glance away. This means that we may miss very brief microexpressions that come and go in a fraction of a second, and these microexpressions will often reveal our partner's true feelings because they are less easy to control than more obvious emotional signals.</p><p><strong>3</strong> Also, the 'Display Rules' that are part of your culture's repertoire of __14-2__ norms dictate that it is not always appropriate to show exactly what you are feeling. Display rules differ from culture to culture, with some cultures permitting more flexibility than others regarding the range and intensity of emotions that are acceptable in public. Every culture, however, has consistent expectations about how the public display of emotion should be handled.</p><p><strong>4</strong> One of my favorite examples of the pressure to act differently than we feel is what you usually see at the end of a beauty pageant or talent competition. Each of these contestants invariably beams with apparent joy at her good fortune, even when they do not win. The social pressure to smile and appear happy is so powerful that cultural norms overwhelm the display of feelings such as disappointment, envy, or anger that would almost certainly be more __14-3__. And the winner, what does she do? She cries! Apparently, leaping up and down with joy and lording the victory over the also-rans is something that our culture has determined to be unseemly.</p><p><strong>5</strong> Also, we have probably all been in situations where a small 'White Lie' is __14-4__: feigning gratitude for a well-intentioned gift that you hated; praising the cooking of the host after a terrible meal; offering encouraging words after the embarrassing karaoke performance of a friend. Anyway, you could say that both display rules and white lies are culturally accepted forms of deception.</p><p><strong>6</strong> Success in many occupations depends greatly upon the ability to manage emotional expressions. Actors, diplomats, lawyers, and sales representatives, among others, would not get very far without this skill. There are a few tried-and-true facial management techniques that we rely upon to keep true emotions hidden. Qualifying is a technique by which you immediately follow a genuine expression that has slipped out with a different expression, as if to say \"pay no attention to what you just saw this is how I really feel.\" Modulating is what you do when you turn the volume of an emotional expression up or down depending upon the circumstance. For example, imagine that you and one of your close friends have both applied to the same graduate school, and you get in but your friend does not. You will of course be happy about your acceptance, but you will almost certainly downplay the extent of your happiness in front of your friend. Falsifying is exactly what it sounds like - you completely fake an emotion by covering up the real expression and displaying a bogus one.</p><p><strong>7</strong> In short, as good as you are at reading the emotions of others, always remember that there will be times when you get the signals wrong and that is __16__ part of social life.</p><small>psychologytoday.com, 2019</small>"
+      },
+      {
+        "tekst_id": "tekst6",
+        "titel": "\"Just Like Us\"",
+        "inhoud_html": "<p><em>Het volgende fragment is het begin van een kort verhaal, over een moeder en dochter die samen reizen.</em></p><p>It wasn't easy to get kicked out of Happy Trails RV Park and Camp. The owner put up with a lot, as long as you followed the rules. Put your fire out before turning in. Dump your trash each night and secure the lid to keep the raccoons away. No fireworks on the beach. Only if people fell to 5 shouting and shoving after a long day of drinking that slid into night did the owner call the cops. I won't abide fighting, she said.</p><p>But she let us go without summoning the authorities.</p><p>Mama and I had arrived at Happy Trails the spring I turned fourteen. We drove north on Highway 101, past the green hills and herds of cows in 10 Sonoma County, the billboards for the Indian casinos, the signs to Shelter Cove and the Lost Coast. Past Ukiah and Willits and Garberville and Phillipsville, each town smaller than the last. It seemed like we'd been driving forever in our truck camper and we were still in California.</p><p>15 We entered a grove of redwoods that kept the roads in a cool perpetual twilight and not long after came upon a carved wooden cowboy sleeping in a crescent moon, the sign for Happy Trails.</p><p>At the front counter, the woman studied our hair, our clothes. Our camper's shower had a lukewarm, faint spray, never wet enough.</p><p>\"We're looking for a place to stay,\" Mama said.</p><p>20 \"How many nights?\" The woman wore a green velour tracksuit and a white visor tucked into her bobbed silver hair.</p><p>\"Is there a discount for more nights?\" Mama asked.</p><p>The woman peered at us. I didn't look much like either of my parents, with my tawny skin and dark brown hair that people mistook for Mexican or 25 Italian or Native American or Middle Eastern. Mama had sandy-blond hair and fair skin freckled from too much sun. In photos, my Chinese father had been lean and dark enough to disappear into my mother's shadow.</p><p>A fat man in flipflops came in and pulled out a cherry popsicle from the freezer case. \"Thanks, Ma.\" 30 He tossed the plastic wrapper toward the trash can by the door. He missed but didn't pick it up. \"That's my profit you're eating into,\" she grumbled. She must be the owner. \"Alan. Alan!\" He didn't acknowledge her and the screen door slammed behind him.</p><p>Fetching the wrapper, Mama asked the owner if she had any jobs around the campsite in exchange for a discount on the weekly rate. The owner 35 leaned forward for a closer look, checking my mother's hand - no ring.</p><p>Please, I asked silently. Let us stay. Just for a while. A place to start over, maybe settle for more than a few weeks. For the last five months, Mama 40 and I had bunked down in RV parks, by warehouses and factories, and in superstore parking lots.</p><p>\"I could use a little help around here,\" the owner said. \"I'm Margie.\"</p><small>electricliterature.com</small>"
+      },
+      {
+        "tekst_id": "tekst7",
+        "titel": "The Games People Play",
+        "inhoud_html": "<p><em>The Game Maker for The New York Times (Yes! There is a Game Maker) explains.<br/>adapted from an article by Sam Von Ehren</em></p><p><strong>1</strong> Why do people love games? As the Game Maker for The New York Times, I grapple with this question every day. The reductively easy answer is simple: They're fun! But why are they fun? Do they have to be fun? As we dig deeper and deeper, we find more questions. What even is a game? What is fun? My take on the appeal of games is also simple, if paradoxical. Games are a controlled form of freedom.</p><p><strong>2</strong> Games occupy a strange place in our cultural consciousness. Nearly everyone has played a game at some point in their lives. And yet, games are rarely discussed with the same reverence as other media like films or books. For most, games are like chocolate: a guilty pleasure consumed secretly. The game designer Sid Meier once remarked that \"a game is a series of interesting choices.\" Navigating these choices shapes the course of play, laying bare who we are and how we think. Playing a game is an act of exposition.</p><p><strong>3</strong> When you play a game you make several agreements with your opponent. You agree to engage in a voluntary conflict against each other; to follow a system of rules to govern your conflict; and to accept the outcome of those interactions, declaring one the winner and the other a loser. We adhere to these agreements and rules faithfully, committing to and executing the game with little hesitation.</p><p><strong>4</strong> Game designers call this alternate state of being \"the magic circle\". Imagine a circle drawn in chalk on a sidewalk. When we are inside the chalk we are \"playing\" the game. We'll only do what the rules of the game allow. We will try to win. When the game ends, we leave the circle and return to normal. The magic circle is what separates a game from reality. I use the metaphor of a chalk line because the magic circle is not an absolute barrier or even a physical one. We can enter and exit the magic circle freely. We bring our bodies, personalities, and life experiences into the game. We take the memories and experience of the game with us when we leave. The chalk line casts a spell on that space of sidewalk and turns it into a space for playing.</p><p><strong>5</strong> Humans have always been drawn to this trick, finding novel ways to play within their environments. In prehistoric times, humans were playing games with sheep ankle bones called Knucklebones. Players balance a few bones on top of their hands, then toss a few in the air, capturing as many as possible on the way down. Go, a strategy game invented in ancient China, is still played, highlighting part of what is so fascinating about games. Although Go's origin is unclear, many scholars speculate that it was created to teach tactics and strategy. By entering the magic circle to play Go, we give ourselves permission to try, to fail, to lose, and when we stop playing, we carry that experience with us. The same is true for Chess, Poker, or any number of analog games.</p><p><strong>6</strong> Digital games take many of the powers of traditional analog games and ramp up both the rate of interaction and the complexity of the underlying systems, but I often find that analog games are a bit more playful. When playing an analog game, the only limitations are the rules you've agreed to. You can modify them at will, more easily creating playful experiences.</p><p><strong>7</strong> Games sometimes model real-world systems, allowing free exploration of their interlocking processes. The precursor to Monopoly, Elizabeth Magie's The Landlord's Game, was created to model and critique capitalism by giving players an opportunity to feel its failings first hand. It was not very fun, but that's OK. One of the dark secrets of game design is that games don't need to be fun to be meaningful. Games can help us deal with stress and give us the power to transform our living rooms, backyards, and online meetings into different playful realities.</p><small>nytimes.com, 2020</small>"
+      },
+      {
+        "tekst_id": "tekst8",
+        "titel": "Bear Necessities",
+        "inhoud_html": "<p><em>adapted from a guest column for Michigan Local News by Brittany Peet, PETA¹) Foundation</em></p><p><strong>1</strong> Kind people are drawn to facilities that rescue animals, a fact that many for-profit breeders, dealers and exhibitors use to their advantage. Claiming to offer refuge to animals in trouble brings visitors through the gates and donations in the mail. Case in point: Oswald's Bear Ranch, a roadside zoo that shamelessly markets itself as a rescue facility, even though it has only taken in three orphaned cubs in the last decade. By contrast, it has bred 13 cubs in the past 24 years and purchased or received 70 others from shady captive-breeding operations for use in photo ops.</p><p><strong>2</strong> This roadside zoo's owner, Dean Oswald, treats vulnerable bear cubs as __28__. In the wild, cubs stay with their mothers for years, and premature separation of cubs from their mothers causes extreme distress to both. Experts believe that a cub's immune system does not fully develop until after about 12 months, but apparently, that's of little concern when there are coffers to be filled. Oswald has taken cubs as young as 6 weeks old to a bar.</p><p><strong>3</strong> Bear cubs can catch common human illnesses such as colds and the flu. Removing them from their mother before the period of natural weaning causes abnormalities in brain development that can lead to stereotypic (neurotic) behavior, compromise natural exploratory and social behavior, and can be detrimental to their mental and physical well-being throughout their lives. Bears avoid contact with humans, whom they perceive as predators, and being forced into close proximity with the public causes them to feel trapped and vulnerable. Such exposure is a constant, never- ending stressor. When not being used as photo props, bears at Oswald's exist in conditions that are incompatible with their needs. Cubs are confined to a concrete-floored enclosure, which can lead to foot injuries and is particularly damaging to young cubs, as their developing musculoskeletal systems are fragile and can easily be injured if they run or jump on a hard surface.</p><p><strong>4</strong> As a Michigan native, I find it infuriating to see this kind of blatant animal exploitation in my home state. __30__ Take notorious tiger abuser Jeff Lowe, who was featured in Tiger King: he lived in Michigan for many years and kept big cats there. When I was a kid, I used to visit a park in nearby Mt. Pleasant. There, a bear named Smoky paced around his cramped pen. He has been dead for a long time, but his suffering motivated me to fight to ensure that other bears would not be sentenced to a life of exploitation.</p><p><strong>5</strong> Bears belong in the woods, not in the arms of the public. If you care about animals, never pay to interact with wildlife. Urge Oswald's to let the cubs and other bears be transferred to legitimate sanctuaries so they can spend the rest of their lives in comfort and peace.</p><small>Mlive.com, 2020<br/>noot 1 PETA = People for the Ethical Treatment of Animals</small>"
+      },
+      {
+        "tekst_id": "tekst9",
+        "titel": "Feeling Upset? Try Writing",
+        "inhoud_html": "<p><em>adapted from an article by Elizabeth Bernstein</em></p><p><strong>1</strong> People who write about a traumatic experience or difficult situation in a manner that psychologists refer to as \"expressive writing\" - recording their deepest thoughts and feelings - often show improved mental and physical health, says James Pennebaker, a psychology professor at the University of Texas.</p><p><strong>2</strong> Dr. Pennebaker pioneered the scientific study of expressive writing as a coping mechanism to deal with trauma back in the 1980s.</p><p><strong>3</strong> Expressive writing is a specific technique, and it's different from just writing in a journal. People need to reflect honestly and thoughtfully on a particular trauma or challenge, and do it in short sessions - 15 to 20 minutes for a minimum of three days is a good place to start.</p><p><strong>4</strong> Expressive writing works because it allows you to take a painful experience, identify it as a problem and make meaning out of it, experts say. Recognizing that something is bothering you is an important first step. Translating that experience into language forces you to organize your thoughts. And creating a narrative gives you a sense of control. But there are a few cautions. Expressive writing isn't a magical cure. It shouldn't be used as a replacement for other treatments. And people coping with a severe trauma or depression may not find it useful to do on their own, without therapy.</p><p><strong>5</strong> Yet it can be a powerful coping tool for many, in large part because it helps combat the secrecy people often feel about a trauma, as well as their reluctance to face emotions. \"The more you __34__, the more trouble you will have with it, because you create a loop of trepidation and apprehension and increasing negative emotions,\" says Brian Marx, a professor of psychiatry at the Boston University School of Medicine and deputy director of the behavioral science division of the National Center for PTSD.</p><p><strong>6</strong> Why write? Thinking or talking about an event can lead to ruminating, where you become lost in your emotions. But writing forces you to slow down, says Joshua Smyth, distinguished professor of biobehavioral health and of medicine at Pennsylvania State University, who studies expressive writing.</p><p><strong>7</strong> \"The mere act of putting emotions on paper can dampen the neural activity in the threat area of the brain and increase activity in the regulatory area,\" says Annette Stanton, chair of the department of psychology and professor of psychiatry and biobehavioral sciences at UCLA. Dr. Stanton's research suggests that expressive writing can lead to lower depressive symptoms, greater positive mood and enhanced life appreciation. \"Writing can increase someone's acceptance of their experience, and acceptance is calming,\" says Dr. Stanton.</p><small>wsj.com, 2020</small>"
+      },
+      {
+        "tekst_id": "tekst10",
+        "titel": "Movie star mystery",
+        "inhoud_html": "<p><strong>1</strong> Traditionally, streaming service Netflix has held statistics about its viewing figures close to its chest. It made an exception last week, however, with the announcement that 30 million subscriber accounts had streamed its new comedy thriller, Murder Mystery, in its first three days of release. Had it been released in the cinema, and if you imagine that for each account two people watched it, this would make it the third-best opening weekend ever.</p><p><strong>2</strong> Which just goes to show that __36-1__ said Melanie McDonagh in The Daily Mail. According to her this Agatha Christie spoof, starring Jennifer Aniston and Adam Sandler as a hapless American couple who get drawn into a glamorous if implausible murder mystery, is lacking in anything resembling suspense, emotional depth or even humour.</p><p><strong>3</strong> Leo Benedictus of The Guardian also notices the film is cliché, but he thinks that's the point of a spoof. And he goes on to state that he finds it an amiable movie precisely because __36-2__</p><p><strong>4</strong> What Murder Mystery really proves is that, contrary to reports, __36-3__, says Benjamin Lee in The Guardian. He explains how in the cinema, the biggest hits, like Marvel's Avenger movies, rely on franchise momentum more than on the draw of individual actors. But stars like Sandra Bullock and Ben Affleck, whose big screen record has been patchy, have found a new lease of life on Netflix. When Sandler signed a multi-movie deal with Netflix, pundits took it as proof the actor was washed up. On the contrary, it looks like he was just ahead of his time.</p><small>adapted from THE WEEK, 2019</small>"
+      },
+      {
+        "tekst_id": "tekst11",
+        "titel": "New documentary by Ascher",
+        "inhoud_html": "<p><em>by David Pescovitz</em></p><p>Two years ago, I posted that my old pal Rodney Ascher, director of fantastically freaky documentaries like Room 237, about weird theories surrounding The Shining¹), and The Nightmare, a study on sleep paralysis, was embarking on a new documentary project about people who believe that we're living in a simulation. At Rodney's request, I invited any Boing Boing readers who are convinced that our world is a digital creation to get in touch with him. Some of you did! I'm thrilled to say that the film, titled A Glitch in the Matrix, is now complete and will premiere next month at the 2021 Sundance Film Festival followed by a release by Magnolia Pictures! Congratulations, Rodney.</p><blockquote>Here's what Sundance said about A Glitch in the Matrix:<br/><br/>This fascinating and visually stimulating documentary examines simulation theory - the idea that this world we live in __39__ The theory is as old as Plato's Republic and as current as Elon Musk's Twitter feed and A Glitch in the Matrix traces its genesis over the years, from philosophical engagements by the ancient Greeks to modern explorations by Philip K. Dick, the Wachowskis, and game theorists. Amidst advancing waves of technology within today's sophisticated digital culture, A Glitch in the Matrix explores the scientific possibility of simulation theory while interrogating it as a symptom of twenty-first century existential crises.</blockquote><small>boingboing.net, 2020<br/>noot 1 The Shining is een film uit 1980, gebaseerd op een thriller geschreven door Stephen King</small>"
+      },
+      {
+        "tekst_id": "tekst12",
+        "titel": "The remarkable history of the word 'hip'",
+        "inhoud_html": "<p><em>Lees eerst de opgave voordat je naar de tekst gaat.<br/>adapted from a blog by Tom Dalzell</em></p><p>For more than 110 years, hip has found a prominent place in our slang, reshaping and repurposing itself every few decades to carry itself forward, from the early twentieth century's hip to today's hipster movement.</p><h3>Hep or hip</h3><p>For years hep and hip were used interchangeably. Hep was recorded first, on 9 May 1903, in the Cincinnati Enquirer. The 'aware' sense of hip quickly grew to include 'world- wise', 'sophisticated', and 'up-to-date with trends in music, fashion, and speech'. It expanded to the verb hip in 1932, meaning 'to make aware'. Hip may be a simple, three-letter word, but its etymology (when used in this way) is a mystery. Holloway and Vass suggested in The African Heritage of American English that hip might be derived from Senegalese slaves, for whom xipi in their native Wolof language meant 'to have your eyes open, to be aware'.</p><h3>Hepcats and hipsters</h3><p>Hep gave way to hepcat, meaning a knowledgeable and fashionable jazz aficionado. In the September 1937 issue of Downbeat, a caption over a picture showing three male musicians and a female singer reads: '3 Hep Cats and a Hep Canary.' It was not until 1940 that we saw hipcat, meaning the same thing. This was also the case with hepster and hipster - hepster first appeared in the title of Cab Calloway's Hepster's Dictionary, punning no doubt on the rhyme with 'Webster'. Hipster would not appear until 1940, although it would soon outpace hepster in popularity. Both terms referred to a white fan of jazz, and usually of jazz played by black musicians.</p><h3>Hippie</h3><p>Next came the early sense of hippie. In the 1950s, hippy or hippie took on a somewhat derisive tone when applied to those who posed as hipsters but were not in fact the genuine article. The first use of hippie in a new 1960s countercultural/flower child sense came in a series of articles on the evolving Haight-Ashbury neighborhood of San Francisco by Michael Fallon which began running in the San Francisco Examiner on 5 September 1965. Still using beatnik in the headline, Fallon used hippies, heads, and beatniks interchangeably in the body of the article.</p><h3>Hip-hop</h3><p>A tad over a decade later, hip showed up in hip-hop, referring to a subculture that originated in the black and Hispanic youth of America's inner cities, especially in the South Bronx neighborhood of New York in the late 1970s. The word hip-hop, like many of its slang giant peers, has several claimed parents, but no solid evidence supporting any of the claims. The earliest recorded usage found to date is from nine years after DJ Kool Herc began the experiments that produced the art form, in the 1979 song Rapper's Delight, with 'Said a hip hop the hibbit the hippidibby hip hip hoppa you don't stop'. Out of the scat context, the earliest usage is from the 24 February 1979 New Pittsburgh Courier, which reported that DJ Starski was \"responsible for the derivation of the 'Hip-Hop'.\"</p><h3>Hipster</h3><p>Almost a century into its journey through American slang, hip had at least one more life up its sleeve in the form of the new hipster movement, referring to relatively affluent young Bohemians living in gentrifying neighborhoods. It is an opaque term, and one which is generally not used by anyone considered by others to be a hipster.</p><p>All in all, hip has had a remarkable and unusual slang life. Slang is usually short- lived and while there are examples of words that have risen, fallen, and risen again (groovy, sweet and tasty all come to mind), hip is unique in its ability to navigate 110 years, adding suffixes every few decades to emerge fresh and new. It has been a long and strange trip for hip, and there is nothing to suggest that there won't be a new hip variant again soon.</p><small>blog.oup.com, 2015</small>"
+      }
+    ],
+    "vragen": [
+        {
+            "vraag_id": 1,
+            "tekst_id": "tekst1",
+            "opgave_titel": "Tekst 1 Elon Musk",
+            "vraagtekst": "Which of the following fits the gap in this text?",
+            "type": "mc",
+            "opties": {
+              "A": "juvenile prank",
+              "B": "minor matter",
+              "C": "strategic error",
+              "D": "true statement"
+            },
+            "correct_antwoord": "D",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 2,
+            "tekst_id": "tekst2",
+            "opgave_titel": "Tekst 2 What about us, police blast",
+            "vraagtekst": "What becomes clear in this article?\n\nThe police say they are",
+            "type": "mc",
+            "opties": {
+              "A": "entitled to substantially higher wages.",
+              "B": "ready to improve their success rate.",
+              "C": "understaffed and underfunded.",
+              "D": "unwilling to tackle terrorism."
+            },
+            "correct_antwoord": "C",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 3,
+            "tekst_id": "tekst2",
+            "opgave_titel": "Tekst 2 What about us, police blast",
+            "vraagtekst": "Which of the following fits the gap in paragraph 4?",
+            "type": "mc",
+            "opties": {
+              "A": "economic difficulties",
+              "B": "international competition",
+              "C": "political opposition",
+              "D": "privacy issues",
+              "E": "threat level"
+            },
+            "correct_antwoord": "E",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 4,
+            "tekst_id": "tekst3",
+            "opgave_titel": "Tekst 3 Old drivers on the move",
+            "vraagtekst": "What is the point made by Professor Philip Graham (first letter)?",
+            "type": "mc",
+            "opties": {
+              "A": "Being allowed to drive is a fundamental right for any adult.",
+              "B": "Elderly drivers can drive as long as they are monitored regularly.",
+              "C": "Most senior citizens' driving skills remain constant over the years.",
+              "D": "There is no clear correlation between age and unsafe driving habits.",
+              "E": "Traffic regulations that take old drivers off the roads are overdue."
+            },
+            "correct_antwoord": "B",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 5,
+            "tekst_id": "tekst3",
+            "opgave_titel": "Tekst 3 Old drivers on the move",
+            "vraagtekst": "Which of the following fits the gap in the second letter?",
+            "type": "mc",
+            "opties": {
+              "A": "a substantial reduction in experienced motorists on our motorways",
+              "B": "a surge of new taxi companies set up to transport the elderly",
+              "C": "a swell of mobility scooters crowding the streets and pavements",
+              "D": "an increase in road rage incidents triggered by inexperienced driving"
+            },
+            "correct_antwoord": "C",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 6,
+            "tekst_id": "tekst4",
+            "opgave_titel": "Tekst 4 The influence of non-experts and amateur opinion",
+            "vraagtekst": "What is the point made about celebrities in paragraph 1?",
+            "type": "mc",
+            "opties": {
+              "A": "They are often hired by companies as social media authorities.",
+              "B": "They can forge a new career for themselves through social media.",
+              "C": "They exploit their social media profile to get better advertising deals.",
+              "D": "They increasingly rely on social media to keep in the public eye."
+            },
+            "correct_antwoord": "B",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 7,
+            "tekst_id": "tekst4",
+            "opgave_titel": "Tekst 4 The influence of non-experts and amateur opinion",
+            "vraagtekst": "How does paragraph 2 relate to paragraph 1?",
+            "type": "mc",
+            "opties": {
+              "A": "It counterbalances the point introduced in paragraph 1.",
+              "B": "It evaluates the point introduced in paragraph 1.",
+              "C": "It exemplifies the point introduced in paragraph 1.",
+              "D": "It questions the point introduced in paragraph 1."
+            },
+            "correct_antwoord": "C",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 8,
+            "tekst_id": "tekst4",
+            "opgave_titel": "Tekst 4 The influence of non-experts and amateur opinion",
+            "vraagtekst": "Which of the following fits the gap in paragraph 3?",
+            "type": "mc",
+            "opties": {
+              "A": "After all",
+              "B": "In contrast",
+              "C": "Similarly",
+              "D": "Therefore"
+            },
+            "correct_antwoord": "C",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 9,
+            "tekst_id": "tekst4",
+            "opgave_titel": "Tekst 4 The influence of non-experts and amateur opinion",
+            "vraagtekst": "What does paragraph 4 make clear?",
+            "type": "mc",
+            "opties": {
+              "A": "Anyone with a following can be seen as an authority on a certain subject nowadays.",
+              "B": "The best remedies for ailments are those tried and tested by sufferers themselves.",
+              "C": "The internet is starting to replace formal schooling as a primary source of knowledge."
+            },
+            "correct_antwoord": "A",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 10,
+            "tekst_id": "tekst4",
+            "opgave_titel": "Tekst 4 The influence of non-experts and amateur opinion",
+            "vraagtekst": "Which of the following fits the gap in paragraph 5?",
+            "type": "mc",
+            "opties": {
+              "A": "could have a negative impact on",
+              "B": "might lead to significant backing for",
+              "C": "will probably cause a revival of"
+            },
+            "correct_antwoord": "A",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 11,
+            "tekst_id": "tekst4",
+            "opgave_titel": "Tekst 4 The influence of non-experts and amateur opinion",
+            "vraagtekst": "Which of the following becomes clear from paragraph 5?",
+            "type": "mc",
+            "opties": {
+              "A": "A lot of unverified information is spreading and flourishing online.",
+              "B": "Social media steers people towards new insights and experiences.",
+              "C": "The digital community seems to reject most academic practices."
+            },
+            "correct_antwoord": "A",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 12,
+            "tekst_id": "tekst4",
+            "opgave_titel": "Tekst 4 The influence of non-experts and amateur opinion",
+            "vraagtekst": "How can the tone of paragraph 6 be characterised?",
+            "type": "mc",
+            "opties": {
+              "A": "as concerned",
+              "B": "as confused",
+              "C": "as hopeful",
+              "D": "as mocking",
+              "E": "as neutral"
+            },
+            "correct_antwoord": "A",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 13,
+            "tekst_id": "tekst5",
+            "opgave_titel": "Tekst 5 Reading Faces: Why You Sometimes Get It Wrong",
+            "vraagtekst": "'So why do we sometimes get it wrong?' (alinea 1)\n\nWelke twee verklaringen worden gegeven in alinea 2 tot en met 5 voor het feit dat mensen signalen uit gezichtsuitdrukkingen niet oppikken?\nGeef antwoord in het Nederlands.",
+            "type": "open",
+            "correct_antwoord": "We kijken niet (constant/altijd/goed)./We kijken (soms) weg (en missen daardoor dingen). EN Mensen laten niet (altijd) hun ware emoties zien.",
+            "max_score": 2
+          },
+          {
+            "vraag_id": 14,
+            "tekst_id": "tekst5",
+            "opgave_titel": "Tekst 5 Reading Faces: Why You Sometimes Get It Wrong",
+            "vraagtekst": "Vier van de onderstaande zeven woorden (a tot en met g) zijn uit de tekst weggehaald (zie 14-1, 14-2, 14-3 en 14-4).\n\nGeef voor elke open plaats aan welk woord daar hoort.\n\nNoteer de letter van het woord achter elk nummer op het antwoordblad.\nLet op: er blijven drie woorden over.\na behavioural\nb deceptive\nc fascinating\nd genuine\ne impolite\nf necessary\ng outdated",
+            "type": "gap_fill",
+            "correct_antwoord": [
+              "e",
+              "a",
+              "d",
+              "f"
+            ],
+            "max_score": 2
+          },
+          {
+            "vraag_id": 15,
+            "tekst_id": "tekst5",
+            "opgave_titel": "Tekst 5 Reading Faces: Why You Sometimes Get It Wrong",
+            "vraagtekst": "'this is how I really feel' (paragraph 6)\n\nHow should this remark be interpreted?",
+            "type": "mc",
+            "opties": {
+              "A": "as basically untruthful",
+              "B": "as completely outrageous",
+              "C": "as fairly humble",
+              "D": "as overly emotional"
+            },
+            "correct_antwoord": "A",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 16,
+            "tekst_id": "tekst5",
+            "opgave_titel": "Tekst 5 Reading Faces: Why You Sometimes Get It Wrong",
+            "vraagtekst": "Which of the following fits the gap in paragraph 7, judging from the text as a whole?",
+            "type": "mc",
+            "opties": {
+              "A": "a dreary",
+              "B": "a shocking",
+              "C": "an attractive",
+              "D": "an unavoidable"
+            },
+            "correct_antwoord": "D",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 17,
+            "tekst_id": "tekst6",
+            "opgave_titel": "Tekst 6 \"Just Like Us\"",
+            "vraagtekst": "Komen de volgende beweringen overeen met de inhoud van de tekst?\n\nNoteer 'wel' of 'niet' achter elk nummer op het antwoordblad.",
+            "type": "wel_niet",
+            "beweringen": [
+              "De moeder en dochter worden opstandig als ze zich aan allerlei regels moeten houden.",
+              "De moeder en dochter komen aan bij een camping die in een dunbevolkt gebied lijkt te liggen.",
+              "De dochter heeft het gevoel dat zij en haar moeder er wat onverzorgd uitzien.",
+              "De moeder en dochter laten de zoon van Margie merken dat zijn gedrag onacceptabel is.",
+              "Margie is benieuwd of de moeder een partner heeft.",
+              "De moeder overtuigt Margie ervan dat ze ervaring heeft met het beheren van een camping."
+            ],
+            "correct_antwoord": [
+              "niet",
+              "wel",
+              "wel",
+              "niet",
+              "wel",
+              "niet"
+            ],
+            "max_score": 3
+          },
+          {
+            "vraag_id": 18,
+            "tekst_id": "tekst6",
+            "opgave_titel": "Tekst 6 \"Just Like Us\"",
+            "vraagtekst": "\"Is there a discount for more nights?\" Mama asked.' (line 22)\n\nWhat other clue is given in the text that suggests that the mother and daughter have little money?",
+            "type": "mc",
+            "opties": {
+              "A": "They have been staying in cheap and substandard locations for a while already.",
+              "B": "They have chosen not to fix the broken down water supply inside their mobile home.",
+              "C": "They have considered gambling to increase their tight budget.",
+              "D": "They have tried to economise by taking food from dumpsters."
+            },
+            "correct_antwoord": "A",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 19,
+            "tekst_id": "tekst6",
+            "opgave_titel": "Tekst 6 \"Just Like Us\"",
+            "vraagtekst": "'Please, I asked silently. Let us stay.' (regel 36)\n\nIn welke zin eerder in de tekst wordt duidelijk dat ze uiteindelijk worden weggestuurd?\nCiteer de eerste twee woorden van deze zin.",
+            "type": "citeer",
+            "correct_antwoord": "But she",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 20,
+            "tekst_id": "tekst7",
+            "opgave_titel": "Tekst 7 The Games People Play",
+            "vraagtekst": "What explanation for why games are fun does paragraph 1 present?",
+            "type": "mc",
+            "opties": {
+              "A": "They are based on contradictory theories.",
+              "B": "They have become more complicated over time.",
+              "C": "They help people stay playful and relaxed.",
+              "D": "They provide room for play within limitations."
+            },
+            "correct_antwoord": "D",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 21,
+            "tekst_id": "tekst7",
+            "opgave_titel": "Tekst 7 The Games People Play",
+            "vraagtekst": "What is the main point made in paragraph 3?",
+            "type": "mc",
+            "opties": {
+              "A": "behave more graciously than they do in the real world.",
+              "B": "can forget the worries that define the here and now.",
+              "C": "get the chance to refine skills they need in daily life.",
+              "D": "give themselves over to an alternative existence."
+            },
+            "correct_antwoord": "D",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 22,
+            "tekst_id": "tekst7",
+            "opgave_titel": "Tekst 7 The Games People Play",
+            "vraagtekst": "What is the function of 'the metaphor of a chalk line' (paragraph 4)?",
+            "type": "mc",
+            "opties": {
+              "A": "to emphasise that games and reality are completely unconnected",
+              "B": "to illustrate how games help people to make more sense of everyday reality",
+              "C": "to make clear that the border between games and reality can be easily crossed",
+              "D": "to question if drawing a line between games and reality is necessary"
+            },
+            "correct_antwoord": "C",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 23,
+            "tekst_id": "tekst7",
+            "opgave_titel": "Tekst 7 The Games People Play",
+            "vraagtekst": "What is the example of 'Go' in paragraph 5 meant to make clear?",
+            "type": "mc",
+            "opties": {
+              "A": "that classic games are quite sophisticated",
+              "B": "that games can have practical purposes",
+              "C": "that games may prevent real-life conflicts",
+              "D": "that mankind needs games for survival"
+            },
+            "correct_antwoord": "B",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 24,
+            "tekst_id": "tekst7",
+            "opgave_titel": "Tekst 7 The Games People Play",
+            "vraagtekst": "Which advantage do analog games have over digital ones, according to paragraph 6?",
+            "type": "mc",
+            "opties": {
+              "A": "They are cheap to produce.",
+              "B": "They are simple to play.",
+              "C": "They can be adapted.",
+              "D": "They engage players physically.",
+              "E": "They have a long history."
+            },
+            "correct_antwoord": "C",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 25,
+            "tekst_id": "tekst7",
+            "opgave_titel": "Tekst 7 The Games People Play",
+            "vraagtekst": "Which conclusion does paragraph 7 lead up to?",
+            "type": "mc",
+            "opties": {
+              "A": "Games can provide people with an escape from everyday life.",
+              "B": "Games that mirror true-life situations are the most enjoyable ones.",
+              "C": "It takes time for games to evolve towards their ideal form.",
+              "D": "Old-fashioned games can still be relevant to modern society."
+            },
+            "correct_antwoord": "A",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 26,
+            "tekst_id": "tekst7",
+            "opgave_titel": "Tekst 7 The Games People Play",
+            "vraagtekst": "Which aspect of games is not discussed in this article?",
+            "type": "mc",
+            "opties": {
+              "A": "They are potentially addictive.",
+              "B": "They can be educational.",
+              "C": "They provide entertainment.",
+              "D": "They reveal a player's nature."
+            },
+            "correct_antwoord": "A",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 27,
+            "tekst_id": "tekst8",
+            "opgave_titel": "Tekst 8 Bear Necessities",
+            "vraagtekst": "What is said about Oswald's Bear Ranch in paragraph 1?",
+            "type": "mc",
+            "opties": {
+              "A": "It gets money in ways that are clearly illegal.",
+              "B": "It has more bears than it can accommodate.",
+              "C": "It is only interested in selling bears.",
+              "D": "It pretends to be something it is not."
+            },
+            "correct_antwoord": "D",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 28,
+            "tekst_id": "tekst8",
+            "opgave_titel": "Tekst 8 Bear Necessities",
+            "vraagtekst": "Which of the following fits the gap in paragraph 2?",
+            "type": "mc",
+            "opties": {
+              "A": "high-maintenance playmates",
+              "B": "luxury goods",
+              "C": "money-making tools",
+              "D": "uncontrollable animals"
+            },
+            "correct_antwoord": "C",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 29,
+            "tekst_id": "tekst8",
+            "opgave_titel": "Tekst 8 Bear Necessities",
+            "vraagtekst": "Komen de volgende beweringen over beren in gevangenschap overeen met de inhoud van alinea 3?\n\nNoteer 'wel' of 'niet' achter elk nummer op het antwoordblad.",
+            "type": "wel_niet",
+            "beweringen": [
+              "Ze kunnen op den duur menselijk gedrag gaan vertonen.",
+              "Ze lijden er levenslang onder als ze op jonge leeftijd bij hun moeder worden weggehaald.",
+              "Ze voelen zich bedreigd als mensen dicht bij hen in de buurt zijn.",
+              "Ze worden traag en lui omdat ze eten krijgen zonder daar zelf voor te hoeven zorgen."
+            ],
+            "correct_antwoord": [
+              "niet",
+              "wel",
+              "wel",
+              "niet"
+            ],
+            "max_score": 2
+          },
+          {
+            "vraag_id": 30,
+            "tekst_id": "tekst8",
+            "opgave_titel": "Tekst 8 Bear Necessities",
+            "vraagtekst": "Which of the following sentences fits the gap in paragraph 4?",
+            "type": "mc",
+            "opties": {
+              "A": "And Oswald isn't the only offender.",
+              "B": "Because Oswald started out better.",
+              "C": "But Oswald seems to have imitators.",
+              "D": "So that explains the focus on Oswald."
+            },
+            "correct_antwoord": "A",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 31,
+            "tekst_id": "tekst8",
+            "opgave_titel": "Tekst 8 Bear Necessities",
+            "vraagtekst": "What is the main goal of paragraph 5?",
+            "type": "mc",
+            "opties": {
+              "A": "to appeal to authorities to outlaw the practice of keeping animals in captivity",
+              "B": "to discourage people from observing animals that are forced to spend their lives in captivity",
+              "C": "to mobilise people to stop supporting the abuse of animals living in captivity"
+            },
+            "correct_antwoord": "C",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 32,
+            "tekst_id": "tekst9",
+            "opgave_titel": "Tekst 9 Feeling Upset? Try Writing",
+            "vraagtekst": "Which of the following is said about 'expressive writing' in paragraphs 1-3?",
+            "type": "mc",
+            "opties": {
+              "A": "It can teach you how to keep your emotions in check.",
+              "B": "It helps you get a better grip on what is bothering you.",
+              "C": "It is unclear whether it is effective in the long run.",
+              "D": "It loses its effectiveness if done without guidance."
+            },
+            "correct_antwoord": "B",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 33,
+            "tekst_id": "tekst9",
+            "opgave_titel": "Tekst 9 Feeling Upset? Try Writing",
+            "vraagtekst": "What is the main point made about 'expressive writing' in paragraph 4?",
+            "type": "mc",
+            "opties": {
+              "A": "It cannot be combined with other remedies.",
+              "B": "It cannot be used to manage serious illnesses.",
+              "C": "It is not a substitute for professional care.",
+              "D": "It is not as beneficial as some people claim."
+            },
+            "correct_antwoord": "C",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 34,
+            "tekst_id": "tekst9",
+            "opgave_titel": "Tekst 9 Feeling Upset? Try Writing",
+            "vraagtekst": "Which of the following fits the gap in paragraph 5?",
+            "type": "mc",
+            "opties": {
+              "A": "avoid an issue",
+              "B": "disprove an argument",
+              "C": "examine a situation",
+              "D": "express a desire"
+            },
+            "correct_antwoord": "A",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 35,
+            "tekst_id": "tekst9",
+            "opgave_titel": "Tekst 9 Feeling Upset? Try Writing",
+            "vraagtekst": "How does paragraph 7 relate to paragraph 6?",
+            "type": "mc",
+            "opties": {
+              "A": "It contradicts the advantages of writing mentioned in paragraph 6.",
+              "B": "It explains the physical impact of writing introduced in paragraph 6.",
+              "C": "It shows that writing is more effective than suggested in paragraph 6."
+            },
+            "correct_antwoord": "B",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 36,
+            "tekst_id": "tekst10",
+            "opgave_titel": "Tekst 10 Movie star mystery",
+            "vraagtekst": "Drie van de onderstaande vijf zinnen (a tot en met e) zijn uit de tekst weggehaald (zie 36-1, 36-2 en 36-3).\n\nGeef voor elke open plaats aan welke zin daar hoort.\n\nNoteer de letter van de zin achter elk nummer op het antwoordblad.\nLet op: er blijven twee zinnen over.\na a badly-scripted B-grade movie with cringeworthy dialogue can be remarkably original\nb millions of couch potatoes can be wrong\nc modern audiences are immune to old-fashioned movie-star charm\nd the movie star is alive and well but he or she is just not to be found on the big screen anymore\ne well-known actors playing stereotypical characters makes it such a guilty pleasure",
+            "type": "gap_fill",
+            "correct_antwoord": [
+              "b",
+              "e",
+              "d"
+            ],
+            "max_score": 2
+          },
+          {
+            "vraag_id": 37,
+            "tekst_id": "tekst10",
+            "opgave_titel": "Tekst 10 Movie star mystery",
+            "vraagtekst": "'Traditionally, streaming service Netflix has held statistics about its viewing figures close to its chest.' (alinea 1)\n\nWordt verderop in de tekst een verklaring gegeven voor het feit dat Netflix zijn kijkcijfers meestal niet deelt?\nZo nee, antwoord 'Nee'. Zo ja, noteer het nummer van de alinea waarin dit gebeurt.",
+            "type": "open",
+            "correct_antwoord": "Nee",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 38,
+            "tekst_id": "tekst11",
+            "opgave_titel": "Tekst 11 New documentary by Ascher",
+            "vraagtekst": "Komen de volgende beweringen overeen met de inhoud van de tekst?\n\nNoteer 'wel' of 'niet' achter elk nummer op het antwoordblad.",
+            "type": "wel_niet",
+            "beweringen": [
+              "De eerste twee documentaires van Rodney Ascher waren een commercieel succes.",
+              "Volgens Sundance bevat A Glitch in the Matrix interessant beeldmateriaal.",
+              "A Glitch in the Matrix gaat over een theorie die al in de klassieke oudheid bestond.",
+              "A Glitch in the Matrix is een scherpe aanklacht tegen de oppervlakkigheid van de huidige tijd."
+            ],
+            "correct_antwoord": [
+              "niet",
+              "wel",
+              "wel",
+              "niet"
+            ],
+            "max_score": 2
+          },
+          {
+            "vraag_id": 39,
+            "tekst_id": "tekst11",
+            "opgave_titel": "Tekst 11 New documentary by Ascher",
+            "vraagtekst": "Which of the following fits the gap in the text?",
+            "type": "mc",
+            "opties": {
+              "A": "is transforming beyond recognition",
+              "B": "may have more than three dimensions",
+              "C": "might not be entirely real",
+              "D": "will be taken over by robots"
+            },
+            "correct_antwoord": "C",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 40,
+            "tekst_id": "tekst11",
+            "opgave_titel": "Tekst 11 New documentary by Ascher",
+            "vraagtekst": "How can the tone of this text be characterised best?",
+            "type": "mc",
+            "opties": {
+              "A": "as ambivalent",
+              "B": "as enthusiastic",
+              "C": "as mocking",
+              "D": "as mysterious"
+            },
+            "correct_antwoord": "B",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 41,
+            "tekst_id": "tekst12",
+            "opgave_titel": "Tekst 12 The remarkable history of the word 'hip'",
+            "vraagtekst": "'hip has found a prominent place in our slang' (alinea 1)\n\nIn welke zin verderop in de tekst wordt duidelijk gemaakt dat het bijzonder is dat het woord 'hip' al zo lang wordt gebruikt?\nCiteer de eerste twee woorden van deze zin.",
+            "type": "citeer",
+            "correct_antwoord": "Slang is",
+            "max_score": 1
+          }
+        ]
+      }

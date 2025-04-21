@@ -1,0 +1,463 @@
+{
+  "examen_info": {
+    "vak": "economie",
+    "niveau": "havo",
+    "tijdvak": "TV1",
+    "jaar": 2024
+  },
+  "opgaven": [
+    {
+      "opgave_nr": 1,
+      "opgave_titel": "Een nieuwe cao",
+      "vragen": [
+        {
+          "id": 1,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>Context: Krantenartikel (Januari 2020)</strong></p><p>Het gaat economisch goed in Nederland. De overgrote meerderheid van de bedrijven presenteert goede winstcijfers. De landelijke supermarktketens onderhandelen met de vakbonden over een nieuwe collectieve arbeidsovereenkomst (cao). De vakbonden eisen 3,5% loonsverhoging op het jaarsalaris, met een minimale stijging van € 1.000.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Leg uit dat er sprake is van nivelleren, als de looneis van de vakbond wordt ingewilligd.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een voorbeeld van een juist antwoord is:</p><ul><li>Door het bodembedrag van € 1.000 bij de loonstijging, krijgen lagere inkomens (< 28.571 = 1.000 : 0,035) een procentueel hogere inkomensstijging dan 3,5%. (1 punt)</li><li>Supermarktmedewerkers hebben een relatief laag inkomen (ten opzichte van medewerkers andere sectoren) en zij gaan er dus minimaal € 1.000 op vooruit. (1 punt)</li><li>De hogere inkomens krijgen 3,5%, dus worden de (relatieve) inkomensverschillen kleiner (en dus heeft de looneis een nivellerend effect). (1 punt)</li></ul><p><em>Opmerking: Voor het toekennen van de eerste deelscore moet relatieve inkomensstijging zijn verwoord.</em></p>"
+        },
+        {
+          "id": 2,
+          "max_score": 3,
+          "type": "calculation",
+          "context_html": "<p><strong>Context: Krantenartikel (Januari 2020)</strong></p><p>Het gaat economisch goed in Nederland. De overgrote meerderheid van de bedrijven presenteert goede winstcijfers. De landelijke supermarktketens onderhandelen met de vakbonden over een nieuwe collectieve arbeidsovereenkomst (cao). De vakbonden eisen 3,5% loonsverhoging op het jaarsalaris, met een minimale stijging van € 1.000.</p><p><strong>Aanvullende Context:</strong></p><p>Els Middelkoop is medewerker van een supermarkt. Ze leest in de krant over de looneis van de vakbond. Els verdiende in 2019 een jaarsalaris van € 24.998,- en is benieuwd naar wat dit in 2020 voor haar zou betekenen.</p>",
+          "bronverwijzing_tekst": "Gebruik het krantenbericht en bron 1.",
+          "bron_verwijzing": "havo_ec_tv1_opgave1_bron1.png",
+          "vraagtekst_html": "<p><strong>Bereken de koopkrachtverbetering van Els Middelkoop in 2020, indien de looneis van de vakbond wordt gerealiseerd. Geef je antwoord op 1 decimaal nauwkeurig.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 3</strong></p><p>Een voorbeeld van een juiste berekening is:</p><p>Bij een inkomen van € 24.998 is een loonstijging van 3,5% gelijk aan: 3,5% x € 24.998 = € 874,93. € 874,93 is minder dan € 1.000, dus Els Middelkoop krijgt de minimale loonstijging van € 1.000. (1 punt)</p><p>Haar nominale loonstijging is <span class=\"fraction\"><span class=\"numerator\">€ 1.000</span><span class=\"denominator\">€ 24.998</span></span><span class=\"formula-operator\"> x 100%</span> = 4%. (1 punt)</p><p>De koopkrachtverbetering is (bij benadering) percentage nominale loonstijging - percentage inflatie = 4% - 2,3% = 1,7%. (1 punt)</p><p><em>Opmerking: Indien de kandidaat de koopkrachtverbetering in euro's uitrekent kan de maximale score worden behaald.</em></p>"
+        },
+        {
+          "id": 3,
+          "max_score": 2,
+          "type": "calculation",
+          "context_html": "<p><strong>Context: Onderhandelingen</strong></p><p>Barbara Berends is onderhandelaar van de supermarktketens, en Jacco Jansen is onderhandelaar van de vakbond. Samen bespreken zij de consequenties van de loonstijging die door de vakbond geëist is. De onderhandelaar van de werkgever vindt de looneis te hoog.</p><p><strong>Barbara Berends:</strong> \"U moet zich realiseren dat een loonkostenstijging van 3,5% binnen ons bedrijf, waar de loonkosten 40% van de totale kosten uitmaken, zal leiden tot een productiekostenstijging van 1,4%. De supermarktketens kunnen deze hoge looneis niet betalen.\"</p><p><strong>Jacco Jansen reageert met de volgende uitspraken:</strong><br>1 U spreekt over de nominale productiekostenstijging, maar de reële productiekostenstijging is lager.<br>2 Bovendien leidt de gestegen arbeidsproductiviteit tot lagere productiekosten.<br>3 En u moet zich realiseren dat de omzet bij supermarkten toch zal stijgen, aangezien is gebleken dat de vraag naar goederen uit de supermarkt prijsinelastisch is.</p>",
+          "bronverwijzing_tekst": "Gebruik uitspraak 1 en bron 1.",
+          "bron_verwijzing": "havo_ec_tv1_opgave1_bron1.png",
+          "vraagtekst_html": "<p><strong>Bereken de reële productiekostenstijging bij een nominale loonkostenstijging van 3,5% als de loonkosten 40% van de totale kosten uitmaken.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Bij deze vraag moeten de scorepunten altijd worden toegekend, ongeacht of er wel of geen antwoord is gegeven en ongeacht het gegeven antwoord.</p><p><em>Opmerking:</em></p><p>In de vraag is het onduidelijk of de overige productiekosten nominaal of reëel gelijk blijven. Hierdoor kunnen de totale reële productiekosten zowel dalen als stijgen.</p>"
+        },
+        {
+          "id": 4,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>Context: Onderhandelingen</strong></p><p>Barbara Berends is onderhandelaar van de supermarktketens, en Jacco Jansen is onderhandelaar van de vakbond. Samen bespreken zij de consequenties van de loonstijging die door de vakbond geëist is. De onderhandelaar van de werkgever vindt de looneis te hoog.</p><p><strong>Barbara Berends:</strong> \"U moet zich realiseren dat een loonkostenstijging van 3,5% binnen ons bedrijf, waar de loonkosten 40% van de totale kosten uitmaken, zal leiden tot een productiekostenstijging van 1,4%. De supermarktketens kunnen deze hoge looneis niet betalen.\"</p><p><strong>Jacco Jansen reageert met de volgende uitspraken:</strong><br>1 U spreekt over de nominale productiekostenstijging, maar de reële productiekostenstijging is lager.<br>2 Bovendien leidt de gestegen arbeidsproductiviteit tot lagere productiekosten.<br>3 En u moet zich realiseren dat de omzet bij supermarkten toch zal stijgen, aangezien is gebleken dat de vraag naar goederen uit de supermarkt prijsinelastisch is.</p>",
+          "bronverwijzing_tekst": "Gebruik uitspraak 2.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Leg uit dat een stijging van de arbeidsproductiviteit leidt tot lagere productiekosten.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een voorbeeld van een juist antwoord is:</p><ul><li>Een stijging van de arbeidsproductiviteit betekent dat er minder arbeid nodig is om hetzelfde te produceren. (1 punt)</li><li>Hierdoor dalen de loonkosten (per product). (1 punt)</li><li>(en dus de totale productiekosten). (1 punt)</li></ul>"
+        },
+        {
+          "id": 5,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>Context: Onderhandelingen</strong></p><p>Barbara Berends is onderhandelaar van de supermarktketens, en Jacco Jansen is onderhandelaar van de vakbond. Samen bespreken zij de consequenties van de loonstijging die door de vakbond geëist is. De onderhandelaar van de werkgever vindt de looneis te hoog.</p><p><strong>Barbara Berends:</strong> \"U moet zich realiseren dat een loonkostenstijging van 3,5% binnen ons bedrijf, waar de loonkosten 40% van de totale kosten uitmaken, zal leiden tot een productiekostenstijging van 1,4%. De supermarktketens kunnen deze hoge looneis niet betalen.\"</p><p><strong>Jacco Jansen reageert met de volgende uitspraken:</strong><br>1 U spreekt over de nominale productiekostenstijging, maar de reële productiekostenstijging is lager.<br>2 Bovendien leidt de gestegen arbeidsproductiviteit tot lagere productiekosten.<br>3 En u moet zich realiseren dat de omzet bij supermarkten toch zal stijgen, aangezien is gebleken dat de vraag naar goederen uit de supermarkt prijsinelastisch is.</p>",
+          "bronverwijzing_tekst": "Gebruik uitspraak 3.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Leg uit dat de prijsstijging van de goederen uit de supermarkt leidt tot een stijging van de omzet.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een voorbeeld van een juist antwoord is:</p><ul><li>Bij een prijsinelastische vraag leidt een prijsstijging tot een procentueel/relatief/verhoudingsgewijs lagere daling van de afzet, en zal de omzet stijgen. (1 punt)</li><li>of (Bij een perfect prijsinelastisch verband geldt) als de prijs stijgt, dan zullen mensen alle goederen blijven kopen die zij voor de prijsstijging ook kochten. Hierdoor zal de omzet (van de supermarkt) stijgen. (1 punt)</li></ul><p><em>Toelichting:</em></p><p>Antwoorden via een perfect prijsinelastisch verband kunnen ook maximale scorepunten opleveren.</p>"
+        },
+        {
+          "id": 6,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>Context: Resultaat Onderhandelingen</strong></p><p>Na intensieve onderhandelingen gaan de supermarktketens akkoord met de looneis van de vakbond. De nieuwe cao geldt voor alle werknemers.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 2.",
+          "bron_verwijzing": "havo_ec_tv1_opgave1_bron2.png",
+          "vraagtekst_html": "<p><strong>Leg uit dat er in toenemende mate sprake is van meeliftgedrag bij de cao-onderhandelingen.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een voorbeeld van een juist antwoord is:</p><ul><li>Het deel/percentage van de werknemers dat lid is van een vakbond neemt af (van ongeveer 35% in 1980 naar ongeveer 20% in 2020). (1 punt)</li><li>Supermarktwerknemers die geen lid zijn van een vakbond profiteren van de onderhandelingen door de vakbond / van de inspanning van een ander zonder zelf (financieel) bij te dragen (omdat de CAO voor iedere werknemer geldt / algemeen verbindend is, en dus is er sprake van meeliftgedrag). (1 punt)</li></ul><p><em>Opmerking: Voor het toekennen van de eerste deelscore moet de organisatiegraad in procenten worden verwoord.</em></p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 2,
+      "opgave_titel": "Speedpedelec",
+      "vragen": [
+        {
+          "id": 7,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Een speedpedelec is een variant van de elektrische fiets die tot 45 kilometer per uur kan rijden. Bestuurders van speedpedelecs zijn verplicht om een helm te dragen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Is een helm een substitutiegoed of een complementair goed van de speedpedelec?</strong> Geef een argument voor je keuze.</p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 1</strong></p><p>Een voorbeeld van een juist antwoord is:</p><ul><li>Een helm is een complementair goed, omdat de helm en de speedpedelec tegelijkertijd worden gebruikt / omdat de helm verplicht is bij gebruik van de speedpedelec. (1 punt)</li></ul>"
+        },
+        {
+          "id": 8,
+          "max_score": 2,
+          "type": "multiple_gap_choice",
+          "context_html": "<p>De drie grootste aanbieders van speedpedelecs hebben gezamenlijk 70% van de markt van speedpedelecs in handen. Iedere aanbieder heeft binnen het assortiment keuzemogelijkheden, zoals design, vermogen en sterkte van de accu.</p><p>Sprinter is een van de aanbieders van speedpedelecs. Over type Sprinter4 zijn de volgende gegevens bekend:</p><ul><li>Marginale kosten (MK): € 3.500</li><li>Totale constante kosten (TCK): € 1.000.000</li></ul>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Maak van onderstaande zinnen een economisch juiste tekst.</strong></p>",
+          "gaps": [
+            {
+              "id": 1,
+              "zin_html": "De marktvorm van de markt van speedpedelecs wordt ...(1).... genoemd.",
+              "choices": ["volkomen concurrentie", "monopolistische concurrentie", "oligopolie"],
+              "correct_choice": "oligopolie"
+            },
+            {
+              "id": 2,
+              "zin_html": "Een speedpedelec is een ...(2).... goed.",
+              "choices": ["homogeen", "heterogeen"],
+              "correct_choice": "heterogeen"
+            },
+            {
+              "id": 3,
+              "zin_html": "Bij type Sprinter4 is sprake van ...(3).... variabele kosten.",
+              "choices": ["proportioneel", "progressief", "degressief"],
+              "correct_choice": "proportioneel"
+            }
+          ],
+          "correct_antwoord_model": "maximumscore 2\n(1) oligopolie\n(2) heterogeen\n(3) proportioneel\nIndien drie antwoorden juist 2\nIndien twee antwoorden juist 1\nIndien minder dan twee antwoorden juist 0"
+        },
+        {
+          "id": 9,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Sprinter is een van de aanbieders van speedpedelecs. Over type Sprinter4 zijn de volgende gegevens bekend:</p><ul><li>Marginale kosten (MK): € 3.500</li><li>Totale constante kosten (TCK): € 1.000.000</li></ul>",
+          "bronverwijzing_tekst": "Gebruik bron 1.",
+          "bron_verwijzing": "havo_ec_tv1_opgave2_bron1.png",
+          "vraagtekst_html": "<p><strong>Welk vlak geeft de totale winst van Sprinter weer, als het bedrijf streeft naar maximale omzet?</strong> Noteer de letters van de hoekpunten van het vlak en leg je keuze uit.</p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>BCJK 1</p><p>Een voorbeeld van een juiste uitleg is:</p><p>Als het bedrijf streeft naar maximale omzet, dan is MO = 0.</p><p>Bij q = 500 is op de GO-lijn in punt J de prijs C (€ 6.000) af te lezen, en is GTK af te lezen in punt K, waarde B (€ 5.500). (De gemiddelde winst is gelijk aan GO-GTK.) De totale winst wordt weergegeven door de hoekpunten BCJK. 1"
+        },
+        {
+          "id": 10,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Sprinter heeft een nieuwe zakelijke klant gevonden. Het Nederlandse accountantskantoor Snel krijgt van het internationale moederbedrijf een budget van € 6.000 per medewerker, om voor alle 100 medewerkers speedpedelecs Sprinter4 aan te schaffen.</p><p>Het moederbedrijf van Snel heeft de spelregels bepaald:</p><ul><li>Snel doet een prijsvoorstel aan Sprinter voor levering van 100 stuks Sprinter4.</li><li>Dat voorstel kan € 6.000 per speedpedelec zijn, maar het kan ook een lager bedrag zijn.</li><li>Als Sprinter het voorstel accepteert, dan ontvangt Sprinter de afgesproken prijs en ontvangt Snel het verschil tussen € 6.000 en de afgesproken prijs.</li><li>Als Sprinter het voorstel weigert, dan ontvangen beide bedrijven niets.</li></ul><p>Sprinter wil minimaal € 3.500 ontvangen voor type Sprinter4.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 2.",
+          "bron_verwijzing": "havo_ec_tv1_opgave2_bron2.png",
+          "vraagtekst_html": "<p><strong>Leg uit dat Sprinter minimaal € 3.500 wil ontvangen voor type Sprinter4.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een voorbeeld van een juist antwoord is:</p><p>Het bedrijf zal (minimaal) de marginale kosten willen terugverdienen voordat het gaat leveren, en 1 (in bron 1 is af te lezen) dat de marginale productiekosten (MK) gelijk zijn aan € 3.500. 1"
+        },
+        {
+          "id": 11,
+          "max_score": 2,
+          "type": "multiple_gap_choice",
+          "context_html": "<p>De hiervoor vermelde spelregels voldoen aan de kenmerken van een ultimatumspel.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Maak van onderstaande zinnen een economisch juiste tekst over de kenmerken van het ultimatumspel.</strong></p>",
+          "gaps": [
+            {
+              "id": 1,
+              "zin_html": "Het ultimatumspel is een ...(1).... spel.",
+              "choices": ["sequentieel", "simultaan"],
+              "correct_choice": "sequentieel"
+            },
+            {
+              "id": 2,
+              "zin_html": "Het spel kent ...(2).... spelers.",
+              "choices": ["twee", "drie"],
+              "correct_choice": "twee"
+            },
+            {
+              "id": 3,
+              "zin_html": "De ...(3)... doet een voorstel om een geldbedrag te verdelen.",
+              "choices": ["aanbieder", "respondent"],
+              "correct_choice": "aanbieder"
+            },
+            {
+              "id": 4,
+              "zin_html": "De ...(4)... kiest vervolgens tussen het voorstel accepteren of weigeren.",
+              "choices": ["aanbieder", "respondent"],
+              "correct_choice": "respondent"
+            },
+            {
+              "id": 5,
+              "zin_html": "Als de tweede speler ...(5)... dan ontvangen beide het overeengekomen deel.",
+              "choices": ["accepteert", "weigert"],
+              "correct_choice": "accepteert"
+            }
+          ],
+          "correct_antwoord_model": "maximumscore 2\n(1) sequentieel\n(2) twee\n(3) aanbieder\n(4) respondent\n(5) accepteert\nIndien vijf antwoorden juist 2\nIndien vier antwoorden juist 1\nIndien minder dan vier antwoorden juist 0\n(NB: Als 3 en 4 omgedraaid zijn, is dat ook correct volgens het model, maar de volgorde hier is logischer)"
+        },
+        {
+          "id": 12,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Sprinter heeft een nieuwe zakelijke klant gevonden. Het Nederlandse accountantskantoor Snel krijgt van het internationale moederbedrijf een budget van € 6.000 per medewerker, om voor alle 100 medewerkers speedpedelecs Sprinter4 aan te schaffen.</p><p>Het moederbedrijf van Snel heeft de spelregels bepaald:</p><ul><li>Snel doet een prijsvoorstel aan Sprinter voor levering van 100 stuks Sprinter4.</li><li>Dat voorstel kan € 6.000 per speedpedelec zijn, maar het kan ook een lager bedrag zijn.</li><li>Als Sprinter het voorstel accepteert, dan ontvangt Sprinter de afgesproken prijs en ontvangt Snel het verschil tussen € 6.000 en de afgesproken prijs.</li><li>Als Sprinter het voorstel weigert, dan ontvangen beide bedrijven niets.</li></ul><p>Sprinter wil minimaal € 3.500 ontvangen voor type Sprinter4.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 2.",
+          "bron_verwijzing": "havo_ec_tv1_opgave2_bron2.png",
+          "vraagtekst_html": "<p><strong>Welke bedragen moeten op plaats (1) en (2) in de beslisboom staan?</strong> Leg je keuze uit.</p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een voorbeeld van een juist antwoord is:</p><p>bij (1): € 1.500 want Snel houdt over:</p><p>budgetbedrag − afgesproken prijs = € 6.000 − € 4.500 = € 1.500</p><p>(als Sprinter het voorstel accepteert) 1</p><p>bij (2): € 1.000 want Sprinter houdt na dekking van de marginale kosten over:</p><p>afgesproken prijs − marginale kosten = € 4.500 − € 3.500 = € 1.000</p><p>(als Sprinter het voorstel accepteert). 1"
+        },
+        {
+          "id": 13,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Sprinter heeft een nieuwe zakelijke klant gevonden. Het Nederlandse accountantskantoor Snel krijgt van het internationale moederbedrijf een budget van € 6.000 per medewerker, om voor alle 100 medewerkers speedpedelecs Sprinter4 aan te schaffen.</p><p>Het moederbedrijf van Snel heeft de spelregels bepaald:</p><ul><li>Snel doet een prijsvoorstel aan Sprinter voor levering van 100 stuks Sprinter4.</li><li>Dat voorstel kan € 6.000 per speedpedelec zijn, maar het kan ook een lager bedrag zijn.</li><li>Als Sprinter het voorstel accepteert, dan ontvangt Sprinter de afgesproken prijs en ontvangt Snel het verschil tussen € 6.000 en de afgesproken prijs.</li><li>Als Sprinter het voorstel weigert, dan ontvangen beide bedrijven niets.</li></ul><p>Sprinter wil minimaal € 3.500 ontvangen voor type Sprinter4.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 2.",
+          "bron_verwijzing": "havo_ec_tv1_opgave2_bron2.png",
+          "vraagtekst_html": "<p><strong>Leg uit welke van de drie verdelingen uit bron 2 tot stand zal komen, als Sprinter en Snel streven naar een zo hoog mogelijke eigen opbrengst in euro's.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een juist antwoord bevat in relatie tot de context:</p><ul><li>Een correcte keuze en correcte redenering over het economisch handelen van Sprinter / respondent. 1</li><li>Een correcte keuze en correcte redenering over het economisch handelen van Snel / aanbieder. 1</li></ul><p>Een voorbeeld van een juist antwoord is:</p><ul><li>Sprinter zal elk voorstel dat hoger is dan de minimale leveringsbereidheid / dat een hogere opbrengst heeft dan € 0 accepteren (dat wil zeggen dat Sprinter elk aanbod zal accepteren). 1</li><li>Snel (kent de strategie van Sprinter en) zal een voorstel doen dat de eigen opbrengst maximaliseert, (dus € 3.501) omdat dat voorstel nog net geaccepteerd wordt, dus de verdeling wordt € 2.499; € 1. 1</li></ul><p><em>Opmerking: Als bij de uitwerking sprake is van een doorwerkfout uit de vorige vraag, dan geen scorepunt in mindering brengen.</em></p><p>Voor juiste antwoorden via de best response methode kunnen maximale scorepunten worden toegekend.</p>"
+        },
+        {
+          "id": 14,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>De directie van Snel wil Sprinter een prijsvoorstel doen van € 3.700 per speedpedelec. Een deskundige op het gebied van ultimatumspellen waarschuwt: \"Snel kan beter een hoger bod doen aan Sprinter, want de praktijk leert dat zo'n laag bod toch vaak geweigerd wordt, ondanks dat beide bedrijven dan niets ontvangen.\"</p>",
+          "bronverwijzing_tekst": "Gebruik de uitspraak van de deskundige.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Geef een reden waarom Sprinter het prijsvoorstel zou willen weigeren.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 1</strong></p><p>Voorbeelden van een juist antwoord zijn:</p><ul><li>Als Sprinter een aversie heeft tegen ongelijkheid. </li><li>Als Sprinter het grootste aandeel niet aan Snel gunt.</li><li>Als Sprinter Snel wil straffen voor het oneerlijke voorstel.</li><li>Als Sprinter bij een andere afnemer een hoger resultaat kan behalen.</li></ul>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 3,
+      "opgave_titel": "Een valse start",
+      "vragen": [
+        {
+          "id": 15,
+          "max_score": 2,
+          "type": "multiple_gap_choice",
+          "context_html": "<p><strong>Uit een krant:</strong></p><p>De huizenprijzen zijn in 2021 op een hoogtepunt na een lange periode van sterke prijsstijgingen. Nieuwkomers op de woningmarkt, ook wel starters genoemd, hebben nog geen vermogen opgebouwd en moeten de aankoop van een woning volledig financieren met een lening.</p><p>Starters met een modaal inkomen kiezen er vaak voor om eerst een woning in de vrije sector te huren, voordat ze besluiten om een woning te kopen. In de vrije sector van de huurwoningenmarkt geldt geen maximale huurprijs. De woonlasten van deze huurders zijn doorgaans hoger dan de woonlasten van kopers van een vergelijkbare woning. Daarnaast groeit het vermogen van huurders niet mee met de stijging van de huizenprijzen. Hierdoor ontstaat een groeiende vermogensongelijkheid tussen kopers en huurders. Dat zorgt ervoor dat een toekomstige stap van huur naar koop alleen maar lastiger wordt.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Maak van onderstaande zinnen een economisch juiste tekst.</strong></p>",
+          "gaps": [
+            {
+              "id": 1,
+              "zin_html": "Op de woningmarkt zijn veel individuele vragers en aanbieders actief. De aangeboden woningen zijn ...(1)... goederen.",
+              "choices": ["heterogene", "homogene"],
+              "correct_choice": "heterogene"
+            },
+            {
+              "id": 2,
+              "zin_html": "De woningmarkt kan daarom het best worden omschreven als ...(2)....",
+              "choices": ["monopolistische concurrentie", "oligopolie", "volkomen concurrentie"],
+              "correct_choice": "monopolistische concurrentie"
+            },
+            {
+              "id": 3,
+              "zin_html": "De inkomenselasticiteit van de vraag naar huurwoningen in de vrije sector is voor starters op de Nederlandse woningmarkt gelijk aan -0,5. Dit betekent dat starters een huurwoning als een ...(3)... goed beschouwen.",
+              "choices": ["inferieur", "luxe", "primair"],
+              "correct_choice": "inferieur"
+            }
+          ],
+          "correct_antwoord_model": "maximumscore 2\n• (1) heterogene\n(2) monopolistische concurrentie\n• (3) inferieur\nIndien drie antwoorden juist 2\nIndien twee antwoorden juist 1\nIndien minder dan twee antwoorden juist 0"
+        },
+        {
+          "id": 16,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>Uit een krant:</strong></p><p>De huizenprijzen zijn in 2021 op een hoogtepunt na een lange periode van sterke prijsstijgingen. Nieuwkomers op de woningmarkt, ook wel starters genoemd, hebben nog geen vermogen opgebouwd en moeten de aankoop van een woning volledig financieren met een lening.</p><p>Starters met een modaal inkomen kiezen er vaak voor om eerst een woning in de vrije sector te huren, voordat ze besluiten om een woning te kopen. In de vrije sector van de huurwoningenmarkt geldt geen maximale huurprijs. De woonlasten van deze huurders zijn doorgaans hoger dan de woonlasten van kopers van een vergelijkbare woning. Daarnaast groeit het vermogen van huurders niet mee met de stijging van de huizenprijzen. Hierdoor ontstaat een groeiende vermogensongelijkheid tussen kopers en huurders. Dat zorgt ervoor dat een toekomstige stap van huur naar koop alleen maar lastiger wordt.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Leg uit dat starters in een laagconjunctuur een voorkeur hebben voor huren boven kopen en lenen.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een voorbeeld van een juist antwoord is:</p><p>• Bij laagconjunctuur hebben starters een laag consumentenvertrouwen / zijn starters pessimistisch over de waardeontwikkeling van woningen / hebben starters ongunstige inkomensvooruitzichten</p><p>• en dit maakt dat de starters minder bereid zijn om de risico's / negatieve gevolgen van kopen en lenen te aanvaarden (en daarom hebben ze een voorkeur voor huren).</p>"
+        },
+        {
+          "id": 17,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Woningbezitters mogen de betaalde hypotheekrente aftrekken van de inkomstenbelasting. Dit belastingvoordeel bevordert eigenwoningbezit, en belemmert een goed functionerende verhuurmarkt. De overheid wil een evenwichtige woningmarkt bevorderen, en past daarom de tarieven van de hypotheekrenteaftrek aan. Zo wordt het marginale belastingtarief waartegen de hypotheekrente maximaal kan worden afgetrokken geleidelijk afgebouwd van 49,50% naar 37,05%.</p><table><thead><tr><th>belastbaar inkomen</th><th>marginaal tarief nu</th><th>marginaal tarief na afbouw</th><th>hypotheekrenteaftrek</th></tr></thead><tbody><tr><td>€ 0 - € 69.398</td><td>37,05%</td><td>37,05%</td><td>37,05%</td></tr><tr><td>€ 69.399 en hoger</td><td>49,50%</td><td>37,05%</td><td>37,05%</td></tr></tbody></table><p><strong>Uitspraak 1:</strong> \"Door de tariefaanpassing wordt de secundaire inkomensverdeling gelijker.\"</p>",
+          "bronverwijzing_tekst": "Gebruik bovenstaande tekst en uitspraak 1 van de econoom.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Leg uit dat de tariefaanpassing leidt tot een gelijkere secundaire inkomensverdeling binnen de groep van woningbezitters.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een voorbeeld van een juist antwoord is:</p><p>• Voor woningbezitters met een hoog inkomen neemt het belastingvoordeel van de hypotheekrenteaftrek af, waardoor zij meer belasting gaan betalen.</p><p>• Voor lage inkomens verandert er niets waardoor de verschillen tussen lage inkomens en hoge inkomens (na belasting) kleiner worden.</p>"
+        },
+        {
+          "id": 18,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Woningbezitters mogen de betaalde hypotheekrente aftrekken van de inkomstenbelasting. Dit belastingvoordeel bevordert eigenwoningbezit, en belemmert een goed functionerende verhuurmarkt. De overheid wil een evenwichtige woningmarkt bevorderen, en past daarom de tarieven van de hypotheekrenteaftrek aan. Zo wordt het marginale belastingtarief waartegen de hypotheekrente maximaal kan worden afgetrokken geleidelijk afgebouwd van 49,50% naar 37,05%.</p><table><thead><tr><th>belastbaar inkomen</th><th>marginaal tarief nu</th><th>marginaal tarief na afbouw</th><th>hypotheekrenteaftrek</th></tr></thead><tbody><tr><td>€ 0 - € 69.398</td><td>37,05%</td><td>37,05%</td><td>37,05%</td></tr><tr><td>€ 69.399 en hoger</td><td>49,50%</td><td>37,05%</td><td>37,05%</td></tr></tbody></table><p><strong>Uitspraak 2:</strong> \"Op de lange termijn kan de tariefaanpassing bijdragen aan de betaalbaarheid van koopwoningen.\"</p>",
+          "bronverwijzing_tekst": "Gebruik uitspraak 2 van de econoom.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Leg uit dat de tariefaanpassing via de vraagzijde van de woningmarkt kan leiden tot een daling van de verkoopprijs van koopwoningen.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een voorbeeld van een juist antwoord is:</p><p>• Door de tariefaanpassing wordt het financieren van een koopwoning duurder.</p><p>• Hierdoor daalt de vraag naar koopwoningen (bij elke prijs) en dit leidt (bij gelijkblijvend aanbod) tot een daling van de verkoopprijs van woningen.</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 4,
+      "opgave_titel": "Pensioenuitkeringen",
+      "vragen": [
+        {
+          "id": 19,
+          "max_score": 2,
+          "type": "calculation",
+          "context_html": "<p><strong>Uit een krant:</strong></p><p>Het pensioenfonds ABP behaalde in augustus een beleggingswinst van € 5 miljard uit onder meer aandelen, vastgoed en obligaties. Daardoor had het fonds eind augustus € 456 miljard in de pensioenkas. De huidige waarde van de toekomstige verplichtingen van het ABP groeide echter veel harder.</p><p>Bij het ABP daalde de dekkingsgraad<sup>1)</sup> in augustus van 94 naar 89 procent. Dat betekent dat het ABP te weinig vermogen heeft om de toekomstige uitkeringen te kunnen uitbetalen. De Nederlandsche Bank (DNB) is de toezichthouder op de pensioenfondsen en berekent de huidige waarde van de toekomstige verplichtingen op basis van de rentestand.</p><div class=\"formula\"><span class=\"formula-note\">1)</span> <span class=\"formula-label\">dekkingsgraad = </span><span class=\"fraction\"><span class=\"numerator\">huidige vermogen pensioenfonds</span><span class=\"denominator\">huidige waarde toekomstige verplichtingen pensioenfonds</span></span><span class=\"formula-operator\"> x 100%</span></div>",
+          "bronverwijzing_tekst": "Gebruik het krantenbericht.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Bereken het bedrag in euro's dat het ABP eind augustus tekort komt om de toekomstige uitkeringen te kunnen betalen.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een voorbeeld van een juist antwoord is:</p><p>• Het huidige vermogen van het pensioenfonds is € 456 miljard. De huidige dekkingsgraad is 89%.</p><p>Invullen in de formule voor dekkingsgraad geeft:</p><p>Dekkingsgraad = <span class=\"fraction\"><span class=\"numerator\">huidig vermogen pensioenfonds x 100%</span><span class=\"denominator\">dekkingsgraad</span></span> = <span class=\"fraction\"><span class=\"numerator\">€ 456 miljard x 100%</span><span class=\"denominator\">89%</span></span> = € 512 miljard</p><p>• dus het ABP komt 512 miljard − 456 miljard = € 56 miljard tekort.</p><p><em>Opmerking: Indien de kandidaat bij de eerste deelscore uitgaat van een voldoende dekkingsgraad van 94% (482 miljard), kunnen maximale scorepunten worden toegekend.</em></p>"
+        },
+        {
+          "id": 20,
+          "max_score": 2,
+          "type": "multiple_gap_choice",
+          "context_html": "<p><strong>Uit een krant:</strong></p><p>Het pensioenfonds ABP behaalde in augustus een beleggingswinst van € 5 miljard uit onder meer aandelen, vastgoed en obligaties. Daardoor had het fonds eind augustus € 456 miljard in de pensioenkas. De huidige waarde van de toekomstige verplichtingen van het ABP groeide echter veel harder.</p><p>Bij het ABP daalde de dekkingsgraad<sup>1)</sup> in augustus van 94 naar 89 procent. Dat betekent dat het ABP te weinig vermogen heeft om de toekomstige uitkeringen te kunnen uitbetalen. De Nederlandsche Bank (DNB) is de toezichthouder op de pensioenfondsen en berekent de huidige waarde van de toekomstige verplichtingen op basis van de rentestand.</p><div class=\"formula\"><span class=\"formula-note\">1)</span> <span class=\"formula-label\">dekkingsgraad = </span><span class=\"fraction\"><span class=\"numerator\">huidige vermogen pensioenfonds</span><span class=\"denominator\">huidige waarde toekomstige verplichtingen pensioenfonds</span></span><span class=\"formula-operator\"> x 100%</span></div>",
+          "bronverwijzing_tekst": "Gebruik het krantenbericht.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Maak van onderstaande zinnen een economisch juiste tekst.</strong></p>",
+          "gaps": [
+            {
+              "id": 1,
+              "zin_html": "Het pensioenfonds ABP financiert de pensioenen volgens het ...(1)....",
+              "choices": ["omslagstelsel", "kapitaaldekkingsstelsel"],
+              "correct_choice": "kapitaaldekkingsstelsel"
+            },
+            {
+              "id": 2,
+              "zin_html": "Doordat de rente is ...(2)..., groeide de huidige waarde van de toekomstige verplichtingen en daalde de dekkingsgraad.",
+              "choices": ["gestegen", "gedaald"],
+              "correct_choice": "gedaald"
+            },
+            {
+              "id": 3,
+              "zin_html": "Om de dekkingsgraad te verhogen, kunnen pensioenpremies worden ...(3)....",
+              "choices": ["verhoogd", "verlaagd"],
+              "correct_choice": "verhoogd"
+            }
+          ],
+          "correct_antwoord_model": "maximumscore 2\n(1) kapitaaldekkingsstelsel\n(2) gedaald\n(3) verhoogd\nindien drie antwoorden juist 2\nindien twee antwoorden juist 1\nindien minder dan twee antwoorden juist 0"
+        },
+        {
+          "id": 21,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Als gevolg van de lage dekkingsgraad is de kans groot dat de huidige en toekomstige pensioenuitkeringen moeten worden verlaagd.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Geef een verklaring dat verlaging van de pensioenuitkeringen de bestedingen van ouderen kan verlagen.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 1</strong></p><p>Een voorbeeld van een juist antwoord is:</p><p>Een verlaging van de pensioenuitkeringen betekent een daling van het inkomen van gepensioneerden/ouderen, waardoor hun bestedingen / uitgaven kunnen afnemen.</p>"
+        },
+        {
+          "id": 22,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Als gevolg van de lage dekkingsgraad is de kans groot dat de huidige en toekomstige pensioenuitkeringen moeten worden verlaagd.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Leg uit dat verlaging van de pensioenuitkeringen kan leiden tot afname van de huidige bestedingen van de werkzame beroepsbevolking.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een voorbeeld van een juist antwoord is:</p><p>• Een verlaging van de pensioenuitkeringen zorgt voor een daling van het toekomstig inkomen van werkenden.</p><p>• Hierdoor zullen werkenden kiezen om nu extra te sparen (waardoor er minder besteed gaat worden.)</p><p>of</p><p>• Door de verlaging van de pensioenen gaan ouderen minder besteden, hierdoor daalt de vraag en de productie.</p><p>• Werkenden worden werkloos, waardoor het inkomen daalt. Hierdoor heeft de werkzame bevolking minder te besteden.</p>"
+        },
+        {
+          "id": 23,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Als gevolg van de lage dekkingsgraad is de kans groot dat de huidige en toekomstige pensioenuitkeringen moeten worden verlaagd.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Leg uit dat uitstel van verlaging van pensioenuitkeringen kan leiden tot afname van de huidige bestedingen.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een voorbeeld van een juist antwoord is:</p><p>• Het uitstellen van pensioenverlagingen kan leiden tot onzekerheid over het inkomen (bij zowel werkenden als gepensioneerden)</p><p>• en bij onzekerheid over toekomstig inkomen neemt het consumentenvertrouwen af (en daarmee ook de huidige bestedingen van werkenden en gepensioneerden).</p><p>of</p><p>• Uitstel van het verlagen van de pensioenuitkeringen leidt in de toekomst tot een extra verlaging van de pensioenuitkeringen / een extra premieverhoging.</p><p>• Hierdoor zullen werkenden er eerder voor kiezen nu extra te sparen om deze toekomstige terugval op te vangen (waardoor er minder besteed gaat worden.)</p>"
+        },
+        {
+          "id": 24,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Als gevolg van de lage dekkingsgraad is de kans groot dat de huidige en toekomstige pensioenuitkeringen moeten worden verlaagd.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Leg uit dat uitstel van de verlaging van pensioenuitkeringen dwingt tot solidariteit tussen generaties.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een voorbeeld van een juist antwoord is:</p><p>• Bij het uitstel van verlaging van pensioenuitkeringen blijven de tekorten, die later worden gecompenseerd door uitkeringen alsnog te verlagen / premies te verhogen.</p><p>• De kosten komen zo voor rekening voor de jongere generatie en hierdoor wordt de oudere generatie ontzien.</p>"
+        },
+        {
+          "id": 25,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Het huidige pensioenstelsel bestaat uit bedrijfspensioenen, die via het kapitaaldekkingsstelsel gefinancierd worden, en uit AOW-uitkeringen, die via het omslagstelsel gefinancierd worden. In periodes van lage rente verslechtert de betaalbaarheid van het kapitaaldekkingsstelsel.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Leg uit dat een lage rente de betaalbaarheid van het kapitaaldekkingsstelsel onder druk zet.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Voorbeelden van een juist antwoord zijn:</p><p>• Bij een lage rente groeit het gespaarde pensioenbedrag minder snel dan bij een hoge rente (bij gelijkblijvende pensioenpremie), en</p><p>• dan is het beschikbare kapitaal (uit sparen en beleggen) niet voldoende om de hoogte van de pensioenen te kunnen garanderen / om de toekomstige pensioenen te kunnen betalen.</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 5,
+      "opgave_titel": "Toerisme",
+      "vragen": [
+        {
+          "id": 26,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>De wereldbevolking blijft groeien. Bovendien zijn er, mede door lagere prijzen, steeds meer mensen in staat om vaker en langer te reizen. De bestedingen in de sector toerisme nemen daardoor wereldwijd toe. Ook in Nederland leveren hogere bestedingen in deze sector in toenemende mate een bijdrage aan het bruto binnenlands product (bbp) en de werkgelegenheid. Driekwart van de bestedingen in de sector toerisme is te danken aan de bestedingen van buitenlandse toeristen in Nederland.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Zijn de bestedingen van buitenlandse toeristen voor de Nederlandse economie in Nederland een vorm van import, van export of geen van beide?</strong> Leg je keuze uit.</p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een voorbeeld van een juist antwoord is:</p><ul><li>Nederlandse bedrijven (in de toerismebranche) verkopen producten/diensten aan het buitenland / aan buitenlandse toeristen, (1 punt)</li><li>dus het betreft voor Nederland economisch gezien een export. (1 punt)</li></ul><p><em>Opmerking: Een juiste uitleg is voorwaardelijk voor toekenning van het tweede scorepunt.</em></p>"
+        },
+        {
+          "id": 27,
+          "max_score": 2,
+          "type": "multiple_gap_choice",
+          "context_html": "<p>De wereldbevolking blijft groeien. Bovendien zijn er, mede door lagere prijzen, steeds meer mensen in staat om vaker en langer te reizen. De bestedingen in de sector toerisme nemen daardoor wereldwijd toe. Ook in Nederland leveren hogere bestedingen in deze sector in toenemende mate een bijdrage aan het bruto binnenlands product (bbp) en de werkgelegenheid. Driekwart van de bestedingen in de sector toerisme is te danken aan de bestedingen van buitenlandse toeristen in Nederland.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Maak onderstaande redenering economisch juist:</strong></p>",
+          "gaps": [
+            {
+              "id": 1,
+              "zin_html": "De bruto toegevoegde waarde van de Nederlandse bedrijven in de toeristische sector kan worden berekend door te kijken naar het verschil tussen de omzet en de waarde van de ...(1)....",
+              "choices": [
+                "ingekochte hulp- en grondstoffen",
+                "investeringen",
+                "primaire inkomens"
+              ],
+              "correct_choice": "ingekochte hulp- en grondstoffen"
+            },
+            {
+              "id": 2,
+              "zin_html": "Het bbp van een land bestaat uit de toegevoegde waarde van de bedrijven en de toegevoegde waarde van ...(2)....",
+              "choices": [
+                "het buitenland",
+                "de overheid"
+              ],
+              "correct_choice": "de overheid"
+            },
+            {
+              "id": 3,
+              "zin_html": "De laatste is gelijk aan ...(3)....",
+              "choices": [
+                "de ambtenarensalarissen",
+                "het saldo van de primaire inkomens uit het buitenland"
+              ],
+              "correct_choice": "de ambtenarensalarissen"
+            }
+          ],
+          "correct_antwoord_model": "maximumscore 2\n(1) ingekochte hulp- en grondstoffen 1\n(2) de overheid\n(3) de ambtenarensalarissen 1"
+        },
+        {
+          "id": 28,
+          "max_score": 2,
+          "type": "calculation",
+          "context_html": "<p>Bron 1 laat de werkgelegenheid in de sector toerisme zien, zowel in aantal personen als in arbeidsjaren. Beide indicatoren zijn toegenomen als gevolg van de toegenomen bestedingen in de sector. Ook wordt er minder in deeltijd gewerkt.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 1.",
+          "bron_verwijzing": "havo_ec_tv1_opgave5_bron1.png",
+          "vraagtekst_html": "<p><strong>Toon met een berekening aan dat werknemers in de sector toerisme tussen 2014 en 2017 gemiddeld minder in deeltijd zijn gaan werken.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een voorbeeld van een juiste berekening is:</p><p>De werkgelegenheid in aantal werkzame personen is gestegen met:</p><p><span class=\"fraction\"><span class=\"numerator\">(werkende personen nieuw - werkende personen oud)</span><span class=\"denominator\">werkende personen oud</span></span> x 100% =</p><p><span class=\"fraction\"><span class=\"numerator\">(761-703)</span><span class=\"denominator\">703</span></span> x 100% = 8,3%. (1 punt)</p><p>De werkgelegenheid in arbeidsjaren is gestegen met:</p><p><span class=\"fraction\"><span class=\"numerator\">(arbeidsjaren nieuw - arbeidsjaren oud)</span><span class=\"denominator\">arbeidsjaren oud</span></span> x 100% =</p><p><span class=\"fraction\"><span class=\"numerator\">(455-413)</span><span class=\"denominator\">413</span></span> x 100% = 10,2%. (1 punt)</p><p>De werkgelegenheid in arbeidsjaren is harder gestegen dan in personen (dus zijn mensen gemiddeld minder in deeltijd gaan werken).</p><p><em>of</em></p><p>2014: <span class=\"fraction\"><span class=\"numerator\">werkgelegenheid in personen</span><span class=\"denominator\">werkgelegenheid in arbeidsjaren</span></span> = <span class=\"fraction\"><span class=\"numerator\">703</span><span class=\"denominator\">413</span></span> = 1,70 (1 punt)<br/>2017: <span class=\"fraction\"><span class=\"numerator\">werkgelegenheid in personen</span><span class=\"denominator\">werkgelegenheid in arbeidsjaren</span></span> = <span class=\"fraction\"><span class=\"numerator\">761</span><span class=\"denominator\">455</span></span> = 1.67 (1 punt)</p><p>De verhouding personen/arbeidsjaren is afgenomen (en dat betekent dat minder mensen in deeltijd zijn gaan werken).</p>"
+        },
+        {
+          "id": 29,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Op plekken in Nederland waar het toerisme zich vooral concentreert, treden negatieve externe effecten op.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Leg uit dat een concentratie van toerisme op bepaalde plekken in Nederland kan leiden tot negatieve externe effecten.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een juist antwoord bevat in relatie tot de context:</p><ul><li>Een correcte redenering waarin het gevolg van concentratie van toerisme wordt uitgelegd. (1 punt)</li><li>Een correcte relatie met negatieve externe effecten. (1 punt)</li></ul><p>Een voorbeeld van een juist antwoord is:</p><ul><li>De leefbaarheid op deze plekken komt onder druk te staan door bijvoorbeeld meer afval / geluidsoverlast / overbelasting van de wegen, (1 punt)</li><li>en dit brengt maatschappelijke kosten / kosten die niet in de prijs zijn inbegrepen met zich mee voor anderen dan de leveranciers van diensten aan de toeristen waardoor het externe effecten zijn. (1 punt)</li></ul>"
+        },
+        {
+          "id": 30,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Adviesbureau De Toerist heeft onderzocht hoe het toerisme beter kan worden gespreid over het hele land. Het blijkt dat buitenlandse toeristen in Nederland relatief weinig met het openbaar vervoer reizen. Het adviesbureau pleit ervoor om buitenlandse toeristen via prijsdiscriminatie aan te zetten tot meer gebruik van het openbaar vervoer.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p><strong>Leg uit dat het toepassen van prijsdiscriminatie in het openbaar vervoer ertoe kan leiden dat het groen bbp stijgt.</strong></p>",
+          "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een juist antwoord bevat in relatie tot de context:</p><ul><li>Een correcte redenering dat een lagere prijs (P) leidt tot een hogere afzet (Q). (1 punt)</li><li>Een correcte relatie tussen reizen per openbaar vervoer en het groen bbp. (1 punt)</li></ul><p>Een voorbeeld van een juist antwoord is:</p><ul><li>Indien buitenlandse toeristen een lagere prijs betalen (dan Nederlanders), zullen zij sneller bereid zijn het openbaar vervoer te gebruiken. (1 punt)</li><li>Hierdoor is er minder overbelasting van het wegennet / minder vervuiling / minder drukte op bepaalde plekken, waardoor schade aan het milieu daalt (en daardoor het groen bbp kan stijgen). (1 punt)</li></ul>"
+        }
+      ]
+    }
+  ]
+}
+  

@@ -1,0 +1,383 @@
+{
+    "examen_info": {
+      "vak": "aardrijkskunde",
+      "niveau": "havo",
+      "tijdvak": "TV1",
+      "jaar": 2024
+    },
+    "opgaven": [
+      {
+        "opgave_nr": 1,
+        "opgave_titel": "De productieketen van sheaboter",
+        "vragen": [
+          {
+            "id": 1,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 1: Sheaboter</strong></p><p>Sheaboter is een plantaardig vet dat wordt gebruikt in de voedingsmiddelenindustrie als duurzamer alternatief voor palmolie. Ook in cosmetische producten wordt vaak sheaboter gebruikt. De sheaboter wordt gewonnen uit noten van de Afrikaanse karitéboom. Deze boom draagt na 20 jaar zijn eerste noten en na 45 jaar is de notenproductie optimaal.</p><p>Karitébomen komen voor in de twee landschapszones direct ten zuiden van de Sahara (zie bron 2) en staan verspreid in het landschap. Families bezitten vaak één of enkele karitébomen waarvan ze jaarlijks de noten verzamelen.</p><p><strong>bron 2: De productieketen van sheaboter</strong></p><p>De traditionele verwerking van kariténoten tot sheaboter is arbeidsintensief werk. Niet alle noten worden op traditionele wijze verwerkt. De noten worden ook onbewerkt verkocht aan lokale handelaren die deze noten weer doorverkopen. De noten worden daarna machinaal verwerkt tot sheaboter voor de internationale markt.</p>",
+            "bronverwijzing_tekst": "Gebruik de bronnen 1 en 2 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/havo/documenten/cse-1/ha-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": [
+              "havo_aardrijkskunde_tv1_opgave1_bron1.png",
+              "havo_aardrijkskunde_tv1_opgave1_bron2.png"
+            ],
+            "vraagtekst_html": "<p>De wereld is verdeeld in zes landschapszones. In twee van deze landschapszones groeien karitébomen.</p><p>Geef de namen van deze twee landschapszones.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 1</strong></p><p>de tropische en de semi-aride (en aride) zone</p><p><em>of</em></p><p>twee van de volgende vegetatietypen:</p><ul><li>droge savanne</li><li>vochtige savanne</li><li>tropisch regenwoud</li></ul><p><em>Opmerking</em></p><p>Het scorepunt alleen toekennen als beide landschapszones of beide vegetatietypen juist zijn.</p>"
+          },
+          {
+            "id": 2,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De mondiale vraag naar plantaardige vetten zoals palmolie en sheaboter neemt toe.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Geef een reden voor deze toenemende vraag</p><ul><li>vanuit de demografische dimensie;</li><li>vanuit de economische dimensie.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><ul><li>Uit de reden vanuit de demografische dimensie moet blijken dat de wereldbevolking groeit / dat er steeds meer mensen in de wereld zijn. (1 punt)</li><li>Juiste redenen vanuit de economische dimensie zijn: (1 punt)<ul><li>De welvaart stijgt.</li><li>De afzetmarkt wordt groter.</li></ul></li></ul>"
+          },
+          {
+            "id": 3,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 2: De productieketen van sheaboter</strong></p><p>De traditionele verwerking van kariténoten tot sheaboter is arbeidsintensief werk. Niet alle noten worden op traditionele wijze verwerkt. De noten worden ook onbewerkt verkocht aan lokale handelaren die deze noten weer doorverkopen. De noten worden daarna machinaal verwerkt tot sheaboter voor de internationale markt.</p><p>Traditionele centrum-periferieverhoudingen, zoals in de productieketen van sheaboter, leiden in perifere landen vaak tot ruilvoetverslechtering.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 2.",
+            "bron_verwijzing": "havo_aardrijkskunde_tv1_opgave1_bron2.png",
+            "vraagtekst_html": "<p>Geef aan</p><ul><li>waaruit blijkt dat de productieketen van sheaboter een voorbeeld is van een traditionele verhouding tussen centrum en periferie;</li><li>welke maatregel Afrikaanse landen in de productieketen van sheaboter kunnen nemen om ruilvoetverslechtering tegen te gaan.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><ul><li>Uit het antwoord moet blijken dat de grondstof van sheaboter wordt gewonnen in de periferie en dat de verwerking / consumptie (vooral) in het centrum of in de semi-periferie plaatsvindt. (1 punt)</li><li>Juiste maatregelen zijn: (1 punt)<ul><li>De export van onbewerkte kariténoten verbieden / bemoeilijken.</li><li>De verwerking van kariténoten (in Afrikaanse landen) stimuleren.</li></ul></li></ul><p><em>Opmerking</em></p><p>De eerste deelscore alleen toekennen als het antwoord ingaat op zowel de periferie als het centrum / semi-periferie.</p>"
+          },
+          {
+            "id": 4,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 1: Sheaboter</strong></p><p>Sheaboter is een plantaardig vet dat wordt gebruikt in de voedingsmiddelenindustrie als duurzamer alternatief voor palmolie. Ook in cosmetische producten wordt vaak sheaboter gebruikt. De sheaboter wordt gewonnen uit noten van de Afrikaanse karitéboom. Deze boom draagt na 20 jaar zijn eerste noten en na 45 jaar is de notenproductie optimaal.</p><p>Karitébomen komen voor in de twee landschapszones direct ten zuiden van de Sahara (zie bron 2) en staan verspreid in het landschap. Families bezitten vaak één of enkele karitébomen waarvan ze jaarlijks de noten verzamelen.</p><p><strong>bron 2: De productieketen van sheaboter</strong></p><p>De traditionele verwerking van kariténoten tot sheaboter is arbeidsintensief werk. Niet alle noten worden op traditionele wijze verwerkt. De noten worden ook onbewerkt verkocht aan lokale handelaren die deze noten weer doorverkopen. De noten worden daarna machinaal verwerkt tot sheaboter voor de internationale markt.</p><p>Door de toenemende aandacht voor duurzaamheid geven steeds meer consumenten de voorkeur aan producten waarin sheaboter in plaats van palmolie verwerkt is.</p>",
+            "bronverwijzing_tekst": "Gebruik de bronnen 1 en 2.",
+            "bron_verwijzing": [
+              "havo_aardrijkskunde_tv1_opgave1_bron1.png",
+              "havo_aardrijkskunde_tv1_opgave1_bron2.png"
+            ],
+            "vraagtekst_html": "<p>Beredeneer waarom het onwaarschijnlijk is dat sheaboter palmolie zal verdringen als belangrijkste plantaardige vet op de wereldmarkt.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een juiste redenering is:</p><ul><li>Karitébomen staan ver uit elkaar / dragen pas na lange tijd noten, (1 punt)</li><li>zodat schaalvergroting in de productie van kariténoten lastig is / moeilijk aan de toenemende vraag naar sheaboter voldaan kan worden. (1 punt)</li></ul><p><em>Opmerking</em></p><p>Een omgekeerde redenering die ingaat op de makkelijk te realiseren schaalvergroting in de productie van palmolie dient goedgekeurd te worden.</p>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 2,
+        "opgave_titel": "De blokkade van het Suezkanaal",
+        "vragen": [
+          {
+            "id": 5,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 3: De blokkade van het Suezkanaal in 2021</strong></p><p>Het Suezkanaal in Egypte (geopend in 1869) verbindt de Middellandse Zee met de Rode Zee. Tussen 1882 en 1952 werd Egypte bezet door Groot-Brittannië, waardoor de Britten controle hadden over het Suezkanaal. Pas in 1956 kwam het Suezkanaal volledig in Egyptische handen. Jaarlijks varen zo'n 17.000 schepen door het Suezkanaal.</p><p>Tussen 1882 en 1952 had Groot-Brittannië controle over het Suezkanaal.</p>",
+            "bronverwijzing_tekst": "Gebruik de bronnen 3 en 4.",
+            "bron_verwijzing": [
+              "havo_aardrijkskunde_tv1_opgave2_bron3.png",
+              "havo_aardrijkskunde_tv1_opgave2_bron4.png"
+            ],
+            "vraagtekst_html": "<p>Beredeneer waarom deze controle voor Groot-Brittannië van essentieel belang was gezien de economische ontwikkeling in het land destijds.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Uit de redenering moet blijken dat</p><ul><li>de economie van Groot-Brittannië in die periode / in de koloniale periode sterk afhankelijk was van de industrie, (1 punt)</li><li>zodat de aanvoer van grondstoffen vanuit de koloniën / de afzet van Britse industrieproducten in de koloniën (rondom de Indische Oceaan) van groot belang was. (1 punt)</li></ul>"
+          },
+          {
+            "id": 6,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 3: De blokkade van het Suezkanaal in 2021</strong></p><p>Het Suezkanaal in Egypte (geopend in 1869) verbindt de Middellandse Zee met de Rode Zee. Tussen 1882 en 1952 werd Egypte bezet door Groot-Brittannië, waardoor de Britten controle hadden over het Suezkanaal. Pas in 1956 kwam het Suezkanaal volledig in Egyptische handen. Jaarlijks varen zo'n 17.000 schepen door het Suezkanaal. In maart 2021 ging het mis. Op de route van China naar de Rotterdamse haven kwam het containerschip Ever Given (van de scheepvaartmaatschappij Evergreen) vast te zitten in het Suezkanaal.</p><p>Jaarlijks varen zo'n 17.000 schepen door het Suezkanaal. Een groot deel hiervan zijn containerschepen zoals de Ever Given.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 3 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/havo/documenten/cse-1/ha-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": "havo_aardrijkskunde_tv1_opgave2_bron3.png",
+            "vraagtekst_html": "<p>Geef aan dat</p><ul><li>de aanleg van het Suezkanaal geleid heeft tot tijdruimtecompressie;</li><li>het gebruik van containers geleid heeft tot tijdruimtecompressie.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><ul><li>Uit het antwoord moet blijken dat door de aanleg van het Suezkanaal de scheepvaarroute tussen Azië en Europa korter is geworden (dan de scheepvaarroute om Afrika heen). (1 punt)</li><li>Uit het antwoord moet blijken dat containers eenvoudiger / sneller overgeladen kunnen worden van het ene op het andere transportmiddel (dan losse goederen). (1 punt)</li></ul>"
+          },
+          {
+            "id": 7,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p>Het Suezkanaal is een smalle doorgang op de scheepvaartroute tussen China en de Rotterdamse haven. Er zijn meer smalle doorgangen in mondiale scheepvaartroutes.</p>",
+            "bronverwijzing_tekst": "Gebruik het kaartenkatern <a href=\"https://www.examenblad.nl/2024/havo/documenten/cse-1/ha-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Geef</p><ul><li>de namen van nog twee andere smalle doorgangen op de scheepvaartroute tussen China en de Rotterdamse haven;</li><li>de naam van de smalle doorgang op de scheepvaartroute tussen China en de oostkust van de Verenigde Staten.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 3</strong></p><p>Juiste doorgangen zijn:</p><ul><li>Straat Malakka</li><li>Bab al Mandab / Golf van Aden / Rode Zee</li><li>Straat van Gibraltar</li><li>Het Kanaal</li></ul><p>(2 punten: Per juiste doorgang 1 scorepunt toekennen.)</p><ul><li>Panamakanaal (1 punt)</li></ul>"
+          },
+          {
+            "id": 8,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 3: De blokkade van het Suezkanaal in 2021</strong></p><p>... Deze blokkade leidde mondiaal tot leveringsproblemen van allerlei producten en liet zien hoe kwetsbaar smalle doorgangen, zoals het Suezkanaal, in mondiale scheepvaartroutes kunnen zijn.</p><p>In West-Europa vindt al tientallen jaren de-industrialisatie plaats. De blokkade van het Suezkanaal kan het proces van de-industrialisatie vertragen.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Beredeneer waarom de blokkade van het Suezkanaal het proces van de-industrialisatie in West-Europa kan vertragen.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een juiste redenering is:</p><ul><li>Door de blokkade van het Suezkanaal is gebleken dat internationale handelsroutes kwetsbaar zijn / dat de levering van producten in Europa in gevaar kan komen, (1 punt)</li><li>zodat westerse bedrijven hun (eerder geoutsourcete) productie weer in Europa gaan vestigen / besluiten hun productie niet te outsourcen. (1 punt)</li></ul>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 3,
+        "opgave_titel": "De fysische geografie van Midden-Amerika",
+        "vragen": [
+          {
+            "id": 9,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>In bron 5 staan de klimaatgrafieken van de plaatsen Havana, Kralendijk, Managua en Mexico-Stad.</p>",
+            "bronverwijzing_tekst": "Gebruik de bronnen 5 en 6 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/havo/documenten/cse-1/ha-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": [
+              "havo_aardrijkskunde_tv1_opgave3_bron5a.png",
+              "havo_aardrijkskunde_tv1_opgave3_bron5b.png",
+              "havo_aardrijkskunde_tv1_opgave3_bron5c.png",
+              "havo_aardrijkskunde_tv1_opgave3_bron5d.png",
+              "havo_aardrijkskunde_tv1_opgave3_bron6.png"
+            ],
+            "vraagtekst_html": "<p>Noteer de namen van deze plaatsen onder elkaar op je antwoordblad. Schrijf achter elke plaats de letter van de juiste klimaatgrafiek.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><ul><li>Havana: c</li><li>Kralendijk: d</li><li>Managua: a</li><li>Mexico-Stad: b</li></ul><p>indien vier juiste antwoorden: 2 punten</p><p>indien drie of twee juiste antwoorden: 1 punt</p><p>indien minder dan twee juiste antwoorden: 0 punten</p>"
+          },
+          {
+            "id": 10,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Het klimaat in het noorden van de Dominicaanse Republiek verschilt van het klimaat in het zuiden.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 6 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/havo/documenten/cse-1/ha-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": "havo_aardrijkskunde_tv1_opgave3_bron6.png",
+            "vraagtekst_html": "<p>Leg het ontstaan van dit verschil uit. Je uitleg moet een oorzaak-gevolgrelatie bevatten.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Uit de uitleg moet blijken dat</p><ul><li>de (vochtige) noordoostpassaat / wind uit het noordoosten in het noorden van de Dominicaanse Republiek wordt opgestuwd tegen de bergen, (oorzaak) (1 punt)</li><li>waardoor in het noorden van de Dominicaanse Republiek meer neerslag valt dan in het zuiden / het zuiden van de Dominicaanse Republiek in de regenschaduw ligt. (gevolg) (1 punt)</li></ul>"
+          },
+          {
+            "id": 11,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p>Saba is een van de Eilanden boven de Wind. Op Saba ligt Mount Scenery, het hoogste punt van het Koninkrijk der Nederlanden.</p>",
+            "bronverwijzing_tekst": "Gebruik de bronnen 6 en 7 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/havo/documenten/cse-1/ha-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": [
+              "havo_aardrijkskunde_tv1_opgave3_bron6.png",
+              "havo_aardrijkskunde_tv1_opgave3_bron7.png"
+            ],
+            "vraagtekst_html": "<p>Beschrijf in drie stappen het ontstaan van Mount Scenery. Betrek in je beschrijving de namen van de twee betrokken platen.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 3</strong></p><p>Uit de beschrijving moet blijken dat</p><ul><li>ten (noord)oosten van Saba de (Noord- en/of Zuid-)Amerikaanse plaat onder de Caribische plaat duikt, (1 punt)</li><li>waarbij door het smelten van de onderduikende plaat magmastromen omhoog komen, (1 punt)</li><li>en (strato)vulkanen / vulkanische eilanden ontstaan. (1 punt)</li></ul>"
+          },
+          {
+            "id": 12,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De Caribische plaat wordt omringd door een aantal tektonische platen.</p>",
+            "bronverwijzing_tekst": "Gebruik de bronnen 7 en 8.",
+            "bron_verwijzing": [
+              "havo_aardrijkskunde_tv1_opgave3_bron7.png",
+              "havo_aardrijkskunde_tv1_opgave3_bron8a.png",
+              "havo_aardrijkskunde_tv1_opgave3_bron8b.png",
+              "havo_aardrijkskunde_tv1_opgave3_bron8c.png",
+              "havo_aardrijkskunde_tv1_opgave3_bron8d.png"
+            ],
+            "vraagtekst_html": "<p>Geef de letter van de dwarsdoorsnede uit bron 8 die hoort bij de plaatgrens tussen de</p><ul><li>Cocosplaat en de Caribische plaat;</li><li>Noord-Amerikaanse plaat en de Caribische plaat.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><ul><li>Cocosplaat en de Caribische plaat: dwarsdoorsnede b (1 punt)</li><li>Noord-Amerikaanse plaat en de Caribische plaat: dwarsdoorsnede c (1 punt)</li></ul>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 4,
+        "opgave_titel": "De vorming van een atol",
+        "vragen": [
+          {
+            "id": 13,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 9: De Genootschapseilanden</strong></p><p>De Genootschapseilanden liggen midden in het zuidelijke deel van de Stille Oceaan zo'n 7.000 kilometer voor de westkust van Zuid-Amerika. De eilandengroep hoort bij Frans-Polynesië en bestaat vooral uit atollen. De eilanden Bora Bora en Tahiti zijn dode vulkanen.</p><p>Alle eilanden van de Genootschapseilanden hebben een vulkanische oorsprong.</p>",
+            "bronverwijzing_tekst": "Gebruik de bronnen 9 en 10 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/havo/documenten/cse-1/ha-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": [
+              "havo_aardrijkskunde_tv1_opgave4_bron9.png",
+              "havo_aardrijkskunde_tv1_opgave4_bron10.png"
+            ],
+            "vraagtekst_html": "<p>Geef</p><ul><li>de oorzaak van het vulkanisme bij deze eilandengroep;</li><li>de naam van het eiland uit bron 9 dat het meest recent ontstaan is.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><ul><li>Uit het antwoord moet blijken dat de Genootschapseilanden door een hotspot / hotspotvulkanisme ontstaan zijn. (1 punt)</li><li>Mehetia (1 punt)</li></ul>"
+          },
+          {
+            "id": 14,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 10: Het ontstaan van een atol</strong></p><p>Een atol is een ringvormig eiland dat kan ontstaan als een koraalrif wordt gevormd op een in de oceaan wegzinkende vulkaan. Dit koraal groeit het best in helder, zout en warm zeewater.</p><p>Gesteente a in bron 10 is op een andere manier ontstaan dan gesteente b.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 10.",
+            "bron_verwijzing": "havo_aardrijkskunde_tv1_opgave4_bron10.png",
+            "vraagtekst_html": "<p>Neem de onderstaande tabel over op je antwoordblad en vul de drie ontbrekende onderdelen in.</p>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>naam van gesteente</th>\n<th>hoofdgroep van gesteenten</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>a</td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>b</td>\n<td>koraal of kalksteen</td>\n<td></td>\n</tr>\n</tbody>\n</table>",
+            "correct_antwoord_model": "<p><strong>maximumscore 3</strong></p>\n<table>\n<thead>\n<tr>\n<th></th>\n<th>naam van gesteente</th>\n<th>hoofdgroep van gesteente</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>a</td>\n<td>basalt</td>\n<td>stollingsgesteente</td>\n</tr>\n<tr>\n<td>b</td>\n<td>(koraal of kalksteen)</td>\n<td>sedimentgesteente</td>\n</tr>\n</tbody>\n</table>\n<p>per juist antwoord 1 punt</p>"
+          },
+          {
+            "id": 15,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Gesteenten op de Genootschapseilanden worden door verwering afgebroken.</p>",
+            "bronverwijzing_tekst": "Gebruik het kaartenkatern <a href=\"https://www.examenblad.nl/2024/havo/documenten/cse-1/ha-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg met twee klimaatkenmerken uit door welke vorm van verwering gesteenten op de Genootschapseilanden vooral worden afgebroken. Je uitleg moet een oorzaak-gevolgrelatie bevatten.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Uit de uitleg moet blijken dat</p><ul><li>de temperatuur op de Genootschapseilanden hoog is <strong>en</strong> dat op de Genootschapseilanden veel neerslag valt, (oorzaak) (1 punt)</li><li>waardoor gesteenten vooral door chemische verwering worden afgebroken. (gevolg) (1 punt)</li></ul><p><em>Opmerking</em></p><p>De eerste deelscore alleen toekennen als beide klimaatkenmerken juist zijn.</p>"
+          },
+          {
+            "id": 16,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 10: Het ontstaan van een atol</strong></p><p>Een atol is een ringvormig eiland dat kan ontstaan als een koraalrif wordt gevormd op een in de oceaan wegzinkende vulkaan. Dit koraal groeit het best in helder, zout en warm zeewater.</p><p>Voor de westkust van Afrika en voor de westkust van Zuid-Amerika liggen nauwelijks koraalriffen.</p>",
+            "bronverwijzing_tekst": "Gebruik de bronnen 10 en 11 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/havo/documenten/cse-1/ha-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": [
+              "havo_aardrijkskunde_tv1_opgave4_bron10.png",
+              "havo_aardrijkskunde_tv1_opgave4_bron11.png"
+            ],
+            "vraagtekst_html": "<p>Geef twee oorzaken waardoor daar nauwelijks koraalriffen gevormd zijn.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Juiste oorzaken zijn:</p><ul><li>Het zeewater voor de westkust van Afrika en voor de westkust van Zuid-Amerika is te koud. / Voor de westkust van Afrika en voor de westkust van Zuid-Amerika liggen koude zeestromen.</li><li>De zee voor de westkust van Afrika en voor de westkust van Zuid-Amerika is te diep.</li></ul><p>per juiste oorzaak 1 punt</p>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 5,
+        "opgave_titel": "De Pantanal",
+        "vragen": [
+          {
+            "id": 17,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 12: De Pantanal</strong></p><p>In het grensgebied van Brazilië met Bolivia en Paraguay bevindt zich het grootste moerasgebied ter wereld. Dit moerasgebied heet de Pantanal. Het waterpeil in het moeras is afhankelijk van het seizoen. Rondom de Pantanal worden plantages aangelegd.</p><p>De Pantanal is een moerasgebied in het zuidwesten van Brazilië.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 12 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/havo/documenten/cse-1/ha-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": "havo_aardrijkskunde_tv1_opgave5_bron12.png",
+            "vraagtekst_html": "<p>Leg uit dat het reliëf in dit deel van Brazilië bepalend is voor het ontstaan van dit moerasgebied. Je uitleg moet een oorzaak-gevolgrelatie bevatten.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Uit de uitleg moet blijken dat</p><ul><li>het deel van Brazilië waar de Pantanal is ontstaan een door bergen omgeven (of relatief laaggelegen) <strong>én</strong> vlak gebied is, (oorzaak) (1 punt)</li><li>waardoor het water (in dat vlakke gebied / de Pantanal) blijft staan / niet makkelijk doorstroomt. (gevolg) (1 punt)</li></ul><p><em>Opmerking</em></p><p>De eerste deelscore alleen toekennen als beide elementen (door bergen omgeven én vlak) worden genoemd.</p>"
+          },
+          {
+            "id": 18,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De Pantanal heeft een periode waarin weinig neerslag valt.</p>",
+            "bronverwijzing_tekst": "Gebruik het kaartenkatern <a href=\"https://www.examenblad.nl/2024/havo/documenten/cse-1/ha-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Geef aan</p><ul><li>in welke periode in de Pantanal weinig neerslag valt. Kies uit:<br>a december- februari<br>b maart - mei<br>c juni augustus<br>d september - november</li><li>waardoor in deze periode weinig neerslag valt.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><ul><li>c / juni – augustus (1 punt)</li><li>Uit het antwoord moet blijken dat de Pantanal in die periode onder invloed staat van een hogedrukgebied / het lagedrukgebied (de ITCZ) naar het noorden verschoven is. (1 punt)</li></ul>"
+          },
+          {
+            "id": 19,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Om plantages aan te leggen worden lokale boeren vaak gedwongen hun land af te staan.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Noem de term voor dit proces.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 1</strong></p><p>landroof / landgrabbing</p>"
+          },
+          {
+            "id": 20,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Plantagelandbouw heeft ook effect op de biodiversiteit.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit welk effect plantagelandbouw heeft op de biodiversiteit. Je uitleg moet een oorzaak-gevolgrelatie bevatten.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een juiste uitleg is:</p><ul><li>De oorspronkelijke (natuurlijke) vegetatie wordt vervangen door één bepaald gewas / een monocultuur, (oorzaak) (1 punt)</li><li>waardoor het leefgebied van allerlei soorten planten en dieren kleiner wordt / de biodiversiteit afneemt. (gevolg) (1 punt)</li></ul>"
+          },
+          {
+            "id": 21,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 13: Droge en natte moesson in Bangladesh</strong></p><p>Bangladesh heeft een moessonklimaat. De meeste neerslag valt in de periode juni-september.</p><p>De moesson in Bangladesh wordt veroorzaakt door de verplaatsing van de ITCZ.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 13.",
+            "bron_verwijzing": "havo_aardrijkskunde_tv1_opgave6_bron13.png",
+            "vraagtekst_html": "<p>Leg het ontstaan van de natte moesson in Bangladesh uit. Betrek in je uitleg het verschil in opwarming tussen land en zee.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Uit de uitleg moet blijken dat</p><ul><li>in de zomer het land in Azië sneller / sterker opwarmt dan de Indische Oceaan, (1 punt)</li><li>waardoor (de ITCZ naar het noorden schuift en) een vochtige aanlandige wind richting Bangladesh ontstaat. (1 punt)</li></ul>"
+          },
+          {
+            "id": 22,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Het overstromingsrisico in Bangladesh is groot.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Geef</p><ul><li>een natuurlijke oorzaak die bijdraagt aan het grote overstromingsrisico in Bangladesh;</li><li>een menselijke oorzaak die bijdraagt aan het grote overstromingsrisico in Bangladesh.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Juiste natuurlijke oorzaken zijn:</p><ul><li>Bangladesh ligt in een delta / rivierdelta.</li><li>Bangladesh ligt in een laaggelegen / vlak gebied.</li><li>In Bangladesh valt veel neerslag / kent een natte moesson.</li><li>In Bangladesh monden grote rivieren uit.</li><li>Bangladesh wordt regelmatig getroffen door tropische orkanen.</li><li>De zeespiegel stijgt / de bodem daalt.</li></ul><p>(1 punt)</p><p>Juiste menselijke oorzaken zijn:</p><ul><li>Ontbossing in het stroomgebied (van de Ganges / de Brahmaputra).</li><li>De bevolkingsdruk in Bangladesh is hoog / er wonen veel mensen in overstromingsgevoelig gebied.</li><li>Armoede / gebrek aan financiële middelen (om maatregelen te nemen).</li></ul><p>(1 punt)</p>"
+          },
+          {
+            "id": 23,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Op 26 april 2013 vielen bij de instorting van de Rana Plaza-textielfabriek in Bangladesh ruim 1100 doden. Rana Plaza is een symbool geworden voor de slechte arbeidsomstandigheden in de kledingindustrie. De ramp heeft ook tot verbeteringen geleid. Zo is er meer aandacht gekomen voor de bouwtechnische staat van de fabrieksgebouwen en zijn de lonen gestegen.</p><p>Lage lonen zijn een vestigingsplaatsfactor voor arbeidsintensieve productie zoals de kledingindustrie.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 14 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/havo/documenten/cse-1/ha-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": "havo_aardrijkskunde_tv1_opgave6_bron14.png",
+            "vraagtekst_html": "<p>Geef nog een vestigingsplaatsfactor waardoor een land als Bangladesh aantrekkelijk is voor de kledingindustrie.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 1</strong></p><p>Een juist antwoord is:</p><ul><li>De beroepsbevolking in Bangladesh is omvangrijk / er zijn veel arbeidskrachten beschikbaar.</li><li>Bangladesh is lid van handelsverdragen / heeft gunstige exportregelingen naar rijke landen.</li><li>De ligging aan zee maakt de bereikbaarheid per schip goed.</li></ul>"
+          },
+          {
+            "id": 24,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Internationale kledingmerken besteden de productie van kleding vaak uit aan lagelonenlanden.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Geef</p><ul><li>een politieke factor die het uitbesteden van kledingproductie mogelijk maakt;</li><li>een economische factor die het uitbesteden van kledingproductie mogelijk maakt.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Juiste politieke factoren zijn:</p><ul><li>Handelsverdragen / het ontbreken van handelsbelemmeringen.</li><li>Politieke stabiliteit (in het productieland).</li></ul><p>(1 punt)</p><p>Juiste economische factoren zijn:</p><ul><li>Verbeterde transportmogelijkheden / transport over grote afstanden is goedkoper geworden.</li><li>Moderne communicatiemiddelen.</li></ul><p>(1 punt)</p>"
+          },
+          {
+            "id": 25,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 15: Het Nederlandse polderlandschap</strong></p><p>Het gebied met de naam 'Midden-Nederland' wordt globaal begrensd door de grote rivieren in het zuiden, het IJsselmeer en het Markermeer in het noorden, de Utrechtse Heuvelrug in het oosten en de Noordzeekust in het westen. Midden-Nederland is het laagstgelegen deel van ons land, een polderlandschap dat ook wel bekendstaat als het Groene Hart.</p><p>Het polderlandschap in Midden-Nederland is door menselijk handelen ontstaan.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 15.",
+            "bron_verwijzing": "havo_aardrijkskunde_tv1_opgave7_bron15.png",
+            "vraagtekst_html": "<p>Geef de landschapsvormende laag uit bron 15 aan die de basis vormde voor het ontstaan van het polderlandschap in Midden-Nederland.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 1</strong></p><p>de ondergrond</p>"
+          },
+          {
+            "id": 26,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De laaggelegen delen van Midden-Nederland worden voor een groot deel gebruikt voor landbouw. Om de grond geschikt te maken voor landbouw, moet deze ontwaterd worden.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit hoe ontwatering leidt tot bodemdaling. Je uitleg moet een oorzaak-gevolgrelatie bevatten.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Uit de uitleg moet blijken dat</p><ul><li>door ontwatering lucht in de bodem / in het veen komt, (oorzaak) (1 punt)</li><li>waardoor veen oxideert / waardoor organisch materiaal wordt afgebroken / waardoor de bodem inklinkt. (gevolg) (1 punt)</li></ul>"
+          },
+          {
+            "id": 27,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 16: De ligging van de Zuidas</strong></p><p>De Zuidas is het zakencentrum van Amsterdam. Naast kantoren worden er ook steeds meer woningen gebouwd.</p><p>Het ontstaan van de Zuidas is een voorbeeld van ruimtelijke segregatie op nationaal schaalniveau.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 16 en de overzichtskaart van Midden-Nederland in het kaartenkatern <a href=\"https://www.examenblad.nl/2024/havo/documenten/cse-1/ha-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": "havo_aardrijkskunde_tv1_opgave7_bron16.png",
+            "vraagtekst_html": "<p>Geef</p><ul><li>twee vestigingsplaatsfactoren die bijdragen aan het ontstaan van de Zuidas;</li><li>de naam van de andere grote Nederlandse stad waarmee de Zuidas concurreert om de vestiging van internationale hoofdkantoren.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Juiste vestigingsplaatsfactoren zijn:</p><ul><li>De ligging nabij Schiphol / een internationale luchthaven.</li><li>De ligging nabij uitvalswegen / een knooppunt van (snel)wegen.</li><li>De ligging nabij een treinstation / een knooppunt van openbaar vervoer.</li><li>De ligging in een stedelijk gebied / de Randstad.</li></ul><p>(1 punt voor twee juiste vestigingsplaatsfactoren)</p><ul><li>Rotterdam (1 punt)</li></ul>"
+          },
+          {
+            "id": 28,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 17: Reistijden van en naar Midden-Nederland</strong></p><p>Midden-Nederland is de motor van de Nederlandse economie. De overheid wil de bereikbaarheid van Midden-Nederland verbeteren.</p><p>Maak twee beweringen compleet door de juiste plaatsnaam in te vullen.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 17.",
+            "bron_verwijzing": "havo_aardrijkskunde_tv1_opgave7_bron17.png",
+            "vraagtekst_html": "<p>Bewering 1: De plaats in Nederland met de kortste reistijd per trein naar Amsterdam Centraal Station buiten Midden-Nederland is ____.</p><p>Bewering 2: De plaats in Nederland met de langste reistijd per auto naar de Zuidas buiten Midden-Nederland is ____.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><ul><li>Bewering 1: Zwolle (1 punt)</li><li>Bewering 2: Leeuwarden (1 punt)</li></ul>"
+          },
+          {
+            "id": 29,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 18: Het Groene Hart</strong></p><p>Het Groene Hart is van oorsprong een veenweidegebied. In het gebied wordt onder andere kaas gemaakt. De kazen uit het Groene Hart worden vaak gezien als streekproducten. Via de groothandel en de supermarkt liggen deze kazen in het hele land in de winkels. Ook kopen veel consumenten de kaas direct bij de boer. Dit wordt korte-ketenverkoop genoemd.</p><p>Kaas uit het Groene Hart wordt gezien als streekproduct.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 18.",
+            "bron_verwijzing": "havo_aardrijkskunde_tv1_opgave7_bron18.png",
+            "vraagtekst_html": "<p>Geef</p><ul><li>een reden waarom korte-ketenverkoop duurzamer is dan verkoop via de groothandel en de supermarkt;</li><li>een argument waarom boeren in het Groene Hart belang hebben bij het beschermen van het Groene Hart als streekproduct.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><ul><li>Juiste redenen zijn: (1 punt)<ul><li>Door korte-ketenverkoop hoeft de kaas minder ver vervoerd te worden.</li><li>Door korte-ketenverkoop is er minder verpakkingsmateriaal nodig.</li></ul></li><li>Juiste argumenten zijn: (1 punt)<ul><li>Boeren kunnen een hogere prijs vragen voor hun kaas.</li><li>Het Groene Hart / de boerenkaas trekt toeristen aan.</li></ul></li></ul>"
+          },
+          {
+            "id": 30,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Door bodemdaling wordt het voor melkveehouders in het Groene Hart steeds lastiger hun bedrijf in stand te houden.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Geef een reden waarom bodemdaling voor melkveehouders een probleem is.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 1</strong></p><p>Juiste redenen zijn:</p><ul><li>De kosten voor het ontwateren van weilanden worden hoger.</li><li>Het land wordt drassiger / natter (waardoor koeien er niet kunnen grazen).</li></ul>"
+          },
+          {
+            "id": 31,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De afgelopen 150 jaar is het landgebruik in het Groene Hart veranderd.</p>",
+            "bronverwijzing_tekst": "Gebruik de bronnen 19 en 20 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/havo/documenten/cse-1/ha-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": [
+              "havo_aardrijkskunde_tv1_opgave7_bron19.png",
+              "havo_aardrijkskunde_tv1_opgave7_bron20.png"
+            ],
+            "vraagtekst_html": "<p>Geef</p><ul><li>de verklaring voor de verandering van het landgebruik tussen 1865 en 1950;</li><li>de verklaring voor de verandering van het landgebruik tussen 1950 en 2015.</li></ul>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><ul><li>Uit de verklaring voor de verandering tussen 1865 en 1950 moet blijken dat de vervening afnam en er meer landbouw mogelijk was. (1 punt)</li><li>Uit de verklaring voor de verandering tussen 1950 en 2015 moet blijken dat er sprake was van suburbanisatie / groei van steden en dorpen. (1 punt)</li></ul>"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,674 @@
+{
+    "examen_info": {
+      "vak": "biologie",
+      "niveau": "vwo",
+      "tijdvak": "TV1",
+      "jaar": 2024
+    },
+    "opgaven": [
+      {
+        "opgave_nr": 1,
+        "opgave_titel": "Nicotine tijdens de vroege embryonale ontwikkeling",
+        "vragen": [
+          {
+            "id": 1,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Nicotine is een gifstof met verslavende en verdovende effecten. In het beloningscentrum van de grote hersenen bindt nicotine aan acetylcholinereceptoren die zich bevinden op de axonen van dopamine-producerende neuronen. Zowel na binding van acetylcholine als na binding van nicotine, neemt de dopamine-afgifte in de synaps toe, waardoor het beloningscentrum actiever wordt. Dopamine wordt heropgenomen in het presynaptisch neuron (afbeelding 1).</p>",
+            "bronverwijzing_tekst": "Over afbeelding 1 worden de volgende uitspraken gedaan:",
+            "bron_verwijzing": "vwo_biologie_tv1_opgave1_bron1.png",
+            "vraagtekst_html": "<p>Over afbeelding 1 worden de volgende uitspraken gedaan:</p><ol><li>Nicotine is een antagonist van acetylcholine.</li><li>Dopamine komt via endocytose in de synapsspleet terecht.</li><li>Heropname van dopamine vindt plaats door dopaminereceptoren.</li></ol><p>Schrijf de nummers 1, 2 en 3 onder elkaar en noteer erachter of de betreffende uitspraak juist of onjuist is.</p>",
+            "correct_antwoord_model": "<p>1 onjuist</p><p>2 onjuist</p><p>3 onjuist</p><ul><li>indien drie nummers correct: 2</li><li>indien twee nummers correct: 1</li><li>indien minder dan twee nummers correct: 0</li></ul>"
+          },
+          {
+            "id": 2,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p>Nicotine wordt niet afgebroken door acetylcholinesterase, dat in de weefselvloeistof aanwezig is.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit dat in aanwezigheid van nicotine het beloningscentrum meer geactiveerd wordt dan in aanwezigheid van acetylcholine.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat:</p><ul><li>(doordat nicotine niet wordt afgebroken door acetylcholinesterase) nicotine langer/vaker gebonden is aan de (acetylcholine) receptoren (dan acetylcholine, zodat er meer actiepotentialen ontstaan in het presynaptische deel), (1 punt)</li><li>(waardoor bij nicotine) meer/langduriger dopamine vrijkomt (in de synapsspleet), (1 punt)</li><li>(waardoor bij nicotine) meer actiepotentialen/impulsen ontstaan (in het postsynaptisch neuron, zodat het beloningscentrum meer geactiveerd wordt). (1 punt)</li></ul><p><strong>Opmerkingen</strong></p><p>Als de kandidaat een juiste redenatie maakt vanuit acetylcholine, scorepunten toekennen naar analogie met het correctievoorschrift.</p><p>Als de kandidaat noteert dat nicotine sterker bindt, het eerste scorepunt niet toekennen.</p>"
+          },
+          {
+            "id": 3,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>De gifstof nicotine wordt gemaakt door planten van de familie Solanaceae. In deze familie worden de grootste hoeveelheden nicotine geproduceerd door de planten van het geslacht Nicotiana.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Noteer wat de functie is van de aanmaak van nicotine door planten.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat nicotine een vorm is van (chemische) afweer. / dat nicotine de plant beschermt tegen vraat. (1 punt)</p><p><strong>Opmerkingen</strong></p><p>Als de kandidaat antwoordt dat met nicotine dieren gelokt worden om bestuiving/zaadverspreiding mogelijk te maken, het scorepunt toekennen.</p><p>Als de kandidaat predatie noteert in plaats van vraat, dit niet aanrekenen.</p>"
+          },
+          {
+            "id": 4,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Nicotiana-soorten die gebruikt worden voor de productie van tabak hebben hogere gehaltes aan nicotine dan wilde tabaksplanten. Dit komt door een bepaald proces waarbij door middel van kruisingen en selectie een hogere aanmaak van nicotine in deze productiesoorten is verkregen.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Noteer de naam van dit proces.</p>",
+            "correct_antwoord_model": "<p>(klassieke) veredeling / (klassiek) veredelen (1 punt)</p><p><strong>Opmerking</strong></p><p>Als de kandidaat kunstmatige selectie noteert, het scorepunt niet toekennen.</p>"
+          },
+          {
+            "id": 5,
+            "max_score": 2,
+            "type": "mc",
+            "context_html": "<p>De Amerikaanse wetenschappers wilden onderzoeken hoe nicotine de verschillende celtypen in een embryo beïnvloedt. Onderzoek doen aan menselijke embryo's is in veel landen niet toegestaan of mag alleen onder zeer strikte voorwaarden. Daarom gebruikten de wetenschappers stamcellen afkomstig uit een menselijk embryo van vijf dagen oud (blastula). Een kweek van deze stamcellen vormt spontaan bolletjes die 'embryoid bodies' (EB's) worden genoemd. Om het effect van nicotine op de ontwikkeling van deze stamcellen te onderzoeken, voegden de wetenschappers nicotine toe aan het kweekmedium. De opzet van het onderzoek is in afbeelding 2 weergegeven.</p>",
+            "bronverwijzing_tekst": "De opzet van het onderzoek is in afbeelding 2 weergegeven.",
+            "bron_verwijzing": "vwo_biologie_tv1_opgave1_bron2.png",
+            "vraagtekst_html": "<p>Stamcellen hebben een bepaalde potentie.</p><p>Welke potentie hebben de stamcellen bij de start van het onderzoek? En welke potentie hebben ze na 21 dagen ontwikkeling?</p>",
+            "correct_antwoord_model": "<p>C (2 punten)</p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "start onderzoek: multipotent, na 21 dagen: pluripotent"
+              },
+              {
+                "id": "B",
+                "text": "start onderzoek: multipotent, na 21 dagen: totipotent"
+              },
+              {
+                "id": "C",
+                "text": "start onderzoek: pluripotent, na 21 dagen: multipotent"
+              },
+              {
+                "id": "D",
+                "text": "start onderzoek: pluripotent, na 21 dagen: totipotent"
+              },
+              {
+                "id": "E",
+                "text": "start onderzoek: totipotent, na 21 dagen: multipotent"
+              },
+              {
+                "id": "F",
+                "text": "start onderzoek: totipotent, na 21 dagen: pluripotent"
+              }
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "id": 6,
+            "max_score": 2,
+            "type": "mc",
+            "context_html": "<p>De concentratie nicotine van het kweekmedium was gelijk aan de gemiddelde concentratie in het bloed van embryo's waarvan de moeder rookt. Na 21 dagen incubatie werd de diameter van de EB's bepaald. De diameter is een maat voor het aantal cellen in de EB's. Afbeelding 3 toont een microscopisch beeld van EB's die aan nicotine zijn blootgesteld en van controle-EB's. De EB's zijn als donkere vlekken zichtbaar. In afbeelding 4 zijn de metingen van de diameter van de EB's in de twee groepen weergegeven.</p>",
+            "bronverwijzing_tekst": "Afbeelding 3 toont... In afbeelding 4 zijn de metingen...",
+            "bron_verwijzing": [
+              "vwo_biologie_tv1_opgave1_bron3.png",
+              "vwo_biologie_tv1_opgave1_bron4.png"
+            ],
+            "vraagtekst_html": "<p>Over het resultaat worden de volgende uitspraken gedaan:</p><ol><li>Het aantal cellen in een controle-EB is gemiddeld groter dan in een EB die aan nicotine is blootgesteld.</li><li>Het verschil in gemiddelde diameter tussen de twee groepen EB's berust op toeval.</li></ol><p>Welke uitspraak wordt ondersteund door de gegevens?</p>",
+            "correct_antwoord_model": "<p>B (2 punten)</p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "geen van beide"
+              },
+              {
+                "id": "B",
+                "text": "alleen 1"
+              },
+              {
+                "id": "C",
+                "text": "alleen 2"
+              },
+              {
+                "id": "D",
+                "text": "zowel 1 als 2"
+              }
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "id": 7,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De onderzoekers hebben ook het effect van nicotine op de genexpressie van de EB's onderzocht. Om de verschillen in expressie tussen verschillende celtypen te onderzoeken, werd de genexpressie van afzonderlijke cellen bepaald. Om de genexpressie te bepalen werd op basis van al het RNA - cDNA gemaakt, dat vervolgens werd vermenigvuldigd met de PCR-techniek. Aan de hand van de gevonden genexpressie werd een expressieprofiel opgesteld waarmee de cellen konden worden ingedeeld in verschillende celtypen. Afbeelding 5 toont de stappen van dit deel van het onderzoek.</p>",
+            "bronverwijzing_tekst": "Afbeelding 5 toont de stappen...",
+            "bron_verwijzing": "vwo_biologie_tv1_opgave1_bron5.png",
+            "vraagtekst_html": "<p>Over de stappen in afbeelding 5 worden de volgende uitspraken gedaan:</p><ol><li>Om cDNA te maken, zijn andere enzymen nodig dan bij de PCR.</li><li>Om cDNA te maken, zijn andere nucleotiden nodig dan bij de PCR.</li><li>Bij de PCR in dit onderzoek wordt in totaal één kenmerkend gen vermenigvuldigd.</li></ol><p>Schrijf de nummers 1, 2 en 3 onder elkaar en noteer erachter of de betreffende uitspraak juist of onjuist is.</p>",
+            "correct_antwoord_model": "<p>1 juist</p><p>2 onjuist</p><p>3 onjuist</p><ul><li>indien drie nummers correct: 2</li><li>indien twee nummers correct: 1</li><li>indien minder dan twee nummers correct: 0</li></ul>"
+          },
+          {
+            "id": 8,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>In de tabel hieronder zijn twee celtypen genoemd waarvan de genexpressie was veranderd door nicotine, met het bijbehorend effect op de embryonale ontwikkeling.</p><table><thead><tr><th></th><th>celtype</th><th>effect van nicotine</th></tr></thead><tbody><tr><td>1</td><td>epitheelcellen</td><td>toename van celdeling</td></tr><tr><td>2</td><td>endotheelcellen</td><td>verminderde vorming van haarvaten</td></tr></tbody></table><p>Kinderen van wie de moeder rookte tijdens de zwangerschap, hebben op latere leeftijd een grotere kans op longproblemen.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Schrijf de nummers 1 en 2 onder elkaar en licht voor elk celtype uit de tabel toe hoe het betreffende effect van nicotine kan leiden tot problemen bij de gaswisseling op latere leeftijd. Doe dit aan de hand van een factor uit de wet van Fick.</p>",
+            "correct_antwoord_model": "<ul><li>voorbeelden van een juiste toelichting bij 1: Het longepitheel is te dik, waardoor de diffusieafstand groter wordt. / De longblaasjes hebben een te dikke wand, waardoor $\\Delta x$ groter is. / Er zijn meer cellen waar de zuurstof doorheen moet, dus de concentratiegradiënt $\\Delta c/\\Delta x$ is kleiner. / De doorgang van de bronchiolen wordt nauwer, waardoor de lucht minder goed ververst kan worden, zodat de $\\Delta c$ kleiner wordt. (1 punt)</li><li>voorbeelden van een juiste toelichting bij 2: De haarvaten maken minder goed contact met de longblaasjes, waardoor de diffusieafstand groter is. / Doordat er minder haarvaten aanwezig zijn, is A kleiner. (1 punt)</li></ul>"
+          },
+          {
+            "id": 9,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Het is niet ideaal om EB's te gebruiken als een model om de gevolgen van nicotinegebruik tijdens de zwangerschap op de ontwikkeling van het embryo te onderzoeken. Een voorbeeld van een tekortkoming is dat een EB geen echt embryo is en effecten voor de latere periode van de zwangerschap dus niet bestudeerd kunnen worden.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Noteer een andere tekortkoming van EB's als model in het onderzoek naar effecten van nicotine op de embryonale ontwikkeling.</p>",
+            "correct_antwoord_model": "<p>voorbeelden van een juist antwoord:</p><ul><li>Er kan geen rekening gehouden worden met de leefstijl van de moeder.</li><li>Er kan geen rekening gehouden worden met positieve of negatieve omgevingsfactoren van de moeder.</li><li>De omstandigheden in de baarmoeder worden niet goed nagebootst.</li><li>Bij het onderzoek met de EB's wordt de nicotine pas op dag vijf toegevoegd.</li></ul><p>(1 punt)</p><p><strong>Opmerkingen</strong></p><p>Als de kandidaat antwoordt dat een EB geen compleet embryo is of geen compleet orgaan is, geen scorepunt toekennen.</p><p>Als de kandidaat een ethisch of financieel bezwaar geeft tegen het gebruik van EB's, hieraan geen scorepunt toekennen.</p>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 2,
+        "opgave_titel": "Spitsbergenrendier verandert zijn dieet",
+        "vragen": [
+          {
+            "id": 10,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Rendieren komen voor op de toendra's in het gebied rondom de Noordpool. Het Spitsbergenrendier (Rangifer tarandus platyrhynchus) is de kleinste van de zeven ondersoorten en komt alleen voor op Spitsbergen, een eilandengroep in de Noordelijke IJszee (afbeelding 1). Het Spitsbergenrendier heeft korte poten, een relatief kleine, ronde kop en een dikke vacht (afbeelding 2).</p><p>Spitsbergenrendieren eten grassen, mossen en dwergstruikjes. In de zomerperiode slaan ze overtollige energie uit het voedsel op in een dikke vetlaag. Om in de winter bij hun voedsel te komen, schrapen ze sneeuw weg met hun hoeven.</p><p>Een aantal aanpassingen maakten deze ondersoort geschikt om te overleven in de kou op Spitsbergen. Zo hebben ze een dikke vacht, waardoor ze minder energie verbruiken om warm te blijven, en door hun korte poten is hun oppervlakte-inhoudsverhouding gunstig.</p>",
+            "bronverwijzing_tekst": "... (afbeelding 1). ... (afbeelding 2).",
+            "bron_verwijzing": [
+              "vwo_biologie_tv1_opgave2_bron1.png",
+              "vwo_biologie_tv1_opgave2_bron2.png"
+            ],
+            "vraagtekst_html": "<p>Licht toe hoe kortere poten de oppervlakte-inhoudsverhouding beïnvloeden.</p><p>Licht toe hoe dit leidt tot een lager energieverbruik.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat:</p><ul><li>kortere poten leiden tot een relatief klein oppervlak / tot een kleiner oppervlak ten opzichte van het volume / tot een kleinere oppervlakte-inhoudsverhouding. (1 punt)</li><li>(door een kleinere oppervlakte-inhoudsverhouding) warmteverlies beperkt wordt. (1 punt)</li></ul>"
+          },
+          {
+            "id": 11,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p>De poten van het Spitsbergenrendier zijn kort, maar ook de rest van zijn lichaam is klein vergeleken met ondersoorten die op andere plaatsen leven. Een mogelijke verklaring hiervoor is de afwezigheid van predatoren zoals de wolf. Kleinere dieren vallen daardoor niet vaker ten prooi aan wolven dan grotere exemplaren. Selectiedruk door andere factoren leidde tot de kleine ondersoort op Spitsbergen.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit hoe op Spitsbergen een ondersoort kon ontstaan die kleiner is dan andere ondersoorten.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat:</p><ul><li>er genetische variatie was in grootte / er mutaties voorkomen die hebben geleid tot verschillen in grootte. (1 punt)</li><li>kleinere individuen (voordeel hebben doordat ze) minder voedsel/energie nodig hebben (voor groei), / eerder geslachtsrijp zijn, (waardoor) kleinere individuen een hogere fitness hadden / (een grotere overlevingskans hadden en dus) meer nakomelingen kregen. (1 punt voor oorzaak voordeel, 1 punt voor gevolg fitness/nakomelingen)</li></ul><p><strong>Opmerking</strong></p><p>Als de kandidaat antwoordt dat kleinere individuen beter beschutting kunnen vinden tegen de kou, het tweede scorepunt toekennen.</p>"
+          },
+          {
+            "id": 12,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Onderzoekers hebben geconstateerd dat temperatuurstijging als gevolg van klimaatverandering in de arctische gebieden een hogere productiviteit van de vegetatie veroorzaakt. Een aantal effecten van temperatuurstijging zijn:</p><ol><li>De dissimilatie door plantencellen neemt toe.</li><li>De periode waarin reducenten in de bodem actief zijn, wordt langer.</li><li>De stikstofassimilatie verloopt sneller.</li></ol>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Schrijf de nummers 1, 2 en 3 onder elkaar en noteer erachter of de netto primaire productie wel of niet zal toenemen door het betreffende effect.</p>",
+            "correct_antwoord_model": "<p>1 niet</p><p>2 wel</p><p>3 wel</p><ul><li>indien drie nummers correct: 2</li><li>indien twee nummers correct: 1</li><li>indien minder dan twee nummers correct: 0</li></ul>"
+          },
+          {
+            "id": 13,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>De populatiegrootte van sommige soorten herbivoren neemt toe door een hogere productiviteit van de vegetatie.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Verklaar waardoor de populatiegrootte van andere soorten herbivoren juist kan afnemen.</p>",
+            "correct_antwoord_model": "<p>voorbeelden van een juist antwoord:</p><ul><li>De soortensamenstelling van de vegetatie kan veranderen, waardoor het vereiste voedsel voor andere soorten herbivoren verdwijnt.</li><li>Doordat de concurrentie toeneemt, zullen bepaalde herbivoren minder voedsel hebben.</li></ul><p>(1 punt)</p>"
+          },
+          {
+            "id": 14,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>In de winter is de vegetatie op Spitsbergen bedekt met sneeuw. Wanneer er regen valt op het sneeuwdek, vormt zich een ijslaag over de vegetatie. Hierdoor kunnen herbivoren minder makkelijk aan voedsel komen. Deze ijslagen komen door klimaatverandering vaker voor. Hansen en collega's onderzochten wat het effect hiervan is op het dieet van Spitsbergenrendieren. Hun hypothese was dat als landplanten onbereikbaar zijn, Spitsbergenrendieren zeewier eten dat is aangespoeld op de kust. De onderzoekers bepaalden negen jaar lang de ruimtelijke spreiding van Spitsbergenrendieren en de gemiddelde dikte van de ijslaag die ontstaat door regen-op-sneeuw. In afbeelding 3 is de relatie weergegeven tussen de dikte van de ijslaag en het aandeel Spitsbergenrendieren dat aan de kust voedsel zoekt. Elk bolletje stelt het gemiddelde voor van één jaar van een bepaalde populatie.</p>",
+            "bronverwijzing_tekst": "In afbeelding 3 is de relatie weergegeven...",
+            "bron_verwijzing": "vwo_biologie_tv1_opgave2_bron3.png",
+            "vraagtekst_html": "<p>Over afbeelding 3 worden de volgende uitspraken gedaan:</p><ol><li>Alleen wanneer er een ijslaag aanwezig is, zoeken Spitsbergenrendieren voedsel aan de kust.</li><li>Het aandeel Spitsbergenrendieren dat aan de kust voedsel zoekt in populatie 1 wordt gemiddeld groter naarmate de ijslaag dikker is.</li><li>Als de ijsdikte meer dan 9 cm is, zoekt 31% van de Spitsbergenrendieren uit populatie 2 voedsel aan de kust.</li></ol><p>Schrijf de nummers 1, 2 en 3 onder elkaar en noteer erachter of de betreffende uitspraak juist of onjuist is.</p>",
+            "correct_antwoord_model": "<p>1 onjuist</p><p>2 juist</p><p>3 onjuist</p><ul><li>indien drie nummers correct: 2</li><li>indien twee nummers correct: 1</li><li>indien minder dan twee nummers correct: 0</li></ul>"
+          },
+          {
+            "id": 15,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Met een onderzoek aan de uitwerpselen toonden de onderzoekers aan dat het dieet van Spitsbergenrendieren inderdaad is veranderd: Spitsbergenrendieren blijken nu ook zeewier te eten. Het veranderde dieet heeft invloed op de lokale stikstofkringloop.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Verklaar hoe het veranderde dieet van de Spitsbergenrendieren de stikstofkringloop op de toendra van Spitsbergen beïnvloedt.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat (meer) (organische) stikstof uit zee (via feces en urine) op de toendra / op het land terechtkomt. (1 punt)</p>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 3,
+        "opgave_titel": "Koolmezen dood door bestrijding buxusmot?",
+        "vragen": [
+          {
+            "id": 16,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>In het voorjaar van 2018 kwamen er verontrustende berichten over opvallend veel dode koolmeesjongen in nestkasten. Ook Henriëtte had zo'n nestje met dode koolmezen in de tuin. De koolmees (Parus major, afbeelding 1) is een veelvoorkomende broedvogel in Nederland. De koolmees leeft van zaden en insecten. Totdat jonge koolmezen het nest verlaten, worden ze door hun ouders gevoerd met kleine insecten zoals de rupsen van de buxusmot.</p><p>In 2018 en 2019 hadden veel Nederlandse tuineigenaren last van de rupsen van de buxusmot. Ook Henriëttes buxus-heg werd kaalgevreten. In het tuincentrum haalde ze toen een middel om de buxusmot te bestrijden. Henriëtte vraagt zich nu af of het nestje dode koolmeesjes in haar tuin misschien het gevolg was van dit bestrijdingsmiddel.</p><p>Veel insectenbestrijdingsmiddelen behoren tot de pyrethroïden. Deze stoffen verhinderen het sluiten van de spannings-afhankelijke $Na^{+}$-kanalen in de uitlopers van neuronen.</p>",
+            "bronverwijzing_tekst": "... (afbeelding 1)...",
+            "bron_verwijzing": "vwo_biologie_tv1_opgave3_bron1.png",
+            "vraagtekst_html": "<p>Over het effect van pyrethroïden op een neuron worden de volgende uitspraken gedaan:</p><ol><li>Door pyrethroïden ontstaan er constant nieuwe impulsen in de axonen.</li><li>Doordat de $Na^{+}$-kanalen niet sluiten, treedt hyperpolarisatie op.</li><li>De oorspronkelijke rustpotentiaal wordt niet meer bereikt.</li></ol><p>Schrijf de nummers 1, 2 en 3 onder elkaar en noteer erachter of de betreffende uitspraak juist of onjuist is.</p>",
+            "correct_antwoord_model": "<p>1 onjuist</p><p>2 onjuist</p><p>3 juist</p><ul><li>indien drie nummers correct: 2</li><li>indien twee nummers correct: 1</li><li>indien minder dan twee nummers correct: 0</li></ul>"
+          },
+          {
+            "id": 17,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>In het voorjaar van 2019 hebben onderzoekers van het Centrum voor Landbouw en Milieu 41 nesten met dode jonge koolmezen onderzocht op aanwezigheid van diverse bestrijdingsmiddelen in de koolmezen. Er waren nesten uit stedelijke gebieden waar bestrijdingsmiddelen tegen de buxusmot waren gebruikt, uit stedelijke gebieden waar dit niet was gebeurd, en uit bossen. In geen van de 41 onderzochte nesten werden de insecticiden aangetroffen die werden gebruikt tegen de buxusmot. In tabel 1 zijn de bestrijdingsmiddelen weergegeven die wel werden aangetroffen in de dode koolmezen op de verschillende plaatsen.</p><table><caption>tabel 1</caption><thead><tr><th>werkzame stof</th><th>type middel</th><th>aantal nesten stad (wel bestrijding)</th><th>aantal nesten stad (geen bestrijding)</th><th>aantal nesten bos</th></tr></thead><tbody><tr><td>DDT</td><td>insecticide</td><td>9</td><td>9</td><td>4</td></tr><tr><td>DEET</td><td>insecticide</td><td></td><td></td><td>3</td></tr><tr><td>bifenyl-2-ol</td><td>fungicide</td><td>5</td><td>1</td><td>3</td></tr><tr><td>fipronil</td><td>insecticide</td><td>6</td><td>2</td><td>1</td></tr><tr><td>fluralaner</td><td>insecticide</td><td>1</td><td>1</td><td>1</td></tr><tr><td>fluroxypyr meptyl</td><td>herbicide</td><td>1</td><td></td><td></td></tr><tr><td>imidacloprid</td><td>insecticide</td><td>1</td><td></td><td></td></tr><tr><td>permethrin</td><td>insecticide</td><td>4</td><td>3</td><td>4</td></tr></tbody><tfoot><tr><td colspan=\"5\">insecticide: gifstof die insecten doodt<br>fungicide: gifstof die schimmels doodt<br>herbicide: gifstof die planten doodt</td></tr></tfoot></table><p>Verontrustend was de aanwezigheid van DDT in veel van de dode jonge koolmezen. DDT is al meer dan 50 jaar een verboden stof in Nederland. Deze gegevens laten zien hoe slecht afbreekbaar dit gif is.</p>",
+            "bronverwijzing_tekst": "In tabel 1 zijn de bestrijdingsmiddelen weergegeven...",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Noteer de term die wordt gebruikt voor zo'n slecht afbreekbare gifstof.</p>",
+            "correct_antwoord_model": "<p>een persistente gifstof / persistent (1 punt)</p>"
+          },
+          {
+            "id": 18,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>In het voorjaar van 2019 hebben onderzoekers van het Centrum voor Landbouw en Milieu 41 nesten met dode jonge koolmezen onderzocht op aanwezigheid van diverse bestrijdingsmiddelen in de koolmezen. Er waren nesten uit stedelijke gebieden waar bestrijdingsmiddelen tegen de buxusmot waren gebruikt, uit stedelijke gebieden waar dit niet was gebeurd, en uit bossen. In geen van de 41 onderzochte nesten werden de insecticiden aangetroffen die werden gebruikt tegen de buxusmot. In tabel 1 zijn de bestrijdingsmiddelen weergegeven die wel werden aangetroffen in de dode koolmezen op de verschillende plaatsen.</p><table><caption>tabel 1</caption><thead><tr><th>werkzame stof</th><th>type middel</th><th>aantal nesten stad (wel bestrijding)</th><th>aantal nesten stad (geen bestrijding)</th><th>aantal nesten bos</th></tr></thead><tbody><tr><td>DDT</td><td>insecticide</td><td>9</td><td>9</td><td>4</td></tr><tr><td>DEET</td><td>insecticide</td><td></td><td></td><td>3</td></tr><tr><td>bifenyl-2-ol</td><td>fungicide</td><td>5</td><td>1</td><td>3</td></tr><tr><td>fipronil</td><td>insecticide</td><td>6</td><td>2</td><td>1</td></tr><tr><td>fluralaner</td><td>insecticide</td><td>1</td><td>1</td><td>1</td></tr><tr><td>fluroxypyr meptyl</td><td>herbicide</td><td>1</td><td></td><td></td></tr><tr><td>imidacloprid</td><td>insecticide</td><td>1</td><td></td><td></td></tr><tr><td>permethrin</td><td>insecticide</td><td>4</td><td>3</td><td>4</td></tr></tbody><tfoot><tr><td colspan=\"5\">insecticide: gifstof die insecten doodt<br>fungicide: gifstof die schimmels doodt<br>herbicide: gifstof die planten doodt</td></tr></tfoot></table><p>De onderzoekers troffen in de koolmezen uit één nest de herbicide fluroxypyr meptyl aan.</p>",
+            "bronverwijzing_tekst": "In tabel 1 zijn de bestrijdingsmiddelen weergegeven...",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Verklaar hoe een herbicide in de jonge koolmezen terecht kan komen.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat herbiciden via de voedselketen terechtkomen in jonge koolmezen. (1 punt)</p><p><strong>Opmerkingen</strong></p><p>Als de kandidaat antwoordt dat accumulatie optreedt, het scorepunt toekennen.</p><p>Als de kandidaat antwoordt dat de herbiciden in de koolmezen terechtkomen via plantaardig nestmateriaal, het scorepunt toekennen.</p><p>Als de kandidaat antwoordt dat de jonge koolmezen herbiciden binnenkrijgen via plantaardig voedsel, het scorepunt niet toekennen.</p>"
+          },
+          {
+            "id": 19,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Veel van de insecticiden uit tabel 1 worden gebruikt als bestrijdingsmiddel tegen vlooien en teken bij honden en katten. Henriëtte ontvlooit haar hond elke vier weken met zo'n middel. Misschien hebben jonge koolmezen in haar tuin de gifstoffen via de huid opgenomen na contact met de haren van de hond. Koolmezen gebruiken haren namelijk als binnenbekleding van het nest (afbeelding 2).</p><p>Gifstoffen kunnen echter veel gemakkelijker via de darm worden opgenomen dan via de huid.</p>",
+            "bronverwijzing_tekst": "...(afbeelding 2).",
+            "bron_verwijzing": "vwo_biologie_tv1_opgave3_bron2.png",
+            "vraagtekst_html": "<p>Noteer een eigenschap op orgaanniveau waardoor opname via de darm makkelijker verloopt.</p><p>Noteer een eigenschap op celniveau waardoor opname via de darm makkelijker verloopt.</p>",
+            "correct_antwoord_model": "<ul><li>voorbeelden van een juiste eigenschap op orgaanniveau: groter oppervlak / aanwezigheid van darmvlokken / afwezigheid hoornlaag / betere doorbloeding / hogere temperatuur (1 punt)</li><li>voorbeelden van een juiste eigenschap op celniveau: aanwezigheid microvilli / aanwezigheid membraaneiwitten / actief transport mogelijk (1 punt)</li></ul>"
+          },
+          {
+            "id": 20,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Het Centrum voor Landbouw en Milieu heeft ook de haren uit nestjes met dode koolmeesjongen onderzocht. De gevonden haren bleken permethrin, DEET, fipronil en imidacloprid te bevatten. Een landelijk dagblad publiceerde na dit onderzoek een artikel met de volgende kop: \"Koolmeesjes sterven massaal door vlooien- en tekengif\". Toen Henriëtte dat las voelde ze zich weer schuldig aan de dood van de koolmeesjongen.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Beargumenteer dat de onderzoekers deze kop niet als conclusie zullen hebben gepresenteerd.</p>",
+            "correct_antwoord_model": "<p>voorbeelden van een juist antwoord:</p><ul><li>Er zijn (mogelijk) meer nestjes waarin andere gifstoffen in de meesjes worden aangetroffen dan de insecticiden die voor bestrijding van teken en vlooien worden gebruikt.</li><li>Je weet niet waaraan de mezen zijn doodgegaan.</li><li>De concentratie van de gifstoffen is niet bekend.</li><li>Er zijn alleen nesten onderzocht met dode mezen.</li><li>Je weet niet hoeveel nesten er in totaal waren in de onderzochte gebieden.</li><li>Het aantal nestjes dat is onderzocht, is te klein om deze conclusie te trekken.</li></ul><p>(1 punt)</p><p><strong>Opmerking</strong></p><p>Aan een antwoord als \"Zoiets zouden wetenschappers niet opschrijven\", geen scorepunt toekennen.</p>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 4,
+        "opgave_titel": "Drop",
+        "vragen": [
+          {
+            "id": 21,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Anna heeft last van een hoge bloeddruk. Als ze voor controle naar haar huisarts gaat, vraagt de huisarts of ze vaak drop eet of zoethoutthee drinkt. Bepaalde stoffen in deze voedingsmiddelen kunnen namelijk een hoge bloeddruk veroorzaken.</p><p>Drop en zoethoutthee bevatten glycyrrhizine (GL). Deze stof zorgt voor de typische dropsmaak en heeft een grote zoetkracht. GL wordt in de darmen door darmbacteriën gehydrolyseerd. Hierbij ontstaat glycyrrhetinezuur (GA), dat wordt opgenomen in het bloed. In de lever wordt een gedeelte van het GA omgezet in een aantal verschillende stoffen die via de gal worden afgevoerd. Een gedeelte daarvan wordt in de darm weer omgezet in GA en vervolgens opgenomen en getransporteerd naar de lever. Deze cyclus heet de enterohepatische circulatie (afbeelding 1).</p>",
+            "bronverwijzing_tekst": "... (afbeelding 1).",
+            "bron_verwijzing": "vwo_biologie_tv1_opgave4_bron1.png",
+            "vraagtekst_html": "<p>Over de aanwezigheid van GA in het lichaam worden de volgende uitspraken gedaan:</p><ol><li>GA komt alleen terecht in de lever via de poortader.</li><li>Door de enterohepatische circulatie duurt het langer voordat GA volledig uit het lichaam is verwijderd.</li><li>Een trage passage van de voedselbrij in de darm verlaagt de hoeveelheid GA in het lichaam.</li></ol><p>Schrijf de nummers 1, 2 en 3 onder elkaar en noteer erachter of de betreffende uitspraak juist of onjuist is.</p>",
+            "correct_antwoord_model": "<p>1 onjuist</p><p>2 juist</p><p>3 onjuist</p><ul><li>indien drie nummers correct: 2</li><li>indien twee nummers correct: 1</li><li>indien minder dan twee nummers correct: 0</li></ul>"
+          },
+          {
+            "id": 22,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p>GA heeft effect op bepaalde cellen in de nierbuisjes (afbeelding 2). In het grondplasma van deze cellen bevinden zich mineralocorticoïd-receptoren. Door binding van cortisol wordt een mineralocorticoïd-receptor (MR) geactiveerd. De geactiveerde MR verplaatst zich naar de kern, waar dit complex bindt aan een hormoon-respons-element (HRE). Daardoor komen bepaalde genen tot expressie, wat leidt tot de synthese van $Na^{+}$-kanalen die in het celmembraan terechtkomen. GA verhindert de werking van het enzym 11ß-HSD2 in deze niercellen. Dit enzym zet normaliter cortisol om in cortison. Cortison kan niet binden aan de MR.</p><p>De geactiveerde MR is als transcriptiefactor betrokken bij de synthese van $Na^{+}$-kanalen.</p>",
+            "bronverwijzing_tekst": "...(afbeelding 2).",
+            "bron_verwijzing": "vwo_biologie_tv1_opgave4_bron2.png",
+            "vraagtekst_html": "<p>Welke functie heeft de geactiveerde MR bij de transcriptie? Gebruik je informatieboek.</p>",
+            "correct_antwoord_model": "<p>A (1 punt)</p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "activator"
+              },
+              {
+                "id": "B",
+                "text": "enhancer (versterker)"
+              },
+              {
+                "id": "C",
+                "text": "promotor"
+              },
+              {
+                "id": "D",
+                "text": "repressor"
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "id": 23,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>GA heeft effect op bepaalde cellen in de nierbuisjes (afbeelding 2). In het grondplasma van deze cellen bevinden zich mineralocorticoïd-receptoren. Door binding van cortisol wordt een mineralocorticoïd-receptor (MR) geactiveerd. De geactiveerde MR verplaatst zich naar de kern, waar dit complex bindt aan een hormoon-respons-element (HRE). Daardoor komen bepaalde genen tot expressie, wat leidt tot de synthese van $Na^{+}$-kanalen die in het celmembraan terechtkomen. GA verhindert de werking van het enzym 11ß-HSD2 in deze niercellen. Dit enzym zet normaliter cortisol om in cortison. Cortison kan niet binden aan de MR.</p><p>De opname van GA leidt tot een toename van de osmotische waarde van het bloed.</p>",
+            "bronverwijzing_tekst": "...(afbeelding 2).",
+            "bron_verwijzing": "vwo_biologie_tv1_opgave4_bron2.png",
+            "vraagtekst_html": "<p>Leg dit uit aan de hand van afbeelding 2.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat:</p><ul><li>een toename van (de remming van de omzetting van) cortisol leidt tot een toename van (de productie van) $Na^{+}$-kanalen, / de onderdrukking van het enzym 11ß-HSD2 leidt tot een toename van (de productie van) $Na^{+}$-kanalen, (1 punt)</li><li>(waardoor) meer $Na^{+}$-opname vanuit de voorurine plaatsvindt / meer (terug)resorptie/reabsorptie van $Na^{+}$ plaatsvindt (waardoor de osmotische waarde van het bloed zal stijgen). (1 punt)</li></ul>"
+          },
+          {
+            "id": 24,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>De toename van de osmotische waarde leidt tot een hoge bloeddruk. Dit kan oedeem veroorzaken.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Verklaar hoe een hoge bloeddruk oedeem kan veroorzaken.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat (door een hoge bloeddruk) meer vocht de haarvaten verlaat / dat meer filtratie plaatsvindt / dat minder (terug)resorptie (in de weefsels) plaatsvindt. (1 punt)</p>"
+          },
+          {
+            "id": 25,
+            "max_score": 2,
+            "type": "calculation",
+            "context_html": "<p>De hoeveelheid glycyrrhizine in drop wordt aangegeven met het GA-gehalte. Het advies voor de hoeveelheid drop die je per dag veilig kan eten, gaat uit van een 'no effect level' van 2,0 mg GA per kilogram lichaamsgewicht per dag. Mensen die een hoge bloeddruk hebben zoals Anna, moeten deze waarde door 10 delen. Hieronder is het GA-gehalte van verschillende soorten drop vermeld. Een dropje weegt gemiddeld 5 gram.</p><table><thead><tr><th>soort drop</th><th>GA-gehalte $(mg/kg)$</th></tr></thead><tbody><tr><td>zoete drop</td><td>1259</td></tr><tr><td>mild-zoute drop</td><td>801</td></tr><tr><td>dubbelzoute drop</td><td>343</td></tr></tbody></table><p>Ga ervan uit dat Anna 70 kg weegt.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Bereken het maximale aantal zoete dropjes dat Anna per dag mag eten volgens bovenstaand advies.</p>",
+            "correct_antwoord_model": "<p>voorbeelden van een juiste berekening:</p><ul><li>Advies is $2,0~mg/kg \\times 70~kg = 140$ mg. Dat komt overeen met $\\frac{140~mg}{1259~mg/kg}$ drop $= 0,111$ kg drop. Dat is $\\frac{111~g}{5~g} = 22$ dropjes. Delen door 10 betekent dus dat ze 2 dropjes mag.</li><li>advies per dag voor iemand met hoge bloeddruk: $70 \\times 0,2 = 14$ mg GA<br>zoet dropje bevat: $5 \\times 1,259 = 6,295$ mg GA<br>$\\frac{14}{6,295} = 2,2$ dropjes maximaal (Antwoord moet een geheel getal zijn, dus 2)</li></ul><ul><li>een juiste berekening gebruikmakend van de waarden 2,0; 1259; 5 en 70 (1 punt)</li><li>het juist toepassen van de veiligheidsmarge (delen door 10) (1 punt)</li></ul><p>(Correct antwoord: 2)</p>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 5,
+        "opgave_titel": "Bonenziekte",
+        "vragen": [
+          {
+            "id": 26,
+            "max_score": 2,
+            "type": "mc",
+            "context_html": "<p>Bonenziekte (favisme) is het gevolg van een mutatie in het gen dat codeert voor het enzym glucose-6-fosfaatdehydrogenase (G6PD). Hierdoor is bij Fabio dit enzym minder goed werkzaam. G6PD katalyseert de eerste reactie in de pentose-fosfaatweg ('pentose phosphate pathway' of PPP). De PPP (afbeelding 1) is een stofwisselingsroute waarbij glucose-moleculen worden omgezet in pentosemoleculen (C5-moleculen). Hierbij worden ook NADPH-moleculen gevormd. NADPH (bekend van de fotosynthese bij planten) is in menselijke cellen nodig bij de productie van bepaalde organische stoffen zoals glutathion. Glutathion kan schadelijke reactieve zuurstofmoleculen zoals $O_{2}^{-}$ onschadelijk maken (afbeelding 1).</p><p>In de PPP wordt NADPH gevormd.</p>",
+            "bronverwijzing_tekst": "...(afbeelding 1)...",
+            "bron_verwijzing": "vwo_biologie_tv1_opgave5_bron1.png",
+            "vraagtekst_html": "<p>Kan NADPH energierijke elektronen afstaan of opnemen? En bij welk type stofwisselingsproces wordt NADPH dan verbruikt?</p>",
+            "correct_antwoord_model": "<p>A (2 punten)</p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "energierijke elektronen: afstaan, type stofwisselingsproces: assimilatie"
+              },
+              {
+                "id": "B",
+                "text": "energierijke elektronen: afstaan, type stofwisselingsproces: dissimilatie"
+              },
+              {
+                "id": "C",
+                "text": "energierijke elektronen: opnemen, type stofwisselingsproces: assimilatie"
+              },
+              {
+                "id": "D",
+                "text": "energierijke elektronen: opnemen, type stofwisselingsproces: dissimilatie"
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "id": 27,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p>Bonenziekte (favisme) is het gevolg van een mutatie in het gen dat codeert voor het enzym glucose-6-fosfaatdehydrogenase (G6PD). Hierdoor is bij Fabio dit enzym minder goed werkzaam. G6PD katalyseert de eerste reactie in de pentose-fosfaatweg ('pentose phosphate pathway' of PPP). De PPP (afbeelding 1) is een stofwisselingsroute waarbij glucose-moleculen worden omgezet in pentosemoleculen (C5-moleculen). Hierbij worden ook NADPH-moleculen gevormd. NADPH (bekend van de fotosynthese bij planten) is in menselijke cellen nodig bij de productie van bepaalde organische stoffen zoals glutathion. Glutathion kan schadelijke reactieve zuurstofmoleculen zoals $O_{2}^{-}$ onschadelijk maken (afbeelding 1).</p><p>De PPP is betrokken bij de productie van vetzuren. Met behulp van afbeelding 1 kan worden afgeleid wat het gevolg is voor de productie van vetzuren als G6PD onwerkzaam is.</p>",
+            "bronverwijzing_tekst": "...(afbeelding 1)...",
+            "bron_verwijzing": "vwo_biologie_tv1_opgave5_bron1.png",
+            "vraagtekst_html": "<p>Wat gebeurt er met de productie van vetzuren als G6PD onwerkzaam is?</p>",
+            "correct_antwoord_model": "<p>B (1 punt)</p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "Die neemt toe."
+              },
+              {
+                "id": "B",
+                "text": "Die neemt af."
+              },
+              {
+                "id": "C",
+                "text": "Die verandert niet."
+              }
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "id": 28,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>In de rode bloedcellen wordt normaal ongeveer 30% van de glucose via de PPP gedissimileerd. Zo ontstaat er voldoende glutathion om reactieve zuurstofmoleculen onschadelijk te maken. Reactieve zuurstofmoleculen kunnen ontstaan door infecties, door gebruik van bepaalde medicijnen en ook door stoffen in tuinboonplanten. Doordat er bij Fabio te weinig G6PD-activiteit is in zijn rode bloedcellen, is er een tekort aan glutathion. Als Fabio tuinbonen eet of pollen van tuinboonplanten inademt, hopen reactieve zuurstofmoleculen zich op in zijn rode bloedcellen en veroorzaken ze oxidatie van hemoglobine. Hierdoor denatureert de hemoglobine en vormt klonten. Doordat de rode bloedcellen vervolgens openbarsten (hemolyse), ontstaat bloedarmoede.</p><p>In de andere cellen van Fabio wordt de ophoping van reactieve zuurstofmoleculen beter bestreden, doordat extra G6PD wordt aangemaakt als er te weinig G6PD-activiteit is.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Verklaar dat aanmaak van extra G6PD niet kan plaatsvinden in rode bloedcellen.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat rode bloedcellen geen kern/DNA/ribosomen hebben (waardoor er geen eiwitsynthese kan plaatsvinden). (1 punt)</p>"
+          },
+          {
+            "id": 29,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>In de rode bloedcellen wordt normaal ongeveer 30% van de glucose via de PPP gedissimileerd. Zo ontstaat er voldoende glutathion om reactieve zuurstofmoleculen onschadelijk te maken. Reactieve zuurstofmoleculen kunnen ontstaan door infecties, door gebruik van bepaalde medicijnen en ook door stoffen in tuinboonplanten. Doordat er bij Fabio te weinig G6PD-activiteit is in zijn rode bloedcellen, is er een tekort aan glutathion. Als Fabio tuinbonen eet of pollen van tuinboonplanten inademt, hopen reactieve zuurstofmoleculen zich op in zijn rode bloedcellen en veroorzaken ze oxidatie van hemoglobine. Hierdoor denatureert de hemoglobine en vormt klonten. Doordat de rode bloedcellen vervolgens openbarsten (hemolyse), ontstaat bloedarmoede.</p><p>Symptomen die Fabio kan krijgen na het eten van tuinbonen, zijn een gele huid en geelverkleuring van zijn oogwit.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit hoe hemolyse leidt tot deze geelverkleuring.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat:</p><ul><li>hemoglobine (uit de beschadigde rode bloedcellen) wordt afgebroken. (1 punt)</li><li>(het daarbij gevormde) bilirubine zich ophoopt / bilirubine in de huid terechtkomt / bilirubine in het oogwit terechtkomt. (1 punt)</li></ul><p><strong>Opmerking</strong></p><p>Als de kandidaat galkleurstof noemt in plaats van bilirubine, dit niet aanrekenen.</p>"
+          },
+          {
+            "id": 30,
+            "max_score": 2,
+            "type": "mc",
+            "context_html": "<p>Nadat Fabio een keer tuinbonen had gegeten, veranderden zijn ademhaling en hartslag.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Zal zijn ademhalingsfrequentie zijn verhoogd of verlaagd? En zijn hartslagfrequentie?</p>",
+            "correct_antwoord_model": "<p>A (2 punten)</p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "ademhalingsfrequentie: verhoogd, hartslagfrequentie: verhoogd"
+              },
+              {
+                "id": "B",
+                "text": "ademhalingsfrequentie: verhoogd, hartslagfrequentie: verlaagd"
+              },
+              {
+                "id": "C",
+                "text": "ademhalingsfrequentie: verlaagd, hartslagfrequentie: verhoogd"
+              },
+              {
+                "id": "D",
+                "text": "ademhalingsfrequentie: verlaagd, hartslagfrequentie: verlaagd"
+              }
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "id": 31,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Er zijn verschillende mutaties van het G6PD-gen bekend. Het zijn met name puntmutaties en kleine deleties, die leiden tot een minder goed werkzaam G6PD-enzym.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Over mutaties worden de volgende uitspraken gedaan:</p><ol><li>Een deletie van één basenpaar in een exon leidt tot verandering van het leesraam.</li><li>Elke puntmutatie in een exon heeft effect op de werkzaamheid van het eiwit waarvoor wordt gecodeerd.</li><li>Een puntmutatie in een exon kan de afwezigheid van het eiwit waarvoor wordt gecodeerd tot gevolg hebben.</li></ol><p>Schrijf de nummers 1, 2 en 3 onder elkaar en noteer erachter of de betreffende uitspraak juist of onjuist is.</p>",
+            "correct_antwoord_model": "<p>1 juist</p><p>2 onjuist</p><p>3 juist</p><ul><li>indien drie nummers correct: 2</li><li>indien twee nummers correct: 1</li><li>indien minder dan twee nummers correct: 0</li></ul>"
+          },
+          {
+            "id": 32,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Fabio is niet de enige in zijn familie met bonenziekte. In afbeelding 2 is een stamboom weergegeven van zijn familie. Het gen voor G6PD ligt op het X-chromosoom. Fabio's oma Francesca is drager van het gemuteerde G6PD-allel. De kinderen van Francesca zijn in de stamboom met een letter aangegeven.</p><p>Francesca heeft de ziekte niet, maar is wel drager. Dat betekent dat ze heterozygoot is. Ook uit het fenotype van een van de kinderen van Francesca blijkt dat Francesca niet homozygoot kan zijn voor het gemuteerde G6PD-allel.</p>",
+            "bronverwijzing_tekst": "In afbeelding 2 is een stamboom weergegeven...",
+            "bron_verwijzing": "vwo_biologie_tv1_opgave5_bron2.png",
+            "vraagtekst_html": "<p>Noteer de letter van deze persoon. Licht je antwoord toe.</p>",
+            "correct_antwoord_model": "<p>voorbeelden van een juist antwoord:</p><ul><li>Q heeft zijn X-chromosoom gekregen van zijn moeder. Als Francesca homozygoot zou zijn, zou hij zeker het gemuteerde gen hebben gekregen en zou hij bonenziekte hebben.</li><li>Q. Deze persoon heeft namelijk alleen het G6PD-allel van zijn moeder gekregen, en dat is niet gemuteerd.</li></ul><ul><li>(alleen letter) Q (1 punt)</li><li>een toelichting waaruit blijkt dat persoon Q het (G6PD-)allel alleen van zijn moeder kan hebben gekregen (1 punt)</li></ul><p><strong>Opmerking (uit aanvulling):</strong></p><p>Als de kandidaat kiest voor letter R met daarbij een toelichting waaruit blijkt dat persoon R het (G6PD-)allel alleen van zijn moeder kan hebben gekregen (en zij dus niet homozygoot kan zijn voor het \"gezonde\" allel), hieraan in totaal 1 scorepunt toekennen.</p>"
+          },
+          {
+            "id": 33,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Bij vrouwen die drager zijn van het gemuteerde G6PD-allel kan soms toch een tekort aan werkzaam G6PD ontstaan, doordat in de voorlopercellen van rode bloedcellen een van de X-chromosomen geïnactiveerd wordt.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Licht toe dat de inactivatie van het X-chromosoom een vorm van epigenetica is.</p>",
+            "correct_antwoord_model": "<p>voorbeelden van een juist antwoord:</p><ul><li>Er is geen verandering in de basenvolgorde van het DNA, maar wel in het fenotype.</li><li>Er worden genen uitgeschakeld.</li><li>Het niet-gemuteerde allel is uitgeschakeld.</li><li>Door de inactivatie van het X-chromosoom zonder de mutatie, is er minder expressie van het G6PD-allel.</li></ul><p>(1 punt)</p>"
+          },
+          {
+            "id": 34,
+            "max_score": 2,
+            "type": "mc",
+            "context_html": "<p>Fabio is niet de enige in zijn familie met bonenziekte. In afbeelding 2 is een stamboom weergegeven van zijn familie. Het gen voor G6PD ligt op het X-chromosoom. Fabio's oma Francesca is drager van het gemuteerde G6PD-allel. De kinderen van Francesca zijn in de stamboom met een letter aangegeven.</p><p>Fabio's nicht Stella is in verwachting van een jongen.</p>",
+            "bronverwijzing_tekst": "In afbeelding 2 is een stamboom weergegeven...",
+            "bron_verwijzing": "vwo_biologie_tv1_opgave5_bron2.png",
+            "vraagtekst_html": "<p>Hoe groot is de kans dat de baby het gemuteerde G6PD-allel erft?</p>",
+            "correct_antwoord_model": "<p>C (2 punten)</p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "0"
+              },
+              {
+                "id": "B",
+                "text": "$\\frac{1}{16}$"
+              },
+              {
+                "id": "C",
+                "text": "$\\frac{1}{8}$"
+              },
+              {
+                "id": "D",
+                "text": "$\\frac{1}{4}$"
+              },
+              {
+                "id": "E",
+                "text": "$\\frac{1}{2}$"
+              }
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "id": 35,
+            "max_score": 2,
+            "type": "calculation",
+            "context_html": "<p>Bonenziekte komt relatief veel voor in bepaalde gebieden in Afrika. In een populatie in Nigeria heeft het gemuteerde G6PD-allel een frequentie van 20%.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Hoeveel procent van de vrouwen en hoeveel procent van de mannen in deze populatie heeft bonenziekte? Ga ervan uit dat de wet van Hardy-Weinberg van toepassing is en laat epigenetische processen buiten beschouwing.</p><p>Noteer je antwoord als volgt:</p><p>vrouwen: ... %</p><p>mannen: ... %</p>",
+            "correct_antwoord_model": "<ul><li>vrouwen: ($q^2 = 0,2^2 = 0,04 \\rightarrow$) 4% (1 punt)</li><li>mannen: ($q = 0,2 \\rightarrow$) 20% (1 punt)</li></ul>"
+          },
+          {
+            "id": 36,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p>Met name op plaatsen waar malaria heerst, blijkt het G6PD-allel een hoge frequentie te hebben. Dat komt waarschijnlijk doordat rode bloedcellen die een kleinere hoeveelheid werkzaam G6PD hebben, minder gevoelig zijn voor infectie door de malariaparasiet.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Hoe kan de hogere frequentie van het gemuteerde G6PD-allel in malariagebieden het best worden verklaard?</p>",
+            "correct_antwoord_model": "<p>E (1 punt)</p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "door gene-flow"
+              },
+              {
+                "id": "B",
+                "text": "door het flessenhalseffect (bottleneckeffect)"
+              },
+              {
+                "id": "C",
+                "text": "door het stichtereffect (foundereffect)"
+              },
+              {
+                "id": "D",
+                "text": "door migratie"
+              },
+              {
+                "id": "E",
+                "text": "door natuurlijke selectie"
+              }
+            ],
+            "correct_answer": "E"
+          },
+          {
+            "id": 37,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Op verschillende websites wordt de bonenziekte ook wel bonenallergie genoemd.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Beargumenteer dat bonenziekte geen allergische reactie is.</p>",
+            "correct_antwoord_model": "<p>voorbeelden van een juist antwoord:</p><ul><li>Er wordt geen histamine gevormd.</li><li>Bij bonenziekte zijn geen antistoffen betrokken.</li><li>Het afweersysteem wordt niet geactiveerd.</li></ul><p>(1 punt)</p><p><strong>Opmerkingen</strong></p><p>Als de kandidaat alleen ingaat op wat bonenziekte wél is, geen scorepunt toekennen.</p><p>Als de kandidaat alleen beschrijft wat symptomen zijn van een allergische reactie, geen scorepunt toekennen.</p>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 6,
+        "opgave_titel": "PFAS in groentetuintjes",
+        "vragen": [
+          {
+            "id": 38,
+            "max_score": 2,
+            "type": "mc",
+            "context_html": "<p>In Nederland ontstond grote ophef toen PFAS (poly- en perfluoralkylstoffen) werden aangetroffen in afvalwater, oppervlaktewater en zelfs drinkwater. PFAS leveren namelijk risico's op voor de volksgezondheid en het milieu. Wetenschappers van het RIVM (Rijksinstituut voor Volksgezondheid en Milieu) onderzochten of PFAS via besmette groentetuintjes terecht kunnen komen in voedsel voor mensen.</p><p>PFAS zijn synthetische stoffen die onder andere worden gebruikt voor de productie van waterafstotende kleding en verpakkingsfolies. Een van deze stoffen is PFOA (perfluoroctaanzuur, afbeelding 1).</p><p>Onderzoek bij proefdieren heeft aangetoond dat PFOA onder andere lever- en niertumoren kan veroorzaken. Ook tast de stof het immuunsysteem aan. Het gebruik van PFOA is daarom nu verboden. PFOA wordt nauwelijks afgebroken of uitgescheiden door het lichaam van de mens. Voor PFOA is de grenswaarde een dagelijkse inname van $0,63~ng/kg$ lichaamsgewicht per dag. Deze waarde is afgeleid van de waarde van $750~ng/kg$ lichaamsgewicht per dag die uit onderzoek bij ratten kwam.</p>",
+            "bronverwijzing_tekst": "...(afbeelding 1).",
+            "bron_verwijzing": "vwo_biologie_tv1_opgave6_bron1.png",
+            "vraagtekst_html": "<p>Waarom is deze waarde voor mensen lager dan voor ratten?</p>",
+            "correct_antwoord_model": "<p>C (2 punten)</p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "Mensen behoren tot een ander trofisch niveau dan ratten."
+              },
+              {
+                "id": "B",
+                "text": "Mensen hebben relatief meer vetweefsel dan ratten."
+              },
+              {
+                "id": "C",
+                "text": "Mensen leven langer dan ratten."
+              },
+              {
+                "id": "D",
+                "text": "Mensen zijn groter dan ratten."
+              }
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "id": 39,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>PFOA wordt nauwelijks uitgescheiden doordat veel PFOA-moleculen binden aan plasma-eiwitten in het bloed. De PFOA-moleculen die niet gebonden zijn, kunnen wel worden uitgescheiden.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Verklaar waardoor de binding van PFOA aan plasma-eiwitten de uitscheiding van PFOA belemmert.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat eiwitten (bij ultrafiltratie) in het bloed blijven / dat eiwitten niet/nauwelijks worden uitgescheiden / dat eiwitten niet/nauwelijks in de (voor)urine terechtkomen. (1 punt)</p>"
+          },
+          {
+            "id": 40,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Hoewel PFOA geen mutagene effecten heeft, wordt in proefdieren toch een verhoogd aantal tumoren gevonden. Tumoren kunnen - onder invloed van mutagene factoren - ontstaan door mutaties in bepaalde genen die een regulerende functie hebben bij celdeling.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Noteer de naam van een bepaald type genen dat door mutatie een verhoogde kans op tumoren geeft.</p>",
+            "correct_antwoord_model": "<p>voorbeelden van een juist antwoord:</p><ul><li>(tumor)suppressorgenen</li><li>(proto)oncogenen</li><li>'zelfmoord genen'</li><li>apoptose-genen</li></ul><p>(1 punt)</p><p><strong>Opmerkingen</strong></p><p>Als de kandidaat een voorbeeld geeft van een van deze typen genen, het scorepunt toekennen.</p><p>Aan het antwoord \"regulatorgenen\" geen scorepunt toekennen.</p>"
+          },
+          {
+            "id": 41,
+            "max_score": 2,
+            "type": "mc",
+            "context_html": "<p>De toename van het aantal tumoren bij de proefdieren zou een gevolg kunnen zijn van een verminderde hoeveelheid T-lymfocyten.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Wordt een kankercel herkend aan MHC-I of aan MHC-II? En worden kankercellen gedood door fagocytose of door lysis?</p>",
+            "correct_antwoord_model": "<p>B (2 punten)</p>",
+            "options": [
+              {
+                "id": "A",
+                "text": "herkenning aan: MHC-I, doding door: fagocytose"
+              },
+              {
+                "id": "B",
+                "text": "herkenning aan: MHC-I, doding door: lysis"
+              },
+              {
+                "id": "C",
+                "text": "herkenning aan: MHC-II, doding door: fagocytose"
+              },
+              {
+                "id": "D",
+                "text": "herkenning aan: MHC-II, doding door: lysis"
+              }
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "id": 42,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Door de besmetting van grond- en oppervlaktewater met PFAS zouden deze stoffen terecht kunnen komen in voedselgewassen die in de directe omgeving geteeld worden. Om te onderzoeken of dit werkelijk gebeurt, werden groenten uit volkstuintjes in de omgeving van een groot chemiebedrijf in Dordrecht getest op aanwezigheid van PFOA. Behalve groenten uit volkstuintjes in de omgeving van het chemisch bedrijf in Dordrecht werden ook groenten uit volkstuintjes in Bilthoven, dat 60 km verderop ligt, getest op de aanwezigheid van PFOA. De resultaten staan in afbeelding 2.</p>",
+            "bronverwijzing_tekst": "De resultaten staan in afbeelding 2.",
+            "bron_verwijzing": "vwo_biologie_tv1_opgave6_bron2.png",
+            "vraagtekst_html": "<p>Licht toe waarom er ook groenten uit Bilthoven getest werden.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat deze gegevens als controle dienen / dat deze gegevens een vergelijking mogelijk maken met een (soortgelijk) gebied dat niet in de directe omgeving (van een chemisch bedrijf) ligt. (1 punt)</p>"
+          }
+        ]
+      }
+    ]
+  }

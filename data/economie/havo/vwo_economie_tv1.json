@@ -1,0 +1,335 @@
+{
+    "examen_info": {
+      "vak": "economie",
+      "niveau": "vwo",
+      "tijdvak": "TV1",
+      "jaar": 2024
+    },
+    "opgaven": [
+      {
+        "opgave_nr": 1,
+        "opgave_titel": "Duurzaamheid stimuleren",
+        "vragen": [
+          {
+            "id": 1,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De overheid van een land heeft met de overheden van andere landen een afspraak gemaakt om de CO<sub>2</sub>-uitstoot aanzienlijk te verminderen. Een politicus stelt een combinatie van maatregelen voor om het afgesproken doel te behalen: het instellen van heffingen op vervuilende productie (markt A) en het subsidiëren van schone productie (markt B). Een econoom onderzoekt deze twee markten van volledige mededinging.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>De vervuilende productie van product A leidt tot maatschappelijke kosten. Leg uit dat de productie van product A leidt tot negatieve externe effecten en maatschappelijke kosten. Geef daarbij een voorbeeld van een negatief extern effect.</p>",
+            "correct_antwoord_model": "<p>Een juist antwoord bevat:</p><ul><li>Het noemen van een voorbeeld van een negatief externe effect. (1 punt)</li><li>Een uitleg dat dit negatieve externe effect tot maatschappelijke kosten leidt. (1 punt)</li></ul><p>Een voorbeeld van een juist antwoord is:</p><p>De vervuilende productie leidt tot milieuvervuiling zoals stankoverlast / klimaatverandering / slechtere luchtkwaliteit / slechtere waterkwaliteit. (1 punt)</p><p>Dit leidt tot (extra) kosten die niet door de gebruikers zelf worden betaald maar door de maatschappij (via betaalde belastingen). (1 punt)</p>"
+          },
+          {
+            "id": 2,
+            "max_score": 2,
+            "type": "calculation",
+            "context_html": "<p>De overheid van een land heeft met de overheden van andere landen een afspraak gemaakt om de CO<sub>2</sub>-uitstoot aanzienlijk te verminderen. Een politicus stelt een combinatie van maatregelen voor om het afgesproken doel te behalen: het instellen van heffingen op vervuilende productie (markt A) en het subsidiëren van schone productie (markt B). Een econoom onderzoekt deze twee markten van volledige mededinging.</p><p>Figuur 1 Marktsituatie van A, met en zonder heffing:</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": "vwo_ec_tv1_opgave1_bron1.png",
+            "vraagtekst_html": "<p>Bereken hoeveel procent van de heffing wordt doorberekend in de prijs van product A.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juiste berekening is:</p><ul><li>Aflezen evenwichtsprijs: De marktprijs stijgt van € 18 naar € 20, dus een stijging van € 2. (1 punt)</li><li>Aflezen heffing: Uit de verschuiving van de aanbodlijn blijkt dat de heffing € 4 per stuk bedraagt.</li><li>Doorberekenen heffing: (<span class=\"fraction\"><span class=\"numerator\">2</span><span class=\"denominator\">4</span></span>) x 100% = 50%. (1 punt)</li></ul>"
+          },
+          {
+            "id": 3,
+            "max_score": 4,
+            "type": "calculation",
+            "context_html": "<p>De overheid van een land heeft met de overheden van andere landen een afspraak gemaakt om de CO<sub>2</sub>-uitstoot aanzienlijk te verminderen. Een politicus stelt een combinatie van maatregelen voor om het afgesproken doel te behalen: het instellen van heffingen op vervuilende productie (markt A) en het subsidiëren van schone productie (markt B). Een econoom onderzoekt deze twee markten van volledige mededinging.</p><p>Figuur 1 Marktsituatie van A, met en zonder heffing:</p><p>Figuur 2 Marktsituatie van B, met en zonder subsidie:</p><p>Voor product B geldt:</p><p>Qa = 2P - 20</p><p>Qv = -2P + 80</p><p>Qa = aangeboden hoeveelheid zonder subsidie (x 1.000 stuks)<br>Qv = gevraagde hoeveelheid (x 1.000 stuks)<br>P = de prijs per product in euro's</p><p>De subsidie bedraagt € 5 per product.</p><p>De CO<sub>2</sub>-uitstoot per product A is 6 kilogram, en per product B is het 2 kilogram.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": "vwo_ec_tv1_opgave1_bron1.png",
+            "vraagtekst_html": "<p>Bereken hoeveel kilogram de totale CO<sub>2</sub>-uitstoot zal afnemen door de heffing op product A en de subsidie op product B.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juiste berekening is:</p><ul><li>Markt A: de productie daalt van 50.000 naar 40.000 stuks, de CO2-reductie is 10.000 x 6 = 60.000 kg. (1 punt)</li><li>Markt B: de oude hoeveelheid: Qv = Qa → -2P + 80 = 2P - 20 → P = 25 en daarbij geldt Q = 30.000. (1 punt)</li><li>Markt B: De nieuwe aanbodvergelijking wordt Qa = 2(P + 5) - 20 → Qa = 2P - 10. (1 punt)</li><li>Markt B: de nieuwe hoeveelheid: Qv = Qa → -2P + 80 = 2P - 10 → P = 22,50 en Q = 35.000.</li><li>De CO2-uitstoot neemt toe met 5.000 x 2 = 10.000 kg. (1 punt)</li><li>Per saldo is de CO2-reductie 60.000 - 10.000 = 50.000 kg. (1 punt)</li></ul>\n          <table>\n            <thead><tr><th>Juiste elementen</th><th>Score</th></tr></thead>\n            <tbody>\n            <tr><td>vijf elementen juist</td><td>4</td></tr>\n            <tr><td>vier elementen juist</td><td>3</td></tr>\n            <tr><td>drie elementen juist</td><td>2</td></tr>\n            <tr><td>twee elementen juist</td><td>1</td></tr>\n            <tr><td>een of geen elementen juist</td><td>0</td></tr>\n            </tbody>\n          </table>"
+          },
+          {
+            "id": 4,
+            "max_score": 2,
+            "type": "open_non_language",
+            "bronverwijzing_tekst": "Arceer in de uitwerkbijlage:",
+            "bron_verwijzing": ["vwo_ec_tv1_vraag4_bijlage_fig1.png", "vwo_ec_tv1_vraag4_bijlage_fig2.png"],
+            "vraagtekst_html": "<p>Arceer in de uitwerkbijlage:</p><ul><li>de heffingsopbrengst voor de overheid in figuur 1.</li><li>het verlies aan economische doelmatigheid als gevolg van de subsidie in figuur 2.</li></ul>",
+            "correct_antwoord_model": "<p>Een juist antwoord bevat de volgende elementen:</p><ul><li>Correcte arcering heffingsopbrengst in figuur 1 (Markt A). Zie afbeelding: <br><img src='/static/images/vwo_ec_tv1_vraag4_bijlage_fig1_correct.png' alt='Correcte arcering markt A' style='max-width: 300px; height: auto;'> (1 punt)</li><li>Correcte arcering welvaartsverlies in figuur 2 (Markt B). Zie afbeelding: <br><img src='/static/images/vwo_ec_tv1_vraag4_bijlage_fig2_correct.png' alt='Correcte arcering markt B' style='max-width: 300px; height: auto;'> (1 punt)</li></ul>"
+          },
+          {
+            "id": 5,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De econoom bekijkt hoe de heffing zal uitwerken voor een individueel bedrijf op de markt van product A (zie figuur 1). Bedrijf Knop had voor de heffing € 12 constante kosten per product en € 5 proportioneel variabele kosten per product.</p>",
+            "bronverwijzing_tekst": "zie figuur 1",
+            "bron_verwijzing": "vwo_ec_tv1_opgave1_bron1.png",
+            "vraagtekst_html": "<p>Leg met behulp van getallen uit of bedrijf Knop het komende jaar door zal gaan met de productie, als de heffing wordt ingevoerd.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juist antwoord is:</p><ul><li>De prijs is € 20 en de variabele kosten per product zijn € 5 + € 4 (heffing) = € 9. (1 punt)</li><li>Omdat P > GVK zal het bedrijf Knop doorgaan met produceren, omdat dit tot een lager verlies leidt dan stoppen met produceren. (1 punt)</li></ul>"
+          },
+          {
+            "id": 6,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De econoom plaatst een kanttekening bij haar analyse: \"De subsidie op markt B heeft ook effect op markt A. De kruislingse prijselasticiteiten zijn positief voor product A en B. Als de prijs van product B daalt, zal de verwachte CO<sub>2</sub>-uitstoot van product A veranderen.\"</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg met behulp van de kruislingse prijselasticiteit uit of de verwachte CO<sub>2</sub>-uitstoot van product A toeneemt of afneemt bij een prijsdaling van product B.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juist antwoord is:</p><ul><li>Een prijsdaling van product B zal ervoor zorgen dat de vraag naar product A afneemt vanwege de positieve kruislingse prijselasticiteit. (1 punt)</li><li>Hierdoor daalt de productie van A en daarmee de CO<sub>2</sub>-uitstoot van product A. (1 punt)</li></ul><p><strong>of</strong></p><ul><li>De kruislingse prijselasticiteit is positief, dus er is sprake van substituten. (1 punt)</li><li>Een prijsdaling van product B leidt dus tot een vraagdaling van product A, waardoor de CO<sub>2</sub>-uitstoot daalt. (1 punt)</li></ul>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 2,
+        "opgave_titel": "Staat van de schulden",
+        "vragen": [
+          {
+            "id": 7,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Maecenates is een land dat al jaren kampt met een oplopende staatsschuld. Economen Falco en Colomba analyseren de houdbaarheid van de overheidsfinanciën en de doelmatigheid van de overheidsbestedingen in de periode 2011-2020 aan de hand van de gegevens in figuur 1.</p><p>Figuur 1 Staatsschuldquote en nominale rente Maecenates</p><p>Econoom Falco beweert dat er een verband bestaat tussen de staatsschuldquote en de ontwikkeling van het nominaal rentepercentage op staatsobligaties.</p>",
+            "bronverwijzing_tekst": "met behulp van figuur 1",
+            "bron_verwijzing": "vwo_ec_tv1_opgave2_bron1.png",
+            "vraagtekst_html": "<p>Geef met behulp van figuur 1 een verklaring voor de ontwikkeling van het nominale rentepercentage op staatsobligaties.</p>",
+            "correct_antwoord_model": "<p>Voorbeelden van een juist antwoord zijn:</p><ul><li>De hogere staatsschuldquote verhoogt het risico op wanbetaling. Beleggers zullen een hogere vergoeding eisen voor dit risico. (1 punt)</li><li>De hogere staatsschuldquote kan zorgen voor meer vraag naar vermogen (als de staatsschuld is toegenomen). Hierdoor stijgt de rente (op nieuwe obligaties). (1 punt)</li></ul>"
+          },
+          {
+            "id": 8,
+            "max_score": 2,
+            "type": "calculation",
+            "context_html": "<p>Maecenates is een land dat al jaren kampt met een oplopende staatsschuld. Economen Falco en Colomba analyseren de houdbaarheid van de overheidsfinanciën en de doelmatigheid van de overheidsbestedingen in de periode 2011-2020 aan de hand van de gegevens in figuur 1.</p><p>Figuur 1 Staatsschuldquote en nominale rente Maecenates</p><p>Econoom Falco beweert dat de dienstverlening van de overheid onder druk komt te staan, als de rente-uitgaven groter worden dan 10% van de overheidsuitgaven. De overheidsuitgaven van Maecenates bedragen 43% van het bbp in 2020.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": "vwo_ec_tv1_opgave2_bron1.png",
+            "vraagtekst_html": "<p>Bereken of de dienstverlening van de overheid in Maecenates in 2020 volgens Falco onder druk komt te staan.</p>",
+            "correct_antwoord_model": "<p>Voorbeelden van een juiste berekening zijn:</p><ul><li>De rente die wordt betaald is 2,4% x 175% van het bbp = 4,2% van het bbp. (1 punt)</li><li>Dat is (<span class=\"fraction\"><span class=\"numerator\">4,2%</span><span class=\"denominator\">43%</span></span>) x 100% = 9,8% van de overheidsuitgaven.</li><li>9,8% &lt; 10% dus de dienstverlening komt niet onder druk te staan. (1 punt)</li></ul>\n<p><strong>of</strong></p>\n<ul><li>De rente die wordt betaald is 2,4% x 175% van het bbp = 4,2% van het bbp. (1 punt)</li><li>10% van 43% = 4,3%.</li><li>4,2% &lt; 4,3% dus de dienstverlening komt niet onder druk te staan. (1 punt)</li></ul>\n<p>Opmerking: De conclusie is noodzakelijk voor toekenning van de maximumscore.</p>"
+          },
+          {
+            "id": 9,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Falco wil dat de staatsschuldquote afneemt door een verhoging van de inkomstenbelasting. Colomba vindt dat een verhoging van de inkomstenbelasting door een uitverdieneffect en een grotere belastingwig, een beperkt effect heeft op de staatsschuld.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit dat een verhoging van de inkomstenbelasting door het uitverdieneffect, een beperkt effect heeft op de staatsschuld.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juist antwoord is:</p><ul><li>Een belastingverhoging leidt tot een lager besteedbaar inkomen, waardoor de consumptie daalt en daarmee (via de effectieve vraag en productie) het inkomen. De opbrengsten van de inkomstenbelasting / indirecte belastingen dalen (uitverdieneffect). (1 punt)</li><li>Hierdoor zullen de belastinginkomsten minder stijgen dan verwacht waardoor de daling van de staatsschuld ook beperkt is. (1 punt)</li></ul>"
+          },
+          {
+            "id": 10,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Falco wil dat de staatsschuldquote afneemt door een verhoging van de inkomstenbelasting. Colomba vindt dat een verhoging van de inkomstenbelasting door een uitverdieneffect en een grotere belastingwig, een beperkt effect heeft op de staatsschuld.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit dat een verhoging van de inkomstenbelasting leidt tot een grotere belastingwig en dat daardoor het bbp kan dalen.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juist antwoord is:</p><ul><li>Door de belastingverhoging zal het verschil tussen de loonkosten en het nettoloon van werknemer stijgen / stijgt de marginale belastingdruk (de wig), waardoor het nettoloon van werknemers daalt. (1 punt)</li><li>Dit vermindert de prikkel om te werken waardoor de economische activiteit daalt. Hierdoor daalt het arbeidsaanbod en dus de productie (en dus het bbp). (1 punt)</li></ul><p><strong>of</strong></p><ul><li>Door de belastingverhoging zal het verschil tussen de loonkosten en het nettoloon van werknemer stijgen / stijgt de marginale belastingdruk (de wig). (1 punt)</li><li>Dit leidt tot een daling van de consumptie waardoor de vraag naar goederen/diensten daalt. Hierdoor daalt de productie (en dus het bbp). (1 punt)</li></ul>"
+          },
+          {
+            "id": 11,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Colomba stelt: \"De overheidsinvesteringen kunnen via het publiek kapitaal op termijn tot een lagere staatsschuldquote leiden.\"</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg de stelling van Colomba uit. Geef daarbij een voorbeeld van publiek kapitaal.</p>",
+            "correct_antwoord_model": "<p>Een juist antwoord bevat in relatie tot de context:</p><ul><li>Het noemen van een juist voorbeeld van publiek kapitaal en een uitleg dat daardoor het verdienvermogen / de productiviteit stijgt. (1 punt)</li><li>Een uitleg dat een investering in publiek kapitaal leidt tot een lagere staatsschuldquote via het bbp. (1 punt)</li></ul>\n<p>Een voorbeeld van een juist antwoord is:</p><ul><li>Investeringen in publiek kapitaal zoals infrastructuur / elektriciteitsnet, verhogen de productiviteit / het verdienvermogen van bedrijven door sneller transport / betere energievoorziening, (1 punt)</li><li>hierdoor kan het bbp (op lange termijn) stijgen waardoor de staatsschuldquote daalt. (1 punt)</li></ul>\n<p><strong>of</strong></p>\n<ul><li>Investeringen in publiek kapitaal zoals onderwijs / medische zorg, verhogen de productiviteit / het verdienvermogen van bedrijven door beter geschoold personeel / minder uitval van personeel, (1 punt)</li><li>hierdoor kan het bbp (op lange termijn) stijgen waardoor de staatsschuldquote daalt. (1 punt)</li></ul>"
+          },
+          {
+            "id": 12,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Bezuinigingen van de overheid verlagen de binnenlandse bestedingen en leiden tot een positief overheidssaldo. Het positieve overheidssaldo leidt via de vermogensmarkt ertoe dat de binnenlandse bestedingen toch kunnen toenemen.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit dat een positief overheidssaldo via de vermogensmarkt kan leiden tot toenemende binnenlandse bestedingen.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juist antwoord is:</p><ul><li>Bij een positief overheidssaldo daalt de vraag naar kapitaal en daalt de rente (bij een gelijkblijvend aanbod). (1 punt)</li><li>Hierdoor worden investeringen aantrekkelijker / sparen minder aantrekkelijk. De investeringen / consumptie stijgen waardoor de binnenlandse bestedingen (per saldo) kunnen toenemen. (1 punt)</li></ul>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 3,
+        "opgave_titel": "Valutaverzekering",
+        "vragen": [
+          {
+            "id": 13,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Wanneer Nederlandse exporteurs handelen met bedrijven buiten de eurozone, kan gekozen worden voor betaling in euro's of in de vreemde valuta. Als wordt afgesproken om te betalen in vreemde valuta, bestaat het risico dat tussen het moment van afsluiten van de koopovereenkomst en het moment van betaling de wisselkoersen veranderen. Dit is een valutarisico dat voor Nederlandse exporteurs nadelig kan uitpakken.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit dat een betaling in vreemde valuta voor Nederlandse exporteurs nadelig uitpakt bij een tussentijdse appreciatie van de euro.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juist antwoord is:</p><ul><li>Bij een (tussentijdse) appreciatie van de euro wordt de andere munt (in euro's) relatief minder waard. (1 punt)</li><li>Contracten afgesloten in de vreemde valuta leveren de Nederlandse bedrijven minder euro's op (en dat is nadelig). (1 punt)</li></ul>"
+          },
+          {
+            "id": 14,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De verzekeraar Tradesure introduceert een nieuwe verzekering: de valutaverzekering bij export. De voorwaarden staan in tabel 1.</p><p>Tabel 1 Voorwaarden valutaverzekering bij export</p>\n          <table>\n            <tr><td>Verzekering</td><td>Een exporteur kan naast het exportcontract ook een valutaverzekering afsluiten als de betaling van het exportcontract in vreemde valuta wordt gedaan. De verzekering wordt afgesloten tegen het risico van een koerswijziging ten opzichte van de garantiekoers (= de op dat moment geldende koers).</td></tr>\n            <tr><td rowspan=\"2\">Verzekerde valuta</td><td>Standaardvaluta's: wisselkoersen van westerse en relatief stabiele ontwikkelingslanden.</td></tr>\n            <tr><td>Hogere risico valuta's: wisselkoersen van instabielere landen.</td></tr>\n            <tr><td rowspan=\"2\">Premie</td><td>Er is een vaste premie van 0,5% van de verzekerde contractsom, tot een maximumpremie van € 125.000.</td></tr>\n            <tr><td>Daarnaast is er een variabele premie van 0,16% per maand van de contractsom voor de standaardvaluta's en 0,25% per maand van de contractsom voor de hogere risico valuta's.</td></tr>\n            <tr><td>Uitkering</td><td>Wanneer bij betaling van het exportcontract het ontvangen bedrag in euro's lager is dan het verzekerde bedrag in euro's tegen de garantiekoers, keert Tradesure het verschil uit.</td></tr>\n          </table>",
+            "bronverwijzing_tekst": "zie tabel 1",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit of het hanteren van verschillende variabele premies ervoor zorgt dat averechtse selectie binnen de valutaverzekering wordt verminderd.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juist antwoord is:</p><ul><li>Exporteurs die handelen in standaardvaluta's betalen minder (variabele) premie dan exporteurs die handelen in de hogere risico valuta's. (1 punt)</li><li>Daarmee wordt averechtse selectie verminderd omdat de 'goede' risico's minder hoeven te betalen (ten opzichte van een gemiddelde premie) waardoor ze eerder geneigd zijn om zich alsnog te verzekeren. (1 punt)</li></ul>"
+          },
+          {
+            "id": 15,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>De verzekeraar Tradesure introduceert een nieuwe verzekering: de valutaverzekering bij export.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Verklaar of Tradesure rekening moet houden met de aanwezigheid van moral hazard.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juist antwoord is:</p><p>Het valutarisico ontstaat door schommelingen in vraag en aanbod op de valutamarkt en niet door riskanter gedrag van de verzekerde. Daarom hoeft Tradesure geen rekening te houden met moral hazard. (1 punt)</p>"
+          },
+          {
+            "id": 16,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Arco is een bedrijf dat handelt in tweedehands-landbouwapparatuur. Arco onderhandelt al enkele maanden met Tradesure over een aantal voorwaarden.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Beargumenteer of de onderhandelingskosten van Arco verzonken kosten zijn.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juist antwoord is:</p><p>Als er na het onderhandelen geen verzekering / exportcontract wordt afgesloten, kunnen de gemaakte onderhandelingskosten niet (op een andere manier) worden terugverdiend. Daarom is er sprake van verzonken kosten. (1 punt)</p>"
+          },
+          {
+            "id": 17,
+            "max_score": 2,
+            "type": "calculation",
+            "context_html": "<p>Arco sluit op 1-1-2023 een exportcontract met een bedrijf uit Rwanda voor de levering van € 12 miljoen aan landbouwapparatuur. Arco ontvangt van het bedrijf het bedrag in Rwandese Frank (RF), volgens Tradesure een hogere risico valuta. Daarom sluit Arco een valutaverzekering af bij Tradesure op 1-1-2023. Het bedrijf uit Rwanda betaalt op 1-7-2023.</p><p>Figuur 1 Verwachte ontwikkeling wisselkoers van de euro in RF</p><p>Tabel 1 Voorwaarden valutaverzekering bij export</p>\n          <table>\n             <tr><td>Verzekering</td><td>Een exporteur kan naast het exportcontract ook een valutaverzekering afsluiten als de betaling van het exportcontract in vreemde valuta wordt gedaan. De verzekering wordt afgesloten tegen het risico van een koerswijziging ten opzichte van de garantiekoers (= de op dat moment geldende koers).</td></tr>\n             <tr><td rowspan=\"2\">Verzekerde valuta</td><td>Standaardvaluta's: wisselkoersen van westerse en relatief stabiele ontwikkelingslanden.</td></tr>\n             <tr><td>Hogere risico valuta's: wisselkoersen van instabielere landen.</td></tr>\n             <tr><td rowspan=\"2\">Premie</td><td>Er is een vaste premie van 0,5% van de verzekerde contractsom, tot een maximumpremie van € 125.000.</td></tr>\n             <tr><td>Daarnaast is er een variabele premie van 0,16% per maand van de contractsom voor de standaardvaluta's en 0,25% per maand van de contractsom voor de hogere risico valuta's.</td></tr>\n             <tr><td>Uitkering</td><td>Wanneer bij betaling van het exportcontract het ontvangen bedrag in euro's lager is dan het verzekerde bedrag in euro's tegen de garantiekoers, keert Tradesure het verschil uit.</td></tr>\n          </table>",
+            "bronverwijzing_tekst": "Gebruik bovenstaande tekst, figuur 1 en tabel 1.",
+            "bron_verwijzing": "vwo_ec_tv1_opgave3_bron1.png",
+            "vraagtekst_html": "<p>Bereken of Arco voordeel heeft gehad van het afsluiten van de valutaverzekering.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juiste berekening is:</p><ul><li>Bij het niet-afsluiten van een verzekering:<br>De contractsom = € 12 miljoen x 980 = 11,76 miljard RF.<br>Op 1-7 ontvangt Arco: <span class=\"fraction\"><span class=\"numerator\">11,76 miljard RF</span><span class=\"denominator\">1.024</span></span> = € 11.484.375.<br>Er is dus een verlies van € 12.000.000 - € 11.484.375 = € 515.625. (1 punt)</li><li>Bij afsluiten van de verzekering ontvangt Arco € 12 miljoen (conform de verzekeringsvoorwaarden).<br>De kosten van de verzekering zijn het vaste deel + variabel deel = (€ 12.000.000 x 0,005) + (€ 12.000.000 x 6 x 0,0025) = € 60.000 + € 180.000 = € 240.000. (Let op: 0,5% vast en 0,25% per maand voor 6 maanden = 1,5% variabel) (1 punt)</li><li>De verzekering leidt tot een voordeel van: € 515.625 - € 240.000 = € 275.625. (Conclusie gebaseerd op juiste berekeningen)</li></ul>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 4,
+        "opgave_titel": "Onder de motorkap",
+        "vragen": [
+          {
+            "id": 18,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Westland en Oostland hebben na jaren van economische groei nu de potentiële productie bereikt. Binnenkort zijn er verkiezingen in Westland. De regering van Westland wil de tarieven van de inkomstenbelasting en de winstbelasting verlagen. In Oostland heeft de centrale bank besloten om de inflatiedoelstelling te veranderen. De centrale bank van Oostland past daarom het monetair beleid aan. Een wetenschapper gebruikt het IS-MB-GA model om de gevolgen te analyseren van beide beleidsvoornemens (zie figuren 1 en 2). De wetenschapper neemt voor beide landen aan dat Y<sub>0</sub> = Y*.</p><p>Figuur 1 Model Westland</p><p>Door het plan van de regering van Westland om de inkomstenbelasting te verlagen verschuift IS<sub>0</sub> naar IS<sub>1</sub>.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": "vwo_ec_tv1_opgave4_bron1.png",
+            "vraagtekst_html": "<p>Leg met behulp van de GA-curve uit dat de reële productie in Westland zal stijgen.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juist antwoord is:</p><ul><li>Door de verschuiving van de IS-curve ontstaat er een situatie van overbesteding. Daardoor ontstaat er een hogere inflatie (dan verwacht). (1 punt)</li><li>Hierdoor dalen reële productiekosten / stijgen de reële winstmarges, waardoor de productie zal stijgen (verschuiving langs de GA-curve). (1 punt)</li></ul>"
+          },
+          {
+            "id": 19,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Westland en Oostland hebben na jaren van economische groei nu de potentiële productie bereikt. [...] In Oostland heeft de centrale bank besloten om de inflatiedoelstelling te veranderen. De centrale bank van Oostland past daarom het monetair beleid aan. Een wetenschapper gebruikt het IS-MB-GA model om de gevolgen te analyseren van beide beleidsvoornemens (zie figuren 1 en 2). De wetenschapper neemt voor beide landen aan dat Y<sub>0</sub> = Y*.</p><p>Figuur 2 Model Oostland</p><p>Door de veranderde inflatiedoelstelling van de Oostlandse centrale bank verschuift MB<sub>0</sub> naar MB<sub>1</sub>.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": "vwo_ec_tv1_opgave4_bron2.png",
+            "vraagtekst_html": "<p>Leg uit of de verschuiving van de MB-curve in Oostland duidt op een lagere of hogere inflatiedoelstelling van de centrale bank.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juist antwoord is:</p><ul><li>De MB-curve is naar beneden verschoven. Hierdoor ontstaat een positieve output gap / situatie van overbesteding. (1 punt)</li><li>Hierdoor stijgt de inflatie en dus hanteert de centrale bank een hogere inflatiedoelstelling. (1 punt)</li></ul>"
+          },
+          {
+            "id": 20,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De IS-curve geeft het verband weer tussen de reële rente en het reële inkomen. Hier is sprake van ruilen over de tijd.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit dat het dalend verband van de IS-curve aantoont dat huishoudens ruilen over de tijd.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juist antwoord is:</p><ul><li>Als de reële rente stijgt wordt sparen aantrekkelijker / lenen duurder en zullen de consumptie / investeringen afnemen. (1 punt)</li><li>Dit betekent dat huishoudens hun bestedingen uitstellen (en dus ruilen over de tijd). (1 punt)</li></ul><p><strong>of</strong></p><ul><li>Als de reële rente daalt wordt sparen minder aantrekkelijker / lenen wordt goedkoper en zullen consumptie / investeringen toenemen. (1 punt)</li><li>Dit betekent dat huishoudens hun bestedingen naar voren halen (en dus ruilen over de tijd). (1 punt)</li></ul>"
+          },
+          {
+            "id": 21,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p>Westland en Oostland hebben na jaren van economische groei nu de potentiële productie bereikt. [...] De wetenschapper gebruikt het IS-MB-GA model om de gevolgen te analyseren van beide beleidsvoornemens (zie figuren 1 en 2). De wetenschapper neemt voor beide landen aan dat Y<sub>0</sub> = Y*.</p><p>Figuur 1 Model Westland</p><p>Figuur 2 Model Oostland</p><p>Door het plan van de regering van Westland om de inkomstenbelasting te verlagen verschuift IS<sub>0</sub> naar IS<sub>1</sub>.</p><p>Door de veranderde inflatiedoelstelling van de Oostlandse centrale bank verschuift MB<sub>0</sub> naar MB<sub>1</sub>.</p><p>De wetenschapper stelt dat beide economieën na één renteaanpassing terugkeren naar de potentiële productie. In Oostland zal er een evenwicht ontstaan bij MB<sub>0</sub> = MB<sub>2</sub> [Let op: context zegt MB0=MB2, bedoeld is wss MB1=MB2? Of terug naar MB0? Correctiemodel tekent nieuwe MB1 op 6%]. In Westland zal een ander evenwicht ontstaan omdat daar ander beleid is gevoerd. Het model laat drie variabelen zien: de reële productie, de reële rente en de inflatie. De wetenschapper concludeert: \"Als ik enkel naar de figuren kijk, zie ik dat slechts één van deze drie variabelen verschilt als beide economieën weer naar Y* terug zijn gekeerd.\"</p>",
+            "bronverwijzing_tekst": "Figuren uit context bij Opgave 4",
+            "bron_verwijzing": ["vwo_ec_tv1_opgave4_bron1.png", "vwo_ec_tv1_opgave4_bron2.png"],
+            "vraagtekst_html": "<p>Toon de conclusie van de wetenschapper aan. Werk de opdracht in de uitwerkbijlage als volgt uit:</p><ul><li>Teken in figuur 3 de curven die de economie van Westland weergeven nadat de economie is teruggekeerd naar de potentiële productie (Y*).</li><li>Benoem de reële rente en inflatie in het nieuwe evenwicht voor beide landen.</li></ul>",
+            "correct_antwoord_model": "<p>Een juist antwoord bevat:</p><ul><li>Het correct tekenen van de GA1-curve met een verschuiving van 0,5 procentpunt omhoog (naar een inflatie van 4%). (1 punt)</li><li>Het correct tekenen van de MB1-curve met een verschuiving van 2 procentpunt omhoog (naar een reële rente van 6%). (1 punt)</li><li>Het juist benoemen van de evenwichtswaarden van de inflatie en de reële rente (zie tabel). (1 punt)</li></ul>\\n<p>Een juist antwoord is:</p>\\n<p>(Zie afbeelding in correctiemodel voor getekende curven in figuur 1 Model van Westland)</p><br><img src='/static/images/vwo_ec_tv1_vraag21_bijlage_fig3_tabel_correct.png' alt='Correctiemodel afbeelding Vraag 21' style='max-width: 400px; height: auto;'><br>\\n<p>Het benoemen van de evenwichtswaarden:</p>\\n          <table>\\n            <thead><tr><th>Variabele</th><th>Westland</th><th>Oostland</th></tr></thead>\\n            <tbody>\\n            <tr><td>Inflatie (π)</td><td>4%</td><td>4%</td></tr>\\n            <tr><td>Reële rente (r)</td><td>6%</td><td>4%</td></tr>\\n            </tbody>\\n          </table>\\n<p>(De reële productie Y is in beide gevallen terug op Y*, dus gelijk. De inflatie π is in beide gevallen 4%, dus gelijk. Alleen de reële rente r verschilt: 6% in Westland en 4% in Oostland.)</p>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 5,
+        "opgave_titel": "Vissen naar winst",
+        "vragen": [
+          {
+            "id": 22,
+            "max_score": 3,
+            "type": "calculation",
+            "context_html": "<p>Een econoom maakt een analyse van de ontwikkeling van de vismarkt in een regio door de eeuwen heen. De vismarkt in de middeleeuwen (zie figuur 1) wordt gekenmerkt door veel kleine aanbieders. De individuele consumenten kijken vanwege armoede enkel naar de prijs.</p><p>Figuur 1 Dagelijkse vismarkt in de middeleeuwen</p><p>Alle individuele vissers hebben de volgende kostenfunctie:</p><p>TK = 0,005q<sup>2</sup> + 0,25q + 153,12</p><p>TK = totale kosten in koperstukken<br>q = het aantal vissen</p><p>De econoom gaat er in het model vanuit dat elke individuele visser streeft naar maximale winst.</p>",
+            "bronverwijzing_tekst": "zie figuur 1",
+            "bron_verwijzing": "vwo_ec_tv1_opgave5_bron1.png",
+            "vraagtekst_html": "<p>Bereken hoeveel vissers er actief zijn op de middeleeuwse vismarkt.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juiste berekening is:</p><ul><li>MO = 2 koperstukken (want de vissers zijn prijsnemers dus P = GO = MO). (1 punt)</li><li>De marginale kostenfunctie MK (= TK') = 0,01q + 0,25. (1 punt)</li><li>De verkochte hoeveelheid per visser bedraagt (MO=MK) → 2 = 0,01q + 0,25 → 1,75 = 0,01q → q = 175.</li><li>Het aantal vissers bedraagt (Q/q) → <span class=\"fraction\"><span class=\"numerator\">7.000.000</span><span class=\"denominator\">175</span></span> = 40.000. (1 punt)</li></ul>"
+          },
+          {
+            "id": 23,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>In de late middeleeuwen worden de consumenten welvarender en kopen ze meer vis. De econoom beweert:</p><ol type=\"i\"><li>Door de toegenomen welvaart verandert de prijselasticiteit van de vraag naar vis.</li><li>Door de toegenomen welvaart ontstaat een markt van monopolistische concurrentie.</li></ol>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg beide beweringen van de econoom uit.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juist antwoord is:</p><ul><li>(i) Door de toegenomen welvaart stijgt de totale vraag naar vis (bij iedere prijs) en zal de vraag minder prijselastisch / prijsinelastischer worden. (1 punt)</li><li>(ii) Door de toegenomen welvaart hebben consumenten andere voorkeuren / wordt productdifferentiatie mogelijk, waardoor het product vis heterogener wordt en er een markt van monopolistische concurrentie ontstaat. (1 punt)</li></ul><p><strong>of (voor ii)</strong></p><ul><li>(ii) Door de toegenomen welvaart nemen de winstkansen voor producenten toe. Om zich te onderscheiden van anderen zullen ze concurreren op het product waardoor het product vis heterogener wordt en er een markt van monopolistische concurrentie ontstaat. (1 punt)</li></ul>"
+          },
+          {
+            "id": 24,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>In de twintigste eeuw vinden er grote technologische ontwikkelingen plaats waardoor schepen sneller meer vis binnenhalen. Door deze schaalvoordelen ontstaat een oligopolistische markt. Visserijen Dirdam en Nednol domineren de markt in de regio. Beide visserijen kunnen hun prijzen verlagen of handhaven (zie matrix 1).</p><p>Matrix 1 Winsten van Dirdam en Nednol in miljoenen €</p>\n          <table>\n            <thead><tr><th></th><th>Nednol handhaaft de prijs</th><th>Nednol verlaagt de prijs</th></tr></thead>\n            <tbody>\n            <tr><td>Dirdam handhaaft de prijs</td><td>30; 10</td><td>14; 20</td></tr>\n            <tr><td>Dirdam verlaagt de prijs</td><td>33; -2</td><td>19; 6</td></tr>\n            </tbody>\n          </table>",
+            "bronverwijzing_tekst": "zie matrix 1",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg met behulp van getallen uit matrix 1 uit of er sprake is van een gevangenendilemma.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juist antwoord is:</p><ul><li>Voor Dirdam is 33 > 30 en 19 > 14, dus prijs verlagen is de dominante strategie. Voor Nednol is 20 > 10 en 6 > -2, dus prijs verlagen is ook de dominante strategie. Het Nash-evenwicht is (beiden verlagen). (1 punt)</li><li>Het Nash-evenwicht (19; 6, totale winst 25) is een suboptimale uitkomst vergeleken met (handhaven; handhaven) (30; 10, totale winst 40) / de laagste collectieve winst is in het Nash-evenwicht, dus er is sprake van een gevangenendilemma. (1 punt)</li></ul>"
+          },
+          {
+            "id": 25,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Na enkele jaren vormen Dirdam en Nednol een kartel. Syrap kan toetreden tot de vismarkt met een lagere prijs of de kartelprijs. De econoom presenteert spelboom 1 met daarin de keuzes.</p><p>Spelboom 1 Winsten Syrap, Nednol en Dirdam in miljoenen €</p><p>De = symbolen geven aan waar Nednol / Dirdam ervoor kiezen hun prijs gelijk te houden aan de eerdere kartelprijs.<br>De - symbolen geven aan waar Nednol / Dirdam ervoor kiezen hun prijs te verlagen ten opzichte van de eerdere kartelprijs.</p>",
+            "bronverwijzing_tekst": "zie spelboom 1",
+            "bron_verwijzing": "vwo_ec_tv1_opgave5_bron2.png",
+            "vraagtekst_html": "<p>Leg uit of Syrap toetreedt met een kartelprijs of een lagere prijs (getallen hoeven niet expliciet benoemd te worden).</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juist antwoord is (terugwaartse inductie):</p><ul><li>Als Syrap 'kartelprijs' kiest: Als Nednol '=', kiest Dirdam '-' (45>40). Als Nednol '-', kiest Dirdam '-' (40>35). Nednol anticipeert hierop en kiest '-' (winst 17 > 15). Uitkomst: (-, -, Kartelprijs) -> Winst Syrap: 10.</li><li>Als Syrap 'lagere prijs' kiest: Als Nednol '=', kiest Dirdam '-' (30>20). Als Nednol '-', kiest Dirdam '-' (28>20). Nednol anticipeert hierop en kiest '-' (winst 7 > 5). Uitkomst: (-, -, Lagere prijs) -> Winst Syrap: 14. (1 punt)</li><li>Syrap vergelijkt de winst bij 'lagere prijs' (14) met de winst bij 'kartelprijs' (10). Omdat 14 > 10, treedt Syrap toe met een lagere prijs. (1 punt)</li></ul>\n<p><strong>of (Dominante strategie benadering):</strong></p><ul><li>Dirdam zal altijd de prijs verlagen (heeft een dominante strategie), want 45 > 40, 40 > 35, 30 > 20 en 28 > 20. (1 punt)</li><li>Nednol anticipeert hierop. Als Syrap 'kartelprijs' kiest, kiest Nednol '-' (17 > 15). Als Syrap 'lagere prijs' kiest, kiest Nednol '-' (7 > 5). Nednol zal dus ook altijd verlagen ('-' is dominante strategie gegeven Dirdam's dominante strategie '-').</li><li>Syrap anticipeert dat Nednol en Dirdam beiden zullen verlagen. Als Syrap 'kartelprijs' kiest, is de uitkomst (10, 17, 40). Als Syrap 'lagere prijs' kiest, is de uitkomst (14, 7, 28). Omdat 14 > 10, treedt Syrap toe met een lagere prijs. (1 punt)</li></ul>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 6,
+        "opgave_titel": "Groeien tot de top",
+        "vragen": [
+          {
+            "id": 26,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Een econoom kijkt met behulp van twee vereenvoudigde modellen naar de economische groei op korte termijn (figuur 1) en op de lange termijn (figuur 2). Met behulp van deze modellen kan de econoom onderzoeken hoe de economische groei kan worden gestimuleerd.</p><p>Figuur 1 Economische kringloop (pijlen zijn geldstromen)</p><p>Legenda:</p><table><tr><td>Y</td><td>nationaal inkomen</td><td>E</td><td>export</td></tr><tr><td>EV</td><td>effectieve vraag</td><td>M</td><td>import</td></tr><tr><td>C</td><td>consumptie</td><td>B</td><td>belastingen</td></tr><tr><td>I</td><td>investeringen</td><td>Co</td><td>autonome consumptie</td></tr><tr><td>O</td><td>overheidsbestedingen</td><td>Io</td><td>autonome investeringen</td></tr><tr><td></td><td></td><td>Oo</td><td>autonome overheidsbestedingen</td></tr></table>",
+            "bronverwijzing_tekst": "bij figuur 1",
+            "bron_verwijzing": "vwo_ec_tv1_opgave6_bron1.png",
+            "vraagtekst_html": "<p>Leg uit of er bij figuur 1 sprake is van een Keynesiaans model of een Nieuw klassiek model.</p>",
+            "correct_antwoord_model": "<p>Voorbeelden van een juist antwoord zijn:</p><ul><li>In het model is te zien dat een verhoging van de bestedingen / EV leidt tot een verhoging van het inkomen (Y). (1 punt)</li><li>Er is dus sprake van een Keynesiaans model. (1 punt)</li></ul>\n<p><strong>of</strong></p><ul><li>De Nieuw klassieken veronderstellen dat bestedingen (EV) enkel effect hebben op de inflatie en niet op het inkomen / dat de groei van de economie wordt bepaald door structurele ontwikkelingen. (1 punt)</li><li>In dit model bepalen bestedingen de groei en dus is het Keynesiaans. (1 punt)</li></ul>"
+          },
+          {
+            "id": 27,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Een econoom kijkt met behulp van twee vereenvoudigde modellen naar de economische groei op korte termijn (figuur 1) en op de lange termijn (figuur 2). Met behulp van deze modellen kan de econoom onderzoeken hoe de economische groei kan worden gestimuleerd.</p><p>Figuur 1 Economische kringloop (pijlen zijn geldstromen)</p><p>Legenda:</p><table><tr><td>Y</td><td>nationaal inkomen</td><td>E</td><td>export</td></tr><tr><td>EV</td><td>effectieve vraag</td><td>M</td><td>import</td></tr><tr><td>C</td><td>consumptie</td><td>B</td><td>belastingen</td></tr><tr><td>I</td><td>investeringen</td><td>Co</td><td>autonome consumptie</td></tr><tr><td>O</td><td>overheidsbestedingen</td><td>Io</td><td>autonome investeringen</td></tr><tr><td></td><td></td><td>Oo</td><td>autonome overheidsbestedingen</td></tr></table><p>De econoom analyseert met behulp van figuur 1 twee opties om de economische groei op korte termijn te stimuleren:</p><ul><li>de autonome overheidsbestedingen stimuleren.</li><li>de autonome consumptie stimuleren.</li></ul>",
+            "bronverwijzing_tekst": "met behulp van figuur 1",
+            "bron_verwijzing": "vwo_ec_tv1_opgave6_bron1.png",
+            "vraagtekst_html": "<p>Leg uit welke optie het sterkste effect heeft op de groei van het nationaal inkomen.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juist antwoord is:</p><ul><li>Een toename van de autonome consumptie (Co) zal via de consumptiefunctie (C) voor een deel weglekken naar het buitenland in de vorm van extra importen (M). (1 punt)</li><li>Bij de autonome overheidsbestedingen (Oo) is dit directe weglek-effect via import niet aanwezig (overheidsbestedingen worden verondersteld binnenlands te zijn). De verhoging van de autonome overheidsbestedingen heeft daarom de grootste multiplier / het sterkste effect op het nationaal inkomen (Y). (1 punt)</li></ul>"
+          },
+          {
+            "id": 28,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De economische groei op lange termijn kan worden bestudeerd met behulp van de productiefunctie: Y = A * f(K,L)</p><p>waarbij:</p><ul><li>Y = potentieel nationaal inkomen</li><li>A = factorproductiviteit</li><li>K = de hoeveelheid beschikbaar kapitaal</li><li>L = de hoeveelheid beschikbare arbeid</li></ul><p>Figuur 2 Productiefunctie</p><p>Legenda:</p><ul><li>Y<sub>1</sub> = de productiefunctie in de uitgangssituatie</li><li>Y<sub>2</sub> = de productiefunctie na het stimuleren van R&D-investeringen</li></ul>",
+            "bronverwijzing_tekst": "aan de hand van de productiefunctie Y1",
+            "bron_verwijzing": "vwo_ec_tv1_opgave6_bron2.png",
+            "vraagtekst_html": "<p>Leg aan de hand van de productiefunctie Y<sub>1</sub> uit dat de marginale winst van extra productie zal afnemen, als de inzet van de productiefactor arbeid toeneemt.</p>",
+            "correct_antwoord_model": "<p>Een voorbeeld van een juist antwoord is:</p><ul><li>Als de inzet van de productiefactor arbeid toeneemt, ontstaan er afnemende meeropbrengsten: de extra productie per arbeider zal steeds afnemen (want de curve Y<sub>1</sub> vlakt af). (1 punt)</li><li>Dit betekent dat de (arbeids)kosten per extra product toenemen (bij gelijkblijvend loon), waardoor de marginale winst (marginale opbrengst - marginale kosten) zal afnemen. (1 punt)</li></ul>"
+          },
+          {
+            "id": 29,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De economische groei op lange termijn kan worden bestudeerd met behulp van de productiefunctie: Y = A * f(K,L)</p><p>waarbij:</p><ul><li>Y = potentieel nationaal inkomen</li><li>A = factorproductiviteit</li><li>K = de hoeveelheid beschikbaar kapitaal</li><li>L = de hoeveelheid beschikbare arbeid</li></ul><p>Figuur 2 Productiefunctie</p><p>Legenda:</p><ul><li>Y<sub>1</sub> = de productiefunctie in de uitgangssituatie</li><li>Y<sub>2</sub> = de productiefunctie na het stimuleren van R&D-investeringen</li></ul><p>De econoom concludeert: \"Door de R&D-investeringen te stimuleren, kan de totale factorproductiviteit op lange termijn stijgen. Daardoor zal de productiefunctie in figuur 2 van Y<sub>1</sub> naar Y<sub>2</sub> verschuiven.\"</p>",
+            "bronverwijzing_tekst": "figuur 2",
+            "bron_verwijzing": "vwo_ec_tv1_opgave6_bron2.png",
+            "vraagtekst_html": "<p>Leg de conclusie van de econoom uit.</p>",
+            "correct_antwoord_model": "<p>Een juist antwoord bevat in relatie tot de context:</p><ul><li>Een uitleg over de relatie tussen R&D en de factorproductiviteit (A). (1 punt)</li><li>Een uitleg over de relatie tussen de (gestegen) factorproductiviteit en de (verschuiving van de) productie(functie). (1 punt)</li></ul>\n<p>Een voorbeeld van een juist antwoord is:</p><ul><li>Door het stimuleren van R&D-investeringen zullen productieprocessen efficiënter worden / technologie verbetert, waardoor de totale factorproductiviteit (A) stijgt. (1 punt)</li><li>Hierdoor kan met dezelfde inzet van arbeid (L) en kapitaal (K) een hogere productie (Y) worden bereikt. Dit leidt tot een opwaartse verschuiving van de productiefunctie van Y<sub>1</sub> naar Y<sub>2</sub>. (1 punt)</li></ul>"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,893 @@
+{
+  "examen_info": {
+    "vak": "biologie",
+    "niveau": "vmbo",
+    "tijdvak": "TV1",
+    "jaar": 2024
+  },
+  "opgaven": [
+    {
+      "opgave_nr": 1,
+      "opgave_titel": "Clickertraining",
+      "vragen": [
+        {
+          "id": 1,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Een clicker is een doosje met een metalen plaatje dat een click-geluid maakt. Hondentrainers gebruiken deze clicker bij het trainen van honden. Eerst leert de hond dat er na de click altijd een beloning volgt. Daarna leert hij bijvoorbeeld om te gaan zitten.</p><p>Zodra de hond gaat zitten hoort hij een click en weet hij dat er een beloning volgt.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Door de training leert de hond.</p><p>Hoe heet het type leergedrag dat de hond vertoont tijdens de training met een clicker?</p>",
+          "correct_antwoord_model": "<p>A</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "conditionering"
+            },
+            {
+              "id": "B",
+              "text": "gewenning"
+            },
+            {
+              "id": "C",
+              "text": "inprenten"
+            },
+            {
+              "id": "D",
+              "text": "trial-and-error"
+            }
+          ],
+          "correct_answer": "A"
+        },
+        {
+          "id": 2,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Een clicker is een doosje met een metalen plaatje dat een click-geluid maakt. Hondentrainers gebruiken deze clicker bij het trainen van honden. Eerst leert de hond dat er na de click altijd een beloning volgt. Daarna leert hij bijvoorbeeld om te gaan zitten.</p><p>Zodra de hond gaat zitten hoort hij een click en weet hij dat er een beloning volgt.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>In welk deel van het centraal zenuwstelsel vindt de bewustwording plaats bij het horen van de click?</p>",
+          "correct_antwoord_model": "<p>A</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "grote hersenen"
+            },
+            {
+              "id": "B",
+              "text": "kleine hersenen"
+            },
+            {
+              "id": "C",
+              "text": "hersenstam"
+            },
+            {
+              "id": "D",
+              "text": "ruggenmerg"
+            }
+          ],
+          "correct_answer": "A"
+        },
+        {
+          "id": 3,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Een clicker is een doosje met een metalen plaatje dat een click-geluid maakt. Hondentrainers gebruiken deze clicker bij het trainen van honden. Eerst leert de hond dat er na de click altijd een beloning volgt. Daarna leert hij bijvoorbeeld om te gaan zitten.</p><p>Zodra de hond gaat zitten hoort hij een click en weet hij dat er een beloning volgt.</p><p>De hondentrainer geeft de hond die gaat zitten een beloning.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Wat is de uitwendige prikkel voor de hondentrainer om de beloning aan de hond te geven?</p>",
+          "correct_antwoord_model": "<p>De hondentrainer ziet de hond zitten.</p><p><strong>Opmerking</strong></p><p>Als de kandidaat \"licht\" noteert het scorepunt toekennen.</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 2,
+      "opgave_titel": "Girafkevers",
+      "vragen": [
+        {
+          "id": 4,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Girafkevers zijn insecten met een zeer lange nek. De mannetjes hebben een langere en krachtigere nek dan de vrouwtjes. In de paartijd tonen de mannetjes hun krachtige nek om andere mannetjes te verjagen. Een vrouwtje dat in de buurt is, houdt de mannetjes in de gaten. Zij zal met het sterkste mannetje paren. Na het paren vouwt het vrouwtje een blad, door in de bladnerf te bijten. Daarna rolt zij het blad op en legt ze een ei in het opgerolde blad. Het mannetje blijft in de buurt om andere insecten te verjagen. Als het ei is ingepakt, bijt het vrouwtje de bladsteel door. Hierdoor valt het blad met het ei erin op de bodem. Wanneer de larve uit het ei komt, voedt deze zich met het blad.</p>",
+          "bronverwijzing_tekst": "Op de uitwerkbijlage staat een tabel met beschrijvingen van sociaal gedrag van girafkevers.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Schrijf in de tabel bij elke beschrijving welk type sociaal gedrag erbij hoort.</p>",
+          "correct_antwoord_model": "<table><thead><tr><th>beschrijving van sociaal gedrag</th><th>type sociaal gedrag</th></tr></thead><tbody><tr><td>In de paartijd tonen de mannetjes hun krachtige nek om andere mannetjes te verjagen.</td><td>dreiggedrag/imponeergedrag/territoriumgedrag</td></tr><tr><td>Het vrouwtje rolt het blad op en legt een ei in het opgerolde blad.</td><td>broedzorg</td></tr></tbody></table><p>(Per juist ingevulde rij 1 punt)</p>"
+        },
+        {
+          "id": 5,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Girafkevers zijn insecten met een zeer lange nek. De mannetjes hebben een langere en krachtigere nek dan de vrouwtjes. In de paartijd tonen de mannetjes hun krachtige nek om andere mannetjes te verjagen. Een vrouwtje dat in de buurt is, houdt de mannetjes in de gaten. Zij zal met het sterkste mannetje paren. Na het paren vouwt het vrouwtje een blad, door in de bladnerf te bijten. Daarna rolt zij het blad op en legt ze een ei in het opgerolde blad. Het mannetje blijft in de buurt om andere insecten te verjagen. Als het ei is ingepakt, bijt het vrouwtje de bladsteel door. Hierdoor valt het blad met het ei erin op de bodem. Wanneer de larve uit het ei komt, voedt deze zich met het blad.</p><p>De lange nek van de girafkever is waarschijnlijk ontstaan door een langdurig proces van mutatie, natuurlijke selectie en seksuele selectie.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Wat is de naam van dit proces?</p>",
+          "correct_antwoord_model": "<p>evolutie (theorie)</p>"
+        },
+        {
+          "id": 6,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Girafkevers zijn insecten met een zeer lange nek. De mannetjes hebben een langere en krachtigere nek dan de vrouwtjes. In de paartijd tonen de mannetjes hun krachtige nek om andere mannetjes te verjagen. Een vrouwtje dat in de buurt is, houdt de mannetjes in de gaten. Zij zal met het sterkste mannetje paren. Na het paren vouwt het vrouwtje een blad, door in de bladnerf te bijten. Daarna rolt zij het blad op en legt ze een ei in het opgerolde blad. Het mannetje blijft in de buurt om andere insecten te verjagen. Als het ei is ingepakt, bijt het vrouwtje de bladsteel door. Hierdoor valt het blad met het ei erin op de bodem. Wanneer de larve uit het ei komt, voedt deze zich met het blad.</p><p>Een girafkever-vrouwtje bijt in de bladnerf waarna het blad opgerold kan worden. De nerf geeft stevigheid aan het blad. In de nerf zitten de houtvaten en bastvaten.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Welke stoffen worden in deze twee typen vaten getransporteerd?</p><p>Schrijf je antwoord zo op:</p><p>houtvaten transporteren water met:</p><p>bastvaten transporteren water met:</p>",
+          "correct_antwoord_model": "<p>houtvaten transporteren water met: mineralen/voedingszouten</p><p>bastvaten transporteren water met: suikers/glucose / organische stoffen</p><p><strong>Opmerking</strong></p><p>Alleen 1 scorepunt toekennen wanneer bij beide typen vaten de stoffen juist zijn benoemd.</p>"
+        },
+        {
+          "id": 7,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Girafkevers zijn insecten met een zeer lange nek. De mannetjes hebben een langere en krachtigere nek dan de vrouwtjes. In de paartijd tonen de mannetjes hun krachtige nek om andere mannetjes te verjagen. Een vrouwtje dat in de buurt is, houdt de mannetjes in de gaten. Zij zal met het sterkste mannetje paren. Na het paren vouwt het vrouwtje een blad, door in de bladnerf te bijten. Daarna rolt zij het blad op en legt ze een ei in het opgerolde blad. Het mannetje blijft in de buurt om andere insecten te verjagen. Als het ei is ingepakt, bijt het vrouwtje de bladsteel door. Hierdoor valt het blad met het ei erin op de bodem. Wanneer de larve uit het ei komt, voedt deze zich met het blad.</p><p>Het opgerolde blad beschermt het ei.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Leg uit waartegen het opgerolde blad het ei beschermt.</p>",
+          "correct_antwoord_model": "<p>Voorbeelden van een juist antwoord:</p><ul><li>tegen predatie</li><li>tegen beschadiging</li><li>tegen uitdroging</li><li>tegen weersinvloeden</li></ul>"
+        },
+        {
+          "id": 8,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Girafkevers zijn insecten met een zeer lange nek. De mannetjes hebben een langere en krachtigere nek dan de vrouwtjes. In de paartijd tonen de mannetjes hun krachtige nek om andere mannetjes te verjagen. Een vrouwtje dat in de buurt is, houdt de mannetjes in de gaten. Zij zal met het sterkste mannetje paren. Na het paren vouwt het vrouwtje een blad, door in de bladnerf te bijten. Daarna rolt zij het blad op en legt ze een ei in het opgerolde blad. Het mannetje blijft in de buurt om andere insecten te verjagen. Als het ei is ingepakt, bijt het vrouwtje de bladsteel door. Hierdoor valt het blad met het ei erin op de bodem. Wanneer de larve uit het ei komt, voedt deze zich met het blad.</p><p>De larven van de girafkever voeden zich eerst met het blad. Daarna voeden ze zich met de wortels van dezelfde plant. De larven zijn een prooi voor vogels die de larven uit de grond pikken.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Maak een voedselketen aan de hand van deze beschrijving.</p>",
+          "correct_antwoord_model": "<p>De juiste voedselketen:</p><p>plant (blad / wortel) → larve (van girafkever) → vogel</p><ul><li>organismen op de juiste plaats (1 punt)</li><li>pijlen in goede richting (1 punt)</li></ul><p><strong>Opmerking</strong></p><p>Als de kandidaat bij de tweede schakel van de voedselketen \"girafkever\" noteert, dit ook goed rekenen.</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 3,
+      "opgave_titel": "Koffie",
+      "vragen": [
+        {
+          "id": 9,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Koffie wordt gemaakt van heet water en gemalen koffiebonen. Koffiebonen zijn zaden van de koffieplant die zijn gedroogd en gebrand. Koffie bevat cafeïne. De cafeïne heeft een opwekkend effect. De bloemen van een koffieplant hebben opvallende, witgekleurde kroonbladeren. Diep in de bloem zitten nectarklieren. Elke bloem bevat mannelijke en vrouwelijke voortplantingsorganen. Na de bevruchting ontstaan er vruchten met elk twee zaden die na acht maanden rijp zijn. In die acht maanden verkleuren de vruchten van groen naar rood.</p><p>In de tekst staan een aantal kenmerken van de koffieplant. Twee van deze kenmerken wijzen erop dat de koffieplant wordt bestoven door insecten.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Schrijf deze twee kenmerken op.</p>",
+          "correct_antwoord_model": "<p>de juiste kenmerken:</p><ul><li>opvallende/(wit)gekleurde kroonbladeren</li><li>(diepgelegen) nectarklieren</li></ul><p><strong>Opmerking</strong></p><p>Alleen 1 scorepunt toekennen wanneer beide kenmerken juist zijn benoemd.</p>"
+        },
+        {
+          "id": 10,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Koffie wordt gemaakt van heet water en gemalen koffiebonen. Koffiebonen zijn zaden van de koffieplant die zijn gedroogd en gebrand. Koffie bevat cafeïne. De cafeïne heeft een opwekkend effect. De bloemen van een koffieplant hebben opvallende, witgekleurde kroonbladeren. Diep in de bloem zitten nectarklieren. Elke bloem bevat mannelijke en vrouwelijke voortplantingsorganen. Na de bevruchting ontstaan er vruchten met elk twee zaden die na acht maanden rijp zijn. In die acht maanden verkleuren de vruchten van groen naar rood.</p><p>Het stuifmeel van een insectenbestuiver is verschillend van het stuifmeel van een windbestuiver.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Benoem een eigenschap van het stuifmeel van een windbestuiver.</p>",
+          "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat het stuifmeel van een windbestuiver licht(er) / niet plakkerig is.</p><p><strong>Opmerking</strong></p><p>Wanneer een kandidaat noteert dat een windbestuiver veel stuifmeel maakt, het scorepunt niet toekennen.</p>"
+        },
+        {
+          "id": 11,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Koffie wordt gemaakt van heet water en gemalen koffiebonen. Koffiebonen zijn zaden van de koffieplant die zijn gedroogd en gebrand. Koffie bevat cafeïne. De cafeïne heeft een opwekkend effect. De bloemen van een koffieplant hebben opvallende, witgekleurde kroonbladeren. Diep in de bloem zitten nectarklieren. Elke bloem bevat mannelijke en vrouwelijke voortplantingsorganen. Na de bevruchting ontstaan er vruchten met elk twee zaden die na acht maanden rijp zijn. In die acht maanden verkleuren de vruchten van groen naar rood.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>In welk deel van de bloem ontstaan de stuifmeelkorrels?</p>",
+          "correct_antwoord_model": "<p>A</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "in de helmknop"
+            },
+            {
+              "id": "B",
+              "text": "in de stempel"
+            },
+            {
+              "id": "C",
+              "text": "in het vruchtbeginsel"
+            },
+            {
+              "id": "D",
+              "text": "in het zaadbeginsel"
+            }
+          ],
+          "correct_answer": "A"
+        },
+        {
+          "id": 12,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Koffie wordt gemaakt van heet water en gemalen koffiebonen. Koffiebonen zijn zaden van de koffieplant die zijn gedroogd en gebrand. Koffie bevat cafeïne. De cafeïne heeft een opwekkend effect. De bloemen van een koffieplant hebben opvallende, witgekleurde kroonbladeren. Diep in de bloem zitten nectarklieren. Elke bloem bevat mannelijke en vrouwelijke voortplantingsorganen. Na de bevruchting ontstaan er vruchten met elk twee zaden die na acht maanden rijp zijn. In die acht maanden verkleuren de vruchten van groen naar rood.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Hoe heet het deel van de plantencel dat zorgt voor de rode kleur van de vruchten?</p>",
+          "correct_antwoord_model": "<p>kleurstofkorrel(s) / plastide(n)</p><p><strong>Opmerking</strong></p><p>Als de kandidaat \"vacuole\" noteert, het scorepunt toekennen.</p>"
+        },
+        {
+          "id": 13,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Koffieplanten worden vermeerderd door van één moederplant meerdere takken te knippen en te stekken. Deze takken krijgen dan wortels en groeien uit tot nieuwe koffieplanten. Na een aantal jaren kunnen van die nieuwe planten weer koffiezaden geoogst worden.</p>",
+          "bronverwijzing_tekst": "Op de uitwerkbijlage staan twee uitspraken over deze manier van vermeerdering.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Kruis bij elke uitspraak aan of deze juist of onjuist is.</p>",
+          "correct_antwoord_model": "<table><thead><tr><th></th><th>juist</th><th>onjuist</th></tr></thead><tbody><tr><td>Het afknippen en stekken van meerdere takken van één moederplant is een manier van geslachtelijke voortplanting.</td><td></td><td>X</td></tr><tr><td>De nieuwe planten afkomstig van één moederplant hebben hetzelfde genotype.</td><td>X</td><td></td></tr></tbody></table><p><strong>Opmerking</strong></p><p>Alleen voor een volledig juist ingevulde tabel het scorepunt toekennen.</p>"
+        },
+        {
+          "id": 14,
+          "max_score": 2,
+          "type": "calculation",
+          "context_html": "<p>Koffie bevat het stimulerende middel cafeïne. Wie regelmatig te veel cafeïne binnenkrijgt, kan last krijgen van rusteloosheid waardoor het moeilijk is om in slaap te vallen.</p><p>In de tabel staat het gehalte cafeïne van een aantal dranken weergegeven.</p><table><thead><tr><th>product</th><th>mg cafeïne per kopje / glas</th></tr></thead><tbody><tr><td>filterkoffie</td><td>85</td></tr><tr><td>espressokoffie</td><td>65</td></tr><tr><td>instantkoffie</td><td>60</td></tr><tr><td>thee</td><td>30</td></tr><tr><td>cola</td><td>18</td></tr></tbody></table><p>Bert zal slaapproblemen krijgen als hij op een dag meer dan 300 mg cafeïne binnenkrijgt. Hij drinkt 's ochtends drie kopjes espresso, 's middags twee kopjes thee en 's avonds een glas cola.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Zal Bert volgens de informatie slaapproblemen krijgen? Leg je antwoord uit met een berekening.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juiste berekening:</p><ul><li>cafeïne in drie kopjes espressokoffie: $3 \\times 65 = 195$ mg</li><li>cafeïne in twee kopjes thee: $2 \\times 30 = 60$ mg</li><li>cafeïne in één glas cola: 18 mg</li><li>totaal: $195 + 60 + 18 = 273$ mg cafeïne</li></ul><p>(1 punt voor juiste berekening alle dranken)</p><p>Uit de uitleg moet blijken dat Bert geen slaapproblemen krijgt, want hij krijgt minder dan 300 mg cafeïne binnen. (1 punt voor bijpassende uitleg)</p><p><strong>Opmerking</strong></p><p>Bij een antwoord zonder onderbouwing op basis van de berekening, het tweede scorepunt niet toekennen.</p>"
+        },
+        {
+          "id": 15,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Koffie bevat het stimulerende middel cafeïne. Wie regelmatig te veel cafeïne binnenkrijgt, kan last krijgen van rusteloosheid waardoor het moeilijk is om in slaap te vallen.</p><p>In de tabel staat het gehalte cafeïne van een aantal dranken weergegeven.</p><table><thead><tr><th>product</th><th>mg cafeïne per kopje / glas</th></tr></thead><tbody><tr><td>filterkoffie</td><td>85</td></tr><tr><td>espressokoffie</td><td>65</td></tr><tr><td>instantkoffie</td><td>60</td></tr><tr><td>thee</td><td>30</td></tr><tr><td>cola</td><td>18</td></tr></tbody></table><p>Er wordt een ander onderzoek gedaan naar het effect van drank met cafeïne op de hoogte van de bloeddruk.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Schrijf een werkplan voor dit onderzoek.</p>",
+          "correct_antwoord_model": "<p>Een onderzoek doen met twee groepen mensen:</p><ul><li>De eerste groep drank met cafeïne geven. (Vooraf en achteraf) de bloeddruk meten. (1 punt)</li><li>De andere groep eenzelfde drank zonder cafeïne geven. (Vooraf en achteraf) de bloeddruk meten.</li><li>De resultaten vergelijken (en daaruit conclusie trekken). (1 punt)</li></ul><p><strong>Opmerking</strong></p><p>Als de kandidaat bij het eerste deelscorepunt in plaats van drank een voedingsmiddel noteert, dit niet fout rekenen.</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 4,
+      "opgave_titel": "Naar de tandarts",
+      "vragen": [
+        {
+          "id": 16,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Tandbederf begint met gaatjes in tanden en kiezen. Kleine gaatjes kunnen na uitboren van het tandbeen worden gerepareerd met een vulling. Bij een dieper gat in een kies of een tand kan een ontsteking in de holte van het tandbeen ontstaan. Zo'n ontsteking moet eerst door de tandarts worden gestopt. De tandarts boort dan door het tandbeen en maakt de tandholte leeg. De tandholte wordt dan ontsmet en daarna opgevuld met een grotere vulling.</p><p>De tandholte wordt ontsmet en daardoor stopt de ontsteking.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Waardoor wordt de ontsteking veroorzaakt?</p>",
+          "correct_antwoord_model": "<p>(door) bacteriën</p>"
+        },
+        {
+          "id": 17,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Tandbederf begint met gaatjes in tanden en kiezen. Kleine gaatjes kunnen na uitboren van het tandbeen worden gerepareerd met een vulling. Bij een dieper gat in een kies of een tand kan een ontsteking in de holte van het tandbeen ontstaan. Zo'n ontsteking moet eerst door de tandarts worden gestopt. De tandarts boort dan door het tandbeen en maakt de tandholte leeg. De tandholte wordt dan ontsmet en daarna opgevuld met een grotere vulling.</p><p>Bij diepe gaatjes boort de tandarts door het tandbeen en maakt de tandholte leeg. Bij de behandeling worden zenuwen geraakt.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Waar bevinden zich de zenuwen?</p>",
+          "correct_antwoord_model": "<p>B</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "alleen in het tandbeen"
+            },
+            {
+              "id": "B",
+              "text": "alleen in de tandholte"
+            },
+            {
+              "id": "C",
+              "text": "in beide"
+            },
+            {
+              "id": "D",
+              "text": "in geen van beide"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": 18,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Tandbederf begint met gaatjes in tanden en kiezen. Kleine gaatjes kunnen na uitboren van het tandbeen worden gerepareerd met een vulling. Bij een dieper gat in een kies of een tand kan een ontsteking in de holte van het tandbeen ontstaan. Zo'n ontsteking moet eerst door de tandarts worden gestopt. De tandarts boort dan door het tandbeen en maakt de tandholte leeg. De tandholte wordt dan ontsmet en daarna opgevuld met een grotere vulling.</p><p>De tandarts behandelt een beginnend gaatje met fluoride. Fluoride verstevigt de buitenste laag van de tand.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Hoe heet de buitenste laag van de tand?</p>",
+          "correct_antwoord_model": "<p>het (tand)glazuur</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 5,
+      "opgave_titel": "In de baarmoeder",
+      "vragen": [
+        {
+          "id": 19,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>In de afbeelding zie je veranderingen van het baarmoederslijmvlies in een periode van 6 weken (42 dagen).</p><p>Tijdens de menstruatie wordt het baarmoederslijmvlies afgebroken.</p>",
+          "bronverwijzing_tekst": "In de afbeelding zie je...",
+          "bron_verwijzing": "vmbo_biologie_tv1_opgave5_bron1.png",
+          "vraagtekst_html": "<p>Wat is de functie van het baarmoederslijmvlies?</p>",
+          "correct_antwoord_model": "<p>Voorbeelden van een juist antwoord:</p><ul><li>er vindt innesteling (van een bevruchte eicel) plaats</li><li>geeft voeding aan een ingenestelde eicel/embryo</li></ul>"
+        },
+        {
+          "id": 20,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>In de afbeelding zie je veranderingen van het baarmoederslijmvlies in een periode van 6 weken (42 dagen).</p>",
+          "bronverwijzing_tekst": "Kun je uit de afbeelding opmaken...",
+          "bron_verwijzing": "vmbo_biologie_tv1_opgave5_bron1.png",
+          "vraagtekst_html": "<p>Kun je uit de afbeelding opmaken of er bevruchting heeft plaatsgevonden? Leg je antwoord uit.</p>",
+          "correct_antwoord_model": "<p>Ja, met een uitleg waaruit blijkt dat het baarmoederslijmvlies dik blijft / niet afgestoten wordt.</p>"
+        },
+        {
+          "id": 21,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>In de afbeelding zie je veranderingen van het baarmoederslijmvlies in een periode van 6 weken (42 dagen).</p>",
+          "bronverwijzing_tekst": "Op de uitwerkbijlage staan drie afbeeldingen van gebeurtenissen in het voortplantingsstelsel van de vrouw.",
+          "bron_verwijzing": [
+            "vmbo_biologie_tv1_opgave5_bron1.png",
+            "vmbo_biologie_tv1_vraag21_bijlage_afbPQ.png"
+          ],
+          "vraagtekst_html": "<p>Omcirkel de juiste letter uit de informatie bij elke afbeelding.</p>",
+          "correct_antwoord_model": "<p>De juist ingevulde tabel (alleen P en Q worden beoordeeld):</p><table><thead><tr><th>gebeurtenis in het voortplantingsstelsel van de vrouw</th><th></th></tr></thead><tbody><tr><td><img src=\"vmbo_biologie_tv1_vraag21_bijlage_afbP_correct.png\" alt=\"Afbeelding P correct\" style=\"max-width: 100%; height: auto;\" /></td><td><strong>P</strong></td></tr><tr><td><img src=\"vmbo_biologie_tv1_vraag21_bijlage_afbQ_correct.png\" alt=\"Afbeelding Q correct\" style=\"max-width: 100%; height: auto;\" /></td><td><strong>Q</strong></td></tr></tbody></table><p>(Volledig juist ingevulde tabel voor P en Q: 1 punt)</p><p><strong>Toelichting:</strong> De weergave van de derde afbeelding is niet eenduidig te interpreteren. De derde afbeelding komt hiermee te vervallen voor beoordeling.</p>"
+        },
+        {
+          "id": 22,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>In de afbeelding zie je veranderingen van het baarmoederslijmvlies in een periode van 6 weken (42 dagen).</p><p>Tijdens de menstruatie wordt het baarmoederslijmvlies afgebroken.</p>",
+          "bronverwijzing_tekst": "Met welke letter is in de afbeelding het deel aangegeven...",
+          "bron_verwijzing": [
+            "vmbo_biologie_tv1_opgave5_bron1.png",
+            "vmbo_biologie_tv1_opgave5_bron2.png"
+          ],
+          "vraagtekst_html": "<p>Met welke letter is in de afbeelding het deel aangegeven waar tijdens de menstruatie het baarmoederslijmvlies het lichaam verlaat?</p>",
+          "correct_antwoord_model": "<p>B</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "met letter X"
+            },
+            {
+              "id": "B",
+              "text": "met letter Y"
+            },
+            {
+              "id": "C",
+              "text": "met letter Z"
+            }
+          ],
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 6,
+      "opgave_titel": "De fruitvlieg als proefdier",
+      "vragen": [
+        {
+          "id": 23,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Thomas is laborant. Hij werkt met fruitvliegjes die hij gebruikt voor onderzoek naar allerlei erfelijke eigenschappen. Het is een geschikt proefdier, omdat Thomas in korte tijd veel generaties fruitvliegjes kan kweken. Een fruitvlieg heeft acht chromosomen in elke lichaamscel.</p><p>Thomas bestraalt enkele fruitvliegjes met röntgenstraling. Daardoor verandert het DNA in de geslachtscellen van deze fruitvliegjes.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Hoe wordt deze verandering van DNA genoemd?</p>",
+          "correct_antwoord_model": "<p>B</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "evolutie"
+            },
+            {
+              "id": "B",
+              "text": "mutatie"
+            },
+            {
+              "id": "C",
+              "text": "reductie"
+            },
+            {
+              "id": "D",
+              "text": "selectie"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": 24,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Thomas is laborant. Hij werkt met fruitvliegjes die hij gebruikt voor onderzoek naar allerlei erfelijke eigenschappen. Het is een geschikt proefdier, omdat Thomas in korte tijd veel generaties fruitvliegjes kan kweken. Een fruitvlieg heeft acht chromosomen in elke lichaamscel.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Hoe wordt het stukje DNA genoemd dat de informatie voor één erfelijke eigenschap bevat?</p>",
+          "correct_antwoord_model": "<p>gen / allel</p>"
+        },
+        {
+          "id": 25,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Thomas is laborant. Hij werkt met fruitvliegjes die hij gebruikt voor onderzoek naar allerlei erfelijke eigenschappen. Het is een geschikt proefdier, omdat Thomas in korte tijd veel generaties fruitvliegjes kan kweken. Een fruitvlieg heeft acht chromosomen in elke lichaamscel.</p><p>Een fruitvlieg heeft XX- of XY-geslachtschromosomen, die op dezelfde manier het geslacht beïnvloeden als bij de mens. De eigenschap 'oogkleur' ligt op het X-chromosoom. Op het Y-chromosoom is de eigenschap oogkleur' niet aanwezig. Een mannetje heeft rode ogen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Zit het stukje DNA voor rode ogen in zijn spermacellen?</p>",
+          "correct_antwoord_model": "<p>B</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ja, in alle spermacellen."
+            },
+            {
+              "id": "B",
+              "text": "Ja, in 50% van de spermacellen."
+            },
+            {
+              "id": "C",
+              "text": "Nee, in geen van de spermacellen."
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": 26,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>In de afbeelding zie je hoe een fruitvlieg zich ontwikkelt van een bevrucht ei tot een volwassen fruitvlieg.</p><p>Het fenotype en het genotype van het bevruchte ei wordt vergeleken met dat van de volwassen fruitvlieg.</p>",
+          "bronverwijzing_tekst": "In de afbeelding zie je...",
+          "bron_verwijzing": "vmbo_biologie_tv1_opgave6_bron2.png",
+          "vraagtekst_html": "<p>Is tijdens de ontwikkeling van ei tot volwassen vlieg het fenotype veranderd of gelijk gebleven? En het genotype?</p>",
+          "correct_antwoord_model": "<p>C</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "<p>het fenotype is <strong>gelijk gebleven</strong></p><p>het genotype is <strong>gelijk gebleven</strong></p>"
+            },
+            {
+              "id": "B",
+              "text": "<p>het fenotype is <strong>gelijk gebleven</strong></p><p>het genotype is <strong>veranderd</strong></p>"
+            },
+            {
+              "id": "C",
+              "text": "<p>het fenotype is <strong>veranderd</strong></p><p>het genotype is <strong>gelijk gebleven</strong></p>"
+            },
+            {
+              "id": "D",
+              "text": "<p>het fenotype is <strong>veranderd</strong></p><p>het genotype is <strong>veranderd</strong></p>"
+            }
+          ],
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 7,
+      "opgave_titel": "Hormoonklieren werken samen",
+      "vragen": [
+        {
+          "id": 27,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Twee hormoonklieren zijn de hypofyse en de schildklier. De hypofyse maakt het hormoon TSH. TSH beïnvloedt de schildklier. De schildklier maakt schildklierhormoon, dat de verbranding in de cellen van het lichaam stimuleert.</p><p>In de afbeelding zie je de omtrek van het lichaam van een mens waarin vijf plekken zijn aangegeven met een letter.</p>",
+          "bronverwijzing_tekst": "In de afbeelding zie je...",
+          "bron_verwijzing": "vmbo_biologie_tv1_opgave7_bron1.png",
+          "vraagtekst_html": "<p>Welke letter geeft de plek aan waar de hypofyse zich bevindt?</p><p>En welke letter geeft de plek aan waar de schildklier zich bevindt?</p><p>Schrijf je antwoord zo op:</p><p>hypofyse: letter</p><p>schildklier: letter</p>",
+          "correct_antwoord_model": "<ul><li>hypofyse: letter P (1 punt)</li><li>schildklier: letter Q (1 punt)</li></ul>"
+        },
+        {
+          "id": 28,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Twee hormoonklieren zijn de hypofyse en de schildklier. De hypofyse maakt het hormoon TSH. TSH beïnvloedt de schildklier. De schildklier maakt schildklierhormoon, dat de verbranding in de cellen van het lichaam stimuleert.</p><p>Hormonen worden naar alle delen van het lichaam vervoerd.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Hoe heet het orgaanstelsel dat hiervoor zorgt?</p>",
+          "correct_antwoord_model": "<p>bloedvatenstelsel</p><p><strong>Opmerking:</strong></p><p>Als de kandidaat \"bloedsomloop\" noteert, het scorepunt niet toekennen.</p>"
+        },
+        {
+          "id": 29,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Twee hormoonklieren zijn de hypofyse en de schildklier. De hypofyse maakt het hormoon TSH. TSH beïnvloedt de schildklier. De schildklier maakt schildklierhormoon, dat de verbranding in de cellen van het lichaam stimuleert.</p><p>Het schildklierhormoon beïnvloedt de verbranding in de cellen van het lichaam.</p><p>Dit proces is weergegeven in het volgende schema.</p><p>glucose + ...(1)... → energie + koolstofdioxide + ...(2)...</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Wat moet er op de plaatsen (1) en (2) worden ingevuld?</p><p>Schrijf je antwoord zo op:</p><p>plaats (1):</p><p>plaats (2):</p>",
+          "correct_antwoord_model": "<ul><li>plaats (1): zuurstof (1 punt)</li><li>plaats (2): water (1 punt)</li></ul>"
+        },
+        {
+          "id": 30,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Twee hormoonklieren zijn de hypofyse en de schildklier. De hypofyse maakt het hormoon TSH. TSH beïnvloedt de schildklier. De schildklier maakt schildklierhormoon, dat de verbranding in de cellen van het lichaam stimuleert.</p><p>In het schema zie je hoe het hormoon TSH de werking van de schildklier beïnvloedt.</p><p>Als de hypofyse meer TSH aanmaakt, ontstaat er meer koolstofdioxide in de cellen van het lichaam.</p>",
+          "bronverwijzing_tekst": "In het schema zie je...",
+          "bron_verwijzing": "vmbo_biologie_tv1_opgave7_bron2.png",
+          "vraagtekst_html": "<p>Leg dat uit.</p>",
+          "correct_antwoord_model": "<p>Uit de uitleg moet blijken dat:</p><ul><li>als er meer TSH is, wordt er meer schildklierhormoon aangemaakt. (1 punt)</li><li>(meer schildklierhormoon) leidt tot meer verbranding (waarbij koolstofdioxide ontstaat). (1 punt)</li></ul>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 8,
+      "opgave_titel": "Stamcellen",
+      "vragen": [
+        {
+          "id": 31,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Stamcellen in het beenmerg delen zich de hele tijd, waardoor nieuwe bloeddeeltjes ontstaan. In de afbeelding zijn de bloeddeeltjes die uit stamcellen ontstaan met een letter aangegeven. Nieuwe witte bloedcellen komen via de bloedsomloop bij lymfeklieren terecht waar ze zich verder ontwikkelen.</p>",
+          "bronverwijzing_tekst": "Op de uitwerkbijlage staat een tabel met functies van de drie bloeddeeltjes.",
+          "bron_verwijzing": "vmbo_biologie_tv1_opgave8_bron1.png",
+          "vraagtekst_html": "<p>Noteer bij elke functie de letter van het bloeddeeltje in de afbeelding dat erbij hoort.</p>",
+          "correct_antwoord_model": "<table><thead><tr><th>functie</th><th>letter</th></tr></thead><tbody><tr><td>bestrijden van ziekteverwekkers</td><td>Q</td></tr><tr><td>laten stollen van het bloed</td><td>R</td></tr><tr><td>vervoeren van zuurstof</td><td>P</td></tr></tbody></table><ul><li>indien drie letters juist ingevuld (2 punten)</li><li>indien twee letters juist ingevuld (1 punt)</li><li>indien minder dan twee letters juist ingevuld (0 punten)</li></ul>"
+        },
+        {
+          "id": 32,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Stamcellen in het beenmerg delen zich de hele tijd, waardoor nieuwe bloeddeeltjes ontstaan. In de afbeelding zijn de bloeddeeltjes die uit stamcellen ontstaan met een letter aangegeven. Nieuwe witte bloedcellen komen via de bloedsomloop bij lymfeklieren terecht waar ze zich verder ontwikkelen.</p><p>Een witte bloedcel die bij de dijbeenader in het bloed is gekomen, stroomt naar het hart.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_biologie_tv1_opgave8_bron1.png",
+          "vraagtekst_html": "<p>Hoe heet het bloedvat waardoor deze witte bloedcel het hart binnenkomt?</p>",
+          "correct_antwoord_model": "<p>(onderste) holle ader</p>"
+        },
+        {
+          "id": 33,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Stamcellen in het beenmerg delen zich de hele tijd, waardoor nieuwe bloeddeeltjes ontstaan. In de afbeelding zijn de bloeddeeltjes die uit stamcellen ontstaan met een letter aangegeven. Nieuwe witte bloedcellen komen via de bloedsomloop bij lymfeklieren terecht waar ze zich verder ontwikkelen.</p><p>Witte bloedcellen kunnen vanuit haarvaten in het weefselvloeistof terechtkomen. Dat stroomt via de lymfevaten weer richting het hart. Deze lymfevloeistof kan maar in één richting stromen. Hierover wordt door Julia en Finn een uitspraak gedaan.</p><p>Julia zegt dat kleppen in de lymfevaten ervoor zorgen dat lymfevloeistof in de goede richting stroomt.</p><p>Finn zegt dat het pompen van het hart ervoor zorgt dat lymfevloeistof in de goede richting stroomt.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_biologie_tv1_opgave8_bron1.png",
+          "vraagtekst_html": "<p>Wie heeft gelijk?</p>",
+          "correct_antwoord_model": "<p>B</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "Geen van beiden heeft gelijk."
+            },
+            {
+              "id": "B",
+              "text": "Alleen Julia heeft gelijk."
+            },
+            {
+              "id": "C",
+              "text": "Alleen Finn heeft gelijk."
+            },
+            {
+              "id": "D",
+              "text": "Julia heeft gelijk en Finn heeft gelijk."
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": 34,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Stamcellen in het beenmerg delen zich de hele tijd, waardoor nieuwe bloeddeeltjes ontstaan. In de afbeelding zijn de bloeddeeltjes die uit stamcellen ontstaan met een letter aangegeven. Nieuwe witte bloedcellen komen via de bloedsomloop bij lymfeklieren terecht waar ze zich verder ontwikkelen.</p><p>Witte bloedcellen kunnen vanuit haarvaten in het weefselvloeistof terechtkomen. Dat stroomt via de lymfevaten weer richting het hart. Deze lymfevloeistof kan maar in één richting stromen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_biologie_tv1_opgave8_bron1.png",
+          "vraagtekst_html": "<p>Welke bloeddeeltjes zijn in de lymfevloeistof aanwezig?</p>",
+          "correct_antwoord_model": "<p>A</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "alleen de witte bloedcellen"
+            },
+            {
+              "id": "B",
+              "text": "alleen de witte bloedcellen en de rode bloedcellen"
+            },
+            {
+              "id": "C",
+              "text": "de witte bloedcellen, de rode bloedcellen en de bloedplaatjes"
+            }
+          ],
+          "correct_answer": "A"
+        },
+        {
+          "id": 35,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Stamcellen in het beenmerg delen zich de hele tijd, waardoor nieuwe bloeddeeltjes ontstaan. In de afbeelding zijn de bloeddeeltjes die uit stamcellen ontstaan met een letter aangegeven. Nieuwe witte bloedcellen komen via de bloedsomloop bij lymfeklieren terecht waar ze zich verder ontwikkelen.</p><p>Witte bloedcellen kunnen bepaalde delen van lichaamsvreemde stoffen herkennen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_biologie_tv1_opgave8_bron1.png",
+          "vraagtekst_html": "<p>Hoe heten deze herkenbare delen van lichaamsvreemde stoffen?</p>",
+          "correct_antwoord_model": "<p>antigen(en)/antigeen</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 9,
+      "opgave_titel": "Kweekvlees",
+      "vragen": [
+        {
+          "id": 36,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Een wetenschapper heeft ontdekt hoe je vlees kunt kweken, zonder dat daarbij dieren gedood hoeven te worden. Hij legt uit hoe dat gaat: \"We hebben een paar cellen uit spierweefsel van een koe genomen. In het laboratorium laten we deze cellen vermenigvuldigen met behulp van voedingsstoffen en zuurstof. Als deze losse cellen dicht bij elkaar onder de juiste omstandigheden delen, vormen ze spierweefsel. Wat anders gebeurt in de koe, doen wij nu in het laboratorium.\"</p><p>Liam en Sophie praten over de cellen die kweekvlees maken.</p><p>Liam zegt dat de chromosomen van deze cellen los in het cytoplasma liggen.</p><p>Sophie zegt dat deze cellen een celwand hebben.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Wie heeft gelijk?</p>",
+          "correct_antwoord_model": "<p>A</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "Geen van beiden heeft gelijk."
+            },
+            {
+              "id": "B",
+              "text": "Liam heeft gelijk."
+            },
+            {
+              "id": "C",
+              "text": "Sophie heeft gelijk."
+            },
+            {
+              "id": "D",
+              "text": "Liam heeft gelijk en Sophie heeft gelijk."
+            }
+          ],
+          "correct_answer": "A"
+        },
+        {
+          "id": 37,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Liam en Sophie vergelijken de voedingswaarde van een hamburger van kweekvlees met die van een vegetarische hamburger.</p><p>In de tabel hieronder zie je de voedingswaarden van de twee hamburgers, per 100 gram.</p><table><thead><tr><th></th><th>hamburger, kweekvlees</th><th>hamburger, vegetarisch</th></tr></thead><tbody><tr><td>eiwitten (g)</td><td>16,8</td><td>17,7</td></tr><tr><td>koolhydraten (g)</td><td>2,2</td><td>9,4</td></tr><tr><td>vetten (g)</td><td>18,0</td><td>8,0</td></tr><tr><td>vezels (g)</td><td>0,6</td><td>3,2</td></tr><tr><td>water (g)</td><td>61,0</td><td>61,5</td></tr></tbody></table><p>Liam zegt dat de vegetarische hamburger gezonder is dan de hamburger uit kweekvlees.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Geef een argument dat zijn bewering ondersteunt op basis van de informatie.</p>",
+          "correct_antwoord_model": "<p>voorbeelden van een juist argument:</p><ul><li>De vegetarische hamburger bevat minder (dierlijk) vet.</li><li>De vegetarische hamburger bevat meer vezels.</li><li>De vegetarische hamburger bevat meer eiwitten.</li></ul><p><strong>Opmerking</strong></p><p>Aan het argument \"de vegetarische hamburger bevat meer koolhydraten/water\", het scorepunt niet toekennen.</p>"
+        },
+        {
+          "id": 38,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Liam en Sophie vergelijken de voedingswaarde van een hamburger van kweekvlees met die van een vegetarische hamburger.</p><p>In de tabel hieronder zie je de voedingswaarden van de twee hamburgers, per 100 gram.</p><table><thead><tr><th></th><th>hamburger, kweekvlees</th><th>hamburger, vegetarisch</th></tr></thead><tbody><tr><td>eiwitten (g)</td><td>16,8</td><td>17,7</td></tr><tr><td>koolhydraten (g)</td><td>2,2</td><td>9,4</td></tr><tr><td>vetten (g)</td><td>18,0</td><td>8,0</td></tr><tr><td>vezels (g)</td><td>0,6</td><td>3,2</td></tr><tr><td>water (g)</td><td>61,0</td><td>61,5</td></tr></tbody></table>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Welke van de voedingsstoffen uit de voedingswaarden-tabel wordt door maagsap verteerd?</p>",
+          "correct_antwoord_model": "<p>A</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "eiwitten"
+            },
+            {
+              "id": "B",
+              "text": "koolhydraten"
+            },
+            {
+              "id": "C",
+              "text": "vetten"
+            },
+            {
+              "id": "D",
+              "text": "vezels"
+            }
+          ],
+          "correct_answer": "A"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 10,
+      "opgave_titel": "De mannenpoli",
+      "vragen": [
+        {
+          "id": 39,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Hans en zijn partner Karlijn gaan naar de mannenpoli in het ziekenhuis, omdat hij onder andere klachten ondervindt tijdens het vrijen. Als Hans een erectie krijgt, trekt zijn penis krom. Tijdens het onderzoek zegt de arts dat hij littekenweefsel in de penis voelt. Littekenweefsel is dikker dan normaal weefsel. Hij besluit een echo te maken om vast te stellen waar het littekenweefsel zich precies bevindt. Gedurende het bezoek aan de mannenpoli stellen Hans en Karlijn ook vragen over anticonceptiemethoden.</p>",
+          "bronverwijzing_tekst": "Op de uitwerkbijlage staan twee functies van organen omschreven die horen bij het mannelijk voortplantingsstelsel.",
+          "bron_verwijzing": "vmbo_biologie_tv1_opgave10_bron1.png",
+          "vraagtekst_html": "<p>Geef bij elke functie de letter en de naam van het bijbehorende orgaan.</p>",
+          "correct_antwoord_model": "<table><thead><tr><th>omschrijving van de functie</th><th>letter</th><th>naam van het orgaan</th></tr></thead><tbody><tr><td>slaat zaadcellen tijdelijk op</td><td>T</td><td>bijbal</td></tr><tr><td>voegt vocht toe aan zaadcellen</td><td>Q</td><td>zaadblaasje(s)</td></tr></tbody></table><p>(Per juist ingevulde rij 1 punt)</p>"
+        },
+        {
+          "id": 40,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Hans en zijn partner Karlijn gaan naar de mannenpoli in het ziekenhuis, omdat hij onder andere klachten ondervindt tijdens het vrijen. Als Hans een erectie krijgt, trekt zijn penis krom. Tijdens het onderzoek zegt de arts dat hij littekenweefsel in de penis voelt. Littekenweefsel is dikker dan normaal weefsel. Hij besluit een echo te maken om vast te stellen waar het littekenweefsel zich precies bevindt. Gedurende het bezoek aan de mannenpoli stellen Hans en Karlijn ook vragen over anticonceptiemethoden.</p><p>Hans vertelt de arts dat hij ook moeite heeft met plassen. De arts stelt vast dat het littekenweefsel zich in de buurt van de urinebuis bevindt.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_biologie_tv1_opgave10_bron1.png",
+          "vraagtekst_html": "<p>Verklaar waardoor het littekenweefsel ervoor zorgt dat Hans moeilijker kan plassen.</p>",
+          "correct_antwoord_model": "<p>Uit de uitleg moet blijken dat het littekenweefsel de urinebuis dichtdrukt / smaller maakt, waardoor er minder ruimte is (om de urine naar buiten te laten stromen).</p>"
+        },
+        {
+          "id": 41,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Hans en zijn partner Karlijn gaan naar de mannenpoli in het ziekenhuis, omdat hij onder andere klachten ondervindt tijdens het vrijen. Als Hans een erectie krijgt, trekt zijn penis krom. Tijdens het onderzoek zegt de arts dat hij littekenweefsel in de penis voelt. Littekenweefsel is dikker dan normaal weefsel. Hij besluit een echo te maken om vast te stellen waar het littekenweefsel zich precies bevindt. Gedurende het bezoek aan de mannenpoli stellen Hans en Karlijn ook vragen over anticonceptiemethoden.</p><p>Hans en Karlijn willen geen kinderen meer. Op de poli stellen ze vragen over sterilisatie. Na het gesprek over de sterilisatie bespreken Hans en Karlijn wat er verandert aan de zaadlozing.</p><p>Hans zegt dat er na de operatie geen zaadcellen meer gemaakt worden waardoor hij onvruchtbaar is.</p><p>Karlijn zegt dat er na de operatie geen testosteron meer gemaakt wordt waardoor Hans onvruchtbaar is.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_biologie_tv1_opgave10_bron1.png",
+          "vraagtekst_html": "<p>Wie heeft gelijk?</p>",
+          "correct_antwoord_model": "<p>A</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "Geen van beiden heeft gelijk."
+            },
+            {
+              "id": "B",
+              "text": "Alleen Hans heeft gelijk."
+            },
+            {
+              "id": "C",
+              "text": "Alleen Karlijn heeft gelijk."
+            },
+            {
+              "id": "D",
+              "text": "Hans heeft gelijk en Karlijn heeft gelijk."
+            }
+          ],
+          "correct_answer": "A"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 11,
+      "opgave_titel": "Nierfalen",
+      "vragen": [
+        {
+          "id": 42,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Als nieren minder goed functioneren, worden afvalstoffen niet goed uit het bloed gefilterd. Dit wordt nierfalen genoemd. Diabetes of een hoge bloeddruk kunnen een oorzaak zijn van nierfalen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>In welke delen van een nier wordt het bloed gefilterd?</p>",
+          "correct_antwoord_model": "<p>C</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "in het nierbekken en het niermerg"
+            },
+            {
+              "id": "B",
+              "text": "in het nierbekken en de nierschors"
+            },
+            {
+              "id": "C",
+              "text": "in de nierschors en het niermerg"
+            }
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "id": 43,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Als nieren minder goed functioneren, worden afvalstoffen niet goed uit het bloed gefilterd. Dit wordt nierfalen genoemd. Diabetes of een hoge bloeddruk kunnen een oorzaak zijn van nierfalen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Hoe heet het orgaanstelsel waar de nieren bij horen?</p>",
+          "correct_antwoord_model": "<p>uitscheidingsstelsel</p>"
+        },
+        {
+          "id": 44,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Als nieren minder goed functioneren, worden afvalstoffen niet goed uit het bloed gefilterd. Dit wordt nierfalen genoemd. Diabetes of een hoge bloeddruk kunnen een oorzaak zijn van nierfalen.</p><p>Bij patiënten met ernstig nierfalen is nierdialyse nodig. Nierdialyse wordt gedaan met een machine: de kunstnier. Het bloed wordt door de kunstnier gepompt en daar gefilterd. Tijdens een nierdialyse wordt ureum verwijderd.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>In welk orgaan ontstaat ureum?</p>",
+          "correct_antwoord_model": "<p>B</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "darm"
+            },
+            {
+              "id": "B",
+              "text": "lever"
+            },
+            {
+              "id": "C",
+              "text": "maag"
+            },
+            {
+              "id": "D",
+              "text": "nier"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": 45,
+          "max_score": 2,
+          "type": "calculation",
+          "context_html": "<p>In een huisartsenpraktijk zijn 369 ouderen met diabetes en hoge bloeddruk onderzocht en bij een aantal is nierfalen vastgesteld. Van de ouderen met nierfalen is bepaald in welke mate hun nieren nog goed kunnen filteren. Deze gegevens staan in de grafiek.</p>",
+          "bronverwijzing_tekst": "Deze gegevens staan in de grafiek.",
+          "bron_verwijzing": "vmbo_biologie_tv1_opgave11_bron1.png",
+          "vraagtekst_html": "<p>Hoeveel procent van alle onderzochte ouderen in deze huisartsenpraktijk heeft nierfalen klasse 3? Leg je antwoord uit met een berekening.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juiste berekening:</p><ul><li>$6 + 12 + 16 + 30 = 64$ (ouderen in klasse 3) (1 punt)</li><li>$64 : 369 = 0,17$</li><li>$0,17 \\times 100 = 17\\%$ (of 17,3\\%) (1 punt)</li></ul>"
+        },
+        {
+          "id": 46,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>In een huisartsenpraktijk zijn 369 ouderen met diabetes en hoge bloeddruk onderzocht en bij een aantal is nierfalen vastgesteld. Van de ouderen met nierfalen is bepaald in welke mate hun nieren nog goed kunnen filteren. Deze gegevens staan in de grafiek.</p><p>Bij mensen met nierfalen worden water en ureum niet goed uit het bloed gehaald.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_biologie_tv1_opgave11_bron1.png",
+          "vraagtekst_html": "<p>Noem nog een andere stof die uit het bloed gefilterd moet worden door de nieren.</p>",
+          "correct_antwoord_model": "<p>voorbeelden van een juiste andere stof:</p><ul><li>(overtollige) zouten</li><li>(onwerkzaam gemaakte) schadelijke stoffen</li><li>(restanten van) medicijnen/alcohol/drugs</li><li>hormonen</li></ul>"
+        },
+        {
+          "id": 47,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>In een huisartsenpraktijk zijn 369 ouderen met diabetes en hoge bloeddruk onderzocht en bij een aantal is nierfalen vastgesteld. Van de ouderen met nierfalen is bepaald in welke mate hun nieren nog goed kunnen filteren. Deze gegevens staan in de grafiek.</p><p>Mensen met ernstig nierfalen mogen niet te veel vloeistof drinken, meestal maar 750 mL per dag. Wanneer deze mensen meer vloeistof drinken stijgt de bloeddruk.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_biologie_tv1_opgave11_bron1.png",
+          "vraagtekst_html": "<p>Leg uit hoe de bloeddruk stijgt bij deze mensen.</p>",
+          "correct_antwoord_model": "<p>Uit de uitleg moet blijken dat de bloeddruk stijgt doordat er te veel vocht in de bloedvaten achterblijft / vocht niet uit het bloed kan worden verwijderd.</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 12,
+      "opgave_titel": "Waterpokken",
+      "vragen": [
+        {
+          "id": 48,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Waterpokken is een kinderziekte die door een virus wordt veroorzaakt. Het virus verspreidt zich via de lucht. De kinderen krijgen koorts en rode bultjes, vaak over het hele lichaam. De bultjes kunnen jeukende blaasjes worden, waarvan het vocht besmettelijk is.</p><p>Sam gaat naar de crèche. Het blijkt dat een ander kind waterpokken heeft. Twee weken later heeft Sam ook de eerste verschijnselen van waterpokken.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Kun je Sam antibiotica geven om de waterpokken te bestrijden? Leg je antwoord uit.</p>",
+          "correct_antwoord_model": "<p>Nee, met een uitleg waaruit blijkt dat waterpokken worden veroorzaakt door een virus / dat antibiotica alleen bacteriën bestrijden.</p>"
+        },
+        {
+          "id": 49,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Waterpokken is een kinderziekte die door een virus wordt veroorzaakt. Het virus verspreidt zich via de lucht. De kinderen krijgen koorts en rode bultjes, vaak over het hele lichaam. De bultjes kunnen jeukende blaasjes worden, waarvan het vocht besmettelijk is.</p><p>Sam gaat naar de crèche. Het blijkt dat een ander kind waterpokken heeft. Twee weken later heeft Sam ook de eerste verschijnselen van waterpokken.</p><p>Sam's moeder zegt dat je niet aan de blaasjes moet krabben. Door te krabben wordt de jeuk alleen maar erger. Het krabben zorgt ook voor kleine wondjes.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Noem nog een andere reden waarom het beter is om niet te krabben aan de blaasjes.</p>",
+          "correct_antwoord_model": "<p>voorbeelden van een juiste reden:</p><ul><li>door te krabben is er kans op littekens</li><li>het vocht in de blaasjes is besmettelijk</li><li>door te krabben is de kans op andere infecties groter</li></ul>"
+        },
+        {
+          "id": 50,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Waterpokken is een kinderziekte die door een virus wordt veroorzaakt. Het virus verspreidt zich via de lucht. De kinderen krijgen koorts en rode bultjes, vaak over het hele lichaam. De bultjes kunnen jeukende blaasjes worden, waarvan het vocht besmettelijk is.</p><p>Sam gaat naar de crèche. Het blijkt dat een ander kind waterpokken heeft. Twee weken later heeft Sam ook de eerste verschijnselen van waterpokken.</p><p>Nadat Sam is genezen van de waterpokken, is Sam immuun voor deze ziekte.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Is er bij Sam sprake van actieve immunisatie of passieve immunisatie? Leg je antwoord uit.</p>",
+          "correct_antwoord_model": "<p>Actieve immunisatie, met een uitleg waaruit blijkt dat Sam de ziekte heeft gehad. / dat het lichaam zelf antistoffen aangemaakt heeft.</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 13,
+      "opgave_titel": "Luipaardgekko",
+      "vragen": [
+        {
+          "id": 51,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>De luipaardgekko is een reptiel dat in Azië voorkomt, en in Nederland worden ze als huisdier gehouden. Het dier heeft een brede kop met grote ogen. Het lichaam is plat en heeft een lengte van ongeveer 20 centimeter inclusief staart. Een luipaardgekko jaagt 's nachts op kleine dieren.</p><p>De ogen zijn grijsgroen van kleur en hebben een spleetachtige, verticale pupil. Jonge luipaardgekko's hebben een gele lichaamskleur met donkergrijze tot zwarte banden op de rug, die verandert naarmate ze ouder worden in bruingeel met vlekken. Dit is de kleur die in het wild voorkomt en wordt wildkleur genoemd. Wildkleur wordt veroorzaakt door een dominant gen. In gevangenschap worden soms luipaardgekko's geboren met een wit-grijze kleur. Deze kleur wordt blizzard genoemd. Een luipaardgekko heeft 38 chromosomen in de lichaamscellen.</p><p>Als een luipaardgekko gaat jagen verandert de pupil-opening.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_biologie_tv1_opgave13_bron1.png",
+          "vraagtekst_html": "<p>Wordt de pupil-opening groter of kleiner? Leg je antwoord uit.</p>",
+          "correct_antwoord_model": "<p>(De pupil-opening wordt) groter, met een uitleg waaruit blijkt dat er zoveel mogelijk licht op het netvlies / in het oog moet komen (omdat de luipaardgekko 's nachts jaagt).</p>"
+        },
+        {
+          "id": 52,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>De luipaardgekko is een reptiel dat in Azië voorkomt, en in Nederland worden ze als huisdier gehouden. Het dier heeft een brede kop met grote ogen. Het lichaam is plat en heeft een lengte van ongeveer 20 centimeter inclusief staart. Een luipaardgekko jaagt 's nachts op kleine dieren.</p><p>De ogen zijn grijsgroen van kleur en hebben een spleetachtige, verticale pupil. Jonge luipaardgekko's hebben een gele lichaamskleur met donkergrijze tot zwarte banden op de rug, die verandert naarmate ze ouder worden in bruingeel met vlekken. Dit is de kleur die in het wild voorkomt en wordt wildkleur genoemd. Wildkleur wordt veroorzaakt door een dominant gen. In gevangenschap worden soms luipaardgekko's geboren met een wit-grijze kleur. Deze kleur wordt blizzard genoemd. Een luipaardgekko heeft 38 chromosomen in de lichaamscellen.</p><p>Twee wildkleur-luipaardgekko's worden gekruist. Uit deze kruising blijkt dat een deel van de nakomelingen de kleur blizzard heeft.</p>",
+          "bronverwijzing_tekst": "Op de uitwerkbijlage staat een kruisingsschema.",
+          "bron_verwijzing": "vmbo_biologie_tv1_opgave13_bron1.png",
+          "vraagtekst_html": "<p>Vul het kruisingsschema in.</p><p>Bepaal de kans op een nakomeling met de kleur blizzard.</p>",
+          "correct_antwoord_model": "<p>Kruisingsschema:</p><table><thead><tr><th></th><th></th><th colspan=\"2\">genotype zaadcellen</th></tr><tr><th></th><th></th><th>A</th><th>a</th></tr></thead><tbody><tr><th rowspan=\"2\">genotype eicellen</th><th>A</th><td>AA</td><td>Aa</td></tr><tr><th>a</th><td>Aa</td><td>aa</td></tr></tbody></table><p>(Een juist kruisingsschema met twee heterozygote ouders: 1 punt)</p><p>De kans op een nakomeling met de kleur blizzard: 25% / 0,25 / <span class=\"fraction\"><span class=\"numerator\">1</span><span class=\"denominator\">4</span></span> (1 punt)</p>"
+        },
+        {
+          "id": 53,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>De luipaardgekko is een reptiel dat in Azië voorkomt, en in Nederland worden ze als huisdier gehouden. Het dier heeft een brede kop met grote ogen. Het lichaam is plat en heeft een lengte van ongeveer 20 centimeter inclusief staart. Een luipaardgekko jaagt 's nachts op kleine dieren.</p><p>De ogen zijn grijsgroen van kleur en hebben een spleetachtige, verticale pupil. Jonge luipaardgekko's hebben een gele lichaamskleur met donkergrijze tot zwarte banden op de rug, die verandert naarmate ze ouder worden in bruingeel met vlekken. Dit is de kleur die in het wild voorkomt en wordt wildkleur genoemd. Wildkleur wordt veroorzaakt door een dominant gen. In gevangenschap worden soms luipaardgekko's geboren met een wit-grijze kleur. Deze kleur wordt blizzard genoemd. Een luipaardgekko heeft 38 chromosomen in de lichaamscellen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_biologie_tv1_opgave13_bron1.png",
+          "vraagtekst_html": "<p>Hoeveel chromosomen bevat een zaadcel van een luipaardgekko?</p>",
+          "correct_antwoord_model": "<p>19</p>"
+        }
+      ]
+    }
+  ]
+}

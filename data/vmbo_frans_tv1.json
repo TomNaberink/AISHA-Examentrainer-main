@@ -1,0 +1,662 @@
+{
+    "vak": "Frans",
+    "niveau": "VMBO-GL en TL",
+    "tijdvak": "TV1",
+    "jaar": 2024,
+    "teksten": [
+      {
+        "tekst_id": "tekst1",
+        "titel": "Un tatouage de saucisse fricadelle",
+        "inhoud_html": "<p><em>Lees eerst de opgave voordat je naar de tekst gaat.</em></p><p><strong>(1)</strong> Jochen Verbeeke, 40 ans, habite à Ostende, en Belgique. Il a accepté le challenge fou d'une friterie dans sa ville se faire tatouer une fricadelle 5 sur le bras pour manger ces saucisses gratuitement pendant un an. La << fricadelle spéciale >> est la spécialité du chef de la friterie.</p><p><strong>(2)</strong> Le tatouage sur le bras de Jochen 10 est une représentation très réaliste d'une fricadelle. Cette célèbre saucisse est originaire des Pays-Bas. Une << fricadelle spéciale >> est servie avec de la sauce et de petits oignons 15 dans une barquette avec une petite fourchette.</p><p><strong>(3)</strong> Le patron de la friterie, Kristof Declerck, a donc promis d'offrir à Jochen la spécialité de sa friterie 20 pendant un an. Jochen a pourtant expliqué qu'il ne vient pas manger une fricadelle tous les jours, mais seulement une fois par mois.</p><p><strong>(4)</strong> Kristof Declerck a déjà annoncé 25 qu'il va lancer bientôt un nouveau challenge: la personne qui se fait tatouer un cornet de frites peut manger des frites gratuitement pendant un an.</p><small>d'après ledauphine.com le 3 novembre 2021</small>"
+      },
+      {
+        "tekst_id": "tekst2",
+        "titel": "<< J'ai toujours voulu devenir charpentier >>",
+        "inhoud_html": "<p><< Pour moi, c'était clair: j'ai toujours voulu devenir charpentier. Je ne peux pas dire pourquoi. Pour moi, c'est un métier très varié. Dans ce 5 métier, on n'a jamais le temps de s'ennuyer. Beaucoup de gens pensent qu'un charpentier coupe seulement des bouts de bois. Mais ce n'est pas vrai! Il y a beaucoup 10 d'autres choses à faire. Par exemple, prendre les mesures et travailler le bois. En ce moment, je fais des études pour devenir chef d'un chantier¹). Mon père m'a beaucoup 15 aidé pendant mes études. Il est un véritable exemple pour moi: il a travaillé en cuisine et il est devenu patron! C'est bien la preuve qu'on peut avoir une super carrière comme 20 ouvrier. En tout cas, je me lève chaque matin avec le sourire car j'aime vraiment ce métier ! >><br/>Martin, 20 ans</p><small>d'après Phosphore le 1er septembre 2019<br/>noot 1 le chef de chantier = de opzichter/voorman (leidinggevende op het bouwterrein)</small>"
+      },
+      {
+        "tekst_id": "tekst3",
+        "titel": "Stromae, << le génie de la chanson >>",
+        "inhoud_html": "<p><strong>(1)</strong> Le véritable prénom de Stromae est... Paul! Le chanteur a choisi lui- même ce nom d'artiste. En fait, Stromae veut dire << maestro >>. Le 5 chanteur a changé l'ordre des syllabes 'mae' et 'stro'. Le maestro, c'est un compositeur ou un chef d'orchestre de talent.</p><p><strong>(2)</strong> Tout petit, Paul s'intéresse déjà à 10 la musique et surtout à la batterie¹). Dans sa jeunesse, Paul découvre qu'il a beaucoup de talent pour la musique. Il ne s'intéresse pas vraiment à l'école. Sa mère envoie 15 alors son fils en internat, une école où les élèves restent dormir la nuit. Là-bas, il découvre le rap. Son idole est Booba, un rappeur français. Stromae rêve de devenir comme lui. 20 À 15 ans, il change son nom en Stromae et commence à composer ses premières chansons. II adore faire danser les gens.</p><p><strong>(3)</strong> En 2009, Stromae a beaucoup de 25 succès comme chanteur. Avec le titre Alors on danse, le chanteur fait une entrée énorme dans le top 50 des chansons les plus vendues en France. Grâce à ce tube très original, 30 avec un mélange de musique électro, de pop et de rap, Stromae devient célèbre partout en Europe. Tout le monde parle de lui. En 2010, il sort son premier album Cheese. Avec cet 35 album, c'est de nouveau le succès immédiat. Pendant plus de deux mois, Cheese reste à la première place du top 50.</p><p><strong>(4)</strong> Stromae devient vite un véritable 40 phénomène. En 2012, il gagne la <<< Victoire de la musique ». C'est un prix qu'on donne aux artistes les plus talentueux de l'année. Deux ans plus 45 tard, Stromae sort son deuxième album Racine Carrée, avec ses plus grands titres, comme Formidable. Avec cet album, il gagne encore deux <<< Victoires de la musique ».</p><p><strong>(5)</strong> Après tout ce succès fou, 50 Stromae arrête de faire de la musique pendant quelques années. II prend du temps pour s'occuper de son fils et de lui-même. Malgré son absence, ses chansons continuent 55 de faire danser le monde entier. En France, Stromae se trouve même à la 21ème place des stars préférées des enfants de 7 à 14 ans ! Et aujourd'hui, Stromae fait son grand 60 come-back avec un troisième album qui s'appelle Multitude. C'est super, non ?</p><small>d'après Juniors Quotidiens février-avril 2022<br/>noot 1 la batterie = het drumstel, het drummen</small>"
+      },
+      {
+        "tekst_id": "tekst4",
+        "titel": "Des renards au cimetière",
+        "inhoud_html": "<p><strong>(1)</strong> Le confinement¹) du printemps 2020 a eu une bonne influence sur l'environnement. Quelques exemples: moins de pollution, moins 5 de bruit et moins de gens dans les rues. À Paris, dans certains endroits de la ville, la nature en a profité. Par exemple, au célèbre cimetière du Père-Lachaise, où il n'y avait 10 personne pendant plus de deux mois, des animaux sauvages ont fait leur apparition.</p><p><strong>(2)</strong> Début mai, surprise! Pendant qu'il fait son tour au cimetière, Benoît 15 Gillot, le conservateur, voit tout près de lui... un petit renard. Benoît arrive à filmer le petit animal. Le soir, il rencontre de nouveau le petit renard, maintenant avec son frère et sa 20 sœur. <<< Les petits renards n'ont pas peur », dit-il. << J'ai donc pu les filmer. Malheureusement, filmer leurs parents, c'est impossible. >>></p><p><strong>(3)</strong> Comment est-ce que la famille de 25 renards s'est installée au cimetière du Père-Lachaise ? On pense que le couple de renards est parti du bois de Vincennes, qui est situé à 5 kilomètres du cimetière. Ils ont trouvé 30 sur leur route le cimetière et s'y sont installés. Pendant la période du confinement, la mère a donné naissance à trois petits renards. Dans le parc de 45 hectares, il y a 35 assez de nourriture pour les renards: souris, insectes, oiseaux...</p><p><strong>(4)</strong> Dans quelques mois, les petits renards vont être grands. Alors, ils vont quitter leurs parents. La 40 direction du Père-Lachaise a décidé de garder les parents au cimetière. Benoît espère bien qu'ils vont rester et donner naissance à nouveau à des petits l'année prochaine.</p><small>d'après Francetvinfo.fr le 28 mai 2020<br/>noot 1 le confinement = de lockdown (als gevolg van Covid-19)</small>"
+      },
+      {
+        "tekst_id": "tekst5",
+        "titel": "Le tableau le plus célèbre du monde",
+        "inhoud_html": "<p><strong>(1)</strong> C'est un très petit tableau. II mesure seulement 77x53 cm. Et pourtant, chaque jour 20 000 personnes viennent admirer le 5 tableau dans le musée du Louvre, à Paris. Chaque année, le musée attire des millions de visiteurs. La moitié des visiteurs vient seulement pour voir La Joconde. Sa valeur est plus 10 de deux milliards d'euros ! Cela veut dire que c'est le tableau le plus cher du monde.</p><p><strong>(2)</strong> Pourquoi est-ce que le tableau est si célèbre ? D'abord, parce que 15 son créateur, Léonard de Vinci, était un grand génie: il avait beaucoup de talent dans de nombreux domaines artistiques, techniques et scientifiques. __14__ parce que 20 depuis longtemps, La Joconde est considérée comme le chef-d'œuvre de Léonard de Vinci. Déjà, au 16ème siècle, le roi de France, François 1er, achète le tableau. Il expose le 25 tableau dans son château à Fontainebleau.</p><p><strong>(3)</strong> En 1911, La Joconde devient encore plus célèbre après un vol. On offre beaucoup d'argent pour 30 retrouver le tableau. Des célébrités comme le peintre Picasso sont soupçonnées¹) par la police. Mais le coupable est en réalité un ouvrier italien. Il est arrêté deux ans plus 35 tard et La Joconde revient au Louvre. Partout dans le monde, des journaux publient des histoires sur le vol de La Joconde.</p><p><strong>(4)</strong> La Joconde est devenue une 40 célébrité dans le monde entier, mais son identité reste toujours un mystère. Est-elle vraiment Monna Lisa Gherardini, la femme de Francesco del Giocondo ? Certains 45 croient que le modèle qui a posé pour Léonard de Vinci est sa mère, ou même... l'une de ses jeunes élèves !</p><small>d'après Géo Ado hors-série, La Planète des records 2020<br/>noot 1 être soupçonné verdacht worden</small>"
+      },
+      {
+        "tekst_id": "tekst6",
+        "titel": "Félix, fan de parkour",
+        "inhoud_html": "<p><strong>(1)</strong> Félix adore le parkour depuis qu'il a 9 ans. Le parkour, c'est une discipline sportive acrobatique. Les jeunes qui pratiquent ce sport, 5 s'appellent des << traceurs >>. Ils se déplacent en ville d'une façon spéciale (voir photo). Ils sautent des bâtiments de la ville, font des saltos, ils courent et grimpent sur les murs... 10 Pour eux, toute la ville est un grand terrain de sport!</p><p><strong>(2)</strong> Des jeunes ont commencé à pratiquer le parkour au début des années 1990. C'était à Évry, en 15 banlieue parisienne. Aujourd'hui, ce sport est très populaire. Non seulement en France, mais aussi dans beaucoup d'autres pays, comme par exemple en Angleterre. 20 Pour pratiquer le parkour, il faut avoir beaucoup de confiance en soi, du courage et de la concentration. Les capacités physiques sont aussi très importantes, par exemple la vitesse 25 et la force musculaire.</p><p><strong>(3)</strong> << Ce que j'adore dans ce sport >>, dit Félix, << c'est qu'on développe la créativité et l'imagination. >> Et il a de la chance car pas loin de sa maison, 30 on a créé un lieu pour les fans de sauts acrobatiques. Là-bas, des professionnels aident les jeunes qui veulent apprendre les différentes techniques du parkour. Félix y va 35 tous les jours pour s'entraîner. Son rêve: devenir professionnel du parkour.</p><p><strong>(4)</strong> Et ses parents? Son père l'encourage tandis que sa mère a 40 toujours un peu peur. Elle dit à Félix de faire bien attention, parce que selon elle, le parkour est un sport dangereux. Félix reconnaît que pratiquer le parkour n'est pas sans 45 risques. < C'est un sport extrême, mais c'est surtout dangereux si on ne le pratique pas régulièrement. Il est donc nécessaire de s'entraîner souvent. Et puis, il faut bien 50 connaître ses limites et savoir s'arrêter à temps. Enfin, on ne doit pas avoir peur de quelques bleus et des blessures ! >>></p><p><strong>(5)</strong> Félix rencontre sa bande de 55 copains deux à trois fois par semaine. Pour Félix, Alexy, Jude et Léandre, la ville est un grand terrain de jeux. << Entre nous, on essaie d'aller toujours un peu plus loin, de 60 réaliser des performances de plus en plus spectaculaires. >> Ils s'entraînent souvent à Pantin, le long du canal ou à Paris, au parc de la Villette. Les quatre garçons postent les photos de 65 leurs performances sur Instagram et Facebook. Ils reçoivent beaucoup de réactions sympas de leurs fans.</p><small>d'après Le Monde des ados le 7 octobre 2020<br/>noot 1 le parkour = de freerunning</small>"
+      },
+      {
+        "tekst_id": "tekst7",
+        "titel": "Un record gourmand",
+        "inhoud_html": "<p>En matière de gastronomie, chaque région française a ses spécialités. Dans la région des Pays-de-la-Loire, l'une des spécialités, ce sont les rillettes¹). Alors, pour montrer qu'on est fier de cette spécialité, des passionnés ont réalisé un drôle de record: ils ont fabriqué le sandwich aux rillettes le plus long au monde. Formé de plus de 200 baguettes, il mesurait... plus de 100 mètres! Une idée folle mais aussi très belle, car on a vendu ce sandwich géant en morceaux et on a donné l'argent à l'association Clowns à l'hôpital. Grâce à cette association, des clowns et d'autres artistes vont dans les hôpitaux pour amuser les enfants malades.</p><small>d'après Juniors Quotidiens mai-juillet 2022<br/>noot 1 les rillettes = broodbeleg van vlees (vergelijkbaar met paté)</small>"
+      },
+      {
+        "tekst_id": "tekst8",
+        "titel": "Un artiste qui mélange art et recyclage",
+        "inhoud_html": "<p><strong>(1)</strong> Depuis trois ans, Mounou Désiré Koffi donne une nouvelle vie aux vieux téléphones portables cassés. II les démonte, les découpe, puis colle 5 les bouts de claviers et d'écrans sur ses tableaux. Le résultat est coloré et très original. Mounou Désiré Koffi fait vraiment de magnifiques tableaux avec de vieux téléphones portables 10 et de la peinture.</p><p><strong>(2)</strong> << Mes tableaux représentent des jeunes de mon quartier, à Abidjan, en Côte d'Ivoire >>, explique l'artiste. <<< Mes tableaux sont très importants 15 pour moi. Certains tableaux montrent des sujets d'actualité, comme la criminalité et la violence. D'autres montrent le bonheur des enfants dans la vie de tous les jours. >>></p><p><strong>20 (3)</strong> Avec ses œuvres, Mounou veut stimuler les gens à penser à l'avenir de la planète. « C'est important, pour moi, de montrer qu'il faut trier ses déchets¹) et les recycler le plus 25 possible. En Afrique, on trouve encore beaucoup de déchets dans la rue. Mais, avec le temps, je suis sûr que les gens vont comprendre que ce n'est pas bien. >>></p><p><strong>(4)</strong> Mounou utilise de vieux 30 téléphones portables parce qu'il veut surtout attirer l'attention sur les déchets électroniques. Car dans les téléphones, les télévisions, les 35 ordinateurs, etc., il y a des matériaux qui sont dangereux pour la santé. En plus, ces matériaux peuvent polluer la nature s'ils ne sont pas jetés et recyclés correctement.</p><p><strong>40 (5)</strong> Aujourd'hui, Mounou a déjà recyclé plus de 20 000 téléphones ! II trouve ces téléphones dans les déchetteries²) et il organise des collectes dans différents pays 45 d'Afrique. Dans sa ville, des habitants viennent aussi pour lui donner leurs vieux appareils. C'est bien sympa, n'est-ce pas ?</p><small>d'après 1jour1actu le 1er avril 2020<br/>noot 1 les déchets = het afval<br/>noot 2 la déchetterie de milieustraat / plek waar afval wordt verzameld</small>"
+      },
+      {
+        "tekst_id": "tekst9",
+        "titel": "Une très belle aventure",
+        "inhoud_html": "<p><strong>(1)</strong> Bonjour. Moi, je m'appelle Anouk. J'habite au Canada, dans une petite ville qui s'appelle Port-Cartier. Mes parents ont pris de longues 5 vacances. Ils ont décidé de traverser l'Europe. Et moi, je voulais accompagner mes parents. Nous voulions découvrir de nouvelles cultures et de nouveaux pays.</p><p><strong>10 (2)</strong> Nous avons fait le voyage à vélo. Le voyage s'est bien passé. En Europe, il y a partout de belles pistes cyclables. Avant notre voyage, je ne pensais pas que j'aimerais faire du 15 vélo. J'avais aussi très peur de m'ennuyer sans mes amis et mes camarades de classe. __29__ je dois dire que je me suis bien amusée.</p><p><strong>(3)</strong> Chaque jour, on roulait en 20 moyenne 40 kilomètres à vélo. En général, on terminait nos journées en fin d'après-midi. On dormait dans des endroits différents presque tous les soirs. Parfois, on montait notre tente 25 dans un camping. Quand il y avait de la pluie pendant plusieurs jours, mes parents louaient un appartement.</p><p><strong>(4)</strong> Nous utilisions aussi souvent les applications Warmshower et 30 Couchsurfing. Comme ça, nous avons trouvé des hôtes qui nous ont reçu gratuitement. Plusieurs familles nous ont accueillis à bras ouverts. Ainsi, nous avons fait de belles 35 rencontres. Chez les familles, nous avons aussi pu goûter à la cuisine locale. Par exemple, chez la famille aux Pays-Bas, on a mangé des << pannenkoeken >>, c'est très bon.</p><p><strong>40 (5)</strong> En quelques mois, nous avons visité le Danemark, la Suède, l'Allemagne, les Pays-Bas, la Belgique et la France. Dans chaque pays, nous avons vécu des 45 expériences très agréables. Notre voyage en Europe a vraiment été une belle aventure. À la fin du mois de novembre nous sommes revenus au Canada. Juste à temps pour fêter 50 Noël avec notre famille.</p><small>d'après Géo Ado septembre 2020</small>"
+      },
+      {
+        "tekst_id": "tekst10",
+        "titel": "La course en chaise de bureau",
+        "inhoud_html": "<p><em>Oui, oui, c'est bien un sport... inspiré par de célèbres courses automobiles! Ce sport n'est presque pas connu en France, mais il est très populaire au Japon.</em></p><p><strong>(1)</strong> La première course en chaise de bureau a lieu en 2009. Au début, c'est présenté comme une plaisanterie sympathique. Mais les 5 Japonais adorent tellement que le nombre de courses augmente vite. Aujourd'hui, la discipline compte son propre Grand Prix, comme la Formule 1! La course a lieu dans 10 différentes villes, avec en moyenne une course par mois. Les participants forment des équipes de trois personnes et les vainqueurs gagnent... un sac de riz de 90 kg !</p><p><strong>15 (2)</strong> Les règles de la course en chaise de bureau sont simples. Il faut s'asseoir sur sa chaise et faire rouler sa chaise à roulettes le plus vite possible. Il y a beaucoup d'accidents 20 et de chutes. Pour pratiquer ce sport étrange, il est donc nécessaire de porter un casque et des protège- genoux. Les participants ont deux heures pour réaliser le plus de tours 25 possible sur un parcours de 200 mètres.</p><p><strong>(3)</strong> Dans la plupart des cas, les courses comptent au moins 50 équipes. Les participants portent des 30 costumes de sport aux couleurs vives¹), __35__ le public peut facilement reconnaître les participants. La compétition est ouverte à tous. La plupart des 35 participants ont de 20 à 60 ans.</p><small>d'après Juniors Quotidiens février-avril 2022<br/>noot 1 vif/vive = fel</small>"
+      },
+      {
+        "tekst_id": "tekst11",
+        "titel": "<< La danse, c'est ma passion >>",
+        "inhoud_html": "<p><em>1jour1actu a interviewé Marie, 13 ans, qui a joué dans le film << Petites danseuses >>. Elle parle de sa passion pour la danse et de sa participation au film.</em></p><p><strong>(1) Quel est ton idéal pour l'avenir?</strong></p><p>Je rêve de devenir une danseuse célèbre! J'ai commencé les cours à 5 l'âge de 6 ans. Cela m'a fait grandir vite, car la danse est un milieu difficile qui demande beaucoup de travail. Aujourd'hui, je suis au Conservatoire de Paris¹) et j'ai des 10 horaires adaptés. Je fais de la danse tous les matins pendant deux heures et demie. C'est parfois un peu difficile de combiner école et danse, mais je fais de mon mieux pour 15 réussir.</p><p><strong>(2) Tu as une vie un peu différente des autres jeunes de ton âge.</strong></p><p>Oui, un peu. Je suis très occupée et je dois faire attention à plusieurs 20 choses. Par exemple, j'essaie de ne pas trop manger pour ne pas grossir. Mon frère, lui, peut manger tout ce qu'il veut, car il ne fait pas de ballet. Il a de la chance. Je fais aussi 25 attention à ne pas me blesser. C'est pourquoi je ne fais plus de ski. Et puis, je vois aussi un peu moins mes copines.</p><p><strong>(3) Tu as aimé le film << Petites 30 danseuses >> ?</strong></p><p>Oui, je l'ai trouvé touchant et réaliste. Au début du tournage, je ne savais pas trop si j'avais envie d'être filmée, mais finalement j'ai bien aimé. En 35 plus, c'est une très belle preuve de mon travail. Je pense aussi que, quand je serai adulte, je regarderai le film avec un peu de nostalgie, le souvenir d'une belle période...</p><small>d'après 1jour1actu le 25 août 2021<br/>noot 1 le Conservatoire de Paris = het conservatorium (muziek- en dansopleiding) in Parijs</small>"
+      },
+      {
+        "tekst_id": "tekst12",
+        "titel": "La télé, c'est démodé ?",
+        "inhoud_html": "<p><em>Lees eerst de opgave voordat je naar de tekst gaat.</em></p><p>Aujourd'hui, avec le streaming, YouTube, Netflix, l'ordinateur, le téléphone, etc., est-ce que la télé n'est pas complètement démodée ? Trois jeunes donnent leur opinion.</p><p>Je ne regarde pas souvent la télé, je vais plutôt sur YouTube. Mais je trouve que regarder la télé reste un moment agréable. Par exemple, j'aime bien regarder des séries télé avec ma tante.<br/><strong>Charlie</strong></p><p>La télé, ça ne m'intéresse pas... Les informations sur la télé, cela ne me dit rien ! Moi, j'aime mieux jouer en ligne avec des amis. Je préfère aussi regarder des séries en streaming sur mon ordinateur, car on peut regarder ces séries quand on veut.<br/><strong>Lucie</strong></p><p>La télé me permet de partager un moment en famille ou entre amis. Le soir, par exemple, je regarde un bon vieux film avec ma famille. C'est agréable. Il y a des chaînes de tous les styles et il y a beaucoup de choix.<br/><strong>Jean</strong></p><small>d'après Géo Ado novembre 2020</small>"
+      },
+      {
+        "tekst_id": "tekst13",
+        "titel": "Une rencontre extraordinaire",
+        "inhoud_html": "<p><strong>Port-Saint-Père, le 24 juin</strong></p><p>Ce jeudi matin, vers 8 heures, la famille Dupont regarde par la fenêtre et... quelle surprise! Dans leur jardin, il y a un ours. Il se promène tranquillement sur la pelouse. L'animal s'est échappé¹) du zoo Planète Sauvage, situé juste à l'autre côté de la rue.</p><p>La famille s'enferme alors dans la maison et appelle la police. Les soigneurs et un vétérinaire viennent chercher l'ours, qui reste très calme.</p><p>Le vétérinaire raconte: << Nous avons endormi l'ours à l'aide d'une injection, puis nous avons mis l'ours sur un brancard. Ainsi, nous avons pu ramener l'ours dans le zoo. Là, il y a encore sept autres ours. Nous sommes très contents de son retour. >>></p><small>d'après 20 Minutes le 24 juin 2021<br/>noot 1 s'échapper = ontsnappen</small>"
+      }
+    ],
+    "vragen": [
+        {
+            "vraag_id": 1,
+            "tekst_id": "tekst1",
+            "opgave_titel": "Tekst 1 Un tatouage de saucisse fricadelle",
+            "vraagtekst": "Lees eerst de opgave(n) voordat je naar de tekst gaat.\n\nGeef van elke vraag aan of die in de tekst wordt beantwoord.\n1 Welke uitdaging is Jochen Verbeeke aangegaan?\n2 Hoeveel tatoeages heeft de eigenaar van de frietzaak zelf?\n3 Hoe vaak gaat Jochen Verbeeke een frikandel eten in de frietzaak?\n4 Wat is de nieuwe uitdaging die Kristof Declerck heeft bedacht?\n\nOmcirkel 'wel' of 'niet' achter elk nummer in de uitwerkbijlage.",
+            "type": "wel_niet",
+            "beweringen": [
+              "Welke uitdaging is Jochen Verbeeke aangegaan?",
+              "Hoeveel tatoeages heeft de eigenaar van de frietzaak zelf?",
+              "Hoe vaak gaat Jochen Verbeeke een frikandel eten in de frietzaak?",
+              "Wat is de nieuwe uitdaging die Kristof Declerck heeft bedacht?"
+            ],
+            "correct_antwoord": [
+              "wel",
+              "niet",
+              "wel",
+              "wel"
+            ],
+            "max_score": 2
+          },
+          {
+            "vraag_id": 2,
+            "tekst_id": "tekst2",
+            "opgave_titel": "Tekst 2 « J'ai toujours voulu devenir charpentier »",
+            "vraagtekst": "Wat zegt Martin in deze tekst over zijn werk?",
+            "type": "mc",
+            "opties": {
+              "A": "Hij heeft een bijbaantje als kok in een restaurant.",
+              "B": "Hij heeft een opleiding tot voorman afgerond.",
+              "C": "Hij vindt zijn werk heel afwisselend."
+            },
+            "correct_antwoord": "C",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 3,
+            "tekst_id": "tekst2",
+            "opgave_titel": "Tekst 2 « J'ai toujours voulu devenir charpentier »",
+            "vraagtekst": "Martin doet zijn werk elke dag met veel plezier.\n→ Schrijf de eerste twee Franse woorden op van de zin waarin je dat leest.",
+            "type": "citeer",
+            "correct_antwoord": "En tout",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 4,
+            "tekst_id": "tekst3",
+            "opgave_titel": "Tekst 3 Stromae, « le génie de la chanson »",
+            "vraagtekst": "Qu'est-ce qu'on apprend au premier alinéa ?",
+            "type": "mc",
+            "opties": {
+              "A": "comment Stromae est devenu chanteur",
+              "B": "d'où vient le nom d'artiste Stromae",
+              "C": "quel est le nom de famille de Stromae",
+              "D": "que Stromae veut devenir chef d'orchestre"
+            },
+            "correct_antwoord": "B",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 5,
+            "tekst_id": "tekst3",
+            "opgave_titel": "Tekst 3 Stromae, « le génie de la chanson »",
+            "vraagtekst": "Qu'est-ce qui est vrai d'après le 2ème alinéa ?",
+            "type": "mc",
+            "opties": {
+              "A": "Dans sa jeunesse, Paul était un bon élève à l'école.",
+              "B": "Depuis tout petit, Paul a voulu changer son nom.",
+              "C": "Paul a composé des chansons avec le rappeur Booba.",
+              "D": "Paul a découvert la musique rap à l'internat."
+            },
+            "correct_antwoord": "D",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 6,
+            "tekst_id": "tekst3",
+            "opgave_titel": "Tekst 3 Stromae, « le génie de la chanson »",
+            "vraagtekst": "Qu'est-ce qui est vrai d'après le 3ème alinéa ?",
+            "type": "mc",
+            "opties": {
+              "A": "Avec le titre Alors on danse, Stromae est devenu célèbre en Europe.",
+              "B": "Avec son premier album Cheese, Stromae a gagné plusieurs prix.",
+              "C": "Le titre Alors on danse a eu la première place dans le top 50 pendant des mois."
+            },
+            "correct_antwoord": "A",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 7,
+            "tekst_id": "tekst3",
+            "opgave_titel": "Tekst 3 Stromae, « le génie de la chanson »",
+            "vraagtekst": "Qu'est-ce qu'on lit au 4ème alinéa ?",
+            "type": "mc",
+            "opties": {
+              "A": "Le deuxième album de Stromae avait peu de succès.",
+              "B": "Stromae a commencé sa carrière avec Racine Carrée.",
+              "C": "Stromae a gagné plusieurs prix avec sa musique."
+            },
+            "correct_antwoord": "C",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 8,
+            "tekst_id": "tekst3",
+            "opgave_titel": "Tekst 3 Stromae, « le génie de la chanson »",
+            "vraagtekst": "Qu'est-ce qui est vrai d'après le dernier alinéa ?",
+            "type": "mc",
+            "opties": {
+              "A": "La musique de Stromae reste populaire pendant son absence.",
+              "B": "Seulement les enfants aiment encore la musique de Stromae.",
+              "C": "Stromae veut prendre une pause pour faire un nouvel album."
+            },
+            "correct_antwoord": "A",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 9,
+            "tekst_id": "tekst4",
+            "opgave_titel": "Tekst 4 Des renards au cimetière",
+            "vraagtekst": "Qu'est-ce qui est vrai d'après le premier alinéa ?\nAu cimetière du Père-Lachaise,",
+            "type": "mc",
+            "opties": {
+              "A": "beaucoup de Parisiens cherchent le silence.",
+              "B": "il y a de moins en moins d'animaux sauvages.",
+              "C": "on peut voir les effets positifs du confinement."
+            },
+            "correct_antwoord": "C",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 10,
+            "tekst_id": "tekst4",
+            "opgave_titel": "Tekst 4 Des renards au cimetière",
+            "vraagtekst": "Qu'est-ce qu'on lit sur Benoît Gillot au 2ème alinéa ?",
+            "type": "mc",
+            "opties": {
+              "A": "Il a pu attraper les petits renards et leurs parents.",
+              "B": "Il a réussi à filmer les petits renards.",
+              "C": "Il n'ose pas s'approcher trop des renards.",
+              "D": "Il veut chasser la famille de renards."
+            },
+            "correct_antwoord": "B",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 11,
+            "tekst_id": "tekst4",
+            "opgave_titel": "Tekst 4 Des renards au cimetière",
+            "vraagtekst": "Op welke vraag vind je geen antwoord in alinea 3?",
+            "type": "mc",
+            "opties": {
+              "A": "Hoe groot is Père-Lachaise?",
+              "B": "Op welke datum zijn de jonge vossen op Père-Lachaise geboren?",
+              "C": "Vinden de vossen op Père-Lachaise genoeg te eten?",
+              "D": "Waar komen de vossen op Père-Lachaise vermoedelijk vandaan?"
+            },
+            "correct_antwoord": "B",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 12,
+            "tekst_id": "tekst4",
+            "opgave_titel": "Tekst 4 Des renards au cimetière",
+            "vraagtekst": "Geef van elke bewering aan of die overeenkomt met de laatste alinea.\n1 De directie heeft de jonge vossen van het kerkhof verwijderd.\n2 Benoît Gillot hoopt dat de volwassen vossen opnieuw jongen krijgen op het kerkhof.\n\nOmcirkel 'wel' of 'niet' achter elk nummer in de uitwerkbijlage.",
+            "type": "wel_niet",
+            "beweringen": [
+              "De directie heeft de jonge vossen van het kerkhof verwijderd.",
+              "Benoît Gillot hoopt dat de volwassen vossen opnieuw jongen krijgen op het kerkhof."
+            ],
+            "correct_antwoord": [
+              "niet",
+              "wel"
+            ],
+            "max_score": 1
+          },
+          {
+            "vraag_id": 13,
+            "tekst_id": "tekst5",
+            "opgave_titel": "Tekst 5 Le tableau le plus célèbre du monde",
+            "vraagtekst": "À quelle question est-ce que le premier alinéa ne donne pas de réponse ?",
+            "type": "mc",
+            "opties": {
+              "A": "Combien de personnes est-ce que La Joconde attire chaque jour ?",
+              "B": "Pourquoi est-ce que La Joconde est si célèbre ?",
+              "C": "Quelle est la valeur de La Joconde?",
+              "D": "Quelles sont les dimensions de La Joconde?"
+            },
+            "correct_antwoord": "B",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 14,
+            "tekst_id": "tekst5",
+            "opgave_titel": "Tekst 5 Le tableau le plus célèbre du monde",
+            "vraagtekst": "Welk woord past op de open plek in alinea 2?",
+            "type": "mc",
+            "opties": {
+              "A": "Bref,",
+              "B": "Ensuite,",
+              "C": "Mais,"
+            },
+            "correct_antwoord": "B",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 15,
+            "tekst_id": "tekst5",
+            "opgave_titel": "Tekst 5 Le tableau le plus célèbre du monde",
+            "vraagtekst": "Qu'est-ce qui est vrai d'après le 3ème alinéa ?",
+            "type": "mc",
+            "opties": {
+              "A": "Des journalistes ont communiqué de fausses informations sur le vol de La Joconde à la police.",
+              "B": "Grâce au vol en 1911 par un ouvrier italien, La Joconde est devenue encore plus célèbre.",
+              "C": "Le peintre Picasso a aidé la police dans leur recherche pour retrouver La Joconde."
+            },
+            "correct_antwoord": "B",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 16,
+            "tekst_id": "tekst5",
+            "opgave_titel": "Tekst 5 Le tableau le plus célèbre du monde",
+            "vraagtekst": "Qu'est-ce qu'on lit sur l'identité de La Joconde au dernier alinéa ?",
+            "type": "mc",
+            "opties": {
+              "A": "C'est la femme de Francesco del Giocondo.",
+              "B": "C'est la mère de Léonard de Vinci.",
+              "C": "C'est une élève de Léonard de Vinci.",
+              "D": "On ne sait toujours pas qui c'est."
+            },
+            "correct_antwoord": "D",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 17,
+            "tekst_id": "tekst6",
+            "opgave_titel": "Tekst 6 Félix, fan de parkour",
+            "vraagtekst": "Qu'est-ce qu'on lit au premier alinéa ?",
+            "type": "mc",
+            "opties": {
+              "A": "à quel âge les jeunes commencent à pratiquer le parkour",
+              "B": "pourquoi Félix est devenu un grand fan de parkour",
+              "C": "quelles sont les activités sportives des « traceurs »"
+            },
+            "correct_antwoord": "C",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 18,
+            "tekst_id": "tekst6",
+            "opgave_titel": "Tekst 6 Félix, fan de parkour",
+            "vraagtekst": "Geef van elk element aan of het in alinea 2 wordt genoemd.\n1 de plek waar freerunning is ontstaan\n2 de populariteit van freerunning\n3 de eigenschappen die belangrijk zijn bij freerunning\n\nOmcirkel 'wel' of 'niet' achter elk nummer in de uitwerkbijlage.",
+            "type": "wel_niet",
+            "beweringen": [
+              "de plek waar freerunning is ontstaan",
+              "de populariteit van freerunning",
+              "de eigenschappen die belangrijk zijn bij freerunning"
+            ],
+            "correct_antwoord": [
+              "wel",
+              "wel",
+              "wel"
+            ],
+            "max_score": 2
+          },
+          {
+            "vraag_id": 19,
+            "tekst_id": "tekst6",
+            "opgave_titel": "Tekst 6 Félix, fan de parkour",
+            "vraagtekst": "<< il a de la chance >> (lignes 28-29)\n\nPourquoi est-ce que Félix a de la chance d'après le 3ème alinéa ?\nIl a de la chance parce qu'il",
+            "type": "mc",
+            "opties": {
+              "A": "a beaucoup de fans qui l'encouragent.",
+              "B": "apprend vite grâce à sa créativité.",
+              "C": "maîtrise déjà différentes techniques.",
+              "D": "peut s'entraîner tout près de chez lui."
+            },
+            "correct_antwoord": "D",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 20,
+            "tekst_id": "tekst6",
+            "opgave_titel": "Tekst 6 Félix, fan de parkour",
+            "vraagtekst": "Geef van elke bewering aan of die overeenkomt met alinea 4.\nAls je aan freerunning doet, moet je volgens Félix\n1 toestemming hebben van je ouders.\n2 vaak trainen.\n3 je eigen grenzen kennen.\n4 blessures accepteren.\n\nOmcirkel 'wel' of 'niet' achter elk nummer in de uitwerkbijlage.",
+            "type": "wel_niet",
+            "beweringen": [
+              "toestemming hebben van je ouders.",
+              "vaak trainen.",
+              "je eigen grenzen kennen.",
+              "blessures accepteren."
+            ],
+            "correct_antwoord": [
+              "niet",
+              "wel",
+              "wel",
+              "wel"
+            ],
+            "max_score": 2
+          },
+          {
+            "vraag_id": 21,
+            "tekst_id": "tekst6",
+            "opgave_titel": "Tekst 6 Félix, fan de parkour",
+            "vraagtekst": "Qu'est-ce qui est vrai d'après le dernier alinéa ?\nFélix, Alexy, Jude et Léandre",
+            "type": "mc",
+            "opties": {
+              "A": "partagent leurs performances sur les réseaux sociaux.",
+              "B": "se laissent filmer souvent par leurs fans.",
+              "C": "s'entraînent tous les jours de la semaine."
+            },
+            "correct_antwoord": "A",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 22,
+            "tekst_id": "tekst7",
+            "opgave_titel": "Tekst 7 Un record gourmand",
+            "vraagtekst": "Wat hebben inwoners van de streek Pays-de-la-Loire gedaan?",
+            "type": "mc",
+            "opties": {
+              "A": "Ze hebben broodjes met 'rillettes' uitgedeeld aan kinderen in een ziekenhuis.",
+              "B": "Ze hebben de langste sandwich met 'rillettes' ter wereld gemaakt.",
+              "C": "Ze hebben een record aantal sandwiches opgegeten voor een goed doel.",
+              "D": "Ze hebben een stokbrood van 100 meter gebakken."
+            },
+            "correct_antwoord": "B",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 23,
+            "tekst_id": "tekst8",
+            "opgave_titel": "Tekst 8 Un artiste qui mélange art et recyclage",
+            "vraagtekst": "Qu'est-ce qu'on peut lire au premier alinéa ?",
+            "type": "mc",
+            "opties": {
+              "A": "comment Mounou fait ses tableaux",
+              "B": "pourquoi Mounou aime les tableaux colorés",
+              "C": "que Mounou a toujours voulu faire des tableaux"
+            },
+            "correct_antwoord": "A",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 24,
+            "tekst_id": "tekst8",
+            "opgave_titel": "Tekst 8 Un artiste qui mélange art et recyclage",
+            "vraagtekst": "Geef van elk onderwerp aan of Mounou het uitbeeldt in zijn werk volgens alinea 2.\n1 jongeren uit Ivoorkust\n2 hongersnood in Afrika\n3 misdaad en geweld\n4 gelukkige kinderen\n\nOmcirkel 'wel' of 'niet' achter elk nummer in de uitwerkbijlage.",
+            "type": "wel_niet",
+            "beweringen": [
+              "jongeren uit Ivoorkust",
+              "hongersnood in Afrika",
+              "misdaad en geweld",
+              "gelukkige kinderen"
+            ],
+            "correct_antwoord": [
+              "wel",
+              "niet",
+              "wel",
+              "wel"
+            ],
+            "max_score": 2
+          },
+          {
+            "vraag_id": 25,
+            "tekst_id": "tekst8",
+            "opgave_titel": "Tekst 8 Un artiste qui mélange art et recyclage",
+            "vraagtekst": "Mounou noemt in alinea 3 twee manieren waarop mensen kunnen bijdragen aan de toekomst van de planeet.\n→ Noteer deze twee manieren in de uitwerkbijlage.",
+            "type": "open",
+            "correct_antwoord": "(je) afval scheiden en (zo veel mogelijk) recyclen",
+            "max_score": 2
+          },
+          {
+            "vraag_id": 26,
+            "tekst_id": "tekst8",
+            "opgave_titel": "Tekst 8 Un artiste qui mélange art et recyclage",
+            "vraagtekst": "Pourquoi est-ce que Mounou utilise de vieux téléphones portables pour faire ses tableaux d'après le 4ème alinéa ?",
+            "type": "mc",
+            "opties": {
+              "A": "pour attirer l'attention sur les risques du recyclage",
+              "B": "pour informer sur le problème des déchets électroniques",
+              "C": "pour stimuler l'achat des produits électroniques"
+            },
+            "correct_antwoord": "B",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 27,
+            "tekst_id": "tekst8",
+            "opgave_titel": "Tekst 8 Un artiste qui mélange art et recyclage",
+            "vraagtekst": "\"plus de 20 000 téléphones\" (regel 41)\n\n→ Hoe komt Mounou aan al die gebruikte telefoons?\nGeef van elk antwoord aan of dit genoemd wordt in de laatste alinea.\n1 Hij vindt ze op plekken waar afval wordt verzameld.\n2 Hij verzamelt ze in verschillende Afrikaanse landen.\n3 Hij krijgt ze van inwoners uit zijn stad.\n\nOmcirkel 'wel' of 'niet' achter elk nummer in de uitwerkbijlage.",
+            "type": "wel_niet",
+            "beweringen": [
+              "Hij vindt ze op plekken waar afval wordt verzameld.",
+              "Hij verzamelt ze in verschillende Afrikaanse landen.",
+              "Hij krijgt ze van inwoners uit zijn stad."
+            ],
+            "correct_antwoord": [
+              "wel",
+              "wel",
+              "wel"
+            ],
+            "max_score": 2
+          },
+          {
+            "vraag_id": 28,
+            "tekst_id": "tekst9",
+            "opgave_titel": "Tekst 9 Une très belle aventure",
+            "vraagtekst": "Qu'est-ce qu'Anouk raconte au premier alinéa sur le voyage qu'elle a fait avec ses parents?\nElle parle",
+            "type": "mc",
+            "opties": {
+              "A": "de la durée du voyage.",
+              "B": "de l'objectif du voyage.",
+              "C": "du transport pendant le voyage."
+            },
+            "correct_antwoord": "B",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 29,
+            "tekst_id": "tekst9",
+            "opgave_titel": "Tekst 9 Une très belle aventure",
+            "vraagtekst": "Wat past op de open plek in alinea 2?",
+            "type": "mc",
+            "opties": {
+              "A": "Ainsi,",
+              "B": "En plus,",
+              "C": "Mais",
+              "D": "Par exemple,"
+            },
+            "correct_antwoord": "C",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 30,
+            "tekst_id": "tekst9",
+            "opgave_titel": "Tekst 9 Une très belle aventure",
+            "vraagtekst": "Qu'est-ce qu'on apprend au 3ème alinéa sur le voyage d'Anouk et ses parents?",
+            "type": "mc",
+            "opties": {
+              "A": "combien de kilomètres ils ont roulé au total",
+              "B": "quelles attractions touristiques ils ont visitées",
+              "C": "qu'il a fait beau tout le temps",
+              "D": "qu'ils ont dormi au camping et dans des appartements"
+            },
+            "correct_antwoord": "D",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 31,
+            "tekst_id": "tekst9",
+            "opgave_titel": "Tekst 9 Une très belle aventure",
+            "vraagtekst": "<<<< Warmshower et Couchsurfing >>> (regels 29-30)\n\nAnouk noemt in alinea 4 enkele voordelen van het gebruik van deze apps.\n→ Schrijf twee van deze voordelen op in de uitwerkbijlage.",
+            "type": "open",
+            "correct_antwoord": "(gratis) onderdak/overnachten, warm(e) onthaal/ontvangst, leuke/mooie ontmoetingen / Je ontmoet leuke mensen, plaatselijke gerechten eten/leren kennen / kennismaken met de plaatselijke keuken",
+            "max_score": 2
+          },
+          {
+            "vraag_id": 32,
+            "tekst_id": "tekst9",
+            "opgave_titel": "Tekst 9 Une très belle aventure",
+            "vraagtekst": "Qu'est-ce qu'on ne lit pas au dernier alinéa ?",
+            "type": "mc",
+            "opties": {
+              "A": "pourquoi Anouk et ses parents ont aimé les Pays-Bas",
+              "B": "quand Anouk et ses parents sont revenus chez eux",
+              "C": "que le voyage d'Anouk et ses parents était agréable",
+              "D": "quels pays Anouk et ses parents ont visités"
+            },
+            "correct_antwoord": "A",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 33,
+            "tekst_id": "tekst10",
+            "opgave_titel": "Tekst 10 La course en chaise de bureau",
+            "vraagtekst": "Qu'est-ce qu'on lit sur la course en chaise de bureau au premier alinéa ?",
+            "type": "mc",
+            "opties": {
+              "A": "depuis quand on organise la course.",
+              "B": "pourquoi les Japonais aiment beaucoup la course.",
+              "C": "que la course est aussi populaire que la Formule 1.",
+              "D": "quelles villes organisent la course."
+            },
+            "correct_antwoord": "A",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 34,
+            "tekst_id": "tekst10",
+            "opgave_titel": "Tekst 10 La course en chaise de bureau",
+            "vraagtekst": "Geef van elke bewering aan of die overeenkomt met alinea 2.\n1 Tijdens de wedstrijden gebeuren er veel ongelukken.\n2 Er is een minimumleeftijd om te mogen deelnemen.\n3 De deelnemers moeten zo veel mogelijk rondjes over het parcours rijden.\n\nOmcirkel 'wel' of 'niet' achter elk nummer in de uitwerkbijlage.",
+            "type": "wel_niet",
+            "beweringen": [
+              "Tijdens de wedstrijden gebeuren er veel ongelukken.",
+              "Er is een minimumleeftijd om te mogen deelnemen.",
+              "De deelnemers moeten zo veel mogelijk rondjes over het parcours rijden."
+            ],
+            "correct_antwoord": [
+              "wel",
+              "niet",
+              "wel"
+            ],
+            "max_score": 2
+          },
+          {
+            "vraag_id": 35,
+            "tekst_id": "tekst10",
+            "opgave_titel": "Tekst 10 La course en chaise de bureau",
+            "vraagtekst": "Wat past op de open plek in de laatste alinea?",
+            "type": "mc",
+            "opties": {
+              "A": "Ainsi,",
+              "B": "Cependant,",
+              "C": "Malheureusement,",
+              "D": "Par exemple,"
+            },
+            "correct_antwoord": "A",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 36,
+            "tekst_id": "tekst11",
+            "opgave_titel": "Tekst 11 « La danse, c'est ma passion »",
+            "vraagtekst": "Qu'est-ce qu'on apprend sur Marie au premier alinéa ?",
+            "type": "mc",
+            "opties": {
+              "A": "Elle est assez grande pour une danseuse.",
+              "B": "Elle rêve de suivre des cours au Conservatoire de Paris.",
+              "C": "Elle travaille dur pour combiner la danse et l'école.",
+              "D": "Elle veut participer dans un film comme danseuse."
+            },
+            "correct_antwoord": "C",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 37,
+            "tekst_id": "tekst11",
+            "opgave_titel": "Tekst 11 « La danse, c'est ma passion »",
+            "vraagtekst": "Qu'est-ce qui est vrai d'après le 2ème alinéa ?",
+            "type": "mc",
+            "opties": {
+              "A": "Le frère de Marie fait aussi du ballet.",
+              "B": "Marie doit faire attention avec ce qu'elle mange.",
+              "C": "Marie fait souvent du ski avec ses copines."
+            },
+            "correct_antwoord": "B",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 38,
+            "tekst_id": "tekst11",
+            "opgave_titel": "Tekst 11 « La danse, c'est ma passion »",
+            "vraagtekst": "Qu'est-ce que Marie raconte sur le film « Petites danseuses » au dernier alinéa ?",
+            "type": "mc",
+            "opties": {
+              "A": "Au début du tournage de ce film, elle était très nerveuse d'être filmée.",
+              "B": "Elle n'a pas du tout aimé le rôle qu'elle joue dans ce film.",
+              "C": "Finalement, elle était contente d'avoir participé à ce film."
+            },
+            "correct_antwoord": "C",
+            "max_score": 1
+          },
+          {
+            "vraag_id": 39,
+            "tekst_id": "tekst12",
+            "opgave_titel": "Tekst 12 La télé, c'est démodé ?",
+            "vraagtekst": "Lees eerst de opgave voordat je naar de tekst gaat.\n\nWie zegt wat over tv-kijken?\nMaak de juiste combinaties.\n1 Charlie\n2 Lucie\n3 Jean\na Samen tv-kijken is leuk en er is veel keuze op tv.\nb In plaats van tv-kijken game ik liever online met vrienden.\nc Tv-kijken vind ik wel leuk, maar ik kijk niet vaak.\n\nSchrijf in de uitwerkbijlage de juiste letter achter elke naam.",
+            "type": "open",
+            "correct_antwoord": "1: c, 2: b, 3: a",
+            "max_score": 2
+          },
+          {
+            "vraag_id": 40,
+            "tekst_id": "tekst13",
+            "opgave_titel": "Tekst 13 Une rencontre extraordinaire",
+            "vraagtekst": "Welke informatie staat in deze tekst?",
+            "type": "mc",
+            "opties": {
+              "A": "hoe de beer is ontsnapt uit de dierentuin",
+              "B": "hoe lang de beer in de tuin van de familie Dupont was",
+              "C": "waarom de beer zo gevaarlijk was",
+              "D": "wie de beer heeft teruggebracht naar de dierentuin"
+            },
+            "correct_antwoord": "D",
+            "max_score": 1
+          }
+        ]
+      }

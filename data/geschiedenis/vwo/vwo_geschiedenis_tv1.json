@@ -1,0 +1,300 @@
+{
+    "examen_info": {
+      "vak": "geschiedenis",
+      "niveau": "vwo",
+      "tijdvak": "TV1",
+      "jaar": 2024
+    },
+    "opgaven": [
+      {
+        "opgave_nr": 1,
+        "opgave_titel": "Door de tijd heen",
+        "vragen": [
+          {
+            "id": 1,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De volgende koningen die een bijnaam hadden, staan in willekeurige volgorde:</p><ol><li>De Franse koning Filips IV, die 'de Schone' werd genoemd vanwege zijn knappe uiterlijk, raakte twee jaar na de Guldensporenslag tijdens een veldslag met Vlaamse legers zwaargewond.</li><li>De Portugese koning Manuel I werd 'de Gelukkige' genoemd. Hij financierde onder andere de reis van Vasco da Gama, die als eerste Europeaan een zeeroute naar India ontdekte.</li><li>Frederik I werd 'de Winterkoning' genoemd omdat hij na een nederlaag tijdens de Dertigjarige Oorlog al na één winter moest vertrekken uit zijn koninkrijk Bohemen.</li><li>Joseph Bonaparte, de oudere broer van Napoleon, werd koning van Spanje. De Spanjaarden noemden hem 'Joseph het Drankorgel'.</li><li>Koning Harald, die 'Blauwtand' werd genoemd vanwege een rotte tand, verenigde de volken in zijn Deense rijk en bekeerde zich tot het christendom.</li><li>Koning Lodewijk XVI werd 'Meneer Veto' genoemd omdat hij de meeste voorstellen van het Franse parlement afwees.</li></ol>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Zet de koningen in de juiste chronologische volgorde, van vroeger naar later. Noteer alleen de nummers.</p>",
+            "correct_antwoord_model": "<p>De juiste volgorde is:</p><p><strong>5, 1, 2, 3, 6, 4</strong></p><p><strong>Opmerking</strong></p><p>Als door het weglaten van één foutief geplaatst nummer een verder complete en foutloze reeks ontstaat, wordt 1 scorepunt toegekend.</p>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 2,
+        "opgave_titel": "Prehistorie en oudheid",
+        "vragen": [
+          {
+            "id": 2,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 1</strong></p><p>Omstreeks 316 schrijft de christelijke schrijver Lactantius het boek De dood van de christenvervolgers. Hierin staat over de Romeinse keizer Valerianus¹):</p><p>Nadat hij [Valerianus] door de Perzen gevangen was genomen, verloor hij niet alleen de macht die hij zo grenzeloos had uitgeoefend, maar ook de vrijheid waarvan hij anderen had beroofd. Hij sleet de rest van zijn leven in de meest verachtelijke slavernij. Want telkens wanneer Sjapoer, de Perzische koning die hem gevangen had genomen, in zijn rijtuig of op zijn paard wilde stappen, beval hij de Romein om te knielen en zijn rug te presenteren. Als hij dan zijn voet op de schouders van Valerianus zette, zei hij vervolgens met een afkeurende glimlach: \"Dít is hoe het is, en niet wat de Romeinen in stenen of muren graveren.\"</p><p>noot 1 Keizer Valerianus (ca. 200 ca. 260) laat tijdens zijn regeerperiode christenen vervolgen.</p><p>Een bewering:</p><p>Door de boodschap die Lactantius met zijn boek wil overbrengen, is de beschrijving van de behandeling van Valerianus minder betrouwbaar.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 1.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg deze bewering uit.</p>",
+            "correct_antwoord_model": "<p>Kern van een juist antwoord is:</p><p>Lactantius wil met zijn boek De dood van de christenvervolgers de boodschap overbrengen dat het vervolgen van christenen bestraft zal worden / dat een vervolger van christenen een slecht heerser is, zodat Lactantius mogelijk de vernedering van Valerianus (die christenen liet vervolgen) overdrijft.</p><p><strong>Opmerking</strong></p><p>Alleen als in het antwoord wordt aangegeven op welke manier de boodschap de beschrijving minder betrouwbaar maakt, worden scorepunten toegekend.</p>"
+          },
+          {
+            "id": 3,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 1</strong></p><p>Omstreeks 316 schrijft de christelijke schrijver Lactantius het boek De dood van de christenvervolgers. Hierin staat over de Romeinse keizer Valerianus¹):</p><p>Nadat hij [Valerianus] door de Perzen gevangen was genomen, verloor hij niet alleen de macht die hij zo grenzeloos had uitgeoefend, maar ook de vrijheid waarvan hij anderen had beroofd. Hij sleet de rest van zijn leven in de meest verachtelijke slavernij. Want telkens wanneer Sjapoer, de Perzische koning die hem gevangen had genomen, in zijn rijtuig of op zijn paard wilde stappen, beval hij de Romein om te knielen en zijn rug te presenteren. Als hij dan zijn voet op de schouders van Valerianus zette, zei hij vervolgens met een afkeurende glimlach: \"Dít is hoe het is, en niet wat de Romeinen in stenen of muren graveren.\"</p><p>noot 1 Keizer Valerianus (ca. 200 ca. 260) laat tijdens zijn regeerperiode christenen vervolgen.</p><p>Twee gegevens over een reliëf dat Koning Sjapoer (zie bron 1) liet aanbrengen in een rotswand vlak bij de hoofdstad van zijn rijk:</p><ol><li>Het reliëf werd gemaakt naar voorbeeld van een Romeinse afbeelding van keizer Marcus Aurelius (121-180).</li><li>Het reliëf toonde Sjapoer te paard met Valerianus knielend voor hem.</li></ol>",
+            "bronverwijzing_tekst": "(zie bron 1)",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Geef:</p><ul><li>voor gegeven 1 aan welk kenmerkend aspect je daarmee kunt illustreren, en</li><li>met gegeven 2 aan welke propagandaboodschap Sjapoer daarmee wilde overbrengen aan zijn volk.</li></ul>",
+            "correct_antwoord_model": "<p>Kern van een juist antwoord is:</p><ul><li>Met een afbeelding die is gemaakt naar voorbeeld van een Romeinse afbeelding (in het Perzische rijk) kun je 'de klassieke vormentaal' / '(de groei van het Romeinse imperium) waardoor de Grieks-Romeinse cultuur zich verspreidde' illustreren. (1 punt)</li><li>Sjapoer wilde aan zijn volk overbrengen dat hij machtiger was dan de Romeinen/Romeinse keizer / dat hij zijn rijk succesvol verdedigde tegen de Romeinen/Romeinse keizer. (1 punt)</li></ul><p><strong>Opmerking</strong></p><p>Alleen als het antwoord op de tweede deelvraag een boodschap bevat die specifiek ingaat op de verhouding ten opzichte van de Romeinen/Romeinse keizer, wordt 1 scorepunt toegekend.</p>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 3,
+        "opgave_titel": "De middeleeuwen",
+        "vragen": [
+          {
+            "id": 4,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 2</strong></p><p>In de negende eeuw wordt in een klooster in Frankrijk een geïllustreerd psalmenboek gemaakt waar deze tekening in staat:</p><p><strong>Toelichting:</strong></p><p>In het boek staat bij alle 150 psalmen uit de Bijbel een tekening die afbeeldt waar het lied over gaat. Deze tekening hoort bij psalm 44, waarin God gevraagd wordt wakker te worden om zijn volk, dat wordt aangevallen, te beschermen.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 2.",
+            "bron_verwijzing": "vwo_geschiedenis_tv1_vraag4_bron2.png",
+            "vraagtekst_html": "<p>De maker heeft zich bij het vervaardigen van deze tekening waarschijnlijk gebaseerd op Romeinse voorbeelden van steden.</p><p>Licht deze tekening toe door:</p><ul><li>met een kenmerkend aspect uit de vroege middeleeuwen uit te leggen waardoor het waarschijnlijk is dat de maker zich baseert op een voorbeeld van een Romeinse stad bij het vervaardigen van deze tekening, en</li><li>te verklaren waardoor een boek zoals dit psalmenboek de verspreiding van het christendom bevordert.</li></ul>",
+            "correct_antwoord_model": "<p>Kern van een juist antwoord is:</p><ul><li>Door 'de vrijwel volledige vervanging in West-Europa van de agrarisch-urbane cultuur door een zelfvoorzienende agrarische cultuur, georganiseerd via hofstelsel en horigheid' raken in de vroege middeleeuwen veel steden in verval / nemen steden in omvang af / worden geen grote steden gebouwd (wat aannemelijk maakt dat de tekenaar zich voor de afbeelding baseert op Romeinse voorbeelden van steden). (2 punten)</li><li>Boeken met illustraties bij psalmen (zoals deze bron) maken het makkelijker om de teksten te onthouden (wat de verspreiding van het christendom bevordert). (1 punt)</li></ul><p><strong>Opmerking</strong></p><p>Alleen als het antwoord op de eerste deelvraag een combinatie bevat van een juist kenmerkend aspect en een daarbij passende juiste verklaring voor het zich baseren op een Romeins voorbeeld van een stad, worden scorepunten toegekend.</p>"
+          },
+          {
+            "id": 5,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 3</strong></p><p>Op 2 maart 1127 wordt in Brugge de Vlaamse graaf Karel de Goede vermoord. De klerk Galbert van Brugge schrijft:</p><p>Het was in de periode dat de kooplieden uit alle rijken rond Vlaanderen op het feest van Sint-Pietersstoel waren bijeengekomen te Ieper¹), waar markt werd gehouden en de grote jaarmarkt plaatsvond (...). Er waren op dat moment kooplieden uit Lombardije²) naar de markt gekomen bij wie de graaf voor eenentwintig mark een zilveren kan had gekocht die op een wonderbaarlijke manier vervaardigd was. Toen op die drukke markt het nieuws [van de moord] al die mensen uit vele streken deed opschrikken, pakten zij hun waren bijeen en vluchtten weg. Het gerucht dat ons land berucht maakte, droegen ze met zich mee en ze vertelden het overal rond.</p><p>noot 1 een Vlaamse stad</p><p>noot 2 streek in Noord-Italië</p><p>Deze beschrijving is bruikbaar voor een onderzoek naar de Vlaamse economie in de twaalfde eeuw.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 3.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Toon dit aan door:</p><ul><li>aan te geven dat de beschrijving past bij de economische positie van Vlaanderen in die tijd, en</li><li>uit te leggen welke voorwaarde voor succesvol handeldrijven je aan de beschrijving kunt ontlenen.</li></ul>",
+            "correct_antwoord_model": "<p>Voorbeeld van een juist antwoord is:</p><ul><li>De beschrijving van de jaarmarkt / de aanwezigheid van buitenlandse kooplieden past bij de positie van Vlaanderen in de twaalfde eeuw als onderdeel van een internationaal handelsnetwerk. (1 punt)</li><li>Je kunt aan de beschrijving ontlenen dat politieke rust/stabiliteit / bescherming voor handelaren door een landsheer een voorwaarde is voor succesvol handeldrijven, omdat Galbert schrijft dat de moord de jaarmarkt meteen verstoort / dat handelaren het nieuws van de moord belangrijk genoeg vinden om overal te vertellen (en zo Vlaanderen berucht te maken). (2 punten)</li></ul><p><strong>Opmerking</strong></p><p>Als bij de eerste deelvraag alleen wordt ingegaan op de aanwezigheid van de jaarmarkt/handel / op economische voorspoed, wordt geen scorepunt toegekend (omdat dit niet ingaat op de positie van Vlaanderen in het internationale handelsnetwerk).</p>"
+          },
+          {
+            "id": 6,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De schatrijke Italiaanse bankier Giovanni Arnolfini vestigde zich in Brugge. Rond 1461 besloot de Bourgondische hertog Filips de Goede om Arnolfini een belangrijke functie aan zijn hof te geven en hem te benoemen in een ridderorde.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Beredeneer:</p><ul><li>op welke wijze Arnolfini als bankier een positie kreeg die ertoe leidde dat Filips de Goede hem een belangrijke functie gaf aan het hof, en</li><li>welk politiek motief Filips de Goede had voor de benoeming van Arnolfini in een ridderorde.</li></ul>",
+            "correct_antwoord_model": "<p>Voorbeeld van een juist antwoord is:</p><ul><li>Als bankier kon Arnolfini leningen/voorschotten geven aan Filips de Goede waardoor hij werd beloond met een functie aan het hof / zodat Filips de Goede hoopte op meer leningen in ruil voor de benoeming. (1 punt)</li><li>Met de benoeming in een ridderorde zorgde Filips de Goede ervoor dat Arnolfini de status kreeg die paste bij het hof / liet Filips de Goede zien dat hij trouwe medewerkers beloonde / met de benoeming van patriciër tot ridder verminderde Filips de Goede de macht/invloed van de adel. (1 punt)</li></ul>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 4,
+        "opgave_titel": "Vroegmoderne tijd",
+        "vragen": [
+          {
+            "id": 7,
+            "max_score": 4,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 4</strong></p><p>De Spanjaard Fernández de Oviedo (1478-1557) beschrijft de natuur en bevolking van Amerika:</p><p>Op de vraag waarom ze die vorst de cacique¹) of de 'Gouden Koning' noemen, zeggen de Spanjaarden dat ze in Quito²) zijn geweest en hier (...) van de bevolking hebben gehoord dat die machtige heer of vorst voortdurend bedekt is met fijngemalen goud (...). Dat hij met goud wordt bestrooid, is een ongebruikelijke en dure zaak, want wat dagelijks in de ochtend wordt aangebracht, wordt 's avonds weer afgewassen en gaat op de grond verloren. (...) Hij wordt elke ochtend ingesmeerd met een bepaalde hars of welriekende vloeistof en daarop wordt het goudpoeder geplakt. Zijn hele lichaam is van top tot teen bedekt met goud, en zo schitterend alsof het een sieraad was, gemaakt door een groot ambachtsman.</p><p>noot 1 Een cacique is een stamhoofd.</p><p>noot 2 in het huidige Equador</p><p>Met deze beschrijving kun je een verklaring geven voor het veranderde wereldbeeld in Europa en voor de snelle Europese expansie.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 4.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit, telkens met een verwijzing naar de bron:</p><ul><li>aan welke verandering in het wereldbeeld in Europa de beschrijving bijdraagt, en</li><li>dat de beschrijving bijdraagt aan de snelle Europese expansie.</li></ul>",
+            "correct_antwoord_model": "<p>Voorbeeld van een juist antwoord is:</p><ul><li>Door de beschrijving krijgen Europeanen informatie over de (hoogstaande) cultuur in Amerika / ontdekken Europeanen dat er een cultuur bestaat waar zij nog nooit van hebben gehoord, wat bijdraagt aan het aanpassen van het eurocentrisch (of een omschrijving daarvan) wereldbeeld. (2 punten)</li><li>In de beschrijving wordt verteld over een opperhoofd dat een grote hoeveelheid goudpoeder heeft, zodat Europeanen haastig/in groten getale naar Amerika trekken om mee te profiteren van deze rijkdom (wat bijdraagt aan de snelle Europese expansie). (2 punten)</li></ul><p><strong>Opmerking</strong></p><p>Alleen als het antwoord telkens een combinatie bevat van een juist voorbeeld van (bij de eerste deelvraag) een verandering van wereldbeeld en (bij de tweede deelvraag) uitleg voor de snelle expansie en een daarbij passende verwijzing naar de bron, worden scorepunten toegekend.</p>"
+          },
+          {
+            "id": 8,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 1</strong></p><p>Omstreeks 316 schrijft de christelijke schrijver Lactantius het boek De dood van de christenvervolgers. Hierin staat over de Romeinse keizer Valerianus¹):</p><p>Nadat hij [Valerianus] door de Perzen gevangen was genomen, verloor hij niet alleen de macht die hij zo grenzeloos had uitgeoefend, maar ook de vrijheid waarvan hij anderen had beroofd. Hij sleet de rest van zijn leven in de meest verachtelijke slavernij. Want telkens wanneer Sjapoer, de Perzische koning die hem gevangen had genomen, in zijn rijtuig of op zijn paard wilde stappen, beval hij de Romein om te knielen en zijn rug te presenteren. Als hij dan zijn voet op de schouders van Valerianus zette, zei hij vervolgens met een afkeurende glimlach: \"Dít is hoe het is, en niet wat de Romeinen in stenen of muren graveren.\"</p><p>noot 1 Keizer Valerianus (ca. 200 ca. 260) laat tijdens zijn regeerperiode christenen vervolgen.</p><p>In 1521 kwam in Bazel (het huidige Zwitserland) het stadsbestuur, dat tot dan toe bestond uit patriciërs, in handen van de gilden. Het nieuwe stadsbestuur liet het stadhuis herinrichten en daarbij een muurschildering aanbrengen van het verhaal dat Lactantius schreef over koning Sjapoer en keizer Valerianus (zie bron 1).</p>",
+            "bronverwijzing_tekst": "(zie bron 1)",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Verklaar de keuze voor dit verhaal door:</p><ul><li>uit te leggen dat het uitgangspunt van bonum commune paste bij de politieke boodschap die het stadsbestuur wilde overbrengen met dit verhaal, en</li><li>aan te geven dat de keuze voor dit verhaal paste bij de Renaissance.</li></ul>",
+            "correct_antwoord_model": "<p>Voorbeeld van een juist antwoord is:</p><ul><li>Een uitgangspunt van bonum commune was dat bestuur zich moest inzetten voor het algemene goed/het welzijn van het volk, zodat het stadsbestuur de politieke boodschap wilde overbrengen dat een bestuurder die de burgers benadeelde, bestraft werd (net als Valerianus). (2 punten)</li><li>De keuze voor een afbeelding van een verhaal uit de Oudheid paste bij de 'heroriëntatie op de klassieke oudheid' / bij de interesse in de klassieke oudheid (tijdens de Renaissance). (1 punt)</li></ul><p><strong>Opmerking</strong></p><p>Alleen als het antwoord op de eerste deelvraag een combinatie bevat van een juist uitgangspunt van bonum commune met een daarbij passende politieke boodschap van het stadsbestuur, worden scorepunten toegekend.</p>"
+          },
+          {
+            "id": 9,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p>Een anekdote:</p><p>In 1679 verzochten regenten van het gewest Utrecht aan stadhouder Willem III om tijdens een bijeenkomst de belangrijkste bestuursfuncties in het gewest te verdelen. Hij moest hiervoor briefjes uit een hoed trekken en ongezien uitdelen aan de verschillende regenten. De functie die op het briefje stond werd aan de regent toegewezen.</p><p>Met deze anekdote kun je verandering en continuïteit aantonen in het bestuur van de gewesten van de Republiek.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Licht dit toe door:</p><ul><li>aan te tonen dat deze werkwijze oligarchisering versterkte, en</li><li>uit te leggen welke gewestelijke politieke continuïteit werd gehandhaafd door dit verzoek van de regenten.</li></ul>",
+            "correct_antwoord_model": "<p>Kern van een juist antwoord is:</p><ul><li>Deze manier van verdelen versterkte oligarchisering omdat de bestuursfuncties alleen onder (een beperkte groep) regenten (families) werden verdeeld. (1 punt)</li><li>Met dit verzoek voorkwamen de regenten dat de stadhouder werkelijk invloed had op de verdeling van de functies in het gewest, waarmee het particularisme (of een juiste omschrijving hiervan) werd gehandhaafd. (2 punten)</li></ul><p><strong>Opmerking</strong></p><p>Alleen als het antwoord op de tweede deelvraag een combinatie bevat van een juist voorbeeld van gewestelijke politieke continuïteit en een verwijzing naar het uitsluiten van de stadhouder, worden scorepunten toegekend.</p>"
+          },
+          {
+            "id": 10,
+            "max_score": 4,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 5</strong></p><p>In 1772 kondigt het Britse bestuur aan dat salarissen van rechters in Amerika vanaf dan betaald zullen worden door de Britse kroon (koning). Hierop schrijft een groep politici en andere invloedrijke mannen uit de stad Boston in een pamflet:</p><p>Deze zaak¹) is er één van algemene zorg, en de stad Boston vond het noodzakelijk om haar broeders overal in de provincie te consulteren; en heeft hiervoor een comité opgericht om te corresponderen met diegenen die ook last hebben van dit laatste voorbeeld van onderdrukking (...) [in dit document] heeft het comité kort uiteengezet welke onvervreemdbare rechten we hebben als mensen, als christenen en als onderdanen; en op welk vlak deze onvervreemdbare rechten geschonden zijn; hetwelk we graag willen voorleggen aan de stad, zodat dit onderwerp kan worden behandeld met de aandacht die het verdient.</p><p>noot 1 De aankondiging dat de salarissen van rechters betaald zullen worden door de Britse kroon.</p><p>Dit pamflet is de start van het committee of correspondence in Boston.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 5.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Geef aan:</p><ol><li>welke bijdrage committees of correspondence leveren aan de Amerikaanse onafhankelijkheidsstrijd, en</li><li>welke kritiek te geven is op de aangekondigde maatregel vanuit de ideeën van Montesquieu, en</li><li>met een verwijzing naar het pamflet, welk ander verlichtingsidee het committee of correspondence in Boston onderschrijft.</li></ol>",
+            "correct_antwoord_model": "<p>Kern van een juist antwoord is:</p><ol><li>Door de committees of correspondence wordt het verzet tegen de Britten gecoördineerd/geïnitieerd / groeit het verzet tegen de Britten (omdat revolutionairen in verschillende steden met elkaar in contact komen/blijven). (1 punt)</li><li>Als kritiek is te geven dat als de Britse Kroon (de uitvoerende macht) de rechters (de rechterlijke macht) betaalt, er geen sprake is van scheiding der machten (omdat de rechters onder invloed komen van de uitvoerende macht). (1 punt)</li><li>Het committee of correspondence in Boston onderschrijft het verlichtingsidee van natuurrechten, (1 punt) door te stellen dat mensen/christenen/onderdanen onvervreemdbare rechten hebben. (1 punt)</li></ol><p><strong>Opmerking</strong></p><p>Alleen als bij de derde deelvraag een juist verlichtingsidee wordt genoemd, wordt 1 scorepunt toegekend aan een daarbij passende verwijzing naar het pamflet.</p>"
+          },
+          {
+            "id": 11,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 6</strong></p><p>Op 21 april 1787 vindt een grote demonstratie plaats in Amsterdam, waarna de demonstranten in een petitie aan het stadsbestuur schrijven:</p><p>De noodlottige oorzaak van de rampen die ons land treffen, moet niet uitsluitend worden gezocht in de veel te sterk toegenomen macht en invloed van de stadhouder, die ver is uitgestegen boven de oorspronkelijke bedoelingen, maar vooral in het ontbreken van een gezonde, grondwettelijke relatie tussen de burgers en hun bestuurders.</p><p>Je kunt met deze petitie verschillende kenmerkende aspecten van de achttiende eeuw illustreren.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 6.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Toon dit aan voor twee kenmerkende aspecten van de achttiende eeuw.</p>",
+            "correct_antwoord_model": "<p>Kern van een juist antwoord is:</p><p>Het standpunt van de demonstranten dat de stadhouder veel macht heeft gekregen / dat de slechte staat van het land te wijten is aan het gebrek aan een grondwettelijke relatie tussen burgers en bestuurders, past bij:</p><ul><li>'rationeel optimisme en een 'verlicht denken' dat wordt toegepast op alle terreinen van de samenleving: godsdienst, politiek, economie en sociale verhoudingen'. (1 punt)</li><li>'de democratische revoluties in westerse landen met als gevolg discussies over grondwetten, grondrechten en staatsburgerschap'. (1 punt)</li></ul>"
+          },
+          {
+            "id": 12,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 7</strong></p><p>Prent uit 1800 van de Franse graveur Chataignier met de titel De steun en toeverlaat van Frankrijk:</p><p><strong>Toelichting:</strong></p><p>De man in het midden is Napoleon Bonaparte. De vrouw links van hem staat symbool voor Frankrijk. De man linksonder staat symbool voor onwetendheid in de samenleving. De man rechtsonder stelt het 'revolutionaire fanatisme' voor. Linksboven vliegt de Godin van de Roem. De vrouwen rechts dragen de symbolen voor rechtvaardigheid, eenheid, vrede en overvloed.</p><p>Chataignier geeft een mening weer over een recente verandering in het bestuur van Frankrijk.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 7.",
+            "bron_verwijzing": "vwo_geschiedenis_tv1_vraag12_bron7.png",
+            "vraagtekst_html": "<p>Geef aan:</p><ul><li>naar aanleiding van welke bestuurlijke verandering de prent is gemaakt, en</li><li>welke mening Chataignier over deze verandering weergeeft, waarbij je je antwoord ondersteunt met een verwijzing naar de prent.</li></ul>",
+            "correct_antwoord_model": "<p>Voorbeeld van een juist antwoord is:</p><ul><li>De prent is gemaakt nadat het bestuur van Frankrijk door Napoleon is overgenomen / Napoleon het Directoire afschaft. (1 punt)</li><li>De mening die Chataignier weergeeft is dat Frankrijk/het Franse volk door de machtsovername van Napoleon gered wordt / een beter leider/bestuur krijgt, (1 punt) door (een van de volgende):<ul><li>af te beelden dat Napoleon Frankrijk richting gerechtigheid / eenheid / vrede / overvloed leidt.</li><li>af te beelden dat Napoleon voorkomt dat Frankrijk door het 'revolutionaire fanatisme'/onwetendheid in de samenleving in de afgrond wordt getrokken.</li><li>Napoleon 'steun en toeverlaat van Frankrijk' te noemen. (1 punt)</li></ul></li></ul><p><strong>Opmerking</strong></p><p>Alleen als het antwoord op de tweede deelvraag een juiste mening van Chataignier bevat, wordt 1 scorepunt toegekend aan een daarbij passende verwijzing naar de prent.</p>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 5,
+        "opgave_titel": "Moderne tijd",
+        "vragen": [
+          {
+            "id": 13,
+            "max_score": 4,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 8</strong></p><p>In 1832 verschijnt in de Amerikaanse krant The Liberator een artikel met de titel \"Mannen, vrouwen en kinderen verkocht\":</p><p>Moeders - Vrouwen - Zusters - Ontwaakt! Wie van jullie is bereid de plek in te nemen van die Afrikaanse moeders? Kijk toe hoe haar baby van haar moederlijke boezem wordt gerukt en wordt weggedragen door schurken! Nooit zult u dit nog een keer willen zien! Echtgenoten die weg worden gerukt van hun jammerende partners, nu al gepijnigd door bloederige striemen! Geliefden die voor eeuwig van elkaar gescheiden worden en ver, ver weg zullen blijven! Harten bloeden terwijl ze stil moeten blijven! Maar ik wijs dit af. Ik richt mij tot uw harten, zusters!</p><p>Twee conclusies:</p><ol><li>The Liberator wil de abolitionistische beweging versterken.</li><li>De auteur gaat uit van het burgerlijk gezinsideaal.</li></ol>",
+            "bronverwijzing_tekst": "Gebruik bron 8.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Geef voor elke conclusie een argument, telkens met een verschillende verwijzing naar de bron.</p>",
+            "correct_antwoord_model": "<p>Voorbeeld van een juist antwoord is:</p><ul><li>The Liberator wil de lezer/Amerikaanse vrouwen overtuigen dat slavernij afgeschaft moet worden / aanmoedigen in verzet te komen tegen slavernij, (1 punt) door een artikel te plaatsen waarin (een van de volgende):<ul><li>de lezer wordt gevraagd of zij de plek van de Afrikaanse moeder zou willen innemen.</li><li>het verdriet/de gruwel van slavernij wordt beschreven zoals het wegnemen van baby's / het jammeren van geliefden / de bloederige striemen. (1 punt)</li></ul></li><li>De auteur gaat uit van het idee van het burgerlijk gezinsideaal waarbij vrouwen hun moederrol op zich nemen / het gezin als kern wordt gezien, (1 punt) door in het artikel af te wijzen dat slaafgemaakte moeders en kinderen worden gescheiden / gezinnen uit elkaar worden gerukt. (1 punt)</li></ul><p><strong>Opmerkingen</strong></p><p>Alleen als het antwoord (bij de eerste deelvraag) een juist argument over het versterken van de abolitionistische beweging en (bij de tweede deelvraag) over het burgerlijk gezinsideaal bevat, wordt 1 scorepunt toegekend aan een passende verwijzing naar de bron.</p><p>Als dezelfde verwijzing naar de bron tweemaal wordt gebruikt, wordt alleen aan het eerste gebruik 1 scorepunt toegekend.</p>"
+          },
+          {
+            "id": 14,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Drie gegevens over de Taiping-opstand in China:</p><ol><li>Hong, de leider van de opstand, noemde zichzelf 'Hemelse Koning' en liet een paleis bouwen.</li><li>De Taiping bestraften de handel in en het gebruik van opium met de dood.</li><li>De Taiping werden mede verslagen door een Europees leger onder leiding van een Britse generaal.</li></ol>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Verklaar:</p><ul><li>met een van de gegevens dat de Britten het belangrijk vonden de Taiping te bestrijden, en</li><li>met een ander gegeven dat het centrale gezag in China werd verzwakt.</li></ul><p>Let op: er blijft een gegeven over.</p>",
+            "correct_antwoord_model": "<p>Voorbeeld van een juist antwoord is:</p><ul><li>Door het bestraffen van de handel in/het gebruik van opium (gegeven 2) waren de Taiping een gevaar voor de Britse handel (waardoor de Britten het belangrijk vonden om de Taiping te bestrijden). (1 punt)</li><li>Door de samenwerking met de buitenlanders/buitenlandse troepen (gegeven 3) werd duidelijk dat de Qing-dynastie niet sterk genoeg was om de opstand te beëindigen / kon de Qing-dynastie de invloed van westerse landen niet langer buiten China houden (waardoor het centrale gezag verzwakte). (1 punt)<br><strong>of</strong><br>Door het uitroepen van zichzelf als 'Hemelse Koning' (gegeven 1) werd Hong gezien als een vervanger van de Qing-keizer (waardoor het centrale gezag verzwakte). (1 punt)</li></ul><p><strong>Opmerking</strong></p><p>Als hetzelfde gegeven tweemaal wordt gebruikt, wordt alleen aan de eerste juiste vermelding 1 scorepunt toegekend.</p>"
+          },
+          {
+            "id": 15,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Een geschiedenis:</p><p>In 1868 richtten arbeiders in Amsterdam de vereniging Bouwmaatschappij tot Verkrijging van Eigen Woningen op. Arbeiders die lid werden van deze vereniging legden elke week een klein geldbedrag in. Met dit geld werd er grond gekocht en werden huizen gebouwd.</p><p>De oprichting van de Bouwmaatschappij paste bij de kenmerkende aspecten 'de opkomst van emancipatiebewegingen' en bij 'discussies over de 'sociale kwestie\".</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Geef voor elk kenmerkend aspect apart aan waardoor de oprichting van de Bouwmaatschappij erbij paste.</p>",
+            "correct_antwoord_model": "<p>Voorbeeld van een juist antwoord is:</p><ul><li>De oprichting van de Bouwmaatschappij paste bij 'de opkomst van emancipatiebewegingen' omdat arbeiders zich hierdoor verenigden / zeggenschap kregen over hun woning / niet afhankelijk waren van fabriekseigenaren/kapitalisten. (1 punt)</li><li>De oprichting van de Bouwmaatschappij paste bij 'discussies over de 'sociale kwestie\" omdat de arbeiders hierdoor werkten aan een oplossing voor hun slechte (woon) omstandigheden. (1 punt)</li></ul>"
+          },
+          {
+            "id": 16,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 9</strong></p><p>Foto gemaakt in 1901 in de Verboden Stad, het paleis van de Chinese keizer:</p><p><strong>Toelichting:</strong></p><p>Op het plein staan de troepen van de Achtlandenalliantie, een militair verbond van verschillende westerse landen en Japan, die samen in China vechten.</p><p>De aanwezigheid van buitenlandse troepen gaat in tegen de Chinese traditie dat alleen de keizerlijke familie en hun bedienden de Verboden Stad mogen betreden.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 9.",
+            "bron_verwijzing": "vwo_geschiedenis_tv1_vraag16_bron9.png",
+            "vraagtekst_html": "<p>Licht dit toe door:</p><ul><li>vanuit het confucianisme te verklaren dat het iedereen die niet behoort tot de keizerlijke familie verboden is de Verboden Stad te betreden, en</li><li>met een historische gebeurtenis uit 1900 uit te leggen dat de Achtlandenalliantie besluit de Verboden Stad te betreden.</li></ul>",
+            "correct_antwoord_model": "<p>Kern van een juist antwoord is:</p><ul><li>Volgens het confucianisme is de keizer de vertegenwoordiger van god / de belichaming van god / in de hiërarchie de hoogste (zodat het burgers verboden is zich in zijn nabijheid te begeven). (1 punt)</li><li>In 1900 vindt de Bokseropstand plaats, waarna de Achtlandenalliantie de Verboden Stad besluit aan te vallen om de keizerlijke dynastie/Cixi te straffen vanwege de steun die Cixi aan de Bokseropstand geeft. (2 punten)</li></ul><p><strong>Opmerking</strong></p><p>Alleen als in het antwoord op de tweede deelvraag het besluit wordt verklaard vanuit de steun van de keizerin-weduwe/Cixi aan de Bokseropstand, worden scorepunten toegekend.</p>"
+          },
+          {
+            "id": 17,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 9</strong></p><p>Foto gemaakt in 1901 in de Verboden Stad, het paleis van de Chinese keizer:</p><p><strong>Toelichting:</strong></p><p>Op het plein staan de troepen van de Achtlandenalliantie, een militair verbond van verschillende westerse landen en Japan, die samen in China vechten.</p><p>Deze foto kan zowel door de Achtlandenalliantie als door de Chinese regering in hun propagandacampagnes worden gebruikt.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 9 opnieuw.",
+            "bron_verwijzing": "vwo_geschiedenis_tv1_vraag16_bron9.png",
+            "vraagtekst_html": "<p>Noem voor de Achtlandenalliantie en voor de Chinese regering de boodschap die zij met deze foto kunnen overbrengen.</p>",
+            "correct_antwoord_model": "<p>Voorbeeld van een juist antwoord is:</p><ul><li>De Achtlandenalliantie kan met deze foto de boodschap overbrengen dat de samenwerking succesvol is geweest / dat de Bokseropstand succesvol is neergeslagen / dat Cixi is aangepakt. (1 punt)</li><li>De Chinese regering kan met de foto de boodschap overbrengen dat de buitenlandse troepen moeten worden verslagen omdat ze geen eerbied hebben voor Chinese tradities / dat de buitenlandse troepen gevaarlijk zijn omdat zij al tot in de Verboden Stad zijn doorgedrongen / de keizerin wordt aangevallen/beledigd. (1 punt)</li></ul>"
+          },
+          {
+            "id": 18,
+            "max_score": 4,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 10</strong></p><p>In 1905 vechten Nederlandse troepen in de kolonie Nederlands-Indië tegen de vorst van Boni, een staat op het eiland Celebes (het huidige Sulawesi). Sergeant Zentgraaff schrijft voor het Bataviaasch Nieuwsblad over de gebeurtenissen na de overwinning van de Nederlanders:</p><p>Daar nadert de stoet: voorop de magere kapitein der Wadjorezen¹) [die als tolk was ingehuurd], dan de Rijksbestuurder²), oud en vervallen, steunende op een tweetal anderen, en daarna het hoofd der prinsen. Achter deze lopen, tandakkend³) en zwaaiend met vreemdsoortige muziekinstrumenten, enige oude vrouwen, dan wat volgelingen die de sieraden⁴), in lange kisten verpakt, dragen, en dan weer een hele stoet Boniërs. De muziek zet het Wilhelmus in, en, als de stoet onder het afdak der vorstelijke woning komt, speelt zij het Wien Neerlands Bloed⁵). Het is een uniek moment: de Boniërs, dragende de symbolen van hun eeuwenoud bestuur, hun volksbestaan, naar de overwinnaar, tussen de bajonetten van onze troepen.</p><p>noot 1 Wadjo was een naam voor de provincie Zuid-Celebes.</p><p>noot 2 De Rijksbestuurder bestuurde namens de Bonische vorst het rijk.</p><p>noot 3 Tandak is een soort Indonesische dans.</p><p>noot 4 Dit zijn de rijkssieraden, ceremoniële voorwerpen van de Boniërs.</p><p>noot 5 Dit is het Nederlandse volkslied op dat moment.</p><p>De strijd die de Boniërs aangaan met de Nederlanders past bij 'vormen van verzet tegen het West-Europese imperialisme'.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 10.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit:</p><ul><li>op welke wijze in dit artikel het Nederlandse gezag wordt onderbouwd, en</li><li>waardoor de beschreven gebeurtenis het verzet op Celebes niet verminderd zal hebben.</li></ul>",
+            "correct_antwoord_model": "<p>Voorbeeld van een juist antwoord is:</p><ul><li>In dit artikel wordt het gezag van Nederland onderbouwd met een beroep op nationalistische gevoelens / op een gevoel van Nederlandse superioriteit, door te beschrijven dat de overgave gepaard gaat met het spelen van het volkslied/Nederlands nationale liederen / door de Nederlanders die een eind maken aan een eeuwenoude cultuur 'overwinnaars' te noemen. (2 punten)</li><li>Uit de beschrijving wordt duidelijk dat de Nederlanders de Boniërs hebben vernederd / de rijkssieraden hebben afgenomen, zodat de Boniërs mogelijk wraak willen nemen / hun cultuur willen verdedigen (waardoor het verzet tegen de Nederlandse overheersing niet minder wordt). (2 punten)</li></ul><p><strong>Opmerking</strong></p><p>Alleen als het antwoord een combinatie bevat van een juist argument en een daarbij passende verwijzing naar het artikel, worden telkens scorepunten toegekend.</p>"
+          },
+          {
+            "id": 19,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p>Eind 1925 werd het Verdrag van Locarno getekend. Hierin erkenden Duitsland, België en Frankrijk de grenzen die in 1919 waren vastgelegd in het Verdrag van Versailles. De Duitse minister van buitenlandse zaken zette zich in het bijzonder in voor het tot stand komen van dit verdrag.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Noem het buitenlands beleid van Duitsland waarbij dit verdrag aansloot.</p>",
+            "correct_antwoord_model": "<p>Kern van een juist antwoord is:</p><p>Dit verdrag sloot aan op de verzoeningspolitiek.</p>"
+          },
+          {
+            "id": 20,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>De volgende gebeurtenissen uit het leven van de Chinese keizer Puyi staan in willekeurige volgorde:</p><ol><li>Mao liet Puyi in een gevangenis heropvoeden tot een communistische modelburger van de pas opgerichte Volksrepubliek China.</li><li>Nadat tijdens de Grote Noordelijke Veldtocht de tombe van Cixi werd verwoest, ontstak Puyi in grote woede en deed uitgebreid zijn beklag.</li><li>Puyi moest zijn paleis verlaten op bevel van de plaatselijke militaire bevelhebber Feng, die daarna Sun Yat-sen naar Peking haalde.</li><li>Puyi werd door Japan benoemd als keizer van Mantsjoerije.</li><li>Sovjettroepen namen Puyi gevangen aan het eind van de Tweede Wereldoorlog.</li><li>Tijdens de Culturele Revolutie werden bezittingen van Puyi, zoals zijn sofa en bureau, in beslag genomen.</li></ol>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Zet de gebeurtenissen in de juiste chronologische volgorde van vroeger naar later. Noteer alleen de nummers.</p>",
+            "correct_antwoord_model": "<p>De juiste volgorde is:</p><p><strong>3, 2, 4, 5, 1, 6</strong></p><p><strong>Opmerking</strong></p><p>Als door het weglaten van één foutief geplaatst nummer een verder complete en foutloze reeks ontstaat, wordt 1 scorepunt toegekend.</p>"
+          },
+          {
+            "id": 21,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 11</strong></p><p>Willy Bendorf is van 1935 tot 1945 Ortsgruppenleiter, groepsleider van de plaatselijke NSDAP in het West-Duitse dorp Quickborn. In 1947 verzamelen de geallieerden verschillende getuigenissen over hem. Hieronder staan twee van die getuigenissen:</p><p><strong>Getuigenis 1:</strong></p><p>Een inwoner van Quickborn rapporteert:</p><p>Alle personen die niets met de NSDAP te maken wilden hebben, zoals ik, waren voor hem tweederangs mensen. Dat had vooral tot gevolg dat hij alle mensen die niet bij de partij hoorden liet oproepen voor de Wehrmacht¹). Alle partijleden werden door hem uit de wind gehouden als het ging om de dienstplicht. Ook in andere gevallen konden zij rekenen op zijn hulp en bijstand. Ik ben persoonlijk door hem beledigd en geslagen. Dit voorval vond plaats op 27 juni 1942 in Schmidts Gasthof in Quickborn. Op deze dag zat ik met andere inwoners uit Quickborn aan tafel bier te drinken. Twee tafels verderop zat Bendorf. Toen ik de bar wilde verlaten liep B. in dronken toestand op me af en zei: \"Jij Jodenlummel, rotvent\" en meer van dat soort dingen! Tegelijkertijd gaf hij me zonder reden twee oorvijgen.</p><p><strong>Getuigenis 2:</strong></p><p>Een groep dorpsgenoten uit Quickborn rapporteert:</p><p>De heer Willy Bendorf, Quickborn, Marktstr. was zoals we weten, lokale groepsleider van de voormalige NSDAP. Voor zover we het kunnen inschatten, heeft de heer Bendorf zijn werk nooit gebruikt om iemand onrecht aan te doen. Wij geloven dat hij juist probeerde op een ordelijke en fatsoenlijke manier iedereen te helpen die zijn hulp zocht. We hebben nooit gehoord dat hij om politieke redenen iemand aan de kaak stelde of anderen kwaad deed.</p><p>noot 1 het Duitse leger</p><p>Met getuigenis 1 kun je 'het in praktijk brengen van nationaalsocialisme' illustreren.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 11.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Toon dit aan, waarbij je je antwoord ondersteunt met een verwijzing naar de getuigenis.</p>",
+            "correct_antwoord_model": "<p>Voorbeeld van een juist antwoord is:</p><p>Volgens getuigenis 1 worden tegenstanders van het nationaalsocialisme benadeeld/aangevallen / maakt een leider van de NSDAP gebruik van geweld tegen een tegenstander/gebruik van antisemitische scheldwoorden (wat past bij het in praktijk brengen van het nationaalsocialisme), (1 punt)</p><p>wat blijkt uit de beschrijving dat (een van de volgende):</p><ul><li>mensen die niets met de NSDAP te maken willen hebben als tweederangsburgers worden behandeld.</li><li>partijleden niet in het leger hoeven.</li><li>de inwoner voor 'Jodenlummel' wordt uitgescholden.</li><li>de inwoner zonder reden wordt geslagen. (1 punt)</li></ul><p><strong>Opmerking</strong></p><p>Alleen als het antwoord een juist voorbeeld bevat van 'het in de praktijk brengen van het nationaalsocialisme', wordt een scorepunt toegekend aan een daarbij passende verwijzing naar de getuigenis.</p>"
+          },
+          {
+            "id": 22,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 11</strong></p><p>Willy Bendorf is van 1935 tot 1945 Ortsgruppenleiter, groepsleider van de plaatselijke NSDAP in het West-Duitse dorp Quickborn. In 1947 verzamelen de geallieerden verschillende getuigenissen over hem. Hieronder staan twee van die getuigenissen:</p><p><strong>Getuigenis 1:</strong></p><p>Een inwoner van Quickborn rapporteert:</p><p>Alle personen die niets met de NSDAP te maken wilden hebben, zoals ik, waren voor hem tweederangs mensen. Dat had vooral tot gevolg dat hij alle mensen die niet bij de partij hoorden liet oproepen voor de Wehrmacht¹). Alle partijleden werden door hem uit de wind gehouden als het ging om de dienstplicht. Ook in andere gevallen konden zij rekenen op zijn hulp en bijstand. Ik ben persoonlijk door hem beledigd en geslagen. Dit voorval vond plaats op 27 juni 1942 in Schmidts Gasthof in Quickborn. Op deze dag zat ik met andere inwoners uit Quickborn aan tafel bier te drinken. Twee tafels verderop zat Bendorf. Toen ik de bar wilde verlaten liep B. in dronken toestand op me af en zei: \"Jij Jodenlummel, rotvent\" en meer van dat soort dingen! Tegelijkertijd gaf hij me zonder reden twee oorvijgen.</p><p><strong>Getuigenis 2:</strong></p><p>Een groep dorpsgenoten uit Quickborn rapporteert:</p><p>De heer Willy Bendorf, Quickborn, Marktstr. was zoals we weten, lokale groepsleider van de voormalige NSDAP. Voor zover we het kunnen inschatten, heeft de heer Bendorf zijn werk nooit gebruikt om iemand onrecht aan te doen. Wij geloven dat hij juist probeerde op een ordelijke en fatsoenlijke manier iedereen te helpen die zijn hulp zocht. We hebben nooit gehoord dat hij om politieke redenen iemand aan de kaak stelde of anderen kwaad deed.</p><p>noot 1 het Duitse leger</p><p>Er worden verschillende getuigenissen over Bendorf verzameld.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 11 opnieuw.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Licht deze getuigenissen toe door:</p><ul><li>hiermee aan te tonen dat de geallieerden werken aan denazificatie, en</li><li>te beredeneren vanuit getuigenis 1 waardoor de geallieerden kunnen twijfelen aan de betrouwbaarheid van getuigenis 2.</li></ul>",
+            "correct_antwoord_model": "<p>Voorbeeld van een juist antwoord is:</p><ul><li>Dat de geallieerden getuigenissen verzamelen laat zien dat ze proberen vast te stellen in welke mate iemand/Willy Bendorf zich schuldig heeft gemaakt aan het steunen van/werken voor het nationaalsocialistische regime / dat ze (voormalige) nazi's willen opsporen (wat past bij denazificatie). (1 punt)</li><li>In getuigenis 1 wordt beweerd dat Bendorf aanhangers van de NSDAP voortrekt/goed behandelt, zodat de geallieerden wellicht denken dat de dorpsbewoners die een positieve waardering uitspreken in getuigenis 2 lid zijn geweest van de NSDAP / het naziregime hebben ondersteund (waardoor de geallieerden kunnen twijfelen aan de betrouwbaarheid van getuigenis 2). (2 punten)</li></ul>"
+          },
+          {
+            "id": 23,
+            "max_score": 4,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 12</strong></p><p>In 1962 publiceert de Amerikaanse krant The Hartford Times deze tekening van Valtman. De titel is Met bezorgdheid bekijken:</p><p><strong>Toelichting:</strong></p><p>Op het bord staat 'Bouwplaats van de Europese Economische Gemeenschap (EEG)'. De man stelt Chroesjtsjov voor, de leider van de Sovjet-Unie. De hond stelt Ulbricht voor.</p><p>Valtman geeft een mening weer over de economie in het Westen en over de politieke verhoudingen in het Oostblok.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 12.",
+            "bron_verwijzing": "vwo_geschiedenis_tv1_vraag23_bron12.png",
+            "vraagtekst_html": "<p>Leg voor beide onderdelen uit welke mening Valtman weergeeft, waarbij je je antwoord telkens ondersteunt met een verwijzing naar de bron.</p>",
+            "correct_antwoord_model": "<p>Voorbeeld van een juist antwoord is:</p><ul><li>Valtman geeft de mening weer dat de (Westerse) EEG een sterke economische groei doormaakt / dat de economie van de EEG harder groeit dan die van het Oostblok, (1 punt) door (een van de volgende):<ul><li>af te beelden dat er bij de EEG grote bedrijvigheid is.</li><li>de EEG af te beelden als bouwplaats.</li><li>de titel 'Met bezorgdheid bekijken'. (1 punt)</li></ul></li><li>Valtman geeft de mening weer dat de Sovjet-Unie de landen in het Oostblok/de DDR overheerst / dat de Sovjet-Unie de leider is, (1 punt) door af te beelden dat Chroesjtsjov Ulbricht als een hondje aan de lijn heeft. (1 punt)</li></ul><p><strong>Opmerking</strong></p><p>Alleen als het antwoord een juiste mening over (bij de eerste deelvraag) de Westerse economie en (bij de tweede deelvraag) over de politieke verhouding in het Oostblok bevat, wordt 1 scorepunt toegekend aan een daarbij passende verwijzing naar de bron.</p>"
+          },
+          {
+            "id": 24,
+            "max_score": 4,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 13</strong></p><p>In december 1970 tekent Brandt het 'Verdrag van Warschau' met Polen. Hij spreekt vanuit de Poolse hoofdstad via de televisie zijn West-Duitse landgenoten toe:</p><p>Groot leed trof ons volk, vooral onze Oost-Duitse landgenoten. (...) degenen die hun geboortegrond hebben moeten verlaten, hebben de bitterste prijs voor de oorlog betaald. Ik wil van spookverhalen niets weten, niet van Duitse en ook niet van Poolse: de geschiedenis van de Duitse oostelijke gebieden kan niet willekeurig worden herschreven. Onze Poolse gesprekspartners weten wat ik aan hen ook in hun eigen land nog eens met alle duidelijkheid zou willen zeggen: dit verdrag betekent niet dat wij onrecht erkennen of gewelddadigheden rechtvaardigen. Het betekent niet dat wij verdrijvingen achteraf wettigen.</p><p>Willy Brandt wil de West-Duitse bevolking overtuigen dat zijn Ostpolitik juist is.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 13.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Leg uit, telkens met een andere verwijzing naar de bron:</p><ul><li>welke angst over de Ostpolitik Brandt onder de bevolking in de BRD wil wegnemen, en</li><li>welke doelgroep in de BRD Brandt in dit fragment in het bijzonder toespreekt.</li></ul>",
+            "correct_antwoord_model": "<p>Voorbeeld van een juist antwoord is:</p><ul><li>Brandt wil de angst wegnemen dat de BRD omwille van de goede betrekkingen met het Oostblok de belangen van haar eigen burgers uit het oog verliest / dat door de invoering van de Ostpolitik te veel wordt toegegeven aan Oost-Europese landen, (1 punt) door te benadrukken dat hij de Poolse regering heeft gezegd dat dit verdrag niet betekent dat de geschiedenis (van Duitse gebieden) wordt herschreven / dat de West-Duitsers onrecht toestaan. (1 punt)</li><li>Brandt spreekt in het bijzonder tot de Heimatvertriebenen, (1 punt) door te zeggen dat de Duitsers die na de oorlog zijn verdreven / hun geboortegrond moesten verlaten \"een bittere prijs\" moesten betalen / dat de verdrijvingen niet worden erkend als wettig. (1 punt)</li></ul><p><strong>Opmerkingen</strong></p><p>Alleen als het antwoord (bij de eerste deelvraag) een juist voorbeeld bevat van angst die Brandt wil wegnemen en (bij de tweede deelvraag) ingaat op de Heimatvertriebenen, wordt 1 scorepunt toegekend aan een daarbij passende verwijzing naar de bron.</p><p>Als het antwoord op beide deelvragen dezelfde verwijzing naar de bron bevat, wordt alleen aan de eerste juiste verwijzing scorepunten toegekend.</p>"
+          },
+          {
+            "id": 25,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p>Een geschiedenis:</p><p>In 1978 besloten boeren uit het Chinese dorp Xiaogang in de provincie Anhui om land dat gemeenschappelijk werd verbouwd op te delen en elk een eigen deel te bebouwen. De landbouwopbrengsten in Xiaogang stegen daarna spectaculair. In 1979 verdedigde de partijsecretaris van de provincie Anhui de boeren openlijk tegen maoïstische kritiek.</p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Geef aan:</p><ul><li>welke maoïstische kritiek kon worden gegeven op het initiatief van de boeren uit Xiaogang, en</li><li>welke koerswijziging, die kort daarvoor werd ingevoerd in China, door de partijsecretaris van Anhui werd gesteund.</li></ul>",
+            "correct_antwoord_model": "<p>Kern van een juist antwoord is:</p><ul><li>Maoïsten konden als kritiek geven dat de boeren met hun overeenkomst particuliere inkomsten nastreefden / kapitalistische invloeden nastreefden / braken met de herverdeling van land zoals die door Mao (na 1949) was ingevoerd. (1 punt)</li><li>De partijsecretaris steunde de Vier Moderniseringen (in dit geval die van de landbouw) van Deng Xiaoping. (1 punt)</li></ul><p><strong>Opmerking</strong></p><p>Als bij de eerste deelvraag alleen wordt geantwoord dat dit initiatief ingaat tegen het communisme, wordt geen scorepunt toegekend (omdat dit niet ingaat op de inhoud van de maoïstische kritiek).</p>"
+          },
+          {
+            "id": 26,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 14</strong></p><p>In de tweede helft van de twintigste eeuw verschijnt in het tijdschrift Moeder-Vrouwenpost; practisch tijdschrift voor de vrouw in het gezin een artikel over scooters. Een fragment hieruit:</p><p>De scooter heeft de vrouw geheel op het niveau van de man gebracht. Zij kwam nu ook in de wereld van de machine, die tot voor kort alleen aan hem behoorde. Het moesten scooters zijn, die de mannen dit eigen terrein kwijt deden raken; machines, waarbij de dames hun vrouwelijkheid allerminst hebben verloren. (...) Het vehikel wordt even hard vertroeteld als zij zorg besteden aan hun eigen make-up.</p><p>Je besluit dit artikel te gebruiken voor een onderzoek naar sociaal-culturele veranderingsprocessen in Nederland in de tweede helft van de twintigste eeuw.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 14.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Licht je besluit toe door aan te geven:</p><ul><li>welk sociaal-cultureel veranderingsproces je met dit fragment kunt onderzoeken, en</li><li>met een verwijzing naar de bron dat dit artikel ook gebruikt kan worden om het traditionele rollenpatroon te onderzoeken.</li></ul>",
+            "correct_antwoord_model": "<p>Voorbeeld van een juist antwoord is:</p><ul><li>Je kunt dit artikel gebruiken voor een onderzoek naar de verandering van de positie van vrouwen / de toenemende mobiliteit van vrouwen / de toenemende zelfstandigheid van vrouwen / zelfbewustheid van vrouwen. (1 punt)</li><li>In dit artikel wordt uitgegaan van het traditionele beeld dat vrouwen en mannen elk hun eigen terrein hebben / dat het werken met machines eigenlijk niet geschikt is voor vrouwen, (1 punt) omdat de auteur beschrijft dat (een van de volgende):<ul><li>vrouwen 'vrouwelijk' moeten blijven.</li><li>vrouwen bezig zijn met make-up.</li><li>scooterbezit passend is omdat het de 'vrouwelijkheid' niet aantast. (1 punt)</li></ul></li></ul><p><strong>Opmerkingen</strong></p><p>Als bij de eerste deelvraag alleen wordt ingegaan op de toenemende welvaart, wordt geen scorepunt toegekend (omdat dit geen sociaal-cultureel veranderingsproces is).</p><p>Alleen als het antwoord op de tweede deelvraag een juist voorbeeld van het traditionele rollenpatroon bevat, wordt 1 scorepunt toegekend aan een daarbij passende verwijzing naar de bron.</p>"
+          }
+        ]
+      }
+    ]
+  }

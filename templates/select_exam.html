@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>AISHA Examentrainer - Verhoog je Examenresultaten</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Font Awesome for icons (optional, but nice for accordions/features) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- GoatCounter Analytics -->
+    <script data-goatcounter="https://examenhulp.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+    <!-- Typed.js for typing animation -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- tsParticles for particle background -->
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+</head>
+<body class="selection-page">
+
+    <!-- Particle background container -->
+    <div id="tsparticles"></div>
+
+    <header class="selection-header-new">
+        <div class="container">
+            <nav>
+                <div class="logo-container">
+                     <img src="{{ url_for('static', filename='images/logo.png') }}" alt="AISHA Logo" class="logo-img">
+                     <span>AISHA</span> {# Keep span for potential styling #}
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <div class="hero-content">
+                <span class="hero-subtitle">✨ AI-powered examentraining</span>
+                <p class="hero-initiative-link">
+                    <i class="fas fa-external-link-alt"></i> Een initiatief van <a href="https://aivoorleerlingen.nl" target="_blank" rel="noopener noreferrer">Aivoorleerlingen.nl</a>
+                </p>
+                <h1><span id="typed-output"></span><span class="typed-cursor" aria-hidden="true"></span></h1>
+                <p>AISHA analyseert jouw antwoorden met geavanceerde AI, voor gepersonaliseerde feedback en gerichte voorbereiding op je eindexamens.</p>
+                <div class="hero-buttons">
+                    <a href="#exam-selection" class="btn btn-primary">Start met oefenen <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="hero-image-below-button">
+                <img src="{{ url_for('static', filename='images/vergelijking.png') }}" alt="Voorbeeld van feedback in AISHA Examentrainer">
+             </div>
+        </section>
+
+        <section id="features" class="features-section">
+             <div class="feature-card">
+                 <i class="fas fa-robot"></i>
+                 <h3>AI-Analyse</h3>
+                 <p>Directe feedback op basis van de officiële correctiemodellen.</p>
+             </div>
+             <div class="feature-card">
+                 <i class="fas fa-shield-alt"></i>
+                 <h3>Veilig & Privacygericht</h3>
+                 <p>Geen login nodig, jouw gegevens blijven van jou en worden niet opgeslagen.</p>
+             </div>
+             <div class="feature-card">
+                 <i class="fas fa-gift"></i>
+                 <h3>Gratis te Gebruiken</h3>
+                 <p>Direct en kosteloos toegankelijk voor iedereen, zonder verborgen kosten.</p>
+             </div>
+        </section>
+
+        <section id="exam-selection" class="exam-selection-section">
+            <h2>Kies een examen om te oefenen</h2>
+            <p class="selection-intro">Selecteer je onderwijsniveau, vak en examenperiode om te beginnen met oefenen. AISHA zal je helpen met gedetailleerde feedback op jouw antwoorden.</p>
+
+            <div class="accordion">
+                {% if exams %}
+                    {% for level in level_order %}
+                        {% if level in exams %}
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                {{ level_names.get(level, level.capitalize()) }}
+                                <span class="accordion-toggle"><i class="fas fa-chevron-down"></i></span>
+                            </button>
+                            <div class="accordion-content">
+                                <div class="subject-grid-new">
+                                    {% for subject in subject_order %}
+                                        {% if subject in exams[level] %}
+                                            <div class="subject-card-new">
+                                                <h4>{{ subject }}</h4>
+                                                <div class="time-period-buttons-new">
+                                                    {% for time_period in exams[level][subject] %}
+                                                        {% set formatted_period = time_period.replace('_', ' ').title() %}
+                                                        {% if time_period.upper().startswith('TV') %}
+                                                            {% set formatted_period = 'Tijdvak ' + time_period[2:] %}
+                                                        {% endif %}
+                                                        {% set display_text = '2024 - ' + formatted_period %}
+                                                        {% if subject.lower() in non_language_subjects %}
+                                                            <a href="{{ url_for('non_language_exam.toon_vraag', subject=subject, level=level, time_period=time_period, question_id=1) }}" class="btn btn-exam-new">
+                                                        {% else %}
+                                                            <a href="{{ url_for('exam.toon_vraag', subject=subject, level=level, time_period=time_period, question_id=1) }}" class="btn btn-exam-new">
+                                                        {% endif %}
+                                                            {{ display_text }}
+                                                        </a>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                        {% endif %}
+                                    {% endfor %}
+                                    {# Handle subjects not in predefined order #}
+                                    {% for subject, time_periods in exams[level].items() %}
+                                         {% if subject not in subject_order %}
+                                             <div class="subject-card-new">
+                                                <h4>{{ subject }}</h4>
+                                                <div class="time-period-buttons-new">
+                                                    {% for time_period in time_periods %}
+                                                        {% set formatted_period = time_period.replace('_', ' ').title() %}
+                                                        {% if time_period.upper().startswith('TV') %}
+                                                            {% set formatted_period = 'Tijdvak ' + time_period[2:] %}
+                                                        {% endif %}
+                                                        {% set display_text = '2024 - ' + formatted_period %}
+                                                        {% if subject.lower() in non_language_subjects %}
+                                                            <a href="{{ url_for('non_language_exam.toon_vraag', subject=subject, level=level, time_period=time_period, question_id=1) }}" class="btn btn-exam-new">
+                                                        {% else %}
+                                                            <a href="{{ url_for('exam.toon_vraag', subject=subject, level=level, time_period=time_period, question_id=1) }}" class="btn btn-exam-new">
+                                                        {% endif %}
+                                                            {{ display_text }}
+                                                        </a>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                         {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                        {% endif %}
+                    {% endfor %}
+                     {# Handle levels not in predefined order - simplified for brevity, assumes level_order is complete #}
+                {% else %}
+                    <p>Geen examens gevonden. Controleer de configuratie.</p>
+                {% endif %}
+            </div> {# End accordion #}
+        </section>
+
+    </main>
+
+    <footer class="selection-footer-new">
+        <div class="container">
+            <div class="footer-bottom">
+                Gemaakt met ❤️ door Tom Naberink &copy; {{ now.year }} Aivoorleerlingen.nl - Alle rechten voorbehouden.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Basic Accordion Functionality
+        const accordionBtns = document.querySelectorAll('.accordion-header');
+        accordionBtns.forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const item = button.parentElement;
+                const icon = button.querySelector('.accordion-toggle i');
+
+                item.classList.toggle('open');
+
+                if (item.classList.contains('open')) {
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                    icon.classList.remove('fa-chevron-down');
+                    icon.classList.add('fa-chevron-up');
+                } else {
+                    content.style.maxHeight = '0px';
+                     icon.classList.remove('fa-chevron-up');
+                    icon.classList.add('fa-chevron-down');
+                }
+            });
+        });
+
+        // Typed.js Initialization
+        document.addEventListener('DOMContentLoaded', function(){
+            var typed = new Typed('#typed-output', {
+                strings: [
+                    'Verhoog je slagingskans',
+                    'Beter voorbereid in minder tijd',
+                    'AI helpt je bij je studie'
+                ],
+                typeSpeed: 60,
+                backSpeed: 30,
+                backDelay: 1800,
+                loop: true,
+                showCursor: false
+            });
+        });
+         // Add current year to footer (if needed)
+         const now = new Date();
+         // Assuming you pass 'now' from Flask context or use JS directly is fine
+
+        // tsParticles Initialization
+        tsParticles.load("tsparticles", {
+            fpsLimit: 60,
+            particles: {
+                number: {
+                    value: 50, // Adjust number of particles
+                    density: {
+                        enable: true,
+                        value_area: 800
+                    }
+                },
+                color: {
+                    value: ["#ffffff", "#9575cd", "#5e35b1"] // Particle colors (white, light purple, dark purple)
+                },
+                shape: {
+                    type: "circle"
+                },
+                opacity: {
+                    value: 0.5,
+                    random: true,
+                },
+                size: {
+                    value: 3,
+                    random: true,
+                },
+                links: {
+                    enable: true,
+                    distance: 150,
+                    color: "#ffffff",
+                    opacity: 0.4,
+                    width: 1
+                },
+                move: {
+                    enable: true,
+                    speed: 1, // Adjust speed
+                    direction: "none",
+                    out_mode: "out",
+                    bounce: false,
+                    attract: {
+                        enable: false,
+                    }
+                }
+            },
+            interactivity: {
+                detect_on: "canvas",
+                events: {
+                    onhover: {
+                        enable: true,
+                        mode: "grab" // Change to "bubble" or other modes if preferred
+                    },
+                    onclick: {
+                        enable: true,
+                        mode: "push" // Adds particles on click
+                    },
+                    resize: true
+                },
+                modes: {
+                    grab: {
+                        distance: 140,
+                        line_linked: {
+                            opacity: 1
+                        }
+                    },
+                    bubble: {
+                        distance: 400,
+                        size: 40,
+                        duration: 2,
+                        opacity: 8,
+                        speed: 3
+                    },
+                    push: {
+                        particles_nb: 4 // Number of particles to add on click
+                    }
+                }
+            },
+            detectRetina: true,
+             background: { // Set background within tsParticles config if needed, but CSS is preferred
+                 color: "#1a0a30", // Dark purple background matching CSS target
+             }
+        });
+    </script>
+
+</body>
+</html> 

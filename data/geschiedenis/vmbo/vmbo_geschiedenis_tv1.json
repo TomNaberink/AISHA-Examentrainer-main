@@ -1,0 +1,809 @@
+{
+  "examen_info": {
+    "vak": "geschiedenis",
+    "niveau": "vmbo",
+    "tijdvak": "TV1",
+    "jaar": 2024
+  },
+  "opgaven": [
+    {
+      "opgave_nr": 1,
+      "opgave_titel": "Nederland (1848-1914)",
+      "vragen": [
+        {
+          "id": 1,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>In de nieuwe Grondwet van 1848 werd de ministeriële verantwoordelijkheid opgenomen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Aan wie moeten ministers vanaf 1848 verantwoording afleggen?</p>",
+          "correct_antwoord_model": "<p>C</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "de rechters"
+            },
+            {
+              "id": "B",
+              "text": "de regering"
+            },
+            {
+              "id": "C",
+              "text": "het parlement"
+            },
+            {
+              "id": "D",
+              "text": "het staatshoofd"
+            }
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "id": 2,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 1</strong></p><p>Een artikel uit de nieuwe Grondwet van 1848:</p><p>De overheid moet er onder andere voor zorgen dat er overal in het land genoeg lager onderwijs beschikbaar is.<br>De overheid mag het niemand verbieden om zelf een school op te richten en onderwijs te geven.</p><p>Klassieke grondrechten zijn ervoor om burgers bescherming te bieden.</p><p>Een bewering:</p><p>Uit de bron blijkt dat het recht op vrijheid van onderwijs een klassiek grondrecht is, omdat het recht de burgers bescherming biedt.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 1.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Geef met behulp van de bron aan dat de bewering juist is.</p>",
+          "correct_antwoord_model": "<p>maximumscore 1</p><p>Voorbeeld van een juist antwoord is:</p><p>De vrijheid van onderwijs biedt bescherming omdat (in het artikel bepaald wordt dat) de overheid niemand mag verbieden om een school op te richten.</p>"
+        },
+        {
+          "id": 3,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 2</strong></p><p>Een oproep van een groep politici in Nederland (1889):</p><p>Door de industrialisatie worden de arbeiders steeds meer uitgebuit. De arbeiders moeten beter worden beschermd. Daarom eisen wij een werkdag van maximaal acht uren, een verbod op kinderarbeid onder de 14 jaar en een verbod op nachtelijke fabrieksarbeid. Deze maatregelen moeten in wetten worden vastgelegd en de regering moet er vervolgens voor zorgen dat die wetten worden nageleefd.</p><p>In de bron worden eisen gesteld om een maatschappelijk probleem op te lossen.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 2.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Noem eerst de naam waaronder de discussie over dit probleem bekend stond.<br>Geef daarna aan bij welke politieke stroming de eisen passen die in de bron worden gesteld.</p>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><ul><li>Sociale Kwestie (1 punt)</li><li>socialisme / sociaaldemocratie (1 punt)</li></ul>"
+        },
+        {
+          "id": 4,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p><strong>bron 3</strong></p><p>Een tekening met als titel Enkele beroepen, waarin vrouwen NIET werkzaam zijn, of slechts bij hoge uitzondering (1898):</p><p><strong>Toelichting</strong></p><p>Op de tekening staat: advocaat, architect, behanger, boekbinder, conducteur van spoor- en tramwegen.</p><p>De tekening was te zien op de Nationale Tentoonstelling van Vrouwenarbeid in Den Haag in 1898 die georganiseerd werd door feministen.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 3.",
+          "bron_verwijzing": "vmbo_geschiedenis_staatsinrichting_tv1_opgave1_bron3.png",
+          "vraagtekst_html": "<p>Welke boodschap zullen de organisatoren van de tentoonstelling met deze tekening duidelijk hebben willen maken?</p>",
+          "correct_antwoord_model": "<p>C</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "Vrouwen horen niet het werk van mannen te doen."
+            },
+            {
+              "id": "B",
+              "text": "Vrouwen moeten fatsoenlijk gekleed naar hun werk gaan."
+            },
+            {
+              "id": "C",
+              "text": "Vrouwen moeten hetzelfde werk kunnen doen als mannen."
+            },
+            {
+              "id": "D",
+              "text": "Vrouwen nemen steeds vaker het werk van mannen over."
+            }
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "id": 5,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Hieronder staan drie omschrijvingen van drie politiek leiders in Nederland in de periode 1848-1900:</p><ol><li>Hij was de belangrijkste schrijver van de nieuwe Grondwet van 1848 die gebaseerd was op liberale ideeën.</li><li>Hij was een van de oprichters van de SDAP en zat ruim 25 jaar in de Tweede Kamer voor deze partij.</li><li>Hij was priester en wilde ervoor zorgen dat katholieken niet langer als tweederangs burgers werden gezien.</li></ol>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Geef per omschrijving aan om welke politiek leider het gaat.</p><p>Doe het zo:</p><p>Bij 1 hoort ... (noem de naam van de politiek leider).<br>(enzovoort tot en met 3)</p>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><p>Bij 1 hoort (Rudolf) Thorbecke.<br>Bij 2 hoort (Pieter Jelles) Troelstra.<br>Bij 3 hoort (Herman) Schaepman.</p><p>indien drie antwoorden juist 2<br>indien twee antwoorden juist 1<br>indien minder dan twee antwoorden juist 0</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 2,
+      "opgave_titel": "De Eerste Wereldoorlog (1914-1918)",
+      "vragen": [
+        {
+          "id": 6,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p><strong>bron 4</strong></p><p>Een herinnering van een Nederlander aan een gebeurtenis tijdens de Eerste Wereldoorlog:</p><p>Al die vluchtelingen die na de Duitse inval hier nu naartoe komen, hebben kort geleden dingen gezien en meegemaakt, waar we hier in Nederland niet zo veel van begrijpen. Ze hebben vóór en achter zich granaten zien ontploffen. De kinderen dragen kogels in hun zak, die ze hebben opgeraapt. De vrouwen, die een man of zoon hebben achtergelaten, zijn natuurlijk het meest bezorgd als er berichten van thuis binnenkomen.</p><p>De herinnering gaat over vluchtelingen die tijdens de Eerste Wereldoorlog naar Nederland kwamen.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 4.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Over welk jaar gaat deze herinnering? En uit welk land kwamen de vluchtelingen?</p>",
+          "correct_antwoord_model": "<p>A</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "jaar: 1914, land: België"
+            },
+            {
+              "id": "B",
+              "text": "jaar: 1914, land: Duitsland"
+            },
+            {
+              "id": "C",
+              "text": "jaar: 1918, land: België"
+            },
+            {
+              "id": "D",
+              "text": "jaar: 1918, land: Duitsland"
+            }
+          ],
+          "correct_answer": "A"
+        },
+        {
+          "id": 7,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 5</strong></p><p>Een poster gemaakt in opdracht van de regering van Groot-Brittannië (1915):</p><p><strong>Toelichting</strong></p><p>Onder de poster staat: En wat doe jij?</p><p>Op de poster is een tegenstelling te zien.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 5.",
+          "bron_verwijzing": "vmbo_geschiedenis_staatsinrichting_tv1_opgave2_bron5.png",
+          "vraagtekst_html": "<p>Leg uit welk doel de regering wilde bereiken met het afbeelden van de tegenstelling.</p><p>Doe dit door:</p><ul><li>eerst beide kanten van de tegenstelling op de poster te noemen</li><li>en daarna aan te geven welk doel de regering van Groot-Brittannië met de poster wilde bereiken.</li></ul>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><p>Voorbeeld van een juist antwoord is:</p><ul><li>De tegenstelling die in de bron te zien is: de meeste mensen zetten zich wél in voor de oorlog, terwijl één persoon zich niet inzet voor de oorlog / de meeste mensen op de poster zijn hard aan het werk, maar één persoon doet niks / kijkt alleen maar toe / heeft zijn handen in zijn zakken. (1 punt)</li><li>Het doel dat de Britse regering wilde bereiken is dat iedereen zich gaat inzetten voor de oorlog (of een voorbeeld van die inzet). (1 punt)</li></ul><p><em>Opmerking</em><br>Alleen als bij het antwoord op de eerste deelvraag beide kanten van de tegenstelling genoemd zijn, wordt 1 scorepunt toegekend.</p>"
+        },
+        {
+          "id": 8,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 6</strong></p><p>Een prent gemaakt in opdracht van de Duitse regering (1917):</p><p><strong>Toelichting</strong></p><p>Op de prent staat de tekst:</p><p>Welk land is nu eigenlijk militaristisch?<br>Tussen 1700 en 1914:<br>voerde Groot-Brittannië 49 oorlogen<br>voerde Pruisen (= een oude naam voor Duitsland) 13 oorlogen<br>voerde Frankrijk 35 oorlogen</p><p>Een leerling maakt een werkstuk over het militarisme in Duitsland vóór de Eerste Wereldoorlog. Hij wil deze bron uit 1917 gebruiken. De leerling twijfelt echter aan de betrouwbaarheid van deze bron.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 6.",
+          "bron_verwijzing": "vmbo_geschiedenis_staatsinrichting_tv1_opgave2_bron6.png",
+          "vraagtekst_html": "<p>Geef een reden waarom de bron zorgt voor twijfel aan de betrouwbaarheid.</p>",
+          "correct_antwoord_model": "<p>maximumscore 1</p><p>Uit het antwoord moet blijken dat de bron zorgt voor twijfel aan de betrouwbaarheid, omdat de poster propaganda is (en Duitsland er belang bij heeft om het Duitse militarisme kleiner voor te stellen dan het was/dan dat van andere landen).</p><p><em>Opmerking</em><br>Voor het antwoord dat de bron pas in 1917 / niet vóór de Eerste Wereldoorlog is gemaakt, mag geen scorepunt worden toegekend.</p>"
+        },
+        {
+          "id": 9,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Bij de Pacificatie in 1917 werd de financiële gelijkstelling van het bijzonder en openbaar onderwijs ingevoerd. Dat was een belangrijk doel van een bepaalde politieke groep in Nederland. De socialisten kregen tijdens de Pacificatie ook hun zin, maar behaalden een ander doel waar ze jarenlang voor gestreden hadden.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Noem eerst een politieke groep die haar zin kreeg met de gelijkstelling van het bijzonder en openbaar onderwijs.<br>Noem daarna het doel dat de socialisten behaalden.</p>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><p>Voorbeeld van een juist antwoord is:</p><ul><li>politieke groep: confessionelen / protestanten / katholieken (1 punt)</li><li>doel socialisten: algemeen (mannen) kiesrecht (1 punt)</li></ul>"
+        },
+        {
+          "id": 10,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 7</strong></p><p>Een tekening uit Nederland:</p><p><strong>Toelichting</strong></p><p>Op de tekening staat: De eerste vrouw in de Tweede Kamer.<br>In het midden staat een stembus. De personen rondom de stembus zijn kiezers.<br>De vrouw op de afbeelding is Suze Groeneweg, het eerste vrouwelijke lid van de Tweede Kamer.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 7.",
+          "bron_verwijzing": "vmbo_geschiedenis_staatsinrichting_tv1_opgave2_bron7.png",
+          "vraagtekst_html": "<p>Is de tekening gemaakt vóór of na 1917?<br>Verklaar je antwoord.</p><p>Doe het zo:</p><p>De tekening is gemaakt... (kies uit: vóór / na) 1917, omdat (geef verklaring).</p>",
+          "correct_antwoord_model": "<p>maximumscore 1</p><p>De tekening is gemaakt <strong>na</strong> 1917, omdat vrouwen pas in 1917 passief kiesrecht kregen / vóór 1917 nog niet in de Tweede Kamer konden komen / nog niet werden gekozen.</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 3,
+      "opgave_titel": "Door de tijd heen",
+      "vragen": [
+        {
+          "id": 11,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p><strong>bron 8</strong></p><p>Hieronder en op de volgende pagina staan in totaal vier kaarten:</p><p>kaart 1: Vaarroutes van soldaten naar een landingsgebied in Frankrijk:</p><p>kaart 2: Schepen van het neutrale Nederland, gezonken door aanvallen van Duitse duikboten:</p><p>kaart 3: Vliegvelden gebruikt tijdens de Slag om Engeland:</p><p>kaart 4: Britse bunkers gebouwd om bescherming te bieden tegen een atoombom:</p>",
+          "bronverwijzing_tekst": "Gebruik bron 8.",
+          "bron_verwijzing": [
+            "vmbo_geschiedenis_staatsinrichting_tv1_opgave3_bron8_kaart1.png",
+            "vmbo_geschiedenis_staatsinrichting_tv1_opgave3_bron8_kaart2.png",
+            "vmbo_geschiedenis_staatsinrichting_tv1_opgave3_bron8_kaart3.png",
+            "vmbo_geschiedenis_staatsinrichting_tv1_opgave3_bron8_kaart4.png"
+          ],
+          "vraagtekst_html": "<p>Welke kaart hoort bij de Eerste Wereldoorlog?</p>",
+          "correct_antwoord_model": "<p>B</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "kaart 1"
+            },
+            {
+              "id": "B",
+              "text": "kaart 2"
+            },
+            {
+              "id": "C",
+              "text": "kaart 3"
+            },
+            {
+              "id": "D",
+              "text": "kaart 4"
+            }
+          ],
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 4,
+      "opgave_titel": "Het Interbellum (1918-1939)",
+      "vragen": [
+        {
+          "id": 12,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Elzas-Lotharingen was in 1918 een gebied in Duitsland dat grensde aan Frankrijk. In 1919 kregen 200.000 Duitstalige inwoners in Elzas-Lotharingen het dwingende verzoek om het gebied te verlaten. Franstalige inwoners konden gewoon in het gebied blijven wonen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Geef een reden waarom de Duitstalige inwoners het verzoek kregen om het gebied te verlaten.</p>",
+          "correct_antwoord_model": "<p>maximumscore 1</p><p>Uit het antwoord moet blijken dat Duitstalige inwoners het verzoek kregen het gebied te verlaten, omdat (door het Verdrag van Versailles) Duitsland het gebied aan Frankrijk moest afstaan / omdat Elzas-Lotharingen (weer) Frans gebied was geworden.</p>"
+        },
+        {
+          "id": 13,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p><strong>bron 9</strong></p><p>Een briefje in een winkeletalage in Berlijn (1923):</p><p><strong>Toelichting</strong></p><p>In de etalage hangt een briefje met daarop de volgende tekst:<br>Wij verkopen niet aan Fransen.</p><p>Dit soort briefjes werd in 1923 door heel Duitsland opgehangen.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 9.",
+          "bron_verwijzing": "vmbo_geschiedenis_staatsinrichting_tv1_opgave4_bron9.png",
+          "vraagtekst_html": "<p>Naar aanleiding van welke gebeurtenis werd dit soort briefjes opgehangen?</p>",
+          "correct_antwoord_model": "<p>A</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "de bezetting van het Ruhrgebied"
+            },
+            {
+              "id": "B",
+              "text": "de invoering van het Dawesplan"
+            },
+            {
+              "id": "C",
+              "text": "de mislukte staatsgreep van Hitler"
+            },
+            {
+              "id": "D",
+              "text": "de oprichting van de Weimar Republiek"
+            }
+          ],
+          "correct_answer": "A"
+        },
+        {
+          "id": 14,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Vanaf 1933 was Duitsland een totalitaire staat. In totalitaire staten maken regeringen gebruik van propaganda. Ook in Duitsland maakte de regering gebruik van propaganda.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Geef een reden waarom in een totalitaire staat regeringen gebruikmaken van propaganda.</p>",
+          "correct_antwoord_model": "<p>maximumscore 1</p><p>Uit het antwoord moet blijken dat door middel van propaganda het denken van mensen kan worden beïnvloed / dat een regering invloed wil uitoefenen op de informatie die mensen krijgen (wat past bij het streven van een totalitaire staat naar een complete beheersing van de samenleving).</p>"
+        },
+        {
+          "id": 15,
+          "max_score": 2,
+          "type": "multiple_gap_choice",
+          "context_html": "<p><strong>bron 10</strong></p><p>Een bericht uit een tijdschrift (1934):</p><p>Afgelopen woensdag zijn in Amsterdam rellen uitgebroken uit onvrede over het verlagen van de werkloosheidsuitkeringen. In de dagen daarna groeiden de rellen uit tot een grote opstand onder werkloze arbeiders. Het leger kwam in actie om de opstand neer te slaan.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 10.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Een invulopdracht:</p><ol><li>De rellen vonden plaats tijdens de ...<strong>{1}</strong>... (bezetting/ crisisjaren / Hongerwinter).</li><li>De maatregel waartegen werd geprotesteerd was een onderdeel van de ...<strong>{2}</strong>... (aanpassingspolitiek / hervormingspolitiek / neutraliteitspolitiek).</li><li>Deze politiek werd uitgevoerd door de regering van ...<strong>{3}</strong>... (Colijn / Kuyper / Mussert).</li></ol><p>Maak de zinnen kloppend door telkens de juiste keuze te maken.</p><p>Doe het zo:</p><p>zin 1:... (kies uit: bezetting / crisisjaren / Hongerwinter)<br>zin 2: ... (kies uit: aanpassingspolitiek / hervormingspolitiek / neutraliteitspolitiek)<br>zin 3: (kies uit: Colijn / Kuyper / Mussert)</p>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><p>zin 1: crisisjaren<br>zin 2: aanpassingspolitiek<br>zin 3: Colijn</p><p>indien drie antwoorden juist 2<br>indien twee antwoorden juist 1<br>indien minder dan twee antwoorden juist 0</p>",
+          "gaps": [
+            {
+              "id": 1,
+              "zin_html": "<p>1 De rellen vonden plaats tijdens de ...<strong>{1}</strong>...</p>",
+              "choices": [
+                "bezetting",
+                "crisisjaren",
+                "Hongerwinter"
+              ],
+              "correct_choice": "crisisjaren"
+            },
+            {
+              "id": 2,
+              "zin_html": "<p>2 De maatregel waartegen werd geprotesteerd was een onderdeel van de ...<strong>{2}</strong>...</p>",
+              "choices": [
+                "aanpassingspolitiek",
+                "hervormingspolitiek",
+                "neutraliteitspolitiek"
+              ],
+              "correct_choice": "aanpassingspolitiek"
+            },
+            {
+              "id": 3,
+              "zin_html": "<p>3 Deze politiek werd uitgevoerd door de regering van ...<strong>{3}</strong>...</p>",
+              "choices": [
+                "Colijn",
+                "Kuyper",
+                "Mussert"
+              ],
+              "correct_choice": "Colijn"
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 11</strong></p><p>Een propagandaposter uit de Sovjet-Unie (1933):</p><p><strong>Toelichting</strong></p><p>Op het stuurwiel staat: CCCP (een Russische afkorting voor de Sovjet-Unie).<br>Op de vlag staan een hamer en een sikkel.</p><p>De bron past bij het stalinisme. Twee kenmerken van het stalinisme zijn propaganda en indoctrinatie. In de bron is nog een ander kenmerk van het stalinisme te herkennen.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 11.",
+          "bron_verwijzing": "vmbo_geschiedenis_staatsinrichting_tv1_opgave4_bron11.png",
+          "vraagtekst_html": "<p>Geef aan met een onderdeel van de bron welk ander kenmerk van het stalinisme in de bron te herkennen is.</p><p>Doe het zo:</p><p>Een ander kenmerk van het stalinisme is (noem een kenmerk).<br>Dat is te herkennen aan (noem een onderdeel van de bron).</p>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><ul><li>Een ander kenmerk van het stalinisme is persoonsverheerlijking / dictatuur. (1 punt)</li><li>Dat is te herkennen aan (een van de volgende): (1 punt)<ul><li>Stalin die als kapitein is afgebeeld.</li><li>Stalin die groot / als enige is afgebeeld.</li><li>Stalin die vastberaden is afgebeeld.</li><li>Stalin die als sterke leider de koers bepaalt.</li></ul></li></ul><p><em>Opmerking</em><br>Het tweede scorepunt wordt alleen toegekend als het eerste onderdeel van de vraag juist beantwoord is.</p>"
+        },
+        {
+          "id": 17,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Hieronder staan zes beweringen over de economie van de Sovjet-Unie onder Stalin:</p><ol><li>Bedrijven streefden ernaar om zoveel mogelijk winst te maken.</li><li>Boeren werden gedwongen om samen te werken op grote boerderijen.</li><li>De staat bepaalde hoeveel er geproduceerd moest worden.</li><li>Grote bedrijven waren privébezit.</li><li>Lonen en prijzen werden bepaald door de vrije markt.</li><li>Stalin liet vijfjarenplannen opstellen.</li></ol>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Welke drie beweringen over de economie van de Sovjet-Unie onder Stalin zijn juist? Schrijf alleen de nummers op.</p>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><p>2, 3 en 6</p><p>indien drie antwoorden juist 2<br>indien twee antwoorden juist 1<br>indien minder dan twee antwoorden juist 0</p>"
+        },
+        {
+          "id": 18,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 12</strong></p><p>Een politieke tekening uit Groot-Brittannië met als titel Adolf Hitler voor de spiegel (1934):</p><p><strong>Toelichting</strong></p><p>Op de spiegel staat: de mening van het buitenland.</p><p>De tekening laat zien dat Hitler probeert om aan andere landen een bepaald beeld van zichzelf over te brengen.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 12.",
+          "bron_verwijzing": "vmbo_geschiedenis_staatsinrichting_tv1_opgave4_bron12.png",
+          "vraagtekst_html": "<p>Welk beeld probeert Hitler volgens de tekening van zichzelf over te brengen?<br>En waaruit blijkt dat het Hitler er volgens de tekening niet in slaagt om andere landen te overtuigen?</p><p>Doe het zo:</p><p>Het beeld dat Hitler probeert over te brengen: ...<br>Hitler slaagt er niet in om andere landen te overtuigen. Dat blijkt uit ... (gebruik de bron).</p>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><ul><li>Het beeld dat Hitler probeert over te brengen: Hitler wilde (volgens de tekening) vredelievend / vreedzaam / ongevaarlijk overkomen. (1 punt)</li><li>Hitler slaagt er niet in om andere landen te overtuigen. Dat blijkt uit dat zijn spiegelbeeld er boos/oorlogszuchtig uitziet / dat hij een uniform draagt (in plaats van burgerkleding) / dat hij een roofvogel op zijn arm heeft (in plaats van een duif) / dat hij een sabel in zijn hand heeft (in plaats van bloemen) / dat hij er in de spiegel anders uitziet dan in werkelijkheid. (1 punt)</li></ul>"
+        },
+        {
+          "id": 19,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>In nazi-Duitsland werd een geheime politieorganisatie opgericht die als taak had binnenlandse staatsvijanden op te sporen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Noem de naam van deze organisatie.</p>",
+          "correct_antwoord_model": "<p>maximumscore 1</p><p>Gestapo</p><p><em>Opmerking</em><br>Voor het antwoord 'SD' of 'Sicherheitsdienst' wordt het scorepunt ook toegekend.</p>"
+        },
+        {
+          "id": 20,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 13</strong></p><p>Herinnering van een Duitse man (1938):</p><p>De Duitse troepen marcheerden Oostenrijk binnen. Op de radio en in het bioscoopjournaal hoorden we Hitler in een toespraak zeggen: \"Ik heb mijn geboorteland Oostenrijk naar het Groot-Duitse Rijk geleid.\" Op school moesten we kaarten tekenen met de nieuwe landsgrenzen, berichten uit kranten knippen en foto's in een map plakken.</p><p>De bron gaat over een gebeurtenis in de Duitse geschiedenis.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 13.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Noem de naam waaronder die gebeurtenis bekend staat.</p>",
+          "correct_antwoord_model": "<p>maximumscore 1</p><p>(de) Anschluss</p>"
+        },
+        {
+          "id": 21,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>In 1938 had de Nederlandse regering plannen om het leger te mobiliseren. Toen de uitkomst van de Conferentie van München bekend werd, besloot de Nederlandse regering om niet met de mobilisatie verder te gaan.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Geef aan waarom de uitkomst van de Conferentie van München een reden was om niet verder te gaan met de mobilisatie.</p>",
+          "correct_antwoord_model": "<p>maximumscore 1</p><p>Uit het antwoord moet blijken dat na de Conferentie van München gedacht werd dat er geen oorlog meer zou komen / dat de oorlogsdreiging was verdwenen/afgenomen.</p>"
+        },
+        {
+          "id": 22,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 14</strong></p><p>Hieronder en op de volgende twee pagina's staan in totaal vijf foto's uit de periode 1930-1940.</p><p>foto 1: Duitssprekende Tsjechen begroeten Duitse soldaten na de inlijving van hun gebied:</p><p>foto 2: Hitler tijdens een nazibijeenkomst:</p><p>foto 3: Leiders van de socialisten worden gevangengenomen:</p><p>foto 4: Leden van de SA staan voor een Joods warenhuis:</p><p><strong>Toelichting</strong><br>Op de borden staat: Duitsers! Vecht terug! Koop niet bij Joden!</p><p>foto 5: Jonge nazi's op een bijeenkomst in Berlijn:</p><p>Hieronder staan vier kenmerken van het nationaal-socialisme:</p><p>a Führerprincipe<br>b Heim ins Reich<br>c rassenleer<br>d vervolging van politieke tegenstanders</p>",
+          "bronverwijzing_tekst": "Gebruik bron 14.",
+          "bron_verwijzing": [
+            "vmbo_geschiedenis_staatsinrichting_tv1_opgave4_bron14_foto1.png",
+            "vmbo_geschiedenis_staatsinrichting_tv1_opgave4_bron14_foto2.png",
+            "vmbo_geschiedenis_staatsinrichting_tv1_opgave4_bron14_foto3.png",
+            "vmbo_geschiedenis_staatsinrichting_tv1_opgave4_bron14_foto4.png",
+            "vmbo_geschiedenis_staatsinrichting_tv1_opgave4_bron14_foto5.png",
+            "vmbo_geschiedenis_staatsinrichting_tv1_opgave4_bron14_foto6.png",
+            "vmbo_geschiedenis_staatsinrichting_tv1_opgave4_bron14_foto7.png"
+          ],
+          "vraagtekst_html": "<p>Geef per kenmerk aan welke foto daarbij hoort.<br>Let op! Er blijft één foto over.</p><p>Doe het zo:</p><p>Bij kenmerk a hoort foto (vul nummer in).<br>(enzovoort tot en met kenmerk d)</p>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><p>Bij kenmerk a hoort foto 2.<br>Bij kenmerk b hoort foto 1.<br>Bij kenmerk c hoort foto 4.<br>Bij kenmerk d hoort foto 3.</p><p>indien vier antwoorden juist 2<br>indien drie of twee antwoorden juist 1<br>indien minder dan twee antwoorden juist 0</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 5,
+      "opgave_titel": "De Tweede Wereldoorlog (1939-1945)",
+      "vragen": [
+        {
+          "id": 23,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Het Algemeen Nederlands Persbureau (ANP) was opgericht om nieuwsberichten te verspreiden. In 1940 nam de Duitse bezetter het bestuur van het ANP over en bepaalde dat alle Joodse ambtenaren moesten worden ontslagen. Tegenwoordig is dat ondenkbaar, omdat het ontslag in strijd is met artikel 1 van de Grondwet.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Geef een reden waarom het ontslag tegenwoordig in strijd is met artikel 1 uit de Grondwet.</p>",
+          "correct_antwoord_model": "<p>maximumscore 1</p><p>Uit het antwoord moet blijken dat door (het discriminatieverbod in) artikel 1 van de Grondwet het tegenwoordig ondenkbaar is dat mensen op basis van hun afkomst/geloof ontslagen worden.</p>"
+        },
+        {
+          "id": 24,
+          "max_score": 2,
+          "type": "multiple_gap_choice",
+          "context_html": "<p><strong>bron 15</strong></p><p>Een Amerikaanse propagandaposter (1942):</p><p><strong>Toelichting</strong></p><p>Op de poster staat: Neem wraak voor 7 december.<br>De man is een matroos bij de Amerikaanse marine.<br>Onderin staat een marineschip afgebeeld.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 15.",
+          "bron_verwijzing": "vmbo_geschiedenis_staatsinrichting_tv1_opgave5_bron15.png",
+          "vraagtekst_html": "<p>Een invulopdracht:</p><ol><li>Deze poster is gemaakt naar aanleiding van ...<strong>{1}</strong>... (de aanval op Pearl Harbor / de slag bij Stalingrad / operatie Barbarossa).</li><li>De Verenigde Staten voegden zich na deze gebeurtenis bij het bondgenootschap van de ...<strong>{2}</strong>... (As-mogendheden / Centralen / Geallieerden).</li><li>Het land waar volgens de poster wraak op genomen moest worden was ...<strong>{3}</strong>... (de Sovjet-Unie / Duitsland / Japan).</li><li>De Amerikaanse overheid verspreidde dit soort posters om ...<strong>{4}</strong>... (de Amerikaanse bevolking bang te maken / de vijand bang te maken / steun te krijgen voor de oorlog).</li></ol><p>Maak de zinnen kloppend door telkens de juiste keuze te maken.</p><p>Doe het zo:</p><p>zin 1: ... (kies uit: de aanval op Pearl Harbor / de slag bij Stalingrad / operatie Barbarossa)<br>zin 2: ... (kies uit: As-mogendheden / Centralen / Geallieerden)<br>zin 3: ... (kies uit: de Sovjet-Unie / Duitsland / Japan)<br>zin 4: ... (kies uit: de Amerikaanse bevolking bang te maken / de vijand bang te maken / steun te krijgen voor de oorlog)</p>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><p>zin 1: de aanval op Pearl Harbor<br>zin 2: de Geallieerden<br>zin 3: Japan<br>zin 4: steun te krijgen voor de oorlog</p><p>indien vier antwoorden juist 2<br>indien drie of twee antwoorden juist 1<br>indien minder dan twee antwoorden juist 0</p>",
+          "gaps": [
+            {
+              "id": 1,
+              "zin_html": "<p>1 Deze poster is gemaakt naar aanleiding van ...<strong>{1}</strong>...</p>",
+              "choices": [
+                "de aanval op Pearl Harbor",
+                "de slag bij Stalingrad",
+                "operatie Barbarossa"
+              ],
+              "correct_choice": "de aanval op Pearl Harbor"
+            },
+            {
+              "id": 2,
+              "zin_html": "<p>2 De Verenigde Staten voegden zich na deze gebeurtenis bij het bondgenootschap van de ...<strong>{2}</strong>...</p>",
+              "choices": [
+                "As-mogendheden",
+                "Centralen",
+                "Geallieerden"
+              ],
+              "correct_choice": "Geallieerden"
+            },
+            {
+              "id": 3,
+              "zin_html": "<p>3 Het land waar volgens de poster wraak op genomen moest worden was ...<strong>{3}</strong>...</p>",
+              "choices": [
+                "de Sovjet-Unie",
+                "Duitsland",
+                "Japan"
+              ],
+              "correct_choice": "Japan"
+            },
+            {
+              "id": 4,
+              "zin_html": "<p>4 De Amerikaanse overheid verspreidde dit soort posters om ...<strong>{4}</strong>...</p>",
+              "choices": [
+                "de Amerikaanse bevolking bang te maken",
+                "de vijand bang te maken",
+                "steun te krijgen voor de oorlog"
+              ],
+              "correct_choice": "steun te krijgen voor de oorlog"
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>In 1942 richtte de Duitse bezetter het Nederlandse Arbeidsfront op, een nationaal-socialistische vakbond die in de plaats kwam van de andere vakbonden in Nederland. Aan het hoofd kwam een NSB'er te staan. Het oprichten van het Nederlands Arbeidsfront past bij een kenmerk van het nationaal-socialisme.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Welk kenmerk wordt bedoeld?</p>",
+          "correct_antwoord_model": "<p>B</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "censuur"
+            },
+            {
+              "id": "B",
+              "text": "gelijkschakeling"
+            },
+            {
+              "id": "C",
+              "text": "militarisme"
+            },
+            {
+              "id": "D",
+              "text": "neutraliteit"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": 26,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>De Indonesische nationale vlag bestond al vóór de Tweede Wereldoorlog. Het gebruik van die vlag werd door het Nederlandse bestuur verboden. Alleen de Nederlandse vlag was toegestaan. Door een gebeurtenis in 1942 dachten veel Indonesiërs dat het gebruik van de vlag nu wel mogelijk was.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Geef eerst een reden waarom door het Nederlandse bestuur het gebruik van een Indonesische nationale vlag werd verboden.<br>Noem daarna de gebeurtenis uit 1942 waardoor veel Indonesiërs dachten dat het gebruik van de vlag nu wel mogelijk was.</p>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><p>Voorbeeld van een juist antwoord is:</p><ul><li>reden: Het Nederlandse bestuur zag de vlag als protest tegen het koloniale bewind / was bang dat door de vlag Indonesische nationalistiche gevoelens werden aangewakkerd. (1 punt)</li><li>gebeurtenis: de bezetting van Nederlands-Indië door Japan (1 punt)</li></ul>"
+        },
+        {
+          "id": 27,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>In Nederland waren er tijdens de Duitse bezetting Joodse onderduikers. Vanaf 1942 doken ook veel niet-Joodse mannen onder, omdat zij geen gehoor wilden geven aan een maatregel van de Duitse bezetter.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Welke maatregel wordt bedoeld?</p>",
+          "correct_antwoord_model": "<p>maximumscore 1</p><p>Uit het antwoord moet blijken dat het gaat om de gedwongen tewerkstelling (in Duitsland) / de Arbeitseinsatz.</p>"
+        },
+        {
+          "id": 28,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Een beschrijving:</p><p>In 1943 werd een man die 1500 gulden had gestolen door Nederlandse rechters veroordeeld tot een korte gevangenisstraf, zodat hij niet naar een Duits gevangenenkamp hoefde. Achteraf vertelden de Nederlandse rechters dat ze die beslissing hadden genomen, omdat ze de omstandigheden in het gevangenenkamp te slecht vonden. Na deze verklaring werden de rechters door de Duitse bezetter ontslagen.</p><p>Uit het ontslag van de rechters bleek dat in Nederland tijdens de Tweede Wereldoorlog een einde kwam aan de rechtsstaat.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Waarom bleek uit het ontslag dat er een einde kwam aan de rechtsstaat?</p>",
+          "correct_antwoord_model": "<p>D</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "De rechterlijke macht werd niet gecontroleerd door de wetgevende macht."
+            },
+            {
+              "id": "B",
+              "text": "De veroordeelde man kreeg geen eerlijke straf."
+            },
+            {
+              "id": "C",
+              "text": "Een persoon werd ten onrechte vastgezet."
+            },
+            {
+              "id": "D",
+              "text": "Er was geen sprake van onafhankelijke rechtspraak."
+            }
+          ],
+          "correct_answer": "D"
+        },
+        {
+          "id": 29,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 16</strong></p><p>Hieronder staan vier herinneringen van Nederlanders aan verschillende momenten tijdens de Tweede Wereldoorlog:</p><p><strong>herinnering 1</strong><br>Nadat er wilde geruchten over de bevrijding van Nederland de ronde deden:<br>'Ik hoorde de geruchten toen ik bij de jongerenorganisatie van de NSB aankwam. Ik beschouwde deze zangrepetitie als afscheid en we zongen alle liederen uit ons boek. Sommigen van ons huilden. Diezelfde nacht nog moesten we vluchten uit Amsterdam. Maar we komen terug, dacht ik.'</p><p><strong>herinnering 2</strong><br>Nadat Rotterdam door Duitse vliegtuigen werd gebombardeerd:<br>'Hoe lang hadden we gerend? Ik weet het niet. Op een gegeven moment zagen we een huis waar we om water vroegen. De vrouw hield ons een fluitketel voor waar we uit dronken. Ik dacht, ze laat ons drinken uit een fluitketel, geen glas, geen kopje.'</p><p><strong>herinnering 3</strong><br>Nadat Nederland was bezet:<br>'Van de Duitsers zagen we die eerste oorlogstijd niet veel. De mensen gingen weer aan het werk, kinderen gingen naar school. Na een paar weken konden we ook weer naar voetbal. Clubs en verenigingen gingen door met hun activiteiten.'</p><p><strong>herinnering 4</strong><br>Nadat voor het eerst grote hoeveelheden mensen moesten onderduiken:<br>'Ze zei tegen mij: \"Zeg Frits, wij moeten een organisatie oprichten, zodat wij onderduikers kunnen helpen. En ik vind dat jij dat moet doen. Zou het nou zo erg zijn als jij om het leven kwam en er duizenden jongens gered werden?\" Daar kon ik niks op zeggen. Wij hebben toen samen een landelijke organisatie opgericht.'</p><p>Hieronder staan drie verschillende soorten houdingen van Nederlanders tijdens de Tweede Wereldoorlog:</p><ul><li>aanpassing</li><li>collaboratie</li><li>verzet</li></ul>",
+          "bronverwijzing_tekst": "Gebruik bron 16.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Geef per houding aan welke herinnering daarbij past.<br>Let op! Er blijft één herinnering over.</p><p>Doe het zo:</p><p>Aanpassing past bij herinnering... (vul nummer in).<br>Collaboratie past bij herinnering... (vul nummer in).<br>Verzet past bij herinnering... (vul nummer in).</p>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><p>Aanpassing past bij herinnering 3.<br>Collaboratie past bij herinnering 1.<br>Verzet past bij herinnering 4.</p><p>indien drie antwoorden juist 2<br>indien twee antwoorden juist 1<br>indien minder dan twee antwoorden juist 0</p>"
+        },
+        {
+          "id": 30,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 17</strong></p><p>Herinnering van een Duitse majoor (1944):</p><p>Ik pakte verbaasd mijn verrekijker en zag de horizon letterlijk vollopen met allerlei typen schepen. Het leek mij onmogelijk dat deze enorme vloot bijeengebracht was vanuit Groot-Brittannië zonder dat iemand het gemerkt had. Ik gaf de verrekijker aan de man naast mij en zei: \"Hier, kijk jij eens.\" Hij: \"Mijn God, het is de invasie!\"</p><p>De bron gaat over een invasie tijdens de Tweede Wereldoorlog.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 17.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Noem de naam van deze invasie.</p>",
+          "correct_antwoord_model": "<p>maximumscore 1</p><p>D-Day / operatie Overlord</p>"
+        },
+        {
+          "id": 31,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Hieronder staan vijf gebeurtenissen die te maken hebben met Nederland tijdens de Tweede Wereldoorlog:</p><ol><li>De Nederlandse regering en het Koninklijk Huis vluchten naar Groot-Brittannië.</li><li>Duizenden personeelsleden van de Nederlandse Spoorwegen leggen het werk neer om operatie Market Garden te ondersteunen.</li><li>In Amsterdam vinden de eerste razzia's van Nederland plaats.</li><li>Nederlandse soldaten vechten mee in het Duitse leger tijdens de Slag bij Stalingrad.</li><li>Vrouwen die een relatie hebben gehad met Duitse soldaten, worden in het openbaar vernederd door ze kaal te scheren.</li></ol>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Zet de gebeurtenissen in de juiste volgorde, van vroeger naar later.</p><p>Doe het zo:</p><p>Eerst ..., dan ..., daarna ..., vervolgens ... en ten slotte ... (vul nummers in).</p>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><p>Eerst 1, dan 3, daarna 4, vervolgens 2 en ten slotte 5.</p><p><em>Opmerking</em><br>Als door het weglaten van één foutief geplaatst nummer een verder foutloze reeks ontstaat, wordt 1 scorepunt toegekend.</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 6,
+      "opgave_titel": "Europa en de wereld (1945-1989)",
+      "vragen": [
+        {
+          "id": 32,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>In 1947 zette Nederland het leger in de kolonie Indonesië in om politieke belangen te verdedigen, maar ook om economische belangen te verdedigen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Geef een voorbeeld van een economisch belang dat Nederland wilde verdedigen.</p>",
+          "correct_antwoord_model": "<p>maximumscore 1</p><p>Uit het antwoord moet blijken dat Nederland de toevoer van grondstoffen wilde veiligstellen / Nederlandse bedrijven wilde beschermen / de Wederopbouw wilde financieren.</p>"
+        },
+        {
+          "id": 33,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Op de inzet van het Nederlandse leger in 1947 in Indonesië kwam veel internationale kritiek.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Van wie kwam die internationale kritiek voornamelijk?</p>",
+          "correct_antwoord_model": "<p>D</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "van de EGKS en van de NAVO"
+            },
+            {
+              "id": "B",
+              "text": "van de EGKS en van de Verenigde Naties"
+            },
+            {
+              "id": "C",
+              "text": "van de Verenigde Naties en van de NAVO"
+            },
+            {
+              "id": "D",
+              "text": "van de Verenigde Naties en van de Verenigde Staten"
+            }
+          ],
+          "correct_answer": "D"
+        },
+        {
+          "id": 34,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>In 1949 werd Indonesië door Nederland officieel erkend als onafhankelijk land en komt de macht in het land bij de Indonesische regering te liggen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Welk begrip wordt in Nederland voor deze gebeurtenis gebruikt?</p>",
+          "correct_antwoord_model": "<p>D</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "capitulatie"
+            },
+            {
+              "id": "B",
+              "text": "democratisering"
+            },
+            {
+              "id": "C",
+              "text": "politionele actie"
+            },
+            {
+              "id": "D",
+              "text": "soevereiniteitsoverdracht"
+            }
+          ],
+          "correct_answer": "D"
+        },
+        {
+          "id": 35,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 18</strong></p><p>Een poster in Duitsland (1950):</p><p><strong>Toelichting</strong></p><p>Op de poster staat: ERP, wij bouwen een nieuw Europa.<br>ERP staat voor Europees herstelprogramma (= Marshallplan).<br>In het nest is een aantal vlaggen van West-Europese landen te zien.<br>Op de boom is de Amerikaanse vlag te zien.</p><p>Het Marshallplan had naast een economisch doel ook een politiek doel. In de poster zijn beide doelen te herkennen.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 18.",
+          "bron_verwijzing": "vmbo_geschiedenis_staatsinrichting_tv1_opgave6_bron18.png",
+          "vraagtekst_html": "<p>Geef aan met behulp van de bron welk economisch doel en welk politiek doel in de poster te herkennen zijn.</p><p>Doe het zo:</p><p>economisch doel: ...<br>Het economische doel is te herkennen aan ... (noem een onderdeel van de bron).</p><p>politiek doel: ...<br>Het politieke doel is te herkennen aan ... (noem een onderdeel van de bron).</p>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><p>economisch doel: (economisch) herstel / wederopbouw / het opnieuw laten groeien van de economie<br>Het economische doel is te herkennen aan de jonge blaadjes aan de boom / aan de dode boom die weer tot leven komt. (1 punt)</p><p>politiek doel: vrede / samenwerking in Europa<br>Het politieke doel is te herkennen aan de duiven / aan het samen bouwen aan een nest / aan het nest dat bestaat uit verschillende vlaggen. (1 punt)</p><p><strong>of</strong></p><p>politiek doel: het vergroten van Amerikaanse invloed in Europa<br>Het politieke doel is te herkennen aan de Amerikaanse vlag op de (Europese) boom. (1 punt)</p><p><em>Opmerking</em><br>Alleen als na een juist doel een juiste, passende verwijzing naar een onderdeel van de bron volgt, wordt 1 scorepunt toegekend.</p>"
+        },
+        {
+          "id": 36,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>In de jaren 50 vond de opkomst van de televisie plaats. De leiders van de confessionele zuilen zagen de televisie eerst als een bedreiging voor de verzuiling. Uiteindelijk besloten de leiders toch om zelf televisie-uitzendingen te laten maken.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Leg uit waarom de leiders van de confessionele zuilen van gedachten zijn veranderd.</p><p>Doe dit door:</p><ul><li>eerst een reden te geven waarom de leiders van de confessionele zuilen dachten dat de televisie een bedreiging was voor de verzuiling</li><li>en daarna een verklaring te geven waarom de leiders toch besloten om zelf televisie-uitzendingen te laten maken.</li></ul>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><p>Voorbeeld van een juist antwoord is:</p><ul><li>reden: De leiders van de confessionele zuilen waren bang dat de leden van hun zuil naar uitzendingen van andere zuilen zouden kijken / dat door de televisie mensen zouden zien dat andere zuilen ook interessante dingen te bieden hadden (en daardoor niet meer tevreden zouden zijn met hun eigen zuil / niet meer naar de leiders van hun zuil zouden luisteren). (1 punt)</li><li>verklaring: Door zelf televisie-uitzendingen te laten maken, konden de leiders van de confessionele zuilen ervoor zorgen dat er programma's gemaakt werden die pasten bij hun eigen zuil / konden de leiders van de confessionele zuilen de mening van de leden van hun zuil beïnvloeden / de identiteit van de zuil versterken. (1 punt)</li></ul>"
+        },
+        {
+          "id": 37,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 19</strong></p><p>Twee herinneringen over een gebeurtenis in 1956:</p><p><strong>herinnering 1</strong><br>Toen die Russische tanks zo massaal binnenkwamen, had je het gevoel dat alles verloren ging. Het is bijna niet te beschrijven. Wij hebben even de smaak van de vrijheid mogen proeven, maar het is allemaal voor niks geweest.</p><p><strong>herinnering 2</strong><br>Ik herinner me dat er bijna dagelijks vanuit het Westen via luchtballonnen pamfletten over ons land zijn gestrooid. Dus dan verwacht je ook dat het Westen je gaat helpen. Maar dat is niet gebeurd.</p><p>Uit de bron blijkt dat hulp werd verwacht uit het Westen. Die hulp is niet gekomen.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 19.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Leg uit waarom er geen hulp uit het Westen is gekomen.</p><p>Doe dit door:</p><ul><li>eerst aan te geven over welke gebeurtenis de herinneringen gaan</li><li>en daarna een politieke verklaring te geven waarom er geen hulp uit het Westen is gekomen.</li></ul>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><ul><li>gebeurtenis: (het neerslaan van) de Hongaarse Opstand (1 punt)</li><li>politieke verklaring: Het Westen was bang voor een conflict met de Sovjet-Unie / Hongarije hoorde bij de invloedssfeer van de Sovjet-Unie. (1 punt)</li></ul>"
+        },
+        {
+          "id": 38,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>In 1963 werd een directe communicatielijn aangelegd tussen de leider van de Sovjet-Unie en de president van de Verenigde Staten. De aanleiding voor de aanleg was een gebeurtenis die het jaar daarvoor had plaatsgevonden. Door die gebeurtenis was bijna een kernoorlog uitgebroken.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Welke gebeurtenis was de aanleiding voor de aanleg van de directe communicatielijn?</p>",
+          "correct_antwoord_model": "<p>B</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "de Blokkade van Berlijn"
+            },
+            {
+              "id": "B",
+              "text": "de Cubacrisis"
+            },
+            {
+              "id": "C",
+              "text": "de Praagse Lente"
+            },
+            {
+              "id": "D",
+              "text": "de stichting van de DDR"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": 39,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 20</strong></p><p>Een poster in Nederland (1972):</p><p><strong>Toelichting</strong></p><p>Op de poster staat: Kies de partij die u wilt, maar stem op een vrouw.<br>Vrouw '72</p><p>In de twintigste eeuw was er sprake van een Eerste en een Tweede Feministische Golf.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 20.",
+          "bron_verwijzing": "vmbo_geschiedenis_staatsinrichting_tv1_opgave6_bron20.png",
+          "vraagtekst_html": "<p>Geef eerst een reden waarom de oproep op de poster mogelijk werd gemaakt dankzij de Eerste Feministische Golf.<br>Geef daarna een reden waarom de poster past bij de doelen van de Tweede Feministische Golf.</p><p>Doe het zo:</p><p>De oproep op de poster is mogelijk gemaakt dankzij de Eerste Feministische Golf, omdat ... (geef een reden).<br>De poster past bij de doelen van de Tweede Feministische Golf, omdat ... (geef een reden).</p>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><p>Voorbeeld van een juist antwoord is:</p><ul><li>De oproep op de poster is mogelijk gemaakt dankzij de Eerste Feministische Golf, omdat die beweging streed voor (passief) kiesrecht voor vrouwen (en dat is hier al bereikt). (1 punt)</li><li>De poster past bij de doelen van de Tweede Feministische Golf, omdat die beweging streed voor een meer gelijke vertegenwoordiging van mannen en vrouwen in de politiek / voor meer actieve vrouwen in de politiek (die gebruikmaken van hun actieve of passieve kiesrecht). (1 punt)</li></ul>"
+        },
+        {
+          "id": 40,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 21</strong></p><p>Uit een toespraak van een Amerikaanse president in Berlijn (1987):</p><p>En nu kunnen de burgers van de Sovjet-Unie zelf, in beperkte mate, het belang van vrijheid gaan inzien. We horen veel uit Moskou over een nieuw beleid. Enkele politieke gevangenen zijn vrijgelaten. Bepaalde buitenlandse nieuwsuitzendingen worden niet meer geblokkeerd. Sommige economische ondernemingen mogen opereren met een grotere vrijheid van staatscontrole.<br>Meneer Gorbatsjov, als u vrede zoekt, als u welvaart zoekt voor de Sovjet-Unie en Oost-Europa, als u meer vrijheid zoekt, kom hier naar deze poort. Meneer Gorbatsjov, open deze poort! Sloop deze muur!</p><p>Hieronder staan zes begrippen die te maken hebben met de Koude Oorlog:</p><ol><li>Blokkade van Berlijn</li><li>containment</li><li>Glasnost</li><li>IJzeren Gordijn</li><li>Perestrojka</li><li>wapenwedloop</li></ol>",
+          "bronverwijzing_tekst": "Gebruik bron 21.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Welke drie begrippen zijn te herkennen in de bron? Schrijf alleen de nummers op.</p>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><p>3, 4 en 5</p><p>indien drie antwoorden juist 2<br>indien twee antwoorden juist 1<br>indien minder dan twee antwoorden juist 0</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 7,
+      "opgave_titel": "De nieuwe wereldorde (vanaf 1990)",
+      "vragen": [
+        {
+          "id": 41,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>De overheid ging in de jaren 90 regelmatig in overleg met de vakbonden en werkgevers over het beperken van het stijgen van de lonen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Welk begrip past bij deze manier van overleggen?</p>",
+          "correct_antwoord_model": "<p>B</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "individualisering"
+            },
+            {
+              "id": "B",
+              "text": "poldermodel"
+            },
+            {
+              "id": "C",
+              "text": "secularisatie"
+            },
+            {
+              "id": "D",
+              "text": "verzorgingsstaat"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": 42,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 22</strong></p><p>Uit de troonrede voorgelezen door het staatshoofd (2001):</p><p>De Europese samenwerking is op de waarden van vrijheid, democratie en rechtvaardigheid gebaseerd. De euro, die op 1 januari 2002 ons wettig betaalmiddel wordt, is het tastbare resultaat van de wil om Europa politiek, economisch en sociaal te versterken. Het bereiken van deze mijlpaal is een aansporing om de integratie verder te verbreden en te verdiepen.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 22.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Wat is de naam van het Nederlandse staatshoofd dat deze troonrede heeft uitgesproken?</p>",
+          "correct_antwoord_model": "<p>maximumscore 1</p><p>(koningin) Beatrix</p>"
+        },
+        {
+          "id": 43,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 23</strong></p><p>Een herinnering aan een gebeurtenis (2001):</p><p>Ik werd wakker door het geluid van sirenes. Er zijn altijd sirenes in onze stad te horen, maar deze keer was het anders. Ik ging rechtop zitten in bed en keek door het raam. Ik zag rook uit de noordelijke toren komen. Ik deed de tv aan en keek naar het nieuws. Toen ging ik naar buiten en zag ik opeens een vliegtuig laag aan komen vliegen richting de zuidelijke toren en zich in het gebouw boren.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 23.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Over welke gebeurtenis gaat de herinnering?</p>",
+          "correct_antwoord_model": "<p>maximumscore 1</p><p>Uit het antwoord moet blijken dat het gaat om de terroristische aanval op de Twin Towers / New York/9-11.</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 8,
+      "opgave_titel": "Door de tijd heen",
+      "vragen": [
+        {
+          "id": 44,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 24</strong></p><p>Hieronder staan vijf fragmenten uit verkiezingsprogramma's van Nederlandse sociaal-democraten tussen 1918 en 2002:</p><p><strong>fragment 1</strong><br>Er is veel te weinig democratie in de Europese Unie. Burgers moeten daarom beter worden betrokken bij de Europese politiek.</p><p><strong>fragment 2</strong><br>Het kiesrecht moet nog meer worden uitgebreid: niet alleen mannen, maar ook vrouwen verdienen het kiesrecht.</p><p><strong>fragment 3</strong><br>In de internationale politiek moeten we goed samenwerken met de nieuwe republiek Indonesië. We moeten hulp bieden aan de vele Nederlanders, die nu uit Indonesië naar Nederland komen.</p><p><strong>fragment 4</strong><br>Nederland is nu na vijf jaar dictatuur weer een rechtsstaat. Dit is een goed moment om onze democratie te versterken.</p><p><strong>fragment 5</strong><br>We moeten doorgaan met het sociaal-economisch beleid dat onder de vorige minister-president Drees is gevoerd. Dat heeft veel opgeleverd, zoals de invoering van een ouderdomspensioen voor iedereen.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 24.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Zet de fragmenten in de juiste volgorde, van vroeger naar later.</p><p>Doe het zo:</p><p>Eerst..., dan .., daarna ..., vervolgens .. en ten slotte ... (vul nummers in).</p>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><p>Eerst 2, dan 4, daarna 3, vervolgens 5 en ten slotte 1.</p><p><em>Opmerking</em><br>Als door het weglaten van één foutief geplaatst nummer een verder foutloze reeks ontstaat, wordt 1 scorepunt toegekend.</p>"
+        },
+        {
+          "id": 45,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 25</strong></p><p>Hieronder en op de volgende drie pagina's staan in totaal vier posters uit Duitsland.</p><p>poster 1:</p><p><strong>Toelichting</strong><br>Op de poster staat: Genoeg nu! Stem Hitler.</p><p>poster 2:</p><p><strong>Toelichting</strong><br>Op de poster staat: Europa sterk maken is Duitsland sterk maken.<br>Het CDU is een Duitse politieke partij. Op de achtergrond is de vlag van de Europese Unie te herkennen.</p><p>poster 3:</p><p><strong>Toelichting</strong><br>Op de poster staat: DDR. Socialistische staat van de arbeiders en boeren.</p><p>poster 4:</p><p><strong>Toelichting</strong><br>Op de poster staat: De weg is vrij!<br>De eenheid komt eraan. Wij zijn één volk!<br>De man links is Gorbatsjov.<br>De man recht is de leider van de BRD.</p><p>Hieronder staan vier periodes:</p><p>a 1919-1939<br>b 1940-1945<br>c 1946-1991<br>d 1992-2020</p>",
+          "bronverwijzing_tekst": "Gebruik bron 25.",
+          "bron_verwijzing": [
+            "vmbo_geschiedenis_staatsinrichting_tv1_opgave8_bron25_poster1.png",
+            "vmbo_geschiedenis_staatsinrichting_tv1_opgave8_bron25_poster2.png",
+            "vmbo_geschiedenis_staatsinrichting_tv1_opgave8_bron25_poster3.png",
+            "vmbo_geschiedenis_staatsinrichting_tv1_opgave8_bron25_poster4.png"
+          ],
+          "vraagtekst_html": "<p>Geef per poster aan welke periode daarbij hoort.<br>Let op! Een periode mag meer dan één keer worden gebruikt.</p><p>Doe het zo:</p><p>Poster 1 hoort bij periode... (vul letter in).<br>(enzovoort tot en met poster 4)</p>",
+          "correct_antwoord_model": "<p>maximumscore 2</p><p>Poster 1 hoort bij periode a (= 1919-1939).<br>Poster 2 hoort bij periode d (= 1992-2020).<br>Poster 3 hoort bij periode c (= 1946-1991).<br>Poster 4 hoort bij periode c (= 1946-1991).</p><p>indien vier antwoorden juist 2<br>indien drie of twee antwoorden juist 1<br>indien minder dan twee antwoorden juist 0</p>"
+        }
+      ]
+    }
+  ]
+}

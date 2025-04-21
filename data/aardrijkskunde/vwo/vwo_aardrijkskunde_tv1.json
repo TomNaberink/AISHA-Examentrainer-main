@@ -1,0 +1,358 @@
+{
+    "examen_info": {
+      "vak": "aardrijkskunde",
+      "niveau": "vwo",
+      "tijdvak": "TV1",
+      "jaar": 2024
+    },
+    "opgaven": [
+      {
+        "opgave_nr": 1,
+        "opgave_titel": "Plastic afval als grondstof",
+        "vragen": [
+          {
+            "id": 1,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 1</strong></p><p><strong>China stopt met de import van plastic afval uit Europa</strong><br>Westerse landen exporteren al zo'n 50 jaar plastic afval, vooral naar China. In China werd dit plastic afval gerecycled tot korrels (kunststofgranulaat) die vervolgens als grondstof werden gebruikt. Nadat China in 2017 de import van plastic afval verboden had, gingen exporteurs uit westerse landen op zoek naar andere bestemmingen. De import van plastic afval in Turkije vertienvoudigde sinds het Chinese importverbod. Lang niet al het geïmporteerde afval blijkt recyclebaar. Veel plastic afval wordt uiteindelijk verbrand, gestort of belandt in het milieu.</p><p><em>Recycling van plastic afval door een Turks afvalverwerkingsbedrijf</em></p>",
+            "bronverwijzing_tekst": "Gebruik bron 1.",
+            "bron_verwijzing": "vwo_aardrijkskunde_tv1_opgave1_bron1.png",
+            "vraagtekst_html": "<p>De productieketen van producten gemaakt van gerecycled plastic wijkt af van productieketens met een traditionele centrum-periferieverhouding.<br>Geef aan waarin de productieketen van producten gemaakt van gerecycled plastic afwijkt.</p>",
+            "correct_antwoord_model": "<p>Juiste antwoorden zijn:<br>De grondstof in de productieketen van producten gemaakt van gerecycled plastic</p><ul><li>komt uit centrumlanden / niet uit perifere landen.</li><li>is geen (uit de bodem of grond) gewonnen delfstof.</li><li>bestaat uit afval van eindproducten.</li></ul>"
+          },
+          {
+            "id": 2,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 1</strong></p><p><strong>China stopt met de import van plastic afval uit Europa</strong><br>Westerse landen exporteren al zo'n 50 jaar plastic afval, vooral naar China. In China werd dit plastic afval gerecycled tot korrels (kunststofgranulaat) die vervolgens als grondstof werden gebruikt. Nadat China in 2017 de import van plastic afval verboden had, gingen exporteurs uit westerse landen op zoek naar andere bestemmingen. De import van plastic afval in Turkije vertienvoudigde sinds het Chinese importverbod. Lang niet al het geïmporteerde afval blijkt recyclebaar. Veel plastic afval wordt uiteindelijk verbrand, gestort of belandt in het milieu.</p><p><em>Recycling van plastic afval door een Turks afvalverwerkingsbedrijf</em></p>",
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>China is decennialang de grootste importeur van plastic afval geweest. In 2017 besloot China te stoppen met deze import.<br>Geef</p><ul><li>een reden waarom juist China decennialang de grootste importeur van plastic afval geweest is;</li><li>twee redenen waarom China de import van plastic afval uiteindelijk verbood.</li></ul>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat in China veel (plastic) producten (voor de wereldmarkt) gemaakt worden / dat de Chinese industrie voor een groot deel afhankelijk is van (plastic) producten waarvoor grondstoffen (plastic afval) nodig zijn. <strong>(1 punt)</strong></p><p>Juiste redenen waarom China de import van plastic afval verbood, zijn:</p><ul><li>De hoeveelheid plastic afval in China zelf nam toe (waardoor import niet meer nodig was).</li><li>China wilde deze vervuilende industrie / de milieubelasting door overblijvend plastic afval niet meer in eigen land hebben.</li><li>China wilde niet langer het imago hebben van afvalverwerker van de westerse landen / zich minder profileren als land met (laagwaardige) maakindustrie.</li><li>Het geïmporteerde plastic was van onvoldoende / steeds slechter wordende kwaliteit.</li></ul><p><em>Opmerking</em><br>Per juiste reden 1 scorepunt toekennen. <strong>(max. 2 punten)</strong></p>"
+          },
+          {
+            "id": 3,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": null,
+            "bronverwijzing_tekst": "Gebruik in het kaartenkatern <a href=\"https://www.examenblad.nl/2024/vwo/documenten/cse-1/vw-0131-a-24-1-k\" target=\"_blank\">(link)</a> de kaart Aarde Minerale grondstoffen.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>De Europese Unie heeft besloten de recycling van onder andere plastic afval te stimuleren.<br>Beredeneer waarom recycling kan bijdragen aan een minder kwetsbare geopolitieke positie van de Europese Unie.</p>",
+            "correct_antwoord_model": "<p>Een juiste redenering is:</p><ul><li>De Europese Unie (of: Europa) beschikt zelf over relatief weinig grondstoffen / importeert veel grondstoffen, <strong>(1 punt)</strong></li><li>zodat door (plastic) afval te gebruiken als grondstof / door producten te recyclen de afhankelijkheid van andere landen afneemt. <strong>(1 punt)</strong></li></ul>"
+          },
+          {
+            "id": 4,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": null,
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Plastic afval in andere landen verwerken is een vorm van ruimtelijke afwenteling. Door politieke globalisering kan ruimtelijke afwenteling worden tegengegaan.<br>Geef</p><ul><li>een omschrijving van het begrip ruimtelijke afwenteling;</li><li>een reden waarom politieke globalisering ruimtelijke afwenteling kan tegengaan.</li></ul>",
+            "correct_antwoord_model": "<ul><li>Uit de omschrijving moet blijken dat bij ruimtelijke afwenteling negatieve gevolgen van (economische) activiteiten worden afgeschoven op andere landen of gebieden. <strong>(1 punt)</strong></li><li>Een juist antwoord is: nationale overheden kunnen door internationaal samen te werken afspraken maken over de verwerking van / export van / controle op (illegale) afvalstromen. <strong>(1 punt)</strong></li></ul>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 2,
+        "opgave_titel": "De Pan-American Highway: mind the gap",
+        "vragen": [
+          {
+            "id": 5,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 2</strong></p><p><strong>De Pan-American Highway</strong></p><p>De Pan-American Highway is een netwerk van wegen dat de noordkust van Alaska met het zuidelijkste puntje van Argentinië verbindt. Het initiatief voor de aanleg van dit netwerk stamt uit 1925 en had als doel landen beter met elkaar, maar vooral beter met de Verenigde Staten te verbinden. Tegenwoordig maken migranten op weg naar de Verenigde Staten vaak gebruik van dit netwerk.</p><p>De overheid in de Verenigde Staten probeert deze migrantenstroom te beperken door invloed uit te oefenen op de landen waar de migranten doorheen reizen. Op welke manier invloed wordt uitgeoefend ligt aan de op dat moment zittende president. In januari 2021 werd de republikeinse president Trump opgevolgd door de democratische president Biden.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 2.",
+            "bron_verwijzing": "vwo_aardrijkskunde_tv1_opgave2_bron2.png",
+            "vraagtekst_html": "<p>Het initiatief om de verbinding tussen Noord-, Midden- en Zuid-Amerika te verbeteren is 100 jaar geleden door de Verenigde Staten genomen.<br>Geef een reden waarom de Verenigde Staten deze verbinding wilden verbeteren</p><ul><li>vanuit de economische dimensie;</li><li>vanuit de politieke dimensie.</li></ul>",
+            "correct_antwoord_model": "<ul><li>Een juiste reden vanuit de economische dimensie is: de Verenigde Staten wilden met deze verbinding de handel (in grondstoffen / landbouw en/of industrieproducten met andere landen) verbeteren. <strong>(1 punt)</strong></li><li>Een juiste reden vanuit de politieke dimensie is: de Verenigde Staten wilden (als hegemoniale staat) de invloed / hun macht in Midden- en Zuid-Amerika vergroten. <strong>(1 punt)</strong></li></ul>"
+          },
+          {
+            "id": 6,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 2</strong></p><p><strong>De Pan-American Highway</strong></p><p>De Pan-American Highway is een netwerk van wegen dat de noordkust van Alaska met het zuidelijkste puntje van Argentinië verbindt. Het initiatief voor de aanleg van dit netwerk stamt uit 1925 en had als doel landen beter met elkaar, maar vooral beter met de Verenigde Staten te verbinden. Tegenwoordig maken migranten op weg naar de Verenigde Staten vaak gebruik van dit netwerk.</p><p>De overheid in de Verenigde Staten probeert deze migrantenstroom te beperken door invloed uit te oefenen op de landen waar de migranten doorheen reizen. Op welke manier invloed wordt uitgeoefend ligt aan de op dat moment zittende president. In januari 2021 werd de republikeinse president Trump opgevolgd door de democratische president Biden.</p><p><strong>bron 3</strong></p><p><strong>De Darién Gap</strong></p><p>In het grensgebied van Panama en Colombia ligt de Darién Gap. Dit is een dichtbegroeid gebied zonder goede infrastructuur waar guerrillastrijders en drugssmokkelaars actief zijn. Migranten die Panama via de Darién Gap binnenkomen vragen zelden een verblijfsvergunning in Panama aan. Zij hebben meestal de Verenigde Staten als einddoel.</p>",
+            "bronverwijzing_tekst": "Gebruik de bronnen 2 en 3.",
+            "bron_verwijzing": [
+              "vwo_aardrijkskunde_tv1_opgave2_bron2.png",
+              "vwo_aardrijkskunde_tv1_opgave2_bron3.png"
+            ],
+            "vraagtekst_html": "<p>Beredeneer dat de Pan-American Highway op nationaal schaalniveau meer bijdraagt aan economische integratie dan op intercontinentaal schaalniveau.<br>Betrek in je antwoord beide schaalniveaus.</p>",
+            "correct_antwoord_model": "<p>Uit de redenering moet blijken dat</p><ul><li>door de Pan-American Highway transport/vervoer/handel over de weg binnen landen verbeterd is, (nationaal schaalniveau) <strong>(1 punt)</strong></li><li>maar dat de afstanden tussen Noord- en Zuid-Amerika voor transport/vervoer/handel over de weg groot zijn / beter met de boot (en/of vliegtuig) overbrugd kunnen worden / dat bij de Darién Gap een (belangrijk) stuk infrastructuur ontbreekt om transport over de weg naar en vanuit Zuid-Amerika mogelijk te maken. (intercontinentaal schaalniveau) <strong>(1 punt)</strong></li></ul><p><em>Opmerking</em><br>De schaalniveaus hoeven niet expliciet in het antwoord genoemd te worden.</p>"
+          },
+          {
+            "id": 7,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 2</strong></p><p><strong>De Pan-American Highway</strong></p><p>[...]</p><p>De overheid in de Verenigde Staten probeert deze migrantenstroom te beperken door invloed uit te oefenen op de landen waar de migranten doorheen reizen. Op welke manier invloed wordt uitgeoefend ligt aan de op dat moment zittende president. In januari 2021 werd de republikeinse president Trump opgevolgd door de democratische president Biden.</p><p><strong>bron 3</strong></p><p><strong>De Darién Gap</strong></p><p>In het grensgebied van Panama en Colombia ligt de Darién Gap. Dit is een dichtbegroeid gebied zonder goede infrastructuur waar guerrillastrijders en drugssmokkelaars actief zijn. Migranten die Panama via de Darién Gap binnenkomen vragen zelden een verblijfsvergunning in Panama aan. Zij hebben meestal de Verenigde Staten als einddoel.</p><p><strong>bron 4</strong></p><p><strong>Aantal geregistreerde migranten bij de Darién Gap naar land van herkomst</strong></p><p>[Grafiek data]</p>",
+            "bronverwijzing_tekst": "Gebruik de bronnen 2 tot en met 4.",
+            "bron_verwijzing": [
+              "vwo_aardrijkskunde_tv1_opgave2_bron2.png",
+              "vwo_aardrijkskunde_tv1_opgave2_bron3.png",
+              "vwo_aardrijkskunde_tv1_opgave2_bron4.png"
+            ],
+            "vraagtekst_html": "<p>In 2021 en 2022 werden veel meer migranten geregistreerd bij de Darién Gap dan in de jaren daarvoor.<br>Geef aan dat politieke veranderingen in vestigingslanden invloed kunnen hebben op migratiestromen.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat door politieke machtsverschuivingen (im)migratiebeleid / grensbewaking in vestigingslanden soepeler / strenger kan worden.</p>"
+          },
+          {
+            "id": 8,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 4</strong></p><p><strong>Aantal geregistreerde migranten bij de Darién Gap naar land van herkomst</strong></p><p>[Grafiek data]</p><p><strong>bron 5</strong></p><p><strong>Bruto binnenlands product per inwoner</strong></p><p>[Wereldkaart BBP]</p><p><strong>bron 6</strong></p><p><strong>Fragile States Index</strong></p><p>[Wereldkaart Fragile States]</p>",
+            "bronverwijzing_tekst": "Gebruik de bronnen 4 tot en met 6 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/vwo/documenten/cse-1/vw-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": [
+              "vwo_aardrijkskunde_tv1_opgave2_bron4.png",
+              "vwo_aardrijkskunde_tv1_opgave2_bron5.png",
+              "vwo_aardrijkskunde_tv1_opgave2_bron6.png"
+            ],
+            "vraagtekst_html": "<p>De letter x in bron 4 is van een land in het Caribisch gebied. De letter y is van een land in Zuid-Amerika.</p><p>Noteer de letters x en y onder elkaar op je antwoordblad.<br>Schrijf achter elke letter de naam van het juiste land.</p>",
+            "correct_antwoord_model": "<p>x= Haïti <strong>(1 punt)</strong></p><p>y= Venezuela <strong>(1 punt)</strong></p>"
+          },
+          {
+            "id": 9,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 5</strong></p><p><strong>Bruto binnenlands product per inwoner</strong></p><p>[Wereldkaart BBP]</p><p><strong>bron 6</strong></p><p><strong>Fragile States Index</strong></p><p>[Wereldkaart Fragile States]</p>",
+            "bronverwijzing_tekst": "Gebruik de bronnen 5 en 6.",
+            "bron_verwijzing": [
+              "vwo_aardrijkskunde_tv1_opgave2_bron5.png",
+              "vwo_aardrijkskunde_tv1_opgave2_bron6.png"
+            ],
+            "vraagtekst_html": "<p>Niet alle migranten die via de Pan-American Highway naar de Verenigde Staten willen gaan, bereiken hun einddoel. Veel migranten vestigen zich uiteindelijk in Mexico.</p><p>Geef een reden waarom Mexico voor veel van deze migranten een gunstige eindbestemming kan zijn</p><ul><li>vanuit de economische dimensie;</li><li>vanuit nog een andere dimensie.</li></ul>",
+            "correct_antwoord_model": "<p>Juiste redenen vanuit de economische dimensie zijn:</p><ul><li>Mexico biedt (door geoutsourcete industrieën vanuit de Verenigde Staten) relatief veel werkgelegenheid voor migranten.</li><li>Mexico is een relatief rijk land in Midden-Amerika.</li></ul><p><strong>(1 punt voor één juiste reden)</strong></p><p>Juiste redenen vanuit andere dimensies zijn:</p><ul><li>In Mexico wordt dezelfde taal gesproken als in de vertreklanden waar veel migranten vandaan komen. (sociaal-culturele dimensie)</li><li>De Mexicaanse bevolking heeft overwegend dezelfde godsdienst als de bevolking in de vertreklanden waar veel migranten vandaan komen. (sociaal-culturele dimensie)</li><li>Mexico is een politiek relatief stabiel land. (politieke dimensie)</li></ul><p><strong>(1 punt voor één juiste reden)</strong></p><p><em>Opmerking</em><br>De dimensies hoeven niet expliciet in het antwoord genoemd te worden.</p>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 3,
+        "opgave_titel": "Overstromingen in Pakistan",
+        "vragen": [
+          {
+            "id": 10,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 7</strong></p><p><strong>Foto's van de rivieren Indus (Pakistan), Mekong (Zuidoost-Azië), Mississippi (Verenigde Staten) en Ob (Rusland)</strong></p><p>[foto a, foto b, foto c, foto d]</p>",
+            "bronverwijzing_tekst": "Gebruik bron 7 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/vwo/documenten/cse-1/vw-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": "vwo_aardrijkskunde_tv1_opgave3_bron7.png",
+            "vraagtekst_html": "<p>In bron 7 staan foto's van vier rivieren: Indus, Mekong, Mississippi en Ob.<br>Noteer de namen van deze rivieren onder elkaar op je antwoordblad.<br>Schrijf achter elke rivier de letter van de bijbehorende foto.</p>",
+            "correct_antwoord_model": "<table><tbody><tr><td>Indus</td><td>c</td></tr><tr><td>Mekong</td><td>d</td></tr><tr><td>Mississippi</td><td>b</td></tr><tr><td>Ob</td><td>a</td></tr></tbody></table><p>indien vier juiste antwoorden <strong>(2 punten)</strong><br>indien drie of twee juiste antwoorden <strong>(1 punt)</strong><br>indien minder dan twee juiste antwoorden <strong>(0 punten)</strong></p>"
+          },
+          {
+            "id": 11,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 8</strong></p><p><strong>Pakistan legt rekening overstromingen bij het Westen</strong></p><p>In augustus 2022 stond een groot deel van Pakistan onder water door overstromingen van de Indus. [...]</p><p>[Kaart Pakistan overstroomd gebied]</p>",
+            "bronverwijzing_tekst": "Gebruik bron 8 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/vwo/documenten/cse-1/vw-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": "vwo_aardrijkskunde_tv1_opgave3_bron8.png",
+            "vraagtekst_html": "<p>Overstromingen van de Indus treffen Pakistan vooral in de periode juli–september. Een van de oorzaken hiervan is de vele neerslag in deze periode.<br>Geef</p><ul><li>de oorzaak waardoor juist in deze periode veel neerslag valt;</li><li>nog een andere natuurlijke oorzaak waardoor de Indus juist in deze periode vaak overstroomt.</li></ul>",
+            "correct_antwoord_model": "<ul><li>Uit het antwoord moet blijken dat Pakistan in de periode juli–september onder invloed staat van de ITCZ / een lagedrukgebied / een (vochtige) aanlandige wind / natte moesson. <strong>(1 punt)</strong></li><li>Uit het antwoord moet blijken dat in deze periode veel smeltwater (uit de Himalaya) via de Indus wordt afgevoerd. <strong>(1 punt)</strong></li></ul>"
+          },
+          {
+            "id": 12,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 8</strong></p><p><strong>Pakistan legt rekening overstromingen bij het Westen</strong></p><p>In augustus 2022 stond een groot deel van Pakistan onder water door overstromingen van de Indus. [...]</p><p>[Kaart Pakistan overstroomd gebied]</p>",
+            "bronverwijzing_tekst": "Gebruik bron 8 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/vwo/documenten/cse-1/vw-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": "vwo_aardrijkskunde_tv1_opgave3_bron8.png",
+            "vraagtekst_html": "<p>Niet alleen grote hoeveelheden neerslag, maar ook kenmerken van het landschap van Pakistan dragen bij aan overstromingen. Zo stroomt in de bovenloop van de Indus door het steile reliëf het water daar snel af.<br>Geef</p><ul><li>nog een ander kenmerk van het landschap in de bovenloop van de Indus waardoor water daar snel afstroomt;</li><li>een kenmerk van het landschap in de benedenloop van de Indus waardoor daar overstromingen plaatsvinden.</li></ul>",
+            "correct_antwoord_model": "<p>Juiste andere kenmerken van het landschap in de bovenloop van de Indus zijn:</p><ul><li>Er is nauwelijks begroeiing / weinig vegetatie.</li><li>De ondergrond is hard / rotsachtig.</li></ul><p><strong>(1 punt voor een juist kenmerk bovenloop)</strong></p><p>Uit het antwoord moet blijken dat het landschap in de benedenloop van de Indus vlak is (waardoor de rivier makkelijk overstroomt). <strong>(1 punt)</strong></p><p><em>Opmerking</em><br>Aan een antwoord dat ingaat op de lage ligging van het landschap in de benedenloop van de Indus mag geen scorepunt worden toegekend.</p>"
+          },
+          {
+            "id": 13,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 8</strong></p><p><strong>Pakistan legt rekening overstromingen bij het Westen</strong></p><p>In augustus 2022 stond een groot deel van Pakistan onder water door overstromingen van de Indus. De Pakistaanse minister van klimaat gaf aan dat klimaatverandering die volgens hem wordt veroorzaakt door het Westen de grootste oorzaak is van de overstromingsproblemen in zijn land. \"Pakistan heeft zeker een punt, maar moet ook zijn eigen aandeel in deze ramp erkennen\", stelt Pieter Pauw, klimaatonderzoeker aan de Eindhoven University of Technology. Pieter Pauw pleit voor structurele oplossingen om Pakistan beter te beschermen tegen de gevolgen van klimaatverandering. \"Denk dan aan het toewerken naar een duurzamere vorm van landbouw met minder vee. Daarnaast kan de Pakistaanse overheid meer natuur ontwikkelen, meer bossen aanleggen en de huidige bossen beter beschermen.\"</p><p>[Kaart Pakistan overstroomd gebied]</p>",
+            "bronverwijzing_tekst": "Gebruik bron 8.",
+            "bron_verwijzing": "vwo_aardrijkskunde_tv1_opgave3_bron8.png",
+            "vraagtekst_html": "<p>Volgens de Pakistaanse minister wordt klimaatverandering veroorzaakt door het Westen. Klimaatonderzoeker Pieter Pauw stelt dat Pakistan zeker een punt heeft, maar dat Pakistan ook zijn eigen aandeel in de overstromingsramp moet erkennen.<br>Geef</p><ul><li>een argument waarom Pakistan een punt heeft door de schuld van klimaatverandering bij het Westen te leggen;</li><li>een maatregel die de Pakistaanse overheid kan nemen om de kans op overstromingen te verminderen.</li></ul>",
+            "correct_antwoord_model": "<ul><li>Uit het antwoord moet blijken dat het Westen een (veel) groter aandeel heeft in de uitstoot van broeikasgassen dan Pakistan / perifere landen. <strong>(1 punt)</strong></li><li>Juiste maatregelen zijn:<ul><li>dijken aanleggen</li><li>overbeweiding / ontbossing tegengaan</li><li>herbebossen</li></ul><strong>(1 punt voor een juiste maatregel)</strong></li></ul>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 4,
+        "opgave_titel": "Het Centraal Massief in Frankrijk",
+        "vragen": [
+          {
+            "id": 14,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 9</strong></p><p><strong>Blokdiagram van de huidige situatie in het Centraal Massief</strong></p><p>Het Centraal Massief is een bergachtig gebied in het midden van Frankrijk met granieten plateaus. Met 1.885 meter is de Mont Dore een van de hoogste pieken. In het gebied liggen meer dan 400 uitgedoofde vulkanen.</p><p>[Blokdiagram en foto]</p><p><strong>bron 10</strong></p><p><strong>Europa Geologische bouw en gebergtevorming</strong></p><p>[Kaart]</p>",
+            "bronverwijzing_tekst": "Gebruik de bronnen 9 en 10 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/vwo/documenten/cse-1/vw-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": [
+              "vwo_aardrijkskunde_tv1_opgave4_bron9.png",
+              "vwo_aardrijkskunde_tv1_opgave4_bron10.png"
+            ],
+            "vraagtekst_html": "<p>Het Centraal Massief is lager en heeft minder reliëf dan de Alpen.<br>Leg het ontstaan van dit verschil uit.<br>Je uitleg moet een oorzaak-gevolgrelatie bevatten.</p>",
+            "correct_antwoord_model": "<p>Uit de uitleg moet blijken dat</p><ul><li>het Centraal Massief (Hercynisch plooiingsgebied) een ouder gebergte is dan de Alpen (Alpine plooiingsgebied), (oorzaak) <strong>(1 punt)</strong></li><li>waardoor de afbraak van gesteenten / exogene processen in het Centraal Massief al langer plaatsvinden dan in de Alpen. (gevolg) <strong>(1 punt)</strong></li></ul>"
+          },
+          {
+            "id": 15,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 9</strong></p><p><strong>Blokdiagram van de huidige situatie in het Centraal Massief</strong></p><p>[Blokdiagram met letters a, b, c, d]</p>",
+            "bronverwijzing_tekst": "Gebruik bron 9.",
+            "bron_verwijzing": "vwo_aardrijkskunde_tv1_opgave4_bron9.png",
+            "vraagtekst_html": "<p>Hieronder staan gesteenten en geomorfologische verschijnselen aangegeven:</p><ul><li>horst</li><li>metamorf gesteente</li><li>morene</li><li>puinwaaier</li><li>schildvulkaan</li><li>sedimentgesteente</li><li>slenk</li><li>stratovulkaan</li><li>uitvloeiingsgesteente</li></ul><p>Noteer de letters a tot en met d uit bron 9 onder elkaar op je antwoordblad.<br>Schrijf achter elke letter het juiste gesteente of het juiste geomorfologische verschijnsel.</p>",
+            "correct_antwoord_model": "<p>a = stratovulkaan</p><p>b = horst</p><p>c = sedimentgesteente</p><p>d = uitvloeiingsgesteente</p><p>indien vier juiste antwoorden <strong>(3 punten)</strong><br>indien drie juiste antwoorden <strong>(2 punten)</strong><br>indien twee juiste antwoorden <strong>(1 punt)</strong><br>indien minder dan twee juiste antwoorden <strong>(0 punten)</strong></p>"
+          },
+          {
+            "id": 16,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 9</strong></p><p><strong>Blokdiagram van de huidige situatie in het Centraal Massief</strong></p><p>[Blokdiagram en foto]</p><p><strong>bron 10</strong></p><p><strong>Europa Geologische bouw en gebergtevorming</strong></p><p>[Kaart]</p>",
+            "bronverwijzing_tekst": "Gebruik de bronnen 9 en 10.",
+            "bron_verwijzing": [
+              "vwo_aardrijkskunde_tv1_opgave4_bron9.png",
+              "vwo_aardrijkskunde_tv1_opgave4_bron10.png"
+            ],
+            "vraagtekst_html": "<p>In het Centraal Massief liggen meer dan 400 vulkanen die inmiddels uitgedoofd zijn.<br>Beschrijf in drie stappen het ontstaan van deze vulkanen.</p>",
+            "correct_antwoord_model": "<p>Uit de beschrijving moet blijken dat:</p><ol><li>in de aardkorst rek plaatsvindt / bewegingen in de aardkorst optreden waarbij in de ondergrond breuken ontstaan zijn, <strong>(1 punt)</strong></li><li>waarlangs magma een weg naar boven heeft kunnen vinden, <strong>(1 punt)</strong></li><li>en (daardoor) vulkanen ontstaan zijn. <strong>(1 punt)</strong></li></ol>"
+          },
+          {
+            "id": 17,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 9</strong></p><p>[Foto Puy du Pariou en Puy de Dôme]</p>",
+            "bronverwijzing_tekst": "Gebruik bron 9.",
+            "bron_verwijzing": "vwo_aardrijkskunde_tv1_opgave4_bron9.png",
+            "vraagtekst_html": "<p>Het Centraal Massief was tijdens de laatste ijstijd bedekt met ijs.<br>Toon met een aanwijzing uit de bron aan of de laatste vulkaanuitbarstingen in het Centraal Massief vóór, tijdens of ná de laatste ijstijd plaatsvonden.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat</p><ul><li>de meeste vulkanen de (oorspronkelijke) kegelvorm hebben / niet door gletsjers geërodeerd zijn, <strong>(1 punt)</strong></li><li>waaruit afgeleid kan worden dat de laatste uitbarstingen dus ná de laatste ijstijd plaatsgevonden moeten hebben. <strong>(1 punt)</strong></li></ul>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 5,
+        "opgave_titel": "De Pamparegio",
+        "vragen": [
+          {
+            "id": 18,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 11</strong></p><p><strong>De Pamparegio in Zuid-Amerika</strong></p><p>[Kaart Pamparegio met hoogte]</p>",
+            "bronverwijzing_tekst": "Gebruik bron 11 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/vwo/documenten/cse-1/vw-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": "vwo_aardrijkskunde_tv1_opgave5_bron11.png",
+            "vraagtekst_html": "<p>Grote delen van de Pamparegio hebben een gunstig klimaat voor grootschalige landbouw.<br>Geef vanuit de dimensie natuur nog twee andere kenmerken van de Pamparegio, waardoor deze regio geschikt is voor grootschalige landbouw.</p>",
+            "correct_antwoord_model": "<p>Juiste kenmerken zijn:</p><ul><li>De Pamparegio is vlak / heeft weinig reliëf.</li><li>In de Pamparegio is voldoende irrigatiewater beschikbaar. / Door de Pamparegio stromen rivieren.</li><li>De bodem in de Pamparegio is vruchtbaar.</li></ul><p>per juist kenmerk <strong>(1 punt, max 2 punten)</strong></p>"
+          },
+          {
+            "id": 19,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 11</strong></p><p><strong>De Pamparegio in Zuid-Amerika</strong></p><p>De Pamparegio omvat Uruguay, een groot deel van Argentinië en de Braziliaanse deelstaat Rio Grande do Sul. In de negentiende eeuw werden door machtige en rijke families in deze regio latifundia gebouwd. Tussen 1930 en 1960 industrialiseerde de regio. [...]</p>",
+            "bronverwijzing_tekst": "Gebruik bron 11.",
+            "bron_verwijzing": "vwo_aardrijkskunde_tv1_opgave5_bron11.png",
+            "vraagtekst_html": "<p>Tussen 1930 en 1960 vond industrialisatie plaats in de landen die in de Pamparegio liggen. Toch groeide de export van industrieproducten nauwelijks.<br>Geef vanuit de politieke dimensie aan waarom de export van industrieproducten toch nauwelijks groeide.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat het industrialisatiebeleid van landen in de Pamparegio tussen 1930 en 1960 gericht was op importsubstitutie / gericht was op binnenlandse consumptie / weinig gericht was op de export van industrieproducten.</p>"
+          },
+          {
+            "id": 20,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 11</strong></p><p><strong>De Pamparegio in Zuid-Amerika</strong></p><p> [...] Landgrabbing is een proces dat in de Pamparegio steeds vaker voorkomt.</p><p><strong>bron 12</strong></p><p><strong>Sojateelt in Argentinië</strong></p><p>Argentinië is een van de grootste exporteurs van soja ter wereld. Soja is een belangrijke grondstof voor de productie van veevoer, maar ook van voedsel voor mensen. Daarnaast worden producten als sojamelk en tofu van soja gemaakt. De meeste Argentijnse soja wordt verbouwd op de vruchtbare Pampa's. Sinds 2000 is de soja-export naar China sterk gestegen. Dit komt door een verandering in het consumptiepatroon in China.</p>",
+            "bronverwijzing_tekst": "Gebruik de bronnen 11 en 12.",
+            "bron_verwijzing": [
+              "vwo_aardrijkskunde_tv1_opgave5_bron11.png",
+              "vwo_aardrijkskunde_tv1_opgave5_bron12.png"
+            ],
+            "vraagtekst_html": "<p>In de Pamparegio vindt landgrabbing plaats.<br>Geef een voorbeeld van landgrabbing in de Pamparegio en geef aan waarom landgrabbing leidt tot sociaal-economische ongelijkheid.</p>",
+            "correct_antwoord_model": "<p>Juiste voorbeelden zijn:</p><ul><li>Grote (internationale) bedrijven kopen land op voor sojaproductie / veeteelt.</li><li>De overheid zet kleine boeren van hun land af om het te verkopen aan grote investeerders.</li></ul><p><strong>(1 punt voor een juist voorbeeld)</strong></p><p>Uit het antwoord moet blijken dat door landgrabbing:</p><ul><li>kleine boeren hun land kwijtraken / naar de stad moeten trekken;</li><li>kleine boeren verjaagd worden van hun land;</li><li>(grote) bedrijven rijker worden ten koste van de kleine boeren.</li></ul><p>(waardoor de sociaal-economische ongelijkheid toeneemt). <strong>(1 punt)</strong></p>"
+          },
+          {
+            "id": 21,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 12</strong></p><p><strong>Sojateelt in Argentinië</strong></p><p> [...] Sinds 2000 is de soja-export naar China sterk gestegen. Dit komt door een verandering in het consumptiepatroon in China.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 12.",
+            "bron_verwijzing": "vwo_aardrijkskunde_tv1_opgave5_bron12.png",
+            "vraagtekst_html": "<p>Geef aan waardoor het consumptiepatroon in China veranderd is.</p>",
+            "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat door een stijgende welvaart in China meer vlees (waarvoor veevoer nodig is) geconsumeerd wordt.</p>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 6,
+        "opgave_titel": "De Randstad als Deltametropool",
+        "vragen": [
+          {
+            "id": 22,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 13</strong></p><p><strong>De Randstad en de Noordzee</strong></p><p>[Kaart Randstad]</p>",
+            "bronverwijzing_tekst": "Gebruik bron 13 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/vwo/documenten/cse-1/vw-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": "vwo_aardrijkskunde_tv1_opgave6_bron13.png",
+            "vraagtekst_html": "<p>De Randstad wordt ook wel aangeduid als Deltametropool.<br>Toon met twee kenmerken uit bron 13 aan dat de naam Deltametropool goed past bij de Randstad.</p>",
+            "correct_antwoord_model": "<p>Juiste kenmerken zijn:</p><ul><li>De Randstad ligt in een delta. / Het grondgebied van de Randstad bestaat voor een groot deel uit rivierklei.</li><li>De Randstad ligt in de directe nabijheid van een grote stad / metropool (Londen).</li><li>De Randstad is een stedelijk netwerk / polycentrisch van structuur.</li><li>De Randstad is omvangrijk / een wereldstad.</li><li>De Randstad is internationaal georiënteerd / een belangrijk knooppunt in een mondiaal netwerk (door de aanwezigheid van Schiphol en de haven van Rotterdam).</li></ul><p>per juist kenmerk <strong>(1 punt, max 2 punten)</strong></p>"
+          },
+          {
+            "id": 23,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 13</strong></p><p><strong>De Randstad en de Noordzee</strong></p><p>[Kaart Randstad]</p>",
+            "bronverwijzing_tekst": "Gebruik bron 13 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/vwo/documenten/cse-1/vw-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": "vwo_aardrijkskunde_tv1_opgave6_bron13.png",
+            "vraagtekst_html": "<p>Het landschap in de Randstad verschilt van het landschap in de directe omgeving.<br>Geef vanuit de dimensie economie</p><ul><li>twee verschillen tussen het landschap in de Randstad en het landschap in de directe omgeving;</li><li>de naam van het landschap in de directe omgeving van de Randstad.</li></ul>",
+            "correct_antwoord_model": "<p>Juiste verschillen zijn:</p><ul><li>De Randstad heeft een stedelijk landschap, de directe omgeving heeft een landelijk / ruraal landschap.</li><li>In de Randstad is de bebouwingsdichtheid / zijn de grondprijzen hoger dan in de directe omgeving.</li><li>In de Randstad zijn de banen / functies / economische activiteiten anders dan in de directe omgeving.</li></ul><p><strong>(1 punt voor twee juiste verschillen)</strong></p><ul><li>Halfwegzone <strong>(1 punt)</strong></li></ul>"
+          },
+          {
+            "id": 24,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 14</strong></p><p><strong>Grootschalige projecten op de Noordzee</strong></p><p>Op de Noordzee worden grote projecten ontwikkeld die bijdragen aan de energie- en voedseltransitie. Zo worden op grote schaal windparken gebouwd, maar wordt ook onderzocht of kweek van zeewier op de Noordzee mogelijk is. Op deze manier kan Nederland de klimaatdoelen halen, zonder dat kostbare landbouwgrond verloren gaat. Het gaat hierbij om omvangrijke projecten die veel ruimte vragen.</p><p>Op de Noordzee is ook sprake van ruimteconcurrentie.</p>",
+            "bronverwijzing_tekst": "Gebruik bron 14.",
+            "bron_verwijzing": "vwo_aardrijkskunde_tv1_opgave6_bron14.png",
+            "vraagtekst_html": "<p>Geef nog twee vormen van ruimtegebruik op de Noordzee die genoemd zijn in de bron.</p>",
+            "correct_antwoord_model": "<p>Juiste vormen van ruimtegebruik zijn:</p><ul><li>energieproductie / bouw van windparken</li><li>voedselproductie / kweek van zeewier</li><li>scheepvaart</li><li>visserij</li><li>recreatie</li><li>natuur</li><li>zandwinning</li></ul><p><em>Opmerking</em><br>Het antwoord \"olie- en gaswinning\" is niet juist, omdat dit niet genoemd is in de bron.</p><p>per juiste vorm <strong>(1 punt, max 2 punten)</strong></p>"
+          },
+          {
+            "id": 25,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 13</strong></p><p><strong>De Randstad en de Noordzee</strong></p><p>[Kaart Randstad]</p><p><strong>bron 15</strong></p><p><strong>Windpark Hollandse Kust Zuid</strong></p><p>Windpark Hollandse Kust Zuid is een windpark 18 kilometer uit de kust tussen Den Haag en Zandvoort (zie bron 13). Dit windpark is het grootste windpark op zee ter wereld. In 2023 is de bouw afgerond. De kabels van het windpark komen bij de Maasvlakte aan land en leveren stroom aan het landelijke elektriciteitsnet.</p><p>[Foto en kaart windpark]</p>",
+            "bronverwijzing_tekst": "Gebruik de bronnen 13 en 15 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/vwo/documenten/cse-1/vw-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": [
+              "vwo_aardrijkskunde_tv1_opgave6_bron13.png",
+              "vwo_aardrijkskunde_tv1_opgave6_bron15.png"
+            ],
+            "vraagtekst_html": "<p>Er zijn plannen om in de toekomst nog meer windparken op de Noordzee te bouwen.<br>Geef</p><ul><li>een politieke factor die het realiseren van deze plannen bemoeilijkt;</li><li>een sociaal-culturele factor die het realiseren van deze plannen bemoeilijkt.</li></ul>",
+            "correct_antwoord_model": "<p>Juiste politieke factoren zijn:</p><ul><li>Er moet rekening gehouden worden met internationale afspraken over het gebruik van de Noordzee.</li><li>Er moet rekening gehouden worden met de landsgrenzen op de Noordzee.</li><li>De Noordzee is een belangrijk militair oefenterrein.</li></ul><p><strong>(1 punt voor een juiste politieke factor)</strong></p><p>Juiste sociaal-culturele factoren zijn:</p><ul><li>Niet iedereen is voorstander van windparken op zee / vindt windparken mooi.</li><li>Niet iedereen ziet de noodzaak van windparken op zee.</li></ul><p><strong>(1 punt voor een juiste sociaal-culturele factor)</strong></p>"
+          },
+          {
+            "id": 26,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 13</strong></p><p><strong>De Randstad en de Noordzee</strong></p><p>[Kaart Randstad]</p><p><strong>bron 15</strong></p><p><strong>Windpark Hollandse Kust Zuid</strong></p><p>[Foto en kaart windpark]</p>",
+            "bronverwijzing_tekst": "Gebruik de bronnen 13 en 15 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/vwo/documenten/cse-1/vw-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": [
+              "vwo_aardrijkskunde_tv1_opgave6_bron13.png",
+              "vwo_aardrijkskunde_tv1_opgave6_bron15.png"
+            ],
+            "vraagtekst_html": "<p>Windpark Hollandse Kust Zuid levert vooral stroom aan de regio Rotterdam–Den Haag.<br>Leg dit uit. Je uitleg moet een oorzaak-gevolgrelatie bevatten.</p>",
+            "correct_antwoord_model": "<p>Uit de uitleg moet blijken dat</p><ul><li>de kabels van Windpark Hollandse Kust Zuid bij de Maasvlakte aan land komen / de locatie van Windpark Hollandse Kust Zuid dichtbij de regio Rotterdam–Den Haag ligt, (oorzaak) <strong>(1 punt)</strong></li><li>waardoor transportverliezen beperkt zijn / het elektriciteitsnet in de regio Rotterdam–Den Haag is ingericht op de verwerking van de grote hoeveelheden energie die opgewekt worden in Windpark Hollandse Kust Zuid. (gevolg) <strong>(1 punt)</strong></li></ul>"
+          },
+          {
+            "id": 27,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 16</strong></p><p><strong>Woningbouw in Almere Pampus</strong></p><p>Almere Pampus is een toekomstige woonwijk ten westen van Almere (zie bron 13). In Almere Pampus moeten 25.000 woningen gebouwd worden. De plannen voor de aanleg van een brug over het IJmeer, die Almere met Amsterdam verbindt, zijn voorlopig uitgesteld. De toekomstige bewoners van Almere Pampus zijn dus voorlopig afhankelijk van de bestaande infrastructuur.</p>",
+            "bronverwijzing_tekst": "Gebruik de bronnen 13 en 16.",
+            "bron_verwijzing": [
+              "vwo_aardrijkskunde_tv1_opgave6_bron13.png",
+              "vwo_aardrijkskunde_tv1_opgave6_bron16.png"
+            ],
+            "vraagtekst_html": "<p>In Almere Pampus moeten 25.000 woningen gebouwd worden.<br>Beredeneer of de aanleg van de wijk Almere Pampus bijdraagt aan de agglomeratievorming van Amsterdam of de agglomeratievorming van Almere.<br>Betrek in je beredenering de functie van de nieuwe woonwijk.</p>",
+            "correct_antwoord_model": "<p>Uit de beredenering moet blijken dat</p><ul><li>door de bouw van Almere Pampus Almere groeit / groter wordt / Almere Pampus aan Almere vastgroeit, <strong>(1 punt)</strong></li><li>zodat het vooral bijdraagt aan de agglomeratievorming van Almere / dat Almere Pampus een woonwijk is en niet een stad die onderdeel uitmaakt van de agglomeratie van Amsterdam. <strong>(1 punt)</strong></li></ul><p><em>Opmerking</em><br>Aan een antwoord waarin wel wordt ingegaan op de agglomeratievorming van Almere, maar de functie van de nieuwe woonwijk niet wordt genoemd, mag maximaal 1 scorepunt worden toegekend.</p>"
+          },
+          {
+            "id": 28,
+            "max_score": 3,
+            "type": "open_non_language",
+            "context_html": "<p><strong>bron 17</strong></p><p><strong>Twee mogelijke locaties voor een nieuw vliegveld op de Noordzee</strong></p><p>Schiphol is het belangrijkste internationale vliegveld van Nederland. Het vliegveld ligt echter ingeklemd tussen verschillende woonwijken, waardoor uitbreiding lastig is. Een mogelijkheid is om een nieuw vliegveld op de Noordzee aan te leggen. Er zijn twee mogelijke locaties onderzocht (zie bron 17).</p><p>[Kaart locaties vliegveld]</p>",
+            "bronverwijzing_tekst": "Gebruik bron 17 en het kaartenkatern <a href=\"https://www.examenblad.nl/2024/vwo/documenten/cse-1/vw-0131-a-24-1-k\" target=\"_blank\">(link)</a>.",
+            "bron_verwijzing": "vwo_aardrijkskunde_tv1_opgave6_bron17.png",
+            "vraagtekst_html": "<p>Voor beide mogelijke locaties geldt dat een nieuw vliegveld op de Noordzee een oplossing zou kunnen zijn voor de ruimtelijke problemen van Schiphol.<br>Geef</p><ul><li>twee ruimtelijke problemen van Schiphol;</li><li>een reden waarom een nieuw vliegveld op de Noordzee niet per se bijdraagt aan het oplossen van de ruimtelijke problemen van Schiphol.</li></ul>",
+            "correct_antwoord_model": "<p>Juiste ruimtelijke problemen zijn:</p><ul><li>Schiphol ligt in een dichtbevolkt gebied.</li><li>Schiphol veroorzaakt (geluids)overlast.</li><li>De bereikbaarheid van Schiphol staat onder druk.</li><li>Schiphol heeft een groot ruimtebeslag.</li><li>De uitbreidingsmogelijkheden van Schiphol zijn beperkt.</li></ul><p><strong>(1 punt per juist probleem, max 2 punten)</strong></p><p>Juiste redenen zijn:</p><ul><li>Een nieuw vliegveld op de Noordzee is slecht bereikbaar / ligt ver van de Randstad.</li><li>De aanleg van een nieuw vliegveld op de Noordzee is duur / kost veel geld.</li><li>Op de Noordzee is ook sprake van ruimteconcurrentie.</li><li>Een nieuw vliegveld op de Noordzee is technisch ingewikkeld.</li><li>Een nieuw vliegveld op de Noordzee heeft negatieve gevolgen voor het milieu / de natuur.</li></ul><p><strong>(1 punt voor een juiste reden)</strong></p>"
+          }
+        ]
+      }
+    ]
+  }

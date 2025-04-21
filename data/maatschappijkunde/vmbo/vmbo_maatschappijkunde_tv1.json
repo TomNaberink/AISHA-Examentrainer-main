@@ -1,0 +1,563 @@
+{
+    "examen_info": {
+      "vak": "maatschappijkunde",
+      "niveau": "vmbo",
+      "tijdvak": "TV1",
+      "jaar": 2024
+    },
+    "opgaven": [
+      {
+        "opgave_nr": 1,
+        "opgave_titel": "Politiek en beleid",
+        "vragen": [
+          {
+            "id": 1,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p><strong>tekst 1</strong></p><p><strong>Greenpeace-activisten opgepakt na actie bij Shell in Rotterdamse haven</strong></p><p>De politie heeft een einde gemaakt aan een actie van Greenpeace bij Shell in de Rotterdamse haven. Ongeveer tachtig actievoerders hadden met rubberbootjes, kano's en een zeilschip de Tweede Petroleumhaven geblokkeerd.</p><p>De actievoerders eisen een verbod op het maken van reclame voor fossiele brandstoffen¹). Greenpeace wil de komende maanden een miljoen handtekeningen ophalen om zo'n verbod in Europa af te dwingen.</p><p>noot 1 fossiele brandstoffen = bijvoorbeeld steenkool, aardolie en aardgas</p><p><em>bron: nos.nl van 4 oktober 2021</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 1.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Welke twee manieren om invloed uit te oefenen op de politieke besluitvorming zijn te herkennen in tekst 1?</p>",
+            "correct_antwoord_model": "<p>C</p>",
+            "options": [
+              {"id": "A", "text": "actievoeren en het indienen van een bezwaarschrift"},
+              {"id": "B", "text": "demonstreren en staken"},
+              {"id": "C", "text": "een vorm van openlijke actie en een petitie indienen"},
+              {"id": "D", "text": "indienen van een wet en een handtekeningenactie"}
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "id": 2,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p><strong>tekst 1</strong></p><p><strong>Greenpeace-activisten opgepakt na actie bij Shell in Rotterdamse haven</strong></p><p>De politie heeft een einde gemaakt aan een actie van Greenpeace bij Shell in de Rotterdamse haven. Ongeveer tachtig actievoerders hadden met rubberbootjes, kano's en een zeilschip de Tweede Petroleumhaven geblokkeerd.</p><p>De actievoerders eisen een verbod op het maken van reclame voor fossiele brandstoffen¹). Greenpeace wil de komende maanden een miljoen handtekeningen ophalen om zo'n verbod in Europa af te dwingen.</p><p>noot 1 fossiele brandstoffen = bijvoorbeeld steenkool, aardolie en aardgas</p><p><em>bron: nos.nl van 4 oktober 2021</em></p>",
+            "bronverwijzing_tekst": "Zie tekst 1.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Greenpeace is een wereldwijde organisatie die aandacht vraagt voor milieuproblemen. Greenpeace wil dat het maken van reclame voor fossiele brandstoffen op de politieke agenda komt.</p><p>→ Leg uit of je met de informatie uit tekst 1 kunt zeggen of dat Greenpeace gelukt is.</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan.</p><p>Met de informatie uit tekst 1 kun je ... (vul in: wel of niet) zeggen dat het op de politieke agenda staat, want</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 1</strong></p><p>Met de informatie uit tekst 1 kun je <strong>niet</strong> zeggen dat het op de politieke agenda staat, want (voorbeeld van een juist antwoord) uit de tekst blijkt niet dat het onderwerp door politici wordt besproken / het onderwerp deel is van een politiek debat.</p><p><em>Opmerking</em><br>Er mag alleen een scorepunt worden toegekend voor een juiste combinatie van antwoorden.</p>"
+          },
+          {
+            "id": 3,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p><strong>tekst 2</strong></p><p><strong>Einde aan levend koken kreeften en krabben</strong></p><p>De Partij voor de Dieren riep demissionair minister Carola Schouten van Landbouw op om het levend koken van kreeften en krabben te verbieden. Schouten wil daarvoor de eerste stappen zetten en doet daarom nu al een beroep op koks om de dieren te doden, voordat ze de pan in gaan. Veel koks doen dat al met een priem of een mes, maar er zijn ook nog steeds koks, die de dieren op de traditionele en dus pijnlijke manier bereiden.</p><p>Volgens Schouten vergt een verbod tijd omdat het Europees moet worden geregeld. Het kan nog jaren duren voordat er een Europees verbod is.</p><p><em>bron: rtlnieuws.nl van 3 december 2021</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 2.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>De oproep van de Partij voor de Dieren past bij een recht van de Tweede Kamer.</p><p>Welk recht is dat?</p>",
+            "correct_antwoord_model": "<p>B</p>",
+            "options": [
+              {"id": "A", "text": "het recht om mondelinge en schriftelijke vragen te stellen"},
+              {"id": "B", "text": "om moties in te dienen"},
+              {"id": "C", "text": "van initiatief"},
+              {"id": "D", "text": "van parlementair onderzoek"}
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "id": 4,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": null,
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Voordat een nieuwe wet gemaakt is, moet een wetsvoorstel een aantal stappen doorlopen. Hieronder volgen vijf stappen. De stappen staan niet in de juiste volgorde.</p><ol type=\"a\"><li>de Eerste Kamer discussieert en stemt erover</li><li>de Koning en de minister ondertekenen</li><li>de minister of een Tweede Kamerlid schrijft een voorstel</li><li>het Staatsblad publiceert</li><li>de Tweede Kamer discussieert en stemt erover</li></ol><p>→ Zet de stappen in de juiste volgorde.</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan.</p><p>1 = ...<br>2 = ...<br>3 = ...<br>4 = ...<br>5 = ...</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Juiste volgorde:</p><p>1 = c<br>2 = e<br>3 = a<br>4 = b<br>5 = d</p><p><em>Opmerking</em><br>Als door het weglaten van één foutief geplaatste letter een verder foutloze reeks ontstaat, wordt 1 scorepunt toegekend.</p>"
+          },
+          {
+            "id": 5,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p><strong>tekst 3</strong></p><p><strong>Jongste lijsttrekker van Nederland: Oliver Heming (16) begint eigen partij in Winterswijk</strong></p><p>De 16-jarige Oliver Heming uit Winterswijk is met zijn partij Frontale de jongste lijsttrekker van Nederland. Hij schreef zich in voor de gemeenteraadsverkiezingen op 16 maart.</p><p>\"Ik ben erg geïnteresseerd in politiek, maar vond bij geen enkele partij wat ik wilde\", legt Oliver Heming uit. Hij realiseert zich dat hij nog niet in de gemeenteraad mag plaatsnemen als hij genoeg stemmen trekt. \"Ik moet wachten tot ik 18 ben. Die plek in de raad blijft wel voor mij gereserveerd. Ondertussen kan ik via het inspreekrecht natuurlijk altijd mijn mening geven over bepaalde raadsvoorstellen. Zo kan ik toch meedoen met de discussie.\"</p><p><em>bron: gelderlander.nl van 4 februari 2022</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 3.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>→ Leg uit of Oliver gebruikmaakt van het actief of het passief kiesrecht.</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan.</p><p>Oliver maakt gebruik van het ... (vul in: actief of passief) kiesrecht, want</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 1</strong></p><p>Oliver maakt gebruik van het <strong>passief</strong> kiesrecht, want (voorbeelden van een juist antwoord):</p><ul><li>Oliver stelt zich verkiesbaar.</li><li>inwoners van Winterswijk kunnen op Oliver stemmen.</li></ul><p><em>Opmerking</em><br>Er mag alleen een scorepunt worden toegekend voor een juiste combinatie van antwoorden.</p>"
+          },
+          {
+            "id": 6,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>tekst 3</strong></p><p><strong>Jongste lijsttrekker van Nederland: Oliver Heming (16) begint eigen partij in Winterswijk</strong></p><p>De 16-jarige Oliver Heming uit Winterswijk is met zijn partij Frontale de jongste lijsttrekker van Nederland. Hij schreef zich in voor de gemeenteraadsverkiezingen op 16 maart.</p><p>\"Ik ben erg geïnteresseerd in politiek, maar vond bij geen enkele partij wat ik wilde\", legt Oliver Heming uit. Hij realiseert zich dat hij nog niet in de gemeenteraad mag plaatsnemen als hij genoeg stemmen trekt. \"Ik moet wachten tot ik 18 ben. Die plek in de raad blijft wel voor mij gereserveerd. Ondertussen kan ik via het inspreekrecht natuurlijk altijd mijn mening geven over bepaalde raadsvoorstellen. Zo kan ik toch meedoen met de discussie.\"</p><p><em>bron: gelderlander.nl van 4 februari 2022</em></p>",
+            "bronverwijzing_tekst": "Zie tekst 3.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Oliver maakt gebruik van het kiesrecht om invloed uit te oefenen op de politiek.</p><p>→ Van welke twee andere mogelijkheden om invloed uit te oefenen maakt Oliver gebruik?</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan.</p><p>mogelijkheid 1: ...<br>mogelijkheid 2: ...</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Juiste antwoorden zijn (twee van de volgende):</p><ul><li>inspreekrecht / officiële inspraakmogelijkheden</li><li>het oprichten van een politieke partij / het lid zijn van een politieke partij</li><li>gebruikmaken van de media</li></ul><p>per juist antwoord 1 punt</p><p><em>Opmerking</em><br>Antwoorden als 'hij gaat zelf de politiek in' mogen niet goed gerekend worden.</p>"
+          },
+          {
+            "id": 7,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p><strong>tekst 4</strong></p><p><strong>Kersverse republiek Barbados gaat naar de stembus</strong></p><p>Enkele weken nadat Barbados een republiek werd, heeft premier Mia Mottley opgeroepen tot vervroegde verkiezingen. De Caribische eilandstaat nam op 30 november afscheid van de Britse koningin Elizabeth als staatshoofd. Sandra Mason werd die dag beëdigd als de eerste ... van Barbados.</p><p><em>bron: nu.nl van 28 december 2021</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 4.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Wat moet er op de puntjes in tekst 4 worden ingevuld?</p>",
+            "correct_antwoord_model": "<p>D</p>",
+            "options": [
+              {"id": "A", "text": "koningin"},
+              {"id": "B", "text": "minister"},
+              {"id": "C", "text": "minister-president"},
+              {"id": "D", "text": "president"}
+            ],
+            "correct_answer": "D"
+          },
+          {
+            "id": 8,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": null,
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Hoe noemen we de groep mensen die in de Staten-Generaal namens de burgers de politieke besluiten neemt?</p>",
+            "correct_antwoord_model": "<p>D</p>",
+            "options": [
+              {"id": "A", "text": "de regering"},
+              {"id": "B", "text": "het kabinet"},
+              {"id": "C", "text": "stemmers"},
+              {"id": "D", "text": "volksvertegenwoordigers"}
+            ],
+            "correct_answer": "D"
+          },
+          {
+            "id": 9,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p><strong>tekst 5</strong></p><p><strong>Titels van vijf artikelen over besluitvorming datacenter</strong></p><ol><li>Datacenter ja of nee? Raad staat voor meest ingrijpende beslissing in jaren</li><li>Meerderheid voor datacenter toch onzeker</li><li>Komst datacenter legt gigantische druk op twee raadsleden die de doorslag kunnen geven</li><li>Voorbereidingen vergadering over datacenter in volle gang</li><li>Meerderheid raad stemt voor komst datacenter: 11 voor, 8 tegen</li></ol><p><em>bron: diverse artikelen van omroepflevoland.nl in december 2021</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 5.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>In tekst 5 staan de titels van vijf artikelen. De artikelen verschenen in de media naar aanleiding van de besluitvorming over de mogelijke bouw van een datacenter in Zeewolde.</p><p>Welke fase van het proces van politieke besluitvorming is net afgerond bij het verschijnen van het laatste artikel (nummer 5) in tekst 5?</p>",
+            "correct_antwoord_model": "<p>C</p>",
+            "options": [
+              {"id": "A", "text": "fase 1: agendavorming"},
+              {"id": "B", "text": "fase 2: beleidsvoorbereiding"},
+              {"id": "C", "text": "fase 3: beleidsbepaling"},
+              {"id": "D", "text": "fase 4: beleidsuitvoering"}
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "id": 10,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p><strong>tekst 5</strong></p><p><strong>Titels van vijf artikelen over besluitvorming datacenter</strong></p><ol><li>Datacenter ja of nee? Raad staat voor meest ingrijpende beslissing in jaren</li><li>Meerderheid voor datacenter toch onzeker</li><li>Komst datacenter legt gigantische druk op twee raadsleden die de doorslag kunnen geven</li><li>Voorbereidingen vergadering over datacenter in volle gang</li><li>Meerderheid raad stemt voor komst datacenter: 11 voor, 8 tegen</li></ol><p><em>bron: diverse artikelen van omroepflevoland.nl in december 2021</em></p>",
+            "bronverwijzing_tekst": "Zie tekst 5.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Welke bestuurslaag heeft de beslissing over het datacenter in tekst 5 genomen?</p>",
+            "correct_antwoord_model": "<p>A</p>",
+            "options": [
+              {"id": "A", "text": "de gemeente"},
+              {"id": "B", "text": "de landelijke overheid"},
+              {"id": "C", "text": "de provincie"}
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "id": 11,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p><strong>tekst 6</strong></p><p><strong>Einde aan misleidende 'van-voor'-korting</strong></p><p>Verkopers mogen niet langer de prijs van hun producten verhogen, om ze vervolgens met een misleidende korting voor het oorspronkelijke bedrag te verkopen. Er komt namelijk een wettelijk verbod op de misleidende 'van-voor'-korting, zo meldt het ministerie van Economische Zaken.</p><p>De regel gaat niet alleen gelden voor Nederland, maar komt voort uit een Europees besluit om vanaf half mei overal in de Europese Unie dezelfde regels te laten gelden.</p><p><em>bron: metronieuws.nl van 30 april 2022</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 6.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>De Europese Unie maakt op meerdere terreinen beleid.</p><p>Bij welk terrein hoort het besluit uit tekst 6?</p>",
+            "correct_antwoord_model": "<p>A</p>",
+            "options": [
+              {"id": "A", "text": "bescherming van de rechten van consumenten"},
+              {"id": "B", "text": "garanderen van de voedselveiligheid"},
+              {"id": "C", "text": "stimuleren van Europees burgerschap"}
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "id": 12,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p><strong>tekst 6</strong></p><p><strong>Einde aan misleidende 'van-voor'-korting</strong></p><p>Verkopers mogen niet langer de prijs van hun producten verhogen, om ze vervolgens met een misleidende korting voor het oorspronkelijke bedrag te verkopen. Er komt namelijk een wettelijk verbod op de misleidende 'van-voor'-korting, zo meldt het ministerie van Economische Zaken.</p><p>De regel gaat niet alleen gelden voor Nederland, maar komt voort uit een Europees besluit om vanaf half mei overal in de Europese Unie dezelfde regels te laten gelden.</p><p><em>bron: metronieuws.nl van 30 april 2022</em></p>",
+            "bronverwijzing_tekst": "Zie tekst 6.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Welke instelling van de Europese Unie moet erop toezien dat de lidstaten de maatregel uit tekst 6 juist uitvoeren?</p>",
+            "correct_antwoord_model": "<p>A</p>",
+            "options": [
+              {"id": "A", "text": "de Europese Commissie"},
+              {"id": "B", "text": "de Europese Raad"},
+              {"id": "C", "text": "de Raad van de Europese Unie"},
+              {"id": "D", "text": "het Europees Parlement"}
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "id": 13,
+            "max_score": 4,
+            "type": "open_non_language",
+            "context_html": "<p><strong>tekst 7</strong></p><p><strong>Meer groene daken in de gemeente Den Haag</strong></p><p>In Den Haag komen meer groene daken¹). Voor nieuwbouw hoger dan 25 meter stelt de gemeente de aanleg van duurzame maatregelen zoals groene daken verplicht. Een initiatiefvoorstel van de Partij voor de Dieren hierover is door de gemeenteraad aangenomen.</p><p>De meeste partijen waren positief over het voorstel van de Partij voor de Dieren, maar het CDA moet er niet veel van hebben. \"De activisten van de Partij voor de Dieren zijn weer bezig\", zei CDA-raadslid Cees Pluimgraaff. \"Subsidies voor groene daken komen bovengemiddeld vaak terecht in de rijkere wijken\", zei SP-fractievoorzitter Lesley Arp. Arp stelde daarom in een motie voor om de subsidie voor groene daken in te zetten voor armere wijken in Den Haag. Deze motie kreeg geen meerderheid.</p><p>noot 1 Een groen dak is een dak dat is begroeid is met planten.</p><p><em>bron: omroepwest.nl van 26 maart 2021</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 7.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>In de discussie over meer groene daken in Den Haag zijn uitgangspunten van een aantal politieke stromingen te herkennen.</p><p>→ Noem twee politieke stromingen waarvan een uitgangspunt te herkennen is in tekst 7.</p><p>→ Noem per politieke stroming het uitgangspunt dat te herkennen is in tekst 7.</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan.</p><p>politieke stroming 1: ...<br>uitgangspunt dat bij de stroming past: ...</p><p>politieke stroming 2: ...<br>uitgangspunt dat bij de stroming past: ...</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 4</strong></p><p>Een juist antwoord bevat de volgende onderdelen:</p><ul><li>politieke stroming: <strong>de ecologische stroming</strong> (1 punt)</li><li>uitgangspunt dat bij de stroming past (één van de volgende) (1 punt):<ul><li>het stellen van duurzame 'groene' consumptie boven economische groei / overheidsmaatregelen om groene consumptie te bevorderen</li><li>geen verdere aantasting van natuur en milieu</li><li>milieuvriendelijk en duurzaam produceren en consumeren</li></ul></li><li>politieke stroming: <strong>de sociaaldemocratische stroming</strong> (1 punt)</li><li>uitgangspunt dat bij de stroming past (één van de volgende) (1 punt):<ul><li>het streven naar meer sociaaleconomische gelijkheid / verkleinen van verschillen in inkomen, welvaart, en macht</li><li>relatief grote rol van de overheid om nadelen van de vrijemarkteconomie te verminderen / om ongelijkheid te verkleinen</li><li>opkomen voor de zwakkeren in de samenleving</li></ul></li></ul><p><em>Ook goed rekenen</em></p><ul><li>politieke stroming: <strong>de christendemocratische stroming</strong> (1 punt)</li><li>uitgangspunt dat bij de stroming past: <strong>rentmeesterschap</strong> (1 punt)</li></ul><p><em>Opmerking</em><br>Het scorepunt voor het uitgangspunt mag alleen worden toegekend als de juiste bijpassende politieke stroming is genoemd.</p>"
+          },
+          {
+            "id": 14,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": null,
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Vrije media vervullen een aantal functies die van belang zijn in een democratie. Drie van die functies zijn:</p><ol><li>de agendafunctie</li><li>de controle- of waakhondfunctie</li><li>de informatiefunctie</li></ol><p>Er volgen vier voorbeelden van uitingen in de media.</p><ol type=\"a\"><li>Een bekend politicus doet mee aan een reality-tv-programma.</li><li>In een actualiteitenprogramma vertellen journalisten dat zij hebben ontdekt dat een groot bedrijf politici heeft omgekocht.</li><li>In een landelijk dagblad plaatst een milieuorganisatie een advertentie met de oproep aan de politiek om het chippen van katten te verplichten.</li><li>Op X (Twitter) tweet een politicus dat zijn partij later die dag voor een wetsvoorstel gaat stemmen.</li></ol><p>→ Geef per functie aan welk voorbeeld daar het best bij past. Let op. Gebruik een voorbeeld maar een keer. Er blijft een voorbeeld over.</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan met de juiste letter.</p><p>voorbeeld bij de agendafunctie = ...<br>voorbeeld bij de controle- of waakhondfunctie = ...<br>voorbeeld bij de informatiefunctie = ...</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><ul><li>voorbeeld bij de agendafunctie = c</li><li>voorbeeld bij de controle- en waakhondfunctie = b</li><li>voorbeeld bij de informatiefunctie = d</li></ul><p>indien drie antwoorden juist: 2 punten<br>indien twee antwoorden juist: 1 punt<br>indien minder dan twee antwoorden juist: 0 punten</p><p><em>Opmerking</em><br>Als voorbeeld bij de informatiefunctie mag ook b worden goed gerekend mits b niet al genoemd is als voorbeeld van de controle- en waakhondfunctie.</p>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 2,
+        "opgave_titel": "Criminaliteit en rechtstaat",
+        "vragen": [
+          {
+            "id": 15,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p><strong>tekst 8</strong></p><p><strong>Gezin bindt hond zonder water aan boom op hete parkeerplaats</strong></p><p>Een boa van Staatsbosbeheer was er woensdag net op tijd bij toen hij een vastgebonden hond ontdekte op de parkeerplaats van de Galderse Meren. Het dier was daar achtergelaten zonder water, terwijl zijn gezin tijdens de hitte een duik nam.</p><p>Naast dat ze er van de boa woordelijk flink van langs kregen, hebben ze een boete gekregen voor het achterlaten van een dier in de hitte.</p><p><em>bron: ad.nl van 4 augustus 2022</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 8.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Welke taak of bevoegdheid voert de boa in tekst 8 uit?</p>",
+            "correct_antwoord_model": "<p>B</p>",
+            "options": [
+              {"id": "A", "text": "het begeleiden en controleren van mensen die onder toezicht staan"},
+              {"id": "B", "text": "het controleren of mensen zich aan de regels houden"},
+              {"id": "C", "text": "het handhaven van de openbare orde en veiligheid"},
+              {"id": "D", "text": "het leiding geven aan het opsporingsonderzoek"}
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "id": 16,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p><strong>tekst 9</strong></p><p><strong>81-jarige Volendamse veroordeeld</strong></p><p>De 81-jarige vrouw uit Volendam die het huis van haar buren in brand stak, is door de rechtbank veroordeeld voor poging tot moord. De rechtbank heeft in de veroordeling meegenomen dat de vrouw zich goed bewust was van wat ze deed. De vrouw zei tegen een voorbijganger: \"Ja, ik ben er helemaal klaar mee, ze maken de hele nacht drukte, ik steek het in de fik.\"</p><p>De rechtbank leidt hieruit af dat er een vooropgezet plan was van de vrouw om de buren om het leven te brengen door brand te stichten. Daarom vindt ze het bewezen dat er met voorbedachten raad is gehandeld, zodat er niet alleen sprake is van brandstichting maar ook van poging tot moord.</p><p><em>bron: nhnieuws.nl van 17 januari 2022</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 9.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Citeer de zin uit tekst 9 waaruit blijkt dat er sprake kan zijn van eigenrichting.</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 1</strong></p><p>\"Ja, ik ben er helemaal klaar mee, ze maken de hele nacht drukte, ik steek het in de fik.\"</p>"
+          },
+          {
+            "id": 17,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p><strong>tekst 9</strong></p><p><strong>81-jarige Volendamse veroordeeld</strong></p><p>De 81-jarige vrouw uit Volendam die het huis van haar buren in brand stak, is door de rechtbank veroordeeld voor poging tot moord. De rechtbank heeft in de veroordeling meegenomen dat de vrouw zich goed bewust was van wat ze deed. De vrouw zei tegen een voorbijganger: \"Ja, ik ben er helemaal klaar mee, ze maken de hele nacht drukte, ik steek het in de fik.\"</p><p>De rechtbank leidt hieruit af dat er een vooropgezet plan was van de vrouw om de buren om het leven te brengen door brand te stichten. Daarom vindt ze het bewezen dat er met voorbedachten raad is gehandeld, zodat er niet alleen sprake is van brandstichting maar ook van poging tot moord.</p><p><em>bron: nhnieuws.nl van 17 januari 2022</em></p>",
+            "bronverwijzing_tekst": "Zie tekst 9.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Met welk recht kan de vrouw proberen het vonnis van de rechter in tekst 9 teniet te doen?</p>",
+            "correct_antwoord_model": "<p>A</p>",
+            "options": [
+              {"id": "A", "text": "het recht om in hoger beroep te gaan"},
+              {"id": "B", "text": "het recht om te vragen om een schadevergoeding"},
+              {"id": "C", "text": "het recht om te weten waarvan ze verdacht wordt"},
+              {"id": "D", "text": "het recht op een advocaat"}
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "id": 18,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p><strong>tekst 10</strong></p><p><strong>Honderden Nederlandse geldezels opgepakt bij internationale politieactie</strong></p><p>Bij een internationale actie in 27 landen tegen geldezels zijn in totaal 1.803 personen opgepakt, onder wie enkele honderden Nederlanders, meldt de politie. Geldezels zijn mensen die hun bankrekening beschikbaar stellen voor fraude en dat is strafbaar.</p><p>Criminelen proberen door middel van geldezels zelf uit het zicht van politie en justitie te blijven, aldus de politie.</p><p>In Nederland is er een samenwerkingsverband van politie, Openbaar Ministerie, banken en International Card Services (ICS) dat geldezels bestrijdt.</p><p><em>bron: nu.nl van 2 december 2021</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 10.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>De politie heeft een aantal taken.</p><p>Welke taak van de politie is te herkennen in tekst 10?</p>",
+            "correct_antwoord_model": "<p>B</p>",
+            "options": [
+              {"id": "A", "text": "het handhaven van de openbare orde"},
+              {"id": "B", "text": "het opsporen van strafbare feiten"},
+              {"id": "C", "text": "het verlenen van hulp"},
+              {"id": "D", "text": "preventie"}
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "id": 19,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p><strong>tekst 10</strong></p><p><strong>Honderden Nederlandse geldezels opgepakt bij internationale politieactie</strong></p><p>Bij een internationale actie in 27 landen tegen geldezels zijn in totaal 1.803 personen opgepakt, onder wie enkele honderden Nederlanders, meldt de politie. Geldezels zijn mensen die hun bankrekening beschikbaar stellen voor fraude en dat is strafbaar.</p><p>Criminelen proberen door middel van geldezels zelf uit het zicht van politie en justitie te blijven, aldus de politie.</p><p>In Nederland is er een samenwerkingsverband van politie, Openbaar Ministerie, banken en International Card Services (ICS) dat geldezels bestrijdt.</p><p><em>bron: nu.nl van 2 december 2021</em></p>",
+            "bronverwijzing_tekst": "Zie tekst 10.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Via het Openbaar Ministerie zijn er officieren van justitie betrokken bij de politieactie in tekst 10.</p><p>Welke taak van de officier van justitie wordt uitgevoerd bij de politieactie?</p>",
+            "correct_antwoord_model": "<p>A</p>",
+            "options": [
+              {"id": "A", "text": "het leidinggeven aan het opsporingsonderzoek"},
+              {"id": "B", "text": "het opleggen van strafbeschikkingen"},
+              {"id": "C", "text": "het optreden als openbaar aanklager in de rechtszaal"},
+              {"id": "D", "text": "het vervolgen van strafbare feiten"}
+            ],
+            "correct_answer": "A"
+          },
+          {
+            "id": 20,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p><strong>tekst 11</strong></p><p><strong>\"Een werkstraf is juist de ultieme vergelding\"</strong></p><p>Als het aan directeur Johan Bac ligt, krijgen straks nog meer veroordeelden een (langere) taakstraf opgelegd, in combinatie met een leerstraf. Vuil prikken op straat, bomen ruimen in de bossen, graffiti verwijderen bij de sportclub of inpakken bij de voedselbank.</p><p>Jaarlijks krijgen zo'n 30.000 mensen een taakstraf opgelegd. Zij hebben zich bijvoorbeeld schuldig gemaakt aan diefstal, mishandeling, fraude of drugshandel en moeten als straf onder begeleiding van de organisatie van Johan Bac onbetaald werken.</p><p><em>bron: NRC van 14 juli 2022</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 11.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Van welke organisatie is Johan Bac directeur?</p>",
+            "correct_antwoord_model": "<p>D</p>",
+            "options": [
+              {"id": "A", "text": "de Nationale Politie"},
+              {"id": "B", "text": "de rechtbank"},
+              {"id": "C", "text": "het Openbaar Ministerie"},
+              {"id": "D", "text": "Reclassering Nederland"}
+            ],
+            "correct_answer": "D"
+          },
+          {
+            "id": 21,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>tekst 11</strong></p><p><strong>\"Een werkstraf is juist de ultieme vergelding\"</strong></p><p>Als het aan directeur Johan Bac ligt, krijgen straks nog meer veroordeelden een (langere) taakstraf opgelegd, in combinatie met een leerstraf. Vuil prikken op straat, bomen ruimen in de bossen, graffiti verwijderen bij de sportclub of inpakken bij de voedselbank.</p><p>Jaarlijks krijgen zo'n 30.000 mensen een taakstraf opgelegd. Zij hebben zich bijvoorbeeld schuldig gemaakt aan diefstal, mishandeling, fraude of drugshandel en moeten als straf onder begeleiding van de organisatie van Johan Bac onbetaald werken.</p><p><em>bron: NRC van 14 juli 2022</em></p>",
+            "bronverwijzing_tekst": "Zie tekst 11.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Johan Bac vindt een werkstraf \"de ultieme vergelding\". Vergelding is een doel van straffen.</p><p>→ Leg uit wat er wordt bedoeld met vergelding als doel van straffen.</p><p>→ Noem nog een ander doel van straffen.</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan.</p><p>Met vergelding als doel van straffen wordt bedoeld ...<br>Een ander doel van straffen is ...</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Met vergelding als doel van straffen wordt bedoeld (voorbeeld van een juist antwoord) dat de samenleving wraak neemt / laat zien dat je niet onbestraft kan wegkomen met crimineel gedrag. (1 punt)</p><p>Een ander doel van straffen is (één van de volgende) (1 punt):</p><ul><li>afschrikking/preventie</li><li>beveiliging van de samenleving</li><li>handhaving van de rechtsorde</li><li>voorkomen van eigenrichting</li><li>heropvoeding/resocialisatie</li><li>genoegdoening</li></ul>"
+          },
+          {
+            "id": 22,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p><strong>tekst 12</strong></p><p><strong>Groningse politie blundert: 21 rijbewijzen teruggegeven</strong></p><p>Bij snelheidscontroles op de Ringweg rond Groningen zijn tientallen rijbewijzen ten onrechte ingevorderd¹). De automobilisten reden allemaal meer dan 50 kilometer te hard en waren dus in overtreding, maar de politie blijkt te hebben gecontroleerd op een plek waar dat niet mag.</p><p>\"Tientallen lasercontroles zijn niet volgens de richtlijnen uitgevoerd en door het Openbaar Ministerie ongeldig verklaard\", meldt RTV Noord.</p><p>Anders dan vaak wordt gedacht, mag de politie niet overal controleren, bijvoorbeeld niet vlak voor en na een bord waarop de maximumsnelheid wordt aangegeven.</p><p>noot 1 ingevorderd = ingenomen</p><p><em>bron: nos.nl van 24 maart 2022</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 12.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Vanwege welk kenmerk van de rechtsstaat moest de politie de rijbewijzen teruggeven?</p>",
+            "correct_antwoord_model": "<p>D</p>",
+            "options": [
+              {"id": "A", "text": "Alle burgers zijn voor de wet gelijk."},
+              {"id": "B", "text": "De rechtelijke macht is onpartijdig en onafhankelijk."},
+              {"id": "C", "text": "Er is sprake van een machtenscheiding."},
+              {"id": "D", "text": "Het legaliteitsbeginsel geldt."}
+            ],
+            "correct_answer": "D"
+          },
+          {
+            "id": 23,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>tekst 13</strong></p><p><strong>Jongeren opgepakt voor terroriseren metrostations Amsterdam</strong></p><p>De afgelopen maanden zijn in Amsterdam twaalf jongeren van 12 tot en met 18 jaar aangehouden op verdenking van intimidatie, mishandeling, vernieling en openlijke geweldpleging op metrostations. De meeste aangehouden jongeren hebben een contact- en locatieverbod gekregen, meldt de politie. Ze mogen daardoor niet met de medeverdachten omgaan en niet meer op de stations komen. Sindsdien zijn daar veel minder incidenten, aldus de politie.</p><p><em>bron: telegraaf.nl van 15 juli 2022</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 13.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>→ Leg uit dat het contact- en locatieverbod in tekst 13 repressief is en een preventieve werking heeft.</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan.</p><p>Het contact- en locatieverbod is repressief, want ...<br>Het contact- en locatieverbod heeft een preventieve werking, want ...</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Het contact- en locatieverbod is repressief, want (voorbeelden van een juist antwoord) (1 punt):</p><ul><li>het verbod is opgelegd nadat de jongeren de strafbare feiten hebben gepleegd.</li><li>het verbod beperkt de rechten van de jongeren (een gevolg van de aanhoudingen is dat jongeren niet meer op de stations kunnen komen / niet meer met medeverdachten mogen omgaan).</li></ul><p>Het contact- en locatieverbod heeft een preventieve werking, want (voorbeelden van een juist antwoord) (1 punt):</p><ul><li>de politie voorkomt veel criminaliteit omdat die jongeren daar niet meer mogen komen.</li><li>sindsdien zijn er beduidend minder incidenten op de stations.</li></ul>"
+          },
+          {
+            "id": 24,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p><strong>tekst 14</strong></p><p>Tbs leidt tot meer veiligheid doordat patiënten met een hoog risico in een beveiligde, gesloten instelling worden behandeld.</p><p>Een tbs-patiënt keert alleen terug in de samenleving wanneer de kans dat hij opnieuw een ernstig delict pleegt heel erg klein is geworden.</p><p>Ex-gedetineerden recidiveren veel vaker dan ex-tbs-patiënten. Behandeling betekent dus meer veiligheid.</p><p><em>bron: tbsnederland.nl</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 14.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Een maatregel als tbs kan verschillende doelen hebben.</p><p>→ Welk doel van maatregelen is te herkennen in tekst 14?</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 1</strong></p><p>Eén van de volgende doelen:</p><ul><li>om de samenleving tegen de dader te beschermen / beveiliging van de samenleving</li><li>om de dader tegen zichzelf te beschermen</li></ul><p><em>Opmerking</em><br>Ook wanneer de kandidaat een van de volgende doelen van sancties/straffen noemt: preventie, resocialisatie of heropvoeding, mag een scorepunt worden toegekend.</p>"
+          },
+          {
+            "id": 25,
+            "max_score": 1,
+            "type": "open_non_language",
+            "context_html": "<p><strong>tekst 14</strong></p><p>Tbs leidt tot meer veiligheid doordat patiënten met een hoog risico in een beveiligde, gesloten instelling worden behandeld.</p><p>Een tbs-patiënt keert alleen terug in de samenleving wanneer de kans dat hij opnieuw een ernstig delict pleegt heel erg klein is geworden.</p><p>Ex-gedetineerden recidiveren veel vaker dan ex-tbs-patiënten. Behandeling betekent dus meer veiligheid.</p><p><em>bron: tbsnederland.nl</em></p>",
+            "bronverwijzing_tekst": "Zie tekst 14.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>De personen in de tbs-kliniek worden in tekst 14 patiënten genoemd. De schrijver van tekst 14 noemt die personen dus geen daders.</p><p>Stelling: de tbs-patiënten uit tekst 14 mogen ook daders genoemd worden.</p><p>→ Geef een argument voor of een argument tegen de stelling.</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan.</p><p>Ik vind dat de tbs-patiënten ... (vul in: wel / niet) daders genoemd mogen worden, want</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 1</strong></p><p>Een juist antwoord bevat een afweging met daarin minimaal een kenmerk van het begrip dader.</p><p>Voorbeelden van juiste antwoorden:</p><ul><li>Ik vind dat de tbs-patiënten <strong>wel</strong> daders genoemd mogen worden, want de personen in de tbs-kliniek zijn daar geplaatst door een uitspraak van de rechter. De rechter heeft ze dus eerst schuldig verklaard aan een delict. Daarmee mag je die personen dus ook daders noemen.</li><li>Ik vind dat de tbs-patiënten <strong>niet</strong> daders genoemd mogen worden, want een persoon in een tbs-kliniek is door de rechter ontoerekeningsvatbaar verklaard. De persoon heeft dus de wet overtreden, maar dat mag / kan hem niet toegerekend (verweten) worden. Je kunt diegene dan ook beter geen dader noemen.</li><li>Ik vind dat de tbs-patiënten <strong>niet</strong> daders genoemd mogen worden, want een persoon in een tbs-kliniek zit voor een behandeling vanwege een psychiatrische ziekte of stoornis. De persoon kon er dus niet veel aan doen dat ze iets illegaals hebben gedaan.</li></ul>"
+          },
+          {
+            "id": 26,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>tekst 15</strong></p><p><strong>Taakstraf voor man die steen gooide naar huis burgemeester</strong></p><p>De politierechter in Lelystad heeft een 30-jarige man uit Urk veroordeeld tot een taakstraf van 60 uur, waarvan de helft voorwaardelijk. De rechter heeft vastgesteld dat de man vorig jaar maart een steen naar het huis van burgemeester Cees van den Bos (SGP) heeft gegooid. De man ontkent dat.</p><p>\"Een burgemeester moet zijn stad in alle vrijheid kunnen runnen. Nu werd hij in zijn privéleven aangetast en dat is heel beangstigend geweest voor hem en zijn gezin\", aldus de officier van justitie.</p><p>Volgens Omroep Flevoland eiste de officier niet alleen een taakstraf, maar ook twee weken voorwaardelijke gevangenisstraf. De man legt zich er niet bij neer en kondigde hoger beroep aan.</p><p><em>bron: nos.nl van 9 maart 2022</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 15.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Hieronder staan vier beweringen naar aanleiding van tekst 15.</p><ol><li>De officier van justitie heeft twee hoofdstraffen tegen de man geëist.</li><li>De officier van justitie noemt materiële gevolgen voor de burgemeester en zijn gezin als gevolg van de daad van man.</li><li>De rechter heeft de strafeis van de officier van justitie overgenomen.</li><li>De rechter uit Lelystad is een rechter die bij de politie werkt.</li></ol><p>→ Geef per uitspraak aan of die juist of onjuist is.</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan met juist of onjuist.</p><p>1 = ...<br>2 = ...<br>3 = ...<br>4 = ...</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>1 = juist<br>2 = onjuist<br>3 = onjuist<br>4 = onjuist</p><p>indien vier antwoorden juist: 2 punten<br>indien drie of twee antwoorden juist: 1 punt<br>indien minder dan twee antwoorden juist: 0 punten</p>"
+          },
+          {
+            "id": 27,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>tekst 16</strong></p><p><strong>OM eist vier jaar cel tegen Hilversummer</strong></p><p>Een 17-jarige Hilversummer die betrokken was bij het gooien van mortierbommen naar woningen, moet volgens het volwassenenstrafrecht berecht worden. De officier van justitie wees in zijn requisitoir op het enorme gevaar, de impact van de aanslagen.</p><p>Toepassing van volwassenstrafrecht is op zijn plaats in deze 'strafzaak uit de buitencategorie', aldus de officier van justitie.</p><p>Bij de strafeis houdt de officier van justitie wel rekening met de jeugdige leeftijd van verdachte en zijn verminderde toerekeningsvatbaarheid.</p><p>Alles afwegende komt het OM tot een eis van vier jaar gevangenisstraf, waarvan één jaar voorwaardelijk, met een proeftijd van drie jaar.</p><p><em>bron: gooieneembode.nl van 14 februari 2022</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 16.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Er volgt een opsomming van vier aspecten uit de rechtszaak uit tekst 16. De officier van justitie kan met deze aspecten rekening houden bij het opstellen van de strafeis.</p><ol><li>dat de verdachte minderjarig is</li><li>dat de verdachte verminderd toerekeningsvatbaar is</li><li>dat de verdachte volgens het volwassenenstrafrecht berecht zou moeten worden</li><li>dat het een ernstig strafbaar feit is</li></ol><p>→ Geef per aspect aan of die verhogend of verlagend kan werken op de strafeis van de officier van justitie.</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan met verhogend of verlagend.</p><p>1 = ...<br>2 = ...<br>3 = ...<br>4 = ...</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>1 = verlagend<br>2 = verlagend<br>3 = verhogend<br>4 = verhogend</p><p>indien vier antwoorden juist: 2 punten<br>indien drie of twee antwoorden juist: 1 punt<br>indien minder dan twee antwoorden juist: 0 punten</p>"
+          },
+          {
+            "id": 28,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>tekst 16</strong></p><p><strong>OM eist vier jaar cel tegen Hilversummer</strong></p><p>Een 17-jarige Hilversummer die betrokken was bij het gooien van mortierbommen naar woningen, moet volgens het volwassenenstrafrecht berecht worden. De officier van justitie wees in zijn requisitoir op het enorme gevaar, de impact van de aanslagen.</p><p>Toepassing van volwassenstrafrecht is op zijn plaats in deze 'strafzaak uit de buitencategorie', aldus de officier van justitie.</p><p>Bij de strafeis houdt de officier van justitie wel rekening met de jeugdige leeftijd van verdachte en zijn verminderde toerekeningsvatbaarheid.</p><p>Alles afwegende komt het OM tot een eis van vier jaar gevangenisstraf, waarvan één jaar voorwaardelijk, met een proeftijd van drie jaar.</p><p><em>bron: gooieneembode.nl van 14 februari 2022</em></p>",
+            "bronverwijzing_tekst": "Zie tekst 16.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Er volgen zeven onderdelen van een rechtszaak. Deze staan niet in de juiste volgorde.</p><ol><li>aanklacht/tenlastelegging door officier van justitie</li><li>laatste woord door de verdachte</li><li>opening door de rechter</li><li>pleidooi door de advocaat</li><li>uitspraak/vonnis door de rechter</li><li>verhoor van getuigen en deskundigen</li><li>verhoor van verdachte</li></ol><p>Tekst 16 gaat over het requisitoir van de officier van justitie.</p><p>→ Noteer het nummer van het onderdeel dat direct voor het requisitoir is afgerond.</p><p>→ Noteer het nummer van het onderdeel dat direct na het requisitoir wordt afgerond.</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan.</p><p>onderdeel direct voor het requisitoir: ...<br>onderdeel direct na het requisitoir: ...</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><ul><li>onderdeel direct voor het requisitoir: 7 (verhoor van verdachte) (1 punt)</li><li>onderdeel direct na het requisitoir: 4 (pleidooi door de advocaat) (1 punt)</li></ul>"
+          },
+          {
+            "id": 29,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p><strong>tekst 17</strong></p><p><strong>Strafklimaat</strong></p><p>Drugscriminelen voelen in Nederland nauwelijks de dreiging van celstraffen, waardoor het voor hen aantrekkelijk is om actief te blijven in drugslabs en de handel in drugs.</p><p>De maximumstraf voor het produceren van synthetische drugs¹) is met 8 jaar vrij laag, en in de praktijk wordt die zelden opgelegd.</p><p>Het is één van de belangrijkste redenen dat drugscriminelen zich in Brabant als een vis in het water voelen. Naast de perfecte ligging vlakbij de havens van Antwerpen en Rotterdam, de Randstad en Duitsland en het feit dat de pakkans vanuit de criminelen gezien überhaupt erg laag is.</p><p>noot 1 synthetische drugs = in het laboratorium gemaakte drugs, zoals xtc, die niet voorkomen in de natuur</p><p><em>bron: bd.nl van 15 november 2021</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 17.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>In tekst 17 worden redenen gegeven waarom er in Nederland veel drugscriminelen zijn.</p><p>Welke theorie over de oorzaken van criminaliteit past bij die redenen?</p>",
+            "correct_antwoord_model": "<p>D</p>",
+            "options": [
+              {"id": "A", "text": "bindingstheorie"},
+              {"id": "B", "text": "etikettentheorie"},
+              {"id": "C", "text": "neutraliseringstheorie"},
+              {"id": "D", "text": "rationele-keuzetheorie"}
+            ],
+            "correct_answer": "D"
+          },
+          {
+            "id": 30,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>tekst 17</strong></p><p><strong>Strafklimaat</strong></p><p>Drugscriminelen voelen in Nederland nauwelijks de dreiging van celstraffen, waardoor het voor hen aantrekkelijk is om actief te blijven in drugslabs en de handel in drugs.</p><p>De maximumstraf voor het produceren van synthetische drugs¹) is met 8 jaar vrij laag, en in de praktijk wordt die zelden opgelegd.</p><p>Het is één van de belangrijkste redenen dat drugscriminelen zich in Brabant als een vis in het water voelen. Naast de perfecte ligging vlakbij de havens van Antwerpen en Rotterdam, de Randstad en Duitsland en het feit dat de pakkans vanuit de criminelen gezien überhaupt erg laag is.</p><p>noot 1 synthetische drugs = in het laboratorium gemaakte drugs, zoals xtc, die niet voorkomen in de natuur</p><p><em>bron: bd.nl van 15 november 2021</em></p>",
+            "bronverwijzing_tekst": "Zie tekst 17.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Om afschrikking bij drugscriminelen te vergroten kan de maximumstraf die staat op het produceren van synthetische drugs worden verhoogd.</p><p>→ Hoe heet de wet waarin die maximumstraf staat?</p><p>→ Wie moet het besluit tot de verhoging van de maximumstraf goedkeuren?</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan.</p><p>De wet waarin de maximumstraf staat: ...<br>Dat besluit moet worden goedgekeurd door: ...</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><ul><li>De wet waarin de maximumstraf staat: de Opiumwet (1 punt)</li><li>Dat besluit moet worden goedgekeurd door: het parlement / de Tweede Kamer / de Eerste Kamer / de Staten-Generaal (1 punt)</li></ul>"
+          },
+          {
+            "id": 31,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>tekst 17</strong></p><p><strong>Strafklimaat</strong></p><p>Drugscriminelen voelen in Nederland nauwelijks de dreiging van celstraffen, waardoor het voor hen aantrekkelijk is om actief te blijven in drugslabs en de handel in drugs.</p><p>De maximumstraf voor het produceren van synthetische drugs¹) is met 8 jaar vrij laag, en in de praktijk wordt die zelden opgelegd.</p><p>Het is één van de belangrijkste redenen dat drugscriminelen zich in Brabant als een vis in het water voelen. Naast de perfecte ligging vlakbij de havens van Antwerpen en Rotterdam, de Randstad en Duitsland en het feit dat de pakkans vanuit de criminelen gezien überhaupt erg laag is.</p><p>noot 1 synthetische drugs = in het laboratorium gemaakte drugs, zoals xtc, die niet voorkomen in de natuur</p><p><em>bron: bd.nl van 15 november 2021</em></p>",
+            "bronverwijzing_tekst": "Zie tekst 17.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>De afschrikking bij drugscriminelen kan ook vergroot worden door de pakkans te vergroten.</p><p>→ Bedenk een manier waarop de overheid de pakkans van drugscriminelen kan vergroten en schrijf die op.</p><p>→ Leg uit waarom jouw manier de pakkans vergroot.</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan.</p><p>Een manier waarop de overheid de pakkans kan vergroten: ...<br>De pakkans wordt hierdoor groter, want: ...</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een manier waarop de overheid de pakkans kan vergroten (voorbeeld van een juist antwoord): de overheid kan burgers oproepen om, als ze iets verdachts zien, dit (bij de politie) te melden (de sociale controle te vergroten). (1 punt)</p><p>De pakkans wordt hierdoor groter, want (voorbeeld van een juist antwoord): de politie kan drugscriminelen dan sneller opsporen of drugslabs vinden (waardoor de kans dat de criminelen gepakt worden groter wordt). (1 punt)</p>"
+          }
+        ]
+      },
+      {
+        "opgave_nr": 3,
+        "opgave_titel": "Analyse maatschappelijk vraagstuk: Energiedrankjes",
+        "vragen": [
+          {
+            "id": 32,
+            "max_score": 4,
+            "type": "open_non_language",
+            "context_html": "<p><strong>tekst 1 (uit bijlage)</strong></p><p><strong>Kinderartsen: verkoop geen energiedrankjes aan minderjarigen</strong></p><p>Kinderartsen willen een verbod op de verkoop van energiedrankjes aan jongeren onder de 18 jaar. Veel klachten als rusteloosheid, vermoeidheid en hartritmestoornissen bij jonge patiënten blijken te worden veroorzaakt door deze pepdrankjes. Volgens de Nederlandse Vereniging voor Kindergeneeskunde (NVK) drinken met name tieners vanaf 12 jaar soms wel zes blikjes of meer leeg en belanden dan met dergelijke klachten op de afdeling Spoedeisende Hulp.</p><p>Een verbod op energiedrankjes gaat staatssecretaris Blokhuis van Volksgezondheid voorlopig te ver. Hij wijst erop dat er meer producten zijn die je voor je gezondheid beter niet of met mate kan consumeren en hij benadrukt dat de overheid nu al adviseert niet te veel energiedrankjes te drinken.</p><p>Hij ziet daarin ook een belangrijke rol voor ouders, scholen en kantines van sportclubs. Bovendien praat de staatssecretaris met allerlei organisaties over een \"Nationaal Preventieakkoord\". Daarin moeten afspraken worden gemaakt over gezond leven.</p><p>Blokhuis kan zich de zorgen van de kinderartsen overigens wel voorstellen. Hij wil daarom het RIVM of de Gezondheidsraad laten onderzoeken wat precies de schadelijke gevolgen van de drankjes zijn. Ook gaat hij bekijken hoe andere landen hiermee omgaan.</p><p>\"Dit is geen onschuldige frisdrank. We zien steeds meer kinderen met klachten die uiteindelijk veroorzaakt worden door energiedrankjes\", zegt kinderarts Brita de Jong-van Kempen in het NOS Radio 1 Journaal.</p><p>De arts wijst erop dat het vroeger ook normaal was om op jonge leeftijd alcohol te drinken toen de schadelijkheid daarvan nog niet bekend was. \"Bij alcohol is er heel veel voorlichting gegeven. Door een verbod in te voeren, komt er een sterkere bewustwording dat het niet onschuldig is.\"</p><p><em>bron: nos.nl van 15 januari 2018</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 1.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Een maatschappelijk vraagstuk heeft een aantal kenmerken. Een kenmerk is dat het vraagstuk aandacht krijgt van de media. Een ander kenmerk is dat er sprake moet zijn van een situatie die veel mensen onwenselijk vinden.</p><p>→ Noem de twee andere kenmerken van een maatschappelijk vraagstuk die in tekst 1 te herkennen zijn.</p><p>→ Geef voor elk kenmerk aan hoe dit kenmerk in tekst 1 te herkennen is.</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan.</p><p>Kenmerk 1: ..., want in de tekst staat ...<br>Kenmerk 2: ..., want in de tekst staat ...</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 4</strong></p><p>Een juist antwoord bevat de volgende onderdelen:</p><ul><li>Kenmerk: Er bestaan verschillende meningen over de oplossing / de oorzaak / de aanpak van het probleem (1 punt)<br>want (voorbeeld van een juist antwoord) in de tekst staat dat kinderartsen een verbod willen, maar de staatssecretaris gaat dat nog te ver / ziet ook een rol voor ouders, scholen, kantines en sportclubs. (1 punt)</li><li>Kenmerk: De oplossingen van een maatschappelijk vraagstuk kunnen gedaan worden door acties of maatregelen van maatschappelijke organisaties of door gezamenlijk optreden van burgers / Het probleem kan ook worden aangepakt door de overheid (1 punt)<br>want in de tekst staat dat (voorbeelden van een juist antwoord) (1 punt):<ul><li>kinderartsen willen dat er een verbod komt op de verkoop van de drankjes aan jongeren</li><li>de staatssecretaris wil samenwerking met ouders, scholen, kantines en sportclubs om overmatig gebruik van energiedrankjes tegen te gaan</li><li>de staatssecretaris wil een Nationaal Preventieakkoord waarin afspraken worden gemaakt met allerlei organisaties</li><li>de staatssecretaris gaat onderzoek laten uitvoeren om te kijken hoe schadelijk de drankjes zijn / hoe andere landen omgaan met de verkoop van energiedrankjes</li></ul></li></ul><p><em>Opmerking</em><br>Het scorepunt voor de uitleg mag alleen worden toegekend als dit past bij het juiste kenmerk.</p>"
+          },
+          {
+            "id": 33,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>tekst 1 (uit bijlage)</strong></p><p><strong>Kinderartsen: verkoop geen energiedrankjes aan minderjarigen</strong></p><p>Kinderartsen willen een verbod op de verkoop van energiedrankjes aan jongeren onder de 18 jaar. Veel klachten als rusteloosheid, vermoeidheid en hartritmestoornissen bij jonge patiënten blijken te worden veroorzaakt door deze pepdrankjes. Volgens de Nederlandse Vereniging voor Kindergeneeskunde (NVK) drinken met name tieners vanaf 12 jaar soms wel zes blikjes of meer leeg en belanden dan met dergelijke klachten op de afdeling Spoedeisende Hulp.</p><p>Een verbod op energiedrankjes gaat staatssecretaris Blokhuis van Volksgezondheid voorlopig te ver. Hij wijst erop dat er meer producten zijn die je voor je gezondheid beter niet of met mate kan consumeren en hij benadrukt dat de overheid nu al adviseert niet te veel energiedrankjes te drinken.</p><p>Hij ziet daarin ook een belangrijke rol voor ouders, scholen en kantines van sportclubs. Bovendien praat de staatssecretaris met allerlei organisaties over een \"Nationaal Preventieakkoord\". Daarin moeten afspraken worden gemaakt over gezond leven.</p><p>Blokhuis kan zich de zorgen van de kinderartsen overigens wel voorstellen. Hij wil daarom het RIVM of de Gezondheidsraad laten onderzoeken wat precies de schadelijke gevolgen van de drankjes zijn. Ook gaat hij bekijken hoe andere landen hiermee omgaan.</p><p>\"Dit is geen onschuldige frisdrank. We zien steeds meer kinderen met klachten die uiteindelijk veroorzaakt worden door energiedrankjes\", zegt kinderarts Brita de Jong-van Kempen in het NOS Radio 1 Journaal.</p><p>De arts wijst erop dat het vroeger ook normaal was om op jonge leeftijd alcohol te drinken toen de schadelijkheid daarvan nog niet bekend was. \"Bij alcohol is er heel veel voorlichting gegeven. Door een verbod in te voeren, komt er een sterkere bewustwording dat het niet onschuldig is.\"</p><p><em>bron: nos.nl van 15 januari 2018</em></p>",
+            "bronverwijzing_tekst": "Zie tekst 1.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Paul Blokhuis was staatssecretaris van Volksgezondheid namens de ChristenUnie. De ChristenUnie behoort tot de christendemocratische stroming.</p><p>→ Welk uitgangspunt van de christendemocratische stroming is te herkennen in tekst 1?</p><p>→ Citeer een zin waarin dit uitgangspunt te herkennen is.</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan.</p><p>uitgangspunt: ...<br>citaat: ...</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p><em>of</em></p><ul><li>uitgangspunt: harmonie en samenwerking tussen diverse groepen binnen de samenleving / gespreide verantwoordelijkheid (1 punt)</li><li>citaat: (1 punt)<ul><li>\"Hij ziet daarin ook een belangrijke rol voor ouders, scholen en kantines van sportclubs.\"</li><li>\"Bovendien praat de staatssecretaris met allerlei organisaties over een 'Nationaal Preventieakkoord'.\"</li></ul></li></ul><p><em>of</em></p><ul><li>uitgangspunt: faciliterende (aanvullende) rol van de overheid in die samenwerking / de overheid moet vooral taken verrichten die niet door andere groepen in de samenleving kunnen worden vervuld (1 punt)</li><li>citaat: (1 punt)<ul><li>\"Een verbod op energiedrankjes gaat staatssecretaris Blokhuis van Volksgezondheid voorlopig te ver.\"</li><li>\"Hij wijst erop dat er meer producten zijn die je voor je gezondheid beter niet of met mate kan consumeren en hij benadrukt dat de overheid nu al adviseert niet te veel energiedrankjes te drinken.\"</li><li>\"Hij ziet daarin ook een belangrijke rol voor ouders, scholen en kantines van sportclubs.\"</li><li>\"Bovendien praat de staatssecretaris met allerlei organisaties over een 'Nationaal Preventieakkoord'.\"</li></ul></li></ul><p><em>Opmerking</em><br>Het scorepunt voor het citaat mag alleen worden toegekend als dit past bij het juiste uitgangspunt.</p>"
+          },
+          {
+            "id": 34,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>tekst 1 (uit bijlage)</strong></p><p><strong>Kinderartsen: verkoop geen energiedrankjes aan minderjarigen</strong></p><p>Kinderartsen willen een verbod op de verkoop van energiedrankjes aan jongeren onder de 18 jaar. Veel klachten als rusteloosheid, vermoeidheid en hartritmestoornissen bij jonge patiënten blijken te worden veroorzaakt door deze pepdrankjes. Volgens de Nederlandse Vereniging voor Kindergeneeskunde (NVK) drinken met name tieners vanaf 12 jaar soms wel zes blikjes of meer leeg en belanden dan met dergelijke klachten op de afdeling Spoedeisende Hulp.</p><p>Een verbod op energiedrankjes gaat staatssecretaris Blokhuis van Volksgezondheid voorlopig te ver. Hij wijst erop dat er meer producten zijn die je voor je gezondheid beter niet of met mate kan consumeren en hij benadrukt dat de overheid nu al adviseert niet te veel energiedrankjes te drinken.</p><p>Hij ziet daarin ook een belangrijke rol voor ouders, scholen en kantines van sportclubs. Bovendien praat de staatssecretaris met allerlei organisaties over een \"Nationaal Preventieakkoord\". Daarin moeten afspraken worden gemaakt over gezond leven.</p><p>Blokhuis kan zich de zorgen van de kinderartsen overigens wel voorstellen. Hij wil daarom het RIVM of de Gezondheidsraad laten onderzoeken wat precies de schadelijke gevolgen van de drankjes zijn. Ook gaat hij bekijken hoe andere landen hiermee omgaan.</p><p>\"Dit is geen onschuldige frisdrank. We zien steeds meer kinderen met klachten die uiteindelijk veroorzaakt worden door energiedrankjes\", zegt kinderarts Brita de Jong-van Kempen in het NOS Radio 1 Journaal.</p><p>De arts wijst erop dat het vroeger ook normaal was om op jonge leeftijd alcohol te drinken toen de schadelijkheid daarvan nog niet bekend was. \"Bij alcohol is er heel veel voorlichting gegeven. Door een verbod in te voeren, komt er een sterkere bewustwording dat het niet onschuldig is.\"</p><p><em>bron: nos.nl van 15 januari 2018</em></p>",
+            "bronverwijzing_tekst": "Zie tekst 1.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>De kinderartsen van de Nederlandse Vereniging voor Kindergeneeskunde (NVK) vormen een belangengroep. Via de NVK zetten de kinderartsen machtsmiddelen in om hun doel(en) te bereiken.</p><p>Eén zo'n machtsmiddel is toegang hebben tot politici.</p><p>→ Noem een ander machtsmiddel dat de kinderartsen inzetten in tekst 1.</p><p>→ Citeer een zin uit tekst 1 waarin dat machtsmiddel te herkennen is.</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan.</p><p>machtsmiddel: ...<br>citaat: ...</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p><em>of</em></p><ul><li>machtsmiddel: kennis / deskundigheid (1 punt)</li><li>citaat: (1 punt)<ul><li>\"Volgens de Nederlandse Vereniging voor Kindergeneeskunde (NVK) drinken met name tieners vanaf 12 jaar soms wel zes blikjes of meer leeg en belanden dan met dergelijke klachten op de afdeling Spoedeisende Hulp.\"</li><li>\"Dit is geen onschuldige frisdrank.\"</li><li>\"'We zien steeds meer kinderen met klachten die uiteindelijk veroorzaakt worden door energiedrankjes', zegt kinderarts Brita de Jong-Van Kempen in het NOS Radio 1 Journaal.\"</li><li>\"De arts wijst erop dat het vroeger ook normaal was om op jonge leeftijd alcohol te drinken toen de schadelijkheid daarvan nog niet bekend was.\"</li><li>\"Bij alcohol is er heel veel voorlichting gegeven.\"</li><li>\"Door een verbod in te voeren, komt er een sterkere bewustwording dat het niet onschuldig is.\"</li></ul></li></ul><p><em>of</em></p><ul><li>machtsmiddel: toegang tot de media (1 punt)</li><li>citaat: (1 punt)<ul><li>\"'We zien steeds meer kinderen met klachten die uiteindelijk veroorzaakt worden door energiedrankjes', zegt kinderarts Brita de Jong-van Kempen in het NOS Radio 1 Journaal.\"</li><li>\"naar: nos.nl van 15 januari 2018\"</li></ul></li></ul><p><em>Opmerking</em><br>Het scorepunt voor het citaat mag alleen worden toegekend als dit past bij het juiste machtsmiddel.</p>"
+          },
+          {
+            "id": 35,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p><strong>tekst 2 (uit bijlage)</strong></p><p><strong>Landelijke leeftijdsgrens voor kopen energiedrankjes een stap dichterbij</strong></p><p>De leeftijdsgrens voor het kopen van energiedrankjes moet omhoog van 14 naar 18 jaar. De grens van 14 jaar, die nu vrijwel alleen wordt gehanteerd bij de supermarkten Lidl en Aldi, moet breder, vindt Foodwatch¹).</p><p>De meeste supermarkten hebben daar volgens de organisatie ook wel oren naar. Tien supermarkten, met een gezamenlijk marktaandeel van 90 procent, staan volgens Foodwatch open voor het optrekken van de leeftijdsgrens, bij voorkeur naar 18 jaar. Voorwaarde voor hen is wel dat alle supermarkten meedoen.</p><p>Foodwatch roept het Centraal Bureau Levensmiddelenhandel (CBL) en het ministerie van Volksgezondheid op tot actie.</p><p>noot 1 Foodwatch is een Europese maatschappelijke organisatie die zich inzet voor het recht op eerlijk, veilig en gezond voedsel.</p><p><em>bron: ad.nl van 23 september 2021</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 2.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Hoe probeert Foodwatch invloed uit te oefenen op de politiek in tekst 2?</p>",
+            "correct_antwoord_model": "<p>C</p>",
+            "options": [
+              {"id": "A", "text": "helpt bij de uitvoering van het besluit om de leeftijdsgrens voor de verkoop te verhogen naar 18 jaar."},
+              {"id": "B", "text": "overlegt met beleidsambtenaren wat de beste aanpak is van de overmatige consumptie van energiedrankjes."},
+              {"id": "C", "text": "probeert het vraagstuk van de overmatige consumptie van energiedrankjes op de politieke agenda te krijgen."},
+              {"id": "D", "text": null}
+            ],
+            "correct_answer": "C"
+          },
+          {
+            "id": 36,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>tekst 2 (uit bijlage)</strong></p><p><strong>Landelijke leeftijdsgrens voor kopen energiedrankjes een stap dichterbij</strong></p><p>De leeftijdsgrens voor het kopen van energiedrankjes moet omhoog van 14 naar 18 jaar. De grens van 14 jaar, die nu vrijwel alleen wordt gehanteerd bij de supermarkten Lidl en Aldi, moet breder, vindt Foodwatch¹).</p><p>De meeste supermarkten hebben daar volgens de organisatie ook wel oren naar. Tien supermarkten, met een gezamenlijk marktaandeel van 90 procent, staan volgens Foodwatch open voor het optrekken van de leeftijdsgrens, bij voorkeur naar 18 jaar. Voorwaarde voor hen is wel dat alle supermarkten meedoen.</p><p>Foodwatch roept het Centraal Bureau Levensmiddelenhandel (CBL) en het ministerie van Volksgezondheid op tot actie.</p><p>noot 1 Foodwatch is een Europese maatschappelijke organisatie die zich inzet voor het recht op eerlijk, veilig en gezond voedsel.</p><p><em>bron: ad.nl van 23 september 2021</em></p>",
+            "bronverwijzing_tekst": "Zie tekst 2.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>→ Noem een belang dat supermarkten hebben bij de verkoop van energiedrankjes.</p><p>→ Noem een norm die Foodwatch wil bereiken.</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan.</p><p>Een belang van supermarkten: ...<br>Een norm die Foodwatch wil bereiken: ...</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><ul><li>Een belang van supermarkten: ze willen winst maken / marktaandeel (1 punt)</li><li>Een norm die Foodwatch wil bereiken (voorbeeld van een juist antwoord): geen verkoop van energiedrankjes aan jongeren onder de 18 (1 punt)</li></ul>"
+          },
+          {
+            "id": 37,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>afbeelding 1 (uit bijlage)</strong></p><p>Toelichting</p><p>De zin \"Energiedrankjes geven je vleugels\" verwijst naar een reclame van energiedrankjesmerk Red Bull. Het bedrijf adverteerde met de slogan \"Red Bull geeft je vleugels\".</p><p><em>bron: Reinhart Croon in kerkenleven.be</em></p>",
+            "bronverwijzing_tekst": "Zie afbeelding 1.",
+            "bron_verwijzing": "vmbo_maatschappijkunde_tv1_vraag37_bijlage_afbeelding1.png",
+            "vraagtekst_html": "<p>De media kunnen verschillende functies voor samenleving en individu hebben. Eén zo'n functie is de meningsvormende functie.</p><p>→ Noem twee andere functies van de media voor samenleving en individu die afbeelding 1 kan hebben en leg uit waarom.</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan.</p><p>Functie 1: ..., omdat: ...<br>Functie 2: ..., omdat: ...</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Juiste antwoorden zijn (twee van de volgende):</p><ul><li>De amusementsfunctie, omdat in de afbeelding een grapje is verwerkt en mensen het dus leuk vinden.</li><li>De socialiserende functie, omdat de normen van mensen kunnen veranderen / mensen kunnen door de afbeelding wellicht anders gaan nadenken over het gebruik van energiedrankjes.</li><li>De informatiefunctie, omdat door de afbeelding bij mensen mogelijk bekend wordt dat energiedrank voor overgewicht kan zorgen</li></ul><p>per juiste combinatie van functie en uitleg 1 punt</p>"
+          },
+          {
+            "id": 38,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p><strong>tabel 1 (uit bijlage)</strong></p><p><strong>Waarom drink je energiedrankjes?</strong></p><table><thead><tr><th>redenen</th><th>jongeren 11 t/m 14 jaar</th><th>jongeren 15 t/m 18 jaar</th></tr></thead><tbody><tr><td>a. Ik word er actiever van</td><td>19%</td><td>23%</td></tr><tr><td>b. Iedereen drinkt het</td><td>23%</td><td>11%</td></tr><tr><td>c. Ik ben minder snel moe</td><td>9%</td><td>19%</td></tr><tr><td>d. Ik kan langer doorgaan</td><td>6%</td><td>14%</td></tr><tr><td>e. Ik vind het lekker</td><td>76%</td><td>74%</td></tr></tbody></table><p>Toelichting</p><p>De gegevens uit tabel 1 komen uit een onderzoek uit 2012 waarin jongeren van 11 tot en met 18 jaar is gevraagd waarom ze energiedrankjes drinken. Jongeren mochten meerdere redenen kiezen. Voorbeeld: 76% van de jongeren van 11 t/m 14 jaar geven als een reden om energiedrankjes te drinken dat ze het lekker vinden.</p><p><em>bron: jellinek.nl van oktober 2020</em></p>",
+            "bronverwijzing_tekst": "Zie tabel 1.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Onderzoekers hebben jongeren gevraagd naar de reden waarom ze energiedrankjes drinken. In tabel 1 staan vijf redenen (a tot en met e) die de jongeren noemen.</p><p>Aan welke reden kun je zien dat socialisatie een reden is voor jongeren om energiedrankjes te drinken?</p>",
+            "correct_antwoord_model": "<p>B</p>",
+            "options": [
+              {"id": "A", "text": "reden a"},
+              {"id": "B", "text": "reden b"},
+              {"id": "C", "text": "reden c"},
+              {"id": "D", "text": "reden d"},
+              {"id": "E", "text": "reden e"}
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "id": 39,
+            "max_score": 1,
+            "type": "mc",
+            "context_html": "<p><strong>tekst 3 (uit bijlage)</strong></p><p><strong>Jongerencultuur</strong></p><p>Energiedrankjes zijn verbonden met een jongerencultuur. Het is hip en rebels doordat het geen traditioneel 'goedgekeurde' of gezonde drankjes zijn. Ook speelt er peer influence¹) mee en is het erg 'volwassen' om energiedrankjes te drinken.</p><p>Ook de reclame richt zijn pijlen op jongeren. Daarin worden energiedrankjes vaak verbonden met waarden als zichzelf overtreffen, grenzen verleggen en optimaal presteren. Zaken die veel jongeren aanspreken. Red Bull zet bijvoorbeeld heel hard in op het sportieve: het sponsort wedstrijden en evenementen en koppelt zichzelf graag aan snelle en extreme sporten, een cool imago en durvers.</p><p>noot 1 peer influence = de invloed van leeftijdsgenoten</p><p><em>bron: gezondleven.be 2021</em></p>",
+            "bronverwijzing_tekst": "Lees tekst 3.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Vanuit welke invalshoek wordt er naar de overmatige consumptie van energiedrankjes gekeken in de eerste alinea van tekst 3?</p>",
+            "correct_antwoord_model": "<p>B</p>",
+            "options": [
+              {"id": "A", "text": "de politiek-juridische invalshoek"},
+              {"id": "B", "text": "de sociaal-culturele invalshoek"},
+              {"id": "C", "text": "de sociaaleconomische invalshoek"},
+              {"id": "D", "text": "de veranderings- en vergelijkende invalshoek"}
+            ],
+            "correct_answer": "B"
+          },
+          {
+            "id": 40,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": "<p><strong>tekst 3 (uit bijlage)</strong></p><p><strong>Jongerencultuur</strong></p><p>Energiedrankjes zijn verbonden met een jongerencultuur. Het is hip en rebels doordat het geen traditioneel 'goedgekeurde' of gezonde drankjes zijn. Ook speelt er peer influence¹) mee en is het erg 'volwassen' om energiedrankjes te drinken.</p><p>Ook de reclame richt zijn pijlen op jongeren. Daarin worden energiedrankjes vaak verbonden met waarden als zichzelf overtreffen, grenzen verleggen en optimaal presteren. Zaken die veel jongeren aanspreken. Red Bull zet bijvoorbeeld heel hard in op het sportieve: het sponsort wedstrijden en evenementen en koppelt zichzelf graag aan snelle en extreme sporten, een cool imago en durvers.</p><p>noot 1 peer influence = de invloed van leeftijdsgenoten</p><p><em>bron: gezondleven.be 2021</em></p>",
+            "bronverwijzing_tekst": "Zie tekst 3.",
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Er zijn verschillende theorieën over de beïnvloeding van mensen door media, zoals:</p><ol><li>de agendatheorie</li><li>de framingtheorie</li><li>de injectienaaldtheorie</li><li>de theorie van selectieve perceptie</li></ol><p>Hieronder staan twee manieren waarop reclame over energiedrankjes invloed zou kunnen hebben op mensen.</p><ol type=\"a\"><li>Reclames over energiedrankjes spreken veel jongeren aan, omdat de boodschap in de reclames aansluit bij hun referentiekader.</li><li>Red Bull brengt hun energiedrank in verband met een sportieve en gewaagde levensstijl, met als mogelijk gevolg dat consumenten dit verband ook gaan leggen.</li></ol><p>→ Bij welke theorie past de eerste manier van beïnvloeding (a) en bij welke theorie past de tweede manier van beïnvloeding (b)?</p><p>Doe het zo: neem het onderstaande over en vul het antwoord aan.</p><p>a past bij theorie: ...<br>b past bij theorie: ...</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><ul><li>a past bij theorie 4 (de theorie van selectieve perceptie). (1 punt)</li><li>b past bij theorie 2 (de framingtheorie). (1 punt)</li></ul>"
+          },
+          {
+            "id": 41,
+            "max_score": 2,
+            "type": "open_non_language",
+            "context_html": null,
+            "bronverwijzing_tekst": null,
+            "bron_verwijzing": null,
+            "vraagtekst_html": "<p>Om de mogelijk schadelijke effecten van overmatige consumptie van energiedrankjes tegen te gaan, kan de overheid de verkoop van energiedrankjes aan jongeren verbieden.</p><p>→ Vind jij het verbieden van de verkoop van energiedrankjes aan jongeren een goede oplossing?</p><p>→ Beargumenteer jouw mening.</p><p>→ Noem de waarde achter jouw argument.</p><p>Doe het zo: neem één van de onderstaande mogelijkheden over en vul het antwoord aan.</p><p>Ja, er moet in Nederland wel zo'n verbod komen.<br>Mijn argument om de verkoop te verbieden, is ...<br>De waarde die bij mijn argument past is ...</p><p>of</p><p>Nee, er moet in Nederland niet zo'n verbod komen.<br>Mijn argument om de verkoop niet te verbieden, is ...<br>De waarde die bij mijn argument past is ...</p>",
+            "correct_antwoord_model": "<p><strong>maximumscore 2</strong></p><p>Een juist antwoord bevat:</p><ul><li>een argument dat past bij het standpunt van de kandidaat. (1 punt)</li><li>een waarde, die is geformuleerd als een waarde, die past bij het argument. (1 punt)</li></ul><p>Voorbeelden van juiste antwoorden:</p><p><strong>Ja, er moet in Nederland wel zo'n verbod komen.</strong></p><ul><li>Mijn argument om de verkoop te verbieden, is dat de schadelijke stoffen in energiedrankjes kunnen leiden tot bijwerkingen en dat kan uiteindelijk slecht zijn voor de gezondheid van jongeren. (1)</li><li>De waarde die bij mijn argument past is: gezondheid. (1)</li></ul><p><strong>Nee, er moet in Nederland niet zo'n verbod komen.</strong></p><ul><li>Mijn argument om de verkoop niet te verbieden, is dat burgers zelf moeten kunnen bepalen of ze energiedrankjes kopen en willen drinken of niet / de overheid moet niet betuttelen / als mensen dit zo belangrijk vinden kunnen ze zelf de beslissing nemen om geen energiedrankjes meer te drinken. (1)</li><li>De waarde die bij mijn argument past is: vrijheid. (1)</li></ul>"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,692 @@
+{
+  "examen_info": {
+    "vak": "economie",
+    "niveau": "vmbo",
+    "tijdvak": "TV1",
+    "jaar": 2024
+  },
+  "opgaven": [
+    {
+      "opgave_nr": 1,
+      "opgave_titel": "Woon-wereldhandel",
+      "vragen": [
+        {
+          "id": 1,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Het Zweedse woonwarenhuis IKEI met 420 warenhuizen is gevestigd in meer dan 50 landen verspreid over de hele wereld.</p><p>Zweden is lid van de Europese Unie (EU); in veel landen van de EU zijn vestigingen van IKEI-warenhuizen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Verklaar waarom vrij verkeer van personen, een kenmerk van de EU, gunstig is voor een internationale onderneming zoals IKEI.</p>",
+          "correct_antwoord_model": "<p>voorbeelden van juiste verklaringen:</p><ul><li>Burgers uit EU-landen (bijvoorbeeld woonachtig in de grensstreken) kunnen bij alle warenhuizen van IKEI in de EU werknemer worden.</li><li>Er kan, zonder beperkingen en tijdverlies bij de douane, gewerkt worden met personeel op meerdere locaties.</li></ul>"
+        },
+        {
+          "id": 2,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>In de EU moet de verkoopprijs van een product voor alle consumenten in principe gelijk zijn. Zo kost de Willy-boekenkast, die al tientallen jaren populair is, in Zweden net zo veel als in Nederland.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Is Zweden ook lid van de Europese Monetaire Unie (EMU)?</p>",
+          "correct_antwoord_model": "<p>C</p>",
+          "options": [
+            {"id": "A", "text": "Ja, er wordt betaald met de euro."},
+            {"id": "B", "text": "Ja, naast de Zweedse kroon is ook de euro een wettig betaalmiddel."},
+            {"id": "C", "text": "Nee, er wordt betaald met de Zweedse kroon."},
+            {"id": "D", "text": "Nee, naast de euro is ook de Zweedse kroon een wettig betaalmiddel."}
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "id": 3,
+          "max_score": 2,
+          "type": "calculation",
+          "context_html": "<p>In landen buiten de EU zijn de prijzen van dezelfde artikelen per land verschillend.</p><p>In Zuid-Korea kost de Willy-boekenkast omgerekend € 81,75.</p>",
+          "bronverwijzing_tekst": "Gebruik informatiebron 1 en 2.",
+          "bron_verwijzing": ["gl_tl_economie_tv1_opgave1_bron1.png", "gl_tl_economie_tv1_opgave1_bron2.png"],
+          "vraagtekst_html": "<p>Bereken in welk land (Marokko of India) de Willy-boekenkast het goedkoopst is. Schrijf je berekening en conclusie op.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juiste berekening:</p><p>MAD 699 x € 0,092 = € 64,31 (1 punt)</p><p>INR 4.990 x € 0,012 = € 59,88 (1 punt)</p><p>In India is de boekenkast het goedkoopst.</p>"
+        },
+        {
+          "id": 4,
+          "max_score": 1,
+          "type": "multiple_gap_choice",
+          "context_html": "<p>De Willy-boekenkasten worden overal ter wereld geproduceerd en verkocht. In India en China staan fabrieken en ook IKEI-warenhuizen. In Afrikaanse landen, zoals Ethiopië en Oeganda, staan alleen fabrieken die produceren voor IKEI.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Maak van de onderstaande zinnen een economisch juiste tekst door de juiste woorden te kiezen.</p><p>Doe het zo: Noteer de nummers (1) en (2) op je antwoordblad. Schrijf achter de nummers de juiste woorden op. Kies uit de woorden die tussen haakjes staan.</p>",
+          "correct_antwoord_model": "<p>(1) laag</p><p>(2) afzetmarkt</p><p>indien twee juist (1 punt)</p><p>indien een of geen juist (0 punten)</p>",
+          "gaps": [
+            {
+              "id": 1,
+              "zin_html": "<p>Er zijn in Ethiopië en Oeganda nog geen IKEI warenhuizen, omdat de inkomens in die landen, vergeleken met Europa, relatief ...({id})... zijn.</p>",
+              "choices": ["hoog", "laag"],
+              "correct_choice": "laag"
+            },
+            {
+              "id": 2,
+              "zin_html": "<p>Daardoor is de ...({id})... ongunstig voor IKEI.</p>",
+              "choices": ["afzetmarkt", "betalingsbalans"],
+              "correct_choice": "afzetmarkt"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>IKEI gebruikt grondstoffen uit Ethiopië en Oeganda. De vraag naar deze grondstoffen heeft een gunstig effect op de economie van beide landen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Hier staan vijf economische verschijnselen.</p><ol><li>toename van de vraag naar grondstoffen</li><li>toename van de werkgelegenheid</li><li>toename van de totale binnenlandse vraag</li><li>toename van de koopkracht</li><li>toename van de economische groei</li></ol><p>In welke regel staan deze verschijnselen zo, dat er een logische gedachtegang ontstaat?</p>",
+          "correct_antwoord_model": "<p>B</p>",
+          "options": [
+            {"id": "A", "text": "1 → 2 → 3 → 4 → 5"},
+            {"id": "B", "text": "1 → 2 → 4 → 3 → 5"},
+            {"id": "C", "text": "1 → 3 → 2 → 4 → 5"},
+            {"id": "D", "text": "1 → 3 → 4 → 2 → 5"},
+            {"id": "E", "text": "1 → 4 → 2 → 3 → 5"},
+            {"id": "F", "text": "1 → 4 → 3 → 2 → 5"}
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": 6,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>In India, een land met een snel groeiende economie, zijn ook verschillende IKEI-warenhuizen. Er wordt actief beleid gevoerd om meer vrouwen in dienst te nemen in plaats van mannen. Het blijkt dat vrouwen hun inkomen voor een belangrijk deel besteden aan de opleiding van hun kinderen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Leg in twee stappen uit dat het beleid van IKEI om meer vrouwen in dienst te nemen, de economie op langere termijn kan stimuleren.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juiste uitleg:</p><ul><li>De kinderen van de werkende vrouwen kunnen een opleiding volgen. (1 punt)</li><li>Als deze kinderen ouder zijn, hebben ze meer kans op een beter betaalde baan. (1 punt)</li></ul>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 2,
+      "opgave_titel": "Tv-generatiekloof",
+      "vragen": [
+        {
+          "id": 7,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>De programma's op de Nederlandse televisie worden uitgezonden door publieke omroepen en commerciële omroepen. Publieke omroepen worden gefinancierd door de overheid en commerciële omroepen hebben winst maken als doel. Er zijn zes landelijke, publieke omroepen, waarvan AVROTROS en BNNVARA de twee grootste zijn.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Van welke marktvorm is er sprake bij de publieke omroepen?</p>",
+          "correct_antwoord_model": "<p>C</p>",
+          "options": [
+            {"id": "A", "text": "van monopolie"},
+            {"id": "B", "text": "van monopolistische concurrentie"},
+            {"id": "C", "text": "van oligopolie"},
+            {"id": "D", "text": "van volkomen concurrentie"}
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "id": 8,
+          "max_score": 1,
+          "type": "multiple_gap_choice",
+          "context_html": "<p>De commerciële omroepen ontvangen inkomsten uit reclame. De publieke omroepen hebben inkomsten uit reclame en inkomsten van de Nederlandse overheid. Er ging in 2018 € 800 miljoen belastinggeld naar de publieke omroepen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Maak van onderstaande zinnen een economisch juiste tekst door de juiste woorden te kiezen.</p><p>Doe het zo: Noteer de nummers (1) en (2) op je antwoordblad. Vul bij de nummers de juiste woorden in. Kies uit de woorden die tussen haakjes staan.</p>",
+          "correct_antwoord_model": "<p>(1) subsidies</p><p>(2) collectieve</p><p>indien twee juist (1 punt)</p><p>indien een of geen juist (0 punten)</p>",
+          "gaps": [
+            {
+              "id": 1,
+              "zin_html": "<p>De inkomsten die de publieke omroepen ontvangen van de Nederlandse overheid zijn ...({id})...</p>",
+              "choices": ["heffingen", "subsidies"],
+              "correct_choice": "subsidies"
+            },
+            {
+              "id": 2,
+              "zin_html": "<p>De publieke omroepen zijn een onderdeel van de ...({id})... sector.</p>",
+              "choices": ["collectieve", "private"],
+              "correct_choice": "collectieve"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Nederlanders kijken steeds minder naar directe televisie. Zelfs als het uitgesteld kijken en 'overige schermtijd' (games spelen en kijken naar filmaanbieders) meetelt, daalt de hoeveelheid tijd die de Nederlanders besteden aan direct televisiekijken.</p>",
+          "bronverwijzing_tekst": "Gebruik informatiebron 3.",
+          "bron_verwijzing": "gl_tl_economie_tv1_opgave2_bron3.png",
+          "vraagtekst_html": "<p>Na welk jaar is er een blijvende daling van direct tv kijken?</p>",
+          "correct_antwoord_model": "<p>C</p>",
+          "options": [
+            {"id": "A", "text": "na 2006"},
+            {"id": "B", "text": "na 2007"},
+            {"id": "C", "text": "na 2014"},
+            {"id": "D", "text": "na 2018"}
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "id": 10,
+          "max_score": 1,
+          "type": "calculation",
+          "context_html": "<p>In 2008 werd voor het eerst gemeten hoeveel er uitgesteld werd gekeken, toen ging het om gemiddeld 2 minuten per dag.</p>",
+          "bronverwijzing_tekst": "Gebruik informatiebron 3.",
+          "bron_verwijzing": "gl_tl_economie_tv1_opgave2_bron3.png",
+          "vraagtekst_html": "<p>Bereken hoeveel procent het uitgestelde en overig tv-kijken in 2018 in totaal is toegenomen ten opzichte van 2008. Schrijf je berekening op.</p>",
+          "correct_antwoord_model": "<p>in 2008: 2 minuten</p><p>in 2018: 15 + 20 = 35 minuten</p><p>procentuele toename: (35 - 2) / 2 * 100% = 1.650%</p>"
+        },
+        {
+          "id": 11,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>We kijken steeds minder naar programma's op televisie en kijken meer video's op laptops, tablets en mobiele telefoons.</p>",
+          "bronverwijzing_tekst": "Gebruik informatiebron 4.",
+          "bron_verwijzing": "gl_tl_economie_tv1_opgave2_bron4.png",
+          "vraagtekst_html": "<p>Welke leeftijdsgroep kijkt sinds 2014 het minst naar de televisie?</p>",
+          "correct_antwoord_model": "<p>de leeftijdsgroep 13-19 jaar</p>"
+        },
+        {
+          "id": 12,
+          "max_score": 1,
+          "type": "multiple_gap_choice",
+          "context_html": "<p>In 2019 zijn de reclame inkomsten van de publieke omroepen lager dan in 2018. Het aantal uitgezonden reclameminuten op tv blijft echter wel gelijk.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Maak van onderstaande zinnen een economisch juiste tekst door de juiste woorden te kiezen.</p><p>Doe het zo: Noteer de nummers (1) en (2) op je antwoordblad. Vul bij de nummers de juiste woorden in. Kies uit de woorden die tussen haakjes staan.</p>",
+          "correct_antwoord_model": "<p>(1) minder</p><p>(2) daalt</p><p>indien twee juist (1 punt)</p><p>indien een of geen juist (0 punten)</p>",
+          "gaps": [
+            {
+              "id": 1,
+              "zin_html": "<p>Als er minder mensen tv kijken, zijn adverteerders ...({id})... geïnteresseerd in reclameminuten op tv.</p>",
+              "choices": ["meer", "minder"],
+              "correct_choice": "minder"
+            },
+            {
+              "id": 2,
+              "zin_html": "<p>Daardoor ...({id})... de prijs van een reclameminuut.</p>",
+              "choices": ["daalt", "stijgt"],
+              "correct_choice": "daalt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "opgave_nr": 3,
+      "opgave_titel": "Helikoptergeld",
+      "vragen": [
+        {
+          "id": 13,
+          "max_score": 1,
+          "type": "multiple_gap_choice",
+          "context_html": "<p>De inkomens en vooral de vermogens in Nederland zijn niet gelijk verdeeld. Sommige economen vinden dat de inkomens gelijker verdeeld zouden moeten zijn, andere economen zijn juist voorstander van grotere inkomensverschillen.</p><p>Volgens economen bestaat er een relatie tussen inkomensverschillen en arbeidsproductiviteit.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Maak van onderstaande zinnen een economisch juiste tekst door de juiste woorden te kiezen.</p><p>Doe het zo: Noteer de nummers (1) en (2) op je antwoordblad. Vul bij de nummers de juiste woorden in. Kies uit de woorden die tussen haakjes staan.</p>",
+          "correct_antwoord_model": "<p>(1) stijgt</p><p>(2) innovatie van het productieproces</p><p>indien twee juist (1 punt)</p><p>indien een of geen juist (0 punten)</p>",
+          "gaps": [
+            {
+              "id": 1,
+              "zin_html": "<p>Inkomensverschillen kunnen er toe leiden dat werknemers gestimuleerd worden om intensiever te werken, daardoor ...({id})... de arbeidsproductiviteit.</p>",
+              "choices": ["daalt", "stijgt"],
+              "correct_choice": "stijgt"
+            },
+            {
+              "id": 2,
+              "zin_html": "<p>Stijging van de arbeidsproductiviteit per uur kan ook worden bereikt door ...({id})...</p>",
+              "choices": ["innovatie van het productieproces", "meer werknemers aan te nemen", "werknemers langer te laten werken"],
+              "correct_choice": "innovatie van het productieproces"
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "max_score": 2,
+          "type": "calculation",
+          "context_html": "<p><strong>Inkomensverdeling in Nederland</strong></p><p>(Lorenzcurve image is provided as a source)</p>",
+          "bronverwijzing_tekst": "Gebruik informatiebron 5 en bovenstaande Lorenzcurve.",
+          "bron_verwijzing": ["gl_tl_economie_tv1_opgave3_bron5.png", "gl_tl_economie_tv1_vraag14_bijlage_lorenzcurve.png"],
+          "vraagtekst_html": "<p>Bereken het ontbrekende percentage in de Lorenzcurve. Schrijf je berekening op.</p>",
+          "correct_antwoord_model": "<p>voorbeelden van een juiste berekening:</p><p><strong>Optie 1:</strong></p><p>4<sup>de</sup> inkomensgroep: € 39.000 / € 170.000 * 100% = 23% (1 punt)</p><p>45% + 23% = 68% (1 punt)</p><p><strong>Optie 2:</strong></p><p>totaal inkomen tot en met de 4<sup>de</sup> inkomensgroep:<br>€ 19.000 + € 25.000 + € 32.000 + € 39.000 = € 115.000 (1 punt)</p><p>inkomensaandeel tot en met de 4<sup>de</sup> inkomensgroep:<br>€ 115.000 / € 170.000 * 100% = 68% (1 punt)</p><p><em>Opmerking: Een andere manier van afronden ook goed rekenen.</em></p>"
+        },
+        {
+          "id": 15,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Helikoptergeld is geld dat de centrale bank direct aan burgers geeft. Dit is een vorm van monetair beleid om de economie te stimuleren. Het helikoptergeld is eenmalig en heeft als doel om de bestedingen van burgers te stimuleren. Op deze manier kunnen de burgers meer consumeren en zo de economie aanjagen.</p>",
+          "bronverwijzing_tekst": "Gebruik informatiebron 6.",
+          "bron_verwijzing": ["gl_tl_economie_tv1_opgave3_bron6.png"],
+          "vraagtekst_html": "<p>Welke soort economische crisis kan het beste worden aangepakt met helikoptergeld?</p>",
+          "correct_antwoord_model": "<p>een bestedingscrisis / een crisis veroorzaakt door onderbesteding</p>"
+        },
+        {
+          "id": 16,
+          "max_score": 2,
+          "type": "calculation",
+          "context_html": "<p>Uit zijn onderzoek bleek echter dat slechts 25% van de huishoudens het helikoptergeld zou besteden, de andere huishoudens zouden het bedrag sparen.</p><p>In een land bedragen de gemiddelde bestedingen van de 8 miljoen huishoudens € 34.000.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Bereken de extra bestedingen in het land als alle huishoudens € 1.000 helikoptergeld ontvangen. Schrijf je berekening op.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juiste berekening:</p><p>totaal helikoptergeld: 8 miljoen x € 1.000 = € 8 miljard (1 punt)</p><p>extra bestedingen: 0,25 x € 8 miljard = € 2 miljard (1 punt)</p>"
+        },
+        {
+          "id": 17,
+          "max_score": 1,
+          "type": "multiple_gap_choice",
+          "context_html": "<p>Als voorbeeld neemt Friedman twee personen: Leonard, met een besteedbaar inkomen van € 19.000 en Marlette, met een besteedbaar inkomen van € 55.000.</p><p>Stel dat Leonard en Marlette beiden € 1.000 ontvangen. De verhouding tussen het besteedbaar inkomen van Leonard en Marlette zou dan veranderen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Maak van onderstaande zinnen een economisch juiste tekst door de juiste woorden te kiezen.</p><p>Doe het zo: Noteer de nummers (1) en (2) op je antwoordblad. Vul bij de nummers de juiste woorden in. Kies uit de woorden die tussen haakjes staan.</p>",
+          "correct_antwoord_model": "<p>(1) meer</p><p>(2) nivellerende</p><p>indien twee juist (1 punt)</p><p>indien een of geen juist (0 punten)</p>",
+          "gaps": [
+            {
+              "id": 1,
+              "zin_html": "<p>Deze € 1.000 is, in verhouding, voor Leonard ...({id})... waard dan voor Marlette.</p>",
+              "choices": ["meer", "minder"],
+              "correct_choice": "meer"
+            },
+            {
+              "id": 2,
+              "zin_html": "<p>Helikoptergeld heeft dus een ...({id})... werking op de besteedbare inkomens van Leonard en Marlette.</p>",
+              "choices": ["denivellerende", "nivellerende"],
+              "correct_choice": "nivellerende"
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Leonard: \"Om de bestedingen te stimuleren kun je beter alleen mensen met een laag inkomen die € 1.000 geven. Mensen met een laag inkomen zullen eerder die € 1.000 besteden dan mensen met een hoog inkomen.\"</p><p>Marlette is het niet met hem eens: \"Mensen met een laag inkomen zullen die € 1.000 juist minder snel besteden.\"</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Geef een argument voor de mening van Marlette.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juist argument:</p><p>Huishoudens met een laag inkomen hebben vaak geen financiële reserve en zullen de extra € 1.000 gebruiken als financiële reserve.</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 4,
+      "opgave_titel": "Waar zet ik mijn strandtent?",
+      "vragen": [
+        {
+          "id": 19,
+          "max_score": 1,
+          "type": "calculation",
+          "context_html": "<p>Op het Zuidzeestrand staan twee strandtenten, die van Henk en de strandtent van Ingrid. Ze verkopen één soort ijsje aan de badgasten op het strand. Elke week spreken ze een vaste verkoopprijs af. Ze blijven beiden aan hun eigen kant van het strand, maar de badgasten kunnen wel van de ene naar de andere kant wandelen. De badgasten kopen hun ijsje bij de dichtstbijzijnde strandtent als de prijzen gelijk zijn. Henk en Ingrid staan even ver van het midden van het strand af en verkopen dus evenveel, beiden 50% van de totale afzet op het strand.</p><p>Vandaag is het warm met 25 graden. Henk en Ingrid hebben een verkoopprijs afgesproken van € 3 per ijsje.</p>",
+          "bronverwijzing_tekst": "Gebruik informatiebron 7.",
+          "bron_verwijzing": "gl_tl_economie_tv1_opgave4_bron7.png",
+          "vraagtekst_html": "<p>Bereken de totale omzet van Henk en Ingrid op deze dag. Schrijf je berekening op.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juiste berekening:<br>€ 3 x 500 = € 1.500</p>"
+        },
+        {
+          "id": 20,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>De volgende dag merkt Ingrid dat zij maar 40% van het totaal aantal ijsjes heeft verkocht. Henk lacht, hij heeft 60% van het totaal verkocht. Hij heeft de nacht ervoor stiekem zijn strandtent naar het midden van het strand verplaatst.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Leg uit dat de afzet van Henk stijgt vanwege de nieuw gekozen plek.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juiste uitleg:<br>Omdat klanten de kortste afstand kiezen naar een strandtent, zal een deel van de klanten aan Ingrids kant van het strand nu voor de strandtent van Henk kiezen.</p>"
+        },
+        {
+          "id": 21,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Ingrid voelt zich verraden door Henk. Ze wil eigenlijk geen prijsafspraken meer maken met hem. Even later bedenkt ze zich: het opzeggen van de prijsafspraak kan voor haar ook een financieel nadeel opleveren.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Leg uit welk financieel nadeel zij kan ondervinden als er geen prijsafspraak is gemaakt.</p>",
+          "correct_antwoord_model": "<p>voorbeelden van een juiste uitleg:</p><ul><li>Zonder prijsafspraak kan Henk zijn prijs verlagen en zo proberen nog meer klanten aan te trekken. Dit gaat nog meer ten koste van Ingrids omzet.</li><li>Zonder prijsafspraak moet Ingrid misschien ook haar prijs verlagen. Dit kan ten koste gaan van Ingrids omzet.</li></ul>"
+        },
+        {
+          "id": 22,
+          "max_score": 2,
+          "type": "calculation",
+          "context_html": "<p>Ingrid houdt de verkoopprijs per ijsje vandaag op € 3. De vaste kosten bedragen € 200 per dag. De variabele kosten zijn € 0,50 per ijsje. Het wordt vandaag 20 graden, dus er worden in totaal 200 ijsjes verkocht.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "gl_tl_economie_tv1_opgave4_bron7.png",
+          "vraagtekst_html": "<p>Bereken het nettoresultaat van Ingrid vandaag als zij 40% van de totale omzet behaalt. Schrijf je berekening op.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juiste berekening:</p><table><tbody><tr><td>omzet Ingrid: 0,40 x 200 x € 3</td><td>€ 240</td><td>(1 punt)</td></tr><tr><td>vaste kosten per dag:</td><td>€ 200</td><td></td></tr><tr><td>variabele kosten: 0,40 x 200 x € 0,50</td><td>€ 40-</td><td></td></tr><tr><td>nettoresultaat</td><td>€ 0</td><td>(1 punt)</td></tr></tbody></table>"
+        },
+        {
+          "id": 23,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Ingrid bedenkt een slimme reactie op de actie van Henk. Zij verschuift haar strandtent ook naar het midden van het strand. Sommige van haar klanten moeten nu verder lopen en die zijn daar boos over.</p><p>Er ontstaat een ruzie tussen Henk en Ingrid. Het tv-programma De Rijdende Rechter moet er aan te pas komen. De rechter komt met een verontrustende uitspraak: \"De overheid verbiedt prijsafspraken tussen ondernemers. De boete hiervoor kan in jullie geval oplopen tot duizenden euro's per dag.\"</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Noem een reden waarom de overheid prijsafspraken verbiedt.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juiste reden:<br>Prijsafspraken leiden tot minder concurrentie en hogere verkoopprijzen. Dat is nadelig voor de consumenten / badgasten.</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 5,
+      "opgave_titel": "Goede tijden",
+      "vragen": [
+        {
+          "id": 24,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Op Prinsjesdag wordt traditiegetrouw de Troonrede voorgelezen door de Koning. De minister van Financiën biedt daarna de Tweede Kamer de Miljoenennota en de rijksbegroting aan. Voor het opstellen van de rijksbegroting heeft de regering diverse instanties waar zij informatie of advies inwint.</p><p>(Image with persons 1 and 2 is provided as source)</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "gl_tl_economie_tv1_vraag24_bijlage_personen.png",
+          "vraagtekst_html": "<p>Deze twee personen doen elk een uitspraak.<br><strong>Persoon 1:</strong> \"Ik verzamel informatie over economische gegevens.\"<br><strong>Persoon 2:</strong> \"Ik adviseer de regering over werkgelegenheid, lonen.\"</p><p>→ Bij welke instantie zijn deze twee personen werkzaam? Kies uit de instanties: CBS, UWV of SER.</p><p>Doe het zo: Noteer persoon 1 en persoon 2 op je antwoordblad. Vul bij beide personen de juiste instantie in.</p>",
+          "correct_antwoord_model": "<p>persoon 1: CBS</p><p>persoon 2: SER</p><p>indien twee juist (1 punt)</p><p>indien een of geen juist (0 punten)</p>"
+        },
+        {
+          "id": 25,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Op Prinsjesdag wordt duidelijk gemaakt hoe het gaat met de Nederlandse economie. Vanaf 2014 tot aan 2019 is het nationaal inkomen elk jaar met tenminste 1,5% gegroeid.</p>",
+          "bronverwijzing_tekst": "Gebruik in je antwoord zowel het begrip inkomsten als uitgaven.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Leg in twee stappen uit dat het voor de regering in tijden van economische groei gemakkelijker is om een overschot op de rijksbegroting te realiseren.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juiste uitleg:</p><ul><li>In perioden van economische groei stijgt het nationaal inkomen, hierdoor zullen de (belasting)<strong>inkomsten</strong> van de overheid stijgen (1 punt)</li><li>en de <strong>uitgaven</strong> (aan sociale uitkeringen) dalen. (1 punt)</li></ul>"
+        },
+        {
+          "id": 26,
+          "max_score": 1,
+          "type": "calculation",
+          "context_html": "<p>Het lukt de regering om in economisch goede tijden de staatsschuld procentueel te laten dalen. Bovendien moet Nederland zich houden aan de financiële afspraken van de EMU:</p><ol><li>Landen mogen maximaal een begrotingstekort van 3% van het nationaal inkomen hebben.</li><li>Landen mogen maximaal een staatsschuld van 60% (EMU-norm) van het nationaal inkomen hebben.</li></ol>",
+          "bronverwijzing_tekst": "Gebruik informatiebron 8.",
+          "bron_verwijzing": "gl_tl_economie_tv1_opgave5_bron8.png",
+          "vraagtekst_html": "<p>Bereken hoeveel procent de Nederlandse staatsschuld in 2019 lager is dan de EMU-norm. Schrijf je berekening op.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juiste berekening:</p><p>(60 - 50,9) / 60 * 100% = 15,2%</p><p><em>Opmerking: Een andere manier van afronden ook goed rekenen.</em></p>"
+        },
+        {
+          "id": 27,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>De Nederlandse bevolking is op Prinsjesdag vooral benieuwd wat de plannen van de regering betekenen voor hun koopkracht.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Wat wordt verstaan onder koopkracht?</p>",
+          "correct_antwoord_model": "<p>D</p>",
+          "options": [
+            {"id": "A", "text": "het bruto-inkomen"},
+            {"id": "B", "text": "het netto-inkomen"},
+            {"id": "C", "text": "het nominaal inkomen"},
+            {"id": "D", "text": "het reëel inkomen"}
+          ],
+          "correct_answer": "D"
+        },
+        {
+          "id": 28,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>De koopkracht in Nederland wordt onder meer bepaald door de inflatie. Als de regering de inkomstenbelasting verhoogt, kan dat leiden tot inflatie in Nederland.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Leg in twee stappen uit dat door verhoging van de inkomstenbelasting inflatie kan ontstaan.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juiste uitleg:</p><ul><li>Als de hogere inkomstenbelasting gecompenseerd wordt in de lonen van werknemers, kan de kostprijs van een product stijgen. (1 punt)</li><li>Als de gestegen kostprijs doorberekend wordt in de verkoopprijs ontstaat inflatie. (1 punt)</li></ul>"
+        },
+        {
+          "id": 29,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>De regering wil dat de middeninkomens er op vooruitgaan door de arbeidskorting te verhogen. Middeninkomens zijn huishoudens met een bruto-inkomen tussen de € 30.000 en € 60.000, dat is ongeveer 80% van alle huishoudens.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Leg uit dat het verhogen van de arbeidskorting kan leiden tot een stijging van het besteedbaar inkomen van middeninkomens.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juiste uitleg:<br>Door verhoging van de arbeidskorting betalen de middeninkomens minder belasting (waardoor het besteedbaar inkomen kan stijgen).</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 6,
+      "opgave_titel": "Italië failliet?",
+      "vragen": [
+        {
+          "id": 30,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Italië is lid van de Europese Monetaire Unie (EMU) en heeft een enorme staatsschuld van € 1.800.000.000.000. Net als in Spanje, Griekenland en Portugal groeit de Italiaanse staatsschuld sneller dan de staatsschuld van de overige EMU-landen zoals Nederland en Frankrijk.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Wat kan een reden zijn dat de staatsschuld van Italië blijft stijgen?</p>",
+          "correct_antwoord_model": "<p>B</p>",
+          "options": [
+            {"id": "A", "text": "De inkomsten van de Italiaanse overheid zijn groter dan de uitgaven van de overheid."},
+            {"id": "B", "text": "De inkomsten van de Italiaanse overheid zijn kleiner dan de uitgaven van de overheid."},
+            {"id": "C", "text": "De inkomsten van de Italiaanse overheid zijn gestegen en de uitgaven gelijk gebleven."}
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": 31,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>De Italiaanse staatsschuld is in verhouding tot het nationaal inkomen 130%. In Nederland is dit percentage 51%. Italië betaalt aan de geldverstrekkers een hoger rentepercentage over de staatsschuld dan Nederland.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Verklaar waarom een land met een hoge staatsschuld, in verhouding tot het nationaal inkomen, een hoger rentepercentage moet betalen dan een land met een lagere staatsschuld.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juiste verklaring:<br>Als de staatsschuld stijgt, stijgt ook het risico dat de staatsschuld niet volledig terugbetaald wordt.</p>"
+        },
+        {
+          "id": 32,
+          "max_score": 1,
+          "type": "multiple_gap_choice",
+          "context_html": "<p>Nadat Italië lid werd van de EMU daalde het rentepercentage, ondanks de hoge staatsschuld. Het maken van nieuwe schulden werd daardoor voor Italië goedkoper.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Maak van onderstaande zinnen een economisch juiste tekst door de juiste woorden te kiezen.</p><p>Doe het zo: Noteer de nummers (1) en (2) op je antwoordblad. Vul bij de nummers de juiste woorden in. Kies uit de woorden die tussen haakjes staan.</p>",
+          "correct_antwoord_model": "<p>(1) stijgen</p><p>(2) toenemen</p><p>indien twee juist (1 punt)</p><p>indien een of geen juist (0 punten)</p>",
+          "gaps": [
+            {
+              "id": 1,
+              "zin_html": "<p>Daling van het rentepercentage betekent dat Italië goedkoper geld kan lenen. De Italiaanse bestedingen in de EMU-landen kunnen daardoor ...({id})...</p>",
+              "choices": ["dalen", "stijgen"],
+              "correct_choice": "stijgen"
+            },
+            {
+              "id": 2,
+              "zin_html": "<p>Hierdoor zal de inflatie in de EMU-landen kunnen ...({id})... als de productie gelijk blijft.</p>",
+              "choices": ["afnemen", "toenemen"],
+              "correct_choice": "toenemen"
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "max_score": 1,
+          "type": "calculation",
+          "context_html": "<p>De EMU-landen ondersteunen elkaar doordat de rijkere EMU-landen, zo ook Nederland, geld uitlenen aan de armere EMU-landen die geld nodig hebben.</p>",
+          "bronverwijzing_tekst": "Gebruik informatiebron 9.",
+          "bron_verwijzing": "gl_tl_economie_tv1_opgave6_bron9.png",
+          "vraagtekst_html": "<p>Bereken hoeveel procent Nederland uitleent van het totaalbedrag dat door rijkere landen aan armere EMU-landen is uitgeleend. Schrijf je berekening op.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juiste berekening:</p><p>€ 124 / € 1.240 * 100% = 10%</p>"
+        },
+        {
+          "id": 34,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>De stijgende staatsschuld in Italië zorgt voor een stijging van de uitgaven van de Italiaanse staat.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Noem twee uitgaven van de Italiaanse staat die stijgen als de staatsschuld stijgt.</p>",
+          "correct_antwoord_model": "<p>voorbeelden van juiste uitgaven:</p><ul><li>rente</li><li>aflossing</li></ul><p>indien beide juist (1 punt)</p><p>indien een of geen juist (0 punten)</p>"
+        },
+        {
+          "id": 35,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>De stijgende schulden van de armere EMU-landen, zoals Italië, zorgen ervoor dat de rijkere EMU-landen rijker worden en de armere EMU-landen armer.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Leg uit dat het verschil tussen de rijkere EMU-landen en de armere EMU-landen toeneemt vanwege de toename van de schulden van de armere EMU-landen.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juiste uitleg:<br>Door de hogere rentebetalingen zal de geldstroom van de armere EMU-landen naar de rijkere EMU-landen toenemen.</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 7,
+      "opgave_titel": "18 en op kamers",
+      "vragen": [
+        {
+          "id": 36,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Sasja heeft nu bijna het eerste jaar van de opleiding tot biologisch-medisch analist in Leiden afgerond. Over een maand wordt ze 18 jaar en dan gaat ze op kamers. Ze wil zich zo goed mogelijk voorbereiden en daarom gebruikt ze de brochure: student & financiën van het Nibud.</p><p>Studenten blijken hun uitgaven te onderschatten. Het Nibud schrijft: \"Dat is niet vreemd, want niet alle uitgaven, zoals reparatie van de fiets, komen maandelijks terug. Kleinere uitgaven, zoals het kopen van lunch of koffie, worden meestal ook onderschat.\"</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Welke uitgaven worden volgens het Nibud meestal onderschat?</p>",
+          "correct_antwoord_model": "<p>B</p>",
+          "options": [
+            {"id": "A", "text": "alleen dagelijkse huishoudelijke uitgaven"},
+            {"id": "B", "text": "incidentele uitgaven en dagelijkse huishoudelijke uitgaven"},
+            {"id": "C", "text": "vaste lasten en dagelijkse huishoudelijke uitgaven"},
+            {"id": "D", "text": "vaste lasten en incidentele uitgaven"}
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": 37,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Volgens het Nibud zijn het juist thuiswonende studenten die een slechte schatting maken van hun uitgaven als ze op zichzelf gaan wonen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Geef een reden waarom vooral thuiswonende studenten de werkelijke uitgaven slecht inschatten.</p>",
+          "correct_antwoord_model": "<p>voorbeelden van een juiste reden:</p><ul><li>Thuiswonende studenten hebben nog niet geleerd om te gaan met de uitgaven als ze zelfstandig gaan wonen (omdat hun ouders veel betaald hebben).</li><li>Thuiswonende studenten hebben minder vaste lasten waar ze rekening mee moeten houden.</li></ul>"
+        },
+        {
+          "id": 38,
+          "max_score": 2,
+          "type": "multiple_gap_choice",
+          "context_html": "<p>In de brochure staat dat het verstandig is om een budgetplan te maken. Met de Rekenhulp studiefinanciering van DUO vult ze haar eigen inkomsten in. Sasja bekijkt ook de gemiddelde uitgaven van uitwonende mbo-studenten. Haar eigen toekomstige uitgaven zet ze er direct naast.</p>",
+          "bronverwijzing_tekst": "Gebruik informatiebron 10.",
+          "bron_verwijzing": "gl_tl_economie_tv1_opgave7_bron10.png",
+          "vraagtekst_html": "<p>Maak van onderstaande zinnen een economisch juiste tekst door de juiste woorden te kiezen.</p><p>Doe het zo: Noteer de nummers (1) en (2) op je antwoordblad. Vul bij de nummers de juiste getallen in. Kies uit de getallen die tussen haakjes staan.</p>",
+          "correct_antwoord_model": "<p>(1) € 256,15 (1 punt)</p><p>(2) 29% (1 punt)</p><p>indien twee juist (2 punten)</p><p>indien een juist (1 punt)</p><p>indien geen juist (0 punten)</p>",
+          "gaps": [
+            {
+              "id": 1,
+              "zin_html": "<p>Sasja besteedt ...({id})... per week.</p>",
+              "choices": ["€ 277,50", "€ 256,15"],
+              "correct_choice": "€ 256,15"
+            },
+            {
+              "id": 2,
+              "zin_html": "<p>Uitwonende mbo-studenten besteden gemiddeld 25% aan dagelijkse huishoudelijke uitgaven. Sasja geeft hieraan ongeveer ...({id})... uit.</p>",
+              "choices": ["29%", "32%", "35%"],
+              "correct_choice": "29%"
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Sasja kan het leenbedrag van haar studielening elke maand aanpassen. Ze besluit om het maandelijkse leenbedrag te verlagen.</p>",
+          "bronverwijzing_tekst": "Gebruik in je antwoord de woorden koopkracht en toekomst.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Geef een argument om het maandelijkse leenbedrag te verlagen.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juist argument:<br>Met het verlagen van het maandelijkse leenbedrag zal de toekomstige schuld lager zijn, waardoor er meer <strong>koopkracht</strong> in de <strong>toekomst</strong> overblijft.</p>"
+        },
+        {
+          "id": 40,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Een studielening heeft gevolgen voor de maximale hypotheek die later bij het kopen van een woning afgesloten kan worden.</p>",
+          "bronverwijzing_tekst": "Gebruik informatiebron 11.",
+          "bron_verwijzing": "gl_tl_economie_tv1_opgave7_bron11.png",
+          "vraagtekst_html": "<p>Hier staan drie stellingen over de gevolgen van een studielening op de hoogte van een maximale hypotheek.</p><p>→ Geef van elke stelling aan of deze juist of onjuist is.</p><p>Doe het zo: Noteer de nummers 1 tot en met 3 op je antwoordblad. Vul bij elk nummer juist of onjuist in.</p><ol><li>Met een totale studielening van € 9.600 kan er € 11.500 minder worden geleend ten opzichte van een maximale hypotheek.</li><li>De hypotheekverstrekker gaat altijd uit van de oorspronkelijke studieschuld min het afgeloste bedrag.</li><li>Met een leenbedrag van € 500 per maand, kan er 35% minder worden geleend ten opzichte van een maximale hypotheek.</li></ol>",
+          "correct_antwoord_model": "<p>1 juist</p><p>2 onjuist</p><p>3 onjuist</p><p>indien drie juist (2 punten)</p><p>indien twee juist (1 punt)</p><p>indien een of geen juist (0 punten)</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 8,
+      "opgave_titel": "Maak 't in West-Brabant",
+      "vragen": [
+        {
+          "id": 41,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Door de jaren heen was de werkgelegenheid in West-Brabant afhankelijk van enkele grote multinationals. Veel van deze bedrijven zijn na 2000 vertrokken uit de regio en hebben zich in het buitenland gevestigd. De werkloosheid in de regio nam hierdoor flink toe.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Welke soort werkloosheid ontstaat er door het verdwijnen van bedrijven naar het buitenland?</p>",
+          "correct_antwoord_model": "<p>C</p>",
+          "options": [
+            {"id": "A", "text": "conjuncturele werkloosheid, het is de aanbodkant van de economie"},
+            {"id": "B", "text": "conjuncturele werkloosheid, het is de vraagkant van de economie"},
+            {"id": "C", "text": "structurele werkloosheid, het is de aanbodkant van de economie"},
+            {"id": "D", "text": "structurele werkloosheid, het is de vraagkant van de economie"}
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "id": 42,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Het vertrek van de multinationals leidde tot meerdere faillissementen in de binnensteden.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Leg in twee stappen uit dat het aantal faillissementen van winkeliers in West-Brabant sterk toenam doordat de multinationals zijn vertrokken.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juiste uitleg:</p><ul><li>Door de gestegen werkloosheid daalden de inkomens / Mensen verhuizen uit de regio, (1 punt)</li><li>waardoor de omzet bij winkeliers daalt en het aantal faillissementen toenam. (1 punt)</li></ul>"
+        },
+        {
+          "id": 43,
+          "max_score": 2,
+          "type": "calculation",
+          "context_html": "<p>Een van die multinationals is Philips nv in Roosendaal. Bas werkte 20 jaar bij Philips nv op de productieafdeling van tl-balken. Per 1 januari 2019 kreeg hij zijn ontslag en werd werkloos. Door dit ontslag had hij recht op een financiële vergoeding van Philips nv, de transitievergoeding.</p><p>Bas berekent met de website van de Rijksoverheid de hoogte van zijn transitievergoeding.</p>",
+          "bronverwijzing_tekst": "Gebruik informatiebron 12.",
+          "bron_verwijzing": "gl_tl_economie_tv1_opgave8_bron12.png",
+          "vraagtekst_html": "<p>Bereken de hoogte van de transitievergoeding voor Bas. Schrijf je berekening op.</p>",
+          "correct_antwoord_model": "<p>voorbeeld van een juiste berekening:</p><p>€ 2.500 x 0,16 x 20 = € 8.000 (1 punt)</p><p>€ 2.500 x 0,25 x 20 = € 12.500 (1 punt)</p><p>totaal € 20.500</p>"
+        },
+        {
+          "id": 44,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Om mensen als Bas weer aan het werk te krijgen, heeft de regio West-Brabant samen met de gemeenten de regionale ontwikkelingsmaatschappij REWIN opgezet. REWIN ondersteunt bedrijven bij het zoeken naar een geschikte locatie, maar zorgt er ook voor dat scholen en overheid aansluiten bij de bedrijven in de omgeving. REWIN verbindt bedrijven in de regio met elkaar, zodat er innovatie kan ontstaan. Als er in die samenwerking een bedrijf ontbreekt, dan probeert REWIN zo'n bedrijf naar de regio te halen. Dit kan op termijn leiden tot een lagere werkloosheid.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Hier staan vijf economische verschijnselen:</p><ol><li>REWIN zorgt voor verbinding en innovatie tussen de bedrijven.</li><li>De afzet van bedrijven in de regio West-Brabant kan stijgen.</li><li>De concurrentiepositie van bedrijven in West-Brabant kan verbeteren.</li><li>De werkgelegenheid in de regio West-Brabant kan stijgen.</li><li>De werkloosheid in de regio West-Brabant kan dalen.</li></ol><p>In welke regel staan deze verschijnselen zo, dat er een logische gedachtegang ontstaat?</p>",
+          "correct_antwoord_model": "<p>C</p>",
+          "options": [
+            {"id": "A", "text": "1 → 2 → 3 → 4 → 5"},
+            {"id": "B", "text": "1 → 2 → 4 → 3 → 5"},
+            {"id": "C", "text": "1 → 3 → 2 → 4 → 5"},
+            {"id": "D", "text": "1 → 3 → 4 → 2 → 5"},
+            {"id": "E", "text": "1 → 4 → 2 → 3 → 5"},
+            {"id": "F", "text": "1 → 4 → 3 → 2 → 5"}
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "id": 45,
+          "max_score": 2,
+          "type": "multiple_gap_choice",
+          "context_html": "<p>Om transportbedrijven naar de regio te krijgen heeft REWIN een aanbeveling aan de overheid gedaan: \"Verbreed de snelweg A58.\"</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Maak van onderstaande zinnen een economisch juiste tekst door de juiste woorden te kiezen.</p><p>Doe het zo: Noteer de nummers (1), (2) en (3) op je antwoordblad. Vul bij de nummers de juiste woorden in. Kies uit de woorden die tussen haakjes staan.</p>",
+          "correct_antwoord_model": "<p>(1) negatieve</p><p>(2) maatschappelijke kosten</p><p>(3) niet</p><p>indien drie juist (2 punten)</p><p>indien twee juist (1 punt)</p><p>indien een of geen juist (0 punten)</p>",
+          "gaps": [
+            {
+              "id": 1,
+              "zin_html": "<p>De verbreding van de snelweg A58 kan zorgen voor ...({id})... externe effecten voor het milieu.</p>",
+              "choices": ["negatieve", "positieve"],
+              "correct_choice": "negatieve"
+            },
+            {
+              "id": 2,
+              "zin_html": "<p>De externe effecten van de verbreding van de snelweg zijn een voorbeeld van ...({id})...</p>",
+              "choices": ["afschrijvingskosten", "bedrijfskosten", "maatschappelijke kosten"],
+              "correct_choice": "maatschappelijke kosten"
+            },
+            {
+              "id": 3,
+              "zin_html": "<p>... en zijn ...({id})... doorberekend in de kostprijs van een transportbedrijf.</p>",
+              "choices": ["niet", "wel"],
+              "correct_choice": "niet"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

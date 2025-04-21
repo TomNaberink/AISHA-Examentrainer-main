@@ -1,0 +1,867 @@
+{
+  "examen_info": {
+    "vak": "aardrijkskunde",
+    "niveau": "vmbo",
+    "tijdvak": "TV1",
+    "jaar": 2024
+  },
+  "opgaven": [
+    {
+      "opgave_nr": 1,
+      "opgave_titel": "Weer en klimaat",
+      "vragen": [
+        {
+          "id": 1,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 1</strong></p><p>Maximumtemperatuur in Nederland op dinsdag 2 augustus 2022</p>",
+          "bronverwijzing_tekst": "Bekijk bron 1.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave1_bron1.png",
+          "vraagtekst_html": "<p>Bron 1 gaat over de maximumtemperatuur in Nederland op dinsdag 2 augustus 2022.</p><p>Naar aanleiding van bron 1 worden drie uitspraken gedaan.</p><p>Uitspraak 1: in het zuiden van Nederland was het koeler dan op de Waddeneilanden.</p><p>Uitspraak 2: de Waddeneilanden hadden minder zonuren dan het zuidoosten van Nederland.</p><p>Uitspraak 3: boven land was de verdamping in het zuidoosten kleiner dan in het noordwesten van Nederland.</p><p>Neem de cijfers 1, 2 en 3 van de uitspraken over op het antwoordblad en zet erachter of de uitspraak juist of onjuist is.</p>",
+          "correct_antwoord_model": "<table><tbody><tr><td>1 = onjuist</td><td></td></tr><tr><td>2 = juist</td><td></td></tr><tr><td>3 = onjuist</td><td></td></tr><tr><td>indien drie juiste antwoorden</td><td>2</td></tr><tr><td>indien twee juiste antwoorden</td><td>1</td></tr><tr><td>indien minder dan twee juiste antwoorden</td><td>0</td></tr></tbody></table>"
+        },
+        {
+          "id": 2,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 2</strong></p><p>Satellietbeeld van Europa, 12 september 2022</p>",
+          "bronverwijzing_tekst": "Bekijk bron 2.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave1_bron2.png",
+          "vraagtekst_html": "<p>Bron 2 laat een satellietbeeld zien van Europa op 12 september 2022.</p><p>Geef met behulp van bron 2 aan waardoor de kans dat je in Nederland verbrandt groter is dan in Zuidwest-Spanje.</p>",
+          "correct_antwoord_model": "<p>Voorbeelden van een juist antwoord zijn:</p><ul><li>Nederland bevindt zich in een hogedrukgebied.</li><li>Nederland heeft onbewolkt weer.</li></ul>"
+        },
+        {
+          "id": 3,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p><strong>bron 3</strong></p><p>Drie foto's van landschappen in Spanje</p><p><strong>bron 4</strong></p><p>Drie beschrijvingen van verschillende klimaten in Spanje</p><p>beschrijving 1: In de regenschaduw van het gebergte ligt een gebied met een steppeklimaat.</p><p>beschrijving 2: Het noordwesten van Spanje heeft een gematigd zeeklimaat.</p><p>beschrijving 3: Mediterrane vegetatie groeit in het gebied met een Middellands zeeklimaat.</p>",
+          "bronverwijzing_tekst": "Bekijk bron 3 en lees bron 4.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave1_bron3.png",
+          "vraagtekst_html": "<p>In bron 3 staan drie foto's van landschappen in Spanje. In bron 4 staan drie beschrijvingen van klimaten in Spanje. De beschrijvingen en de foto's horen bij elkaar.</p><p>Welke beschrijving hoort bij foto Q, welke bij foto R en welke bij foto S?</p>",
+          "correct_antwoord_model": "<p>E</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "foto Q: beschrijving 1, foto R: beschrijving 2, foto S: beschrijving 3"
+            },
+            {
+              "id": "B",
+              "text": "foto Q: beschrijving 2, foto R: beschrijving 1, foto S: beschrijving 3"
+            },
+            {
+              "id": "C",
+              "text": "foto Q: beschrijving 3, foto R: beschrijving 2, foto S: beschrijving 1"
+            },
+            {
+              "id": "D",
+              "text": "foto Q: beschrijving 1, foto R: beschrijving 3, foto S: beschrijving 2"
+            },
+            {
+              "id": "E",
+              "text": "foto Q: beschrijving 2, foto R: beschrijving 3, foto S: beschrijving 1"
+            }
+          ],
+          "correct_answer": "E"
+        },
+        {
+          "id": 4,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 5</strong></p><p>Twee klimaatgrafieken</p>",
+          "bronverwijzing_tekst": "Bekijk bron 5.",
+          "bron_verwijzing": [
+            "vmbo_aardrijkskunde_tv1_opgave1_bron5a.png",
+            "vmbo_aardrijkskunde_tv1_opgave1_bron5b.png"
+          ],
+          "vraagtekst_html": "<p>In bron 5 staan twee klimaatgrafieken van twee verschillende plaatsen in Spanje. Een van de klimaatgrafieken past ook bij het klimaat in Nederland.</p><p>Beargumenteer welke klimaatgrafiek alleen van een Spaanse plaats kan zijn.</p><p>Doe het zo:</p><ul><li>Kies eerst of het klimaat van klimaatgrafiek 1 of klimaatgrafiek 2 alleen in Spanje voorkomt.</li><li>Geef daarna met behulp van bron 5 een argument voor je keuze.</li></ul>",
+          "correct_antwoord_model": "<p>klimaatgrafiek 2</p><p>Voorbeelden van een juist argument zijn:</p><ul><li>Het (mediterrane) klimaat kent droge zomers (en het Nederlandse klimaat niet).</li><li>Het klimaat in Spanje is gemiddeld warmer dan dat van Nederland.</li></ul><p><strong>Opmerking:</strong> Het scorepunt alleen toekennen bij een juiste keuze in combinatie met een juist argument.</p>"
+        },
+        {
+          "id": 5,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 6</strong></p><p>Costa Cálida (provincie Murcia) en Costa Verde (provincie Asturias), Spanje</p>",
+          "bronverwijzing_tekst": "Bekijk bron 6.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave1_bron6.png",
+          "vraagtekst_html": "<p>Spanje is een populaire bestemming voor toeristen die in de wintermaanden op zonvakantie willen.</p><p>Beargumenteer welke costa in de wintermaanden de grootste kans op dagen met zonnig weer heeft.</p><p>Doe het zo:</p><ul><li>Kies eerst uit Costa Cálida of Costa Verde.</li><li>Geef daarna een kenmerk van het klimaat waardoor de kans op zonnig weer het grootst is.</li></ul>",
+          "correct_antwoord_model": "<p>Costa Cálida</p><p>Voorbeeld van een juist kenmerk van het klimaat is dat Costa Cálida een droger klimaat in de wintermaanden heeft dan Costa Verde / vaker onder invloed van een hogedrukgebied ligt dan Costa Verde.</p><p><strong>Opmerking:</strong> Het scorepunt alleen toekennen bij een juiste keuze in combinatie met een juist argument.</p>"
+        },
+        {
+          "id": 6,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p><strong>bron 7</strong></p><p>Verwoestijning in Spanje</p><table><tbody><tr><td>1</td><td>Door klimaatverandering stijgt de temperatuur.</td></tr><tr><td>2</td><td>De grondwaterstand daalt, zodat er verdroging en verzilting optreedt.</td></tr><tr><td>3</td><td>De verdamping uit de bodem neemt toe en de neerslag in het gebied neemt af.</td></tr><tr><td>4</td><td>Er wordt meer grondwater opgepompt voor irrigatie in de landbouw.</td></tr><tr><td>5</td><td>Vegetatie sterft af en het landschap wordt kaal, zodat er bodemerosie op kan treden.</td></tr></tbody></table>",
+          "bronverwijzing_tekst": "Lees bron 7.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>De stappen in bron 7 staan in willekeurige volgorde.</p><p>Welke volgorde geeft een juiste redenering over verwoestijning in Spanje weer?</p>",
+          "correct_antwoord_model": "<p>B</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "1-2-5-4-3"
+            },
+            {
+              "id": "B",
+              "text": "1-3-4-2-5"
+            },
+            {
+              "id": "C",
+              "text": "1-4-5-3-2"
+            },
+            {
+              "id": "D",
+              "text": "1-4-2-5-3"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": 7,
+          "max_score": 2,
+          "type": "multiple_gap_choice",
+          "context_html": "<p><strong>bron 8</strong></p><p>Bloeiende amandelboomgaard met gras in Zuidoost-Spanje</p><p><strong>bron 9</strong></p><p>Tekst met keuzemogelijkheden</p>",
+          "bronverwijzing_tekst": "Bekijk bron 8 en lees bron 9.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave1_bron8.png",
+          "vraagtekst_html": "<p>In bron 9 staat achter de cijfers 1, 2 en 3 een keuzemogelijkheid.</p><p>Neem de cijfers 1, 2 en 3 over op het antwoordblad en zet de juiste keuze erachter.</p>",
+          "correct_antwoord_model": "<table><tbody><tr><td>1= neerslagintensiteit</td><td></td></tr><tr><td>2= meer</td><td></td></tr><tr><td>3= aanpassing aan het klimaat</td><td></td></tr><tr><td>indien drie juiste antwoorden</td><td>2</td></tr><tr><td>indien twee juiste antwoorden</td><td>1</td></tr><tr><td>indien minder dan twee juiste antwoorden</td><td>0</td></tr></tbody></table>",
+          "gaps": [
+            {
+              "id": 1,
+              "zin_html": "<p>Zuidoost-Spanje werd de afgelopen jaren geteisterd door extreem weer. Zo viel er 300 millimeter neerslag in 3 dagen tijd in het najaar van 2019. Er ontstonden overstromingen met veel schade aan de landbouw en infrastructuur door de hoge ...<strong>(1)</strong>... (neerslagintensiteit / neerslagverdeling).</p>",
+              "choices": [
+                "neerslagintensiteit",
+                "neerslagverdeling"
+              ],
+              "correct_choice": "neerslagintensiteit"
+            },
+            {
+              "id": 2,
+              "zin_html": "<p>Zuidoost-Spanje is op zoek naar maatregelen die de gevolgen van extreem weer verminderen. Een met gras bedekte bodem in boomgaarden kan ...<strong>(2)</strong>... (meer / minder) water vasthouden.</p>",
+              "choices": [
+                "meer",
+                "minder"
+              ],
+              "correct_choice": "meer"
+            },
+            {
+              "id": 3,
+              "zin_html": "<p>Het planten van gras in boomgaarden is een voorbeeld van ...<strong>(3)</strong>... (aanpassing aan het klimaat / klimaatverandering).</p>",
+              "choices": [
+                "aanpassing aan het klimaat",
+                "klimaatverandering"
+              ],
+              "correct_choice": "aanpassing aan het klimaat"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p><strong>bron 10</strong></p><p>Weerkaart Verenigde Staten, 17 september 2022</p><p><strong>bron 11</strong></p><p>Weerberichten van drie plaatsen in de Verenigde Staten, 17 september 2022</p><p>weerbericht 1: 25°C, wind: 2 Bft</p><p>weerbericht 2: 15°C, wind: 2 Bft</p><p>weerbericht 3: 17°C, wind: 2 Bft</p>",
+          "bronverwijzing_tekst": "Bekijk bron 10 en bron 11.",
+          "bron_verwijzing": [
+            "vmbo_aardrijkskunde_tv1_opgave1_bron10.png",
+            "vmbo_aardrijkskunde_tv1_opgave1_bron11.png"
+          ],
+          "vraagtekst_html": "<p>Op de weerkaart van de Verenigde Staten staan de plaatsnamen Boston, Los Angeles en Seattle. In bron 11 staan drie weerberichten van dezelfde dag. De weerberichten horen bij de drie plaatsen in bron 10.</p><p>Welk weerbericht hoort bij Boston, welke bij Los Angeles en welke bij Seattle?</p>",
+          "correct_antwoord_model": "<p>E</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "Boston: weerbericht 1, Los Angeles: weerbericht 2, Seattle: weerbericht 3"
+            },
+            {
+              "id": "B",
+              "text": "Boston: weerbericht 1, Los Angeles: weerbericht 3, Seattle: weerbericht 2"
+            },
+            {
+              "id": "C",
+              "text": "Boston: weerbericht 2, Los Angeles: weerbericht 1, Seattle: weerbericht 3"
+            },
+            {
+              "id": "D",
+              "text": "Boston: weerbericht 2, Los Angeles: weerbericht 3, Seattle: weerbericht 1"
+            },
+            {
+              "id": "E",
+              "text": "Boston: weerbericht 3, Los Angeles: weerbericht 2, Seattle: weerbericht 1"
+            }
+          ],
+          "correct_answer": "E"
+        },
+        {
+          "id": 9,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p><strong>bron 12</strong></p><p>Kaart van de Verenigde Staten</p><p><strong>bron 13</strong></p><p>Vier foto's van landschappen in de Verenigde Staten</p>",
+          "bronverwijzing_tekst": "Bekijk bron 12 en bron 13.",
+          "bron_verwijzing": [
+            "vmbo_aardrijkskunde_tv1_opgave1_bron12.png",
+            "vmbo_aardrijkskunde_tv1_opgave1_bron13a.png",
+            "vmbo_aardrijkskunde_tv1_opgave1_bron13b.png",
+            "vmbo_aardrijkskunde_tv1_opgave1_bron13c.png",
+            "vmbo_aardrijkskunde_tv1_opgave1_bron13d.png"
+          ],
+          "vraagtekst_html": "<p>De foto's van landschappen uit bron 13 passen bij de vier gebieden uit bron 12.</p><p>Waar staan de gebieden uit bron 12 juist bij de foto's uit bron 13?</p>",
+          "correct_antwoord_model": "<p>C</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "P: foto 1, Q: foto 2, R: foto 3, S: foto 4"
+            },
+            {
+              "id": "B",
+              "text": "P: foto 2, Q: foto 3, R: foto 4, S: foto 1"
+            },
+            {
+              "id": "C",
+              "text": "P: foto 4, Q: foto 3, R: foto 2, S: foto 1"
+            },
+            {
+              "id": "D",
+              "text": "P: foto 4, Q: foto 3, R: foto 1, S: foto 2"
+            },
+            {
+              "id": "E",
+              "text": "P: foto 4, Q: foto 3, R: foto 2, S: foto 1"
+            },
+            {
+              "id": "F",
+              "text": "P: foto 4, Q: foto 2, R: foto 1, S: foto 3"
+            }
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "id": 10,
+          "max_score": 2,
+          "type": "multiple_gap_choice",
+          "context_html": "<p><strong>bron 14</strong></p><p>De Great Plains en de Ogallala Aquifer, Verenigde Staten</p><p><strong>bron 15</strong></p><p>Tekst met keuzemogelijkheden</p>",
+          "bronverwijzing_tekst": "Bekijk bron 14 en lees bron 15.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave1_bron14.png",
+          "vraagtekst_html": "<p>In bron 15 staat achter de cijfers 1, 2 en 3 een keuzemogelijkheid.</p><p>Neem de cijfers 1, 2 en 3 over op het antwoordblad en zet de juiste keuze erachter.</p>",
+          "correct_antwoord_model": "<table><tbody><tr><td>1= graan, rundvlees, mais en katoen</td><td></td></tr><tr><td>2= meer</td><td></td></tr><tr><td>3= korter</td><td></td></tr><tr><td>indien drie juiste antwoorden</td><td>2</td></tr><tr><td>indien twee juiste antwoorden</td><td>1</td></tr><tr><td>indien minder dan twee juiste antwoorden</td><td>0</td></tr></tbody></table>",
+          "gaps": [
+            {
+              "id": 1,
+              "zin_html": "<p>In het centrale deel van de Verenigde Staten liggen de Great Plains. Op de Great Plains vindt veel landbouw plaats. Het is een van de productiefste landbouwregio's in de Verenigde Staten. De meeste landbouwproducten die er geproduceerd worden zijn ...<strong>(1)</strong>... (graan, rundvlees, mais en katoen / citrusvruchten, tabak, wijndruiven en zuivel).</p>",
+              "choices": [
+                "graan, rundvlees, mais en katoen",
+                "citrusvruchten, tabak, wijndruiven en zuivel"
+              ],
+              "correct_choice": "graan, rundvlees, mais en katoen"
+            },
+            {
+              "id": 2,
+              "zin_html": "<p>De grote oogsten van de Great Plains zijn mogelijk door het water uit de Ogallala Aquifer te gebruiken voor irrigatie. In het zuiden van de Great Plains wordt ...<strong>(2)</strong>... (meer / minder) grondwater opgepompt dan er aangevuld wordt.</p>",
+              "choices": [
+                "meer",
+                "minder"
+              ],
+              "correct_choice": "meer"
+            },
+            {
+              "id": 3,
+              "zin_html": "<p>Door klimaatverandering wordt de periode met vrieskou op de Great Plains steeds ...<strong>(3)</strong>... (korter / langer).</p>",
+              "choices": [
+                "korter",
+                "langer"
+              ],
+              "correct_choice": "korter"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 16</strong></p><p>Gemiddelde verandering van de temperatuur in Alaska in de periode 1901-2021</p><p><strong>bron 17</strong></p><p>Klimaten in Alaska</p>",
+          "bronverwijzing_tekst": "Bekijk bron 16 en bron 17.",
+          "bron_verwijzing": [
+            "vmbo_aardrijkskunde_tv1_opgave1_bron16.png",
+            "vmbo_aardrijkskunde_tv1_opgave1_bron17.png"
+          ],
+          "vraagtekst_html": "<p>In de afgelopen eeuw is de temperatuur in Alaska veranderd. Die verandering heeft invloed op het klimaat en de vegetatie.</p><p>Beargumenteer voor welk klimaatgebied de gevolgen van klimaatverandering het grootst zijn.</p><p>Doe het zo:</p><ul><li>Kies eerst uit koud klimaat of landklimaat.</li><li>Geef daarna met behulp van bron 16 en bron 17 een argument voor je keuze.</li></ul>",
+          "correct_antwoord_model": "<p>koud klimaat / landklimaat</p><p>Uit het argument moet blijken dat in het klimaatgebied de temperatuur het meest is gestegen.</p><p><strong>Opmerking:</strong> Het scorepunt alleen toekennen bij een juiste keuze in combinatie met een juist argument.</p>"
+        },
+        {
+          "id": 12,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 16</strong></p><p>Gemiddelde verandering van de temperatuur in Alaska in de periode 1901-2021</p>",
+          "bronverwijzing_tekst": "Bekijk bron 16.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave1_bron16.png",
+          "vraagtekst_html": "<p>De gemiddelde temperatuur in Alaska is veranderd, waardoor de bevroren bodem opwarmt. De bovengrondse oliepijpleiding staat daardoor niet meer stevig en kan verzakken. Bij zo'n verzakking kan een lekkage ontstaan.</p><p>Geef aan waardoor de kans op verzakking en lekkage van de oliepijpleiding groter is in de buurt van Fairbanks dan in de buurt van Valdez.</p>",
+          "correct_antwoord_model": "<p>Een juist antwoord is dat de bodem in de buurt van Fairbanks meer te maken krijgt met een ontdooiende bodem dan de bodem in de buurt van Valdez.</p>"
+        },
+        {
+          "id": 13,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 16</strong></p><p>Gemiddelde verandering van de temperatuur in Alaska in de periode 1901-2021</p><p><strong>bron 17</strong></p><p>Klimaten in Alaska</p>",
+          "bronverwijzing_tekst": "Bekijk bron 16 en bron 17.",
+          "bron_verwijzing": [
+            "vmbo_aardrijkskunde_tv1_opgave1_bron16.png",
+            "vmbo_aardrijkskunde_tv1_opgave1_bron17.png"
+          ],
+          "vraagtekst_html": "<p>Naar aanleiding van bron 16 en bron 17 worden drie uitspraken gedaan.</p><p>Uitspraak 1: de haven van Prudhoe Bay is in de wintermaanden dichtgevroren en onbereikbaar.</p><p>Uitspraak 2: de bovengrondse pijpleiding transporteert ruwe aardolie van Valdez in het zuiden naar de oliehaven van Prudhoe Bay in het noorden.</p><p>Uitspraak 3: het transport van aardolie via de pijpleiding draagt minder bij aan het versterkt broeikaseffect dan transport van aardolie met zeeschepen.</p><p>Neem de cijfers 1, 2 en 3 van de uitspraken over op het antwoordblad en zet erachter of de uitspraak juist of onjuist is.</p>",
+          "correct_antwoord_model": "<table><tbody><tr><td>1 = juist</td><td></td></tr><tr><td>2 = onjuist</td><td></td></tr><tr><td>3 = juist</td><td></td></tr><tr><td>indien drie juiste antwoorden</td><td>2</td></tr><tr><td>indien twee juiste antwoorden</td><td>1</td></tr><tr><td>indien minder dan twee juiste antwoorden</td><td>0</td></tr></tbody></table>"
+        },
+        {
+          "id": 14,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 18</strong></p><p>Twee orkaanseizoenen in de Atlantische Oceaan</p>",
+          "bronverwijzing_tekst": "Gebruik bron 18.",
+          "bron_verwijzing": [
+            "vmbo_aardrijkskunde_tv1_opgave1_bron18a.png"
+           
+          ],
+          "vraagtekst_html": "<p>Tussen het ontstaan en verdwijnen van orkanen is een volgorde waar te nemen.</p><p>De volgorde bestaat uit de volgende onderdelen:</p><ol><li>(grote) orkaan</li><li>orkaan neemt in kracht af</li><li>lagedrukgebied</li><li>storm</li></ol><p>Noteer de bovenstaande vier cijfers in de juiste volgorde op het antwoordblad.</p>",
+          "correct_antwoord_model": "<p>3 - 4 - 1 - 2</p><p><strong>Opmerking:</strong> Als door het weglaten van een foutief geplaatste cijfer een verder complete en foutloze reeks ontstaat, 1 scorepunt toekennen.</p>"
+        },
+        {
+          "id": 15,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 18</strong></p><p>Twee orkaanseizoenen in de Atlantische Oceaan</p>",
+          "bronverwijzing_tekst": "Gebruik bron 18.",
+          "bron_verwijzing": [
+            "vmbo_aardrijkskunde_tv1_opgave1_bron18a.png"
+            
+          ],
+          "vraagtekst_html": "<p>De kaarten in bron 18 gaan over de orkaanseizoenen van de jaren 2000 en 2020. Beide orkaanseizoenen verschillen van elkaar. Het ene orkaanseizoen kende meer orkanen dan het andere orkaanseizoen.</p><p>Beargumenteer welke kaart bij het orkaanseizoen van 2020 hoort.</p><p>Doe het zo:</p><ul><li>Kies eerst kaart 1 of kaart 2.</li><li>Geef daarna met een ander verschil tussen de orkaanseizoenen een argument voor je keuze.</li></ul>",
+          "correct_antwoord_model": "<p>kaart 1</p><p>Voorbeelden van een juist verschil zijn:</p><ul><li>In 2020 zijn er meer orkanen in de zwaarste categorie dan in 2000.</li><li>In 2020 komen meer orkanen aan land in het zuiden van de Verenigde Staten dan in 2000.</li></ul><p><strong>Opmerking:</strong> Het scorepunt alleen toekennen bij een juiste keuze in combinatie met een juist verschil.</p>"
+        },
+        {
+          "id": 16,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 18</strong></p><p>Twee orkaanseizoenen in de Atlantische Oceaan</p>",
+          "bronverwijzing_tekst": "Gebruik bron 18.",
+          "bron_verwijzing": [
+            "vmbo_aardrijkskunde_tv1_opgave1_bron18a.png"
+           
+          ],
+          "vraagtekst_html": "<p>Kustbewoners in de Verenigde Staten schatten de risico's op een orkaan in hun woongebied in.</p><p>Beredeneer welke kustbewoners het risico om getroffen te worden door een orkaan het laagst inschatten.</p><p>Doe het zo:</p><ul><li>Kies eerst of de kustbewoners aan de noordoostkust of de zuidkust het risico het laagst inschatten.</li><li>Geef daarna met behulp van bron 18 een reden voor je keuze.</li></ul>",
+          "correct_antwoord_model": "<p>noordoostkust</p><p>Voorbeelden van een juiste reden zijn:</p><ul><li>Aan de noordoostkust komen nauwelijks orkanen voor.</li><li>Orkanen buigen af richting de oceaan voordat ze de noordoostkust raken.</li><li>Orkanen boven land zwakken af voordat ze de noordoostkust raken.</li></ul><p><strong>Opmerking:</strong> Het scorepunt alleen toekennen bij een juiste keuze in combinatie met een juiste reden.</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 2,
+      "opgave_titel": "Water",
+      "vragen": [
+        {
+          "id": 17,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 19</strong></p><p>De afvoer van de Maas en de Rijn tussen 1 maart en 1 september 2022</p>",
+          "bronverwijzing_tekst": "Bekijk bron 19.",
+          "bron_verwijzing": [
+            "vmbo_aardrijkskunde_tv1_opgave2_bron19a.png",
+            "vmbo_aardrijkskunde_tv1_opgave2_bron19b.png"
+          ],
+          "vraagtekst_html": "<p>In de grafieken van bron 19 zie je de waterafvoer van de Maas en de Rijn tussen 1 maart en 1 september 2022.</p><p>Naar aanleiding van bron 19 worden drie uitspraken gedaan.</p><p>Uitspraak 1: in mei veroorzaakte smeltwater een piekafvoer in de benedenloop van de Rijn en de Maas.</p><p>Uitspraak 2: de waterstand van de Maas was in september lager dan de waterstand van de Rijn.</p><p>Uitspraak 3: de afvoer van de Maas verloopt onregelmatiger dan die van de Rijn, omdat de afvoer van de Maas alleen uit neerslag bestaat.</p><p>Neem de cijfers 1, 2 en 3 van de uitspraken over op het antwoordblad en zet erachter of de uitspraak juist of onjuist is.</p>",
+          "correct_antwoord_model": "<table><tbody><tr><td>1 = onjuist</td><td></td></tr><tr><td>2 = juist</td><td></td></tr><tr><td>3 = juist</td><td></td></tr><tr><td>indien drie juiste antwoorden</td><td>2</td></tr><tr><td>indien twee juiste antwoorden</td><td>1</td></tr><tr><td>indien minder dan twee juiste antwoorden</td><td>0</td></tr></tbody></table>"
+        },
+        {
+          "id": 18,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 19</strong></p><p>De afvoer van de Maas en de Rijn tussen 1 maart en 1 september 2022</p>",
+          "bronverwijzing_tekst": "Bekijk bron 19.",
+          "bron_verwijzing": [
+            "vmbo_aardrijkskunde_tv1_opgave2_bron19a.png",
+            "vmbo_aardrijkskunde_tv1_opgave2_bron19b.png"
+          ],
+          "vraagtekst_html": "<p>De zomer van 2022 was uitzonderlijk droog, waardoor de waterstand in de Maas en de Rijn erg laag was.</p><p>Noem een nadeel van de lage waterstand voor de scheepvaart.</p><p>Noem een nadeel van de lage waterstand voor de landbouw.</p>",
+          "correct_antwoord_model": "<p>Voorbeelden van juiste nadelen voor de scheepvaart zijn:</p><ul><li>Schepen kunnen minder (tegelijk) vervoeren (door de diepgang bij zware lading).</li><li>Schepen kunnen niet varen / moeten langer wachten bij sluizen.</li></ul><p>(1 punt voor een juist nadeel)</p><p>Voorbeelden van juiste nadelen voor de landbouw zijn:</p><ul><li>Er is minder irrigatiewater beschikbaar.</li><li>De landbouwgewassen verdrogen / sterven af.</li></ul><p>(1 punt voor een juist nadeel)</p>"
+        },
+        {
+          "id": 19,
+          "max_score": 2,
+          "type": "multiple_gap_choice",
+          "context_html": "<p><strong>bron 20</strong></p><p>Zoetwater in de duinen</p><p><strong>bron 21</strong></p><p>Tekst met keuzemogelijkheden</p>",
+          "bronverwijzing_tekst": "Bekijk bron 20 en lees bron 21.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave2_bron20.png",
+          "vraagtekst_html": "<p>In bron 21 staat achter de cijfers 1, 2 en 3 een keuzemogelijkheid.</p><p>Neem de cijfers 1, 2 en 3 over op het antwoordblad en zet de juiste keuze erachter.</p>",
+          "correct_antwoord_model": "<table><tbody><tr><td>1= het zand</td><td></td></tr><tr><td>2= oppervlaktewater</td><td></td></tr><tr><td>3= te zout</td><td></td></tr><tr><td>indien drie juiste antwoorden</td><td>2</td></tr><tr><td>indien twee juiste antwoorden</td><td>1</td></tr><tr><td>indien minder dan twee juiste antwoorden</td><td>0</td></tr></tbody></table>",
+          "gaps": [
+            {
+              "id": 1,
+              "zin_html": "<p>In de duinen langs de Nederlandse Noordzeekust zit een ondergrondse zoetwatervoorraad. Drinkwaterbedrijven winnen water uit de duinen nadat het water in de duinen door ...<strong>(1)</strong>... (het zand / de klei) gefilterd is.</p>",
+              "choices": [
+                "het zand",
+                "de klei"
+              ],
+              "correct_choice": "het zand"
+            },
+            {
+              "id": 2,
+              "zin_html": "<p>Drinkwaterbedrijven pompen vooral ...<strong>(2)</strong>... (grondwater / oppervlaktewater) de duinen in. Na een aantal weken wordt het water weer opgepompt.</p>",
+              "choices": [
+                "grondwater",
+                "oppervlaktewater"
+              ],
+              "correct_choice": "oppervlaktewater"
+            },
+            {
+              "id": 3,
+              "zin_html": "<p>Als het water uit de diepere grondlagen van de duinen wordt opgepompt, kan het water ...<strong>(3)</strong>... (te vervuild / te zout) zijn voor gebruik.</p>",
+              "choices": [
+                "te vervuild",
+                "te zout"
+              ],
+              "correct_choice": "te zout"
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 20</strong></p><p>Zoetwater in de duinen</p><p>Duinen beschermen het westen van Nederland tegen overstromingen van zee. De duinen kunnen geen bescherming tegen overstromingen bieden als er veel erosie is. Door teveel drinkwater te winnen, kunnen drinkwaterbedrijven erosie door de wind in de duinen veroorzaken.</p>",
+          "bronverwijzing_tekst": "Bekijk bron 20.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave2_bron20.png",
+          "vraagtekst_html": "<p>Geef aan waardoor teveel drinkwaterwinning in de duinen erosie door de wind veroorzaakt.</p>",
+          "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat drinkwaterwinning verdroging kan veroorzaken (waardoor het zand makkelijk wegwaait).</p>"
+        },
+        {
+          "id": 21,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 22</strong></p><p>Havens in een deel van Noordwest-Europa</p><p>De goederenstroom tussen Duisburg en Rotterdam is groter dan de goederenstroom tussen Duisburg en Emden. Een reden is dat de afstand tussen Duisburg en Rotterdam korter is.</p>",
+          "bronverwijzing_tekst": "Bekijk bron 22.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave2_bron22.png",
+          "vraagtekst_html": "<p>Geef met behulp van bron 22 nog een andere reden waarom de goederenstroom tussen Duisburg en Rotterdam groter is dan tussen Duisburg en Emden.</p>",
+          "correct_antwoord_model": "<p>Voorbeelden van een juiste reden zijn:</p><ul><li>Tussen Duisburg en Rotterdam bestaat een directe verbinding (terwijl tussen Duisburg en Emden de rivier overgaat in een kanaal).</li><li>Duisburg en Rotterdam zijn met elkaar verbonden door een altijd bevaarbare rivier / grote rivier.</li><li>De Eems is slechts voor een deel bevaarbaar / heeft veel sluizen.</li></ul>"
+        },
+        {
+          "id": 22,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 22</strong></p><p>Havens in een deel van Noordwest-Europa</p><p>De extreem droge zomer van 2022 zorgde voor een verslechterde verbinding tussen de binnenhavens en de zeehavens. In Duitsland ontstond een tekort aan energie.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 22.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave2_bron22.png",
+          "vraagtekst_html": "<p>Geef met behulp van bron 22 aan dat de verslechterde verbinding tussen de havens bijdroeg aan het energietekort in Duitsland.</p>",
+          "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat er minder steen- en bruinkool naar (de energiecentrales in) Duitsland kon worden vervoerd (door de lage waterstand).</p>"
+        },
+        {
+          "id": 23,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 23</strong></p><p>Krantenartikel over droogte in China, 22 augustus 2022</p><p>De rivier de Chang Jiang is op sommige plekken drooggevallen. Fabrieken in de zuidwestelijke provincie Sichuan moesten hun productie noodgedwongen terugschroeven om stroom te besparen.</p><p>Bron 23 gaat over de droogte in China in de zomer van 2022.</p>",
+          "bronverwijzing_tekst": "Bekijk en lees bron 23.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave2_bron23.png",
+          "vraagtekst_html": "<p>Naar aanleiding van bron 23 worden drie uitspraken gedaan.</p><p>Uitspraak 1: een van de oorzaken voor het droogvallen van de rivier de Chang Jiang was dat de vraag naar water groter was dan de aanvoer.</p><p>Uitspraak 2: in de zomer van 2022 nam de concentratie van vervuiling in de rivier de Chang Jiang af.</p><p>Uitspraak 3: in het mondingsgebied van de rivier de Chang Jiang nam de verzilting door de grote droogte toe.</p><p>Neem de cijfers 1, 2 en 3 van de uitspraken over op het antwoordblad en zet erachter of de uitspraak juist of onjuist is.</p>",
+          "correct_antwoord_model": "<table><tbody><tr><td>1 = juist</td><td></td></tr><tr><td>2 = onjuist</td><td></td></tr><tr><td>3 = juist</td><td></td></tr><tr><td>indien drie juiste antwoorden</td><td>2</td></tr><tr><td>indien twee juiste antwoorden</td><td>1</td></tr><tr><td>indien minder dan twee juiste antwoorden</td><td>0</td></tr></tbody></table>"
+        },
+        {
+          "id": 24,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 23</strong></p><p>Krantenartikel over droogte in China, 22 augustus 2022</p><p>De rivier de Chang Jiang is op sommige plekken drooggevallen. Fabrieken in de zuidwestelijke provincie Sichuan moesten hun productie noodgedwongen terugschroeven om stroom te besparen.</p><p>De verwachting is dat in de toekomst de rivier de Chang Jiang vaker droog zal vallen en er meer watertekorten zullen zijn. Om watertekorten tegen te gaan, moeten er maatregelen genomen worden.</p>",
+          "bronverwijzing_tekst": "Gebruik bron 23.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave2_bron23.png",
+          "vraagtekst_html": "<p>Noem een maatregel die Chinezen in huis kunnen nemen om water te besparen.</p>",
+          "correct_antwoord_model": "<p>Voorbeelden van een juiste maatregel zijn:</p><ul><li>waterbesparende douchekop installeren</li><li>korter douchen</li><li>zuinige vaatwasser/wasmachine aanschaffen</li></ul>"
+        },
+        {
+          "id": 25,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p><strong>bron 24</strong></p><p>Foto's van verschillende irrigatievormen in het Midden-Oosten</p>",
+          "bronverwijzing_tekst": "Bekijk bron 24.",
+          "bron_verwijzing": [
+            "vmbo_aardrijkskunde_tv1_opgave2_bron24a.png",
+            "vmbo_aardrijkskunde_tv1_opgave2_bron24b.png"
+          ],
+          "vraagtekst_html": "<p>In bron 24 zie je twee verschillende vormen van irrigatie in het Midden-Oosten.</p><p>Wat is juist?</p>",
+          "correct_antwoord_model": "<p>F</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "foto 1: cirkelirrigatie, mate van verzilting in foto 1: veel, foto 2: druppelirrigatie, mate van verzilting in foto 2: veel"
+            },
+            {
+              "id": "B",
+              "text": "foto 1: cirkelirrigatie, mate van verzilting in foto 1: veel, foto 2: druppelirrigatie, mate van verzilting in foto 2: weinig"
+            },
+            {
+              "id": "C",
+              "text": "foto 1: cirkelirrigatie, mate van verzilting in foto 1: weinig, foto 2: druppelirrigatie, mate van verzilting in foto 2: veel"
+            },
+            {
+              "id": "D",
+              "text": "foto 1: druppelirrigatie, mate van verzilting in foto 1: veel, foto 2: cirkelirrigatie, mate van verzilting in foto 2: veel"
+            },
+            {
+              "id": "E",
+              "text": "foto 1: druppelirrigatie, mate van verzilting in foto 1: weinig, foto 2: cirkelirrigatie, mate van verzilting in foto 2: weinig"
+            },
+            {
+              "id": "F",
+              "text": "foto 1: druppelirrigatie, mate van verzilting in foto 1: weinig, foto 2: cirkelirrigatie, mate van verzilting in foto 2: veel"
+            }
+          ],
+          "correct_answer": "F"
+        },
+        {
+          "id": 26,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 24</strong></p><p>Foto's van verschillende irrigatievormen in het Midden-Oosten</p><p>Boeren in het Midden-Oosten moeten zuinig met zoetwater omgaan. Zo kunnen ze overstappen op een andere vorm van irrigatie om water te besparen.</p>",
+          "bronverwijzing_tekst": "Bekijk bron 24.",
+          "bron_verwijzing": [
+            "vmbo_aardrijkskunde_tv1_opgave2_bron24a.png",
+            "vmbo_aardrijkskunde_tv1_opgave2_bron24b.png"
+          ],
+          "vraagtekst_html": "<p>Noem nog een maatregel die boeren in het Midden-Oosten kunnen toepassen om zoetwater te besparen.</p>",
+          "correct_antwoord_model": "<p>Voorbeelden van een juiste maatregel zijn:</p><ul><li>gewassen telen die goed tegen droogte kunnen</li><li>droogtelandbouw toepassen</li><li>lekkages in irrigatieleidingen snel repareren</li></ul>"
+        },
+        {
+          "id": 27,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 25</strong></p><p>Heftige regenval in Qatar, 28 juli 2022</p><p>Inwoners van Qatar werden overvallen door zeldzame regen- en onweersbuien. Er werd zelfs gesproken over de hevigste regenval in juli in 60 jaar. Vanmorgen was er om 10.00 uur lokale tijd al 38 mm neerslag gevallen.</p><p>(Kaart en klimaatgrafiek van Qatar)</p>",
+          "bronverwijzing_tekst": "Lees en bekijk bron 25.",
+          "bron_verwijzing": [
+            "vmbo_aardrijkskunde_tv1_opgave2_bron25a.png",
+            "vmbo_aardrijkskunde_tv1_opgave2_bron25b.png"
+          ],
+          "vraagtekst_html": "<p>Naar aanleiding van bron 25 worden drie uitspraken gedaan.</p><p>Uitspraak 1: Qatar heeft een woestijnklimaat.</p><p>Uitspraak 2: de neerslagintensiteit van de regenbuien op 28 juli 2022 was lager dan de neerslagintensiteit van de neerslag in de wintermaanden.</p><p>Uitspraak 3: door de lage jaarlijkse neerslag en het ontbreken van rivieren is Qatar voor zoetwater vooral afhankelijk van grondwater, waterzuivering en ontzilting van zeewater.</p><p>Neem de cijfers 1, 2 en 3 van de uitspraken over op het antwoordblad en zet erachter of de uitspraak juist of onjuist is.</p>",
+          "correct_antwoord_model": "<table><tbody><tr><td>1 = juist</td><td></td></tr><tr><td>2 = onjuist</td><td></td></tr><tr><td>3 = juist</td><td></td></tr><tr><td>indien drie juiste antwoorden</td><td>2</td></tr><tr><td>indien twee juiste antwoorden</td><td>1</td></tr><tr><td>indien minder dan twee juiste antwoorden</td><td>0</td></tr></tbody></table>"
+        },
+        {
+          "id": 28,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 25</strong></p><p>Heftige regenval in Qatar, 28 juli 2022</p><p>In Qatar valt de meeste neerslag in de wintermaanden, waardoor de aquifers worden aangevuld.</p><p>(Kaart en klimaatgrafiek van Qatar)</p>",
+          "bronverwijzing_tekst": "Lees en bekijk bron 25.",
+          "bron_verwijzing": [
+            "vmbo_aardrijkskunde_tv1_opgave2_bron25a.png",
+            "vmbo_aardrijkskunde_tv1_opgave2_bron25b.png"
+          ],
+          "vraagtekst_html": "<p>Welk onderdeel van de waterkringloop zorgt ervoor dat de aquifers aangevuld kunnen worden?</p>",
+          "correct_antwoord_model": "<p>Het juiste onderdeel is infiltratie.</p>"
+        },
+        {
+          "id": 29,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 26</strong></p><p>Deel van het Midden-Oosten</p><p>Iran heeft in de rivier de Karun en de rivier de Zayandeh stuwdammen gebouwd. In de rivier de Karun liggen 5 stuwdammen, terwijl in de rivier de Zayandeh maar 1 stuwdam ligt.</p>",
+          "bronverwijzing_tekst": "Bekijk bron 26.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave2_bron26.png",
+          "vraagtekst_html": "<p>Geef aan waardoor aan de westzijde van het Zagrosgebergte meer stuwdammen in de rivier de Karun liggen dan aan de oostzijde in de rivier de Zayandeh.</p>",
+          "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat aan de loefzijde (van het Zagrosgebergte) meer neerslag valt, (waardoor de rivier de Karun meer water afvoert dan de rivier de Zayandeh).</p>"
+        },
+        {
+          "id": 30,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 26</strong></p><p>Deel van het Midden-Oosten</p><p>In de benedenloop van de rivier de Karun ligt een natuurgebied met veel water, een moeras. In de grond onder dit natuurgebied zit veel aardolie. Stuwdammen in de rivier de Karun hebben stroomafwaarts gevolgen voor de natuur en de oliewinning.</p>",
+          "bronverwijzing_tekst": "Bekijk bron 26.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave2_bron26.png",
+          "vraagtekst_html": "<p>Geef eerst aan waarom natuurbeschermers tegenstander zijn van de aanleg van de stuwdammen in de rivier de Karun.</p><p>Geef daarna aan waarom de olie-industrie voorstander is van de aanleg van stuwdammen in de rivier de Karun.</p>",
+          "correct_antwoord_model": "<p>Een juist antwoord waarom natuurbeschermers tegenstanders zijn, is dat door stuwdammen de rivieren minder water afvoeren / de moerasgebieden opdrogen. (1 punt)</p><p>Een juist antwoord waarom de olie-industrie voorstander is, is dat het gebied beter toegankelijk wordt voor de olie-industrie en hun zware materieel / er goedkope elektriciteit beschikbaar is bij de oliewinning. (1 punt)</p>"
+        },
+        {
+          "id": 31,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 27</strong></p><p>De provincie Khuzestan in het Midden-Oosten</p><p><strong>bron 28</strong></p><p>Krantenartikel</p><p>Ondanks de stuwdammen in de rivier de Karun, heeft de provincie Khuzestan veel last van waterschaarste. Het waterpeil van de rivier de Karun is door de jaren heen flink gedaald. De Iraanse regering wijst steeds vaker naar Turkije als de verantwoordelijke voor de waterschaarste. Turkije heeft onlangs weer een nieuwe stuwdam in gebruik genomen.</p><p>De rivier de Karun ligt in het stroomgebied van de rivier de Tigris. Toch kan Turkije niet verantwoordelijk worden gehouden voor de waterschaarste in Khuzestan.</p>",
+          "bronverwijzing_tekst": "Bekijk bron 27 en lees bron 28.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave2_bron27.png",
+          "vraagtekst_html": "<p>Geef met behulp van bron 27 een natuurlijke oorzaak waardoor Turkije niet verantwoordelijk kan worden gehouden voor de waterschaarste in Khuzestan.</p>",
+          "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat de rivier de Karun wel afwatert op de rivier de Tigris, maar geen water ontvangt van de rivier de Tigris.</p>"
+        },
+        {
+          "id": 32,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 27</strong></p><p>De provincie Khuzestan in het Midden-Oosten</p><p><strong>bron 28</strong></p><p>Krantenartikel</p><p>Ondanks de stuwdammen in de rivier de Karun, heeft de provincie Khuzestan veel last van waterschaarste.</p><p>Door de waterschaarste in Khuzestan neemt de kans op onenigheid over de waterverdeling met een andere Iraanse provincie toe.</p>",
+          "bronverwijzing_tekst": "Bekijk bron 27 en lees bron 28.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave2_bron27.png",
+          "vraagtekst_html": "<p>Beredeneer met welke andere Iraanse provincie Khuzestan onenigheid over de waterverdeling kan krijgen.</p><p>Doe het zo:</p><ul><li>Kies eerst uit provincie X of provincie Y.</li><li>Geef daarna een argument voor je keuze.</li></ul>",
+          "correct_antwoord_model": "<p>provincie Y</p><p>Uit het argument moet blijken dat het water uit de rivier de Karun tussen deze provincies verdeeld moet worden / beide provincies in het stroomgebied van de rivier de Karun liggen.</p><p><strong>Opmerking:</strong> Het scorepunt alleen toekennen bij een juiste keuze in combinatie met een juist argument.</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 3,
+      "opgave_titel": "Bevolking en ruimte",
+      "vragen": [
+        {
+          "id": 33,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 29</strong></p><p>Bevolkingsdiagram van de bevolking van Nederland op 1 januari 1970 en 1 januari 2020</p><p>In bron 29 zie je twee verschillende bevolkingsdiagrammen van de Nederlandse bevolking. Eén van de twee bevolkingsdiagrammen hoort bij het jaar 2020.</p>",
+          "bronverwijzing_tekst": "Bekijk bron 29.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave3_bron29.png",
+          "vraagtekst_html": "<p>Beargumenteer welke bevolkingsdiagram bij het jaar 2020 hoort.</p><p>Doe het zo:</p><ul><li>Kies eerst uit 'ui' of 'piramide'.</li><li>Geef daarna met de natuurlijke bevolkingsontwikkeling een argument voor je keuze.</li></ul>",
+          "correct_antwoord_model": "<p>'ui'</p><p>Voorbeelden van een juist argument zijn:</p><ul><li>Het aandeel kinderen/jongeren is afgenomen / kleiner dan bij de 'piramide'.</li><li>Het aandeel ouderen is toegenomen / groter dan bij de 'piramide'.</li></ul><p><strong>Opmerking:</strong> Het scorepunt alleen toekennen bij een juiste keuze in combinatie met een juist argument.</p>"
+        },
+        {
+          "id": 34,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 30</strong></p><p>Nederlanders met een migratieachtergrond naar land van herkomst in 1971 en 2020</p>",
+          "bronverwijzing_tekst": "Bekijk bron 30.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave3_bron30.png",
+          "vraagtekst_html": "<p>Naar aanleiding van bron 30 worden drie uitspraken gedaan.</p><p>Uitspraak 1: het aandeel van de bevolking uit buurlanden is sinds 1971 in Nederland toegenomen.</p><p>Uitspraak 2: het aandeel van de bevolking uit alle voormalige koloniën bij elkaar, is sinds 1971 afgenomen.</p><p>Uitspraak 3: het aandeel mensen met een Marokkaanse migratie-achtergrond is sinds 1971 vooral toegenomen door gezinshereniging en gezinsvorming.</p><p>Neem de cijfers 1, 2 en 3 van de uitspraken over op het antwoordblad en zet erachter of de uitspraak juist of onjuist is.</p>",
+          "correct_antwoord_model": "<table><tbody><tr><td>1 = onjuist</td><td></td></tr><tr><td>2 = juist</td><td></td></tr><tr><td>3 = juist</td><td></td></tr><tr><td>indien drie juiste antwoorden</td><td>2</td></tr><tr><td>indien twee juiste antwoorden</td><td>1</td></tr><tr><td>indien minder dan twee juiste antwoorden</td><td>0</td></tr></tbody></table>"
+        },
+        {
+          "id": 35,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 31</strong></p><p>Deel van het centrum van Berlijn</p><p><strong>bron 32</strong></p><p>Foto's van een deel van het viaduct van de U1-metrolijn</p><p>De U1-metrolijn in Berlijn loopt van het oosten naar het westen langs het centrum van Berlijn. De metrolijn is speciaal omdat deze boven de grond (in plaats van onder de grond) over een viaduct loopt. In Berlijn is het plan opgevat om onder het viaduct van de U1-metrolijn een fietspad met daarlangs groenvoorzieningen aan te leggen.</p>",
+          "bronverwijzing_tekst": "Bekijk bron 31 en bron 32.",
+          "bron_verwijzing": [
+            "vmbo_aardrijkskunde_tv1_opgave3_bron31.png",
+            "vmbo_aardrijkskunde_tv1_opgave3_bron32a.png",
+            "vmbo_aardrijkskunde_tv1_opgave3_bron32b.png"
+          ],
+          "vraagtekst_html": "<p>Noem een voordeel van de aanleg van het fietspad onder het viaduct ten opzichte van een andere nieuwe fietsroute die van het oosten naar het westen van Berlijn gaat.</p>",
+          "correct_antwoord_model": "<p>Voorbeelden van een juist voordeel zijn:</p><ul><li>De infrastructuur ligt er al.</li><li>Er hoeven geen gebouwen afgebroken te worden.</li></ul>"
+        },
+        {
+          "id": 36,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 31</strong></p><p>Deel van het centrum van Berlijn</p><p><strong>bron 32</strong></p><p>Foto's van een deel van het viaduct van de U1-metrolijn</p><p>Een fietspad onder de U1-metrolijn kan voor fietsers erg prettig in gebruik zijn, terwijl bewoners langs de U1-metrolijn ook tegen de aanleg van het nieuwe fietspad kunnen zijn. De ruimte onder het viaduct is nu vaak in gebruik als parkeerplaats.</p>",
+          "bronverwijzing_tekst": "Bekijk bron 31 en bron 32.",
+          "bron_verwijzing": [
+            "vmbo_aardrijkskunde_tv1_opgave3_bron31.png",
+            "vmbo_aardrijkskunde_tv1_opgave3_bron32a.png",
+            "vmbo_aardrijkskunde_tv1_opgave3_bron32b.png"
+          ],
+          "vraagtekst_html": "<p>Geef eerst met behulp van bron 31 een argument waarom juist toeristen gebruik zullen maken van het fietspad.</p><p>Geef daarna een argument waarom bewoners langs de U1-metrolijn tegen de aanleg van dit fietspad kunnen zijn.</p>",
+          "correct_antwoord_model": "<p>Een juist argument waarom toeristen gebruik zullen maken van het fietspad gaat in op de route van het fietspad in de buurt van bezienswaardigheden / de unieke plek van het fietspad / de veilige fietsroute. (1 punt)</p><p>Een juist argument tegen de aanleg van het fietspad gaat in op het verdwijnen van parkeerplaatsen vlakbij huis / de toename van parkeerproblemen in de buurt / de toename van fietsverkeer. (1 punt)</p>"
+        },
+        {
+          "id": 37,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 31</strong></p><p>Deel van het centrum van Berlijn</p><p><strong>bron 32</strong></p><p>Foto's van een deel van het viaduct van de U1-metrolijn</p><p>Het nieuwe fietspad kan bijdragen aan een grotere leefbaarheid en een grotere aantrekkelijkheid van Berlijn.</p>",
+          "bronverwijzing_tekst": "Bekijk bron 31 en bron 32.",
+          "bron_verwijzing": [
+            "vmbo_aardrijkskunde_tv1_opgave3_bron31.png",
+            "vmbo_aardrijkskunde_tv1_opgave3_bron32a.png",
+            "vmbo_aardrijkskunde_tv1_opgave3_bron32b.png"
+          ],
+          "vraagtekst_html": "<p>Geef aan waarom het fietspad bijdraagt aan een grotere leefbaarheid in het centrum van Berlijn.</p>",
+          "correct_antwoord_model": "<p>Een juist antwoord gaat in op de afname van het autoverkeer / meer groen / betere luchtkwaliteit / veiliger verkeer.</p>"
+        },
+        {
+          "id": 38,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 33</strong></p><p>Bevolkingsprognose van Duitsland op basis van modellen van de natuurlijke en sociale bevolkingsgroei</p>",
+          "bronverwijzing_tekst": "Bekijk bron 33.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave3_bron33.png",
+          "vraagtekst_html": "<p>Naar aanleiding van bron 33 worden drie uitspraken gedaan.</p><p>Uitspraak 1: de gemiddelde levensverwachting van de Duitse bevolking zal tot 2060 dalen.</p><p>Uitspraak 2: de groep 0-30 jaar wordt kleiner en zal in 2060 uit minder dan 20 miljoen personen bestaan.</p><p>Uitspraak 3: de omvang van de beroepsbevolking zal afnemen en de vergrijzing zal tot 2060 toenemen.</p><p>Neem de cijfers 1, 2 en 3 van de uitspraken over op het antwoordblad en zet erachter of de uitspraak juist of onjuist is.</p>",
+          "correct_antwoord_model": "<table><tbody><tr><td>1 = onjuist</td><td></td></tr><tr><td>2 = juist</td><td></td></tr><tr><td>3 = juist</td><td></td></tr><tr><td>indien drie juiste antwoorden</td><td>2</td></tr><tr><td>indien twee juiste antwoorden</td><td>1</td></tr><tr><td>indien minder dan twee juiste antwoorden</td><td>0</td></tr></tbody></table>"
+        },
+        {
+          "id": 39,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p><strong>bron 34</strong></p><p>Drie bevolkingsdiagrammen van China</p>",
+          "bronverwijzing_tekst": "Bekijk bron 34.",
+          "bron_verwijzing": [
+            "vmbo_aardrijkskunde_tv1_opgave3_bron34a.png",
+            "vmbo_aardrijkskunde_tv1_opgave3_bron34b.png",
+            "vmbo_aardrijkskunde_tv1_opgave3_bron34c.png"
+          ],
+          "vraagtekst_html": "<p>De drie bevolkingsdiagrammen van China in bron 34 zijn in willekeurige volgorde van de jaren 2000, 2010 en 2020.</p><p>Bij welke keuze staat de volgorde van de bevolkingsdiagrammen juist?</p>",
+          "correct_antwoord_model": "<p>B</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "2000: bevolkingsdiagram 1, 2010: bevolkingsdiagram 2, 2020: bevolkingsdiagram 3"
+            },
+            {
+              "id": "B",
+              "text": "2000: bevolkingsdiagram 1, 2010: bevolkingsdiagram 3, 2020: bevolkingsdiagram 2"
+            },
+            {
+              "id": "C",
+              "text": "2000: bevolkingsdiagram 2, 2010: bevolkingsdiagram 1, 2020: bevolkingsdiagram 3"
+            },
+            {
+              "id": "D",
+              "text": "2000: bevolkingsdiagram 2, 2010: bevolkingsdiagram 3, 2020: bevolkingsdiagram 1"
+            },
+            {
+              "id": "E",
+              "text": "2000: bevolkingsdiagram 3, 2010: bevolkingsdiagram 1, 2020: bevolkingsdiagram 2"
+            },
+            {
+              "id": "F",
+              "text": "2000: bevolkingsdiagram 3, 2010: bevolkingsdiagram 2, 2020: bevolkingsdiagram 1"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": 40,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 35</strong></p><p>Geschiedenis van de hukou</p><p>De hukou is in de jaren 50 van de vorige eeuw ingevoerd. Met de hukou wilde de Chinese overheid de verstedelijking afremmen. Na verloop van tijd mochten steeds meer mensen toch naar de stad verhuizen. Maar de hukou werd niet helemaal afgeschaft. Dit had tot gevolg dat in de stad de sociale ongelijkheid tussen bevolkingsgroepen toenam.</p><p>De hukou is een identiteitsbewijs, elke Chinees is in het bezit van een hukou.</p>",
+          "bronverwijzing_tekst": "Lees bron 35.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Geef aan waarom de hukou tot grotere sociale ongelijkheid in Chinese steden leidde.</p>",
+          "correct_antwoord_model": "<p>Uit het antwoord moet blijken dat stadsinwoners met een stadshukou meer rechten hebben (op voorzieningen) dan stadsinwoners zonder stadshukou.</p>"
+        },
+        {
+          "id": 41,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p><strong>bron 36</strong></p><p>Industriegebieden in China</p>",
+          "bronverwijzing_tekst": "Bekijk bron 36.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave3_bron36.png",
+          "vraagtekst_html": "<p>In bron 36 worden in willekeurige volgorde drie industriële regio's met nummers aangegeven: Beijing, Guangzhou en Shanghai.</p><p>Welke regio hoort bij welk nummer?</p>",
+          "correct_antwoord_model": "<p>D</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "Beijing: nummer 1, Guangzhou: nummer 2, Shanghai: nummer 3"
+            },
+            {
+              "id": "B",
+              "text": "Beijing: nummer 1, Guangzhou: nummer 3, Shanghai: nummer 2"
+            },
+            {
+              "id": "C",
+              "text": "Beijing: nummer 2, Guangzhou: nummer 1, Shanghai: nummer 3"
+            },
+            {
+              "id": "D",
+              "text": "Beijing: nummer 2, Guangzhou: nummer 3, Shanghai: nummer 1"
+            },
+            {
+              "id": "E",
+              "text": "Beijing: nummer 3, Guangzhou: nummer 2, Shanghai: nummer 1"
+            },
+            {
+              "id": "F",
+              "text": "Beijing: nummer 3, Guangzhou: nummer 1, Shanghai: nummer 2"
+            }
+          ],
+          "correct_answer": "D"
+        },
+        {
+          "id": 42,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 36</strong></p><p>Industriegebieden in China</p><p>De industriële regio's die met de nummers 1, 2 en 3 worden aangegeven in bron 36 hebben zich met hulp van de overheid ontwikkeld.</p>",
+          "bronverwijzing_tekst": "Bekijk bron 36.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave3_bron36.png",
+          "vraagtekst_html": "<p>Geef twee kenmerken van de ligging waarom de overheid juist voor deze regio's heeft gekozen.</p>",
+          "correct_antwoord_model": "<p>Voorbeelden van juiste kenmerken zijn:</p><ul><li>De gebieden liggen aan zee.</li><li>De gebieden liggen aan een rivier / riviermonding.</li><li>De gebieden liggen in vlak gebied.</li><li>De gebieden liggen nabij stedelijke gebieden.</li><li>De gebieden liggen nabij de vindplaats van grondstoffen.</li></ul><p>per juist kenmerk 1 punt.</p>"
+        },
+        {
+          "id": 43,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 37</strong></p><p>Foxconn</p><p>Foxconn is een fabrikant van computeronderdelen, die ook de iPhone produceert voor Apple. In 2020 had Foxconn wereldwijd 969.696 werknemers, waarvan 839.753 in China.</p><p><strong>bron 38</strong></p><p>Parelrivierdelta, China</p><p>De eerste fabriek van Foxconn werd in 1988 gevestigd in de stad Shenzhen. De nabijheid van Hongkong was voor Foxconn een belangrijke reden om voor Shenzhen te kiezen.</p>",
+          "bronverwijzing_tekst": "Lees en bekijk bron 37 en bekijk bron 38.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave3_bron38.png",
+          "vraagtekst_html": "<p>Geef een reden waarom de nabijheid van Hongkong belangrijk was voor Foxconn.</p>",
+          "correct_antwoord_model": "<p>Voorbeeld van een juiste reden is dat Hongkong een internationale haven / hoofdkantoren / zakelijke dienstverlening heeft.</p>"
+        },
+        {
+          "id": 44,
+          "max_score": 2,
+          "type": "multiple_gap_choice",
+          "context_html": "<p><strong>bron 37</strong></p><p>Foxconn</p><p>Foxconn is een fabrikant van computeronderdelen, die ook de iPhone produceert voor Apple. In 2020 had Foxconn wereldwijd 969.696 werknemers, waarvan 839.753 in China.</p><p><strong>bron 39</strong></p><p>Tekst met keuzemogelijkheden</p>",
+          "bronverwijzing_tekst": "Lees en bekijk bron 37 en lees bron 39.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>In bron 39 staat achter de cijfers 1, 2 en 3 een keuzemogelijkheid.</p><p>Neem de cijfers 1, 2 en 3 over op het antwoordblad en zet de juiste keuze erachter.</p>",
+          "correct_antwoord_model": "<table><tbody><tr><td>1= goede bereikbaarheid</td><td></td></tr><tr><td>2= Midden-China</td><td></td></tr><tr><td>3= hoger</td><td></td></tr><tr><td>indien drie juiste antwoorden</td><td>2</td></tr><tr><td>indien twee juiste antwoorden</td><td>1</td></tr><tr><td>indien minder dan twee juiste antwoorden</td><td>0</td></tr></tbody></table>",
+          "gaps": [
+            {
+              "id": 1,
+              "zin_html": "<p>Voor bedrijven als Foxconn waren de Speciale Economische Zones (SEZ) in China erg aantrekkelijk om zich er te vestigen. Een van de gunstige vestigingsplaatsfactoren van de SEZ's was de ...<strong>(1)</strong>... (goede bereikbaarheid / aanwezigheid van hoogopgeleid personeel).</p>",
+              "choices": [
+                "goede bereikbaarheid",
+                "aanwezigheid van hoogopgeleid personeel"
+              ],
+              "correct_choice": "goede bereikbaarheid"
+            },
+            {
+              "id": 2,
+              "zin_html": "<p>Het personeel kwam voornamelijk uit ...<strong>(2)</strong>... (Midden-China / West-China) in het binnenland.</p>",
+              "choices": [
+                "Midden-China",
+                "West-China"
+              ],
+              "correct_choice": "Midden-China"
+            },
+            {
+              "id": 3,
+              "zin_html": "<p>De lonen die de bedrijven betaalden, waren ...<strong>(3)</strong>... (hoger / lager) dan de lonen in het binnenland van China.</p>",
+              "choices": [
+                "hoger",
+                "lager"
+              ],
+              "correct_choice": "hoger"
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p><strong>bron 40</strong></p><p>Foxconn-fabrieken in China</p><p>Sinds 2011 kiest Foxconn voor andere locaties om fabrieken te vestigen.</p>",
+          "bronverwijzing_tekst": "Bekijk bron 40.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave3_bron40.png",
+          "vraagtekst_html": "<p>Wat is juist?</p>",
+          "correct_antwoord_model": "<p>C</p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "Chinese overheid investeert in infrastructuur, locatie nieuwe fabrieken vooral in de Parelrivierdelta"
+            },
+            {
+              "id": "B",
+              "text": "Chinese overheid stelt strenge milieuregels voor kustgebieden op, locatie nieuwe fabrieken vooral in de Parelrivierdelta"
+            },
+            {
+              "id": "C",
+              "text": "Chinese overheid investeert in infrastructuur, locatie nieuwe fabrieken vooral in provincies in het binnenland"
+            },
+            {
+              "id": "D",
+              "text": "Chinese overheid stelt strenge milieuregels voor provincies in het binnenland op, locatie nieuwe fabrieken vooral in provincies in het binnenland"
+            }
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "id": 46,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 40</strong></p><p>Foxconn-fabrieken in China</p><p>Bron 40 laat zien dat de spreiding van Foxconn-fabrieken is veranderd tussen 2005 en 2015. De veranderingen hebben gevolgen gehad voor de binnenlandse migratie.</p>",
+          "bronverwijzing_tekst": "Bekijk bron 40.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave3_bron40.png",
+          "vraagtekst_html": "<p>Naar aanleiding van bron 40 worden drie uitspraken gedaan.</p><p>Uitspraak 1: voor het bedrijf Foxconn was China erg aantrekkelijk vanwege de lage loonkosten voor arbeiders.</p><p>Uitspraak 2: sinds 2011 is de urbanisatie van steden aan de kust toegenomen door de komst van nieuwe Foxconn-fabrieken.</p><p>Uitspraak 3: in het binnenland is de afstand tussen het vestigingsgebied en het vertrekgebied voor de arbeiders van Foxconn kleiner geworden.</p><p>Neem de cijfers 1, 2 en 3 van de uitspraken over op het antwoordblad en zet erachter of de uitspraak juist of onjuist is.</p>",
+          "correct_antwoord_model": "<table><tbody><tr><td>1 = juist</td><td></td></tr><tr><td>2 = onjuist</td><td></td></tr><tr><td>3 = juist</td><td></td></tr><tr><td>indien drie juiste antwoorden</td><td>2</td></tr><tr><td>indien twee juiste antwoorden</td><td>1</td></tr><tr><td>indien minder dan twee juiste antwoorden</td><td>0</td></tr></tbody></table>"
+        },
+        {
+          "id": 47,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p><strong>bron 40</strong></p><p>Foxconn-fabrieken in China</p><p>Door de verschuiving van de nieuwe Foxconn-fabrieken is de economische ongelijkheid in China veranderd.</p>",
+          "bronverwijzing_tekst": "Bekijk bron 40.",
+          "bron_verwijzing": "vmbo_aardrijkskunde_tv1_opgave3_bron40.png",
+          "vraagtekst_html": "<p>Geef aan waarom de economische ongelijkheid tussen inwoners van steden door een nieuwe Foxconn-fabriek toeneemt.</p><p>Geef aan waarom de economische ongelijkheid tussen kustprovincies en provincies in het binnenland door nieuwe Foxconn-fabrieken kleiner is geworden.</p>",
+          "correct_antwoord_model": "<p>Uit het antwoord over de economische ongelijkheid tussen inwoners van steden moet blijken dat voor stedelingen die voor Foxconn gingen werken, het inkomen erg gestegen is en voor andere stedelingen niet. (1 punt)</p><p>Uit het antwoord over de economische ongelijkheid tussen de (kust)provincies moet blijken dat provincies in het binnenland een groeiende werkgelegenheid / welvaart hebben gehad, (daardoor is de economische ongelijkheid met kustprovincies kleiner geworden). (1 punt)</p>"
+        }
+      ]
+    }
+  ]
+}
