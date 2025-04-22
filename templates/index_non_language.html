@@ -323,5 +323,138 @@
     <!-- Load the main script AFTER currentVraagData is defined -->
     <script src="{{ url_for('static', filename='script_mc.js') }}?v=1.1"></script>
 
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const submitButton = document.getElementById('submitAnswer');
+        const bodyData = document.body.dataset;
+        const questionType = bodyData.vraagType;
+
+        // <<< NEW: Explicitly enable button for multiple_gap_choice on load >>>
+        if (submitButton && questionType === 'multiple_gap_choice') {
+            submitButton.disabled = false; 
+        }
+        // <<< END NEW >>>
+
+        if (submitButton) {
+            submitButton.addEventListener('click', function(event) {
+                // const bodyData = document.body.dataset; // Already defined above
+                // const questionType = bodyData.vraagType; // Already defined above
+                const feedbackUrl = bodyData.feedbackUrl;
+                const selectedModel = getSelectedModel(); // Assumes getSelectedModel() exists
+
+                if (questionType === 'multiple_gap_choice') {
+                    event.preventDefault(); // Prevent default if handled here
+                    event.stopPropagation(); // Stop other listeners (like in script_mc.js)
+
+                    const gapSelects = document.querySelectorAll('.gap-select');
+                    const gapAnswers = {};
+                    let allAnswered = true;
+
+                    gapSelects.forEach(select => {
+                        const gapId = select.dataset.gapId;
+                        const selectedValue = select.value;
+                        if (!selectedValue) {
+                            allAnswered = false;
+                        }
+                        gapAnswers[gapId] = selectedValue;
+                    });
+
+                    if (!allAnswered) {
+                        alert('Vul alsjeblieft alle invulvelden in voordat je controleert.');
+                        return; // Stop submission
+                    }
+
+                    // Show loading indicator
+                    const loadingIndicator = document.getElementById('loadingIndicator');
+                    const feedbackContent = document.getElementById('feedbackContent');
+                    const feedbackBox = document.getElementById('feedbackBox');
+                    const errorIndicator = document.getElementById('errorIndicator');
+                    const followUpChat = document.getElementById('followUpChat');
+                    const sendFollowUpButton = document.getElementById('sendFollowUp');
+
+
+                    if (loadingIndicator) loadingIndicator.style.display = 'block';
+                    if (feedbackContent) feedbackContent.innerHTML = '';
+                    if (errorIndicator) errorIndicator.style.display = 'none';
+                    if (feedbackBox) feedbackBox.style.display = 'none'; // Hide initially
+                    
+                    // Disable button while processing
+                    submitButton.disabled = true;
+
+                    // Send the request with the correctly formatted dictionary
+                    fetch(feedbackUrl, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ answer: gapAnswers, selected_model: selectedModel }) // Send the dictionary
+                    })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        if (loadingIndicator) loadingIndicator.style.display = 'none';
+                        if (feedbackContent && data.feedback) {
+                            feedbackContent.innerHTML = marked.parse(data.feedback); // Use marked to render Markdown
+                            feedbackBox.style.display = 'block'; // Show feedback box
+                            
+                            // Update box border based on status
+                            feedbackBox.classList.remove('feedback-correct', 'feedback-incorrect', 'feedback-partial', 'feedback-pending', 'feedback-unknown');
+                            if (data.status) {
+                                feedbackBox.classList.add(`feedback-${data.status}`);
+                            } else {
+                                feedbackBox.classList.add('feedback-unknown');
+                            }
+                            
+                            // Enable follow-up chat
+                            if (followUpChat) followUpChat.style.display = 'block';
+                            if (sendFollowUpButton) sendFollowUpButton.disabled = false;
+
+
+                        } else if (data.error) {
+                            console.error("Error from server:", data.error);
+                            if (errorIndicator) {
+                                errorIndicator.textContent = `Fout: ${data.error}`;
+                                errorIndicator.style.display = 'block';
+                            }
+                             if (feedbackBox) feedbackBox.style.display = 'block'; // Show box even on error
+                             feedbackBox.classList.remove('feedback-correct', 'feedback-incorrect', 'feedback-partial', 'feedback-pending', 'feedback-unknown');
+                             feedbackBox.classList.add('feedback-error'); // Add error class
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Fetch error:', error);
+                        if (loadingIndicator) loadingIndicator.style.display = 'none';
+                        if (errorIndicator) {
+                            errorIndicator.textContent = 'Netwerkfout of serverfout bij ophalen feedback.';
+                            errorIndicator.style.display = 'block';
+                        }
+                        if (feedbackBox) feedbackBox.style.display = 'block'; // Show box even on error
+                        feedbackBox.classList.remove('feedback-correct', 'feedback-incorrect', 'feedback-partial', 'feedback-pending', 'feedback-unknown');
+                        feedbackBox.classList.add('feedback-error'); // Add error class
+                    })
+                    .finally(() => {
+                         // Re-enable button after fetch completes (success or error)
+                         // Only re-enable if feedback isn't already correct? Or always? Let's always re-enable for now.
+                         submitButton.disabled = false; 
+                    });
+                }
+                // If not multiple_gap_choice, let the default behavior or script_mc.js handle it.
+            });
+        }
+        
+        // Helper function to get the selected model (assuming it exists elsewhere)
+        function getSelectedModel() {
+             const toggle = document.getElementById('modelToggleSwitch');
+             // Return the full model name based on the toggle state
+             // These names MUST match the keys expected by the backend's configure_genai function
+             return toggle && toggle.checked ? 'gemini-2.5-flash-preview-04-17' : 'gemini-2.0-flash'; 
+        }
+    });
+    </script>
+
 </body>
 </html> 

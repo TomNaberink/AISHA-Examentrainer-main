@@ -85,16 +85,27 @@ def toon_vraag(subject, level, time_period, question_id):
         # Redirect naar de hoofdpagina (/) die doorverwijst naar de centrale selectiepagina
         return redirect(url_for('index'))
     
-    # --- Re-enable server-side LaTeX processing --- 
     # <<< COMMENTED OUT - Potential cause of missing context >>>
-    # if 'context_html' in vraag_data and vraag_data['context_html']:
-    #     vraag_data['context_html'] = convert_latex_to_mathml(vraag_data['context_html'])
+    if 'context_html' in vraag_data and vraag_data['context_html']:
+         vraag_data['context_html'] = convert_latex_to_mathml(vraag_data['context_html'])
     # --- End processing --- 
     
+    # <<< ADD PROCESSING FOR VRAAGTEKST >>>
+    if 'vraagtekst_html' in vraag_data and vraag_data['vraagtekst_html']:
+        vraag_data['vraagtekst_html'] = convert_latex_to_mathml(vraag_data['vraagtekst_html'])
+    # <<< END ADDED PROCESSING >>>
+
     # --- Re-enable server-side LaTeX processing --- 
     if 'correct_antwoord_model' in vraag_data and vraag_data['correct_antwoord_model']:
         vraag_data['correct_antwoord_model'] = convert_latex_to_mathml(vraag_data['correct_antwoord_model'])
     # --- End processing --- 
+
+    # <<< ADD PROCESSING FOR MC OPTIONS >>>
+    if vraag_data.get('type') == 'mc' and 'options' in vraag_data:
+        for option in vraag_data['options']:
+            if 'text' in option and option['text']:
+                option['text'] = convert_latex_to_mathml(option['text'])
+    # <<< END ADDED PROCESSING >>>
     
     max_vraag_id = get_max_question_id(subject, level, time_period)
     question_type = vraag_data.get('type', '').lower()
