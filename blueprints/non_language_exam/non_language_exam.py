@@ -39,7 +39,9 @@ from prompts import (
     HINT_PROMPT_TEMPLATE,
     FOLLOW_UP_PROMPT_TEMPLATE,
     THEORY_EXPLANATION_PROMPT,
-    METAPHOR_EXPLANATION_PROMPT
+    METAPHOR_EXPLANATION_PROMPT,
+    CONTINUE_THEORY_PROMPT,
+    THEORY_EXPLANATION_MC_PROMPT
 )
 
 # Configure Google Generative AI with API key
@@ -87,7 +89,7 @@ def toon_vraag(subject, level, time_period, question_id):
     
     # <<< COMMENTED OUT - Potential cause of missing context >>>
     if 'context_html' in vraag_data and vraag_data['context_html']:
-         vraag_data['context_html'] = convert_latex_to_mathml(vraag_data['context_html'])
+        vraag_data['context_html'] = convert_latex_to_mathml(vraag_data['context_html'])
     # --- End processing --- 
     
     # <<< ADD PROCESSING FOR VRAAGTEKST >>>
@@ -199,8 +201,10 @@ def configure_genai(model_name=None):
 
     if selected_model_name == 'gemini-2.5-flash-preview-04-17': # <<< Use correct full name
         try:
+            # <<< FIX: Prepend 'models/' to the name >>>
+            formatted_model_name = f"models/{selected_model_name}"
             # Attempt to get the model details to find its limit
-            model_info = genai.get_model(selected_model_name)
+            model_info = genai.get_model(formatted_model_name) # Use formatted name
             limit = model_info.output_token_limit
             if limit:
                 budget = int(limit * 0.80) # Calculate 80% budget
@@ -469,16 +473,17 @@ def get_hint(subject, level, time_period, question_id):
         else:
             # Gebruik generieke hint prompt voor andere (niet-taal) types
             # Let op: HINT_PROMPT_TEMPLATE is erg gericht op MC, misschien aanpassen?
-            source_text_snippet = question_data.get('bron_tekst_html', '') # Leeg voor non-language
-            if source_text_snippet: source_text_snippet = source_text_snippet[:300] + "..."
-            else: source_text_snippet = "N.v.t."
+            # VEILIGHEIDSCONTROLE: Haal source_text_content op met fallback
+            source_text_content = question_data.get('source_text_content', 'N.v.t.') 
+            if len(source_text_content) > 300: # Nog steeds inkorten indien wel aanwezig
+                source_text_content = source_text_content[:300] + "..."
             
             prompt_text = HINT_PROMPT_TEMPLATE.format(
                 vraag_id=question_id,
                 vak=subject,
                 niveau=level,
                 exam_question=question_data.get('vraagtekst_html', ''), # Gebruik _html versie
-                source_text_snippet=source_text_snippet,
+                source_text_content=source_text_content, # <<< GEWIJZIGD van source_text_snippet
                 options_text="" # Geen MC opties hier
             )
 
@@ -588,6 +593,9 @@ def get_follow_up(subject, level, time_period, question_id):
         traceback.print_exc() # Print detailed traceback to Flask console
         return jsonify({'error': f'Error generating follow-up answer: {str(e)}'}), 500
 
+# Near the top, perhaps after imports
+CONTINUATION_MARKER = "[... wordt vervolgd ...]"
+
 @non_language_exam_bp.route('/<subject>/<level>/<time_period>/vraag/<int:question_id>/get_theory_explanation_calculation', methods=['GET'])
 def get_theory_explanation_calculation(subject, level, time_period, question_id):
     """Generate a theory explanation for the current question (Non-Language)"""
@@ -624,7 +632,7 @@ def get_theory_explanation_calculation(subject, level, time_period, question_id)
                 vak=subject,
                 niveau=level,
                 exam_question=question_data.get('vraagtekst_html', ''), # Gebruik _html versie
-                source_text_snippet=source_text_snippet,
+                source_text_content=source_text_snippet, # <<< GEWIJZIGD van source_text_snippet
                 options_text="" # Geen MC opties hier
             )
 
@@ -639,10 +647,25 @@ def get_theory_explanation_calculation(subject, level, time_period, question_id)
             full_prompt = SYSTEM_PROMPT + "\n\n" + prompt_text
             response = model.generate_content(full_prompt)
             explanation = response.text
+            # <<< DEBUG: Log raw response >>>
+            print(f"RAW AI Theory Response:\n{explanation}\n--- END RAW ---")
+            # <<< END DEBUG >>>
+
             # <<< Convert LaTeX in explanation to MathML >>>
             explanation = convert_latex_to_mathml(explanation)
-            print(f"---> Theory Explanation Received: {explanation[:100]}...")
-            return jsonify({'explanation': explanation})
+
+            # <<< MODIFIED: Check if marker is anywhere in the text >>>
+            is_complete = True
+            cleaned_explanation = explanation
+            if CONTINUATION_MARKER in explanation:
+                is_complete = False
+                # Remove the marker from the text sent to the frontend (replace first occurrence)
+                cleaned_explanation = explanation.replace(CONTINUATION_MARKER, '', 1).strip()
+            # <<< END MODIFIED >>>
+
+            print(f"---> Theory Explanation Received (Complete: {is_complete}): {cleaned_explanation[:100]}...")
+            # <<< MODIFIED: Return JSON with is_complete flag >>>
+            return jsonify({'explanation': cleaned_explanation, 'is_complete': is_complete})
         
         except Exception as e:
             print(f"CRITICAL: Error generating theory explanation (calculation) for Q{question_id}: {e}")
@@ -670,28 +693,43 @@ def get_theory_explanation_open(subject, level, time_period, question_id):
         prompt_text = ""
 
         if question_type == 'open_non_language':
+            # VEILIGHEIDSCONTROLE: Haal source_text_content op met fallback
+            source_text_content = question_data.get('source_text_content', 'N.v.t.') 
+            
             prompt_text = THEORY_EXPLANATION_PROMPT.format(
                 vraag_id=question_id,
                 vak=subject,
                 niveau=level,
                 question_type=question_type,
                 exam_question=question_data.get('vraagtekst_html', ''),
+                source_text_content=source_text_content, # << Gebruik veilige waarde
                 exam_context=question_data.get('context_html', 'Geen context beschikbaar.')
             )
-        else:
-            # Gebruik generieke hint prompt voor andere (niet-taal) types
-            # Let op: HINT_PROMPT_TEMPLATE is erg gericht op MC, misschien aanpassen?
-            source_text_snippet = question_data.get('bron_tekst_html', '') # Leeg voor non-language
-            if source_text_snippet: source_text_snippet = source_text_snippet[:300] + "..."
-            else: source_text_snippet = "N.v.t."
+        elif question_type == 'mc':
+            # Format options for the MC theory prompt
+            options_list = question_data.get('options', [])
+            options_text_formatted = "\n".join([f"{opt.get('id', '?')}: {opt.get('text', '')}" for opt in options_list])
+            correct_answer_key = question_data.get('correct_answer', '?')
             
-            prompt_text = HINT_PROMPT_TEMPLATE.format(
+            prompt_text = THEORY_EXPLANATION_MC_PROMPT.format(
                 vraag_id=question_id,
                 vak=subject,
                 niveau=level,
-                exam_question=question_data.get('vraagtekst_html', ''), # Gebruik _html versie
-                source_text_snippet=source_text_snippet,
-                options_text="" # Geen MC opties hier
+                exam_context=question_data.get('context_html', 'Geen context beschikbaar.'),
+                exam_question=question_data.get('vraagtekst_html', ''),
+                options_text=options_text_formatted,
+                correct_answer_key=correct_answer_key
+            )
+        else:
+            # Fallback to generic THEORY prompt, NOT HINT prompt
+            print(f"Warning: Unexpected question type '{question_type}' in get_theory_explanation_open. Using generic THEORY_EXPLANATION_PROMPT.")
+            prompt_text = THEORY_EXPLANATION_PROMPT.format(
+                vraag_id=question_id,
+                vak=subject,
+                niveau=level,
+                question_type=question_type, # Pass the actual type
+                exam_question=question_data.get('vraagtekst_html', ''),
+                exam_context=question_data.get('context_html', 'Geen context beschikbaar.')
             )
 
         # Roep Gemini aan
@@ -705,10 +743,25 @@ def get_theory_explanation_open(subject, level, time_period, question_id):
             full_prompt = SYSTEM_PROMPT + "\n\n" + prompt_text
             response = model.generate_content(full_prompt)
             explanation = response.text
+            # <<< DEBUG: Log raw response >>>
+            print(f"RAW AI Theory Response (Open):\n{explanation}\n--- END RAW ---")
+            # <<< END DEBUG >>>
+
             # <<< Convert LaTeX in explanation to MathML >>>
             explanation = convert_latex_to_mathml(explanation)
-            print(f"---> Theory Explanation Received: {explanation[:100]}...")
-            return jsonify({'explanation': explanation})
+
+            # <<< MODIFIED: Check if marker is anywhere in the text >>>
+            is_complete = True
+            cleaned_explanation = explanation
+            if CONTINUATION_MARKER in explanation:
+                is_complete = False
+                # Remove the marker from the text sent to the frontend (replace first occurrence)
+                cleaned_explanation = explanation.replace(CONTINUATION_MARKER, '', 1).strip()
+            # <<< END MODIFIED >>>
+
+            print(f"---> Theory Explanation Received (Complete: {is_complete}): {cleaned_explanation[:100]}...")
+            # <<< MODIFIED: Return JSON with is_complete flag >>>
+            return jsonify({'explanation': cleaned_explanation, 'is_complete': is_complete})
         
         except Exception as e:
             print(f"CRITICAL: Error generating theory explanation (open) for Q{question_id}: {e}")
@@ -736,7 +789,9 @@ def get_theory_explanation_multiple_gap_choice(subject, level, time_period, ques
         prompt_text = ""
 
         if question_type == 'multiple_gap_choice':
-            prompt_text = FEEDBACK_PROMPT_MULTIPLE_GAP_CHOICE.format(
+            # <<< Verwijzing naar correcte prompt voor MGC theorie >>>
+            # Gebruik THEORY_EXPLANATION_PROMPT, niet FEEDBACK_PROMPT_MULTIPLE_GAP_CHOICE
+            prompt_text = THEORY_EXPLANATION_PROMPT.format(
                 vraag_id=question_id,
                 vak=subject,
                 niveau=level,
@@ -756,7 +811,7 @@ def get_theory_explanation_multiple_gap_choice(subject, level, time_period, ques
                 vak=subject,
                 niveau=level,
                 exam_question=question_data.get('vraagtekst_html', ''), # Gebruik _html versie
-                source_text_snippet=source_text_snippet,
+                source_text_content=source_text_snippet, # <<< GEWIJZIGD van source_text_snippet
                 options_text="" # Geen MC opties hier
             )
 
@@ -771,8 +826,25 @@ def get_theory_explanation_multiple_gap_choice(subject, level, time_period, ques
             full_prompt = SYSTEM_PROMPT + "\n\n" + prompt_text
             response = model.generate_content(full_prompt)
             explanation = response.text
-            print(f"---> Theory Explanation Received: {explanation[:100]}...")
-            return jsonify({'explanation': explanation})
+            # <<< DEBUG: Log raw response >>>
+            print(f"RAW AI Theory Response (MGC):\n{explanation}\n--- END RAW ---")
+            # <<< END DEBUG >>>
+
+            # <<< Convert LaTeX in explanation to MathML >>>
+            explanation = convert_latex_to_mathml(explanation)
+
+            # <<< MODIFIED: Check if marker is anywhere in the text >>>
+            is_complete = True
+            cleaned_explanation = explanation
+            if CONTINUATION_MARKER in explanation:
+                is_complete = False
+                # Remove the marker from the text sent to the frontend (replace first occurrence)
+                cleaned_explanation = explanation.replace(CONTINUATION_MARKER, '', 1).strip()
+            # <<< END MODIFIED >>>
+
+            print(f"---> Theory Explanation Received (Complete: {is_complete}): {cleaned_explanation[:100]}...")
+             # <<< MODIFIED: Return JSON with is_complete flag >>>
+            return jsonify({'explanation': cleaned_explanation, 'is_complete': is_complete})
 
         except Exception as e:
             print(f"CRITICAL: Error generating theory explanation (MGC) for Q{question_id}: {e}")
@@ -842,3 +914,73 @@ def get_metaphor_explanation(subject, level, time_period, question_id):
     except Exception as e:
         print(f"Error in get_metaphor_explanation route for Q{question_id}: {e}")
         return jsonify({'error': 'Interne serverfout.', 'status': 'error'}), 500
+
+# <<< NEW ROUTE FOR THEORY CONTINUATION >>>
+@non_language_exam_bp.route('/<subject>/<level>/<time_period>/vraag/<int:question_id>/get_theory_continuation', methods=['POST'])
+def get_theory_continuation(subject, level, time_period, question_id):
+    """Generate the next part of a potentially long theory explanation."""
+    try:
+        data = request.get_json()
+        if not data:
+            return jsonify({'error': 'Invalid request body'}), 400
+
+        previous_explanation = data.get('previous_explanation')
+        selected_model = data.get('selected_model')
+
+        if previous_explanation is None: # Allow empty string, but not None
+            return jsonify({'error': 'Missing previous_explanation'}), 400
+
+        # Fetch original question data for context in the prompt
+        question_data = get_question_data(subject, level, time_period, question_id)
+        if not question_data:
+            return jsonify({'error': 'Original question data not found'}), 404
+        
+        question_type = question_data.get('type', 'unknown')
+        exam_question=question_data.get('vraagtekst_html', '')
+        exam_context=question_data.get('context_html', 'Geen context beschikbaar.')
+
+        # Format the continuation prompt
+        prompt_text = CONTINUE_THEORY_PROMPT.format(
+            vraag_id=question_id,
+            vak=subject,
+            niveau=level,
+            question_type=question_type,
+            exam_question=exam_question,
+            exam_context=exam_context,
+            previous_explanation=previous_explanation # Pass the previous part
+        )
+
+        # Call Generative AI
+        model, error_message = configure_genai(model_name=selected_model)
+        if error_message:
+            return jsonify({"error": error_message}), 500
+
+        print(f"\nDEBUG (Non-Lang): Calling Gemini for Theory Continuation Q{question_id}...")
+        full_prompt = SYSTEM_PROMPT + "\n\n" + prompt_text
+        response = model.generate_content(full_prompt)
+        explanation_chunk = response.text
+        # <<< DEBUG: Log raw response >>>
+        print(f"RAW AI Theory Continuation Chunk:\n{explanation_chunk}\n--- END RAW ---")
+        # <<< END DEBUG >>>
+        
+        # Convert potential LaTeX in the new chunk
+        explanation_chunk = convert_latex_to_mathml(explanation_chunk)
+
+        # <<< MODIFIED: Check if marker is anywhere in the chunk >>>
+        is_complete = True
+        cleaned_chunk = explanation_chunk
+        if CONTINUATION_MARKER in explanation_chunk:
+            is_complete = False
+            # Remove the marker from the chunk sent to the frontend (replace first occurrence)
+            cleaned_chunk = explanation_chunk.replace(CONTINUATION_MARKER, '', 1).strip()
+        # <<< END MODIFIED >>>
+
+        print(f"---> Theory Continuation Chunk Received (Complete: {is_complete}): {cleaned_chunk[:100]}...")
+        # Return the chunk and completion status
+        return jsonify({'explanation_chunk': cleaned_chunk, 'is_complete': is_complete})
+
+    except Exception as e:
+        print(f"CRITICAL: Error generating theory continuation for Q{question_id}: {e}")
+        import traceback
+        traceback.print_exc()
+        return jsonify({'error': 'Fout bij genereren vervolg van theorie uitleg.', 'status': 'error'}), 500

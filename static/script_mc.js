@@ -244,7 +244,90 @@ document.addEventListener('DOMContentLoaded', function() {
                 mcButtons.forEach(btn => btn.disabled = true);
             } else if (currentVraagType === 'wel_niet') {
                 const welNietButtons = welNietOptionsContainer.querySelectorAll('.wel-niet-button');
-                welNietButtons.forEach(btn => btn.disabled = true);
+                console.log('Wel/Niet Buttons gevonden:', welNietButtons.length); // DEBUG
+                welNietButtons.forEach(button => {
+                    button.addEventListener('click', function() { // <<< Correcte listener
+                        console.log('Wel/Niet knop geklikt!', this.dataset.beweringId, this.dataset.answer); // DEBUG
+                        const beweringId = this.dataset.beweringId;
+                        const answer = this.dataset.answer;
+
+                        // Update the answer storage
+                        userAnswer[beweringId] = answer;
+
+                        // Update visual selection for this specific bewering
+                        const parentOptionDiv = this.closest('.wel-niet-option');
+                        if (parentOptionDiv) {
+                            const buttonsInGroup = parentOptionDiv.querySelectorAll('.wel-niet-button');
+                            buttonsInGroup.forEach(btn => btn.classList.remove('active'));
+                            this.classList.add('active');
+                        }
+
+                        // Check if all are selected to enable submit
+                        checkAllWelNietSelected();
+                    });
+                });
+            } else if (currentVraagType === 'open' || currentVraagType === 'citeer' || currentVraagType === 'open_non_language' || currentVraagType === 'calculation') {
+                if (submitButton) submitButton.disabled = false; 
+            } else if (currentVraagType === 'multiple_gap_choice') {
+                if (submitButton) submitButton.disabled = true; 
+                function checkAllGapChoicesMade() { /*...*/ }
+                const gapSelects = document.querySelectorAll('.gap-select');
+                gapSelects.forEach(select => { select.addEventListener('change', checkAllGapChoicesMade); });
+                checkAllGapChoicesMade(); 
+            } else if (currentVraagType === 'tabel_invullen') {
+                const tabelInputs = document.querySelectorAll('#tabelInvullenContainer .tabel-input');
+                const answerData = {};
+                let allFilled = true;
+                tabelInputs.forEach(input => {
+                    const key = input.dataset.key;
+                    const value = input.value.trim();
+                    if (!value) { // Check if the textarea is empty
+                        allFilled = false;
+                    }
+                    answerData[key] = value;
+                });
+                if (allFilled) { // Only submit if all textareas have content
+                    getFeedback(answerData);
+                } else {
+                    console.warn("Tabel Invullen: Niet alle velden ingevuld.");
+                    // Optionally, provide feedback to the user, e.g., highlight empty fields
+                    // alert("Vul alstublieft alle velden in voordat u verstuurt."); 
+                }
+            } else if (['open_nl', 'citeer', 'open', 'nummering', 'open_non_language', 'calculation'].includes(currentVraagType)) {
+                const openAnswerInput = document.getElementById('openAnswer');
+                if (openAnswerInput && openAnswerInput.value.trim()) {
+                    getFeedback(openAnswerInput.value.trim());
+                } else {
+                     console.warn("Open Vraag: Geen antwoord ingevuld.");
+                     // Optionally show a message
+                }
+            } else if (currentVraagType === 'match') {
+                const matchSelects = document.querySelectorAll('.match-select');
+                const numLeftItems = document.querySelectorAll('.match-item-left').length;
+
+                function checkAllMatched() {
+                     let allSelected = true;
+                    let countSelected = 0;
+                    matchAnswers = {}; // Reset answers object
+                    matchSelects.forEach(select => {
+                        const leftId = select.dataset.leftId;
+                        if (select.value) { 
+                            matchAnswers[leftId] = select.value; // Store selection
+                            countSelected++;
+                        } else {
+                             allSelected = false;
+                         }
+                     });
+                    // Enable button only if every left item has a selection
+                    submitButton.disabled = countSelected !== numLeftItems; 
+                }
+
+                matchSelects.forEach(select => {
+                    select.addEventListener('change', checkAllMatched);
+                });
+
+                // Initial check in case of page reload with selections (less likely but good practice)
+                checkAllMatched(); 
             }
         })
         .catch(error => {
@@ -416,37 +499,132 @@ document.addEventListener('DOMContentLoaded', function() {
         }
        
         if (currentVraagType === 'mc' && mcOptionsContainer) {
-             const mcButtons = mcOptionsContainer.querySelectorAll('.mc-option-button');
-             mcButtons.forEach(button => {
-                 button.addEventListener('click', function() { 
+            const mcButtons = mcOptionsContainer.querySelectorAll('.mc-option-button');
+            mcButtons.forEach(button => {
+                button.addEventListener('click', function() {
                      mcButtons.forEach(btn => { btn.classList.remove('active'); });
-                     this.classList.add('active');
+                    this.classList.add('active');
                      userAnswer = this.dataset.option;
                      if (submitButton) submitButton.disabled = false;
-                 });
-             });
+                });
+            });
              if (submitButton) submitButton.disabled = true;
         } else if (currentVraagType === 'wel_niet' && welNietOptionsContainer) {
-             if (submitButton) submitButton.disabled = true;
+             // console.log('Checking wel_niet condition. Type:', currentVraagType, 'Container Element:', welNietOptionsContainer); // DEBUG -> REMOVE
+
+             // --- START RE-ADDED CODE BLOCK ---
+             // Initialize userAnswer as an object for wel_niet
+             const numBeweringen = welNietOptionsContainer.querySelectorAll('.wel-niet-option').length;
+             userAnswer = {};
+             for (let i = 0; i < numBeweringen; i++) {
+                 userAnswer[i] = null; // Initialize all answers to null
+             }
+
+             const welNietButtons = welNietOptionsContainer.querySelectorAll('.wel-niet-button');
+             welNietButtons.forEach(button => {
+                 button.addEventListener('click', function() {
+                     const beweringId = this.dataset.beweringId;
+                     const answer = this.dataset.answer;
+
+                     // Update the answer storage
+                     userAnswer[beweringId] = answer;
+
+                     // Update visual selection for this specific bewering
+                     const parentOptionDiv = this.closest('.wel-niet-option');
+                     if (parentOptionDiv) {
+                         const buttonsInGroup = parentOptionDiv.querySelectorAll('.wel-niet-button');
+                         buttonsInGroup.forEach(btn => btn.classList.remove('active'));
+                         this.classList.add('active');
+                     }
+
+                     // Check if all are selected to enable submit
+                     checkAllWelNietSelected();
+                 });
+             });
+             // --- END RE-ADDED CODE BLOCK ---
+
+             if (submitButton) submitButton.disabled = true; // Initial state: disable submit
+
+             // Helper function to check if all wel/niet are selected
              function checkAllWelNietSelected() {
                  let allSelected = true;
-                 for (const id in userAnswer) {
-                     if (userAnswer[id] === null) {
-                         allSelected = false;
-                         break;
+                 // Ensure userAnswer is initialized (should be above)
+                 if (typeof userAnswer === 'object' && userAnswer !== null) {
+                     for (const id in userAnswer) {
+                         if (userAnswer[id] === null) {
+                             allSelected = false;
+                             break;
+                         }
                      }
+                 } else {
+                     allSelected = false; // Not initialized correctly
                  }
                  if (submitButton) submitButton.disabled = !allSelected;
              }
-             checkAllWelNietSelected(); 
-        } else if ((currentVraagType === 'open' || currentVraagType === 'citeer' || currentVraagType === 'open_non_language' || currentVraagType === 'calculation') && document.getElementById('openAnswer')) {
+             checkAllWelNietSelected(); // Initial check
+
+         } else if ((currentVraagType === 'open' || currentVraagType === 'citeer' || currentVraagType === 'open_non_language' || currentVraagType === 'calculation') && document.getElementById('openAnswer')) {
             if (submitButton) submitButton.disabled = false; 
-        } else if (currentVraagType === 'multiple_gap_choice') {
+         } else if (currentVraagType === 'multiple_gap_choice') {
              if (submitButton) submitButton.disabled = true; 
              function checkAllGapChoicesMade() { /*...*/ }
              const gapSelects = document.querySelectorAll('.gap-select');
              gapSelects.forEach(select => { select.addEventListener('change', checkAllGapChoicesMade); });
              checkAllGapChoicesMade(); 
+        } else if (currentVraagType === 'tabel_invullen') {
+            const tabelInputs = document.querySelectorAll('#tabelInvullenContainer .tabel-input');
+            const answerData = {};
+            let allFilled = true;
+            tabelInputs.forEach(input => {
+                const key = input.dataset.key;
+                const value = input.value.trim();
+                if (!value) { // Check if the textarea is empty
+                    allFilled = false;
+                }
+                answerData[key] = value;
+            });
+            if (allFilled) { // Only submit if all textareas have content
+                getFeedback(answerData);
+            } else {
+                console.warn("Tabel Invullen: Niet alle velden ingevuld.");
+                // Optionally, provide feedback to the user, e.g., highlight empty fields
+                // alert("Vul alstublieft alle velden in voordat u verstuurt."); 
+            }
+        } else if (['open_nl', 'citeer', 'open', 'nummering', 'open_non_language', 'calculation'].includes(currentVraagType)) {
+            const openAnswerInput = document.getElementById('openAnswer');
+            if (openAnswerInput && openAnswerInput.value.trim()) {
+                getFeedback(openAnswerInput.value.trim());
+            } else {
+                 console.warn("Open Vraag: Geen antwoord ingevuld.");
+                 // Optionally show a message
+            }
+        } else if (currentVraagType === 'match') {
+            const matchSelects = document.querySelectorAll('.match-select');
+            const numLeftItems = document.querySelectorAll('.match-item-left').length;
+
+            function checkAllMatched() {
+                 let allSelected = true;
+                let countSelected = 0;
+                matchAnswers = {}; // Reset answers object
+                matchSelects.forEach(select => {
+                    const leftId = select.dataset.leftId;
+                    if (select.value) { 
+                        matchAnswers[leftId] = select.value; // Store selection
+                        countSelected++;
+                    } else {
+                         allSelected = false;
+                     }
+                 });
+                // Enable button only if every left item has a selection
+                submitButton.disabled = countSelected !== numLeftItems; 
+            }
+
+            matchSelects.forEach(select => {
+                select.addEventListener('change', checkAllMatched);
+            });
+
+            // Initial check in case of page reload with selections (less likely but good practice)
+            checkAllMatched(); 
         }
 
         // --- Process Context Box --- 
@@ -469,39 +647,81 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         } else {
             console.warn("Context box element not found during setup.");
-        }
-
+         }
+        
         // === ATTACH ALL EVENT LISTENERS HERE ===
 
         if (submitButton) {
-            submitButton.addEventListener('click', () => {
-                let collectedAnswer = null;
-                 if (currentVraagType === 'mc') {
-                    const selectedOption = mcOptionsContainer.querySelector('.mc-option-button.active');
-                    if (selectedOption) collectedAnswer = selectedOption.getAttribute('data-option');
-                 } else if (currentVraagType === 'wel_niet') {
-                 } else if (currentVraagType === 'open' || currentVraagType === 'citeer' || currentVraagType === 'open_non_language' || currentVraagType === 'calculation') {
-                    const textarea = document.getElementById('openAnswer');
-                    if(textarea) collectedAnswer = textarea.value;
-                 } else if (currentVraagType === 'multiple_gap_choice') {
-                    collectedAnswer = {};
-                    let allSelected = true;
-                    const selects = document.querySelectorAll('.gap-select');
-                    selects.forEach(select => {
-                        const gapId = select.getAttribute('data-gap-id');
-                        collectedAnswer[gapId] = select.value;
-                        if (!select.value) allSelected = false;
+             submitButton.addEventListener('click', function() {
+                if (currentVraagType === 'mc') {
+                    if (userAnswer !== null) {
+                        getFeedback(userAnswer);
+                    }
+                } else if (currentVraagType === 'wel_niet') {
+                    const welNietOptions = welNietOptionsContainer.querySelectorAll('.wel-niet-option');
+                    const answers = [];
+                    welNietOptions.forEach((option, index) => {
+                        const activeButton = option.querySelector('.wel-niet-button.active');
+                        answers[index] = activeButton ? activeButton.dataset.answer : null; // Store 'Wel', 'Niet', or null
                     });
-                    if (!allSelected) collectedAnswer = null;
-                 }
-                
-                if (collectedAnswer !== null && (typeof collectedAnswer !== 'object' || Object.keys(collectedAnswer).length > 0) ) {
-                    getFeedback(collectedAnswer);
-                } else {
-                    console.log("No answer provided or selected on submit");
-                    if (currentVraagType === 'multiple_gap_choice') alert("Selecteer een antwoord voor elk gat.");
+                     // Check if all have been answered before submitting
+                    if (answers.every(ans => ans !== null)) {
+                         getFeedback(answers); 
+                         } else {
+                         console.warn("Wel/Niet: Niet alle beweringen beantwoord.");
+                         // Optionally show a message to the user
+                    }
+                } else if (currentVraagType === 'order') {
+                     const orderedItems = Array.from(document.querySelectorAll('#sentenceList .order-item'));
+                     const answerOrder = orderedItems.map(item => item.dataset.id); // Get the IDs in the current order
+                     getFeedback(answerOrder);
+                } else if (currentVraagType === 'gap_fill') {
+                     const gapInputs = document.querySelectorAll('#gapFillContainer .gap-input');
+                     const answers = [];
+                     gapInputs.forEach((input, index) => {
+                         answers[index] = input.value.trim() || null; // Store trimmed value or null
+                     });
+                     // Check if all gaps are filled (or handle differently if empty is allowed)
+                     if (answers.every(ans => ans !== null)) {
+                          getFeedback(answers);
+                     } else {
+                         console.warn("Gap Fill: Niet alle gaten ingevuld.");
+                         // Optionally show a message to the user
+                     }
+                } else if (currentVraagType === 'tabel_invullen') {
+                    const tabelInputs = document.querySelectorAll('#tabelInvullenContainer .tabel-input');
+                    const answerData = {};
+                    let allFilled = true;
+                    tabelInputs.forEach(input => {
+                        const key = input.dataset.key;
+                        const value = input.value.trim();
+                        if (!value) { // Check if the textarea is empty
+                            allFilled = false;
+                        }
+                        answerData[key] = value;
+                    });
+                    if (allFilled) { // Only submit if all textareas have content
+                        getFeedback(answerData);
+                 } else {
+                        console.warn("Tabel Invullen: Niet alle velden ingevuld.");
+                        // Optionally, provide feedback to the user, e.g., highlight empty fields
+                        // alert("Vul alstublieft alle velden in voordat u verstuurt."); 
+                    }
+                } else if (['open_nl', 'citeer', 'open', 'nummering', 'open_non_language', 'calculation'].includes(currentVraagType)) {
+                    const openAnswerInput = document.getElementById('openAnswer');
+                    if (openAnswerInput && openAnswerInput.value.trim()) {
+                        getFeedback(openAnswerInput.value.trim());
+                 } else {
+                         console.warn("Open Vraag: Geen antwoord ingevuld.");
+                         // Optionally show a message
+                    }
+                } else if (currentVraagType === 'match') {
+                    // matchAnswers is updated by the change listener
+                    getFeedback(matchAnswers);
                 }
             });
+        } else {
+            console.error("Submit button not found!");
         }
 
         if (hintButton) {
@@ -519,31 +739,31 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         if (showModelAnswerBtn && modelAnswerBox) {
-            showModelAnswerBtn.addEventListener('click', () => { 
-                modelAnswerBox.style.display = 'block'; 
+            showModelAnswerBtn.addEventListener('click', () => {
+                modelAnswerBox.style.display = 'block';
                 showModelAnswerBtn.style.display = 'none'; 
             });
         }
         if (hideModelAnswerBtn && modelAnswerBox) {
-            hideModelAnswerBtn.addEventListener('click', () => { 
-                modelAnswerBox.style.display = 'none'; 
+             hideModelAnswerBtn.addEventListener('click', () => {
+                 modelAnswerBox.style.display = 'none';
                 if(showModelAnswerBtn) showModelAnswerBtn.style.display = 'inline-block'; 
-            });
-        }
+             });
+         }
 
         if (getTheoryBtn && theoryBox) {
             getTheoryBtn.addEventListener('click', getTheoryExplanation);
-        }
+         }
         if (hideTheoryBtn && theoryBox) {
             hideTheoryBtn.addEventListener('click', () => { theoryBox.style.display = 'none'; });
-        }
-        
+         }
+         
         if (getMetaphorBtn && metaphorBox) {
             getMetaphorBtn.addEventListener('click', getMetaphorExplanation);
-        }
+         }
         if (hideMetaphorBtn && metaphorBox) {
             hideMetaphorBtn.addEventListener('click', () => { metaphorBox.style.display = 'none'; });
-        }
+         }
 
         if (prevButton) {
             prevButton.addEventListener('click', () => {
@@ -557,7 +777,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (nextId <= max_vraag_id) window.location.href = `${base_question_url}${nextId}`;
             });
         }
-        
+
         const submitExamListener = () => {
             console.log("DEBUG: #submitExamBtn clicked! Attempting to show modal.");
             if (completionModal) {
@@ -607,137 +827,12 @@ document.addEventListener('DOMContentLoaded', function() {
     setupQuestionUI();
 
     // === ADD EVENT LISTENERS *AFTER* initial setup ===
-
-    if (submitButton) {
-        submitButton.addEventListener('click', () => {
-            let collectedAnswer = null;
-            if (currentVraagType === 'mc') {
-                const selectedOption = mcOptionsContainer.querySelector('.mc-option-button.selected');
-                if (selectedOption) {
-                    collectedAnswer = selectedOption.getAttribute('data-option');
-                }
-            } else if (currentVraagType === 'wel_niet') {
-                const selectedOption = welNietOptionsContainer.querySelector('.wel-niet-button.selected');
-                if (selectedOption) {
-                    collectedAnswer = selectedOption.getAttribute('data-option');
-                }
-            } else if (currentVraagType === 'open' || currentVraagType === 'citeer' || currentVraagType === 'open_non_language' || currentVraagType === 'calculation') {
-                const textarea = document.getElementById('openAnswer');
-                collectedAnswer = textarea.value;
-            } else if (currentVraagType === 'multiple_gap_choice') {
-                 collectedAnswer = {};
-                 const selects = document.querySelectorAll('.gap-select');
-                 selects.forEach(select => {
-                     const gapId = select.getAttribute('data-gap-id');
-                     collectedAnswer[gapId] = select.value;
-                 });
-                 if (!checkAllGapChoicesMade(collectedAnswer, selects.length)) {
-                     console.warn("Not all gaps filled when submitting");
-                 }
-            }
-
-            if (collectedAnswer !== null && collectedAnswer !== '') {
-                getFeedback(collectedAnswer);
-            } else {
-                console.log("No answer provided or selected on submit");
-            }
-        });
-    }
-
-    if (hintButton) {
-        hintButton.addEventListener('click', getHint);
-    }
+    // <<< REMOVED DUPLICATE EVENT LISTENER CODE BLOCK >>>
+    // The listeners are already being added within setupQuestionUI() 
+    // so this entire block from here down to the corresponding `});` 
+    // before the helper function definitions was redundant and causing issues.
     
-    if (hideHintButton) {
-        hideHintButton.addEventListener('click', () => {
-            hintBox.style.display = 'none';
-        });
-    }
-
-    if (sendFollowUp) {
-        sendFollowUp.addEventListener('click', sendFollowUpQuestion);
-    }
-    
-    if(followUpQuestion) {
-        followUpQuestion.addEventListener('input', () => {
-            sendFollowUp.disabled = followUpQuestion.value.trim() === '';
-        });
-    }
-
-    if (showModelAnswerBtn) {
-        showModelAnswerBtn.addEventListener('click', () => {
-            modelAnswerBox.style.display = 'block';
-            showModelAnswerBtn.style.display = 'none';
-        });
-    }
-    if (hideModelAnswerBtn) {
-        hideModelAnswerBtn.addEventListener('click', () => {
-            modelAnswerBox.style.display = 'none';
-            if (showModelAnswerBtn) {
-                 showModelAnswerBtn.style.display = 'inline-block'; 
-            }
-        });
-    }
-
-    if (getTheoryBtn) {
-        getTheoryBtn.addEventListener('click', getTheoryExplanation);
-    }
-    if (hideTheoryBtn) {
-        hideTheoryBtn.addEventListener('click', () => {
-            theoryBox.style.display = 'none';
-        });
-    }
-    
-    if (getMetaphorBtn) {
-        getMetaphorBtn.addEventListener('click', getMetaphorExplanation);
-    }
-    if (hideMetaphorBtn) {
-        hideMetaphorBtn.addEventListener('click', () => {
-            metaphorBox.style.display = 'none';
-        });
-    }
-
-    if (prevButton) {
-        prevButton.addEventListener('click', () => {
-            const prevId = vraag_id - 1;
-            if (prevId >= 1) {
-                window.location.href = `${base_question_url}${prevId}`;
-            }
-        });
-    }
-    if (nextButton) {
-        nextButton.addEventListener('click', () => {
-            const nextId = vraag_id + 1;
-            if (nextId <= max_vraag_id) {
-                window.location.href = `${base_question_url}${nextId}`;
-            }
-        });
-    }
-    
-    if (closeModalButton) {
-        closeModalButton.addEventListener('click', closeModal);
-    }
-    
-    if (goHomeBtn) {
-        goHomeBtn.addEventListener('click', () => {
-            if (home_url) {
-                 window.location.href = home_url;
-            } else {
-                 console.error("Home URL not found!");
-                 window.location.href = '/'; 
-            }
-        });
-    }
-    
-    if (completionModal) {
-        completionModal.addEventListener('click', (event) => {
-            if (event.target === completionModal) {
-                closeModal();
-            }
-        });
-    }
-    
-});
+}); // <<< THIS IS THE CORRECT END of DOMContentLoaded >>>
 
 // === GLOBAL HELPER FUNCTIONS ===
 
@@ -775,7 +870,7 @@ function setupSortableList(containerId, onUpdateCallback) {
 }
 
 // --- Function to get Theory Explanation --- 
-function getTheoryExplanation() {
+    function getTheoryExplanation() {
     console.log("DEBUG JS: getTheoryExplanation() called.");
     
     const theoryUrlFromBody = document.body.dataset.theoryUrl;
@@ -806,38 +901,38 @@ function getTheoryExplanation() {
     if (theoryContent) theoryContent.innerHTML = '';
 
     fetch(`${theoryUrlFromBody}?selected_model=${currentModel}`)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.json();
-        })
-        .then(data => {
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
             if (theoryLoadingIndicator) theoryLoadingIndicator.style.display = 'none';
-            if (data.explanation) {
+                if (data.explanation) {
                 let theoryText = data.explanation;
                 theoryText = theoryText.replace(/\*\*(.+?)\*\*/gs, '<strong>$1</strong>');
                 theoryText = theoryText.replace(/\n\n/g, '<br><br>');
                 if (theoryContent) theoryContent.innerHTML = theoryText;
                 if (theoryErrorIndicator) theoryErrorIndicator.style.display = 'none';
-            } else if (data.error) {
+                } else if (data.error) {
                 if (theoryContent) theoryContent.innerHTML = '';
                 if (theoryErrorIndicator) {
                     theoryErrorIndicator.textContent = data.error;
                     theoryErrorIndicator.style.display = 'block';
                 }
-            } else {
+        } else {
                 if (theoryContent) theoryContent.innerHTML = '<p>Geen theorie beschikbaar.</p>';
                 if (theoryErrorIndicator) theoryErrorIndicator.style.display = 'none';
-            }
-        })
-        .catch(error => {
-            console.error('Error getting theory explanation:', error);
+                }
+            })
+            .catch(error => {
+                console.error('Error getting theory explanation:', error);
             if (theoryLoadingIndicator) theoryLoadingIndicator.style.display = 'none';
             if (theoryContent) theoryContent.innerHTML = '';
             if (theoryErrorIndicator) {
-                 theoryErrorIndicator.textContent = 'Fout bij ophalen theorie uitleg.';
-                 theoryErrorIndicator.style.display = 'block';
+                theoryErrorIndicator.textContent = 'Fout bij ophalen theorie uitleg.';
+                theoryErrorIndicator.style.display = 'block';
             }
         });
 } 

@@ -62,15 +62,27 @@
             <p class="bronverwijzing-tekst"><em>{{ vraag_data.bronverwijzing_tekst | safe }}</em></p>
         {% endif %}
 
-        {# Bronverwijzing (Afbeelding) - Blijft inklapbare box #}
-        {% if vraag_data.bron_verwijzing %}
-            <div class="box bron-box"> {# Gebruik box styling + specifieke class #}
-                 <details open> {# Standaard open #}
-                     <summary>Bron</summary>
-                     <img src="{{ url_for('static', filename='images/' + vraag_data.bron_verwijzing) }}"
-                          alt="Bronafbeelding voor vraag {{ vraag_data.id or vraag_data.vraag_id }}"
-                          class="img-fluid bron-image">
-                 </details>
+        <!-- DEBUG: Bron Verwijzing = {{ vraag_data.bron_verwijzing }} -->
+        {# Bronverwijzing (Afbeelding) - Corrected logic #}
+        {% if vraag_data.bron_verwijzing is not none %}
+            <div class="bron-container box">
+                {# Check if bron_verwijzing is a list #}
+                {% if vraag_data.bron_verwijzing is iterable and not vraag_data.bron_verwijzing is string %}
+                    {% for bron_image in vraag_data.bron_verwijzing %}
+                        {# ADD EXPLICIT CHECK: Only render img if bron_image is not empty #}
+                        {% if bron_image %}
+                            <img src="{{ url_for('static', filename='images/' + bron_image) }}"
+                                 alt="Bronafbeelding bij vraag {{ vraag_id }} ({{ loop.index }})" class="img-fluid bron-image mb-2" style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                        {% endif %}
+                    {% endfor %}
+                {# Otherwise, assume it's a single string #}
+                {% else %}
+                    {# ADD EXPLICIT CHECK: Only render img if vraag_data.bron_verwijzing is not empty #}
+                    {% if vraag_data.bron_verwijzing %}
+                        <img src="{{ url_for('static', filename='images/' + vraag_data.bron_verwijzing) }}"
+                             alt="Bronafbeelding bij vraag {{ vraag_id }}" class="img-fluid bron-image" style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                    {% endif %}
+                {% endif %}
             </div>
         {% endif %}
 
@@ -84,13 +96,52 @@
         {% endif %}
         {# *** EINDE NIEUW *** #}
 
+        {# --- NIEUW BLOK: Extra Bronnen bij de Vraag --- #}
+        {% if vraag_data.vraag_bronnen %}
+            <div class="extra-sources-box box">
+                <h4>Bronnen bij Vraag {{ vraag_id }}</h4>
+                {% for extra_bron in vraag_data.vraag_bronnen %}
+                    <div class="extra-source-item mb-3">
+                        {% if extra_bron.beschrijving %}
+                            <p><em>{{ extra_bron.beschrijving | safe }}</em></p>
+                        {% endif %}
+                        {# Controleer of het een afbeelding is en toon deze #}
+                        {% if extra_bron.bron_type == 'image' and extra_bron.bron_verwijzing %}
+                            {# Check of bron_verwijzing een lijst is #}
+                            {% if extra_bron.bron_verwijzing is iterable and not extra_bron.bron_verwijzing is string %}
+                                {% for img_path in extra_bron.bron_verwijzing %}
+                                    {% if img_path %}
+                                        <img src="{{ url_for('static', filename='images/' + img_path) }}"
+                                             alt="Extra bronafbeelding {{ loop.index }} voor vraag {{ vraag_id }}"
+                                             class="img-fluid bron-image mb-2"
+                                             style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                                    {% endif %}
+                                {% endfor %}
+                            {# Anders, neem aan dat het een enkele string is #}
+                            {% else %}
+                                {% if extra_bron.bron_verwijzing %}
+                                    <img src="{{ url_for('static', filename='images/' + extra_bron.bron_verwijzing) }}"
+                                         alt="Extra bronafbeelding voor vraag {{ vraag_id }}"
+                                         class="img-fluid bron-image mb-2"
+                                         style="width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+                                {% endif %}
+                            {% endif %}
+                        {% endif %}
+                        {# Voeg hier eventueel logica toe voor andere bron_types (bv. 'text') #}
+                    </div>
+                    {% if not loop.last %}<hr>{% endif %} {# Scheidingslijn tussen bronnen #}
+                {% endfor %}
+            </div>
+        {% endif %}
+        {# --- EINDE NIEUW BLOK --- #}
+
         <div class="question-section box">
             <div class="question-header">
                 <h3>Vraag {{ vraag_id }} <span class="score">(Max. {{ vraag_data.max_score | default('?') }} punt{{ 'en' if (vraag_data.max_score | default(1)) > 1 else '' }})</span></h3>
             </div>
             {# Gebruik vraagtekst_html (non-lang) of vraagtekst (lang) - TAAL = DIKGEDRUKT #}
             <div class="question-content formatted-text">
-                <strong>{{ (vraag_data.vraagtekst_html or vraag_data.vraagtekst) | safe | default('(Geen vraagtekst gevonden)') }}</strong>
+                <strong>{{ (vraag_data.vraagtekst_html or vraag_data.vraagtekst) | replace('\\n', '<br>') | safe | default('(Geen vraagtekst gevonden)') }}</strong>
             </div>
         </div>
 
@@ -210,6 +261,70 @@
                         <span class="toggle-label">Slimste AI-hulp</span>
                     </div>
                 </div>
+            {% elif vraag_data.type == 'tabel_invullen' %}
+                <div class="tabel-invullen-container" id="tabelInvullenContainer">
+                    <p>Vul de antwoorden in voor de onderstaande onderdelen:</p>
+                    {% for key, _ in vraag_data.correct_antwoord.items() %}
+                        <div class="tabel-invullen-item">
+                            <label for="tabel_invullen_{{ key }}">{{ key }}:</label>
+                            <textarea id="tabel_invullen_{{ key }}" name="tabel_invullen_{{ key }}" rows="3" data-key="{{ key }}" class="tabel-input" placeholder="Typ hier je antwoord voor onderdeel {{ key }}..."></textarea>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="button-group">
+                    <button id="submitAnswer">Verstuur Antwoord</button>
+                    <button id="hintButton" class="secondary-button">Vraag Hint</button>
+                    <div class="toggle-switch-container">
+                        <span class="toggle-label">Snelste AI-hulp</span>
+                        <label class="switch">
+                            <input type="checkbox" id="modelToggleSwitch" checked>
+                            <span class="slider round"></span>
+                        </label>
+                        <span class="toggle-label">Slimste AI-hulp</span>
+                    </div>
+                </div>
+            {% elif vraag_data.type == 'match' %}
+                <div class="match-container" id="matchContainer">
+                    <p>{{ vraag_data.vraagtekst | replace('\\n', '<br>') | safe }}</p>
+                    <div class="match-columns">
+                        <div class="match-column match-column-left">
+                            <h4>Linkerkolom</h4>
+                            <ul>
+                                {% for item_links in vraag_data.kolom_links %}
+                                    <li class="match-item-left">
+                                        <span>{{ item_links.id }}. {{ item_links.tekst }}</span>
+                                        <select class="match-select" data-left-id="{{ item_links.id }}">
+                                            <option value="">Kies...</option>
+                                            {% for item_rechts in vraag_data.kolom_rechts %}
+                                                <option value="{{ item_rechts.id }}">{{ item_rechts.id }}. {{ item_rechts.tekst }}</option>
+                                            {% endfor %}
+                                        </select>
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        <div class="match-column match-column-right">
+                            <h4>Rechterkolom</h4>
+                            <ul>
+                                {% for item_rechts in vraag_data.kolom_rechts %}
+                                    <li>{{ item_rechts.id }}. {{ item_rechts.tekst }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="button-group">
+                    <button id="submitAnswer" disabled>Verstuur Antwoord</button>
+                    <button id="hintButton" class="secondary-button">Vraag Hint</button>
+                    <div class="toggle-switch-container">
+                        <span class="toggle-label">Snelste AI-hulp</span>
+                        <label class="switch">
+                            <input type="checkbox" id="modelToggleSwitch" checked>
+                            <span class="slider round"></span>
+                        </label>
+                        <span class="toggle-label">Slimste AI-hulp</span>
+                    </div>
+                </div>
             {% else %}
                  <p><i>Dit vraagtype ({{ vraag_data.type }}) wordt momenteel nog niet ondersteund voor antwoord invoer...</i></p>
              {% endif %}
@@ -292,9 +407,14 @@
 
     </div>
 
+    {# Embed question data as JSON for JavaScript #}
+    <script id="vraagDataJson" type="application/json">
+        {{ vraag_data | tojson | safe }}
+    </script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.15.0/Sortable.min.js"></script>
     <script src="{{ url_for('static', filename='marked.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='script_mc.js') }}" defer></script>
+    <script src="{{ url_for('static', filename='script_mc.js') }}" defer></script> 
 
     <!-- Modal for Completion -->
     <div id="completionModal" class="modal">

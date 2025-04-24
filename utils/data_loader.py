@@ -191,68 +191,92 @@ def get_question_data(subject: str, level: str, time_period: str, question_id: i
 
     # --- Logica om de juiste opgave en vraag te vinden --- 
     target_opgave = None
-    vragen_list = None
     question_data = None
 
-    if 'opgaven' in full_exam_data and isinstance(full_exam_data['opgaven'], list):
+    # Scenario 1: Vragen direct onder hoofdniveau (oudere structuur?)
+    if 'vragen' in full_exam_data and isinstance(full_exam_data['vragen'], list):
+        print("---> get_question_data: Found 'vragen' list at top level. Searching...")
+        for q in full_exam_data['vragen']:
+            q_id = _safe_get_int_id(q)
+            if q_id == question_id:
+                question_data = q.copy() # Maak een kopie
+                # Probeer opgave info te vinden als die ook op top niveau staat?
+                target_opgave = full_exam_data # Minder gestructureerd, maar mogelijk
+                print(f"---> Found Q:{question_id} at top level.")
+                break # Stop met zoeken
+
+    # Scenario 2: Vragen binnen opgaven (standaard structuur)
+    if question_data is None and 'opgaven' in full_exam_data and isinstance(full_exam_data['opgaven'], list):
         print("---> get_question_data: Found 'opgaven' list. Searching within opgaven...")
         for opgave in full_exam_data['opgaven']:
             if isinstance(opgave, dict) and 'vragen' in opgave and isinstance(opgave['vragen'], list):
-                 # Zoek de vraag binnen deze opgave
-                 current_opgave_vragen = opgave['vragen']
-                 # Gebruik de helper functie voor veilige ID vergelijking
-                 found_question = next((q for q in current_opgave_vragen if _safe_get_int_id(q) == question_id), None)
-                 if found_question:
-                     question_data = found_question
-                     target_opgave = opgave # Onthoud de opgave waar de vraag in zat
-                     # Voeg opgave info toe aan de vraag data
-                     question_data['opgave_nr'] = opgave.get('opgave_nr')
-                     question_data['opgave_titel'] = opgave.get('opgave_titel')
-                     if 'context_html' in target_opgave:
-                         question_data['context_html'] = target_opgave.get('context_html')
-                     vragen_list = current_opgave_vragen # Dit is de lijst voor max_id etc.
-                     break # Stop met zoeken door opgaven
+                for q in opgave['vragen']:
+                    q_id = _safe_get_int_id(q)
+                    if q_id == question_id:
+                        target_opgave = opgave # Onthoud de opgave waar de vraag in zit
+                        question_data = q.copy() # Maak een kopie om origineel niet te wijzigen
+                        print(f"---> Found Q:{question_id} within opgave {opgave.get('opgave_nr', '?')}")
+                        break # Stop binnenste loop
+            if question_data: # Als vraag gevonden is in deze opgave
+                break # Stop buitenste loop
     
-    # Fallback: Als 'opgaven' structuur niet bestaat of vraag niet gevonden, probeer direct 'vragen' key
-    if question_data is None:
-        print("---> get_question_data: Question not found in 'opgaven'. Trying root 'vragen' key...")
-        if 'vragen' in full_exam_data and isinstance(full_exam_data['vragen'], list):
-            vragen_list = full_exam_data['vragen']
-            # Gebruik de helper functie voor veilige ID vergelijking
-            question_data = next((q for q in vragen_list if _safe_get_int_id(q) == question_id), None)
-            if question_data:
-                 print(f"---> get_question_data: Question id={question_id} FOUND in root 'vragen' list.")
-        else:
-             print("!!! get_question_data: Could not find a valid 'vragen' list anywhere!")
-             return None # Geen vragenlijst en geen vraag gevonden
-
-    # Als de vraag nog steeds niet gevonden is
-    if question_data is None:
-        print(f"!!! get_question_data: Question with id={question_id} NOT FOUND!")
-        # Optionally print the first few question IDs found in the last checked list:
-        if vragen_list:
-             # Gebruik de helper functie ook hier voor veilige ID extractie
-             ids_found = [_safe_get_int_id(q) for q in vragen_list[:5]]
-             # Filter Nones voor een schonere print
-             ids_found_filtered = [id_val for id_val in ids_found if id_val is not None]
-             print(f"First few valid IDs found in last checked list: {ids_found_filtered}")
-        return None 
-
-    # --- Voeg eventuele Brontekst toe (logica voor taalvakken) --- 
-    text_id = question_data.get('tekst_id')
-    if text_id and 'teksten' in full_exam_data:
-        source_text = next((t for t in full_exam_data.get('teksten', []) if t.get('tekst_id') == text_id), None)
-        if source_text:
-            question_data['bron_tekst_html'] = source_text.get('inhoud_html', '')
-            if 'titel' in source_text:
-                 question_data['tekst_titel'] = source_text.get('titel', '')
-                 print("---> get_question_data: Added bron_tekst_html and tekst_titel to question_data.")
-
-    # Print de uiteindelijke question_data voor debuggen
-    final_keys = list(question_data.keys()) if question_data else []
-    print(f"---> get_question_data: Final question_data keys BEFORE RETURN for id={question_data.get('id', 'N/A')}: {final_keys}")
-
-    return question_data # Return the original dict (plus potentially bron_tekst)
+    # --- Verwerk gevonden data --- 
+    if question_data:
+        print(f"---> get_question_data: Processing found question data.")
+        # Voeg relevante opgave-informatie toe aan de vraag-data
+        # Dit voorkomt het verliezen van vraag-specifieke velden zoals kolom_links/rechts
+        if target_opgave and isinstance(target_opgave, dict):
+             # Voeg alleen toe als de key nog NIET in question_data zit, 
+             # of als deze specifiek opgave-gerelateerd is.
+            opgave_keys_to_add = [
+                'opgave_titel', 'opgave_nr', 'context_html', 
+                'bron_verwijzing', 'bron_tekst_html', 'bron_tekst_plain',
+                'bronverwijzing_tekst' # <<< NIEUW TOEGEVOEGD
+            ]
+            for key in opgave_keys_to_add:
+                if key in target_opgave and key not in question_data:
+                    question_data[key] = target_opgave[key]
+                elif key in target_opgave and key == 'opgave_titel': # Altijd opgave titel toevoegen/overchrijven
+                    question_data[key] = target_opgave[key]
+                elif key in target_opgave and key == 'opgave_nr': # Altijd opgave nr toevoegen/overchrijven
+                    question_data[key] = target_opgave[key]
+                    
+            # Voeg teksten toe als die bij opgave horen en niet bij vraag
+            # Zoek de tekst behorende bij de tekst_id van de vraag
+            question_tekst_id = question_data.get('tekst_id')
+            if question_tekst_id and 'teksten' in full_exam_data and isinstance(full_exam_data['teksten'], list):
+                 for tekst_data in full_exam_data['teksten']:
+                    if isinstance(tekst_data, dict) and tekst_data.get('tekst_id') == question_tekst_id:
+                        # Voeg brontekst toe AAN de vraagdata indien nog niet aanwezig
+                        if 'bron_tekst_plain' not in question_data and 'bron_tekst_plain' in tekst_data:
+                            question_data['bron_tekst_plain'] = tekst_data['bron_tekst_plain']
+                        if 'bron_tekst_html' not in question_data and 'inhoud_html' in tekst_data:
+                             question_data['bron_tekst_html'] = tekst_data['inhoud_html'] # Gebruik inhoud_html als bron_tekst_html
+                        # Voeg bronverwijzing toe AAN de vraagdata indien nog niet aanwezig
+                        if 'bron_verwijzing' not in question_data and 'bron_verwijzing' in tekst_data:
+                             question_data['bron_verwijzing'] = tekst_data['bron_verwijzing']
+                        
+                        # <<< NIEUW: Voeg source_text_content toe >>>
+                        source_text_content = None
+                        if 'bron_tekst_plain' in question_data:
+                            source_text_content = question_data['bron_tekst_plain']
+                        elif 'bron_tekst_html' in question_data: # Fallback
+                            source_text_content = question_data['bron_tekst_html']
+                        
+                        if source_text_content:
+                             question_data['source_text_content'] = source_text_content
+                             
+                        break # Stop met zoeken naar teksten
+                        
+        # Fallback/Default voor opgave titel als niet gevonden
+        if 'opgave_titel' not in question_data:
+            question_data['opgave_titel'] = f"{subject.capitalize()} {level.upper()} {time_period}"
+            
+        # print("Final question_data being returned:", question_data)
+        return question_data
+    else:
+        print(f"!!! get_question_data: Question ID {question_id} not found in the loaded data.")
+        return None
 
 def get_max_question_id(subject: str, level: str, time_period: str) -> int:
     """

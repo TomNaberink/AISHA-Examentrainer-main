@@ -14,6 +14,8 @@ from prompts import (
     FEEDBACK_PROMPT_CITEER,
     FEEDBACK_PROMPT_NUMMERING,
     FEEDBACK_PROMPT_ORDER,
+    FEEDBACK_PROMPT_TABEL_INVULLEN,
+    FEEDBACK_PROMPT_MATCH,
     HINT_PROMPT_TEMPLATE,
     FOLLOW_UP_PROMPT_TEMPLATE,
     THEORY_EXPLANATION_PROMPT
@@ -129,6 +131,10 @@ def toon_vraag(subject, level, time_period, question_id):
          print(f"Error generating URLs for question page: {e}")
          return render_template('error.html', message="Interne fout bij het genereren van links."), 500
 
+    # <<< DEBUG PRINT: Check keys in vraag_data before rendering >>>
+    print(f"--- DEBUG Keys in vraag_data for Q{question_id} before rendering: {list(vraag_data.keys()) if vraag_data else 'None'} ---")
+    # <<< END DEBUG PRINT >>>
+
     # Gebruik de TAAL-specifieke template
     return render_template('index_language.html',
                           vraag_data=vraag_data,
@@ -222,22 +228,37 @@ def get_feedback(subject, level, time_period, question_id):
         return jsonify({'error': 'Internal routing error', 'status': 'error'}), 500
     # ---------------------------------------------------------
 
-    source_text_snippet = question_data.get('bron_tekst_html', '')
-    if source_text_snippet: source_text_snippet = source_text_snippet[:300] + "..."
-    else: source_text_snippet = "N.v.t."
-    
+    # <<< Determine full language name for prompt context >>>
+    language_map = {
+        'nederlands': 'Dutch',
+        'duits': 'German',
+        'frans': 'French',
+        'engels': 'English'
+    }
+    prompt_language = language_map.get(vak_lower, 'Dutch') # Default to Dutch if somehow unknown
+
+    # <<< NEW LOGIC for source text >>>
+    source_text_for_analysis = "Geen brontekst beschikbaar."
+    if question_data.get('bron_tekst_plain'):
+        source_text_for_analysis = question_data['bron_tekst_plain']
+        print(f"DEBUG: Using bron_tekst_plain for analysis (length: {len(source_text_for_analysis)})")
+    elif question_data.get('bron_tekst_html'): # Fallback to HTML if plain text is missing
+        source_text_for_analysis = question_data['bron_tekst_html']
+        print(f"DEBUG: Using bron_tekst_html for analysis (length: {len(source_text_for_analysis)})")
+    # <<< END NEW LOGIC >>>
+
     # === Prompt Selectie voor Taalvakken ===
     if question_type == 'mc':
         prompt = FEEDBACK_PROMPT_MC.format(
             vraag_id=question_id,
             exam_question=question_data.get('vraagtekst', ''),
-            source_text_snippet=source_text_snippet,
+            source_text_content=source_text_for_analysis,
             options_text="\n".join([f"{k}: {v}" for k, v in question_data.get('opties', {}).items()]),
             correct_answer=question_data.get('correct_antwoord', ''),
             max_score=question_data.get('max_score', 1),
             user_answer_key=user_answer,
             user_answer_text=question_data.get('opties', {}).get(user_answer, ''),
-            language="Dutch",
+            language=prompt_language,
             niveau=level,
             vak=subject
         )
@@ -246,6 +267,7 @@ def get_feedback(subject, level, time_period, question_id):
         user_list = user_answer if isinstance(user_answer, list) else []
         total_beweringen = len(correct_list)
         correct_beweringen = 0
+        calculated_score = 0 # Initialize score
         if total_beweringen > 0:
             for i in range(min(len(correct_list), len(user_list))):
                 # Zorg voor consistente vergelijking (bijv. lowercase strings of booleans)
@@ -256,89 +278,120 @@ def get_feedback(subject, level, time_period, question_id):
             # Bereken de score (lineaire schaling als voorbeeld)
             max_score_q = question_data.get('max_score', 1)
             calculated_score = round((correct_beweringen / total_beweringen) * max_score_q) if total_beweringen > 0 else 0
-            prompt = FEEDBACK_PROMPT_WEL_NIET.format(
-                vraag_id=question_id,
-                exam_question=question_data.get('vraagtekst', ''),
-                source_text_snippet=source_text_snippet,
-                beweringen="\n".join([f"- {b}" for b in question_data.get('beweringen', [])]),
-                correct_antwoord=str(question_data.get('correct_antwoord', [])),
-                user_antwoord=str(user_answer),
-                max_score=max_score_q,
-                calculated_score=calculated_score,
-                niveau=level,
-                vak=subject
-            )
-        else:
-            prompt = FEEDBACK_PROMPT_WEL_NIET.format(
-                vraag_id=question_id,
-                exam_question=question_data.get('vraagtekst', ''),
-                source_text_snippet=source_text_snippet,
-                beweringen="\n".join(question_data.get('beweringen', [])),
-                correct_antwoord=str(question_data.get('correct_antwoord', [])),
-                user_antwoord=str(user_answer),
-                max_score=question_data.get('max_score', 1),
-                niveau=level,
-                vak=subject
-            )
+
+        prompt = FEEDBACK_PROMPT_WEL_NIET.format(
+            vraag_id=question_id,
+            exam_question=question_data.get('vraagtekst', ''),
+            source_text_content=source_text_for_analysis,
+            beweringen="\n".join([f"- {b}" for b in question_data.get('beweringen', [])]),
+            correct_antwoord=str(question_data.get('correct_antwoord', [])),
+            user_antwoord=str(user_answer),
+            max_score=max_score_q,
+            calculated_score=calculated_score,
+            niveau=level,
+            vak=subject,
+            language=prompt_language
+        )
     elif question_type == 'gap_fill':
         options_list = question_data.get('options_display', [])
         options_text_formatted = "\n".join([f"- {opt}" for opt in options_list])
         prompt = FEEDBACK_PROMPT_GAP_FILL.format(
             vraag_id=question_id,
             exam_question=question_data.get('vraagtekst', ''),
-            source_text_snippet=source_text_snippet,
+            source_text_content=source_text_for_analysis,
             options_text_formatted=options_text_formatted,
             correct_antwoord=question_data.get('correct_antwoord', []),
             user_antwoord=user_answer,
             max_score=question_data.get('max_score', 1),
             niveau=level,
-            vak=subject
+            vak=subject,
+            language=prompt_language
         )
     elif question_type == 'citeer':
         prompt = FEEDBACK_PROMPT_CITEER.format(
             vraag_id=question_id,
             exam_question=question_data.get('vraagtekst', ''),
-            source_text_snippet=source_text_snippet,
-            correct_antwoord=question_data.get('correct_antwoord', ''),
-            user_antwoord=user_answer,
-            max_score=question_data.get('max_score', 1),
-            niveau=level,
-            vak=subject
-        )
-    elif question_type == 'nummering':
-        prompt = FEEDBACK_PROMPT_NUMMERING.format(
-            vraag_id=question_id,
-            exam_question=question_data.get('vraagtekst', ''),
-            source_text_snippet=source_text_snippet,
-            correct_antwoord=question_data.get('correct_antwoord', ''),
-            user_antwoord=user_answer,
-            max_score=question_data.get('max_score', 1),
-            niveau=level,
-            vak=subject
-        )
-    elif question_type == 'open':
-        prompt = FEEDBACK_PROMPT_OPEN.format(
-            vraag_id=question_id,
-            exam_question=question_data.get('vraagtekst', ''),
-            source_text_snippet=source_text_snippet,
+            source_text_content=source_text_for_analysis,
             correct_antwoord=question_data.get('correct_antwoord', ''),
             user_antwoord=user_answer,
             max_score=question_data.get('max_score', 1),
             niveau=level,
             vak=subject,
-            language="Dutch"
+            language=prompt_language
+        )
+    elif question_type == 'nummering':
+        prompt = FEEDBACK_PROMPT_NUMMERING.format(
+            vraag_id=question_id,
+            exam_question=question_data.get('vraagtekst', ''),
+            source_text_content=source_text_for_analysis,
+            correct_antwoord=question_data.get('correct_antwoord', ''),
+            user_antwoord=user_answer,
+            max_score=question_data.get('max_score', 1),
+            niveau=level,
+            vak=subject,
+            language=prompt_language
+        )
+    elif question_type == 'open':
+        prompt = FEEDBACK_PROMPT_OPEN.format(
+            vraag_id=question_id,
+            exam_question=question_data.get('vraagtekst', ''),
+            source_text_content=source_text_for_analysis,
+            correct_antwoord=question_data.get('correct_antwoord', ''),
+            user_antwoord=user_answer,
+            max_score=question_data.get('max_score', 1),
+            niveau=level,
+            vak=subject,
+            language=prompt_language
         )
     elif question_type == 'order':
         zinnen_text = "\n".join([f"- [{z['id']}] {z['tekst']}" for z in question_data.get('zinnen', [])])
         prompt = FEEDBACK_PROMPT_ORDER.format(
             vraag_id=question_id,
             exam_question=question_data.get('vraagtekst', ''),
+            source_text_content=source_text_for_analysis,
             zinnen_text=zinnen_text,
             correct_volgorde=question_data.get('correct_volgorde', []),
             user_volgorde=user_answer,
             max_score=question_data.get('max_score', 1),
             niveau=level,
-            vak=subject
+            vak=subject,
+            language=prompt_language
+        )
+    elif question_type == 'tabel_invullen':
+        # Format correct answers dictionary for display in prompt
+        correct_answers_str = "\n".join([f"- {k}: {v}" for k, v in question_data.get('correct_antwoord', {}).items()])
+        # Format user answers dictionary for display in prompt
+        user_answers_str = "\n".join([f"- {k}: {v}" for k, v in user_answer.items()]) if isinstance(user_answer, dict) else str(user_answer)
+        
+        prompt = FEEDBACK_PROMPT_TABEL_INVULLEN.format(
+            vraag_id=question_id,
+            exam_question=question_data.get('vraagtekst', ''),
+            source_text_content=source_text_for_analysis,
+            correct_answers_dict=correct_answers_str,
+            user_answers_dict=user_answers_str,
+            max_score=question_data.get('max_score', 1),
+            niveau=level,
+            vak=subject,
+            language=prompt_language
+        )
+    elif question_type == 'match':
+        # Format columns and answers for display in prompt
+        kolom_links_str = "\n".join([f"- {item['id']}: {item['tekst']}" for item in question_data.get('kolom_links', [])])
+        kolom_rechts_str = "\n".join([f"- {item['id']}: {item['tekst']}" for item in question_data.get('kolom_rechts', [])])
+        correct_answers_str = "\n".join([f"- {k} -> {v}" for k, v in question_data.get('correct_antwoord', {}).items()])
+        user_answers_str = "\n".join([f"- {k} -> {v}" for k, v in user_answer.items()]) if isinstance(user_answer, dict) else str(user_answer)
+        
+        prompt = FEEDBACK_PROMPT_MATCH.format(
+            vraag_id=question_id,
+            exam_question=question_data.get('vraagtekst', ''),
+            kolom_links_str=kolom_links_str,
+            kolom_rechts_str=kolom_rechts_str,
+            correct_answers_dict=correct_answers_str,
+            user_answers_dict=user_answers_str,
+            max_score=question_data.get('max_score', 1),
+            niveau=level,
+            vak=subject,
+            language=prompt_language
         )
     
     if not prompt:
@@ -373,6 +426,51 @@ def get_feedback(subject, level, time_period, question_id):
             if isinstance(user_answer, list) and isinstance(correct_volgorde, list) and len(user_answer) == len(correct_volgorde):
                 status = 'correct' if user_answer == correct_volgorde else 'incorrect'
             else: status = 'unknown'
+        elif question_type == 'tabel_invullen':
+            if isinstance(user_answer, dict) and isinstance(correct_answer, dict):
+                correct_count = 0
+                total_items = len(correct_answer)
+                if total_items > 0:
+                    for key in correct_answer:
+                        # Basic check: does user answer for key match correct answer?
+                        # Improvement: Could use fuzzy matching or allow slight variations later.
+                        user_val = str(user_answer.get(key, '')).strip().lower()
+                        correct_val = str(correct_answer.get(key, '')).strip().lower()
+                        if user_val == correct_val:
+                            correct_count += 1
+                    
+                    if correct_count == total_items:
+                        status = 'correct'
+                    elif correct_count > 0:
+                        status = 'partial'
+                    else:
+                        status = 'incorrect'
+                else:
+                    status = 'incorrect' # No correct answers defined?
+            else:
+                status = 'unknown' # Incorrect answer format
+        elif question_type == 'match':
+            if isinstance(user_answer, dict) and isinstance(correct_answer, dict):
+                correct_count = 0
+                total_items = len(correct_answer) 
+                if total_items > 0:
+                    for left_id, correct_right_id in correct_answer.items():
+                        user_right_id = user_answer.get(str(left_id)) # Ensure key is string if needed
+                        # Basic check: does user's selected right ID match the correct right ID?
+                        if str(user_right_id) == str(correct_right_id):
+                            correct_count += 1
+                    
+                    if correct_count == total_items:
+                        status = 'correct'
+                    elif correct_count > 0:
+                        status = 'partial'
+                    else:
+                        status = 'incorrect'
+                else:
+                    status = 'incorrect' # No correct answers defined?
+            else:
+                # Handle case where user_answer might not be a dict (e.g., if JS failed)
+                status = 'unknown' # Or 'incorrect' depending on desired strictness
 
     except Exception as e:
         print(f"Error determining status for language question {question_id}: {e}")
@@ -402,11 +500,13 @@ def get_feedback(subject, level, time_period, question_id):
         print("--- END DEBUG ---\n")
         # <<< EINDE Verbeterde Debug Logging >>>
 
-        # --- Parse Status uit AI Feedback (alleen voor 'open' type) --- 
+        # --- Parse Status uit AI Feedback (alleen voor 'open', 'tabel_invullen', 'match' nu) --- 
         parsed_feedback = feedback_text
-        ai_determined_status = status
+        ai_determined_status = status # Start with rule-based status
 
-        if question_type == 'open' and status == 'pending':
+        # Allow AI to override status for 'open', 'tabel_invullen' and 'match' based on its detailed check
+        # Although for match, the rule-based check is usually sufficient.
+        if question_type in ['open', 'tabel_invullen', 'match'] and status not in ['error', 'unknown']: 
             feedback_lower = feedback_text.lower().strip()
             if feedback_lower.startswith('correct:'):
                 ai_determined_status = 'correct'
@@ -414,21 +514,19 @@ def get_feedback(subject, level, time_period, question_id):
             elif feedback_lower.startswith('incorrect:'):
                 ai_determined_status = 'incorrect'
                 parsed_feedback = feedback_text[len('incorrect:'):].strip()
-            elif feedback_lower.startswith('gedeeltelijk:'):
+            elif feedback_lower.startswith('partial:'):
                 ai_determined_status = 'partial'
-                parsed_feedback = feedback_text[len('gedeeltelijk:'):].strip()
+                parsed_feedback = feedback_text[len('partial:'):].strip()
+            # If AI doesn't prefix, use the rule-based status
             else:
-                print(f"Warning: AI feedback for open language Q {question_id} did not start with expected status. Feedback: {feedback_text[:50]}...")
-                ai_determined_status = 'pending'
-                parsed_feedback = feedback_text
-        # --- Einde Status Parsing ---
+                print(f"Warning: AI feedback for {question_type} Q{question_id} did not start with expected status prefix. Using rule-based status: {status}")
+                # For match, we trust our rule-based status more if AI fails format
+                ai_determined_status = status 
 
-        # <<< ADD CLEANUP for stray characters >>>
-        temp_text = parsed_feedback.replace(': *', ':') # Remove stray asterisk after colon+space
-        temp_text = temp_text.replace('`', '') # Remove backticks
-        cleaned_feedback = temp_text
+        # Gebruik de (mogelijk door AI aangepaste) status
+        final_status = ai_determined_status 
 
-        return jsonify({'feedback': cleaned_feedback, 'status': ai_determined_status})
+        return jsonify({'feedback': parsed_feedback, 'status': final_status}) # Gebruik final_status
     
     except Exception as e:
         print(f"Error generating language feedback with GenAI: {e}")
@@ -440,91 +538,118 @@ def get_feedback(subject, level, time_period, question_id):
 @exam_bp.route('/<subject>/<level>/<time_period>/vraag/<int:question_id>/get_hint', methods=['GET'])
 def get_hint(subject, level, time_period, question_id):
     """Generate a hint for the current question (Language)"""
+    # <<< Get model selection from request query parameters >>>
+    selected_model = request.args.get('selected_model') 
+    
     try:
         question_data = get_question_data(subject, level, time_period, question_id)
         if not question_data:
             return jsonify({'error': 'Question not found'}), 404
-    except Exception as e:
-        print(f"Error loading question data in get_hint: {e}")
-        return jsonify({'error': 'Failed to load question data.'}), 500
 
-    source_text_snippet = question_data.get('bron_tekst_html', '')
-    if source_text_snippet: source_text_snippet = source_text_snippet[:300] + "..."
-    else: source_text_snippet = "N.v.t."
+        # <<< NEW LOGIC for source text >>>
+        source_text_for_analysis = "Geen brontekst beschikbaar."
+        if question_data.get('bron_tekst_plain'):
+            source_text_for_analysis = question_data['bron_tekst_plain']
+        elif question_data.get('bron_tekst_html'): # Fallback to HTML
+            source_text_for_analysis = question_data['bron_tekst_html']
+        # <<< END NEW LOGIC >>>
+            
+        options_text = ""
+        if question_data.get('type', '').lower() == 'mc':
+             options_text = "\n".join([f"{k}: {v}" for k, v in question_data.get('opties', {}).items()])
+             
+        prompt_text = HINT_PROMPT_TEMPLATE.format(
+            vraag_id=question_id,
+            vak=subject,
+            niveau=level,
+            exam_question=question_data.get('vraagtekst', ''), 
+            # source_text_snippet=source_text_snippet, # REMOVED
+            source_text_content=source_text_for_analysis, # ADDED
+            options_text=options_text 
+        )
 
-    prompt = HINT_PROMPT_TEMPLATE.format(
-        vraag_id=question_id,
-        vak=subject,
-        niveau=level,
-        exam_question=question_data.get('vraagtekst', ''),
-        source_text_snippet=source_text_snippet,
-        options_text="\n".join([f"{k}: {v}" for k, v in question_data.get('opties', {}).items()])
-    )
-    
-    model, error_message = configure_genai()
-    if error_message:
-        return jsonify({"error": error_message}), 500
+        # Roep Gemini aan
+        try:
+            # <<< Pass selected_model to configure_genai >>>
+            # model, error_message = configure_genai(model_name=selected_model) # Use central config if available
+            model, error_message = configure_genai() # Using simplified config for now
+            if error_message:
+                return jsonify({"error": error_message}), 500
 
-    try:
-        print(f"\nDEBUG (Lang): Calling Gemini for Hint Q{question_id}...")
-        full_prompt = SYSTEM_PROMPT + "\n\n" + prompt
-        response = model.generate_content(full_prompt)
-        hint = response.text
-        print(f"\nDEBUG (Lang): Received hint from Gemini for Q{question_id}.")
+            print(f"\nDEBUG (Lang Hint): Calling Gemini for Hint Q{question_id}...")
+            full_prompt = SYSTEM_PROMPT + "\n\n" + prompt_text
+            response = model.generate_content(full_prompt)
+            hint = response.text
+            print(f"---> Hint Received: {hint[:100]}...")
+            return jsonify({'hint': hint})
         
-        return jsonify({'hint': hint})
-    
+        except Exception as e:
+            print(f"CRITICAL: Error generating hint for Q{question_id}: {e}")
+            import traceback
+            traceback.print_exc()
+            return jsonify({'error': 'Fout bij genereren hint.', 'status': 'error'}), 500
+
     except Exception as e:
-        print(f"Error generating language hint: {e}")
-        return jsonify({'error': 'Fout bij genereren hint.'}), 500
+        print(f"Error in get_hint route for Q{question_id}: {e}")
+        return jsonify({'error': 'Interne serverfout.', 'status': 'error'}), 500
 
 @exam_bp.route('/<subject>/<level>/<time_period>/vraag/<int:question_id>/get_follow_up', methods=['POST'])
 def get_follow_up(subject, level, time_period, question_id):
     """Generate a follow-up answer (Language)"""
     follow_up_question = request.json.get('question')
+    # <<< Get model selection from request >>>
+    selected_model = request.json.get('selected_model') # Get selected model
+    
     if not follow_up_question:
         return jsonify({'error': 'No question provided'}), 400
-    previous_feedback = request.json.get('feedback')
     
-    try:
-        question_data = get_question_data(subject, level, time_period, question_id)
-        if not question_data:
-            return jsonify({'error': 'Question not found'}), 404
-    except Exception as e:
-        print(f"Error loading question data in get_follow_up: {e}")
-        return jsonify({'error': 'Failed to load question data.'}), 500
-
-    source_text_snippet = question_data.get('bron_tekst_html', '')
-    if source_text_snippet: source_text_snippet = source_text_snippet[:300] + "..."
-    else: source_text_snippet = "N.v.t."
+    previous_feedback = request.json.get('feedback')
+    question_data = get_question_data(subject, level, time_period, question_id)
+    if not question_data:
+        return jsonify({'error': 'Question not found'}), 404
+    
+    safe_previous_feedback = str(previous_feedback or '').replace('{', '{{}}').replace('}', '}}')
+    
+    # <<< NEW LOGIC for source text >>>
+    source_text_for_analysis = "Geen brontekst beschikbaar."
+    if question_data.get('bron_tekst_plain'):
+        source_text_for_analysis = question_data['bron_tekst_plain']
+    elif question_data.get('bron_tekst_html'): # Fallback to HTML
+        source_text_for_analysis = question_data['bron_tekst_html']
+    # <<< END NEW LOGIC >>>
 
     prompt = FOLLOW_UP_PROMPT_TEMPLATE.format(
         vraag_id=question_id,
         vak=subject,
         niveau=level,
         exam_question=question_data.get('vraagtekst', ''),
-        source_text_snippet=source_text_snippet,
-        correct_answer=question_data.get('correct_antwoord', 'N/A'),
-        previous_feedback=previous_feedback,
-        follow_up_question=follow_up_question
+        # source_text_snippet=source_text_snippet, # REMOVED
+        source_text_content=source_text_for_analysis, # ADDED
+        correct_answer=question_data.get('correct_antwoord', ''),
+        previous_feedback=safe_previous_feedback,
+        follow_up_question=follow_up_question 
     )
     
-    model, error_message = configure_genai()
-    if error_message:
-        return jsonify({"error": error_message}), 500
-
+    # Call Generative AI
     try:
-        print(f"\nDEBUG (Lang): Calling Gemini for Follow-up Q{question_id}...")
+        # <<< Pass selected_model to configure_genai >>>
+        # model, error_message = configure_genai(model_name=selected_model) # Use central config if available
+        model, error_message = configure_genai() # Using simplified config for now
+        if error_message:
+            return jsonify({"error": error_message}), 500
+        
+        print(f"\nDEBUG (Lang Follow-up): Calling Gemini for Follow-up Q{question_id}...")
         full_prompt = SYSTEM_PROMPT + "\n\n" + prompt
         response = model.generate_content(full_prompt)
-        follow_up_answer = response.text
-        print(f"\nDEBUG (Lang): Received follow-up from Gemini for Q{question_id}.")
-        
-        return jsonify({'answer': follow_up_answer})
+        answer = response.text
+        print(f"---> Follow-up Answer Received: {answer[:100]}...")
+        return jsonify({'answer': answer})
     
     except Exception as e:
-        print(f"Error generating language follow-up answer: {e}")
-        return jsonify({'error': 'Fout bij genereren vervolgantwoord.'}), 500
+        print(f"CRITICAL: Error generating follow-up for Q{question_id}: {e}")
+        import traceback
+        traceback.print_exc()
+        return jsonify({'error': 'Fout bij genereren follow-up.', 'status': 'error'}), 500
 
 @exam_bp.route('/<subject>/<level>/<time_period>/vraag/<int:question_id>/get_theory_explanation', methods=['GET'])
 def get_theory_explanation(subject, level, time_period, question_id):

@@ -89,7 +89,12 @@
                                     {% for subject in subject_order %}
                                         {% if subject in exams[level] %}
                                             <div class="subject-card-new">
-                                                <h4>{{ subject }}</h4>
+                                                {# Abbreviation logic #}
+                                                {% set display_subject = subject %}
+                                                {% if subject.lower() == 'maatschappijwetenschappen' %}
+                                                    {% set display_subject = 'maatschappijwet.' %}
+                                                {% endif %}
+                                                <h4>{{ display_subject }}</h4> {# Use display_subject #}
                                                 <div class="time-period-buttons-new">
                                                     {% for time_period in exams[level][subject] %}
                                                         {% set formatted_period = time_period.replace('_', ' ').title() %}
@@ -113,7 +118,12 @@
                                     {% for subject, time_periods in exams[level].items() %}
                                          {% if subject not in subject_order %}
                                              <div class="subject-card-new">
-                                                <h4>{{ subject }}</h4>
+                                                {# Abbreviation logic (DUPLICATED for subjects not in order) #}
+                                                {% set display_subject = subject %}
+                                                {% if subject.lower() == 'maatschappijwetenschappen' %}
+                                                    {% set display_subject = 'maatschappijwet.' %}
+                                                {% endif %}
+                                                <h4>{{ display_subject }}</h4> {# Use display_subject #}
                                                 <div class="time-period-buttons-new">
                                                     {% for time_period in time_periods %}
                                                         {% set formatted_period = time_period.replace('_', ' ').title() %}
