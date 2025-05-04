@@ -203,7 +203,11 @@ document.addEventListener('DOMContentLoaded', function() {
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify({ answer: answer, selected_model: currentModel }),
+            body: JSON.stringify({ 
+                answer: answer, 
+                selected_model: currentModel,
+                question_type: currentVraagType // <<< ADDED: Explicitly send question type
+            }),
         })
         .then(response => {
             if (!response.ok) {
@@ -825,6 +829,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initializeStatuses();
     setupModelToggle();
     setupQuestionUI();
+    setupIssueReporting(); // <<< ADDED: Call setup for issue reporting
 
     // === ADD EVENT LISTENERS *AFTER* initial setup ===
     // <<< REMOVED DUPLICATE EVENT LISTENER CODE BLOCK >>>
@@ -936,3 +941,68 @@ function setupSortableList(containerId, onUpdateCallback) {
             }
         });
 } 
+
+// <<< START: Issue Reporting Functions >>>
+function setupIssueReporting() {
+    const reportButton = document.getElementById('reportIssueBtn');
+    const reportText = document.getElementById('issueReportText');
+    const reportConfirmation = document.getElementById('issueReportConfirmation');
+    const reportError = document.getElementById('issueReportError');
+
+    if (reportButton) {
+        reportButton.addEventListener('click', function() {
+            // Disable button immediately
+            reportButton.disabled = true;
+            reportError.style.display = 'none'; // Hide previous errors
+
+            // Gather data (already available in global scope from script setup)
+            const reportData = {
+                subject: document.body.dataset.vak,
+                level: document.body.dataset.niveau,
+                time_period: document.body.dataset.tijdvak,
+                question_id: parseInt(document.body.dataset.vraagId, 10)
+                // comment: document.getElementById('issueComment').value // Add this if implementing comments
+            };
+
+            // Send data to backend
+            fetch('/nl-exam/report_issue', { // <<< ADDED /nl-exam prefix
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(reportData),
+            })
+            .then(response => {
+                if (!response.ok) {
+                    // Try to get error message from backend if available
+                    return response.json().then(errData => {
+                        throw new Error(errData.error || 'Network response was not ok');
+                    }).catch(() => {
+                         throw new Error('Network response was not ok and no error detail available.'); // Throw generic if parsing fails
+                    });
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.status === 'success') {
+                    // Show confirmation, hide original text
+                    if(reportText) reportText.style.display = 'none';
+                    reportConfirmation.style.display = 'inline'; // Show confirmation text
+                    reportButton.style.display = 'none'; // Hide button completely after success
+                } else {
+                    // Handle potential errors reported by the backend logic
+                    throw new Error(data.error || 'Unknown error from server');
+                }
+            })
+            .catch(error => {
+                console.error('Error reporting issue:', error);
+                reportError.textContent = `Melden mislukt: ${error.message}. Probeer later opnieuw.`;
+                reportError.style.display = 'inline';
+                reportButton.disabled = false; // Re-enable button on failure
+            });
+        });
+    } else {
+        console.warn("Issue reporting button (#reportIssueBtn) not found.");
+    }
+}
+// <<< END: Issue Reporting Functions >>> 

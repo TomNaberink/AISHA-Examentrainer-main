@@ -37,7 +37,7 @@ else:
 language_subjects = ['duits', 'engels', 'frans', 'nederlands']
 # Definieer niet-taalvakken (lowercase) voor routering
 # Deze lijst wordt gebruikt in select_exam_page en toon_vraag
-non_language_subjects = ['wiskunde', 'natuurkunde', 'scheikunde', 'economie', 'aardrijkskunde', 'geschiedenis', 'biologie', 'nask', 'maatschappijwetenschappen', 'maatschappijkunde']
+non_language_subjects = ['wiskunde', 'natuurkunde', 'scheikunde', 'economie', 'aardrijkskunde', 'geschiedenis', 'biologie', 'nask', 'nask1', 'maatschappijwetenschappen', 'maatschappijkunde']
 
 # Create blueprint (naam blijft 'exam')
 # Let op: template_folder verwijst naar de hoofdmap templates, niet een submap
@@ -71,7 +71,7 @@ def select_exam_page():
     # --- END DEBUG PRINT ---
 
     level_order = ['vmbo', 'havo', 'vwo']
-    subject_order = ['Engels', 'Nederlands', 'Duits', 'Frans', 'Wiskunde', 'Natuurkunde', 'Scheikunde'] # Pas volgorde aan naar wens
+    subject_order = ['Engels', 'Nederlands', 'Duits', 'Frans', 'Wiskunde', 'Natuurkunde', 'Scheikunde', 'Nask 1'] # Pas volgorde aan naar wens
     level_names = {'vmbo': 'VMBO', 'havo': 'HAVO', 'vwo': 'VWO'}
     current_time = datetime.datetime.now()
     
@@ -91,23 +91,23 @@ def select_exam_page():
 @exam_bp.route('/<subject>/<level>/<time_period>/vraag/<int:question_id>')
 def toon_vraag(subject, level, time_period, question_id):
     """Display a specific question (Language)"""
-    # --- Routering Check: Is dit wel een taalvak? --- 
     subject_lower = subject.lower()
+    
+    # <<< DEBUG PRINT >>>
+    print(f"--- DEBUG (exam.py): Checking subject_lower: '{subject_lower}' (Type: {type(subject_lower)}) ---")
+    print(f"--- DEBUG (exam.py): Checking against non_language_subjects: {non_language_subjects} (Type: {type(non_language_subjects)}) ---")
+    print(f"--- DEBUG (exam.py): Result of check 'subject_lower in non_language_subjects': {subject_lower in non_language_subjects} ---")
+    # <<< END DEBUG PRINT >>>
+    
     if subject_lower not in language_subjects:
-        # Stuur door naar de non-language blueprint als het daar thuishoort
         if subject_lower in non_language_subjects:
-             # Let op: De URL prefix '/nl-exam' wordt automatisch toegevoegd door Flask
-             # bij het aanroepen van routes binnen die blueprint.
              return redirect(url_for('non_language_exam.toon_vraag',
                                     subject=subject, level=level,
                                     time_period=time_period, question_id=question_id))
         else:
-            # Onbekend vak, terug naar selectie
              print(f"Warning: Unknown subject '{subject}' routed to language blueprint. Redirecting to select.")
-             # Gebruik de naam van de selectie-endpoint binnen deze blueprint
              return redirect(url_for('exam.select_exam_page'))
-    # --------------------------------------------------
-
+    
     try:
         vraag_data = get_question_data(subject, level, time_period, question_id)
         if not vraag_data:

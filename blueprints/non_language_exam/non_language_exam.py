@@ -1,5 +1,7 @@
 import re
 from latex2mathml.converter import convert # Import the converter
+import datetime # Importeer datetime
+import logging # <<< ADDED for logging
 
 # Helper function for re.sub to format fractions
 def _format_fraction_match(match):
@@ -27,7 +29,6 @@ def _format_fraction_match(match):
 from flask import Blueprint, render_template, request, jsonify, redirect, url_for
 import os
 import google.generativeai as genai
-import datetime # Importeer datetime
 from utils.data_loader import list_available_exams, get_question_data, get_max_question_id
 # Importeer relevante prompts (inclusief MC voor non-language)
 from prompts import (
@@ -52,7 +53,7 @@ else:
     print("WARNING: GEMINI_API_KEY not found in environment variables")
 
 # Definieer de lijst met niet-taalvakken die deze blueprint behandelt
-non_language_subjects = ['wiskunde', 'natuurkunde', 'scheikunde', 'economie', 'aardrijkskunde', 'geschiedenis', 'biologie', 'nask', 'maatschappijwetenschappen', 'maatschappijkunde']
+non_language_subjects = ['wiskunde', 'natuurkunde', 'scheikunde', 'economie', 'aardrijkskunde', 'geschiedenis', 'biologie', 'nask', 'nask1', 'maatschappijwetenschappen', 'maatschappijkunde']
 
 # Create blueprint voor niet-taalvakken
 non_language_exam_bp = Blueprint('non_language_exam', __name__, template_folder='../templates') # Template folder verwijzing toevoegen
@@ -82,80 +83,87 @@ def convert_latex_to_mathml(html_content):
 @non_language_exam_bp.route('/<subject>/<level>/<time_period>/vraag/<int:question_id>')
 def toon_vraag(subject, level, time_period, question_id):
     """Display a specific question for non-language exams"""
-    vraag_data = get_question_data(subject, level, time_period, question_id)
-    if not vraag_data:
-        # Redirect naar de hoofdpagina (/) die doorverwijst naar de centrale selectiepagina
-        return redirect(url_for('index'))
-    
-    # <<< COMMENTED OUT - Potential cause of missing context >>>
-    if 'context_html' in vraag_data and vraag_data['context_html']:
-        vraag_data['context_html'] = convert_latex_to_mathml(vraag_data['context_html'])
-    # --- End processing --- 
-    
-    # <<< ADD PROCESSING FOR VRAAGTEKST >>>
-    if 'vraagtekst_html' in vraag_data and vraag_data['vraagtekst_html']:
-        vraag_data['vraagtekst_html'] = convert_latex_to_mathml(vraag_data['vraagtekst_html'])
-    # <<< END ADDED PROCESSING >>>
+    subject_lower = subject.lower()
 
-    # --- Re-enable server-side LaTeX processing --- 
-    if 'correct_antwoord_model' in vraag_data and vraag_data['correct_antwoord_model']:
-        vraag_data['correct_antwoord_model'] = convert_latex_to_mathml(vraag_data['correct_antwoord_model'])
-    # --- End processing --- 
+    # <<< DEBUG PRINT >>>
+    print(f"--- DEBUG (non_lang): Checking subject_lower: '{subject_lower}' ---")
+    print(f"--- DEBUG (non_lang): non_language_subjects: {non_language_subjects} ---")
+    # <<< END DEBUG PRINT >>>
 
-    # <<< ADD PROCESSING FOR MC OPTIONS >>>
-    if vraag_data.get('type') == 'mc' and 'options' in vraag_data:
-        for option in vraag_data['options']:
-            if 'text' in option and option['text']:
-                option['text'] = convert_latex_to_mathml(option['text'])
-    # <<< END ADDED PROCESSING >>>
-    
-    max_vraag_id = get_max_question_id(subject, level, time_period)
-    question_type = vraag_data.get('type', '').lower()
-    
-    # --- Dynamically determine Theory Explanation URL based on question type --- 
-    theory_endpoint = None
-    if question_type == 'calculation':
-        theory_endpoint = 'non_language_exam.get_theory_explanation_calculation'
-    elif question_type == 'open_non_language':
-        theory_endpoint = 'non_language_exam.get_theory_explanation_open'
-    elif question_type == 'multiple_gap_choice':
-        theory_endpoint = 'non_language_exam.get_theory_explanation_multiple_gap_choice'
-    elif question_type == 'mc':
-        theory_endpoint = 'non_language_exam.get_theory_explanation_open'
-    # Add more types here if they get specific theory explanation endpoints
-    
-    get_theory_url = None
-    if theory_endpoint:
-        try:
-            get_theory_url = url_for(theory_endpoint, 
-                                      subject=subject, level=level, 
-                                      time_period=time_period, question_id=question_id)
-        except Exception as e:
-            print(f"Error building theory URL for endpoint {theory_endpoint}: {e}")
-            get_theory_url = None # Fallback if URL generation fails
-    # --- End dynamic URL generation --- 
+    # Check if the subject is actually non-language, redirect if not (shouldn't happen normally)
+    if subject_lower not in non_language_subjects:
+        # Check if it's a known language subject instead
+        if subject_lower in language_subjects: # Assuming language_subjects is imported or accessible
+            return redirect(url_for('exam.toon_vraag',
+                                    subject=subject, level=level,
+                                    time_period=time_period, question_id=question_id))
+        else:
+            # Subject is completely unknown
+            print(f"Warning: Unknown subject '{subject}' routed to non-language blueprint. Redirecting to select.")
+            return redirect(url_for('exam.select_exam_page')) # Redirect to main selection
 
-    # API URLs moeten verwijzen naar endpoints binnen DEZE blueprint (non_language_exam)
-    get_feedback_url = url_for('non_language_exam.get_feedback', 
-                              subject=subject, level=level, 
-                              time_period=time_period, question_id=question_id)
-    get_hint_url = url_for('non_language_exam.get_hint', 
-                          subject=subject, level=level, 
-                          time_period=time_period, question_id=question_id)
-    get_follow_up_url = url_for('non_language_exam.get_follow_up', 
-                               subject=subject, level=level, 
-                               time_period=time_period, question_id=question_id)
-    # get_theory_url is now determined dynamically above
+    try:
+        vraag_data = get_question_data(subject, level, time_period, question_id)
+        if not vraag_data:
+            print(f"Warning: Question data not found for non-language {subject}/{level}/{time_period}/{question_id}")
+            return redirect(url_for('exam.select_exam_page'))
 
-    # Base URL for question navigation binnen deze blueprint (non_language_exam)
-    base_question_url = url_for('non_language_exam.toon_vraag', 
-                              subject=subject, level=level, 
-                              time_period=time_period, question_id=0)[:-1]
-    
-    # <<< ADDED: Log context_html value JUST BEFORE rendering >>>
-    print(f"--- DEBUG: Value of context_html BEFORE render_template: {vraag_data.get('context_html', 'KEY_NOT_FOUND')}")
-    
-    # Gebruik de NIET-TAAL specifieke template
+        max_vraag_id = get_max_question_id(subject, level, time_period)
+
+        # --- Process HTML fields to fix image paths ---
+        fields_to_process = ['context_html', 'vraagtekst_html', 'correct_antwoord_model']
+        for field in fields_to_process:
+            if field in vraag_data and isinstance(vraag_data[field], str):
+                original_html = vraag_data[field]
+                # Use regex to find src="filename.ext" and replace it
+                # This pattern looks for src followed by = and quotes, capturing the filename
+                # It specifically avoids replacing URLs that already start with http:// or https://
+                vraag_data[field] = re.sub(
+                    r'src="(?!(?:http|https))([^"]+)"',
+                    lambda match: f'src="{url_for("static", filename=f"images/{match.group(1)}")}"',
+                    original_html
+                )
+                # Debug print to see the change
+                if original_html != vraag_data[field]:
+                    print(f"DEBUG: Replaced image path in field '{field}' for Q{question_id}")
+                    print(f"  Original: {original_html[:100]}...") # Print first 100 chars
+                    print(f"  Replaced: {vraag_data[field][:150]}...") # Print first 150 chars
+
+        # --- End image path processing ---
+
+    except Exception as e:
+        print(f"Error loading non-language question data or max_id for {subject}/{level}/{time_period}/{question_id}: {e}")
+        return render_template('error.html', message="Kon vraaggegevens niet laden."), 500
+
+    # Generate URLs for API endpoints within THIS blueprint ('non_language_exam')
+    try:
+        get_feedback_url = url_for('non_language_exam.get_feedback', subject=subject, level=level, time_period=time_period, question_id=question_id)
+        get_hint_url = url_for('non_language_exam.get_hint', subject=subject, level=level, time_period=time_period, question_id=question_id)
+        get_follow_up_url = url_for('non_language_exam.get_follow_up', subject=subject, level=level, time_period=time_period, question_id=question_id)
+        base_question_url = url_for('non_language_exam.toon_vraag', subject=subject, level=level, time_period=time_period, question_id=0)[:-1]
+
+        # --- Determine the correct Theory Explanation URL based on question type ---
+        question_type = vraag_data.get('type', '').lower()
+        get_theory_url = None # Default to None
+        if question_type == 'calculation':
+            get_theory_url = url_for('non_language_exam.get_theory_explanation_calculation', subject=subject, level=level, time_period=time_period, question_id=question_id)
+        elif question_type == 'open_non_language' or question_type == 'mc': # MC uses the 'open' explanation route now
+             get_theory_url = url_for('non_language_exam.get_theory_explanation_open', subject=subject, level=level, time_period=time_period, question_id=question_id)
+        elif question_type == 'multiple_gap_choice':
+             get_theory_url = url_for('non_language_exam.get_theory_explanation_multiple_gap_choice', subject=subject, level=level, time_period=time_period, question_id=question_id)
+        else:
+            print(f"WARN: No specific theory explanation route found for type '{question_type}' in Q{question_id}")
+        # --- End Theory URL determination ---
+
+    except Exception as e:
+         print(f"Error generating URLs for non-language question page: {e}")
+         return render_template('error.html', message="Interne fout bij het genereren van links."), 500
+
+    # <<< DEBUG PRINT: Check keys in vraag_data before rendering >>>
+    print(f"--- DEBUG Keys in non-language vraag_data for Q{question_id} before rendering: {list(vraag_data.keys()) if vraag_data else 'None'} ---")
+    # <<< END DEBUG PRINT >>>
+
+    # Render the NON-LANGUAGE specific template
     return render_template('index_non_language.html',
                            vraag_data=vraag_data,
                            vraag_id=question_id,
@@ -166,10 +174,9 @@ def toon_vraag(subject, level, time_period, question_id):
                            get_feedback_url=get_feedback_url,
                            get_hint_url=get_hint_url,
                            get_follow_up_url=get_follow_up_url,
-                           get_theory_url=get_theory_url, # Pass the dynamically determined URL
                            base_question_url=base_question_url,
-                           correct_antwoord_model=vraag_data.get('correct_antwoord_model')
-                           )
+                           correct_antwoord_model=vraag_data.get('correct_antwoord_model'),
+                           get_theory_url=get_theory_url)
 
 def configure_genai(model_name=None):
     # Define allowed models and a default
@@ -288,16 +295,15 @@ def get_feedback(subject, level, time_period, question_id):
 
         prompt = FEEDBACK_PROMPT_MC.format(
             vraag_id=question_id,
-            exam_question=question_data.get('vraagtekst_html', ''), # Use _html key
-            source_text_snippet=source_text_snippet, # Keep this, might be relevant sometimes
-            options_text=options_text_formatted, # Use correctly formatted text
-            correct_answer=question_data.get('correct_answer', ''), # Use correct_answer key
+            exam_question=question_data.get('vraagtekst_html', ''), 
+            source_text_content=source_text_snippet, # <<< CHANGED KEY to match error
+            options_text=options_text_formatted, 
+            correct_answer=question_data.get('correct_answer', ''), 
             max_score=question_data.get('max_score', 1),
             user_answer_key=user_answer,
-            user_answer_text=user_answer_text_found, # Use the found text
+            user_answer_text=user_answer_text_found, 
             niveau=level,
             vak=subject
-            # language="Dutch" # Language might not be needed here
         )
     elif question_type == 'open_non_language':
         prompt = FEEDBACK_PROMPT_NON_LANGUAGE_OPEN.format(
@@ -984,3 +990,53 @@ def get_theory_continuation(subject, level, time_period, question_id):
         import traceback
         traceback.print_exc()
         return jsonify({'error': 'Fout bij genereren vervolg van theorie uitleg.', 'status': 'error'}), 500
+
+# <<< START: Issue Reporting Route >>>
+# Set up logging for issue reports
+log_file_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'logs', 'issue_reports.log')
+os.makedirs(os.path.dirname(log_file_path), exist_ok=True) # Ensure logs directory exists
+
+issue_logger = logging.getLogger('issue_reporter')
+issue_logger.setLevel(logging.INFO)
+# Prevent adding multiple handlers if blueprint reloads in debug mode
+if not issue_logger.handlers:
+    file_handler = logging.FileHandler(log_file_path, encoding='utf-8')
+    formatter = logging.Formatter('%(asctime)s - %(message)s')
+    file_handler.setFormatter(formatter)
+    issue_logger.addHandler(file_handler)
+
+@non_language_exam_bp.route('/report_issue', methods=['POST'])
+def report_issue():
+    """Logs reported issues with questions to a file."""
+    try:
+        data = request.get_json()
+        if not data:
+            return jsonify({'error': 'Invalid request body'}), 400
+
+        subject = data.get('subject', 'N/A')
+        level = data.get('level', 'N/A')
+        time_period = data.get('time_period', 'N/A')
+        question_id = data.get('question_id', 'N/A')
+        # comment = data.get('comment', '') # Add if comment field is implemented later
+
+        log_message = f"Issue reported for: Subject={subject}, Level={level}, TimePeriod={time_period}, QuestionID={question_id}"
+        # if comment:
+        #     log_message += f", Comment: {comment}"
+
+        issue_logger.info(log_message)
+        print(f"DEBUG: Logged issue report: {log_message}") # Also print to console for immediate feedback
+
+        return jsonify({'status': 'success', 'message': 'Issue reported successfully'}), 200
+
+    except Exception as e:
+        print(f"CRITICAL: Error in /report_issue route: {e}")
+        import traceback
+        traceback.print_exc()
+        # Also log the error to the issue log if possible
+        try:
+            issue_logger.error(f"Failed to process issue report. Error: {e}", exc_info=True)
+        except Exception as log_e:
+            print(f"CRITICAL: Failed to even log the error in report_issue: {log_e}")
+            
+        return jsonify({'status': 'error', 'error': 'Internal server error processing report'}), 500
+# <<< END: Issue Reporting Route >>>

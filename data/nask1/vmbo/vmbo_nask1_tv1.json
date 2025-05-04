@@ -1,0 +1,688 @@
+{
+  "examen_info": {
+    "vak": "nask1",
+    "niveau": "vmbo",
+    "tijdvak": "TV1",
+    "jaar": 2024
+  },
+  "opgaven": [
+    {
+      "opgave_nr": 1,
+      "opgave_titel": "Latte macchiato",
+      "vragen": [
+        {
+          "id": 1,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Karin maakt latte macchiato. Dit kopje koffie bestaat uit drie lagen: warme melk, warme koffie en melkschuim (melk met luchtbelletjes). Karin maakt de warme melk en het melkschuim met een melkopschuimer.</p><p>Als de melk met melkschuim in een glas wordt gegoten en daarna de koffie, ontstaan de drie lagen. Op de uitwerkbijlage staan twee zinnen over de lagen van de latte macchiato.</p>",
+          "bronverwijzing_tekst": "Omcirkel in elke zin de juiste mogelijkheid.",
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_vraag1_bijlage_zinnen.png",
+          "vraagtekst_html": "<p>Omcirkel in elke zin de juiste mogelijkheid op de uitwerkbijlage.</p>",
+          "correct_antwoord_model": "<p>Een juist antwoord levert 1 scorepunt op.</p><ul><li>De dichtheid van melk is <strong>groter</strong> dan de dichtheid van koffie.</li><li>De dichtheid van melkschuim is <strong>kleiner</strong> dan de dichtheid van melk.</li></ul><p><strong>Opmerking</strong><br>Het scorepunt alleen toekennen als beide keuzes juist zijn.</p>"
+        },
+        {
+          "id": 2,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Karin maakt latte macchiato. Dit kopje koffie bestaat uit drie lagen: warme melk, warme koffie en melkschuim (melk met luchtbelletjes). Karin maakt de warme melk en het melkschuim met een melkopschuimer. In de melkopschuimer zitten een verwarmingselement en een elektromotor. Het verwarmingselement warmt de melk op. De elektromotor laat de melk draaien om de melk op te schuimen.</p><p>Je ziet op de uitwerkbijlage het energiestroomdiagram van de melkopschuimer bij het inschakelen.</p>",
+          "bronverwijzing_tekst": "Noteer de juiste energiesoorten bij 1 en bij 2.",
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_vraag2_bijlage_energiestroomdiagram.png",
+          "vraagtekst_html": "<p>Noteer de juiste energiesoorten bij 1 en bij 2 in het energiestroomdiagram op de uitwerkbijlage.</p>",
+          "correct_antwoord_model": "<p>Een juist antwoord levert 2 scorepunten op.</p><ul><li>1: elektrische (energie)</li><li>2: bewegings(energie)</li></ul><p><strong>Opmerking</strong><br>Het scorepunt alleen toekennen als de juiste energiesoorten op de juiste plaats genoteerd zijn.</p>"
+        },
+        {
+          "id": 3,
+          "max_score": 3,
+          "type": "calculation",
+          "context_html": "<p>Karin maakt latte macchiato. Karin maakt de warme melk en het melkschuim met een melkopschuimer. Het opgenomen vermogen van de melkopschuimer is 450 W. De melkopschuimer is 2,5 minuut ingeschakeld.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Bereken de opgenomen energie.</p>",
+          "correct_antwoord_model": "<p>Voorbeeld van een juiste berekening:</p><ul><li>$t = 2,5 \\text{ min} = 2,5 \\times 60 = 150 \\text{ s}$ </li><li>$E = P \\cdot t$ </li><li>$E = 450 \\times 150 = 67\\,500 \\text{ J}$ ($= 6,8 \\cdot 10^4 \\text{ J}$ of $0,019 \\text{ kWh}$) </li></ul><p><strong>Scorepunten:</strong></p><ul><li>omrekenen van de tijd: 1 punt </li><li>gebruik van de formule $E = P \\cdot t$: 1 punt </li><li>rest van de berekening juist: 1 punt </li></ul>"
+        },
+        {
+          "id": 4,
+          "max_score": 3,
+          "type": "calculation",
+          "context_html": "<p>Karin maakt latte macchiato. Karin maakt de warme melk en het melkschuim met een melkopschuimer. Het opgenomen vermogen van de melkopschuimer is 450 W. Je ziet op de uitwerkbijlage het energiestroomdiagram van de melkopschuimer bij het inschakelen (Warmte 70%, Beweging 20%, Niet-nuttig 10%).</p>",
+          "bronverwijzing_tekst": "Gebruik de gegevens in het energiestroomdiagram op de uitwerkbijlage bij opgave 2.",
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_vraag2_bijlage_energiestroomdiagram.png",
+          "vraagtekst_html": "<p>Bereken het nuttig vermogen van de melkopschuimer.</p>",
+          "correct_antwoord_model": "<p>Voorbeeld van een juiste berekening:</p><ul><li>Het nuttige rendement is $70\\% + 20\\% = 90\\%$.</li><li>$\\eta = \\frac{P_{af}}{P_{op}} \\cdot 100\\%$ </li><li>$P_{af} = \\frac{\\eta}{100\\%} \\cdot P_{op} = \\frac{90}{100} \\times 450 = 405 \\text{ W}$ </li></ul><p><strong>Scorepunten:</strong></p><ul><li>noteren van de juiste waarde van het rendement (90(%)): 1 punt </li><li>toepassen van $\\eta = \\frac{P_{af}}{P_{op}} \\cdot 100\\%$: 1 punt </li><li>rest van de berekening juist: 1 punt </li></ul><p><strong>Opmerking</strong><br>Voor het toekennen van het tweede scorepunt hoeft het woord of symbool voor de grootheid vermogen niet genoteerd te worden.</p>"
+        },
+        {
+          "id": 5,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Karin maakt latte macchiato. In de melkopschuimer zitten een verwarmingselement en een elektromotor. Je ziet een deel van het vereenvoudigde schakelschema van de melkopschuimer. Het linker gedeelte van de schakeling regelt het uitschakelen. In het rechter gedeelte zijn een elektromotor en een verwarmingselement aangesloten op netspanning. De spanning over de elektromotor is 230 V. De spanning over het verwarmingselement is ook 230 V.</p>",
+          "bronverwijzing_tekst": "Maak op de uitwerkbijlage het rechter gedeelte van het schakelschema compleet met een elektromotor.",
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_vraag5_bijlage_schakelschema.png",
+          "vraagtekst_html": "<p>Maak op de uitwerkbijlage het rechter gedeelte van het schakelschema compleet met een elektromotor.</p>",
+          "correct_antwoord_model": "<p>Voorbeeld van een juist schakelschema:</p><p><img src=\"vmbo_natuur_en_scheikunde_1_tv1_vraag5_bijlage_schakelschema_correct.png\" style=\"max-width: 100%; height: auto;\" alt=\"Correct ingevuld schakelschema met een motor parallel aan het verwarmingselement.\"></p><p><strong>Scorepunten:</strong></p><ul><li>juiste symbool voor de elektromotor: 1 punt </li><li>getekende component parallel geschakeld aan het verwarmingselement: 1 punt </li></ul><p><strong>Opmerkingen</strong></p><ul><li>Als de kandidaat een of meer extra componenten plaatst of verbindingen maakt waardoor er geen of een niet-werkend circuit ontstaat, hiervoor 1 scorepunt in mindering brengen.</li><li>Als de kandidaat geen gesloten stroomkring tekent, hiervoor het tweede scorepunt niet toekennen.</li></ul>"
+        },
+        {
+          "id": 6,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Karin maakt latte macchiato. Als de melk voldoende is opgewarmd schakelt de melkopschuimer automatisch uit. Je ziet een deel van het vereenvoudigde schakelschema van de melkopschuimer. Het linker gedeelte van de schakeling regelt het uitschakelen. Als de melk warm genoeg is, schakelt de melkopschuimer automatisch uit. Op de uitwerkbijlage staan drie zinnen over het automatisch uitschakelen van de melkopschuimer.</p>",
+          "bronverwijzing_tekst": "Omcirkel in elke zin de juiste mogelijkheid.",
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_vraag6_bijlage_zinnen.png",
+          "vraagtekst_html": "<p>Omcirkel in elke zin de juiste mogelijkheid op de uitwerkbijlage.</p>",
+          "correct_antwoord_model": "<p>Een juist antwoord levert 2 scorepunten op.</p><ul><li>Door het opwarmen van de melk neemt de temperatuur van de NTC toe waardoor de weerstand van de NTC <strong>afneemt</strong>.</li><li>De stroomsterkte naar de basis van de transistor <strong>afneemt</strong>.</li><li>De schakelaar van het relais <strong>niet</strong> wordt aangetrokken.</li></ul><p><strong>Scoreverdeling:</strong></p><ul><li>Eerste keuze (afneemt) juist: 1 punt </li><li>Tweede en derde keuze (afneemt, niet) juist: 1 punt </li></ul><p><strong>Opmerkingen</strong></p><ul><li>Het tweede scorepunt alleen toekennen als beide keuzes juist zijn.</li><li>Als een kandidaat antwoordt: 'toeneemt, toeneemt, wel', voor deze vraag 1 scorepunt toekennen.</li></ul>"
+        },
+        {
+          "id": 7,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Karin maakt latte macchiato. Het glas met de warme latte macchiato is enkelwandig. De buitenkant van het glas wordt daardoor ook warm.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Wat is de belangrijkste vorm van warmtetransport van de binnenkant naar de buitenkant van het glas?</p>",
+          "correct_antwoord_model": "<p>A </p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "geleiding"
+            },
+            {
+              "id": "B",
+              "text": "straling"
+            },
+            {
+              "id": "C",
+              "text": "stroming"
+            }
+          ],
+          "correct_answer": "A"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 2,
+      "opgave_titel": "Led practicum",
+      "vragen": [
+        {
+          "id": 8,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Tijdens de natuurkundeles maakt Ayoup een schakeling met leds. Je ziet een afbeelding van zijn opstelling en het schakelschema. De spanning over elke led is 2,7 V. De spanning over de weerstand is 1,8 V.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_opgave2_bron1.png",
+          "vraagtekst_html": "<p>Wat is de spanning van één batterij?</p>",
+          "correct_antwoord_model": "<p>C </p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "0,6 V"
+            },
+            {
+              "id": "B",
+              "text": "0,9 V"
+            },
+            {
+              "id": "C",
+              "text": "1,5 V"
+            },
+            {
+              "id": "D",
+              "text": "1,8 V"
+            },
+            {
+              "id": "E",
+              "text": "2,4 V"
+            },
+            {
+              "id": "F",
+              "text": "2,7 V"
+            }
+          ],
+          "correct_answer": "C"
+        },
+        {
+          "id": 9,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Tijdens de natuurkundeles maakt Ayoup een schakeling met leds. Ayoup wil de stroomsterkte door en de spanning over de weerstand meten.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Welk schakelschema is juist voor deze meting?</p><p>A) <img src=\"vmbo_natuur_en_scheikunde_1_tv1_vraag9_optieA.png\" alt=\"Schakelschema A\"></p><p>B) <img src=\"vmbo_natuur_en_scheikunde_1_tv1_vraag9_optieB.png\" alt=\"Schakelschema B\"></p><p>C) <img src=\"vmbo_natuur_en_scheikunde_1_tv1_vraag9_optieC.png\" alt=\"Schakelschema C\"></p><p>D) <img src=\"vmbo_natuur_en_scheikunde_1_tv1_vraag9_optieD.png\" alt=\"Schakelschema D\"></p>",
+          "correct_antwoord_model": "<p>A </p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "Schema A"
+            },
+            {
+              "id": "B",
+              "text": "Schema B"
+            },
+            {
+              "id": "C",
+              "text": "Schema C"
+            },
+            {
+              "id": "D",
+              "text": "Schema D"
+            }
+          ],
+          "correct_answer": "A"
+        },
+        {
+          "id": 10,
+          "max_score": 3,
+          "type": "calculation",
+          "context_html": "<p>Tijdens de natuurkundeles maakt Ayoup een schakeling met leds. De stroomsterkte door de weerstand is 50 mA. De spanning over de weerstand is 1,8 V.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Bereken de grootte van deze weerstand.</p>",
+          "correct_antwoord_model": "<p>Voorbeeld van een juiste berekening:</p><ul><li>$I = 50 \\text{ mA} = 0,050 \\text{ A}$ </li><li>$R = U / I$ </li><li>$R = 1,8 / 0,050 = 36 \\ \\Omega$ </li></ul><p><strong>Scorepunten:</strong></p><ul><li>juist omrekenen van de stroomsterkte: 1 punt </li><li>gebruik van de formule $R = U / I$: 1 punt </li><li>rest van de berekening juist: 1 punt </li></ul>"
+        },
+        {
+          "id": 11,
+          "max_score": 2,
+          "type": "calculation",
+          "context_html": "<p>Tijdens de natuurkundeles maakt Ayoup een schakeling met leds. De stroomsterkte door de weerstand is 50 mA. De leds kunnen een tijd van 48 uur branden op deze batterijen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Bereken de totale capaciteit die daarvoor nodig is. Ga ervan uit dat hierbij geen energieverlies optreedt.</p>",
+          "correct_antwoord_model": "<p>Voorbeeld van een juiste berekening:</p><ul><li>$C = I \\cdot t$ </li><li>$C = 50 \\times 48 = 2400 \\text{ mAh}$ ($= 2,4 \\text{ Ah}$ of $2,4 \\cdot 10^3 \\text{ mAh}$) </li></ul><p><strong>Scorepunten:</strong></p><ul><li>gebruik van de formule $C = I \\cdot t$: 1 punt </li><li>rest van de berekening juist: 1 punt </li></ul><p><strong>Opmerkingen</strong></p><ul><li>Als de kandidaat in de berekening de capaciteit deelt door 3 ($C = 800 \\text{ mAh} / 0,80 \\text{ Ah}$ (per batterij)), dit niet aanrekenen.</li><li>(Uit aanvulling:) Als de kandidaat in vraag 10 de stroomsterkte fout heeft omgerekend en deze waarde gebruikt in de formule $C=I \\cdot t$, dit niet aanrekenen.</li></ul>"
+        },
+        {
+          "id": 12,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Tijdens de natuurkundeles maakt Ayoup een schakeling met leds. Ayoup vervangt de weerstand door een weerstand met een grotere waarde.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Wat is dan juist over de spanning over de leds?</p>",
+          "correct_antwoord_model": "<p>B </p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "die blijft gelijk"
+            },
+            {
+              "id": "B",
+              "text": "die neemt af"
+            },
+            {
+              "id": "C",
+              "text": "die neemt toe"
+            }
+          ],
+          "correct_answer": "B"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 3,
+      "opgave_titel": "Autosnelweg",
+      "vragen": [
+        {
+          "id": 13,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Het profielwerkstuk van Sophie gaat over verkeersgeluid. Ze meet op verschillende afstanden van een autosnelweg de geluidssterkte met een decibelmeter. Je ziet een tabel met haar meetresultaten:</p><table><thead><tr><th>afstand (m)</th><th>geluidssterkte (dB)</th></tr></thead><tbody><tr><td>20</td><td>75,0</td></tr><tr><td>30</td><td>71,5</td></tr><tr><td>40</td><td>69,0</td></tr><tr><td>60</td><td>65,5</td></tr><tr><td>80</td><td>63,0</td></tr><tr><td>100</td><td>70,0*</td></tr><tr><td>120</td><td>60,0</td></tr></tbody></table><p>*Bij de meting op 100 m afstand kwam er net een groep motoren langs waardoor de gemeten geluidssterkte veel hoger was dan verwacht. Er is een verband tussen de afstand en de geluidssterkte.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Welk verband tussen de afstand en de geluidssterkte past het best bij de meetresultaten?</p><p>Bij verdubbeling van de afstand neemt de geluidssterkte...</p>",
+          "correct_antwoord_model": "<p>E </p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "met 3 dB af."
+            },
+            {
+              "id": "B",
+              "text": "met 3 dB toe."
+            },
+            {
+              "id": "C",
+              "text": "met 4,5 dB af."
+            },
+            {
+              "id": "D",
+              "text": "met 4,5 dB toe."
+            },
+            {
+              "id": "E",
+              "text": "met 6 dB af."
+            },
+            {
+              "id": "F",
+              "text": "met 6 dB toe."
+            }
+          ],
+          "correct_answer": "E"
+        },
+        {
+          "id": 14,
+          "max_score": 4,
+          "type": "open_non_language",
+          "context_html": "<p>Het profielwerkstuk van Sophie gaat over verkeersgeluid. Ze meet op verschillende afstanden van een autosnelweg de geluidssterkte met een decibelmeter. Je ziet een tabel met haar meetresultaten:</p><table><thead><tr><th>afstand (m)</th><th>geluidssterkte (dB)</th></tr></thead><tbody><tr><td>20</td><td>75,0</td></tr><tr><td>30</td><td>71,5</td></tr><tr><td>40</td><td>69,0</td></tr><tr><td>60</td><td>65,5</td></tr><tr><td>80</td><td>63,0</td></tr><tr><td>100</td><td>70,0*</td></tr><tr><td>120</td><td>60,0</td></tr></tbody></table><p>*Bij de meting op 100 m afstand kwam er net een groep motoren langs waardoor de gemeten geluidssterkte veel hoger was dan verwacht. Er is een verband tussen de afstand en de geluidssterkte.</p>",
+          "bronverwijzing_tekst": "Zet in het diagram op de uitwerkbijlage alle meetpunten uit en teken de grafiek die bij dit verband hoort.",
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_vraag14_bijlage_grafiek.png",
+          "vraagtekst_html": "<p>Zet in het diagram op de uitwerkbijlage alle meetpunten uit en teken de grafiek die bij dit verband hoort.</p>",
+          "correct_antwoord_model": "<p>Voorbeeld van een juiste grafiek:</p><p><img src=\"vmbo_natuur_en_scheikunde_1_tv1_vraag14_bijlage_grafiek_correct.png\" style=\"max-width: 100%; height: auto;\" alt=\"Correct getekende grafiek van geluidssterkte tegen afstand.\"></p><p><strong>Scorepunten:</strong></p><ul><li>juist indelen van de verticale as: 1 punt </li><li>juist uitzetten van de meetpunten: 1 punt </li><li>vloeiende lijn door de meetpunten met of zonder meetpunt (100,70): 1 punt </li><li>negeren van meetpunt (100,70) bij het tekenen van de vloeiende lijn: 1 punt </li></ul><p><strong>Opmerkingen</strong></p><ul><li>Als minder dan 2/3 van de verticale as is gebruikt, het eerste scorepunt niet toekennen.</li><li>Als de kandidaat een lijn tekent in het gebied tussen 0-20 m, dit niet beoordelen.</li><li>Als de kandidaat het meetpunt (100,70) niet uitzet, dit niet aanrekenen.</li><li>Als de kandidaat één meetpunt niet juist uitzet, dit niet aanrekenen.</li></ul>"
+        },
+        {
+          "id": 15,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Het profielwerkstuk van Sophie gaat over verkeersgeluid. Je ziet een afbeelding van de decibelmeter van Sophie tijdens een meting. De decibelmeter is met de keuzeschakelaar ingesteld op medium ('Med'). Op de uitwerkbijlage staat een tabel over deze geluidssterkte.</p>",
+          "bronverwijzing_tekst": "Noteer in beide kolommen het juiste antwoord.",
+          "bron_verwijzing": ["vmbo_natuur_en_scheikunde_1_tv1_opgave3_bron2.png", "vmbo_natuur_en_scheikunde_1_tv1_vraag15_bijlage_tabel.png"],
+          "vraagtekst_html": "<p>Noteer in beide kolommen van de tabel op de uitwerkbijlage het juiste antwoord (afgelezen geluidssterkte en zone van gehoorgevoeligheid).</p>",
+          "correct_antwoord_model": "<p>Een juist antwoord levert 2 scorepunten op.</p><ul><li>De geluidssterkte is <strong>71</strong> dB.</li><li>De zone van gehoorgevoeligheid is <strong>storend bij telefoneren</strong>.</li></ul><p><strong>Scorepunten:</strong></p><ul><li>eerste kolom juist: 1 punt </li><li>tweede kolom consequent met eerste kolom: 1 punt </li></ul><p><strong>Opmerking</strong><br>Als de kandidaat 'veilig geluid' als antwoord in de tweede kolom noteert, dit niet goed rekenen.</p>"
+        },
+        {
+          "id": 16,
+          "max_score": 2,
+          "type": "calculation",
+          "context_html": "<p>Het profielwerkstuk van Sophie gaat over verkeersgeluid. Bij de meting op een afstand van 120 m is het geluid een tijd van 0,353 s onderweg.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Bereken de geluidssnelheid.</p>",
+          "correct_antwoord_model": "<p>Voorbeeld van een juiste berekening:</p><ul><li>$v_{(geluid)} = s / t$ </li><li>$v_{(geluid)} = 120 / 0,353 = 340 \\text{ m/s}$ (of 339,9... m/s) </li></ul><p><strong>Scorepunten:</strong></p><ul><li>gebruik van de formule $v_{(geluid)} = s / t$: 1 punt </li><li>rest van de berekening juist: 1 punt </li></ul>"
+        },
+        {
+          "id": 17,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Het profielwerkstuk van Sophie gaat over verkeersgeluid. Een maatregel om de geluidsoverlast voor de bewoners langs de snelweg te verminderen, is het verlagen van de maximumsnelheid van de voertuigen op de snelweg.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Op welke plaats wordt de geluidssterkte door deze maatregel verlaagd?</p>",
+          "correct_antwoord_model": "<p>A </p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "bij de bron"
+            },
+            {
+              "id": "B",
+              "text": "bij de tussenstof"
+            },
+            {
+              "id": "C",
+              "text": "bij de ontvanger"
+            }
+          ],
+          "correct_answer": "A"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 4,
+      "opgave_titel": "Op vakantie",
+      "vragen": [
+        {
+          "id": 18,
+          "max_score": 2,
+          "type": "calculation",
+          "context_html": "<p>Marja gaat op vakantie. Zij heeft op haar auto een dakkoffer geplaatst om extra bagage mee te kunnen nemen. De dakkoffer is vastgemaakt aan de dakdragers van de auto. De zwaartekracht op de dakdragers en de dakkoffer met inhoud is 750 N. Het totale contactoppervlak van de dakdragers met de auto is $84 \\text{ cm}^2$.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_opgave4_bron1.png",
+          "vraagtekst_html": "<p>Bereken de druk op het contactoppervlak.</p>",
+          "correct_antwoord_model": "<p>Voorbeeld van een juiste berekening:</p><ul><li>$p = F / A$ </li><li>$p = 750 / 84 = 8,9 \\text{ N/cm}^2$ ($= 8,9 \\cdot 10^4 \\text{ Pa}$) </li></ul><p><strong>Scorepunten:</strong></p><ul><li>gebruik van de formule $p = F / A$: 1 punt </li><li>rest van de berekening juist: 1 punt </li></ul>"
+        },
+        {
+          "id": 19,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Marja gaat op vakantie met een dakkoffer. Je ziet een schematische afbeelding van de auto zonder dakkoffer. Punt Z is het zwaartepunt. Het plaatsen van de dakkoffer met bagage heeft invloed op de ligging van het zwaartepunt.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>In welke afbeelding is het zwaartepunt van de auto met gevulde dakkoffer het best weergegeven?</p><p>A) <img src=\"vmbo_natuur_en_scheikunde_1_tv1_vraag19_optieA.png\" alt=\"Optie A\"></p><p>B) <img src=\"vmbo_natuur_en_scheikunde_1_tv1_vraag19_optieB.png\" alt=\"Optie B\"></p><p>C) <img src=\"vmbo_natuur_en_scheikunde_1_tv1_vraag19_optieC.png\" alt=\"Optie C\"></p>",
+          "correct_antwoord_model": "<p>B </p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "Afbeelding A"
+            },
+            {
+              "id": "B",
+              "text": "Afbeelding B"
+            },
+            {
+              "id": "C",
+              "text": "Afbeelding C"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": 20,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Marja gaat op vakantie met een dakkoffer. Vergelijk het rijden met en zonder dakkoffer bij dezelfde snelheid.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Door het rijden met dakkoffer... </p>",
+          "correct_antwoord_model": "<p>C </p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "neemt alleen de luchtweerstand toe."
+            },
+            {
+              "id": "B",
+              "text": "neemt alleen de rolweerstand toe."
+            },
+            {
+              "id": "C",
+              "text": "nemen de luchtweerstand en de rolweerstand toe."
+            }
+          ],
+          "correct_answer": "C"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 5,
+      "opgave_titel": "Practicum telefoon",
+      "vragen": [
+        {
+          "id": 21,
+          "max_score": 3,
+          "type": "calculation",
+          "context_html": "<p>Milan bepaalt tijdens een practicum de massa van zijn telefoon. Hij doet dit met massablokjes van 50,0 gram en een hefboom. Het volume van een massablokje is $5,9 \\text{ cm}^3$.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Bereken de dichtheid en noteer van welk materiaal het massablokje gemaakt kan zijn. Gebruik BINAS.</p>",
+          "correct_antwoord_model": "<p>Voorbeeld van een juiste berekening en conclusie:</p><ul><li>$\\rho = m / V$ </li><li>$\\rho = 50,0 / 5,9 = 8,5 \\text{ g/cm}^3$ (of 8,47...) </li><li>Het massablokje kan gemaakt zijn van messing.</li></ul><p><strong>Scorepunten:</strong></p><ul><li>gebruik van de formule $\\rho = m / V$: 1 punt </li><li>rest van de berekening juist: 1 punt </li><li>noteren van de stof met de berekende dichtheid: 1 punt </li></ul><p><strong>Opmerking</strong><br>Het derde scorepunt alleen toekennen als een dichtheid is berekend.</p>"
+        },
+        {
+          "id": 22,
+          "max_score": 3,
+          "type": "calculation",
+          "context_html": "<p>Milan bepaalt tijdens een practicum de massa van zijn telefoon. Milan hangt de hefboom in een statief. Je ziet een afbeelding van de hefboom met rechts de telefoon en links de massablokjes. Punt D is het draaipunt. De hefboom is in evenwicht. De totale massa links is $m_{totaal} = 0,20 \\text{ kg}$. De afstand van de massa tot D is 20 cm. Het moment van de massablokjes is 0,40 Nm.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_opgave5_bron1.png",
+          "vraagtekst_html": "<p>Toon dit moment met een berekening aan.</p>",
+          "correct_antwoord_model": "<p>Voorbeeld van een juiste berekening:</p><ul><li>$F_z = m \\cdot g = 0,20 \\times 9,81 = 1,96 \\text{ N}$ (of $0,20 \\times 10 = 2,0 \\text{ N}$) </li><li>$l = 20 \\text{ cm} = 0,20 \\text{ m}$</li><li>$M = F \\cdot l$ </li><li>$M = 1,96 \\times 0,20 = 0,39 \\text{ Nm}$ (of $2,0 \\times 0,20 = 0,40 \\text{ Nm}$) </li></ul><p><strong>Scorepunten:</strong></p><ul><li>noteren van de waarde van de zwaartekracht (1,96 (N) of 2,0 (N)): 1 punt </li><li>gebruik van de formule $M = F \\cdot l$: 1 punt </li><li>rest van de berekening juist: 1 punt </li></ul><p><strong>Opmerking</strong><br>Als een kandidaat in de formule $M=F \\cdot l$ in plaats van de kracht de massa invult, voor deze vraag maximaal 1 scorepunt toekennen.</p>"
+        },
+        {
+          "id": 23,
+          "max_score": 2,
+          "type": "calculation",
+          "context_html": "<p>Milan bepaalt tijdens een practicum de massa van zijn telefoon. Milan hangt de hefboom in een statief. Je ziet een afbeelding van de hefboom met rechts de telefoon en links de massablokjes. Punt D is het draaipunt. De hefboom is in evenwicht. De totale massa links ($m_{links}$) is $0,20 \\text{ kg}$. De afstand links ($l_{links}$) is 20 cm. De afstand rechts ($l_{rechts}$) is 18 cm. Het moment links ($M_{links}$) is 0,40 Nm.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_opgave5_bron1.png",
+          "vraagtekst_html": "<p>Bereken de massa van de telefoon van Milan.</p>",
+          "correct_antwoord_model": "<p>Voorbeeld van een juiste berekening:</p><ul><li>Momentenwet: $M_{links} = M_{rechts}$ $\\implies M_{links} = F_{z,rechts} \\cdot l_{rechts}$ </li><li>$0,40 = F_{z,rechts} \\times 0,18 \\implies F_{z,rechts} = 0,40 / 0,18 = 2,22... \\text{ N}$ </li><li>$m = F_z / g = 2,22... / 9,81 = 0,226... \\text{ kg}$ (of $2,22... / 10 = 0,222... \\text{ kg}$) (Antwoord: $0,22 \\text{ kg}$ of $222 \\text{ g}$) </li></ul><p><strong>Alternatief:</strong></p><ul><li>Momentenwet: $F_{links} \\cdot l_{links} = F_{rechts} \\cdot l_{rechts}$ $\\implies m_{links} \\cdot g \\cdot l_{links} = m_{rechts} \\cdot g \\cdot l_{rechts}$</li><li>$m_{links} \\cdot l_{links} = m_{rechts} \\cdot l_{rechts}$ </li><li>$0,20 \\times 20 = m_{telefoon} \\times 18$ </li><li>$m_{telefoon} = (0,20 \\times 20) / 18 = 0,222... \\text{ kg}$ (Antwoord: $0,22 \\text{ kg}$ of $222 \\text{ g}$) </li></ul><p><strong>Scorepunten:</strong></p><ul><li>toepassen van de momentenwet: 1 punt </li><li>rest van de berekening juist: 1 punt </li></ul><p><strong>Opmerkingen</strong></p><ul><li>Voor het toekennen van het eerste scorepunt hoeft het woord of symbool voor de grootheden moment en kracht niet genoteerd te worden.</li><li>Als een kandidaat de massa berekent met verhoudingsgetallen ($m = \\frac{20}{18} \\cdot 0,20 \\text{ kg}$), dit beoordelen als toepassen van de momentenwet.</li></ul>"
+        },
+        {
+          "id": 24,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Milan bepaalt tijdens een practicum de massa van zijn telefoon met een hefboom. Milan verplaatst de massablokjes in de richting van draaipunt D. Het verplaatsen van de massablokjes kan invloed hebben op het evenwicht. Op de uitwerkbijlage staan drie zinnen over het gevolg van de verplaatsing.</p>",
+          "bronverwijzing_tekst": "Omcirkel in elke zin de juiste mogelijkheid.",
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_vraag24_bijlage_zinnen.png",
+          "vraagtekst_html": "<p>Omcirkel in elke zin op de uitwerkbijlage de juiste mogelijkheid.</p>",
+          "correct_antwoord_model": "<p>Een juist antwoord levert 2 scorepunten op.</p><ul><li>Het moment links van D <strong>neemt af</strong>.</li><li>Het moment rechts van D <strong>blijft gelijk</strong>.</li><li>De telefoon <strong>gaat omlaag</strong>.</li></ul><p><strong>Scoreverdeling:</strong></p><ul><li>Eerste twee keuzes (neemt af, blijft gelijk) juist: 1 punt </li><li>Derde keuze (gaat omlaag) juist: 1 punt </li></ul><p><strong>Opmerkingen</strong></p><ul><li>Het eerste scorepunt alleen toekennen als beide keuzes juist zijn.</li><li>Als de kandidaat als antwoord 'neemt toe, blijft gelijk, gaat omhoog' noteert, hiervoor 1 scorepunt toekennen.</li></ul>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 6,
+      "opgave_titel": "Citroenaccu",
+      "vragen": [
+        {
+          "id": 25,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Een monteur probeert met 1000 halve citroenen de motor van een auto te starten. Door citroenen met metalen plaatjes en draden te verbinden ontstaat er een citroenaccu als spanningsbron. De citroenaccu is te vergelijken met een accu van een auto.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Noteer de energiesoort die is opgeslagen in een accu.</p>",
+          "correct_antwoord_model": "<p>chemische (energie) </p>"
+        },
+        {
+          "id": 26,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Een monteur probeert met 1000 halve citroenen de motor van een auto te starten. Je ziet een schematische afbeelding van de schakeling met citroenen. Er zijn in totaal 50 rijen met 20 halve citroenen.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_opgave6_bron1.png",
+          "vraagtekst_html": "<p>Wat is juist over de citroenen in de schakeling?</p>",
+          "correct_antwoord_model": "<p>B </p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "De citroenen in één rij zijn in serie geschakeld. De rijen met citroenen zijn in serie geschakeld."
+            },
+            {
+              "id": "B",
+              "text": "De citroenen in één rij zijn in serie geschakeld. De rijen met citroenen zijn parallel geschakeld."
+            },
+            {
+              "id": "C",
+              "text": "De citroenen in één rij zijn parallel geschakeld. De rijen met citroenen zijn in serie geschakeld."
+            },
+            {
+              "id": "D",
+              "text": "De citroenen in één rij zijn parallel geschakeld. De rijen met citroenen zijn parallel geschakeld."
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": 27,
+          "max_score": 2,
+          "type": "calculation",
+          "context_html": "<p>Een monteur probeert met 1000 halve citroenen de motor van een auto te starten. Er zijn 50 rijen met halve citroenen. De stroomsterkte die de citroenaccu met 50 rijen halve citroenen levert is 1,50 A. De monteur meet de spanning over de citroenaccu. Je ziet een afbeelding van de spanningsmeter met de gemeten spanning.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_opgave6_bron2.png",
+          "vraagtekst_html": "<p>Bereken het vermogen dat de citroenaccu levert.</p>",
+          "correct_antwoord_model": "<p>Voorbeeld van een juiste berekening:</p><ul><li>Afgelezen spanning $U = 13,50 \\text{ V}$ </li><li>$P = U \\cdot I$ </li><li>$P = 13,50 \\times 1,50 = 20,25 \\text{ W}$ (Antwoord: $20,3 \\text{ W}$) </li></ul><p><strong>Scorepunten:</strong></p><ul><li>gebruik van de formule $P = U \\cdot I$: 1 punt </li><li>rest van de berekening juist: 1 punt </li></ul>"
+        },
+        {
+          "id": 28,
+          "max_score": 1,
+          "type": "calculation",
+          "context_html": "<p>Een monteur probeert met 1000 halve citroenen de motor van een auto te starten. De stroomsterkte die de citroenaccu met 50 rijen halve citroenen levert is 1,50 A. Om de motor op te kunnen starten is een stroomsterkte van 90 A nodig. Het aantal halve citroenen in elke rij blijft gelijk.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Noteer het aantal rijen met halve citroenen dat daarvoor nodig is.</p>",
+          "correct_antwoord_model": "<p>Voorbeeld van een juiste berekening:</p><ul><li>De stroomsterkte is evenredig met het aantal parallel geschakelde rijen.</li><li>Aantal rijen $= \\frac{90 \\text{ A}}{1,50 \\text{ A}} \\times 50 \\text{ rijen} = 60 \\times 50 = 3000$ rijen.</li></ul><p>Antwoord: (aantal rijen =) <strong>3000</strong> </p>"
+        },
+        {
+          "id": 29,
+          "max_score": 1,
+          "type": "open_non_language",
+          "context_html": "<p>Een monteur probeert met 1000 halve citroenen de motor van een auto te starten. De monteur ruimt na afloop de citroenen op.</p>",
+          "bronverwijzing_tekst": "Gebruik de tabel 'Klein chemisch afval, groente-, fruit- en tuinafval en recycling' in BINAS.",
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Noteer bij welk soort afval de citroenen horen.</p>",
+          "correct_antwoord_model": "<p>groente-, fruit- en tuinafval / gft </p><p><strong>Opmerking (uit aanvulling)</strong><br>Als de kandidaat als antwoord 'klein chemisch afval / KCA' noteert, hiervoor 1 scorepunt toekennen. (Toelichting: De citroenen die gebruikt zijn als accu kunnen een te hoge concentratie metaalionen bevatten.)</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 7,
+      "opgave_titel": "Drone",
+      "vragen": [
+        {
+          "id": 30,
+          "max_score": 2,
+          "type": "calculation",
+          "context_html": "<p>Een drone is een onbemand luchtvaartuig dat op afstand bestuurbaar is. Er staat een drone stil op de grond. De motoren worden gestart en de drone stijgt op. De drone versnelt eenparig met $a = 8,0 \\\\text{ m/s}^2$. De snelheid van de drone neemt toe van $0 \\\\text{ m/s}$ naar $6,0 \\\\text{ m/s}$ ($\\\\Delta v = 6,0 \\\\text{ m/s}$).</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_opgave7_bron1.png",
+          "vraagtekst_html": "<p>Bereken de tijd die de drone versnelt.</p>",
+          "correct_antwoord_model": "<p>Voorbeeld van een juiste berekening:</p><ul><li>$a = \\\\Delta v / \\\\Delta t$ </li><li>$\\\\Delta t = \\\\Delta v / a = 6,0 / 8,0 = 0,75 \\\\text{ s}$ </li></ul><p><strong>Scorepunten:</strong></p><ul><li>gebruik van de formule $a = \\\\Delta v / \\\\Delta t$: 1 punt </li><li>rest van de berekening juist: 1 punt </li></ul>"
+        },
+        {
+          "id": 31,
+          "max_score": 2,
+          "type": "calculation",
+          "context_html": "<p>Een drone stijgt op. De drone versnelt eenparig met $a = 8,0 \\\\text{ m/s}^2$. De massa van de drone is $m = 1,6 \\\\text{ kg}$.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_opgave7_bron1.png",
+          "vraagtekst_html": "<p>Bereken de nettokracht die voor deze versnelling nodig is.</p>",
+          "correct_antwoord_model": "<p>Voorbeeld van een juiste berekening:</p><ul><li>$F_{netto} = m \\cdot a$ </li><li>$F_{netto} = 1,6 \\times 8,0 = 12,8 \\\\text{ N}$ (Antwoord: $13 \\\\text{ N}$) </li></ul><p><strong>Scorepunten:</strong></p><ul><li>gebruik van de formule $F = m \\cdot a$: 1 punt </li><li>rest van de berekening juist: 1 punt </li></ul>"
+        },
+        {
+          "id": 32,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Een drone stijgt op. Na het versnellen stijgt de drone verder met een constante snelheid van $6,0 \\\\text{ m/s}$. Je ziet drie afbeeldingen met de krachten op de drone.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Welke afbeelding hoort bij het stijgen met een constante snelheid?</p><p>A) <img src=\"vmbo_natuur_en_scheikunde_1_tv1_vraag32_optieA.png\" alt=\"Optie A\"></p><p>B) <img src=\"vmbo_natuur_en_scheikunde_1_tv1_vraag32_optieB.png\" alt=\"Optie B\"></p><p>C) <img src=\"vmbo_natuur_en_scheikunde_1_tv1_vraag32_optieC.png\" alt=\"Optie C\"></p>",
+          "correct_antwoord_model": "<p>B </p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "Afbeelding A"
+            },
+            {
+              "id": "B",
+              "text": "Afbeelding B"
+            },
+            {
+              "id": "C",
+              "text": "Afbeelding C"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": 33,
+          "max_score": 3,
+          "type": "calculation",
+          "context_html": "<p>Een drone stijgt op. De massa van de drone is $m = 1,6 \\\\text{ kg}$. Op een bepaalde hoogte heeft de drone een zwaarte-energie van $E_z = 1,40 \\\\text{ kJ}$.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_opgave7_bron1.png",
+          "vraagtekst_html": "<p>Bereken deze hoogte.</p>",
+          "correct_antwoord_model": "<p>Voorbeeld van een juiste berekening:</p><ul><li>$E_z = 1,40 \\text{ kJ} = 1400 \\text{ J}$ </li><li>$E_z = m \\cdot g \\cdot h$ </li><li>$1400 = 1,6 \\times 9,81 \\times h$ (of $1,6 \\times 10 \\times h$) </li><li>$h = 1400 / (1,6 \\times 9,81) = 89,2... \\text{ m}$ (of $1400 / (1,6 \\times 10) = 87,5 \\text{ m}$) (Antwoord: $88 \\text{ m}$) </li></ul><p><strong>Scorepunten:</strong></p><ul><li>juist omrekenen van de zwaarte-energie: 1 punt </li><li>gebruik van de formule $E_z = m \\cdot g \\cdot h$: 1 punt </li><li>rest van de berekening juist: 1 punt </li></ul>"
+        },
+        {
+          "id": 34,
+          "max_score": 1,
+          "type": "calculation",
+          "context_html": "<p>De bestuurder verandert de vliegrichting van de drone. Op de uitwerkbijlage zie je een afbeelding van de krachten op de drone in punt Z tijdens een bepaald moment van de vlucht. De zwaartekracht op de drone is $F_z = 16 \\text{ N}$. De krachtenschaal is $1 \\text{ cm} \\ \\hat{=} \\ 4,0 \\text{ N}$.</p>",
+          "bronverwijzing_tekst": "Zie de afbeelding op de uitwerkbijlage.",
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_vraag35_bijlage_krachtendiagram.png",
+          "vraagtekst_html": "<p>Toon deze krachtenschaal met een berekening aan.</p>",
+          "correct_antwoord_model": "<p>De berekening bestaat uit: het noteren van de lengte van de vector $F_z$ (deze is 4,0 cm lang in de afbeelding op de uitwerkbijlage) en vermenigvuldigen met 4,0 (N) / het delen van de kracht (16 N) door de lengte van de vector (4,0 cm).</p><ul><li>Voorbeeld 1: Lengte $F_z$ is 4,0 cm. $4,0 \\text{ cm} \\times 4,0 \\text{ N/cm} = 16 \\text{ N}$. Dit klopt.</li><li>Voorbeeld 2: $16 \\text{ N} / 4,0 \\text{ cm} = 4,0 \\text{ N/cm}$. Dit klopt.</li></ul><p>Score: 1 punt voor een correcte berekening.</p>"
+        },
+        {
+          "id": 35,
+          "max_score": 3,
+          "type": "open_non_language",
+          "context_html": "<p>De bestuurder verandert de vliegrichting van de drone. Op de uitwerkbijlage zie je een afbeelding van de krachten op de drone in punt Z tijdens een bepaald moment van de vlucht ($F_z$ en $F_{drone}$). De zwaartekracht op de drone is $F_z = 16 \\text{ N}$. De krachtenschaal is $1 \\text{ cm} \\ \\hat{=} \\ 4,0 \\text{ N}$.</p>",
+          "bronverwijzing_tekst": "Construeer op de uitwerkbijlage de resulterende kracht van $F_z$ en $F_{drone}$. Noteer de grootte van deze kracht naast de afbeelding.",
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_vraag35_bijlage_krachtendiagram.png",
+          "vraagtekst_html": "<p>Construeer op de uitwerkbijlage de resulterende kracht van $F_z$ en $F_{drone}$. Noteer de grootte van deze kracht naast de afbeelding.</p>",
+          "correct_antwoord_model": "<p>Voorbeeld van een juiste constructie:</p><p><img src=\"vmbo_natuur_en_scheikunde_1_tv1_vraag35_bijlage_krachtendiagram_correct.png\" style=\"max-width: 100%; height: auto;\" alt=\"Correcte constructie van de resulterende kracht.\"></p><p>Antwoord: $9,6 \\text{ N} \\le F_{res} \\le 11,2 \\text{ N}$ (afhankelijk van tekening en meting, bijvoorbeeld 2,6 cm $\\times$ 4,0 N/cm = 10,4 N).</p><p><strong>Scorepunten:</strong></p><ul><li>juist samenstellen van $F_{res}$ uit $F_z$ en $F_{drone}$ met behulp van werklijnen (parallellogrammethode of kop-staartmethode): 1 punt </li><li>juist tekenen van $F_{res}$ (vector vanuit Z): 1 punt </li><li>noteren van de juiste/consequente grootte van $F_{res}$: 1 punt </li></ul><p><strong>Opmerking</strong><br>Als de kandidaat de resulterende kracht vanuit Z niet (juist) heeft getekend, voor deze vraag maximaal 2 scorepunten toekennen.</p>"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 8,
+      "opgave_titel": "Petroleum",
+      "vragen": [
+        {
+          "id": 36,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Daan vult een petroleumlamp met petroleum. Voordat Daan de lamp met petroleum vult, leest hij de veiligheidskaart. Op de veiligheidskaart staat dat petroleum irritatie veroorzaakt.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_opgave8_bron1.png",
+          "vraagtekst_html": "<p>Welk veiligheidspictogram hoort bij deze beschrijving?</p><p>A) <img src=\"vmbo_natuur_en_scheikunde_1_tv1_vraag36_optieA.png\" alt=\"Pictogram A\"></p><p>B) <img src=\"vmbo_natuur_en_scheikunde_1_tv1_vraag36_optieB.png\" alt=\"Pictogram B\"></p><p>C) <img src=\"vmbo_natuur_en_scheikunde_1_tv1_vraag36_optieC.png\" alt=\"Pictogram C\"></p><p>D) <img src=\"vmbo_natuur_en_scheikunde_1_tv1_vraag36_optieD.png\" alt=\"Pictogram D\"></p><p>E) <img src=\"vmbo_natuur_en_scheikunde_1_tv1_vraag36_optieE.png\" alt=\"Pictogram E (!)\"></p>",
+          "correct_antwoord_model": "<p>B </p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "Pictogram A"
+            },
+            {
+              "id": "B",
+              "text": "Pictogram B"
+            },
+            {
+              "id": "C",
+              "text": "Pictogram C"
+            },
+            {
+              "id": "D",
+              "text": "Pictogram D"
+            },
+            {
+              "id": "E",
+              "text": "Pictogram E (!)"
+            }
+          ],
+          "correct_answer": "B"
+        },
+        {
+          "id": 37,
+          "max_score": 2,
+          "type": "calculation",
+          "context_html": "<p>Daan schenkt een volume van $V = 350 \\text{ cm}^3$ petroleum in de petroleumlamp.</p>",
+          "bronverwijzing_tekst": "Gebruik de tabel 'Verbrandingswarmte van enkele stoffen' in BINAS.",
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_opgave8_bron1.png",
+          "vraagtekst_html": "<p>Bereken de energie die vrijkomt bij verbranding van deze hoeveelheid petroleum.</p>",
+          "correct_antwoord_model": "<p>Voorbeeld van een juiste berekening:</p><ul><li>Verbrandingswarmte petroleum $r_v = 32\\,000 \\text{ J/cm}^3$ (uit BINAS) </li><li>$E = r_v \\cdot V$</li><li>$E = 32\\,000 \\times 350 = 11\\,200\\,000 \\text{ J}$ ($= 1,12 \\cdot 10^7 \\text{ J}$ of $11,2 \\text{ MJ}$) </li></ul><p><strong>Scorepunten:</strong></p><ul><li>noteren van de waarde van de verbrandingswarmte van petroleum (32000 (J/cm³)): 1 punt </li><li>rest van de berekening juist: 1 punt </li></ul>"
+        },
+        {
+          "id": 38,
+          "max_score": 1,
+          "type": "mc",
+          "context_html": "<p>Daan steekt de lont van de lamp aan. De petroleum verdampt voordat het verbrandt.</p>",
+          "bronverwijzing_tekst": null,
+          "bron_verwijzing": null,
+          "vraagtekst_html": "<p>Wat is juist over verdampen en verbranden?</p>",
+          "correct_antwoord_model": "<p>D </p>",
+          "options": [
+            {
+              "id": "A",
+              "text": "verdampen is een chemische reactie, verbranden is een natuurkundig proces"
+            },
+            {
+              "id": "B",
+              "text": "verdampen is een chemische reactie, verbranden is een chemische reactie"
+            },
+            {
+              "id": "C",
+              "text": "verdampen is een natuurkundig proces, verbranden is een natuurkundig proces"
+            },
+            {
+              "id": "D",
+              "text": "verdampen is een natuurkundig proces, verbranden is een chemische reactie"
+            }
+          ],
+          "correct_answer": "D"
+        }
+      ]
+    },
+    {
+      "opgave_nr": 9,
+      "opgave_titel": "Kookpunt Petroleum",
+      "vragen": [
+         {
+          "id": 39,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Daan steekt de lont van de lamp aan. De petroleum verdampt voordat het verbrandt. Op de uitwerkbijlage staat een zin over het verdampen van petroleum.</p>",
+          "bronverwijzing_tekst": "Maak deze zin compleet.",
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_vraag39_bijlage_zin.png",
+          "vraagtekst_html": "<p>Maak de zin op de uitwerkbijlage compleet: Bij verdampen gaat petroleum over van de ... fase naar de ... fase.</p>",
+          "correct_antwoord_model": "<p>Een juist antwoord levert 2 scorepunten op.</p><p>Bij verdampen gaat petroleum over van de <strong>vloeibare</strong> fase naar de <strong>gas</strong> / <strong>gasvormige</strong> fase.</p><p><strong>Scorepunten:</strong></p><ul><li>'vloeibare' juist: 1 punt </li><li>'gas / gasvormige' juist: 1 punt </li></ul>"
+        },
+        {
+          "id": 40,
+          "max_score": 2,
+          "type": "open_non_language",
+          "context_html": "<p>Op de uitwerkbijlage staat een zin over petroleum.</p>",
+          "bronverwijzing_tekst": "Noteer in deze zin het kookpunt van petroleum in K en in °C. Gebruik BINAS.",
+          "bron_verwijzing": "vmbo_natuur_en_scheikunde_1_tv1_vraag40_bijlage_zin.png",
+          "vraagtekst_html": "<p>Noteer in de zin op de uitwerkbijlage het kookpunt van petroleum in K en in °C: Het kookpunt van petroleum is ... K, dit is ... °C.</p>",
+          "correct_antwoord_model": "<p>Een juist antwoord levert 2 scorepunten op.</p><p>Het kookpunt van petroleum is <strong>423</strong> K, dit is <strong>150</strong> °C.</p><p><strong>Scorepunten:</strong></p><ul><li>423 (K) juist: 1 punt </li><li>150 (°C) juist: 1 punt </li></ul><p><strong>Opmerking</strong><br>Als de kandidaat een onjuiste waarde voor de temperatuur in K noteert maar juist omrekent naar °C, voor deze vraag 1 scorepunt toekennen.</p>"
+        }
+      ]
+    }
+  ]
+}

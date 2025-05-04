@@ -405,6 +405,28 @@
             </div>
         </div>
 
+        <!-- Theory Explanation Box -->
+        <div id="theoryBox" class="theory-box box" style="display: none;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+                <h3 style="margin: 0;">Theorie Uitleg:</h3>
+                <button id="hideTheoryBtn" class="close-button" aria-label="Verberg Theorie">&times;</button>
+            </div>
+            <div id="theoryContent" class="markdown-content"></div>
+            <p id="theoryLoadingIndicator" style="display: none;">Theorie wordt geladen...</p>
+            <p id="theoryErrorIndicator" class="error-message" style="display: none;"></p>
+            <!-- Continuation button -->
+            <button id="continueTheoryBtn" class="secondary-button" style="display: none; margin-top: 10px;">Lees verder...</button>
+        </div>
+        
+        <!-- <<< START: Issue Reporting Section >>> -->
+        <div id="issueReportingSection" class="issue-reporting-box box" style="margin-top: 20px; padding: 15px; border: 1px solid #ddd; border-radius: 5px; background-color: #f9f9f9;">
+            <p id="issueReportText" style="margin: 0 0 10px 0; font-size: 0.9em; color: #555;">Zelfs de slimste AI maakt fouten. Probleem gevonden? Geef ons een seintje!</p>
+            <button id="reportIssueBtn" class="secondary-button small-button">Meld Fout</button>
+            <span id="issueReportConfirmation" style="display: none; color: green; margin-left: 10px; font-size: 0.9em;">Bedankt voor de feedback, we gaan het fixen!</span>
+            <span id="issueReportError" style="display: none; color: red; margin-left: 10px; font-size: 0.9em;">Melden mislukt, probeer later opnieuw.</span>
+        </div>
+        <!-- <<< END: Issue Reporting Section >>> -->
+
     </div>
 
     {# Embed question data as JSON for JavaScript #}

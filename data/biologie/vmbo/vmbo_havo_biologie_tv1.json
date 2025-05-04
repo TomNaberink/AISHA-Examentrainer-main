@@ -91,7 +91,7 @@
           "context_html": "<p>Girafkevers zijn insecten met een zeer lange nek. De mannetjes hebben een langere en krachtigere nek dan de vrouwtjes. In de paartijd tonen de mannetjes hun krachtige nek om andere mannetjes te verjagen. Een vrouwtje dat in de buurt is, houdt de mannetjes in de gaten. Zij zal met het sterkste mannetje paren. Na het paren vouwt het vrouwtje een blad, door in de bladnerf te bijten. Daarna rolt zij het blad op en legt ze een ei in het opgerolde blad. Het mannetje blijft in de buurt om andere insecten te verjagen. Als het ei is ingepakt, bijt het vrouwtje de bladsteel door. Hierdoor valt het blad met het ei erin op de bodem. Wanneer de larve uit het ei komt, voedt deze zich met het blad.</p>",
           "bronverwijzing_tekst": "Op de uitwerkbijlage staat een tabel met beschrijvingen van sociaal gedrag van girafkevers.",
           "bron_verwijzing": null,
-          "vraagtekst_html": "<p>Schrijf in de tabel bij elke beschrijving welk type sociaal gedrag erbij hoort.</p>",
+          "vraagtekst_html": "<p>Bekijk de tabel in de afbeelding:</p><p><img src=\"vmbo_bio_vraag4_tabel.png\" alt=\"Tabel vraag 4\" style=\"max-width: 100%; height: auto;\"></p><p>Schrijf hieronder het type sociaal gedrag dat bij elke beschrijving hoort. Geef eerst het antwoord voor de eerste rij, dan voor de tweede rij (bijvoorbeeld gescheiden door een komma of op een nieuwe regel).</p>",
           "correct_antwoord_model": "<table><thead><tr><th>beschrijving van sociaal gedrag</th><th>type sociaal gedrag</th></tr></thead><tbody><tr><td>In de paartijd tonen de mannetjes hun krachtige nek om andere mannetjes te verjagen.</td><td>dreiggedrag/imponeergedrag/territoriumgedrag</td></tr><tr><td>Het vrouwtje rolt het blad op en legt een ei in het opgerolde blad.</td><td>broedzorg</td></tr></tbody></table><p>(Per juist ingevulde rij 1 punt)</p>"
         },
         {
@@ -206,7 +206,7 @@
           "context_html": "<p>Koffieplanten worden vermeerderd door van één moederplant meerdere takken te knippen en te stekken. Deze takken krijgen dan wortels en groeien uit tot nieuwe koffieplanten. Na een aantal jaren kunnen van die nieuwe planten weer koffiezaden geoogst worden.</p>",
           "bronverwijzing_tekst": "Op de uitwerkbijlage staan twee uitspraken over deze manier van vermeerdering.",
           "bron_verwijzing": null,
-          "vraagtekst_html": "<p>Kruis bij elke uitspraak aan of deze juist of onjuist is.</p>",
+          "vraagtekst_html": "<p>Bekijk de tabel in de afbeelding:</p><p><img src=\"vmbo_bio_vraag13_tabel.png\" alt=\"Tabel vraag 13\" style=\"max-width: 100%; height: auto;\"></p><p>Geef hieronder aan of de uitspraken juist of onjuist zijn. Geef eerst het antwoord (juist/onjuist) voor de eerste uitspraak, dan voor de tweede uitspraak (bijvoorbeeld gescheiden door een komma of op een nieuwe regel).</p>",
           "correct_antwoord_model": "<table><thead><tr><th></th><th>juist</th><th>onjuist</th></tr></thead><tbody><tr><td>Het afknippen en stekken van meerdere takken van één moederplant is een manier van geslachtelijke voortplanting.</td><td></td><td>X</td></tr><tr><td>De nieuwe planten afkomstig van één moederplant hebben hetzelfde genotype.</td><td>X</td><td></td></tr></tbody></table><p><strong>Opmerking</strong></p><p>Alleen voor een volledig juist ingevulde tabel het scorepunt toekennen.</p>"
         },
         {
@@ -509,7 +509,7 @@
           "context_html": "<p>Stamcellen in het beenmerg delen zich de hele tijd, waardoor nieuwe bloeddeeltjes ontstaan. In de afbeelding zijn de bloeddeeltjes die uit stamcellen ontstaan met een letter aangegeven. Nieuwe witte bloedcellen komen via de bloedsomloop bij lymfeklieren terecht waar ze zich verder ontwikkelen.</p>",
           "bronverwijzing_tekst": "Op de uitwerkbijlage staat een tabel met functies van de drie bloeddeeltjes.",
           "bron_verwijzing": "vmbo_biologie_tv1_opgave8_bron1.png",
-          "vraagtekst_html": "<p>Noteer bij elke functie de letter van het bloeddeeltje in de afbeelding dat erbij hoort.</p>",
+          "vraagtekst_html": "<p>Bekijk de tabel in de afbeelding:</p><p><img src=\"vmbo_bio_vraag31_tabel.png\" alt=\"Tabel vraag 31\" style=\"max-width: 100%; height: auto;\"></p><p>Noteer hieronder bij elke functie de letter van het bloeddeeltje in de afbeelding dat erbij hoort. Geef de antwoorden op volgorde van de tabel (bijvoorbeeld P, Q, R).</p>",
           "correct_antwoord_model": "<table><thead><tr><th>functie</th><th>letter</th></tr></thead><tbody><tr><td>bestrijden van ziekteverwekkers</td><td>Q</td></tr><tr><td>laten stollen van het bloed</td><td>R</td></tr><tr><td>vervoeren van zuurstof</td><td>P</td></tr></tbody></table><ul><li>indien drie letters juist ingevuld (2 punten)</li><li>indien twee letters juist ingevuld (1 punt)</li><li>indien minder dan twee letters juist ingevuld (0 punten)</li></ul>"
         },
         {
@@ -673,7 +673,7 @@
           "context_html": "<p>Hans en zijn partner Karlijn gaan naar de mannenpoli in het ziekenhuis, omdat hij onder andere klachten ondervindt tijdens het vrijen. Als Hans een erectie krijgt, trekt zijn penis krom. Tijdens het onderzoek zegt de arts dat hij littekenweefsel in de penis voelt. Littekenweefsel is dikker dan normaal weefsel. Hij besluit een echo te maken om vast te stellen waar het littekenweefsel zich precies bevindt. Gedurende het bezoek aan de mannenpoli stellen Hans en Karlijn ook vragen over anticonceptiemethoden.</p>",
           "bronverwijzing_tekst": "Op de uitwerkbijlage staan twee functies van organen omschreven die horen bij het mannelijk voortplantingsstelsel.",
           "bron_verwijzing": "vmbo_biologie_tv1_opgave10_bron1.png",
-          "vraagtekst_html": "<p>Geef bij elke functie de letter en de naam van het bijbehorende orgaan.</p>",
+          "vraagtekst_html": "<p>Bekijk de tabel in de afbeelding:</p><p><img src=\"vmbo_bio_vraag39_tabel.png\" alt=\"Tabel vraag 39\" style=\"max-width: 100%; height: auto;\"></p><p>Geef hieronder bij elke functie de letter en de naam van het bijbehorende orgaan. Geef eerst de letter en naam voor de eerste rij, dan voor de tweede rij.</p>",
           "correct_antwoord_model": "<table><thead><tr><th>omschrijving van de functie</th><th>letter</th><th>naam van het orgaan</th></tr></thead><tbody><tr><td>slaat zaadcellen tijdelijk op</td><td>T</td><td>bijbal</td></tr><tr><td>voegt vocht toe aan zaadcellen</td><td>Q</td><td>zaadblaasje(s)</td></tr></tbody></table><p>(Per juist ingevulde rij 1 punt)</p>"
         },
         {
@@ -874,7 +874,7 @@
           "context_html": "<p>De luipaardgekko is een reptiel dat in Azië voorkomt, en in Nederland worden ze als huisdier gehouden. Het dier heeft een brede kop met grote ogen. Het lichaam is plat en heeft een lengte van ongeveer 20 centimeter inclusief staart. Een luipaardgekko jaagt 's nachts op kleine dieren.</p><p>De ogen zijn grijsgroen van kleur en hebben een spleetachtige, verticale pupil. Jonge luipaardgekko's hebben een gele lichaamskleur met donkergrijze tot zwarte banden op de rug, die verandert naarmate ze ouder worden in bruingeel met vlekken. Dit is de kleur die in het wild voorkomt en wordt wildkleur genoemd. Wildkleur wordt veroorzaakt door een dominant gen. In gevangenschap worden soms luipaardgekko's geboren met een wit-grijze kleur. Deze kleur wordt blizzard genoemd. Een luipaardgekko heeft 38 chromosomen in de lichaamscellen.</p><p>Twee wildkleur-luipaardgekko's worden gekruist. Uit deze kruising blijkt dat een deel van de nakomelingen de kleur blizzard heeft.</p>",
           "bronverwijzing_tekst": "Op de uitwerkbijlage staat een kruisingsschema.",
           "bron_verwijzing": "vmbo_biologie_tv1_opgave13_bron1.png",
-          "vraagtekst_html": "<p>Vul het kruisingsschema in.</p><p>Bepaal de kans op een nakomeling met de kleur blizzard.</p>",
+          "vraagtekst_html": "<p>Bekijk het kruisingsschema in de afbeelding:</p><p><img src=\"vmbo_bio_vraag52_tabel.png\" alt=\"Tabel vraag 52\" style=\"max-width: 100%; height: auto;\"></p><p>Vul hieronder het kruisingsschema in (geef de genotypes per cel, bijv AA, Aa, Aa, aa) en bepaal de kans (als percentage, getal of breuk) op een nakomeling met de kleur blizzard.</p>",
           "correct_antwoord_model": "<p>Kruisingsschema:</p><table><thead><tr><th></th><th></th><th colspan=\"2\">genotype zaadcellen</th></tr><tr><th></th><th></th><th>A</th><th>a</th></tr></thead><tbody><tr><th rowspan=\"2\">genotype eicellen</th><th>A</th><td>AA</td><td>Aa</td></tr><tr><th>a</th><td>Aa</td><td>aa</td></tr></tbody></table><p>(Een juist kruisingsschema met twee heterozygote ouders: 1 punt)</p><p>De kans op een nakomeling met de kleur blizzard: 25% / 0,25 / <span class=\"fraction\"><span class=\"numerator\">1</span><span class=\"denominator\">4</span></span> (1 punt)</p>"
         },
         {
