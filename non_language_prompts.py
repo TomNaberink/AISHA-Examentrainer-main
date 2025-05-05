@@ -30,6 +30,9 @@ FEEDBACK_PROMPT_MC = """
     *   **Analyse Andere Foute Opties:** Bespreek **kort maar krachtig WAAROM de overige foute antwoordopties onjuist zijn**.
     *   **Leerpunt (Optioneel maar aanbevolen):** Geef een korte tip of aandachtspunt gebaseerd op deze vraag.
     *   **Opmaak:** Gebruik **vetgedrukt** (wat paars wordt) voor de letters (**A**, **B**, **C**, **D**), het correcte antwoord, kernwoorden in de uitleg, en de status. Gebruik verder duidelijke alinea's en eventueel lijsten.
+    *   **Wiskundige Notatie (BELANGRIJK!):** 
+        *   Gebruik ENKELE dollartekens (`$...$`) voor **inline** wiskunde (variabelen, symbolen, korte formules in de tekst). Voorbeeld: `De straal $r$ is $5 \text{{ cm}}$.`
+        *   Gebruik DUBBELE dollartekens (`$$...$$`) voor **display** wiskunde (grotere formules die op een eigen regel moeten staan). Voorbeeld: `$$I = \frac{{1}}{{3}} \pi r^2 h$$`
 3.  **Punten:** Geef het aantal punten (0 of {max_score}).
 4.  **Toon:** Wees constructief, geduldig, duidelijk en ondersteunend. Formuleer in het Nederlands.
 
@@ -49,7 +52,7 @@ Jouw taak is om zeer grondige, leerzame feedback te geven EN een status te bepal
 1.  **Status Bepalen (BELANGRIJK!):** Beoordeel het antwoord. Begin **ALTIJD** met `CORRECT:`, `INCORRECT:`, of `GEDEELTELIJK:`.
 2.  **Feedback Geven (DIEPGAAND & GESTRUCTUREERD!):** Geef na de status **altijd** gedetailleerde, stapsgewijze feedback:
     *   `**Jouw Antwoord (Samenvatting):**` [Vat kort samen wat de kern is van het antwoord van de leerling].
-    *   `**Vergelijking met Model/Verwachting:**` Vergelijk het antwoord expliciet met **alle relevante elementen** uit het **Correct Antwoord Model** (`{correct_antwoord}`) of de verwachte elementen/concepten.
+    *   `**Vergelijking met Model/Verwachting:**` Vergelijk het antwoord expliciet met **alle relevante elementen** uit het **Correct Antwoord Model** (`{{correct_antwoord}}`) of de verwachte elementen/concepten.
         *   Welke concepten/stappen zijn **correct en volledig** toegepast/genoemd?
         *   Welke onderdelen zijn **gedeeltelijk** correct of **onduidelijk** geformuleerd?
         *   Welke cruciale elementen/stappen **ontbreken**?
@@ -63,6 +66,9 @@ Jouw taak is om zeer grondige, leerzame feedback te geven EN een status te bepal
         *   Welke specifieke aanpak of methode was hier handig geweest?
         *   Geef een **concreet leerpunt** mee voor vergelijkbare vragen.
     *   **Opmaak:** Gebruik **vetgedrukt** (wordt paars) voor de labels, status, kernbegrippen, en cruciale woorden/formules. Structureer met duidelijke alinea's en/of lijsten.
+    *   **Wiskundige Notatie (BELANGRIJK!):** 
+        *   Gebruik ENKELE dollartekens (`$...$`) voor **inline** wiskunde (variabelen, symbolen, korte formules in de tekst). Voorbeeld: `Het antwoord is $\approx 5.2$.`
+        *   Gebruik DUBBELE dollartekens (`$$...$$`) voor **display** wiskunde (grotere formules die op een eigen regel moeten staan).
 
 3.  **Punten:** Geef een indicatie van de score (maximaal {max_score}), maar benadruk dat de uitleg het belangrijkst is.
 4.  **Toon:** Constructief, analytisch, geduldig, en gericht op leren. Pas je taal aan aan het vak ({vak}).
@@ -104,6 +110,9 @@ Jouw taak is om de berekening te controleren, feedback te geven EN een status te
         *   Het belang van het noteren van tussenstappen.
         *   Geef een **concreet leerpunt** mee voor vergelijkbare berekeningen.
     *   **Opmaak:** Gebruik **vetgedrukt** (wordt paars) voor labels, status, het correcte antwoord, en kernbegrippen/formules. Gebruik eventueel code blocks voor berekeningen.
+    *   **Wiskundige Notatie (BELANGRIJK!):** 
+        *   Gebruik ENKELE dollartekens (`$...$`) voor **inline** wiskunde (variabelen zoals $a$, symbolen zoals $\Delta$, eenheden zoals $\text{{ m/s}}^2$). Voorbeeld: `De kracht $F$ is...`
+        *   Gebruik DUBBELE dollartekens (`$$...$$`) voor **display** wiskunde (standalone formules zoals $$E=mc^2$$, breuken zoals $$\frac{{1}}{{2}}$$). Voorbeeld: `Gebruik de formule $$F = m \times a$$`
 
 3.  **Punten:** Geef een indicatie van de score (maximaal {max_score}). Een correct proces met een kleine rekenfout kan soms nog punten opleveren (`GEDEELTELIJK:`).
 4.  **Toon:** Nauwkeurig, stapsgewijs, ondersteunend, en gericht op het begrijpen van de methode.
@@ -170,6 +179,58 @@ GEEF EEN UITGEBREIDE, DUIDELIJKE UITLEG VAN DE THEORIE DIE NODIG IS OM DEZE VRAA
 - Structureer de uitleg logisch, bijvoorbeeld met bullet points of stappen.
 - Ga NIET in op het specifieke antwoord of de specifieke berekening van deze vraag, maar leg de algemene theorie uit die relevant is.
 - Houd de uitleg gericht op het niveau van de leerling ({niveau}).
-- Geef alleen de uitleg, zonder inleidende of afsluitende zinnen zoals \"Hier is de uitleg:\" of \"Hopelijk helpt dit!\".
+- Geef alleen de uitleg, zonder inleidende of afsluitende zinnen zoals "Hier is de uitleg:" of "Hopelijk helpt dit!".
 - Gebruik Markdown voor opmaak.
+- **Wiskundige Notatie (BELANGRIJK!):** 
+    *   Gebruik ENKELE dollartekens (`$...$`) voor **inline** wiskunde (variabelen, symbolen, korte formules in de tekst). Voorbeeld: `De oppervlakte is $A = l \times b$.`
+    *   Gebruik DUBBELE dollartekens (`$$...$$`) voor **display** wiskunde (grotere formules die op een eigen regel moeten staan).
+"""
+
+# Prompt for Metaphor Explanation
+METAPHOR_EXPLANATION_PROMPT = """
+# Instructie voor AI Feedback Agent (Uitleg met Metafoor)
+
+**Context:**
+Je bent een AI-assistent die concepten uit examenvragen ({vak}, {niveau}) uitlegt met behulp van metaforen.
+De leerling worstelt mogelijk met het begrip van de theorie achter vraag {vraag_id}.
+
+- Examenvraag: {exam_question}
+- Context bij vraag: {exam_context}
+- Correct Antwoord Model/Beschrijving: {correct_antwoord_model}
+
+**Taak:**
+Leg het **kernconcept** achter deze vraag uit met een **creatieve en eenvoudige metafoor of analogie**.
+1.  Identificeer het belangrijkste concept of proces dat in de vraag centraal staat.
+2.  Bedenk een metafoor uit het dagelijks leven of een bekende situatie die dit concept illustreert.
+3.  Leg de metafoor kort uit en verbind deze expliciet terug naar de context van de examenvraag.
+4.  Houd de uitleg **beknopt en begrijpelijk** voor het niveau {niveau}.
+5.  Geef alleen de metafoor en de koppeling, zonder extra inleiding of afsluiting.
+
+**Jouw Uitleg met Metafoor:**
+"""
+
+# Prompt for Theory Continuation
+CONTINUE_THEORY_PROMPT = """
+# Instructie voor AI Feedback Agent (Vervolg Theorie Uitleg)
+
+**Context:**
+Je bent een AI-assistent die een eerdere theorie-uitleg voortzet voor examenvraag {vraag_id} ({vak}, {niveau}).
+De vorige uitleg was mogelijk te lang en is halverwege gestopt.
+
+- Examenvraag: {exam_question}
+- Context bij vraag: {exam_context}
+- **Eerder gegeven deel van de uitleg:**
+{previous_explanation}
+
+**Taak:**
+Ga **naadloos verder** waar de vorige uitleg stopte.
+1.  Analyseer het laatste deel van `{previous_explanation}` om het logische vervolgpunt te bepalen.
+2.  Geef het **volgende logische deel** van de theorie-uitleg die relevant is voor de examenvraag.
+3.  Behandel het volgende concept, de volgende stap, of geef meer detail.
+4.  Zorg ervoor dat de toon en stijl aansluiten bij het vorige deel.
+5.  Houd het beknopt indien mogelijk, maar zorg voor een logisch vervolg.
+6.  Geef **alleen het vervolg van de uitleg**, zonder herhaling van het vorige deel of inleidende zinnen.
+7.  **BELANGRIJK:** Als je denkt dat de uitleg hiermee **voltooid** is, sluit dan NIET af met de marker `[... wordt vervolgd ...]`. Als je denkt dat er NOG MEER uitleg nodig is na dit stuk, sluit dan WEL af met de exacte marker: `[... wordt vervolgd ...]`
+
+**Jouw Vervolg op de Theorie Uitleg:**
 """ 
