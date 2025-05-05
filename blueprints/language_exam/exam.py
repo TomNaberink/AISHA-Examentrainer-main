@@ -70,6 +70,33 @@ def select_exam_page():
     print("--- END DEBUG ---\n")
     # --- END DEBUG PRINT ---
 
+    # <<< START: Specific Display Name Override >>>
+    try:
+        target_level = 'vmbo'
+        target_subject = 'wiskunde'
+        original_period = '2024_TV2'
+        display_period = '2023_TV1' # Display as 2023 TV1
+
+        if (target_level in exams and 
+            target_subject in exams[target_level] and 
+            original_period in exams[target_level][target_subject]):
+            
+            # Find the index of the original period
+            try:
+                index = exams[target_level][target_subject].index(original_period)
+                # Replace it with the desired display period
+                exams[target_level][target_subject][index] = display_period
+                print(f"INFO: Overrode display for {target_subject}/{target_level}/{original_period} to show {display_period}")
+                # Re-sort if necessary (optional, depends on desired final order)
+                exams[target_level][target_subject].sort() 
+            except ValueError:
+                # Should not happen if the 'in' check passed, but good to handle
+                print(f"WARN: Could not find index for {original_period} after check, override failed.")
+
+    except Exception as e:
+        print(f"ERROR applying display name override: {e}")
+    # <<< END: Specific Display Name Override >>>
+
     level_order = ['vmbo', 'havo', 'vwo']
     subject_order = ['Engels', 'Nederlands', 'Duits', 'Frans', 'Wiskunde', 'Natuurkunde', 'Scheikunde', 'Nask 1'] # Pas volgorde aan naar wens
     level_names = {'vmbo': 'VMBO', 'havo': 'HAVO', 'vwo': 'VWO'}

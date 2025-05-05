@@ -306,8 +306,7 @@
          </div>
     </div>
 
-    <!-- Load MathJax configuration (currently commented out) -->
-    <!-- 
+    <!-- Load MathJax configuration -->
     <script>
         window.MathJax = {
           tex: {
@@ -326,7 +325,19 @@
     <script type="text/javascript" id="MathJax-script" async
       src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
     </script>
-    -->
+
+    <!-- Force MathJax to reprocess when navigating back -->
+    <script>
+    window.addEventListener('pageshow', function(event) {
+        // Check if the page is loaded from cache (back navigation)
+        if (event.persisted || (window.performance && window.performance.navigation.type === 2)) {
+            // Force MathJax to reprocess all math on the page
+            if (window.MathJax && window.MathJax.typeset) {
+                window.MathJax.typeset();
+            }
+        }
+    });
+    </script>
 
     <!-- <<< ADDED: Pass JSON data via a script tag >>> -->
     <script type="application/json" id="vraagDataJson">
@@ -466,6 +477,21 @@
              // These names MUST match the keys expected by the backend's configure_genai function
              return toggle && toggle.checked ? 'gemini-2.5-flash-preview-04-17' : 'gemini-2.0-flash'; 
         }
+    });
+    </script>
+
+    <!-- Ensure MathJax typesets all math when DOM is fully loaded -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Add a slight delay to ensure everything is loaded
+        setTimeout(function() {
+            if (window.MathJax && window.MathJax.typeset) {
+                console.log("MathJax reprocessing all math on page");
+                window.MathJax.typeset();
+            } else {
+                console.warn("MathJax not available for typesetting");
+            }
+        }, 500);
     });
     </script>
 

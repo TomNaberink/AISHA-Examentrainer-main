@@ -1,0 +1,470 @@
+{
+    "vak": "nederlands",
+    "niveau": "vmbo",
+    "tijdvak": "1",
+    "jaar": 2024,
+    "teksten": [
+      {
+        "tekst_id": "tekst1",
+        "titel": "Klimaatverandering: het Britse dorp dat wordt opgeslokt door de zee",
+        "bron_verwijzing": ["vmbo_nederlands_1_tekst1.png"], // Was al correct
+        "bron_tekst_plain": "(1) Het Engelse kustplaatsje\nHappisburgh heeft een 14e-eeuwse\nkerk, een beroemde rood-wit\ngestreepte vuurtoren en zo'n\n5 zeshonderd woningen.\nMaar dat\naantal huizen wordt elk jaar minder.\nSteeds vaker neemt de zee een hap\nuit het klif waarop het dorp is\ngebouwd, waardoor de huizen en\n10 wegen over de rand in het water\nvallen.\n(2) \"We hebben al 35 huizen ver-\nloren\", zegt Malcolm Kerby, lid van\nde Coastal Concern Action Group.\n15 \"Weg...\" Hij kijkt vanaf het klif naar\nbeneden. \"Wordt dit nummertje 36?\",\nzegt hij wijzend naar een huis dat\nzo'n zes meter van de afgrond staat.\n(3) De woning is leeg, zoals de\n20 meeste huizen op Beach Road.\nDe\nhelft van de straat is al weggeslagen\ndoor de zee, waardoor de weg nu\nmidden in de lucht plotseling\nophoudt.\nWandelaars worden\n25 gewaarschuwd met een bord waarop\n'road closed' staat, zodat ze niet per\nongeluk in de afgrond lopen.\n(4) \"Daar was eerst een weiland met\npaarden\", zegt Kerby wijzend naar de\n30 zee.\n\"Tussen de golven zie je soms\nnog de houten palen van het hek\nuitsteken.\"\nVerderop langs de kust\nvan Norfolk ligt het dorp Hemsby.\nOok daar verkruimelt het klif, waar-\n35 door vakantiebungalows en woningen\nregelmatig de zee in kieperen.\n(5) Dit stuk van de Britse oostkust\nbrokkelt gemiddeld 1,7 meter per jaar\naf.\nHet is daarmee de snelst\n40 eroderende kust van Europa. Erosie\nis hier geen nieuw fenomeen: de kust\nbestaat uit zachte materialen, zoals\nzand, kalk en klei, en trekt zich al\nsinds de middeleeuwen terug.\nMaar\n45 door klimaatverandering, met de\nstijgende zeespiegel en zware\nstormen in een hogere frequentie als\ngevolg, is dit proces sterk aan het\nversnellen.\n50 (6) Hoewel sommige plekken aan de\nEngelse oostkust tegen de oprukken-\nde zee worden beschermd, heeft de\nBritse regering nu besloten niet meer\nte investeren in de zeewering voor de\n55 kust van Happisburgh.\nHet dorp is\ndunbevolkt, het boerenland en de\nwoningen zijn niet waardevol genoeg\nom te beschermen.\n(7) Wat je wel of niet kunt bescher-\n60 men tegen de zee, is een vraag die\nover de hele wereld steeds urgenter\nwordt: van laaggelegen gebieden in\nVietnam en Bangladesh tot aan de\nkwetsbare kust van de Amerikaanse\n65 staat Louisiana.\nTerwijl Nederland\nkosten noch moeite spaart om met\ndijken en zeeweringen het land te\nbeschermen, geldt die vanzelf-\nsprekendheid in andere landen niet.\n70 (8) \"In Nederland zou je dit probleem\nook hebben, maar in plaats daarvan\npompen jullie gigantische hoeveel-\nheden zand op en bouwen jullie\ndammen en muren waarmee je de\n75 zee op afstand houdt\", zegt hoog-\nleraar Robert Nicholls, een van de\nmeest vooraanstaande experts op\nhet gebied van kusterosie en klimaat-\nverandering.\n\"Dat kan bij een relatief\n80 korte kuststrook zoals in Nederland,\nmaar zulke technieken zijn simpel-\nweg niet overal ter wereld toepas-\nbaar. Hier in Groot-Brittannië is de\nkustlijn veel te lang.\"\n85 (9) Daarom wordt er een kosten-\nbatenanalyse gemaakt: is het gebied\nde moeite waard om te beschermen\nof moeten we de leefgebieden aan-\npassen?\n\"Grote steden, zoals Londen\n90 of Rotterdam, zullen we in de toe-\nkomst blijven beschermen. Maar de\nbescherming van dunbevolkte\nkusten, zoals bijvoorbeeld\nHappisburgh, kost meer dan het land\n95 eigenlijk waard is. Bovendien: erosie\nop de ene plek kan verplaatsing van\nzand door de zee naar een andere\nplek betekenen, zodat daar de kust\njuist weer wordt beschermd. Daarom\n100 moet je voortdurend de afweging\nmaken wat het waard is.'\n(10) Nicholls is hoogleraar Climate\nAdaptation¹) aan de University of\nEast Anglia. Hij probeert zee-\n105 stromingen, eigenschappen van de\nkust en erosiesnelheid op verschil-\nlende plekken in kaart te brengen,\nzodat overheden wereldwijd ingrij-\npende beslissingen kunnen nemen.\n110 Steeds vaker zullen we in de komen-\nde jaren antwoord moeten geven op\nde centrale vraag: gaan we het land\nbeschermen of laten we de erosie op\nzijn beloop?\n115 (11) \"Dat levert lastige vragen op\",\naldus Nicholls. \"We moeten accep-\nteren dat we het niet gaan winnen\nvan de natuur.\nEn de gevolgen van\nklimaatverandering moeten we gaan\n120 plannen.\" Hij denkt dat we op som-\nmige plekken geld moeten uitgeven\nom het land tegen de zee te bescher-\nmen, maar er op andere plaatsen\nmee moeten leren leven dat we ons\n125 moeten terugtrekken, terwijl de zee\nhet land opslokt.\n(12) Terug in Happisburgh wijst\nKerby op de 14e-eeuwse kerk en de\nbegraafplaats eromheen. \"Er zijn op\n130 dit moment geen plannen om ook\nmaar iets hiervan te redden\", vertelt\nhij. \"Mensen en huizen kun je\nverplaatsen, maar de geschiedenis\nniet.\"\n\nnaar een artikel van Fleur Launspach,\nNOS.nl, 28 februari 2022\n\nnoot 1 Climate Adaptation: Klimaataanpassing",
+        "inhoud_html": ""
+      },
+      {
+        "tekst_id": "tekst2",
+        "titel": "Maal meer",
+        "bron_verwijzing": ["vmbo_nederlands_1_tekst2.png"], // <-- Toegevoegd
+        "bron_tekst_plain": "(1) Het fijnkauwen van je maaltijd is\nde eerste stap in het verterings-\nproces. Maar hoe grondig moet dat?\nKrijg je meer vitamines binnen als je\n5 een hap helemaal tot moes maalt?\nOf heeft goed kauwen andere\nvoordelen?\n(2) Wil je het echt goed doen, dan\nzou je iedere hap meer dan honderd\n10 keer moeten kauwen.\nNet zo lang tot\nhet voedsel is veranderd in een\nvloeibaar papje en het bijna vanzelf\ndoor je keel glijdt.\nZo luidde het\nadvies van Horace Fletcher, een\n15 Amerikaanse gezondheidsgoeroe uit\nbegin twintigste eeuw. Zijn theorie?\nDoor voedsel zo grondig fijn te\nmalen, zou je tot wel twee keer meer\nvoedingsstoffen binnenkrijgen.\n20 Mensen hadden dan maar half zoveel\nvoedsel nodig en volgens zijn\nberekeningen zou dat de Verenigde\nStaten een half miljoen dollar per dag\nbesparen.\nFletcher verzamelde flink\n25 wat aanhangers (ofwel\n'Fletcherizers'), onder wie generaals,\npolitici en beroemdheden als de\nschrijver Franz Kafka.\nNu heeft zijn\nvoedingstheorie nooit een bewezen\n30 effect gehad op voedseltekorten of\nde Amerikaanse economie, maar het\ndoet je toch afvragen: is het echt\ngezonder om zo goed te kauwen?\n(3) \"Ik ben een voorstander van goed\n35 kauwen\", zegt Guido Camps,\nvoedingswetenschapper aan de\nWageningen Universiteit, \"maar ik\nbegrijp ook dat we wel meer te doen\nhebben.\"\nNiemand heeft tijd om meer\n40 dan honderd keer op iedere hap te\nkauwen.\nEn minstens 36 keer\nkauwen, zoals het advies nog vaak\nluidt, is ook niet per se nodig, denkt\nhij.\nMaar de voedingsstoffen in\n45 bepaalde voedingsmiddelen worden\nwel beter opgenomen als je de hap\neerst goed fijnmaalt. \"Vooral bij\nplantaardig voedsel\", zegt Camps.\nDe voedingsstoffen in groenten en\n50 zaden zitten vaak verpakt in een\nvliesje. Denk aan een maïskorrel of\neen sesamzaadje.\nDie vliezen maken\nhet moeilijk voor je maag en je\ndarmen om het voedsel te verteren.\n55 \"Het is je misschien wel eens\ngebeurd dat je bij een wc-bezoek\nachteromkijkt en nog een maïskorrel\nziet liggen\", zegt Camps.\n\"Pure\nverspilling, want dat betekent dat je\n60 lichaam de kans niet kreeg om de\nvitamines en de voedingsstoffen die\nerin zitten, op te nemen.\"\n(4) Het zijn niet alleen de vliezen om\nde korrels en de zaadjes die maken\n65 dat een plant moeilijk te verteren is.\n\"Eigenlijk is elke cel van de plant\nomgeven door een stug vlies: de\ncelwand die over het celmembraan\nligt. Door groente goed te kauwen,\n70 zorg je ervoor dat die celwand wordt\nverpulverd. Dat maakt dat de\nvoedingsstoffen uit de cel beter\nbeschikbaar komen\", zegt Camps.\nKoken is overigens ook een manier\n75 om de plantaardige cellen kapot te\nmaken, maar daarbij gaan voedings-\nstoffen als vitamine B, vitamine C en\nfoliumzuur weer sneller verloren.\n(5) Cellen van dieren hebben alleen\n80 een celmembraan en geen stugge\ncelwand.\nDaarom is het kauwen bij\ndierlijk voedsel, zoals vlees, kaas en\neieren, minder cruciaal. Dat wordt\nmakkelijker verteerd door de sappen\n85 in je maag of de bacteriën in je\ndarmen.\n(6) Dat kauwen vooral belangrijk is\nvoor planteneters, is te zien aan de\nverschillende gebitten in het dieren-\n90 rijk.\nVergelijk de tanden en kiezen\nvan een tijger maar eens met die van\neen koe.\nHet gebit van een tijger\nbestaat vooral uit scherpe, puntige\ntanden. Die komen goed van pas bij\n95 het losscheuren van lappen vlees.\nMaar de koe heeft slechts een paar\ntanden en veel meer platte, grote\nkiezen.\nAlleen met zo'n gebit is het\nmogelijk om dat stugge gras\n100 helemaal kapot te kauwen.\n(7) Of kauwen nog meer voordelen\nkent?\n\"Zeker\", zegt Camps. \"Als je\ngoed kauwt, eet je niet snel en daar-\ndoor vaak ook minder. Je hersenen\n105 gaan denken: hé, je bent al een tijdje\naan het kauwen. Dan zul je vast en\nzeker al veel hebben gegeten. Je\nhersenen krijgen de tijd om te\nregistreren dat je voedsel binnen-\n110 krijgt. Als gevolg daarvan wordt het\nhongerige gevoel geremd.\"\nVolgens\nCamps heb je ook minder goed door\nhoeveel calorieën je naar binnen\nwerkt als voedsel zo zacht is dat je\n115 amper hoeft te kauwen.\n\"Bij stevig\nvoedsel, waar je iets meer moeite\nvoor moet doen, blijkt dat je beter\nkunt inschatten hoeveel je hebt\ngehad. Plus: door goed te kauwen,\n120 ervaar je ook meer smaak. Dat is niet\nalleen veel lekkerder, maar geeft ook\nmeer voldoening. Als je per calorie\nwordt blootgesteld aan meer smaak,\nzorgt dat voor een groter gevoel van\n125 verzadiging.\"\n(8) \"Ook voor kleine kinderen is\nkauwen belangrijk\", zegt Camps.\nVolgens hem is het goed als je hen\nlaat wennen aan stevig voedsel en ze\n130 niet alleen geprakte papjes voor-\nschotelt.\n\"Vanaf het moment dat ze\nhun eerste tand krijgen, kun je\nkinderen al vast voedsel geven.\"\nIn\nstevig voedsel zitten vaak gezonde\n135 voedingsstoffen (denk maar aan\ngroenten), terwijl de meeste\nongezonde dingen juist makkelijk te\neten zijn (een hap chocoladetaart\nheb je zo tot moes gekauwd).\nEn als\n140 jonge kinderen niet wennen aan\nvoedsel dat je goed moet kauwen, is\nde kans waarschijnlijk kleiner dat ze\nlater netjes hun gezonde, stugge\ngroenten opeten.\n145 (9) Zo obsessief als de Fletcherizers\nhoef je er niet mee bezig te zijn.\nMaar het grondig fijnmalen van je\nmaaltijd kan best wat opleveren.\n\nnaar een artikel van Ellemiek de Wit,\nQuest, februari 2019",
+        "inhoud_html": ""
+      },
+      {
+        "tekst_id": "tekst3",
+        "titel": "Muziek als erfenis",
+        "bron_verwijzing": ["vmbo_nederlands_1_tekst3.png"], // Was al correct
+        "bron_tekst_plain": "Wat gaat u straks steunen?\n\n'Ik kreeg mijn eerste trompet van mijn opa, speelde de hele dag\nen legde hem pas weg als ik naar bed moest.\nHet heeft mij\nzoveel gegeven door de jaren heen, zoveel gebracht.\nDaarom\nvoelt het logisch dat ik iets teruggeef en straks muziek ga\nsteunen door na te laten aan het Cultuurfonds.'\n\nWordt uw erfenis het begin van iets moois? Het Prins Bernhard\nCultuurfonds begeleidt en adviseert bij het organiseren van cultuur\nals erfenis.\nGa naar www.cultuurfonds.nl/nalaten voor meer\ninformatie of om de brochure Cultuur als erfenis aan te vragen.\n\nPRINS BERNHARD\nCULTUURFONDS\n\nHet begin van iets moois\n\nnaar een advertentie van het Prins Bernhard Cultuurfonds,\nde Volkskrant, 4 februari 2022",
+        "inhoud_html": ""
+      },
+      {
+        "tekst_id": "tekst4",
+        "titel": "Uit gewoonte naar Instagram",
+        "bron_verwijzing": ["vmbo_nederlands_1_tekst4.png"], // <-- Toegevoegd
+        "bron_tekst_plain": "(1) De storing bij Facebook¹) weer-\nhield mensen er maandagavond niet\nvan om tegen beter weten in toch\nsteeds Instagram, WhatsApp en\n5 Facebook2) te openen.\nDuimen van\ngebruikers leken er als vanzelf naar-\ntoe te gaan, zelfs toen de apps niet\nwerkten.\n\"Maar een paar uur per dag\nzonder sociale media zou eigenlijk\n10 normaal moeten zijn\", zegt gedrags-\npsycholoog Bjarne Timonen.\n(2) De psycholoog vergelijkt het met\neen bak snoepjes die voor je neus op\ntafel staat.\n\"Bijna automatisch grijp je\n15 steeds naar die bak om een nieuw\nsnoepje te pakken, zonder daar heel\nerg over na te denken.\"\n(3) Maar in tegenstelling tot een\nsnoepkom raken sociale media nooit\n20 leeg. Bij elke verversing is er iets\nnieuws te zien.\nAls vrienden niets\nhebben geplaatst, dan zorgen\nalgoritmes van de apps er wel voor\ndat gebruikers iets krijgen voor-\n25 geschoteld wat aansluit bij hun\npersoonlijke interesses.\n(4) \"Dat werkt belonend\", zegt\nTimonen. \"Instagram is een soort\ngokapparaat, zoals een fruitmachine.\n30 Je weet niet wat er komt. lets leuks,\niets grappigs of iets schokkends.\nDaardoor blijft je brein geprikkeld en\nblijf je scrollen.\"\n(5) In Nederland maken volgens het\n35 Nationale Social Media Onderzoek\n2021 van Newcom zo'n 13,7 miljoen\nmensen gebruik van sociale media.\nWhatsApp is het populairst: 9,8\nmiljoen mensen loggen daar\n40 dagelijks in (tegenover 9,3 miljoen\naan het begin van 2020).\nOp\nFacebook komen elke dag 7,3\nmiljoen Nederlanders en op\nInstagram zo'n 3,7 miljoen.\n45 (6) Nederlanders spenderen\ngemiddeld 97 minuten per dag aan\nsociale media.\nVooral jongeren in de\nleeftijd van vijftien tot negentien jaar\nzijn meer sociale media gaan\n50 gebruiken.\nIn 2021 lieten ze weten\n160 minuten per dag op de apps te\nzitten, tegenover 143 minuten een\njaar eerder.\nIn hogere leeftijds-\ncategorieën is het aantal minuten dat\n55 op sociale media wordt doorgebracht\nstabieler.\n(7) \"Bij een massale storing zoals die\nvan deze week bij Facebook moeten\nwe gedwongen afkicken\", zegt de\n60 gedragspsycholoog.\n\"Het grootste\ndeel van de communicatie verloopt\nvia sociale media, dus dit voelde\nweer een beetje zoals de lockdown³).\nIneens waren we aangewezen op het\n65 sturen van sms'jes, wat vergeleken\nmet appen voelt alsof je rooksignalen\nstuurt.\"\n(8) Uiteindelijk duurde de storing zo'n\nzes uur. \"Dat viel wel mee\", zegt\n70 Timonen.\n\"Eigenlijk zou het normaal\nmoeten zijn, een paar uur zonder\nsociale media.\" De psycholoog zegt\ndat we massaal gedragsverslaafd zijn\naan sociale media.\nEn hoe meer een\n75 verslaving door de maatschappij\nwordt omarmd, des te lastiger het is\nom er een einde aan te maken.\n\"Mensen vinden het bijna gek als je\nin de trein níét op je telefoon kijkt.\"\n80 (9) De problemen zijn bekend, maar\ntoch blijkt het lastig om het gedrag te\ndoorbreken.\nOm minder afhankelijk te\nzijn van een telefoon, moeten\nmensen zelf beginnen met een\n85 'socialemediadetox'4). \"Spreek\nbijvoorbeeld met jezelf af om na het\navondeten niet meer op je telefoon te\nkijken\", zegt de psycholoog.\n\"Ga een\nstukje wandelen, lezen of voer eens\n90 een gesprek met je partner op de\nbank in plaats van met het hele gezin\nnaar de telefoon te staren.\"\n(10) Volgens Timonen kunnen\nsociale relaties echt lijden onder de\n95 smartphone.\n\"Gesprekken worden\noppervlakkiger en minder plezierig\nals de mobiel tussen mensen in ligt.\nLeg hem dan ook niet op tafel, maar\nstop hem in je tas; houd 'm uit het\n100 zicht.\"\nEn er zijn ook trucs om\nbepaalde apps minder te gebruiken.\n\"Je kunt op je telefoon tijdslimieten\ninstellen. Dat helpt ook al.\"\n\nnaar een tekst van Rutger Otto,\nNU.nl, 6 oktober 2021\n\nnoot 1 Door een storing op 4 oktober 2021 konden de apps van Facebook zes uur lang niet gebruikt worden.\nnoot 2 Instagram, WhatsApp en Facebook horen bij hetzelfde bedrijf (na 28 oktober 2021 'Meta') en hadden allemaal last van de storing.\nnoot 3 de lockdown: Om de overdracht van het besmettelijke coronavirus tegen te gaan werden maatregelen verplicht zoals sluiting van scholen en horeca, het verbod om meer dan twee bezoekers te ontvangen en een verplichte afstand van anderhalve meter tussen mensen die niet tot één huishouden behoren.\nnoot 4 socialemediadetox: een pauze nemen van sociale media / offline gaan",
+        "inhoud_html": ""
+      }
+    ],
+    "vragen": [
+      {
+        "vraag_id": 1,
+        "tekst_id": "tekst1",
+        "opgave_titel": "Tekst 1 Klimaatverandering: het Britse dorp dat wordt opgeslokt door de zee",
+        "max_score": 1,
+        "type": "nummering",
+        "vraagtekst": "Deze tekst wordt onder andere ingeleid door het introduceren van een (ervarings)deskundige.\n→ Op welke twee andere manieren wordt deze tekst ingeleid in de alinea's 1 tot en met 4?\nKruis de juiste antwoorden aan in de tabel in de uitwerkbijlage.\n\n(Opties uit uitwerkbijlage:)\n- de aanleiding voor het schrijven van de tekst noemen\n- een samenvatting van de tekst geven\n- een voorbeeld bij het onderwerp van de tekst noemen\n- een waarschuwing bij het onderwerp geven\n- het centrale probleem van de tekst benoemen",
+        "correct_antwoord": [
+          "de aanleiding voor het schrijven van de tekst noemen",
+          "een voorbeeld bij het onderwerp van de tekst noemen"
+        ]
+      },
+      {
+        "vraag_id": 2,
+        "tekst_id": "tekst1",
+        "opgave_titel": "Tekst 1 Klimaatverandering: het Britse dorp dat wordt opgeslokt door de zee",
+        "max_score": 2,
+        "type": "nummering",
+        "vraagtekst": "Volgens alinea 5 is de Britse oostkust de snelst eroderende kust van Europa.\n→ Wat zijn de twee hoofdoorzaken hiervan?\nNoteer deze twee in de uitwerkbijlage. Gebruik maximaal tien woorden per hoofdoorzaak.",
+        "correct_antwoord": [
+          "(De kust bestaat uit) zachte materialen / zand, kalk en klei",
+          "(De kust erodeert door) klimaatverandering"
+        ]
+      },
+      {
+        "vraag_id": 3,
+        "tekst_id": "tekst1",
+        "opgave_titel": "Tekst 1 Klimaatverandering: het Britse dorp dat wordt opgeslokt door de zee",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "Alinea 6 (regels 50-58) bestaat uit twee zinnen.\nWat is het verband tussen deze zinnen?",
+        "opties": {
+          "A": "Zin 2 geeft een verklaring voor het besluit uit zin 1.",
+          "B": "Zin 2 geeft een voorbeeld bij het probleem in zin 1.",
+          "C": "Zin 2 is een tegenstelling bij het probleem in zin 1.",
+          "D": "Zin 2 vormt samen met zin 1 een opsomming."
+        },
+        "correct_antwoord": "A"
+      },
+      {
+        "vraag_id": 4,
+        "tekst_id": "tekst1",
+        "opgave_titel": "Tekst 1 Klimaatverandering: het Britse dorp dat wordt opgeslokt door de zee",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "Welk deelonderwerp hebben de alinea's 1 tot en met 5?",
+        "opties": {
+          "A": "de afbrokkeling van de kust door klimaatverandering",
+          "B": "de risico's die kusterosie met zich meebrengt",
+          "C": "het terugtrekken van de kust van Engeland",
+          "D": "het verdwijnen van het dorp Happisburgh"
+        },
+        "correct_antwoord": "C"
+      },
+      {
+        "vraag_id": 5,
+        "tekst_id": "tekst1",
+        "opgave_titel": "Tekst 1 Klimaatverandering: het Britse dorp dat wordt opgeslokt door de zee",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "Welk deelonderwerp hebben de alinea's 6 tot en met 9?",
+        "opties": {
+          "A": "de kosten en baten van het beschermen van kusten",
+          "B": "de noodzaak van het beschermen van de dorpen",
+          "C": "de vraag of kusten beschermd moeten worden",
+          "D": "het beschermen van de Engelse kust"
+        },
+        "correct_antwoord": "A"
+      },
+      {
+        "vraag_id": 6,
+        "tekst_id": "tekst1",
+        "opgave_titel": "Tekst 1 Klimaatverandering: het Britse dorp dat wordt opgeslokt door de zee",
+        "max_score": 1,
+        "type": "open",
+        "vraagtekst": "Nicholls vergelijkt Nederland in de alinea's 8 en 9 met Engeland.\n→ Welk verschil ziet hij? Noteer dit verschil in de uitwerkbijlage.",
+        "correct_antwoord": "Een van de volgende:\nDe Engelse kustlijn is veel langer (dan die van Nederland). / De Nederlandse kustlijn is korter (dan die van Engeland).\nNederland past andere technieken (dan Engeland) toe om de zee op afstand te houden."
+      },
+      {
+        "vraag_id": 7,
+        "tekst_id": "tekst1",
+        "opgave_titel": "Tekst 1 Klimaatverandering: het Britse dorp dat wordt opgeslokt door de zee",
+        "max_score": 2,
+        "type": "nummering",
+        "vraagtekst": "Nicholls noemt in alinea 9 twee zaken die een rol spelen bij de kosten-batenanalyse.\n→ Welke twee zijn dat?\nSchrijf deze zaken op in de uitwerkbijlage.",
+        "correct_antwoord": [
+          "bevolkingsdichtheid / dicht- of dunbevolkt (zijn van gebied)",
+          "verplaatsing van zand (door de zee)"
+        ]
+      },
+      {
+        "vraag_id": 8,
+        "tekst_id": "tekst1",
+        "opgave_titel": "Tekst 1 Klimaatverandering: het Britse dorp dat wordt opgeslokt door de zee",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "Er zijn verschillende manieren van omgaan met de gevolgen van klimaatverandering voor de kustlijn.\nWelke manier is volgens Nicholls het best?",
+        "opties": {
+          "A": "accepteren dat de kustlijn erodeert en land aan de natuur teruggeven",
+          "B": "bepaalde locaties goed beschermen en andere locaties overgeven aan de zee",
+          "C": "dammen en muren bouwen om de zee op afstand te houden",
+          "D": "meer geld investeren in bescherming van de kustlijn bij grote steden"
+        },
+        "correct_antwoord": "B"
+      },
+      {
+        "vraag_id": 9,
+        "tekst_id": "tekst1",
+        "opgave_titel": "Tekst 1 Klimaatverandering: het Britse dorp dat wordt opgeslokt door de zee",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "Wat is de hoofdgedachte van deze tekst?",
+        "opties": {
+          "A": "De geschiedenis van Engeland gaat verloren, doordat erosie van de kust door een stijgende zeespiegel steeds meer dorpen in zee laat verdwijnen.",
+          "B": "De kustlijn van Engeland erodeert door klimaatverandering en daarom moeten er maatregelen worden getroffen om dorpen te behouden.",
+          "C": "Engelse dorpen verdwijnen steeds vaker in zee omdat de Britse regering geen maatregelen neemt, in tegenstelling tot de regering van Nederland.",
+          "D": "Erosie van de Engelse kustlijn is een eeuwenoud proces dat steeds sneller gaat en daarom moet er nagedacht worden over de vraag wat beschermd moet worden."
+        },
+        "correct_antwoord": "D"
+      },
+      {
+        "vraag_id": 10,
+        "tekst_id": "tekst1",
+        "opgave_titel": "Tekst 1 Klimaatverandering: het Britse dorp dat wordt opgeslokt door de zee",
+        "max_score": 1,
+        "type": "nummering",
+        "vraagtekst": "Lees nu het tekstfragment en beantwoord daarna vraag 10 en 11.\n\nTekstfragment\n\nKlimaatverandering bedreigt zandstranden als een sluipmoordenaar\n\n(1) Lange strandwandelingen bij zonsondergang of afkoelen tijdens een\nhittegolf: jaarlijks trekken miljoenen mensen naar het strand. Maar wereld-\nwijd kan de helft van de zandstranden binnen een eeuw verdwijnen.\n(2) Dit blijkt uit een onderzoek van het Joint Research Centre (JRC) van\nde Europese Commissie dat gisteren is gepubliceerd. \"Wij zijn\ngeschrokken van de impact op kusten wereldwijd\", zegt Arjen Luijendijk,\neen van de onderzoekers en werkzaam bij kennisinstituut Deltares.\n(3) Zandstranden zullen namelijk tientallen tot honderden meters\nlandinwaarts trekken of zelfs compleet verdwijnen als gevolg van de\nstijgende zeespiegel. Ruim 130.000 kilometer aan zandstrand dreigt te\nverdwijnen. Als er niet ingegrepen wordt, verdwijnen zandstranden in het\noosten van Noord-Amerika, het Amazonegebied, Zuid- en West-Azië, en\nhet zuidwesten van Europa. In de Verenigde Staten is zelfs al een\ncomplete kustplaats opgeslokt door de zee.\n(4) In totaal bestaat een derde van alle kustlijnen ter wereld uit\nzandstranden. Deze stranden zijn belangrijk als een natuurlijke buffer\nvoor stormen en hoog water. Daarnaast zijn ze belangrijk voor de\neconomie, de recreatie en het toerisme.\n(5) Hoeveel stranden daadwerkelijk zullen verdwijnen, hangt volgens het\nonderzoek grotendeels af van twee dingen. Allereerst van de inzet van\nlanden om kusterosie tegen te gaan, door bijvoorbeeld zand op te spuiten\nzoals we in Nederland doen. En het hangt af van de toekomstige uitstoot\nvan broeikasgassen.\n(6) \"Kusterosie is een sluipmoordenaar\", legt Luijendijk uit. \"Het is een\nlangzame trend waarbij op lange termijn pas grote gevolgen zichtbaar\nzijn.\"\n\nnaar een deel van een online artikel van RTL Nieuws,\n3 maart 2020\n\nWelke deelonderwerpen in de tabel in de uitwerkbijlage komen zowel in\ntekst 1 als in het tekstfragment aan de orde?\n→ Zet een kruisje op de juiste plaatsen in de tabel in de uitwerkbijlage.\n\n(Deelonderwerpen uit uitwerkbijlage:)\n- erosie van Engelse kliffen\n- gevolgen zeespiegelstijging\n- kustbescherming wereldwijd\n- toekomst van strandtoerisme",
+        "correct_antwoord": [
+          "gevolgen zeespiegelstijging",
+          "kustbescherming wereldwijd"
+        ]
+      },
+      {
+        "vraag_id": 11,
+        "tekst_id": "tekst1",
+        "opgave_titel": "Tekst 1 Klimaatverandering: het Britse dorp dat wordt opgeslokt door de zee",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "Hoe is het tekstfragment het best te typeren ten opzichte van tekst 1?",
+        "opties": {
+          "A": "als een aanvulling",
+          "B": "als een conclusie",
+          "C": "als een verklaring",
+          "D": "als een voorbeeld"
+        },
+        "correct_antwoord": "A"
+      },
+      {
+        "vraag_id": 12,
+        "tekst_id": "tekst2",
+        "opgave_titel": "Tekst 2 Maal meer",
+        "max_score": 1,
+        "type": "open",
+        "vraagtekst": "In alinea 1 staat \"Of heeft goed kauwen andere voordelen?\" (regels 6-7)\n→ In welke alinea wordt het duidelijkste antwoord gegeven op deze vraag? Noteer je antwoord in de uitwerkbijlage.",
+        "correct_antwoord": "(alinea) 7"
+      },
+      {
+        "vraag_id": 13,
+        "tekst_id": "tekst2",
+        "opgave_titel": "Tekst 2 Maal meer",
+        "max_score": 1,
+        "type": "nummering",
+        "vraagtekst": "In de alinea's 2 en 3 worden drie verschillende antwoorden gegeven op de vraag hoe grondig je je voedsel moet kauwen.\n→ Noteer in de uitwerkbijlage welke drie antwoorden dat zijn. Gebruik maximaal 15 woorden per antwoord.",
+        "correct_antwoord": [
+          "(Iedere hap) meer dan honderd keer kauwen.",
+          "(Iedere hap) kauwen tot het voedsel is veranderd in een vloeibaar papje.",
+          "(Iedere hap) (minstens) 36 keer kauwen.",
+          "(Iedere hap) kauwen tot de hap is fijngemalen."
+        ]
+      },
+      {
+        "vraag_id": 14,
+        "tekst_id": "tekst2",
+        "opgave_titel": "Tekst 2 Maal meer",
+        "max_score": 2,
+        "type": "tabel_invullen",
+        "vraagtekst": "Hoe makkelijk voedingsstoffen opgenomen worden, blijkt onder meer af te hangen van het soort voedingsmiddel.\n→ Noteer in de uitwerkbijlage achter ieder soort voedingsmiddel hoe goed je het moet kauwen om de voedingsstoffen goed op te kunnen nemen.\nGeef ook aan waarom je dat moet doen. Kies uit de antwoorden in de uitwerkbijlage en vul alleen de nummers in.\nLet op! Er blijven twee antwoorden over.\n\n(Structuur uit uitwerkbijlage:)\nPlantaardig voedsel .........., omdat ..........\nDierlijk voedsel .........., omdat ..........\n\n(Kies uit:)\n1 hoef je minder goed te kauwen\n2 hoef je niet te kauwen\n3 moet je goed kauwen\n4 de cellen sappen en bacteriën bevatten\n5 de cellen alleen een celmembraan hebben\n6 de cellen een stugge celwand hebben die verpulverd moet worden",
+        "tabel_structuur": [
+          {"label": "Plantaardig voedsel", "blanks": ["_", "omdat", "_"]},
+          {"label": "Dierlijk voedsel", "blanks": ["_", "omdat", "_"]}
+        ],
+        "correct_antwoord": {
+          "Plantaardig voedsel": [3, 6],
+          "Dierlijk voedsel": [1, 5]
+        }
+      },
+      {
+        "vraag_id": 15,
+        "tekst_id": "tekst2",
+        "opgave_titel": "Tekst 2 Maal meer",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "Wat is de functie van alinea 5?\nAlinea 5",
+        "opties": {
+          "A": "geeft achtergrondinformatie bij het gestelde in alinea 4.",
+          "B": "noemt een gevolg van het gestelde in alinea 4.",
+          "C": "noemt een verschil met de informatie in alinea 4.",
+          "D": "plaatst een kanttekening bij de informatie in alinea 4."
+        },
+        "correct_antwoord": "C"
+      },
+      {
+        "vraag_id": 16,
+        "tekst_id": "tekst2",
+        "opgave_titel": "Tekst 2 Maal meer",
+        "max_score": 2,
+        "type": "nummering",
+        "vraagtekst": "Goed kauwen zorgt er volgens Guido Camps voor dat je minder snel en daardoor minder gaat eten. (alinea 7)\n→ Geef in de uitwerkbijlage de drie verschillende redenen die hij hiervoor geeft.",
+        "correct_antwoord": [
+          "Je hersenen denken dat je al veel hebt gegeten.",
+          "Je hersenen krijgen de tijd om te registreren dat je voedsel binnenkrijgt (waardoor het hongerige gevoel geremd wordt).",
+          "Je kunt beter inschatten hoeveel je hebt gehad (wanneer je meer moeite voor kauwen moet doen).",
+          "Je ervaart meer smaak (waardoor je eerder verzadigd bent / meer voldoening hebt)."
+        ]
+      },
+      {
+        "vraag_id": 17,
+        "tekst_id": "tekst2",
+        "opgave_titel": "Tekst 2 Maal meer",
+        "max_score": 1,
+        "type": "citeer",
+        "vraagtekst": "Camps vindt het belangrijk dat kinderen al op jonge leeftijd goed leren kauwen. (alinea 8)\n→ Citeer de zin waarin wordt uitgelegd waarom dit zo belangrijk is op de lange termijn.",
+        "correct_antwoord": "\"En als jonge kinderen niet wennen aan voedsel dat je goed moet kauwen, is de kans waarschijnlijk kleiner dat ze later netjes hun gezonde, stugge groenten opeten.\""
+      },
+      {
+        "vraag_id": 18,
+        "tekst_id": "tekst2",
+        "opgave_titel": "Tekst 2 Maal meer",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "Wat is de belangrijkste functie van alinea 9?",
+        "opties": {
+          "A": "een advies geven",
+          "B": "een conclusie trekken",
+          "C": "een samenvatting geven",
+          "D": "een toekomstverwachting geven"
+        },
+        "correct_antwoord": "B"
+      },
+      {
+        "vraag_id": 19,
+        "tekst_id": "tekst2",
+        "opgave_titel": "Tekst 2 Maal meer",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "Welke zin geeft het best de hoofdgedachte van deze tekst weer?",
+        "opties": {
+          "A": "Alleen bij bepaalde voedingsmiddelen is het belangrijk dat je goed kauwt, bij andere voedingsmiddelen niet.",
+          "B": "Goed kauwen heeft meerdere voordelen en daarvoor hoef je geen honderd keer te kauwen op een hap.",
+          "C": "Het is belangrijk dat je als kind al leert om goed te kauwen, anders zul je later minder gezond eten.",
+          "D": "Onderzoek naar kauwen bewijst dat de voordelen van goed kauwen het grootst zijn als je minstens honderd keer op een hap kauwt."
+        },
+        "correct_antwoord": "B"
+      },
+      {
+        "vraag_id": 20,
+        "tekst_id": "tekst3",
+        "opgave_titel": "Tekst 3 Muziek als erfenis",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "De afbeelding in deze advertentie trekt de aandacht.\nWelke andere functie heeft de afbeelding in deze advertentie vooral?\nDe afbeelding",
+        "opties": {
+          "A": "is nodig om de tekst te kunnen begrijpen.",
+          "B": "laat zien voor wie de tekst is bedoeld.",
+          "C": "ondersteunt de inhoud van de tekst.",
+          "D": "voegt nieuwe inhoudselementen aan de tekst toe."
+        },
+        "correct_antwoord": "C"
+      },
+      {
+        "vraag_id": 21,
+        "tekst_id": "tekst3",
+        "opgave_titel": "Tekst 3 Muziek als erfenis",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "In de tekst staat: \"Het heeft mij zoveel gegeven door de jaren heen, zoveel gebracht. Daarom voelt het logisch dat ik iets teruggeef en straks muziek ga steunen door na te laten aan het Cultuurfonds.\"\nWat is het verband tussen deze twee zinnen?",
+        "opties": {
+          "A": "doelmiddel",
+          "B": "reden uitspraak",
+          "C": "tegenstelling",
+          "D": "uitspraak - toelichting"
+        },
+        "correct_antwoord": "B"
+      },
+      {
+        "vraag_id": 22,
+        "tekst_id": "tekst3",
+        "opgave_titel": "Tekst 3 Muziek als erfenis",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "Wat is het belangrijkste doel van deze advertentie?",
+        "opties": {
+          "A": "lezers aansporen om net zoals de man uit de advertentie muziek te maken voor het Cultuurfonds",
+          "B": "lezers aansporen om op de website van het Cultuurfonds te kijken of hun brochure aan te vragen",
+          "C": "lezers informeren over de mogelijkheid geld aan het Cultuurfonds na te laten uit hun erfenis",
+          "D": "lezers informeren over het bestaan van de website en brochure van het Cultuurfonds"
+        },
+        "correct_antwoord": "B"
+      },
+      {
+        "vraag_id": 23,
+        "tekst_id": "tekst3",
+        "opgave_titel": "Tekst 3 Muziek als erfenis",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "In de advertentie staat de tekst \"Wat gaat u straks steunen?\"\nTot wie richt de advertentie zich hier vooral?\nvooral tot lezers die",
+        "opties": {
+          "A": "geld willen geven aan de muziekprojecten van het Cultuurfonds",
+          "B": "in hun testament hebben vastgelegd geld na te laten aan het Cultuurfonds",
+          "C": "interesse hebben in de culturele projecten van het Cultuurfonds",
+          "D": "met hun erfenis cultuur in Nederland willen steunen via het Cultuurfonds"
+        },
+        "correct_antwoord": "D"
+      },
+      {
+        "vraag_id": 24,
+        "tekst_id": "tekst4",
+        "opgave_titel": "Tekst 4 Uit gewoonte naar Instagram",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "Een tekst kan op verschillende manieren ingeleid worden.\nbijvoorbeeld door\n1 de aanleiding voor het schrijven van de tekst te melden\n2 een anekdote te vertellen\n3 een conclusie te trekken\n4 een deskundige te introduceren\nOp welke twee manieren wordt deze tekst ingeleid in alinea 1?",
+        "opties": {
+          "A": "1 en 2",
+          "B": "1 en 4",
+          "C": "2 en 3",
+          "D": "3 en 4"
+        },
+        "correct_antwoord": "B"
+      },
+      {
+        "vraag_id": 25,
+        "tekst_id": "tekst4",
+        "opgave_titel": "Tekst 4 Uit gewoonte naar Instagram",
+        "max_score": 2,
+        "type": "open",
+        "vraagtekst": "In de alinea's 2 en 3 vergelijkt gedragspsycholoog Bjarne Timonen een bak snoepjes met sociale media.\n→ Leg uit welke overeenkomst en welk verschil er volgens hem is tussen een bak snoepjes en sociale media.\nNoteer je antwoord in de uitwerkbijlage.",
+        "correct_antwoord": {
+          "overeenkomst": "Je eet en klikt automatisch/zonder nadenken. / Je doet beide automatisch/zonder nadenken.",
+          "verschil": "Een bak snoepjes raakt leeg (en sociale media raken niet leeg). / Sociale media raken nooit leeg (en een bak snoepjes raakt wel leeg)." // Corrected version from supplement used
+        }
+      },
+      {
+        "vraag_id": 26,
+        "tekst_id": "tekst4",
+        "opgave_titel": "Tekst 4 Uit gewoonte naar Instagram",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "\"Daardoor blijft je brein geprikkeld en blijf je scrollen.\" (regels 32-33)\nWat zorgt er vooral voor dat je brein geprikkeld blijft?",
+        "opties": {
+          "A": "De schokkende beelden op sociale media zorgen dat je blijft kijken.",
+          "B": "De variatie van de inhoud op sociale media is als een fruitmachine.",
+          "C": "Door het algoritme krijg je steeds iets verrassends te zien wat jou interesseert.",
+          "D": "Je vrienden plaatsen steeds weer iets nieuws wat jou interesseert."
+        },
+        "correct_antwoord": "C"
+      },
+      {
+        "vraag_id": 27,
+        "tekst_id": "tekst4",
+        "opgave_titel": "Tekst 4 Uit gewoonte naar Instagram",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "In de alinea's 5 en 6 staan de resultaten van het Nationale Social Media Onderzoek 2021 van Newcom.\nWat blijkt uit dit onderzoek?\nHieruit blijkt in vergelijking met een jaar eerder dat",
+        "opties": {
+          "A": "jongeren en ouderen steeds meer gebruik gaan maken van sociale media.",
+          "B": "jongeren in tegenstelling tot ouderen veel minder gebruikmaken van sociale media.",
+          "C": "jongeren steeds meer gebruikmaken van sociale media, terwijl het gebruik van sociale media door ouderen niet veel verandert.",
+          "D": "jongeren steeds meer gebruikmaken van sociale media, terwijl ouderen steeds minder sociale media gebruiken."
+        },
+        "correct_antwoord": "C"
+      },
+      {
+        "vraag_id": 28,
+        "tekst_id": "tekst4",
+        "opgave_titel": "Tekst 4 Uit gewoonte naar Instagram",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "\"En hoe meer een verslaving door de maatschappij wordt omarmd, des te lastiger het is om er een einde aan te maken.\" (regels 74-77)\nWelk verband is er tussen het eerste deel (voor de komma) en het tweede deel (na de komma) van deze zin?",
+        "opties": {
+          "A": "doelmiddel",
+          "B": "oorzaak - gevolg",
+          "C": "opsomming",
+          "D": "uitspraak - toelichting"
+        },
+        "correct_antwoord": "B"
+      },
+      {
+        "vraag_id": 29,
+        "tekst_id": "tekst4",
+        "opgave_titel": "Tekst 4 Uit gewoonte naar Instagram",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "De alinea's 9 en 10 hebben een gezamenlijk deelonderwerp.\nWelk deelonderwerp is dat?",
+        "opties": {
+          "A": "beter communiceren",
+          "B": "nadeel van telefoongebruik in relaties",
+          "C": "stoppen met sociale media",
+          "D": "tips voor vermindering telefoongebruik"
+        },
+        "correct_antwoord": "D"
+      },
+      {
+        "vraag_id": 30,
+        "tekst_id": "tekst4",
+        "opgave_titel": "Tekst 4 Uit gewoonte naar Instagram",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "Wat is het hoofdonderwerp van deze tekst?",
+        "opties": {
+          "A": "storing bij Facebook",
+          "B": "storing op sociale media",
+          "C": "verslaafd aan Instagram",
+          "D": "verslaafd aan sociale media"
+        },
+        "correct_antwoord": "D"
+      },
+      {
+        "vraag_id": 31,
+        "tekst_id": "tekst4",
+        "opgave_titel": "Tekst 4 Uit gewoonte naar Instagram",
+        "max_score": 1,
+        "type": "mc",
+        "vraagtekst": "Een van de tekstdoelen van deze tekst is de lezer een verklaring geven voor de verslaving aan sociale media.\nWelk ander tekstdoel heeft deze tekst?\nde lezer",
+        "opties": {
+          "A": "informeren over de gevolgen van de storing bij Facebook",
+          "B": "informeren over manieren om het socialemediagebruik te beperken",
+          "C": "overtuigen om een socialemediadetox te doen",
+          "D": "overtuigen van de nadelen van het gebruik van algoritmes door apps"
+        },
+        "correct_antwoord": "B"
+      }
+    ]
+  }
+  

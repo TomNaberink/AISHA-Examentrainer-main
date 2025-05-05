@@ -102,6 +102,9 @@
                                                             {% set formatted_period = 'Tijdvak ' + time_period[2:] %}
                                                         {% endif %}
                                                         {% set display_text = '2024 - ' + formatted_period %}
+                                                        {% if subject.lower() == 'wiskunde' and time_period.upper() == 'TV2' %}
+                                                            {% set display_text = '2023 - Tijdvak 1' %}
+                                                        {% endif %}
                                                         {% if subject.lower() in non_language_subjects %}
                                                             <a href="{{ url_for('non_language_exam.toon_vraag', subject=subject, level=level, time_period=time_period, question_id=1) }}" class="btn btn-exam-new">
                                                         {% else %}
@@ -131,6 +134,9 @@
                                                             {% set formatted_period = 'Tijdvak ' + time_period[2:] %}
                                                         {% endif %}
                                                         {% set display_text = '2024 - ' + formatted_period %}
+                                                        {% if subject.lower() == 'wiskunde' and time_period.upper() == 'TV2' %}
+                                                            {% set display_text = '2023 - Tijdvak 1' %}
+                                                        {% endif %}
                                                         {% if subject.lower() in non_language_subjects %}
                                                             <a href="{{ url_for('non_language_exam.toon_vraag', subject=subject, level=level, time_period=time_period, question_id=1) }}" class="btn btn-exam-new">
                                                         {% else %}

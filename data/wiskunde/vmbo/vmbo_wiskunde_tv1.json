@@ -113,7 +113,7 @@
             "bronverwijzing_tekst": "Op de uitwerkbijlage is een aantal snaren getekend.",
             "bron_verwijzing": "vmbo_wiskunde_tv1_vraag9_bijlage_assenstelsel.png",
             "vraagtekst_html": "<p>Teken op de uitwerkbijlage de drie ontbrekende zwarte snaren op de juiste plaats.</p>",
-            "correct_antwoord_model": "<p>Evenwijdige snaren getekend bij de juiste stippen ($a=1,7, a=2,4$ en $a=3,1$).</p><p><img src='vmbo_wiskunde_tv1_vraag9_bijlage_assenstelsel_correct.png' style='max-width: 100%; height: auto;' alt='Correct ingetekende snaren'></p><p><strong>Opmerking</strong><br>Voor elke vergeten of verkeerd getekende snaar 1 scorepunt in mindering brengen tot een maximum van 2 scorepunten.</p><ul><li>Drie correcte snaren getekend <strong>2p</strong></li><li>Twee correcte snaren getekend <strong>1p</strong></li><li>Minder dan twee correcte snaren getekend <strong>0p</strong></li></ul>"
+            "correct_antwoord_model": "<p>Evenwijdige snaren getekend bij de juiste stippen ($a=1,7, a=2,4$ en $a=3,1$).</p><p><img src='/static/images/vmbo_wiskunde_tv1_vraag9_bijlage_assenstelsel_correct.png' style='max-width: 100%; height: auto;' alt='Correct ingetekende snaren'></p><p><strong>Opmerking</strong><br>Voor elke vergeten of verkeerd getekende snaar 1 scorepunt in mindering brengen tot een maximum van 2 scorepunten.</p><ul><li>Drie correcte snaren getekend <strong>2p</strong></li><li>Twee correcte snaren getekend <strong>1p</strong></li><li>Minder dan twee correcte snaren getekend <strong>0p</strong></li></ul>"
           },
           {
             "id": 10,

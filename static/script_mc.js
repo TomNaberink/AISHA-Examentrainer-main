@@ -236,6 +236,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 feedbackBox.style.display = 'block';
             }
             
+            // <<< REPROCESS MATHJAX for feedback content >>>
+            if (window.MathJax && window.MathJax.typesetPromise) {
+                 console.log("Typesetting MathJax for feedbackBox...");
+                 window.MathJax.typesetPromise([feedbackBox]).catch(function (err) {
+                     console.error('MathJax typesetting error for feedback:', err);
+                 });
+            }
+
             if (data.status && data.status !== 'pending' && data.status !== 'error') {
                 updateQuestionStatus(vraag_id, data.status);
                 feedbackBox.classList.add(data.status);
@@ -408,6 +416,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 } else {
                      metaphorContent.innerHTML = '<p>Geen metafoor beschikbaar.</p>';
                      metaphorErrorIndicator.style.display = 'none';
+                }
+                
+                // <<< REPROCESS MATHJAX for metaphor content (attempt 2) >>>
+                if (window.MathJax && window.MathJax.typesetPromise) {
+                     console.log("Typesetting MathJax for metaphorBox...");
+                     window.MathJax.typesetPromise([metaphorBox]).catch(function (err) {
+                         console.error('MathJax typesetting error for metaphor:', err);
+                     });
                 }
             })
             .catch(error => {
@@ -929,6 +945,14 @@ function setupSortableList(containerId, onUpdateCallback) {
         } else {
                 if (theoryContent) theoryContent.innerHTML = '<p>Geen theorie beschikbaar.</p>';
                 if (theoryErrorIndicator) theoryErrorIndicator.style.display = 'none';
+                }
+                
+                // <<< REPROCESS MATHJAX for theory content >>>
+                if (window.MathJax && window.MathJax.typesetPromise) {
+                     console.log("Typesetting MathJax for theoryBox...");
+                     window.MathJax.typesetPromise([theoryBox]).catch(function (err) {
+                         console.error('MathJax typesetting error for theory:', err);
+                     });
                 }
             })
             .catch(error => {
